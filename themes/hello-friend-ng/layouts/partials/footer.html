@@ -1,0 +1,19 @@
+<footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <div class="footer__content-left">
+            {{- with .Site.Params.social }}
+                <div class="social-media-icons">
+                    {{ partial "social-icons.html" . }}
+                </div>
+            {{- end }}
+            <div>
+                © 2014-{{ now.Year }} The Dogecoin Project
+            </div>
+            </div>
+            <div>
+                Website Design - CE | <span>Coding - Florian & xanimo</span>
+            </div>
+        </div>
+    </div>
+</footer>

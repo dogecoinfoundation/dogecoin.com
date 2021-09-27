@@ -1,0 +1,15 @@
+<div class="locale">
+    <div class="current-locale">
+        <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+        <a class="lang1">{{(.Lang)}}</a>
+        <a class="icon">▼</a>
+    </div>
+    <div class="locale-list">
+        {{ range .Translations}}
+        <div class="lang">
+            <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+            <a href="/{{(.Lang)}}">{{(.Lang)}}</a>
+        </div>
+        {{ end }}
+    </div>
+</div>

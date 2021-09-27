@@ -1,0 +1,50 @@
+.tooltip {
+  position: relative;
+  .caret {
+    font-size: .8em;
+  }
+  .tooltip-content {
+    position: absolute;
+    display: none;
+    .tooltip-body {
+      margin-top: 10px;
+      text-align: left;
+      background-color: lighten($dark-background, 6);
+      padding: 15px 0px;
+      font-size: .9em;
+      > div {
+        padding: 0px 15px;
+      }
+      a {
+        display: block;
+        width:  100%;
+        padding: 5px 15px;
+        &:hover {
+          background-color: $dark-background;
+          text-decoration: none;
+        }
+      }
+      // tooltip arrow
+      &::after {
+        position: absolute;
+        top: 5px;
+        left: 9px;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid lighten($dark-background, 6);
+        content: " ";
+        font-size: 0;
+        line-height: 0;
+        margin-left: 10px;
+        width: 0;
+      }
+    }
+  }
+
+  &:hover {
+    .tooltip-content {
+      display: block;
+      opacity: 1;
+    }
+  }
+}
