@@ -1,0 +1,56 @@
+.logo {
+  color: #ffffff;
+  display: flex;
+  text-decoration: none;
+  font-weight: bold;
+  font-display: auto;
+
+  img {
+    height: 44px;
+    transition: height .2s ease-in;
+  }
+
+  .logo-labels {
+    margin-left: 10px;
+    padding-top: 5px;
+    line-height: 1.4em;
+    .main-label {
+      font-size: 30px;
+    }
+    .sub-label {
+      font-weight: 300;
+      letter-spacing: 4px;
+    }
+  }
+
+  &__mark {
+    margin-right: 5px;
+  }
+
+  &__text {
+    font-size: 1.125rem;
+  }
+
+  &__cursor {
+    display: inline-block;
+    width: 10px;
+    height: 1rem;
+    background: #fe5186;
+    margin-left: 5px;
+    border-radius: 1px;
+    animation: cursor 1s infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    &__cursor {
+        animation: none;
+    }
+  }
+
+}
+
+@keyframes cursor {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}

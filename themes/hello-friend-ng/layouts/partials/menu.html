@@ -1,0 +1,20 @@
+<nav class="menu">
+    <ul class="menu__inner">
+        {{ range .Site.Menus.main -}}
+            {{ if .Children }}
+                <li class="tooltip">
+                    <span><a href="{{ .URL | relLangURL }}">{{ .Name }}</a><span class="caret">&#9660;</span></span>
+                    <div class="tooltip-content">
+                      <div class="tooltip-body">
+                      {{ range .Children -}}
+                        <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                      {{- end }}
+                      </div>
+                    </div>
+                </li>
+            {{ else }}
+                <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+            {{ end }}
+        {{- end }}
+    </ul>
+</nav>

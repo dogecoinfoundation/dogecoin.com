@@ -1,0 +1,77 @@
+.locale {
+    padding-left: 20px; 
+    display: inline-block;
+    text-transform: uppercase;
+    min-width: 113px;
+    text-align: left;
+
+    .icon {
+        display: inline-block;  
+        font-size: 12.8px;
+    }
+
+    &:hover {
+        cursor: pointer;
+
+        .locale-list{
+            background-color: $dark-background-secondary;
+
+            &:before {
+                border-color: transparent $dark-background-secondary transparent transparent;
+            }
+        }
+
+        .lang:hover {
+            background-color: $dark-background;
+        }
+
+        .locale-list{
+            margin-top: 5px;
+            display: block;
+            position: absolute;
+            width: 110px;
+            padding: 10px 0px 10px 0px;
+
+            &::before {
+                content:"";
+                position: absolute;
+                height: 0px;
+                width: 0px;
+                top: -15px;
+                left: 20px; 
+                border-width: 10px;
+                border-style: solid;
+                transform: rotate(90deg);
+            }
+        }
+
+        .locale-list .lang {
+            display: block;
+            text-align: left;
+            padding: 1px 0 1px 10px;
+        }
+        
+        .locale-list a {
+            display: inline-block;
+            padding: 3px;
+            align-items: flex-start;
+            justify-content: left;
+            text-decoration: none;
+        }
+    }
+}
+
+.locale-list {
+    display: none;
+}
+
+  @media screen and (max-width: 776px) {
+      .lang1 {
+          display: none;
+      }
+
+      .locale {
+        padding-right: 15px;
+        min-width: 0;
+      }
+  }
