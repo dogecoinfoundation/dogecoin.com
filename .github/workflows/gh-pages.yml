@@ -24,7 +24,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: ./build.sh
+        run: bash ./build.sh
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
