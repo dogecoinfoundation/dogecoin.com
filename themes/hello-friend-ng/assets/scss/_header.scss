@@ -7,7 +7,7 @@
   left: 0;
   right: 0;
   padding: 10px 15px;
-  background: $dark-background-header;
+  background: transparent;
   color: $dark-color;
   font-family: "Montserrat" sans-serif;
   z-index: 100;
@@ -48,6 +48,12 @@
       }
     }
   }
+}
+
+header.scrolled {
+  background: #0a0a0a;
+  opacity: .9;
+  transition: background-color 200ms linear;
 }
 
 .theme-toggle {

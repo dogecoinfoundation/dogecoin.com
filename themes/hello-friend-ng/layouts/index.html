@@ -1,30 +1,339 @@
 {{ define "body" }}
-    <body class="home{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
-{{ end }}
 
-{{ define "main" }}
-    <main class="main">
-        <div class="left">
-            <div class="title">
-                <h1>Dogecoin</h1>
+<body class="home">
+    {{ end }}
+
+    {{ define "main" }}
+    <!-- The video -->
+    <div>
+        <video id="video-header" autoplay loop muted>
+            <source src="/assets/images/Header_Video.mp4" type="video/mp4">
+        </video>
+
+        <div id="home" class="viewport-header">
+            <div class="container">
+                <h1>DOGECOIN</h1>
+                {{- with .Site.Params.homeSubtitle }}
+                <h2 class="subtitle">{{.}}</h2>
+                {{- end }}
             </div>
-            <div class="underline"></div>
-            {{- with .Site.Params.homeSubtitle }}
-                <p class="subtitle">{{.}}</p>
-            {{- end }}
         </div>
-        <div>
-            <div class="doge-container desktop">
-               <img class="kabosu" src="/doge-no-eyes.png" alt="{{ .Site.Params.Portrait.Alt }}">
-                <div class="thought">???</div>
-                <div id="nose"></div>
-                <img id="left-eye" src="/left_eye.png" alt="Left eye" />
-                <img id="right-eye" src="/right_eye.png" alt="Right eye" />
-                <div class="eyes-background rainbow"></div>
+    </div>
+    <main>
+        <div id="what-is-dogecoin" class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="float-start fs-1 text-wrap text-start">An open source peer-to-peer digital currency, favored by
+                        </p>
+                        <p class="fs-2 fw-bold text-warning text-start">Shiba Inus worldwide</p>
+                        <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="col-sm-6 parent">
+                        <img class="under" src="assets/images/3.png" />
+                        <img class="over" src="assets/images/2.png" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 parent">
+                        <div class="container">
+                        <img class="under float-start" src="assets/images/4.png" />
+                        <h3 class="fs-2 fw-bold over text-start">choose your wallet</h3></div>
+                        <p class="fs-6 text-start">A Wallet is used for holding your Dogecoins directly on
+                            your Computer/Smartphone. Pick a wallet <a href="">here</a></p>
+                    </div>
+                    <div class="col-sm-4 parent">
+                        <div class="container">
+                        <img class="under float-start" src="assets/images/5.png" />
+                        <h3 class="fs-2 fw-bold over text-start">configure your wallet</h3></div>
+                        <p class="fs-6 text-wrap text-start">After downloading, you can configure your walet according
+                            to our <a href="">guide</a></p>
+                    </div>
+                    <div class="col-sm-4 parent">
+                        <div class="container">
+                        <img class="under float-start" src="assets/images/6.png" /></div>
+                        <h3 class="fs-2 fw-bold over text-start">get some dogecoin</h3>
+                        <p class="fs-6 text-wrap text-start">You can buy them, trade for them, get tipped, "mine" them,
+                            and more they are suprisingly endless!</p>
+                    </div>
+                </div>
+
             </div>
-            <div class="doge-container mobile">
-                <img class="kabosu" src="/doge.png" alt="{{ .Site.Params.Portrait.Alt }}">
+        </div>
+        <br />
+        <div id="wallets" class="wallet wallets-bg wallets-bg-r">
+            <div class="position-absolute top-50 start-50 translate-middle">
+            <div class="row">
+                <div class="col-lg-4 p-3">
+                  <div class="card bg-transparent border-0">
+                    <div class="card-body">
+                      <h2 class="card-title text-start">Wallets</h2>
+                      <p class="card-text text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 p-3">
+                  <div class="card rounded-5">
+                    <div class="card-body">
+                        <img class="p-2" src="assets/images/10.png" height="auto" width="98px" alt="...">
+                      <h5 class="card-title">MultiDoge</h5>
+                      <p class="card-text text-start">MultiDoge is a "light" wallet. It syncs with the
+                        blockchain by "skimming" through the blockchain, providing fast sync times.</p>                                <div class="row">
+                            <div class="col">
+                                <img src="assets/images/12.png" />
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/13.png" />
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/14.png" />
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 p-3">
+                  <div class="card">
+                    <div class="card-body">
+                        <img class="p-2" src="assets/images/11.png" height="auto" width="98px" alt="...">
+
+                      <h5 class="card-title">Dogecoin Core</h5>
+                      <p class="card-text text-start">Dogecoin Core, on the other hand, is a "full" wallet. It
+                        syncs by downloading it, providing a solid-working Dogecoin wallet.</p>                                <div class="row">
+                            <div class="col">
+                                <img src="assets/images/12.png" />
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/13.png" />
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/14.png" />
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6 align-middle">
+                    <p class="text-start fs-1">Android Wallet</p>
+                    <p class="text-start fs-4">Lorem ipsum dolor st amet, consetetur adipiscing elit, sed dodi eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim</p>
+                    <img src="assets/images/15.png" />
+                </div>
+                <div class="col-6">
+                    <img src="assets/images/16.png" />
+                </div>
+            </div>
+        </div>
+
+        <div id="community" class="community">
+            <div class="container">
+                <div class="row pb-5">
+                    <img src="assets/images/17.png" />
+                </div>
+                <div class="row pb-5">
+                    <h1 class="text-start" style="font-size: 5em">Do Only</h1>
+                    <h1 class="text-start" style="font-size: 5em">Good Everyday.</h1>
+                </div>
+                <div class="row pb-5">
+                    <div class="col-6">
+                        <img class="img-fluid" src="assets/images/video-placeholder.png" />
+                    </div>
+                    <div class="col-6 pt-0">
+                        <p class="text-start">We believe that together, these key pillars that embody 'Do Only Good Everyday' will guide us forward as we make decisions and advance the Dogecoin ecosystem. The Dogecoin means: as a technical project and as a movement for good in the world. Be part of our awesome community:</p>
+                    </div>
+                </div>
+                <div class="row mt-2" style="height: 50px;">
+                    <div class="col-3 p-3 border border-1">
+                        <img class="mx-auto p-2 img-fluid" src="assets/images/18.png"  height="50px" /></div>
+                    <div class="col-3 p-3 border border-1">
+                        <img class="mx-auto p-2 img-fluid" src="assets/images/19.png"  height="50px" /></div>
+                    <div class="col-3 p-3 border border-1">
+                        <img class="mx-auto p-2 img-fluid" src="assets/images/20.png"  height="50px" /></div>
+                    <div class="col-3 p-3 border border-1">
+                        <img class="mx-auto p-2 img-fluid" src="assets/images/21.png"  height="50px" /></div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div id="resources" class="resources-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="assets/images/22.png" />
+                        
+                    </div>
+                            <div class="col-3">
+                              <div class="list-group" id="list-tab" role="tablist">
+                                <a class="list-group-item list-group-item-action active" id="list-faq-list" data-bs-toggle="list" href="#list-faq" role="tab" aria-controls="list-faq">FAQs</a>
+                                <a class="list-group-item list-group-item-action" id="list-resources-list" data-bs-toggle="list" href="#list-resources" role="tab" aria-controls="list-resources">Resources</a>
+                                <a class="list-group-item list-group-item-action" id="list-howtos-list" data-bs-toggle="list" href="#list-howtos" role="tab" aria-controls="list-howtos">How To's</a>
+                                <a class="list-group-item list-group-item-action" id="list-documentation-list" data-bs-toggle="list" href="#list-documentation" role="tab" aria-controls="list-documentation">Documentation</a>
+                              </div>
+                            </div>
+                            <div class="col-6">
+                              <div class="tab-content float-start" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="list-faq" role="tabpanel" aria-labelledby="list-faq-list">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                              What is Dogecoin?
+                                            </button>
+                                          </h2>
+                                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                              I sent my Dogecoin to the wrong address where can you help in this case?
+                                            </button>
+                                          </h2>
+                                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                              What do you mean by "decentralized"?
+                                            </button>
+                                          </h2>
+                                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingFour">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                              How can I setup my full node?
+                                            </button>
+                                          </h2>
+                                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="tab-pane fade" id="list-resources" role="tabpanel" aria-labelledby="list-resources-list">prof</div>
+                                <div class="tab-pane fade" id="list-howtos" role="tabpanel" aria-labelledby="list-howtos-list">message</div>
+                                <div class="tab-pane fade" id="list-documentation" role="tabpanel" aria-labelledby="list-documentation-list">settings</div>
+                              </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+        <div class="resources-bottom">
+            <div class="container">
+                <div class="row">
+                    <h2 class="fs-2 mb-5">Find out more about Dogecoin</h2>
+                    <div class="col-sm-3">
+                        <div class="card border-0" style="background-color: #fcf4df;">
+                        <div class="card-body">
+                            <img class="p-2" src="assets/images/26.png" height="auto" width="98px" alt="...">
+                          <h5 class="card-title">Foundation</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#">Visit Site -></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card border-0 " style="background-color: #fcf4df;">
+                        <div class="card-body">
+                            <img class="p-2" src="assets/images/27.png" height="auto" width="98px" alt="...">
+                          <h5 class="card-title">Branding</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#">Visit Site -></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card border-0" style="background-color: #fcf4df;">
+                        <div class="card-body">
+                            <img class="p-2" src="assets/images/28.png" height="auto" width="98px" alt="...">
+                          <h5 class="card-title">News</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#">Visit Site -></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card border-0" style="background-color: #fcf4df;">
+                        <div class="card-body">
+                            <img class="p-2" src="assets/images/29.png" height="auto" width="98px" alt="...">
+                          <h5 class="card-title">Press Release</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#">Visit Site -></a>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="" />
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="" />
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="" />
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="" />
+                    </div>
+                </div>
             </div>
         </div>
     </main>
-{{ end }}
+    <script type="text/javascript">
+        var navbar = document.querySelector('header')
+        var rect = document.querySelector("#home").getBoundingClientRect();
+        var offset = {
+            top: rect.top + window.scrollY,
+            left: rect.left + window.scrollX,
+        };
+
+        console.log(window.pageYOffset)
+        console.log(rect)
+
+        // Script to hide/show menu
+        var video = document.querySelector('#video-header');
+        window.onscroll = function () {
+
+            console.log(window.pageYOffset)
+            console.log(rect.height)
+            // pageYOffset or scrollY
+            if (window.pageYOffset > rect.height) {
+                navbar.classList.add('scrolled')
+                video.classList.add('scrolled')
+            } else {
+                navbar.classList.remove('scrolled')
+                video.classList.remove('scrolled')
+            }
+        }
+    </script>
+    {{ end }}
