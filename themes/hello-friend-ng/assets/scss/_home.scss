@@ -1,4 +1,17 @@
 .home {
+  html,
+body {
+ height: 100%;
+ position: relative;
+}
+
+  @mixin coverer {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
   video {
     object-fit: cover;
     width: 100vw;
@@ -21,6 +34,7 @@
     font-size: 6.9vw;
     font-weight: 700;
     color:#c5c5c5;
+    top: 50%;
   }
 
   h2 {
@@ -34,68 +48,105 @@
     color:#c5c5c5;
   }
 
-  .main {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: $max-width;
+  @mixin cover($i, $url) {
+    &:nth-child(#{$i}) {
+      &:after {
+        background-image: url($url);
+      }
+    }
+  }
+
+  .wrapper {
+    position: relative;
+    width: 97.9vw;
+    min-height: 100vh; 
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+    section {
+      position: relative;
+      background: white;
+      article {
+        width: 97.9vw;
+        height: 100vh;
+        margin: 0 auto;
+        padding: 2em 0;
+        p {
+          margin-bottom: 1em;
+          &:last-of-type {
+            margin-bottom: 0;
+          }
+        }
+      }
+      &:after {
+        content: "";
+        display: block;
+        position: relative;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 30em;
+        width: 100%;
+      }
+      // @include cover(1, "");
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .wrapper {
+      section {
+        article {
+          width: 100%;
+        }
+        &:after {
+          height: 15em;
+        }
+      }
+    }
+  }
+
+  main {
+    background: white;
+    position: relative;
+    padding: 1rem;
+    &::before {
+      content: "";
+      @include coverer;
+      top: -100vh;
+    }
+    p {
+      max-width: 100vw;
+      margin: 1rem auto;
+    }
 
     [data-theme=dark] & {
       color: #ffffff;
     }
 
-    .left {
-      text-align: left;
+    .underline {
+      width: 100px;
+      height: 6px;
+      margin: 15px 0px;
+
+      [data-theme=dark] & {
+        background: #ffffff;
+      }
+
+      [data-theme=light] & {
+        background: #c5c5c5;
+      }
+
       @media #{$media-size-phone} {
-        text-align: center;
+        margin: 15px auto;
       }
+    }
 
-      .title {
-        font-family: "Montserrat", sans-serif;
-
-        h1, h2 {
-          font-size: 97px;
-          line-height: 1.1em;
-          margin: 0px;
-          display: block;
-          @media #{$media-size-phone} {
-            font-size: 40px;
-          }
-        }
-
-        h1 {
-          font-weight: 300;
-        }
-
-        h2 {
-          font-weight: 700;
-        }
-      }
-
-      .underline {
-        width: 100px;
-        height: 6px;
-        margin: 15px 0px;
-
-        [data-theme=dark] & {
-          background: #ffffff;
-        }
-
-        [data-theme=light] & {
-          background: #c5c5c5;
-        }
-
-        @media #{$media-size-phone} {
-          margin: 15px auto;
-        }
-      }
-
-      .subtitle {
-        margin: 0px;
-        font-size: 32px;
-        font-weight: 200;
-      }
+    .subtitle {
+      margin: 0px;
+      font-size: 32px;
+      font-weight: 200;
     }
   }
 }

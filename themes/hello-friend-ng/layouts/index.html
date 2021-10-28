@@ -5,24 +5,51 @@
 
     {{ define "main" }}
     <!-- The video -->
-    <video id="background-video" autoplay loop muted>
-        <source src="/assets/images/Header_Video.mp4" type="video/mp4">
-    </video>
+    <div id="video-header">
+        <video autoplay loop muted>
+            <source src="/assets/images/Header_Video.mp4" type="video/mp4">
+        </video>
 
-    <div class="viewport-header">
-        <div class="container">
-            <div class="title">
+        <div id="home" class="viewport-header">
+            <div class="container">
                 <h1>DOGECOIN</h1>
+                {{- with .Site.Params.homeSubtitle }}
+                <h2 class="subtitle">{{.}}</h2>
+                {{- end }}
             </div>
-            <div class="underline"></div>
-            {{- with .Site.Params.homeSubtitle }}
-            <h2 class="subtitle">{{.}}</h2>
-            {{- end }}
         </div>
     </div>
+    <main>
+        <div class="wrapper">
+            <section id="what-is-dogecoin">
+                <article>
+                    <p class="fs-1">What is Dogecoin?</p>
+                </article>
+            </section>
 
-    <main class="main px-3">
+            <section id="wallets">
+                <article>
+                    <p class="fs-1">Wallets</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                </article>
+            </section>
+
+            <section id="community">
+                <article>
+                    <p class="fs-1">Community</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </article>
+            </section>
+
+            <section id="resources">
+                <article>
+                    <p class="fs-1">Resource</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </article>
+            </section>
+        </div>
     </main>
     {{ end }}
-
-    

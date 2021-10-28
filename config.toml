@@ -224,67 +224,30 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "home"
     name       = "Home"
-    url        = "/"
+    url        = "#home"
     weight     = 1
 
   [[menu.main]]
     identifier = "what-is-dogecoin"
     name       = "What is Dogecoin?"
-    url        = "what-is-dogecoin/"
+    url        = "#what-is-dogecoin"
     weight     = 2
 
   [[menu.main]]
     identifier = "wallets"
     name       = "Wallets"
-    url        = "wallets/"
+    url        = "#wallets"
     weight     = 3
 
   [[menu.main]]
     identifier = "community"
     name       = "Community"
-    url        = "community/"
+    url        = "#community"
     weight     = 4
 
   [[menu.main]]
-    identifier = "dogepedia"
-    name       = "Dogepedia"
-    url        = "dogepedia/"
-    weight     = 5
-
-    [menu.main.params]
-      class = "parent"
-
-    [[menu.main]]
-    identifier = "faq"
-    name       = "FAQ"
-    url        = "dogepedia/faq"
-    parent = "dogepedia"
-    weight     = 5
-
-    [[menu.main]]
-    identifier = "resource"
+    identifier = "resources"
     name       = "Resources"
-    url        = "dogepedia/resources"
-    parent = "dogepedia"
+    url        = "#resources"
     weight     = 5
-
-    [[menu.main]]
-    identifier = "how-tos"
-    name       = "How Tos"
-    url        = "dogepedia/how-tos"
-    parent = "dogepedia"
-    weight     = 5
-    
-    [[menu.main]]
-    identifier = "documentation"
-    name       = "Documentation"
-    url        = "dogepedia/documentation"
-    parent = "dogepedia"
-    weight     = 5
-    
-  [[menu.main]]
-  identifier = "foundation"
-  name       = "Foundation"
-  url        = "foundation/"
-  weight     = 6
   
