@@ -39,6 +39,9 @@
         height: 32px;
       }
       .logo-labels {
+        .main-label {
+          margin-top: -5px !important;
+        }
         .sub-label {
           display: none;
         }
