@@ -33,7 +33,10 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
-
+[module]
+  [[module.mounts]]
+    source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    target = "assets/js/bootstrap.bundle.min.js"
 
 [markup]
   [markup.goldmark]
