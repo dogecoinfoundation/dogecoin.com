@@ -55,6 +55,23 @@
     }
   }
 
+  .wallets {
+    height: 109.43396226415095vh !important;
+    width: 100vw !important;
+    background-image: url(assets/images/7.png), url(assets/images/8.png), url(assets/images/9.png);
+    background-position: top, bottom, right;
+    background-repeat: no-repeat;
+  }
+
+  .wallet {
+    position: relative;
+    width: 97.9vw;
+    height: 100vh; 
+    overflow: hidden;
+    display: block;
+    padding-top: 100px;
+  }
+
   .wrapper {
     position: relative;
     width: 97.9vw;
@@ -115,15 +132,16 @@
     top: 0;
     left: 0;
   }
-  .img-under {
+  .under {
     position: relative;
     top: 0;
     left: 0;
   }
-  .img-over {
+  .over {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 30px;
+    left: 30px;
+    margin: 0 0 auto;
   }
 
   main {
