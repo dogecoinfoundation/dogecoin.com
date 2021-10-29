@@ -5,8 +5,8 @@
 
     {{ define "main" }}
     <!-- The video -->
-    <div id="video-header">
-        <video autoplay loop muted>
+    <div>
+        <video id="video-header" autoplay loop muted>
             <source src="/assets/images/Header_Video.mp4" type="video/mp4">
         </video>
 
@@ -20,14 +20,39 @@
         </div>
     </div>
     <main>
-        <div class="wrapper">
-            <section id="what-is-dogecoin">
-                <article>
-                    <p class="fs-1">What is Dogecoin?</p>
-                </article>
-            </section>
+        <div id="what-is-dogecoin" class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="fs-1">An open source peer-to-peer digital currency, favored by</p>
+                        <p><span>Shiba Inus worldwide</span></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="col parent">
+                        <img class="img-under" src="assets/images/3.png" />
+                        <img class="img-over" src="assets/images/2.png" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="assets/images/4.png" />
 
-            <section id="wallets">
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/5.png" />
+                        
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/6.png" />
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div id="wallets" class="wrapper">
+            <section>
                 <article>
                     <p class="fs-1">Wallets</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -35,7 +60,10 @@
                 </article>
             </section>
 
-            <section id="community">
+        </div>
+        
+        <div id="community" class="wrapper">
+            <section>
                 <article>
                     <p class="fs-1">Community</p>
                     <p>
@@ -43,7 +71,10 @@
                 </article>
             </section>
 
-            <section id="resources">
+        </div>
+        
+        <div  id="resources" class="wrapper">
+            <section>
                 <article>
                     <p class="fs-1">Resource</p>
                     <p>
@@ -52,4 +83,31 @@
             </section>
         </div>
     </main>
+    <script type="text/javascript">
+        var navbar = document.querySelector('header')
+        var rect = document.querySelector("#home").getBoundingClientRect();
+        var offset = {
+            top: rect.top + window.scrollY,
+            left: rect.left + window.scrollX,
+        };
+
+        console.log(window.pageYOffset)
+        console.log(rect)
+
+        // Script to hide/show menu
+        var video = document.querySelector('#video-header');
+        window.onscroll = function () {
+
+            console.log(window.pageYOffset)
+            console.log(rect.height)
+            // pageYOffset or scrollY
+            if (window.pageYOffset > rect.height) {
+                navbar.classList.add('scrolled')
+                video.classList.add('scrolled')
+            } else {
+                navbar.classList.remove('scrolled')
+                video.classList.remove('scrolled')
+            }
+        }
+    </script>
     {{ end }}

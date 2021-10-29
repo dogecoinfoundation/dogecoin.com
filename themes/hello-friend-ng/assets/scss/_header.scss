@@ -47,6 +47,12 @@
   }
 }
 
+header.scrolled {
+  background: #0a0a0a;
+  opacity: .9;
+  transition: background-color 200ms linear;
+}
+
 .theme-toggle {
   display: flex;
   align-items: center;
