@@ -62,11 +62,28 @@
   }
 
   .resources-top {
-    height: 100vh;
     position:relative;
     display: block;
     padding: 100px 0 100px 0 !important;
     margin: 400px 0 100px 0;
+    background-color: #fafafa;
+  }
+
+  .resources-bottom {
+    background-image: url(assets/images/25.png), url(assets/images/31.png);
+    background-position: left, right;
+    background-repeat: no-repeat;
+    position:relative;
+    display: block;
+  }
+  .resources-bottom.card {
+    background-color: #fcf4df;
+  }
+
+  @media (max-width: 991.98px) { 
+    .resources-top {
+      margin: 50px 0 100px 0;
+    }
   }
 
   .community {
@@ -162,7 +179,6 @@
     position: absolute;
     top: 30px;
     left: 30px;
-    margin: 0 0 auto;
   }
 
   main {
