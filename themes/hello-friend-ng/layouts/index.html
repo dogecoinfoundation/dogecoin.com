@@ -317,15 +317,9 @@
             left: rect.left + window.scrollX,
         };
 
-        console.log(window.pageYOffset)
-        console.log(rect)
-
         // Script to hide/show menu
         var video = document.querySelector('#video-header');
         window.onscroll = function () {
-
-            console.log(window.pageYOffset)
-            console.log(rect.height)
             // pageYOffset or scrollY
             if (window.pageYOffset > rect.height) {
                 navbar.classList.add('scrolled')
