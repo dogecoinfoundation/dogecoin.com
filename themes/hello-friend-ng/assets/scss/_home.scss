@@ -55,61 +55,6 @@
     }
   }
 
-  .block {
-    height: 109.43396226415095vh !important;
-    width: 97.9vw !important;
-    padding-top: 100px;
-  }
-
-  .resources-top {
-    position:relative;
-    display: block;
-    padding: 100px 0 100px 0 !important;
-    margin: 400px 0 100px 0;
-    background-color: #fafafa;
-  }
-
-  .resources-bottom {
-    background-image: url(assets/images/25.png), url(assets/images/31.png);
-    background-position: left, right;
-    background-repeat: no-repeat;
-    position:relative;
-    display: block;
-  }
-  .resources-bottom.card {
-    background-color: #fcf4df;
-  }
-
-  @media (max-width: 991.98px) { 
-    .resources-top {
-      margin: 50px 0 100px 0;
-    }
-  }
-
-  .community {
-    height: 100vh;
-    position:relative;
-    display: block;
-    padding: 100px 0 100px 0;
-  }
-
-  .wallets-bg {
-    height: 109.43396226415095vh !important;
-    width: 97.9vw !important;
-    background-image: url(assets/images/7.png), url(assets/images/8.png), url(assets/images/9.png);
-    background-position: top, bottom, right;
-    background-repeat: no-repeat;
-  }
-
-  .wallet {
-    position: relative;
-    width: 97.9vw;
-    height: 100vh; 
-    overflow: hidden;
-    display: block;
-    padding-top: 100px;
-  }
-
   .wrapper {
     position: relative;
     width: 97.9vw;
@@ -143,12 +88,7 @@
         height: 30em;
         width: 100%;
       }
-      @include cover(1, "http://cdn.eyeem.com/thumb/h/800/24778877c8ba7a9bb6318b660b8a2e47d374d43f-1370105135");
-      @include cover(2, "http://cdn.eyeem.com/thumb/h/800/4f488e1db3960b9ba1246125e8181e7741564b62-1370076361");
-      @include cover(3, "http://cdn.eyeem.com/thumb/h/800/8484e67f9b7bef4b2e00ddf0f353f036b4b0e9e6-1348396364");
-      @include cover(4, "http://cdn.eyeem.com/thumb/h/800/704e38b95cb808b0df338a9661007f93ce3bed98-1348321831");
-      @include cover(5, "http://cdn.eyeem.com/thumb/h/800/20b3440516db8c8df4490b17ba3109d91c07f839-1348321287");
-      @include cover(6, "http://cdn.eyeem.com/thumb/h/800/d90429ba407c439beae9d23e468dc9c1deb7efdd-1348357036");
+      @include cover(1, "");
     }
   }
   
@@ -163,22 +103,6 @@
         }
       }
     }
-  }
-
-  .parent {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-  .under {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-  .over {
-    position: absolute;
-    top: 30px;
-    left: 30px;
   }
 
   main {
