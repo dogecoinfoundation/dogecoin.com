@@ -1,4 +1,4 @@
-baseURL = "https://xanimo.github.io/dogecoin.com-1"
+baseURL = "https://preview.dogecoin.com"
 title   = "Dogecoin"
 languageCode = "en-us"
 theme = "hello-friend-ng"
