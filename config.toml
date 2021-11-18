@@ -254,7 +254,7 @@ disableHugoGeneratorInject = false
     [[menu.main]]
     identifier = "faq"
     name       = "FAQ"
-    url        = "dogepedia/faq"
+    url        = "dogepedia/#faq"
     parent = "dogepedia"
     weight     = 5
 
@@ -268,14 +268,14 @@ disableHugoGeneratorInject = false
     [[menu.main]]
     identifier = "how-tos"
     name       = "How Tos"
-    url        = "dogepedia/how-tos"
+    url        = "dogepedia/#howto"
     parent = "dogepedia"
     weight     = 5
     
     [[menu.main]]
     identifier = "documentation"
     name       = "Documentation"
-    url        = "dogepedia/documentation"
+    url        = "dogepedia/#documentation"
     parent = "dogepedia"
     weight     = 5
     
