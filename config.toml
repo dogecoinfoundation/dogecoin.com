@@ -282,6 +282,38 @@ disableHugoGeneratorInject = false
   [[menu.main]]
   identifier = "foundation"
   name       = "Foundation"
-  url        = "foundation/"
+  url        = "https://foundation.dogecoin.com"
   weight     = 6
-  
+
+
+[[params.footerLegal]]
+    name = "Terms & Conditions"
+    url  = "#"
+
+  [[params.footerLegal]]
+    name = "Privacy Policy"
+    url  = "#"
+
+  [[params.footerLegal]]
+    name = "Trademarks"
+    url  = "#"
+
+[[params.footerFoundation]]
+    name = "About"
+    url  = "https://foundation.dogecoin.com/about/"
+
+  [[params.footerFoundation]]
+    name = "Manifesto"
+    url  = "https://foundation.dogecoin.com/manifesto/"
+
+  [[params.footerFoundation]]
+    name = "Advisors"
+    url  = "https://foundation.dogecoin.com/about/"
+
+  [[params.footerFoundation]]
+    name = "Blog"
+    url  = "https://foundation.dogecoin.com/announcements/"
+
+  [[params.footerFoundation]]
+    name = "Roadmap"
+    url  = "https://foundation.dogecoin.com/roadmap/"

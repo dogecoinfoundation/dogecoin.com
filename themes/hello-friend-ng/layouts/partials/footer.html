@@ -1,19 +1,56 @@
-<footer class="footer">
-    <div class="footer__inner">
-        <div class="footer__content">
-            <div class="footer__content-left">
-            {{- with .Site.Params.social }}
-                <div class="social-media-icons">
-                    {{ partial "social-icons.html" . }}
+
+
+<footer>
+    <div class="footer-container">
+        <img class="footer-image" src="/footer-map.png"/>
+        <div class="footer-row">
+            <div class="footer-column1">
+                <div class="logo">
+                    <img src="/doge-logo.png" alt="Dogecoin logo" />
+                    <div class="logo-labels">
+                        <div class="main-label footer-label">DOGECOIN</div>
+                    </div>
                 </div>
-            {{- end }}
-            <div>
-                © 2014-{{ now.Year }} The Dogecoin Project
+                <p>The Shiba Inu is a Japanese breed of dog that was popularized as an online meme and represents Dogecoin. Dogecoin was created by Jackson Palmer & Shibetoshi Nakamoto. Logo design by Christine Ricks.</p>
             </div>
+            <div class="footer-column">
+                <a class="footer-title">Legal</a>
+                {{- with .Site.Params.footerLegal }}
+                    {{ range . -}}
+                    <li><a href="{{ .url | relLangURL }}" >{{ .name }}</a></li>
+                    {{- end -}}
+            
+                {{- end }}
             </div>
-            <div>
-                Website Design - CE | <span>Coding - Florian & xanimo</span>
+            <div class="footer-column">
+                <a class="footer-title">Sitemap</a>
+                {{ range .Site.Menus.main -}}
+                <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+                {{- end }}
+            </div>
+            <div class="footer-column">
+                <a class="footer-title">Foundation</a>
+                {{- with .Site.Params.footerFoundation }}
+                    {{ range . -}}
+                        <li><a href="{{ .url | relLangURL }}" >{{ .name }}</a></li>
+                    {{- end -}}
+            
+                {{- end }}
             </div>
         </div>
     </div>
+    <div class="footer">
+        <div class="footer__inner">
+            <div class="footer__content">
+                <div class="footer__content-left">
+                <div>
+                    © 2014-{{ now.Year }} | The Dogecoin Project
+                </div>
+                </div>
+                <div>
+                    Website Design - CE | <span>Coding - Florian & xanimo</span>
+                </div>
+            </div>
+        </div>
+    </div>  
 </footer>
