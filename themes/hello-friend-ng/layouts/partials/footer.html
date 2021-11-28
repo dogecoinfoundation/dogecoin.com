@@ -1,5 +1,3 @@
-
-
 <footer>
     <div class="footer-container">
         <img class="footer-image" src="/footer-map.png"/>
@@ -53,4 +51,11 @@
             </div>
         </div>
     </div>  
+</footer>
+    <!-- JavaScript and dependencies -->
+
+    {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
+    {{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
+
+    <script src="{{$js.RelPermalink}}" defer></script>
 </footer>

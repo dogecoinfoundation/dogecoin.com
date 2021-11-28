@@ -1,4 +1,11 @@
-html {
+* { 
+  margin:0; 
+}
+
+html, body {
+  position: relative;
+  width:100%;
+  height:100%;
   box-sizing: border-box;
   line-height: 1.6;
   letter-spacing: 0.06em;
@@ -57,11 +64,6 @@ body {
       background: linear-gradient(25deg, $dark-background 50%, rgba(255, 255, 255, 0) 50%),
       linear-gradient(180deg, #1c1c1c 0%, #181818 100%);
     }
-
-    &.manifesto {
-      background: linear-gradient(-25deg, $dark-background 50%, rgba(255, 255, 255, 0) 50%),
-      linear-gradient(180deg, #1c1c1c 0%, #181818 100%);
-    }
   }
 
   [data-theme=light] & {
@@ -72,11 +74,6 @@ body {
       background: linear-gradient(25deg, $light-background 50%, rgba(255, 255, 255, 0) 50%),
       linear-gradient(180deg, darken($light-background, 5%) 0%, $light-background 100%);
     }
-
-    &.manifesto {
-      background: linear-gradient(-25deg, $light-background 50%, rgba(255, 255, 255, 0) 50%),
-      linear-gradient(180deg, darken($light-background, 5%) 0%, $light-background 100%);
-    }
   }
 
   transition: transform .4s ease-out;
@@ -84,13 +81,9 @@ body {
   &.armageddon {
     transform: rotate(25deg);
     overflow: hidden;
-    header, .left, footer {
+    header, footer {
       transition: transform 2s cubic-bezier(.2,0,.84,0);
       transform: translate(100vw, 40px);
-    }
-    .doge-container {
-      transition: transform .4s ease-out;
-      transform: rotate(-25deg);
     }
   }
 

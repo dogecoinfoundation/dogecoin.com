@@ -1,209 +1,150 @@
 .home {
-  .main {
+  @mixin coverer {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    visibility: visible;
+  }
+  
+  video.scrolled {
+    visibility: hidden;
+  }
+
+  .viewport-header {
+    position: relative;
+    height: 100vh;
+    text-align: center;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: $max-width;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 6.9vw;
+    font-weight: 700;
+    color:#c5c5c5;
+    top: 50%;
+  }
+
+  h2 {
+    font-size: 45px;
+    line-height: 1.1em;
+    margin: 0px;
+    display: block;
+    @media #{$media-size-phone} {
+      font-size: 40px;
+    }
+    color:#c5c5c5;
+  }
+
+  @mixin cover($i, $url) {
+    &:nth-child(#{$i}) {
+      &:after {
+        background-image: url($url);
+      }
+    }
+  }
+
+  .wrapper {
+    position: relative;
+    width: 97.9vw;
+    height: 100vh; 
+    overflow: hidden;
+    display: block;
+    padding-top: 100px;
+    .section {
+      position: relative;
+      background: white;
+      .article {
+        width: 97.9vw;
+        height: 100vh;
+        margin: 0 auto;
+        padding: 2em 0;
+        p {
+          margin-bottom: 1em;
+          &:last-of-type {
+            margin-bottom: 0;
+          }
+        }
+      }
+      &:after {
+        content: "";
+        display: block;
+        position: relative;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 30em;
+        width: 100%;
+      }
+      @include cover(1, "");
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .wrapper {
+      section {
+        article {
+          width: 100%;
+        }
+        &:after {
+          height: 15em;
+        }
+      }
+    }
+  }
+
+  main {
+    background: white;
+    position: relative;
+    padding: 1rem;
+    &::before {
+      content: "";
+      @include coverer;
+      top: -100vh;
+    }
+    p {
+      max-width: 100vw;
+      margin: 1rem auto;
+    }
 
     [data-theme=dark] & {
       color: #ffffff;
     }
 
-    .left {
-      text-align: left;
-      @media #{$media-size-phone} {
-        text-align: center;
-      }
-
-      .title {
-        font-family: "Montserrat", sans-serif;
-
-        h1, h2 {
-          font-size: 97px;
-          line-height: 1.1em;
-          margin: 0px;
-          display: block;
-          @media #{$media-size-phone} {
-            font-size: 40px;
-          }
-        }
-
-        h1 {
-          font-weight: 300;
-        }
-
-        h2 {
-          font-weight: 700;
-        }
-      }
-
-      .underline {
-        width: 100px;
-        height: 6px;
-        margin: 15px 0px;
-
-        [data-theme=dark] & {
-          background: #ffffff;
-        }
-
-        [data-theme=light] & {
-          background: #c5c5c5;
-        }
-
-        @media #{$media-size-phone} {
-          margin: 15px auto;
-        }
-      }
-
-      .subtitle {
-        margin: 0px;
-        font-size: 32px;
-        font-weight: 200;
-      }
-    }
-
-    .doge-container {
-      position: relative;
-      width: 384px;
-      height: 384px;
-      overflow: hidden;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
+    .underline {
+      width: 100px;
+      height: 6px;
+      margin: 15px 0px;
 
       [data-theme=dark] & {
-        background: #000000;
+        background: #ffffff;
       }
 
       [data-theme=light] & {
-        background: #dbdbdb;
-      }
-
-      &.mobile {
-        display: none;
+        background: #c5c5c5;
       }
 
       @media #{$media-size-phone} {
-        width: 150px;
-        height: 150px;
-        &.desktop {
-          display: none;
-        }
-        &.mobile {
-          display: block;
-        }
-      }
-
-      .kabosu {
-        z-index: 3;
-        position: relative;
-        top: 60px;
-        width: 300px;
-        height: 372px;
-        @media #{$media-size-phone} {
-          top: 20px;
-          left: 15px;
-          width: 124px;
-          height: 148px;
-        }
-      }
-
-      #left-eye, #right-eye, #nose {
-        z-index: 2;
-        position: absolute;
-      }
-
-      .eyes-background {
-        position: absolute;
-        z-index: 1;
-        left: 150px;
-        top: 145px;
-        width: 130px;
-        height: 50px;
-        background-color: #E4D79A;
-      }
-
-      #left-eye {
-        top: 171px;
-        left: 166px;
-        width: 20px;
-        height: auto;
-      }
-
-      #right-eye {
-        top: 157px;
-        left: 243px;
-        width: 20px;
-        height: auto;
-      }
-
-      #nose {
-        z-index: 4;
-        cursor: pointer;
-        top: 200px;
-        left: 245px;
-        width: 40px;
-        height: 33px;
-        border-radius: 50%;
-      }
-
-      // Design found here: https://codepen.io/quadbaup/pen/rKOKQv
-      .thought {
-        font-family: "Montserrat", sans-serif;
-        font-weight: bold;
-        z-index: 5;
-        display: none;
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 30px;
-        min-width: 40px;
-        max-width: 220px;
-        min-height: 40px;
-        margin: 20px;
-        position: absolute;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-
-        &.visible {
-          display: flex;
-        }
-      }
-
-      .thought::before,
-      .thought::after {
-        content: "";
-        background-color: #fff;
-        border-radius: 50%;
-        display: block;
-        position: absolute;
-        z-index: -1;
-      }
-
-      .thought::before {
-        width: 44px;
-        height: 44px;
-        top: -12px;
-        left: 28px;
-        box-shadow: -50px 30px 0 -12px #fff;
-      }
-
-      .thought::after {
-        bottom: -10px;
-        right: 26px;
-        width: 30px;
-        height: 30px;
-        box-shadow: 40px -34px 0 0 #fff,
-        -28px -6px 0 -2px #fff,
-        -24px 17px 0 -6px #fff,
-        -5px 25px 0 -10px #fff;
-
+        margin: 15px auto;
       }
     }
 
-    @media #{$media-size-phone} {
-      flex-direction: column-reverse;
+    .subtitle {
+      margin: 0px;
+      font-size: 32px;
+      font-weight: 200;
     }
   }
 }

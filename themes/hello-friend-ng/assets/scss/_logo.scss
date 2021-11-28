@@ -4,7 +4,8 @@
   text-decoration: none;
   font-weight: bold;
   font-display: auto;
-
+  padding-right: 2vw;
+  
   img {
     height: 44px;
     transition: height .2s ease-in;
@@ -46,7 +47,6 @@
         animation: none;
     }
   }
-
 }
 
 @keyframes cursor {

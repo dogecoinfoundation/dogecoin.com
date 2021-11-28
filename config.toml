@@ -1,4 +1,4 @@
-baseURL = "https://preview.dogecoin.com"
+baseURL = "https://xanimo.github.io/dogecoin.com-1"
 title   = "Dogecoin"
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -33,7 +33,10 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
-
+[module]
+  [[module.mounts]]
+    source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    target = "assets/js/bootstrap.bundle.min.js"
 
 [markup]
   [markup.goldmark]
@@ -87,7 +90,7 @@ disableHugoGeneratorInject = false
   # Per default, this option is off.
   # The theme is respecting the prefers-color-scheme of the operating systeme.
   # With this option on, the page user is able to set the scheme he wants.
-  enableThemeToggle = true
+  enableThemeToggle = false
 
   # Sharing buttons
   #
@@ -221,25 +224,25 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "home"
     name       = "Home"
-    url        = "/"
+    url        = "#home"
     weight     = 1
 
   [[menu.main]]
     identifier = "what-is-dogecoin"
     name       = "What is Dogecoin?"
-    url        = "what-is-dogecoin/"
+    url        = "#what-is-dogecoin"
     weight     = 2
 
   [[menu.main]]
     identifier = "wallets"
     name       = "Wallets"
-    url        = "wallets/"
+    url        = "#wallets"
     weight     = 3
 
   [[menu.main]]
     identifier = "community"
     name       = "Community"
-    url        = "community/"
+    url        = "#community"
     weight     = 4
 
   [[menu.main]]

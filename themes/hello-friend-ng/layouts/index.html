@@ -1,30 +1,51 @@
 {{ define "body" }}
-    <body class="home{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
-{{ end }}
 
-{{ define "main" }}
-    <main class="main">
-        <div class="left">
-            <div class="title">
-                <h1>Dogecoin</h1>
-            </div>
-            <div class="underline"></div>
-            {{- with .Site.Params.homeSubtitle }}
-                <p class="subtitle">{{.}}</p>
-            {{- end }}
-        </div>
-        <div>
-            <div class="doge-container desktop">
-               <img class="kabosu" src="/doge-no-eyes.png" alt="{{ .Site.Params.Portrait.Alt }}">
-                <div class="thought">???</div>
-                <div id="nose"></div>
-                <img id="left-eye" src="/left_eye.png" alt="Left eye" />
-                <img id="right-eye" src="/right_eye.png" alt="Right eye" />
-                <div class="eyes-background rainbow"></div>
-            </div>
-            <div class="doge-container mobile">
-                <img class="kabosu" src="/doge.png" alt="{{ .Site.Params.Portrait.Alt }}">
+<body class="home">
+    {{ end }}
+
+    {{ define "main" }}
+    <!-- The video -->
+    <div>
+        <video id="video-header" autoplay loop muted>
+            <source src="/assets/images/Header_Video.mp4" type="video/mp4">
+        </video>
+
+        <div id="home" class="viewport-header">
+            <div class="container">
+                <h1>DOGECOIN</h1>
+                {{- with .Site.Params.homeSubtitle }}
+                <h2 class="subtitle">{{.}}</h2>
+                {{- end }}
             </div>
         </div>
+    </div>
+    <main>
+      {{ partial "whatisdogecoin.html" . }}
+        <br />
+      {{ partial "wallets.html" . }}
+      {{ partial "community.html" . }}
+        <br />
+        {{ partial "resources.html" . }}
     </main>
-{{ end }}
+    <script type="text/javascript">
+        var navbar = document.querySelector('header')
+        var rect = document.querySelector("#home").getBoundingClientRect();
+        var offset = {
+            top: rect.top + window.scrollY,
+            left: rect.left + window.scrollX,
+        };
+
+        // Script to hide/show menu
+        var video = document.querySelector('#video-header');
+        window.onscroll = function () {
+            // pageYOffset or scrollY
+            if (window.pageYOffset > rect.height) {
+                navbar.classList.add('scrolled')
+                video.classList.add('scrolled')
+            } else {
+                navbar.classList.remove('scrolled')
+                video.classList.remove('scrolled')
+            }
+        }
+    </script>
+    {{ end }}

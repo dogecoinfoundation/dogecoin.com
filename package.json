@@ -1,0 +1,27 @@
+{
+  "name": "dogecoin.com",
+  "version": "1.0.0",
+  "description": "dogecoin.com redesign",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "scripts": {
+    "hugo:build": "hugo -d build",
+    "hugo:serve": "hugo server",
+    "hugo:clean": "rm -rf build resources public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xanimo/dogecoin.com-1.git"
+  },
+  "keywords": [
+    "dogecoin"
+  ],
+  "author": "xanimo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xanimo/dogecoin.com-1/issues"
+  },
+  "homepage": "https://github.com/xanimo/dogecoin.com-1#readme"
+}

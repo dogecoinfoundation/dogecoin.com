@@ -1,6 +1,7 @@
 /* Must be loaded before everything else */
 @import "normalize";
 @import "prism";
+@import "node_modules/bootstrap/scss/bootstrap";
 /* Main stuff */
 @import "variables";
 @import "mixins";
@@ -19,5 +20,7 @@
 @import "tables";
 @import "404";
 @import "home";
-@import "manifesto";
-@import "about";
+@import "whatisdogecoin";
+@import "wallets";
+@import "community";
+@import "resources";
