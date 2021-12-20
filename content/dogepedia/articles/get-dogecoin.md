@@ -25,4 +25,4 @@ Do you own or run a business? It's now as easy as ever to accept Dogecoin in ret
 
 ### Other 
 
-There are other ways you can get your hands on Dogecoin, too. Popular initiatives like [Dogecoin Folding @ Home](https://dogecoin.com/dogepedia/articles/dogecoin-folding-at-home), and even [mining Dogecoin](https://dogecoin.com/dogepedia/how-tos/mining-dogecoin), can help people get their hands on some Doge!
+There are other ways you can get your hands on Dogecoin, too. Popular initiatives like [Dogecoin Folding @ Home](https://dogecoin.com/dogepedia/articles/dogecoin-folding-at-home), and even [mining Dogecoin](https://dogecoin.com/dogepedia/how-tos/mining-dogecoin), can help people get their hands on some Doge! 
