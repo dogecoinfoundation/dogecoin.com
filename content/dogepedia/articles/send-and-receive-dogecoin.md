@@ -14,4 +14,4 @@ A lot of wallets also provide a QR code in which the destination wallet’s addr
 
 If receiving Dogecoin, you will need to supply the sender with your Dogecoin wallet address and/or the QR code for your wallet.  
 
-One of the (many) great things about Dogecoin is that the transaction speed is significantly quicker than other cryptocurrencies – so you won't have long to wait until the transfer is confirmed. The fees to transfer are also extremely low comparative to other cryptocurrencies, too, so what are you waiting for? Send someone some Doge!
+One of the (many) great things about Dogecoin is that the transaction speed is significantly quicker than other cryptocurrencies – so you won't have long to wait until the transfer is confirmed. The fees to transfer are also extremely low in comparison with other cryptocurrencies. So, what are you waiting for? Send someone some Doge!
