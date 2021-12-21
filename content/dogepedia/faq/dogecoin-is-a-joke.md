@@ -5,10 +5,6 @@ date = "2021-10-22"
   name = "Dogecoin"
 +++
 
-Dogecoin was born as a joke - and this side of it, its sense of fun, should never go away. This post should get inspiration mostly from Sporklin's and Billy's statements on the topic, I believe. Sporklin, a staunch defender of Dogecoin, dedicated several posts to answer this statement, at the same time contextualizing and using it as a point of strength.
+It is true that Dogecoin was born as a joke - and this sense of fun should forever remain and never go away! Despite Dogecoin’s genesis as a joke, though, more and more people are beginning to realise Dogecoin’s utilitarian value as a legitimate, efficient, and functional currency.  
 
-- https://old.reddit.com/r/dogecoin/comments/kfizst/dogepound/gg9kxe9/
-- https://www.reddit.com/r/dogecoindev/comments/lhtqt1/comment/gn3wz8g/?utm_source=share&utm_medium=web2x&context=3
-
-
-
+Because of this, Dogecoin has now evolved into much *more* than ‘*just* a joke’, whilst still maintaining its LOL attitude. Indeed, as the late and great Sporklin once commented: “Dogecoin can be a joke and still be functional … While the branding is frontal jokes and memes, everything under that has been solid from the start”. 
