@@ -15,6 +15,8 @@ This famous meme was based on a 2010 photograph of a Japanese female Shiba Inu d
 
 Much to Billy and Jackson’s surprise, Dogecoin was a near-instant success, and gained tremendous popularity on sites such as Reddit, where it was —and still is — used as a tipping currency. When Dogecoin was just 2-weeks old, it reached more transactions per day than Bitcoin. Moreover, within the first month there were over one-million unique visitors to this website!  
 
+In 2014, both Billy and Jackson left the development efforts, while a Dogecoin Core Development team was formed. The team, comprised of a small group of core maintainers and supported by more than 40 contributors over the years, has been maintaining and developing Dogecoin since then.
+
 Although owing its genesis to a joke, Dogecoin quickly developed into a massive and passionate cryptocurrency community. This fun and friendly crypto community has also been behind many great causes and charitable endeavours.  
 
 For example, in 2014 the Dogecoin community raised 26.5 million Dogecoin (worth around USD $30,000.00 at the time) to send the Jamaican bobsled team to the Sochi Winter Olympics! In March of that year, the Dogecoin community also raised over 40 million Dogecoin (worth around USD $30,000.00 at the time) to help with the effort of building clean-water wells in Kenya.  
