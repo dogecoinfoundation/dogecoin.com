@@ -5,7 +5,8 @@ date = "2021-10-22"
   name = "Dogecoin"
 +++
 
-Sending and receiving Dogecoin is very easy to do. Whether you intend to send or receive Dogecoin, in both cases you will need a [wallet](https://dogecoin.com/dogepedia/articles/how-do-i-get-a-wallet).
+Sending and receiving Dogecoin is very easy to do. Whether you intend to send or receive Dogecoin, in both cases you will need a [wallet](/dogepedia/articles/how-do-i-get-a-wallet).
+
 
 When sending Dogecoin from your wallet you will need to input a destination wallet address. This is a unique alphanumeric identifier that looks a bit like gibberish! Rest assured, though, a wallet address is certainly *not* gibberish – but specifies a unique destination on the Dogecoin blockchain to which Dogecoin can be sent and stored.  
 
