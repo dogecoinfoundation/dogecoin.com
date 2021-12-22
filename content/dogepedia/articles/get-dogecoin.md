@@ -13,7 +13,8 @@ A popular way people get their hands on Dogecoin is via an exchange. There are m
 
 You can purchase Dogecoin on an exchange at the current market price (this is called a market *taker* transaction), or by making an offer to purchase cryptocurrency once it reaches a specified price (a market *maker* transaction). Some exchanges only allow its users to purchase cryptocurrencies via market taker transactions.  
 
-Although the security of exchanges has come a long way in recent years, it is still crucial that you **do your own research (DYOR)** before purchasing Dogecoin via an exchange, because they are not immune to security risks or controversy. For added security, it is also important to consider keeping the Dogecoin that you do not intend to use for trading in a [private non-custodial wallet](https://dogecoin.com/dogepedia/articles/how-do-i-get-a-wallet).
+Although the security of exchanges has come a long way in recent years, it is still crucial that you **do your own research (DYOR)** before purchasing Dogecoin via an exchange, because they are not immune to security risks or controversy. For added security, it is also important to consider keeping the Dogecoin that you do not intend to use for trading in a [private non-custodial wallet](/dogepedia/articles/how-do-i-get-a-wallet).
+
  
 ### Tipping 
 
