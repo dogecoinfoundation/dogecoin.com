@@ -22,7 +22,8 @@ Dogecoin’s popularity can be attributed in part to its history as a tipping cu
 
 ### Accepting Dogecoin for Goods & Services 
 
-Do you own or run a business? It's now as easy as ever to accept Dogecoin in return for goods and services via a number of easy-to-integrate third-party payment solutions. [Click here](https://dogecoin.com/dogepedia/articles/how-can-my-business-accept-dogecoin) for more information. 
+Do you own or run a business? It's now as easy as ever to accept Dogecoin in return for goods and services via a number of easy-to-integrate third-party payment solutions. [Click here](/dogepedia/articles/how-can-my-business-accept-dogecoin) for more information. 
+
 
 ### Other 
 
