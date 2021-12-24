@@ -1,6 +1,8 @@
 +++
 title = "Who are the current Dogecoin developers?"
 date = "2021-10-22"
+type = "article"
+
 [ author ]
   name = "Dogecoin"
 +++

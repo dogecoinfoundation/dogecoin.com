@@ -44,7 +44,7 @@ disableHugoGeneratorInject = false
       unsafe = true
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  posts = "/:title/"
 
 [author]
   name = "Dogecoin"
