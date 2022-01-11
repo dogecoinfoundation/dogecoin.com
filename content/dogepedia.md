@@ -40,7 +40,6 @@ Dogecoin is a cryptocurrency, and you can use it to send and receive payments.
 - [What merchants currently accept Dogecoin?](/dogepedia/articles/merchants-accepting-doge)
 - [What are some charities that accept Dogecoin?](/dogepedia/articles/charities-accepting-doge)
 - [What is Dogecoin Folding @ Home?](/dogepedia/articles/dogecoin-folding-at-home)
-- [Is xxx project affiliated with The Dogecoin Foundation?](/dogepedia/articles/is-this-project-affiliated-with-dogecoin-foundation)
 
 ### Running Nodes, Mining, and More
 For the technical shibe - but not only. Learn how the Dogecoin network actually works, and how to support it.
