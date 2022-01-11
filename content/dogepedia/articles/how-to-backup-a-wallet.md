@@ -15,7 +15,7 @@ Most Dogecoin holders use some kind of [*wallet application*](/dogepedia/article
 
 Dogecoin Core, the software used to run a Dogecoin node, is often used as a wallet application. In order to create a backup with Dogecoin Core, follow these steps:
 
-- (Optional, but recommended) First, encrypt you wallet. To do so, go to Settings -> Encrypt wallet. You will be asked to enter a password. It is crucial that you store this password somewhere safe and that you never lose it. Without it, you will be unable to access the funds in your encrypted wallet. On the other hand, this password adds an extra layer of security to your backup. Without it, even if an attacker gains access to your wallet file, he will still be unable to spend your Dogecoin.
+- (Optional, but recommended) First, encrypt your wallet. To do so, go to Settings -> Encrypt wallet. You will be asked to enter a password. It is crucial that you store this password somewhere safe and that you never lose it. Without it, you will be unable to access the funds in your encrypted wallet. On the other hand, this password adds an extra layer of security to your backup. Without it, even if an attacker gains access to your wallet file, he will still be unable to spend your Dogecoin.
 - Go to File -> Backup Wallet. This will generate a wallet.dat file, which stores a list of all the key pairs you have used. Restoring this file will give you access to your Dogecoin. Store it somewhere safe, in a device not connected to the internet.
 
 ### Wallet Backups with Wallets Using Seed Phrases
