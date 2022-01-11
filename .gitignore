@@ -1,3 +1,8 @@
 public
 resources/_gen
 .idea
+.vscode
+.hugo_build.lock
+node_modules/
+.DS_Store
+**/.DS_Store
