@@ -17,7 +17,7 @@ There are several types of nodes, depending on the role they play in the network
 ### Full Nodes and Light Nodes
 *Full nodes* are the backbone of the Dogecoin network. Each full node is able to fully validate transactions and blocks. *Most* full nodes in the Dogecoin network contain a copy of the entire blockchain, the full history of all transactions that ever occurred in the Dogecoin network. Full nodes support the network by accepting transactions and blocks from other full nodes, validating those transactions and blocks, and then relaying them to further full nodes.
 
-*Light nodes* (like the *Multidoge wallet*), also known as SPV nodes, depend on full nodes for functioning. They require much less storage and resources than full nodes, since they do not need to store the entire blockchain. Light nodes are still capable of performing a task - which is to verify transactions by using a method called Simрlifiеd рауmеnt vеrifiсаtiоn (SPV).
+*Light nodes* (like the *Multidoge wallet*), also known as SPV nodes, depend on full nodes for functioning. They require much less storage and resources than full nodes, since they do not need to store the entire blockchain. Light nodes are still capable of performing a task - which is to verify transactions by using a method called Simрlifiеd Pауmеnt Vеrifiсаtiоn (SPV).
 
 ### Why Full Nodes Are Important
 Without node operators running full nodes, the Dogecoin network could not function. By being able to fully validate transactions and blocks and by hosting a full copy of the blockchain, full nodes perform crucial tasks in the network, including validating transactions, keeping a historic record of all transactions, and dictating and enforcing the rules of the network.
@@ -36,7 +36,7 @@ Learning to run a node, and to maintain it, can be a fun and educational experie
 
 If you are up to the task, please check our [Operating a Dogecoin Node Guide](/dogepedia/how-tos/operating-a-node/) to get you started.
 
-There are no direct incentives in running a node. The reward consists in providing a service to the network and thus, hopefully, bringing value to the Dogecoin network.
+There are no direct incentives in running a node. The reward consists in providing a service to the Dogecoin network and thus, hopefully, bringing value to it.
 
 
 ### Miners
