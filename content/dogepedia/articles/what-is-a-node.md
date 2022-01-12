@@ -5,11 +5,11 @@ date = "2021-10-22"
   name = "Dogecoin"
 +++
 
-The Dogecoin network is a peer-to-peer payment network consisting of thousands of computers called nodes. Each of these nodes is running a specialized software, called Dogecoin Core. Transaction information is recorded into a database, split into blocks chained to each other, and distributed and replicated across the nodes of the network: this database is known as the *Dogecoin blockchain*. 
+The Dogecoin network is a peer-to-peer payment network consisting of thousands of computers called nodes. Each of these nodes is running specialized software, called Dogecoin Core. Transaction information is recorded into a database, split into blocks chained to each other, and distributed and replicated across the nodes of the network: this database is known as the *Dogecoin blockchain*. 
 
 In practice, this results in transaction information being shared across the entire network and, subsequently, not needing to be stored in one centralized place. This is why cryptocurrencies like Dogecoin are often referred to as being *decentralized*.
 
-In short, a node is a software that is running on a computer that is connected to the Dogecoin network. This software communicates with other nodes on the network and in doing so keeps the distributed ledger in sync and up-to-date, in addition to providing new nodes that need to download the full Dogecoin blockchain with information about past blocks.
+In short, a node is software that is running on a computer that is connected to the Dogecoin network. This software communicates with other nodes on the network and in doing so keeps the distributed ledger in sync and up-to-date, in addition to providing new nodes that need to download the full Dogecoin blockchain with information about past blocks.
 
 There are several types of nodes, depending on the role they play in the network.
 
