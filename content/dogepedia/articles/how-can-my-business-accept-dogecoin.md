@@ -12,3 +12,7 @@ At the most foundational level, for your business to accept Dogecoin in exchange
 If you have a bricks-and-mortar business where payments are made in person, it’s common for merchants to print a QR code that is scanned by customers’ smartphones to streamline the transaction process.  
 
 If you have an ecommerce store, companies like Coinbase Commerce and BitPay make accepting Dogecoin a breeze, and include integrations with popular platforms like Shopify, WooCommerce, and Opencard!
+
+***
+
+*Dogecoin and the Dogecoin Foundation is not affiliated with the companies mentioned in this article.*
