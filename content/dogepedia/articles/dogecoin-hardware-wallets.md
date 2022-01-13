@@ -1,6 +1,8 @@
 +++
 title = "What are the benefits of a hardware wallet, and how to use it with Doge?"
 date = "2021-10-22"
+type = "article"
+
 [ author ]
   name = "Dogecoin"
 +++

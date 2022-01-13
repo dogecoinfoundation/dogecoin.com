@@ -1,6 +1,8 @@
 +++
 title = "Can you put a cap on Dogecoin?"
 date = "2021-10-22"
+type = "faq"
+
 [ author ]
   name = "Dogecoin"
 +++

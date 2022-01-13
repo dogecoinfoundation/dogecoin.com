@@ -1,6 +1,8 @@
 +++
 title = "Mining Dogecoin"
 date = "2021-10-22"
+type = "how-to"
+
 [ author ]
   name = "Dogecoin"
 +++

@@ -1,6 +1,8 @@
 +++
 title = "How can I use Dogecoin to buy stuff from my favorite stores?"
 date = "2021-10-22"
+type = "article"
+
 [ author ]
   name = "Dogecoin"
 +++

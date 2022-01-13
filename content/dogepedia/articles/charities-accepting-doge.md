@@ -1,6 +1,8 @@
 +++
-title = "What are some charities that accept Dogecoin?"
+title = "Charities Accepting Doge"
 date = "2021-10-22"
+type = "article"
+
 [ author ]
   name = "Dogecoin"
 +++

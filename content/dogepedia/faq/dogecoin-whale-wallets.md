@@ -1,6 +1,8 @@
 +++
 title = "A whale holds nearly 30% of Dogecoin supply! Is this true?"
 date = "2021-10-22"
+type = "faq"
+
 [ author ]
   name = "Dogecoin"
 +++
