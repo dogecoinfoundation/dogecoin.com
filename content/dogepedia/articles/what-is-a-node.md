@@ -38,10 +38,11 @@ If you are up to the task, please check our [Operating a Dogecoin Node Guide](/d
 
 There are no direct incentives in running a node. The reward consists in providing a service to the Dogecoin network and thus, hopefully, bringing value to it.
 
-
 ### Miners {#miners}
 A **miner** is a specialized node in the Dogecoin network.
 
 Miners have the task of creating new blocks in the blockchain by solving computationally-intensive cryptographic puzzles, in a process referred to as "mining". Miners confirm transactions by including them in a new block, secure the blockchain, and are rewarded for their work with so-called block rewards, consisting in 10,000 Dogecoin per mined block, and with the transaction fees associated with the transactions they have included into the block.
 
 Mining Dogecoin requires specialized hardware and consumes significant amounts of electricity. Additionally, maintenance costs and experience required to maintain a profitable mining setup in working order are much more considerable than those needed for running a node.
+
+A detailed overview of the role of miners in the Dogecoin network can be found [here](/dogepedia/articles/what-is-a-miner/)
