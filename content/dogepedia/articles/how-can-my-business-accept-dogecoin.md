@@ -15,4 +15,4 @@ If you have an ecommerce store, companies like Coinbase Commerce and BitPay make
 
 ***
 
-*Dogecoin and the Dogecoin Foundation is not affiliated with the companies mentioned in this article.*
+*Dogecoin and the Dogecoin Foundation are not affiliated with the companies mentioned in this article.*
