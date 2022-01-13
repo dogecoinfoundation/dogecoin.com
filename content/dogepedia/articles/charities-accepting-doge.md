@@ -3,7 +3,7 @@ title = "What are some charities that accept Dogecoin?"
 date = "2021-10-22"
 [ author ]
   name = "Dogecoin"
-+++]
++++
 
 Dogecoin’s history includes many charitable endeavours: from funding clean water wells in 2014 for Kenya, to the #TeamSeas initiative in 2021 – and many worthwhile causes in-between. The past year, though, has seen a dramatic increase in charities directly accepting Dogecoin donations – which is very much wow! 
 
