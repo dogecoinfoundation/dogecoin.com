@@ -5,13 +5,13 @@ date = "2021-10-22"
   name = "Dogecoin"
 +++
 
-A **Miner** is a specialized [node](/dogepedia/how-tos/what-is-a-node/) in the Dogecoin network.
+A **Miner** is a specialized [node](/dogepedia/articles/what-is-a-node/) in the Dogecoin network.
 
 After regular [nodes](/dogepedia/articles/what-is-a-node#full-nodes) in the network, by referencing the blockchain, have verified that a Dogecoin transaction is valid, the transaction is shown in a "pending" state. It stays in this state until a **miner** or a collective of miners known as a [**mining pool**](/dogepedia/articles/what-is-a-mining-pool) picks up the transaction.
 
 ### Miners: ELI5 {#miners-eli5}
 
-Miners are nodes using special hardware (normally Scrypt ASIC miners) which allows them to solve cryptographic puzzles, in a process referred to as "mining". A miner receives new transactions from the other nodes in the network, combines them in a **block** following predetermined and inviolable rules enforced by the network, and then attempts to solve a puzzle that will generate a special number, called a hash, that is derived by combining the content of the block and a number called nonce. 
+Miners are nodes using special hardware (normally Scrypt ASIC miners) which allows them to solve cryptographic puzzles, in a process referred to as "mining". A miner receives new transactions from the other nodes in the network, combines them in a **block** following predetermined and inviolable rules enforced by the network, and then attempts to solve a puzzle that will generate a special number, called a hash, that is derived by combining the content of the block and a number called **nonce** (*number used once*). 
 
 When a miner solves one of these puzzles before any other miner in the network, it is allowed to create a new block in the blockchain, thus confirming the transactions it has included in it. Miners make the blockchain secure and are rewarded for their work with so-called block rewards, consisting of 10,000 Dogecoin per mined block. Miners are also rewarded with the transaction fees associated with the transactions they have included into the block.
 
@@ -25,7 +25,7 @@ Miners play several fundamental roles.
 - They secure the blockchain
 - They introduce new coins into circulation
 
-All the miners in the Dogecoin network are in constant competition to solve computationally-intensive puzzles, consisting in finding a special number called a **nonce** (*number used once*). The first miner - or the first mining pool - that is able to find a nonce that, when *hashed* along with the content of the block header, returns a number smaller than the current network's difficulty target, is the one allowed to write a new block into the blockchain. 
+All the miners in the Dogecoin network are in constant competition to solve computationally-intensive puzzles, consisting in finding a special number called a nonce. The first miner - or the first mining pool - that is able to find a nonce that, when *hashed* along with the content of the block header, returns a number smaller than the current network's difficulty target, is the one allowed to write a new block into the blockchain. 
 
 The process of solving this puzzle is known as **Proof of Work**. By design, generating this proof is computationally intensive and thus requires a significant amount of electricity. This energy expenditure is what secures the network. A potential group of attackers would first need to gain control over a significant amount of expensive mining hardware; then, they would need to spend a lot of energy to sustain a prolonged attack against the network.
 
