@@ -5,7 +5,7 @@ date = "2021-10-22"
   name = "Dogecoin"
 +++
 
-Mining pools are services, operated by third parties not affiliated with Dogecoin, allowing group of [**miners**](/dogepedia/articles/what-is-a-miner/) to combine their [**hashing power**](/dogepedia/articles/what-is-a-miner/#hashing-power) when attempting to solve the puzzles involved in mining nodes. 
+Mining pools are services, operated by third parties not affiliated with Dogecoin, which allow a group of [**miners**](/dogepedia/articles/what-is-a-miner/) to combine their [**hashing power**](/dogepedia/articles/what-is-a-miner/#hashing-power) when attempting to solve the puzzles involved in mining nodes. 
 
 **Mining rewards** - consisting of 10,000 Dogecoin per block plus transaction fees associated to the transactions included in the block - are awarded to the miner who discovers a valid Proof of Work for a new block before any other miner in the network. Anyhow, alone, a miner has a very limited hashing power in relation to the overall **Mining Hashrate** of the network. This means a miner, even when using a powerful ASIC miner, has a small chance at being awarded the next block. In practice, this means it could take a long time before the miner finds a block and is awarded the rewards associated with it.
 
