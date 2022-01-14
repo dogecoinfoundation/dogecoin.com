@@ -15,4 +15,4 @@ The Dogecoin Foundation Development Team consists of OG Developers including Mic
 
 Within the Dogecoin ecosystem, there are also a number of exciting projects underway with some Doge dedicated developers and people involved. For example, the MyDoge team which is headed by Bill Lee includes the much impressive developers Alex Lewis and Jordan Jefferson.  
 
-As the Dogecoin ecosystem continues to evolve, we will need more developers to #BUIDL the future of the Peoples’ crypto! If you are interested in becoming a Dogecoin developer, learn more [here](/dogepedia/articles/how-do-I-become-a-dogecoin-developer).
+As the Dogecoin ecosystem continues to evolve, we will need more developers to #BUIDL the future of the Peoples’ crypto! If you are interested in becoming a Dogecoin developer, learn more [here](/dogepedia/articles/becoming-a-dogecoin-developer).
