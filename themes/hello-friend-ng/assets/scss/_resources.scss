@@ -2,7 +2,7 @@
     position:relative;
     display: block;
     padding: 100px 0 100px 0 !important;
-    margin: 400px 0 100px 0;
+    margin: 500px 0 100px 0;
     background-color: #fafafa;
   }
 
@@ -17,8 +17,10 @@
     background-color: #fcf4df;
   }
 
-  @media (max-width: 991.98px) { 
+  @media (max-width: 800px) { 
     .resources-top {
-      margin: 50px 0 100px 0;
+      margin: 800px 0 100px 0;
     }
   }
+
+ 
