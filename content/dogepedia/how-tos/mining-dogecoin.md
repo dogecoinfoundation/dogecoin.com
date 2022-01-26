@@ -83,7 +83,7 @@ It is recommended that the location where ASIC miners are housed has proper vent
 
 Most of the costs and complexities of running a profitable mining setup, especially if consisting of more than one ASIC miner, involve careful planning and regular maintenance. Some of it can be automated, but due to the high intensity of the work involved, ASICs are prone to hardware failure when improperly configured and maintained.
 
-### Finding Help as a Dogecoin Miner
+### Finding Help as a Dogecoin Miner {#finding-help}
 You must educate yourself if you are serious about mining. There are several communities where you can find help in setting up and operating your mining equipment. On reddit, you can ask questions on [r/dogecoin](https://www.reddit.com/r/dogecoin/), [r/dogemining](https://www.reddit.com/r/dogemining/), but also on [Litecoin Mining](https://www.reddit.com/r/litecoinmining/), since Dogecoin and Litecoin can be mined at the same time.
 
 
