@@ -14,7 +14,7 @@ A full node running on a machine with enough disk space and bandwidth will help 
 - Protect against censorship
 - Protect against network denial of service (DoS) attacks
 - Provide redundancy to the network by providing more bandwidth, which could be critical during spikes in activity
-- Establish a baseline for fees and dust limits through setting relay policies (since Dogecoin Core v1.14.4)
+- [Establish a baseline for fees and dust limits through setting relay policies](/dogepedia/how-tos/operating-a-node/#minrelaytxfee) (since Dogecoin Core v1.14.4)
 
 You can read more about the Dogecoin blockchain and nodes in these Dogepedia articles:
 
@@ -263,12 +263,12 @@ Dogecoin Core is highly configurable. Configuration settings for the Dogecoin Co
 To start Dogecoin GUI with custom settings:
 
 ```
-dogecoind-qt -maxconnections=50n -datadir/dogecoin/data
+dogecoind-qt -maxconnections=50 -datadir/dogecoin/data
 ```
 
 To start the Dogecoin Daemon with custom settings:
 ```
-dogecoind -maxconnections=50n -datadir/dogecoin/data -daemon
+dogecoind -maxconnections=50 -datadir/dogecoin/data -daemon
 ```
 
 Otherwise, you can save the configuration settings into the *dogecoin.conf* file and they will be applied whenever you start Dogecoin Core:
@@ -295,6 +295,20 @@ dogecoind-qt -conf=/cheemz/dogecoin.conf
 For the Dogecoin Core Deamon:
 ```
 dogecoind -conf=/cheemz/dogecoin.conf
+```
+
+#### Set the Minimum Relay Fee {#minrelaytxfee}
+As a node operator, you can set the minimum relay fee for your node. Transactions with fees below this amount (in DOGE/kB) will not be relayed by your node. Default: 0.001.
+
+```
+minrelaytxfee=<amt>
+```
+
+#### Set the Maximum Relay Fee {#maxtxfee}
+Transactions with a maximum total fee above this amount (in DOGE) will not be relayed. Default: 100.00.
+
+```
+maxtxfee=<amt>
 ```
 
 #### Accept RPC Commands {#rpcserver}
