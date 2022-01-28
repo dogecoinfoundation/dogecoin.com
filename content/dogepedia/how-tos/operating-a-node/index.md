@@ -21,7 +21,7 @@ You can read more about the Dogecoin blockchain and nodes in these Dogepedia art
 - [**What is a blockchain?**](/dogepedia/articles/what-is-a-blockchain/)
 - [**What is a node?**](/dogepedia/articles/what-is-a-node/)
 
-Since Dogecoin Core 1.14.4, the community has made major efforts to provide a more up-to-date documentation for node operators. The documentation, useful also for advanced users and those planning to build a package for their specific operating system, is included in the Dogecoin Core package available on Github. You can read it also online [here](https://github.com/dogecoin/dogecoin/tree/master/doc).
+Since Dogecoin Core 1.14.4, the community has made major efforts to provide a more up-to-date documentation for node operators. The documentation, useful also for advanced users and those planning to build a package for their specific operating system, is included in the Dogecoin Core repository available on Github. You can read it also online [here](https://github.com/dogecoin/dogecoin/tree/master/doc).
 
 ### Summary
 
@@ -49,7 +49,7 @@ Running a node is not as complicated as mining Dogecoin, as it does not involve 
 - A multi-core CPU is recommended if you plan to work/use the computer while the node is running.
 - If you want to provide a valuable service to the network, it is important that the node can stay online for a long period of time - ideally, the node should be running continuously, 24/24.
 
-Many node operators use online VPS services for hosting their Dogecoin nodes. Given enough HD space, a modern multi-core CPU, and enough outbound data transfer it is possible to host a website on the same server where a node is running.
+Many node operators use VPS services for hosting their Dogecoin nodes. Given enough HD space, a modern multi-core CPU, and enough outbound data transfer it is possible to host a website on the same server where a node is running.
 
 <hr />
 
@@ -57,7 +57,7 @@ Many node operators use online VPS services for hosting their Dogecoin nodes. Gi
 
 The data directory is the location where the blockchain files, alongside log files and wallet files, are stored. You should make sure that this directory is located on a drive with enough disk space. The location of this directory can be changed by using the -datadir= argument when starting your Dogecoin node or using the same setting in the [dogecoin.conf file](/dogepedia/how-tos/operating-a-node/#advanced-configuration).
 
-Default location of the Dogecoin Core Data Directory:
+This is the default location of the Dogecoin Core Data Directory:
 
 Platform | Data directory path
 ---------|--------------------
@@ -134,7 +134,6 @@ Developers and anybody that does not need to use the GUI (Graphical User Interfa
     C:\Program Files\Dogecoin\daemon> dogecoin-cli help getblock 
     ```
 
-
 For more information on using Dogecoin CLI refer to the [**Dogecoin CLI**](/dogepedia/how-tos/operating-a-node/#dogecoin-cli) section.
 
 ### macOS Instructions {#macos-instructions}
@@ -146,7 +145,7 @@ For more information on using Dogecoin CLI refer to the [**Dogecoin CLI**](/doge
 
 After the initial blockchain download is complete and you have enabled incoming connections, Dogecoin Core is ready to operate as a full node in the network. Anyhow, you might still want to change a couple of settings.
 
-- Make sure that incoming connections are enabled in your Dogecoin Core. Go to Dogecoin Core -> Preferences. In the Network tab, "Allow Incoming Connections" option must be checked.
+- Make sure that incoming connections are enabled in your Dogecoin Core. Go to Dogecoin Core -> Preferences. In the Network tab, the "Allow Incoming Connections" option must be checked.
    {{< figure src="macosx-network-options.png" alt="Dogecoin Core Installation on macOS - Network options" >}}
 - If you want to let Dogecoin Core start automatically when you start your machine, go to Dogecoin Core -> Preferences. In the Main tab, enable the "Start Dogecoin Core on system login" option.
    {{< figure src="macosx-enable-startup.png" alt="Dogecoin Core Installation on macOS - Start on system login" >}}
@@ -156,7 +155,7 @@ After the initial blockchain download is complete and you have enabled incoming 
 
 ### Linux Instructions {#linux-instructions}
 
-Running a headless Dogecoin Core node on a Linux machine is relatively straightforward. VPS plans work very well for this as they usually come with fast and reliable network connections, but make sure the plan you have selected includes enough data transfer per month and at least 60GB of disk space, as specified in the [minimum requirements section](/dogepedia/how-tos/operating-a-node/#minimum-requirements). Ideally, you should execute the following commands as a non-root Linux user - refer to your Linux distribution's manual in case you are not an experienced server administrator.
+Running Dogecoin Core node on a Linux machine is relatively straightforward. VPS plans work very well for running a headless node as they usually come with fast and reliable network connections, but make sure the plan you have selected includes enough data transfer per month and at least 60GB of disk space, as specified in the [minimum requirements section](/dogepedia/how-tos/operating-a-node/#minimum-requirements). Ideally, you should execute the following commands as a non-root Linux user - refer to your Linux distribution's manual in case you are not an experienced server administrator.
 
 - Download the latest Linux build from the [**Dogecoin Github repository**](https://github.com/dogecoin/dogecoin/releases):
     ```console
@@ -178,7 +177,7 @@ Running a headless Dogecoin Core node on a Linux machine is relatively straightf
     ```console
     shibetoshi:~$ dogecoin-qt
     ```
-- Dogecoin Daemon is now starting.
+- The Dogecoin Daemon is now starting.
 - You can now use the dogecoin-cli tool to interact with Dogecoin Core's JSON-RPC interface. Use the help command for a list of all available commands.
     ```console
     shibetoshi:~$ dogecoin-cli help
@@ -214,7 +213,7 @@ Otherwise, go into the Help -> Debug menu, and you should see a detailed overvie
 
 In both these examples, only incoming connections are enabled.
 
-If you are using Dogecoin CLI, you can check the total number of connections by using the *getconnectiontotal* command:
+If you are using the Dogecoin CLI, you can check the total number of connections by using the *getconnectioncount* command:
 
 ```console
 shibetoshi:~$ dogecoin-cli getconnectioncount
@@ -248,7 +247,7 @@ In most homes, computers connect to the Internet through a modem or a router, wh
 - In the router's control panel, configure port forwarding, forwarding all inbound traffic to port 22556 from your router to the static IP you assigned to the machine running Dogecoin Core.
 
 #### Open Port 22556 in your firewall configuration
-Finally, in some setups and operating systems, you will also need to open port 22556 in the machine where Dogecoin Core is installed. The instructions to do so vary from operating system to operating system.
+Finally, in some setups and operating systems, you will also need to open port 22556 in the machine where Dogecoin Core is installed. The instructions to do so vary from operating system to operating system. Some antivirus software might include a firewall - refer to the manual provided by the developer.
 
 - [Windows 10 & 11 Instructions](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-inbound-port-rule)
 - [macOS Instructions (usually unnecessary; the firewall is disabled by default)](https://support.apple.com/en-us/HT201642)
@@ -283,6 +282,8 @@ You can get a list of all the available configuration settings using the *help* 
 shibetoshi:~$ dogecoind -help
 ```
 
+The examples directory of the Dogecoin Github Repository includes a dogecoin.conf file with in-depth commentary about the various settings. Check it out [here](https://github.com/dogecoin/dogecoin/blob/master/contrib/debian/examples/dogecoin.conf).
+
 #### Path to dogecoin.conf
 You can specify a custom path to dogecoin.conf when starting Dogecoin Core.
 
@@ -292,7 +293,7 @@ For Dogecoin Core GUI:
 dogecoind-qt -conf=/cheemz/dogecoin.conf
 ```
 
-For the Dogecoin Core Deamon:
+For the Dogecoin Core Daemon:
 ```
 dogecoind -conf=/cheemz/dogecoin.conf
 ```
@@ -312,18 +313,48 @@ maxtxfee=<amt>
 ```
 
 #### Accept RPC Commands {#rpcserver}
-Enable RPC commands for dogecoind and dogecoin-qt.
+Enable RPC commands for dogecoind and dogecoin-qt. The interface is exposed on port 25555.
 
 ```
 server=1
 ```
 
-#### RPC Username and Password {#rpccredentials}
-When interacting with the RPC interface, authentication is required. Dogecoin Core uses a random cookie when no authentication credentials are provided. Users can configure a username and password for access to the RPC interface.
+#### RPC Username and Password (deprecated) {#rpccredentials}
+When interacting with the RPC interface, authentication is required. Dogecoin Core uses a random cookie when no authentication credentials are provided. Users can configure a username and password for access to the RPC interface. **Be extremely careful in not exposing a wallet. Anybody with access to the RPC credentials has full access to your wallet. The username and password are not encrypted when connecting to a remote RPC server.**
 
 ```
 rpcuser=shibetoshi
 rpcpassword=impossibletoguesspassword
+```
+
+#### RPC Auth {#rpcauth}
+Instead of storing the plain password in the configuration file, you can instead store its hash. The client can connect normally using the rpcuser and rpcpassword arguments. The format is:
+
+```
+rpcauth=<USERNAME>:<SALT>$<HASH>
+```
+
+A python script to generate the user login credentials is included in the [share/rpcuser directory](https://github.com/dogecoin/dogecoin/tree/master/share/rpcuser) in the Dogecoin Github repository.
+
+#### RPC Bind {#rpcbind}
+Bind to a given address to listen for JSON-RPC connections. **Be extremely careful in not exposing a wallet. Anybody with access to the RPC credentials has full access to your wallet.**
+
+```
+rpcbind=<addr>
+```
+
+#### RPC Allow IPs {#rpcallowip}
+Allow JSON-RPC connections only from the specified ips. Specify multiple times to allow connections from multiple IPs. **Be extremely careful in not exposing a wallet. Anybody with access to the RPC credentials has full access to your wallet.**
+
+```
+rpcallowip=<addr>
+```
+
+#### RPC Port {#rpcpor}
+Bind to the given port to listen for JSON-RPC connections (default:25555). **Be extremely careful in not exposing a wallet. Anybody with access to the RPC credentials has full access to your wallet.**
+
+```
+rpcport=<port>
 ```
 
 #### Custom Data Directory {#data-directory}
@@ -463,30 +494,35 @@ Some useful commands are listed below.
     ```console
     shibetoshi:~$ dogecoin-cli getinfo
     ```
-- Get information about your node:
-    ```console
-    shibetoshi:~$ dogecoin-cli getinfo
-    ```
 - Get total number of connections:
     ```console
     shibetoshi:~$ dogecoin-cli getconnectioncount
     ```
 - Add a node to the addnode list:
     ```console
-    shibetoshi:~$ dogecoin-cli addnode 173.223.153.245 add
+    shibetoshi:~$ dogecoin-cli addnode <addr> add
     ```
 - Remove a node from the addnode list:
     ```console
-    shibetoshi:~$ dogecoin-cli addnode 173.223.153.245 add
+    shibetoshi:~$ dogecoin-cli addnode <addr> add
     ```
 - Disconnect from a node:
     ```console
-    shibetoshi:~$ dogecoin-cli disconnectnode 173.223.153.245 
+    shibetoshi:~$ dogecoin-cli disconnectnode <addr>
     ```
 - Get information about the blockchain processing:
     ```console
     shibetoshi:~$ dogecoin-cli getblockchaininfo
     ```
+- Get information about a specific block:
+    ```console
+    shibetoshi:~$ dogecoin-cli getblock <blockhash>
+    ```
+- Get information about a specific transaction:
+    ```console
+    shibetoshi:~$ dogecoin-cli gettransaction <txid>
+    ```
+
 In general, it is recommend that you explore and "play" with the various available commands; there is no better way to learn. The JSON-RPC interface can be used to develop services and automate the management of your Dogecoin Core node.
 
 <hr />
