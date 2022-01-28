@@ -221,7 +221,7 @@ shibetoshi:~$ dogecoin-cli getconnectioncount
 12
 ```
 
-In this case, since there are more than 8 active connection, we know that the node is already allowing incoming connections. 
+In this case, since there are more than 8 active connections, we know that the node is already allowing incoming connections. 
 
 Please keep in mind that your node will be able to accept incoming connections only after it has downloaded a full copy of the blockchain. Wait for the sync phase to complete and then wait a few hours before checking whether incoming connections are working.
 
