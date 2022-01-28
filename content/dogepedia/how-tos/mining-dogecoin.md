@@ -39,7 +39,9 @@ You can buy ASIC miners directly from their manufacturers, but there is normally
 
 eBay is an option, as well, but it is better suited to experienced miners. Make sure to rely on well-known sellers with a higher number of feedback ratings and an overall positive score. eBay usually offers some form of buyer protection (always check the conditions), making it a good platform to find second-hand miners. It is recommended that you reinstall the ASIC miner's firmware before using a second-hand ASIC miner.
 
-Keep in mind that old ASIC models will always be less profitable than newer ones, because for the same amount of energy consumption they are generally capable of generating less work than newer models.
+Keep in mind that old ASIC models will always be less profitable than newer ones, because for the same amount of energy consumption they are generally capable of generating less work than newer models. At the same time, starting with older ASICs, which might be more readily available, and then upgrading to newer ones reinvesting your mining profits might be a sensible strategy.
+
+You can find a list of current Scrypt ASIC miners and their profitability on [Minerstat](https://minerstat.com/algorithm/scrypt/profitability) (this website is not affiliated with Dogecoin).
 
 ### Can You Mine Dogecoin with a GPU? {#dogecoin-mining-with-a-gpu}
 You can still try to mine Dogecoin, and contribute to the hashrate of the network, using a computer with a gaming GPU. But this will lead to close to no profits, high energy bills, and to a small contribution to the total Mining Hashrate of the network.
