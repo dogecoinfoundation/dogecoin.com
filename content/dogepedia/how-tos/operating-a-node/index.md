@@ -263,12 +263,12 @@ Dogecoin Core is highly configurable. Configuration settings for the Dogecoin Co
 To start Dogecoin GUI with custom settings:
 
 ```
-dogecoind-qt -maxconnections=50 -datadir/dogecoin/data
+dogecoind-qt -maxconnections=50 -datadir=/dogecoin/data
 ```
 
 To start the Dogecoin Daemon with custom settings:
 ```
-dogecoind -maxconnections=50 -datadir/dogecoin/data -daemon
+dogecoind -maxconnections=50 -datadir=/dogecoin/data -daemon
 ```
 
 Otherwise, you can save the configuration settings into the *dogecoin.conf* file and they will be applied whenever you start Dogecoin Core:
