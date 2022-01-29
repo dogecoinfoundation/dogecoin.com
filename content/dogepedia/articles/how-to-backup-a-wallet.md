@@ -25,7 +25,7 @@ Whenever you generate a new public address with Dogecoin Core or you spend coins
 *Remember: whoever gains access to the wallet.dat file will be able to spend your Dogecoin*.
 
 #### Saving Private Keys and Public Keys in a Text File
-The wallet.dat file is not a plain-text file. It is a binary file that requires a copy of Dogecoin Core to be used and read. For this reason, it might be a good idea to create a plain text backup of your wallet, containing a list of all private and public keys currently in use by Dogecoin Core. In order to do so:
+The wallet.dat file is not a plain-text file. It is a BDB (Berkley Database). For this reason, it might be a good idea to create a plain text backup of your wallet, containing a list of all private and public keys currently in use by Dogecoin Core. In order to do so:
 
 - Go to Help -> Debug Window
 - Select the Console tab
