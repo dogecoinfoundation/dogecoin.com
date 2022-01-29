@@ -15,8 +15,35 @@ Most Dogecoin holders use some kind of [*wallet application*](/dogepedia/article
 
 Dogecoin Core, the software used to run a Dogecoin node, is often used as a wallet application. In order to create a backup with Dogecoin Core, follow these steps:
 
-- (Optional, but recommended) First, encrypt your wallet. To do so, go to Settings -> Encrypt wallet. You will be asked to enter a password. It is crucial that you store this password somewhere safe and that you never lose it. Without it, you will be unable to access the funds in your encrypted wallet. On the other hand, this password adds an extra layer of security to your backup. Without it, even if an attacker gains access to your wallet file, he will still be unable to spend your Dogecoin.
+- (Optional, but recommended) First, encrypt your wallet. To do so, go to Settings -> Encrypt wallet. You will be asked to enter a password. It is crucial that you store this password somewhere safe and that you never lose it. Without it, you would be unable to access the funds in your encrypted wallet. 
+
+   On the other hand, this password adds an extra layer of security to your backup. Without it, even if an attacker gains access to your wallet file, he will still be unable to spend your Dogecoin, unless he succeeds in brute forcing or guessing the encryption password.
 - Go to File -> Backup Wallet. This will generate a wallet.dat file, which stores a list of all the key pairs you have used. Restoring this file will give you access to your Dogecoin. Store it somewhere safe, in a device not connected to the internet.
+
+Whenever you generate a new public address with Dogecoin Core or you spend coins, it is recommended that you create a new backup, as the old wallet.dat files might not contain a copy of the private key associated with the new public address or with possible change addresses - thus, upon restoring the wallet, you might be missing part of your Dogecoin.
+
+*Remember: whoever gains access to the wallet.dat file will be able to spend your Dogecoin*.
+
+#### Saving Private Keys and Public Keys in a Text File
+The wallet.dat file is not a plain-text file. It is a binary file that requires a copy of Dogecoin Core to be used and read. For this reason, it might be a good idea to create a plain text backup of your wallet, containing a list of all private and public keys currently in use by Dogecoin Core. In order to do so:
+
+- Go to Help -> Debug Window
+- Select the Console tab
+- If your wallet is encrypted, temporarily decrypt it using the *walletpassphrase* command, specifying the amount of seconds after which the decrypted copy will be deleted.
+	```console
+    walletpassphrase "yourpasswordhere" 120
+    ```
+    The console should return "null".
+- Dump your wallet in a file using the *dumpwallet* command and specifying the path to the file.
+	```console
+    dumpwallet "/Users/Cheemz/BackupDirectory/mywallet"
+    null
+    ```
+    The console should return "null".
+- Optional: encrypt the wallet file. You can use your operating system's disk encryption options or a zip program allowing you to password-protect a file and encrypt it with a secure algorithm (AES256, for example). Make sure the password used for the encryption is impossible to forget or stored properly as well.
+- Copy the backup in multiple safe locations, NOT connected to the Internet. 
+
+*Remember: whoever gains access to the plain-text wallet file will be able to spend your Dogecoin*.
 
 ### Wallet Backups with Wallets Using Seed Phrases
 
