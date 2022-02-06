@@ -17,7 +17,7 @@ Dogecoin Core, the software used to run a Dogecoin node, is often used as a wall
 
 - (Optional, but recommended) First, encrypt your wallet. To do so, go to Settings -> Encrypt wallet. You will be asked to enter a password. It is crucial that you store this password somewhere safe and that you never lose it. Without it, you would be unable to access the funds in your encrypted wallet. 
 
-   On the other hand, this password adds an extra layer of security to your backup. Without it, even if an attacker gains access to your wallet file, he will still be unable to spend your Dogecoin, unless he succeeds in brute forcing or guessing the encryption password.
+   On the other hand, this password adds an extra layer of security to your backup. Without it, even if an attacker gains access to your wallet file, they will still be unable to spend your Dogecoin, unless they succeed in brute forcing or guessing the encryption password.
 - Go to File -> Backup Wallet. This will generate a wallet.dat file, which stores a list of all the key pairs you have used. Restoring this file will give you access to your Dogecoin. Store it somewhere safe, in a device not connected to the internet.
 
 Whenever you generate a new public address with Dogecoin Core or you spend coins, it is recommended that you create a new backup, as the old wallet.dat files might not contain a copy of the private key associated with the new public address or with possible change addresses - thus, upon restoring the wallet, you might be missing part of your Dogecoin.
