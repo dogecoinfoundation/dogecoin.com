@@ -1,8 +1,11 @@
 +++
 title = "How can I become a Dogecoin developer?"
 date = "2021-10-22"
+type = "article"
+
 [ author ]
   name = "Dogecoin"
+
 +++
 
 Dogecoin is an open-source project, meaning that anyone with some technical know-how can contribute to Dogecoin’s technical development. Even if you’re new to the space, it’s never too late to learn new tricks!  

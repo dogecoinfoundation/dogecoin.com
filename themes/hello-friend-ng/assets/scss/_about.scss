@@ -71,12 +71,12 @@
       column-gap: 15px;
       .member {
         text-align: center;
-        [data-theme="dark"] & {
-          background: url("/member-dark.png") no-repeat center top;
-        }
-        [data-theme="light"] & {
-          background: url("/member-light.png") no-repeat center top;
-        }
+        // [data-theme="dark"] & {
+        //   background: url("/member-dark.png") no-repeat center top;
+        // }
+        // [data-theme="light"] & {
+        //   background: url("/member-light.png") no-repeat center top;
+        // }
         img {
           width: 150px;
           margin: 0 auto;

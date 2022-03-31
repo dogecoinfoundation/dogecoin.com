@@ -1,6 +1,8 @@
 +++
 title = "What is a miner?"
 date = "2021-10-22"
+type = "article"
+
 [ author ]
   name = "Dogecoin"
 +++
@@ -51,11 +53,11 @@ The hashing power of all the miners in the network is referred to as **Mining Ha
 
 Many coins, including Litecoin and Dogecoin, use the same Scrypt algorithm for their Proof of Work. 
 
-In 2014, since the total hashrate of Dogecoin was declining, the creator of Litecoin, Charlie Lee, proposed a solution: allowing Dogecoin to accept proofs calculated for other cryptocurrencies using the same implementation of the Scrypt algorithm. The proposal was accepted and implemented in 2015 by the Dogecoin Developers. The way this was implemented is commonly referred to as **Auxiliary Proof-of-Work (AuxPoW)**.
+In 2014, since the total hashrate of Dogecoin was declining, the creator of Litecoin, Charlie Lee, proposed a solution: allowing Dogecoin to accept proofs calculated for other cryptocurrencies using the same implementation of the Scrypt algorithm. The proposal was accepted. The way this was implemented is commonly referred to as **Auxiliary Proof-of-Work (AuxPoW)**.
 
-As a result, the proof of doing work on Litecoin or in any other classic Scrypt coin can be used as proof for mining a Dogecoin block. To do so, the miner must prepare that block with a reference in its header to the Dogecoin block it is going to mine at the same time. As long as the scrypt proofs are well-formed and match the [difficulty target](/dogepedia/articles/what-is-a-miner/#the-role-of-miners) of the Dogecoin network, then the proof can be accepted as valid.
+As a result, the proof of doing work on Litecoin or in any other classic Scrypt coin can be used as proof for mining a Dogecoin block, as long as the miner prepares that block in a way where it references which Dogecoin block he is going to mine at the same time.
 
-Simply put, miners can use the same computational power they would use to calculate proofs for a single cryptocurrency to provide proofs to multiple chains simultaneously, receiving rewards from several blockchains at once, thus increasing their profit and working more efficiently.
+Simply put, miners can use the same computational power to provide proofs to multiple chains simultaneously, receiving rewards from several blockchains at once, thus increasing their profit and working more efficiently.
 
 ### Mining Dogecoin 
 

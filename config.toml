@@ -33,7 +33,10 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
-
+[module]
+  [[module.mounts]]
+    source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    target = "assets/js/bootstrap.bundle.min.js"
 
 [markup]
   [markup.goldmark]
@@ -41,7 +44,7 @@ disableHugoGeneratorInject = false
       unsafe = true
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  posts = "/:title/"
 
 [author]
   name = "Dogecoin"
@@ -227,64 +230,32 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "what-is-dogecoin"
     name       = "What is Dogecoin?"
-    url        = "what-is-dogecoin/"
+    url        = "#what-is-dogecoin"
     weight     = 2
 
   [[menu.main]]
     identifier = "wallets"
     name       = "Wallets"
-    url        = "wallets/"
+    url        = "#wallets"
     weight     = 3
 
   [[menu.main]]
     identifier = "community"
     name       = "Community"
-    url        = "community/"
+    url        = "#community"
     weight     = 4
 
   [[menu.main]]
     identifier = "dogepedia"
     name       = "Dogepedia"
-    url        = "dogepedia/"
+    url        = "#dogepedia"
     weight     = 5
 
-    [menu.main.params]
-      class = "parent"
-
-    [[menu.main]]
-    identifier = "faq"
-    name       = "FAQ"
-    url        = "dogepedia/#faq"
-    parent = "dogepedia"
-    weight     = 5
-
-    [[menu.main]]
-    identifier = "resource"
-    name       = "Resources"
-    url        = "dogepedia/resources"
-    parent = "dogepedia"
-    weight     = 5
-
-    [[menu.main]]
-    identifier = "how-tos"
-    name       = "How Tos"
-    url        = "dogepedia/#howto"
-    parent = "dogepedia"
-    weight     = 5
-    
-    [[menu.main]]
-    identifier = "documentation"
-    name       = "Documentation"
-    url        = "dogepedia/#documentation"
-    parent = "dogepedia"
-    weight     = 5
-    
   [[menu.main]]
-  identifier = "foundation"
-  name       = "Foundation"
-  url        = "https://foundation.dogecoin.com"
-  weight     = 6
-
+    identifier = "resources"
+    name       = "Resources"
+    url        = "#dogepedia"
+    weight     = 6
 
 [[params.footerLegal]]
     name = "Terms & Conditions"

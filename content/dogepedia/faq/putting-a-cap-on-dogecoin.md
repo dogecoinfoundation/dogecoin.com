@@ -1,6 +1,9 @@
 +++
 title = "Can you put a cap on Dogecoin?"
 date = "2021-10-22"
+type = "faq"
+image = "/assets/images/faq-image2.jpg"
+url = "/dogepedia/putting-a-cap-on-dogecoin.md"
 [ author ]
   name = "Dogecoin"
 +++

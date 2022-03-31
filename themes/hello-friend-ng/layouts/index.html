@@ -1,30 +1,432 @@
 {{ define "body" }}
-    <body class="home{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
-{{ end }}
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-{{ define "main" }}
-    <main class="main">
-        <div class="left">
-            <div class="title">
-                <h1>Dogecoin</h1>
+<style>
+    .font28 {
+        font-size: 28px;
+    }
+
+    .screen {
+        position: relative;
+        height: 100%;
+        letter-spacing: 1px;
+    }
+
+    .preload {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 28px;
+        line-height: 50px;
+        text-align: center;
+        text-transform: lowercase;
+    }
+
+    .preload__letter {
+        display: inline-block;
+        margin: 0 0px;
+        position: relative;
+        letter-spacing: -5px;
+        text-transform: lowercase;
+    }
+
+    .preload__letter--loaded::after {
+        content: "";
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        color: #fff;
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    .d_text_display {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .d_text_display #dynamic_d {
+        opacity: 1;
+        left: 0;
+        bottom: 0;
+        border-radius: 10px;
+        transition: .5s;
+        transform: translateY(100%) scale(1.2);
+        visibility: visible;
+    }
+
+    .d_text_display.for_animation_class #dynamic_d {
+        transform: translateY(0%) scale(1);
+        visibility: visible;
+    }
+   
+
+    @media (max-width: 768px) {
+        .preload {
+            font-size: 20px;
+            top: 55%;
+        }
+    }
+</style>
+
+<body class="home is-loading">
+    {{ end }}
+    {{ define "main" }}
+    <!-- The video -->
+    <!-- loading start -->
+    <div class="preloader_div">
+
+        <div id="preloader" class="pre_loader_new">
+            <div class="txt">
+                <img src="assets/images/preloader-logo.png" alt="preloader logo" class="mb-2">
+                <p class="txt-perc">0%</p>
+                <div class="progress"><span></span></div>
             </div>
-            <div class="underline"></div>
-            {{- with .Site.Params.homeSubtitle }}
-                <p class="subtitle">{{.}}</p>
-            {{- end }}
         </div>
-        <div>
-            <div class="doge-container desktop">
-               <img class="kabosu" src="/doge-no-eyes.png" alt="{{ .Site.Params.Portrait.Alt }}">
-                <div class="thought">???</div>
-                <div id="nose"></div>
-                <img id="left-eye" src="/left_eye.png" alt="Left eye" />
-                <img id="right-eye" src="/right_eye.png" alt="Right eye" />
-                <div class="eyes-background rainbow"></div>
-            </div>
-            <div class="doge-container mobile">
-                <img class="kabosu" src="/doge.png" alt="{{ .Site.Params.Portrait.Alt }}">
+        <div id="intro" class="header-container fs">
+            <div class="bcg"></div>
+            <span class="scroll-hint">Scroll Down</span>
+        </div>
+
+    </div>
+    <!-- loading end -->
+    <div id="hero_banner">
+        <video id="video-header" autoplay muted loop>
+            <source src="/assets/images/Header_Video.mp4" type="video/mp4">
+        </video>
+        <div id="home" class="viewport-header">
+            <div class="container">
+                <h1 class="d_text_display"><span id="dynamic_d">D</span><span class="d_span_opacity">D</span>OGECOIN
+                </h1>
+                {{- with .Site.Params.homeSubtitle }}
+                <!-- <h2 class="subtitle">{{.}}</h2> -->
+                <!-- <h2 class="subtitle text-white">the people’s crypto-currency</h2> -->
+                
+                    <div class="screen mt-3">
+                        <div class="preload">
+                            <span class="subtitle poppins fw-light text-white">the people’s</span>
+                            <span class="preload__letter subtitle poppins fw-light text-white">C</span>
+                            <span class="preload__letter subtitle poppins fw-light text-white">r</span>
+                            <span class="preload__letter subtitle poppins fw-light text-white">y</span>
+                            <span class="preload__letter subtitle poppins fw-light text-white">p</span>
+                            <span class="preload__letter subtitle poppins fw-light text-white">t</span>
+                            <span class="preload__letter subtitle poppins fw-light text-white">o</span>
+                            <span class="preload__letter subtitle poppins fw-light text-white">C</span>
+                            <span class="preload__letter subtitle poppins fw-light text-white">u</span>
+                            <span class="preload__letter subtitle poppins fw-light text-white">r</span>
+                            <span class="preload__letter subtitle poppins fw-light text-white">r</span>
+                            <span class="preload__letter subtitle poppins fw-light text-white">e</span>
+                            <span class="preload__letter subtitle poppins fw-light text-white">n</span>
+                            <span class="preload__letter subtitle poppins fw-light text-white">c</span>
+                            <span class="preload__letter subtitle poppins fw-light text-white">y</span>
+                        </div>
+                    </div>
+                
+
+
+                
+                
+                {{- end }}
             </div>
         </div>
+    </div>
+    <main>
+        {{ partial "whatisdogecoin.html" . }}
+        {{ partial "wallets.html" . }}
+        {{ partial "community.html" . }}
+        <br />
+        {{ partial "resources.html" . }}
     </main>
-{{ end }}
+
+    <script type="text/javascript">
+        var navbar = document.querySelector('header')
+        var rect = document.querySelector("#home").getBoundingClientRect();
+        var offset = {
+            top: rect.top + window.scrollY,
+            left: rect.left + window.scrollX,
+        };
+
+        // Script to hide/show menu
+        var video = document.querySelector('.header-sticky');
+        window.onscroll = function () {
+            // pageYOffset or scrollY
+            if (window.pageYOffset > rect.height) {
+                navbar.classList.add('scrolled')
+                //video.classList.add('scrolled')
+            } else {
+                navbar.classList.remove('scrolled')
+                //video.classList.remove('scrolled')
+            }
+        }
+    </script>
+    <!-- for loader -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@0.0.3/dist/confetti.browser.min.js"></script>
+
+    <script>
+
+
+        document.getElementById("nose").addEventListener('click', function () {
+
+            confetti({
+                particleCount: 100,
+                spread: 70,
+                origin: {
+                    y: 0.45,
+                    x: 0.72
+                }
+            });
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('.menu__inner li.nav-items:first-child a.nav-link').addClass('active');
+            $('.menu ul li a[href*="#"]:not([href="#"]),.footer_site_links  ul li a[href*="#"]:not([href="#"])').click(function () {
+
+                //add active class in menu
+                $('.menu__inner a.nav-link').removeClass('active');
+                $(this).addClass('active');
+
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top - 100
+                        }, 500);
+                        return false;
+                    }
+                }
+            });
+        });    
+    </script>
+    <script>
+
+        (function ($) {
+            // number of loaded images for preloader progress 
+            var loadedCount = 0; //current number of images loaded
+            var imagesToLoad = $('.bcg').length; //number of slides with .bcg container
+            var loadingProgress = 0; //timeline progress - starts at 0
+
+            $('.bcg').imagesLoaded({
+                background: true
+            }).progress(function (instance, image) {
+                loadProgress();
+            });
+
+            function loadProgress(imgLoad, image) {
+                //one more image has been loaded
+                loadedCount++;
+
+                loadingProgress = (loadedCount / imagesToLoad);
+
+                //console.log(loadingProgress);
+
+                // GSAP timeline for our progress bar
+                TweenLite.to(progressTl, 0.7, {
+                    progress: loadingProgress,
+                    ease: Linear.easeNone
+                });
+
+            }
+
+            //progress animation instance. the instance's time is irrelevant, can be anything but 0 to void  immediate render
+            var progressTl = new TimelineMax({
+                paused: true,
+                onUpdate: progressUpdate,
+                onComplete: loadComplete
+            });
+
+            progressTl
+                //tween the progress bar width
+                .to($('.progress span'), 1, {
+                    width: 100,
+                    ease: Linear.easeNone
+                });
+
+            //as the progress bar witdh updates and grows we put the precentage loaded in the screen
+            function progressUpdate() {
+                //the percentage loaded based on the tween's progress
+                loadingProgress = Math.round(progressTl.progress() * 100);
+                //we put the percentage in the screen
+                $(".txt-perc").text(loadingProgress + '%');
+
+            }
+
+            function loadComplete() {
+
+                // preloader out
+                var preloaderOutTl = new TimelineMax();
+
+                preloaderOutTl
+                    .to($('.progress'), 0.3, {
+                        y: 100,
+                        autoAlpha: 0,
+                        ease: Back.easeIn
+                    })
+                    .to($('.txt-perc'), 0.3, {
+                        y: 100,
+                        autoAlpha: 0,
+                        ease: Back.easeIn
+                    }, 0.1)
+                    .set($('body'), {
+                        className: '-=is-loading'
+                    })
+                    .set($('#intro'), {
+                        className: '+=is-loaded'
+                    })
+                    .to($('#preloader'), 0.7, {
+                        yPercent: 100,
+                        ease: Power4.easeInOut
+                    })
+                    .set($('#preloader'), {
+                        className: '+=is-hidden'
+                    })
+                    .from($('#intro .title'), 1, {
+                        autoAlpha: 0,
+                        ease: Power1.easeOut
+                    }, '-=0.2')
+                    .from($('#intro p'), 0.7, {
+                        autoAlpha: 0,
+                        ease: Power1.easeOut
+                    }, '+=0.2')
+                    .from($('.scroll-hint'), 0.3, {
+                        y: -20,
+                        autoAlpha: 0,
+                        ease: Power1.easeOut
+                    }, '+=0.1');
+
+                return preloaderOutTl;
+            }
+        }($));
+    </script>
+    <!-- banner subtitle animation -->
+    <!-- <script>
+        var options = {
+            preload: {
+                selector: '.preload',
+                itemSelector: '.preload__letter',
+                text: 'currency'
+            }
+        }
+        var Preload = function () {
+            preloadLetters = document.querySelectorAll(options.preload.itemSelector);
+            text = options.preload.text.split('');
+            intervals = [];
+
+            this.init = function () {
+                for (var i = 0; i < text.length; i++) {
+                    letterRandomize(preloadLetters[i], i);
+                }
+            }
+
+            var letterRandomize = function (el, index) {
+                possible = "abd";
+                intervals[index] = setInterval(function () {
+                    el.innerHTML = possible.charAt(Math.floor(Math.random() * possible.length))
+                }, 50);
+                setTimeout(function () {
+                    clearInterval(intervals[index]);
+                    el.innerHTML = text[index];
+                    el.classList.add('preload__letter--loaded');
+                }, 250 * index);
+            }
+        }
+
+        var p = new Preload();
+        p.init();
+    </script> -->
+    <script>
+        setTimeout(function () {
+           
+        
+        var options = {
+            preload: {
+                selector: '.preload',
+                itemSelector: '.preload__letter',
+                text: 'cryptocurrency'
+            }
+        }
+        var Preload = function () {
+            preloadLetters = document.querySelectorAll(options.preload.itemSelector);
+            text = options.preload.text.toUpperCase().split('');
+            intervals = [];
+
+            this.init = function () {
+                for (var i = 0; i < text.length; i++) {
+                    letterRandomize(preloadLetters[i], i);
+                }
+            }
+
+            var letterRandomize = function (el, index) {
+                possible = "cryptocurrency";
+                intervals[index] = setInterval(function () {
+                    el.innerHTML = possible.charAt(Math.floor(Math.random() * possible.length))
+                }, 50);
+                setTimeout(function () {
+                    clearInterval(intervals[index]);
+                    el.innerHTML = text[index];
+                    el.classList.add('preload__letter--loaded');
+                }, 250 * index);
+            }
+        }
+
+        var p = new Preload();
+        p.init();
+    }, 2100);
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // You can also pass an optional settings object
+        // below listed default settings
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: true, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+        setTimeout(function () {
+            $("#dynamic_d").html('Ð').parent().addClass('for_animation_class');
+        }, 5500);
+    </script>
+    <script>
+        $(document).ready(function () {
+            if ($(window).width() <= 991) {
+                $('.menu__inner .nav-items .nav-link').on('click', function () {
+                    console.log(this);
+                    $(".menu").toggleClass('hidden');
+                });
+            }
+        });
+    </script>
+
+
+
+
+
+    {{ end }}

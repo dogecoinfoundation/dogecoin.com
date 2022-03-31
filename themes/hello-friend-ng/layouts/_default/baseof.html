@@ -8,7 +8,6 @@
         <body>
     {{ end }}
     
-        <div class="container">
             {{ partial "header.html" . }}
 
             <div class="content">
@@ -18,8 +17,9 @@
             {{ block "footer" . }}
                 {{ partial "footer.html" . }}
             {{ end }}
-        </div>
+        
 
         {{ partial "javascript.html" . }}
+        
     </body>
 </html>

@@ -1,6 +1,9 @@
 +++
 title = "Dogecoin Inflation"
 date = "2021-10-22"
+type = "faq"
+image = "/assets/images/faq-image6.jpg"
+url = "/dogepedia/dogecoin-inflation.md"
 [ author ]
   name = "Dogecoin"
 +++

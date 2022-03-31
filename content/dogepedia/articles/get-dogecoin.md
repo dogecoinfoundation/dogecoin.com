@@ -1,6 +1,8 @@
 +++
 title = "How can I get Dogecoin?"
 date = "2021-10-22"
+type = "article"
+
 [ author ]
   name = "Dogecoin"
 +++

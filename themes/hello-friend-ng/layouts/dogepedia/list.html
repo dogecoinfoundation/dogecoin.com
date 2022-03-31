@@ -1,0 +1,258 @@
+{{ define "main" }}
+<main class="dogepedia dogepedia_content_1 w-100">
+  <div class="container-fluid px-0">
+    <div class="title">
+      <h1 class="text-uppercase text-center text-white fw-bold montserrat font60">{{ .Title }}</h1>
+      <a class="text-center montserrat fw-normal text-uppercase text-white text-decoration-none mx-auto d-table">Home
+        <span class="color-dfc788 ps-3">— &nbsp;&nbsp;&nbsp; {{ .Title }}</span></a>
+    </div>
+  </div>
+  <div class="underline"></div>
+  <section class="box for_tabbing_style">
+    <div class="container">
+      <div class="row mx-0 w-100">
+        <div class="col-12 col-md-3 px-3 px-lg-3 px-xl-0 left-filter-section" id="sidebarWrap">
+          <div class="tab nav flex-column nav-pills sticky-lg-top" id="v-pills-tab" role="tablist"
+            aria-orientation="vertical">
+            <button class="tablinks font16 montserrat fw-medium color-505050 nav-link active" data-bs-toggle="pill"
+              data-bs-target="#FAQ" type="button" role="tab" aria-controls="FAQ" aria-selected="true">{{
+              .Params.faq }}</button>
+            <button class="tablinks font16 montserrat fw-medium color-505050 nav-link" data-bs-toggle="pill"
+              data-bs-target="#Resources" type="button" role="tab" aria-controls="Resources" aria-selected="false">{{
+              .Params.resources }}</button>
+            <button class="tablinks font16 montserrat fw-medium color-505050 nav-link" id="v-pills-messages-tab"
+              data-bs-toggle="pill" data-bs-target="#HowTo" type="button" role="tab" aria-controls="HowTo"
+              aria-selected="false">{{
+              .Params.howto }}</button>
+            <button class="tablinks font16 montserrat fw-medium color-505050 nav-link" id="v-pills-settings-tab"
+              data-bs-toggle="pill" data-bs-target="#Documentation" type="button" role="tab"
+              aria-controls="Documentation" aria-selected="false">{{ .Params.documentation }}</button>
+          </div>
+        </div>
+
+        <div class="tab-content col-12 col-md-9 ps-3 ps-md-3 ps-lg-4 ps-xl-5  content_id" id="v-pills-tabContent">
+          <!-- Tab content -->
+          <div id="FAQ" class="tabcontent tab-pane fade show active" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            {{ range where .Pages ".Params.type" "faq" }}
+            <!-- <img src="{{ .Params.image }}"> -->
+            <!-- <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" /> -->
+            <!-- <img src="/assets/images/faq-image1.jpg"  /> -->
+            <!-- <img src="{{ .Params.images }}" alt="{{ .Title }}" /> -->
+            <div class="d-flex mb-3">
+              <div class="post_list_page_img_fix"><img class="post-image" src="{{ .Params.image | absURL }}"
+                  alt="{{ .Title }}" /></div>
+              <a href="{{ .Params.url | absURL }}"
+                class="collapsible  montserrat fw-normal color4d4d4d font20 for_arrow text-decoration-none">{{ .Title
+                }}</a>
+            </div>
+
+            <div class="expanded">
+              <p>{{ .Content }}</p>
+            </div>
+            {{ end }}
+          </div>
+
+          <div id="Resources" class="tabcontent tab-pane fade" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+            <!-- <div>some resources</div> -->
+
+            {{ range where .Pages ".Params.type" "how-to" }}
+
+            <div class="d-flex mb-3">
+              <div class="post_list_page_img_fix"><img class="post-image" src="{{ .Params.image | absURL }}"
+                  alt="{{ .Title }}" /></div>
+              <a href="{{ .Params.url | absURL }}"
+                class="collapsible  montserrat fw-normal color4d4d4d font20 for_arrow text-decoration-none">{{ .Title
+                }}</a>
+            </div>
+
+            <div class="expanded">
+              <p>{{ .Content }}</p>
+            </div>
+            {{ end }}
+            {{ range where .Pages ".Params.type" "faq" }}
+            <!-- <img src="{{ .Params.image }}"> -->
+            <!-- <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" /> -->
+            <!-- <img src="/assets/images/faq-image1.jpg"  /> -->
+            <!-- <img src="{{ .Params.images }}" alt="{{ .Title }}" /> -->
+            <div class="d-flex mb-3">
+              <div class="post_list_page_img_fix"><img class="post-image" src="{{ .Params.image | absURL }}"
+                  alt="{{ .Title }}" /></div>
+              <a href="{{ .Params.url | absURL }}"
+                class="collapsible  montserrat fw-normal color4d4d4d font20 for_arrow text-decoration-none">{{ .Title
+                }}</a>
+            </div>
+
+            <div class="expanded">
+              <p>{{ .Content }}</p>
+            </div>
+            {{ end }}
+          </div>
+
+          <div id="HowTo" class="tabcontent tab-pane fade" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+            <div class="container">
+              <!-- {{ range where .Pages ".Params.type" "how-to" }}
+              <div class="item">
+                <span class="post-date">
+                  <span class="day">
+                    {{ .Date.Format "2"}}
+                  </span>
+                  <span class="month">
+                    {{ .Date.Format "Jan"}}
+                  </span>
+                </span>
+                <h4 class="grid-title">{{.Title}}</h4>
+                <a href="{{.Permalink}}">
+                  <button class="post-button">Read more</button>
+                </a>
+              </div>
+              {{ end }} -->
+              {{ range where .Pages ".Params.type" "how-to" }}
+
+              <div class="d-flex mb-3">
+                <div class="post_list_page_img_fix"><img class="post-image" src="{{ .Params.image | absURL }}"
+                    alt="{{ .Title }}" /></div>
+                <a href="{{ .Params.url | absURL }}"
+                  class="collapsible  montserrat fw-normal color4d4d4d font20 for_arrow text-decoration-none">{{ .Title
+                  }}</a>
+              </div>
+
+              <div class="expanded">
+                <p>{{ .Content }}</p>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+
+          <div id="Documentation" class="tabcontent tab-pane fade" role="tabpanel"
+            aria-labelledby="v-pills-settings-tab">
+            <!-- <div>some documentation</div> -->
+            <!-- <div class="posts-group">
+              <ul class="posts-list">
+                {{ range where .Pages ".Params.type" "how-to" }}
+                <li class="post-item">
+                  <span class="post-date">
+                    <span class="day">
+                      {{ .Date.Format "2"}}
+                    </span>
+                    <span class="month">
+                      {{ .Date.Format "Jan"}}
+                    </span>
+                  </span>
+                  <span class="post-title">{{.Title}}</span>
+                  <a href="{{.Permalink}}">
+                    <button class="post-button">Read more</button>
+                  </a>
+                </li>
+                {{ end }}
+              </ul>
+            </div> -->
+            {{ range where .Pages ".Params.type" "faq" }}
+
+            <div class="d-flex mb-3">
+              <div class="post_list_page_img_fix"><img class="post-image" src="{{ .Params.image | absURL }}"
+                  alt="{{ .Title }}" /></div>
+              <a href="{{ .Params.url | absURL }}"
+                class="collapsible  montserrat fw-normal color4d4d4d font20 for_arrow text-decoration-none">{{ .Title
+                }}</a>
+            </div>
+
+            <div class="expanded">
+              <p>{{ .Content }}</p>
+            </div>
+            {{ end }}
+
+          </div>
+        </div>
+      </div>
+
+      <!-- <div id="Articles" class="tabcontent">
+          <div class="container">
+            {{ range where .Pages ".Params.type" "article" }}
+            <div class="item">
+              <span class="post-date">
+                <span class="day">
+                  {{ .Date.Format "2"}}
+                </span>
+                <span class="month">
+                  {{ .Date.Format "Jan"}}
+                </span>
+              </span>
+              <h4 class="grid-title">{{.Title}}</h4>
+              <a href="{{.Permalink}}">
+                <button class="post-button">Read more</button>
+              </a>
+            </div>
+            {{ end }}
+          </div>
+
+        </div> -->
+    </div>
+
+
+
+
+  </section>
+</main>
+
+<!-- <script>
+  function openToggle(evt, type) {
+    var i, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+
+
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(type).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+
+  //for collapsible 
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+
+      var content = this.nextElementSibling;
+
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+</script> -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function () {
+    var url = $(location).attr('href'),
+      parts = url.split("/"),
+      last_part = parts[parts.length - 1];
+      console.log(last_part)
+    
+    $("button.nav-link").each(function (index) {
+      if ($(this).data("bs-target") == last_part) {
+         $(this).addClass('active');
+      } else if(last_part == ""){
+        $("button.nav-link:first").addClass('active');
+      } else {
+        $(this).removeClass('active');
+      }
+    });
+  });
+
+</script>
+
+{{ end }}

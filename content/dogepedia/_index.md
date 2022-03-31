@@ -1,9 +1,18 @@
 +++
-title = "Dogepedia Index"
+title = "Dogepedia"
 date = "2021-10-22"
+aliases = ["dogepedia"]
 draft = false
+type = "dogepedia"
+
+faq = "Frequently Asked Questions"
+resources = "Resources"
+howto = "How To's"
+documentation = "Documentation"
+article = "Articles"
+
 [_build]
-  render = "never"
-  list = "never" 
+  render = "false"
+  list = "false" 
 +++
-{{/* Remove this if we switch to the auto index generation */}}
+
