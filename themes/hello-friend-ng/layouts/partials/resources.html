@@ -1,3 +1,75 @@
+<style type="text/css">
+.nav-pills .nav-link, .nav-pills .show>.nav-link {
+    color: #000;
+    border-bottom: 1px #ccc solid;
+    border-radius: 0px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #D7AC47;
+    font-weight: bold;
+    background-color: transparent;
+}
+.accordion-button {
+    background-color: #FAFAFA;
+}
+.accordion-item{
+  border: none;
+}
+.accordion-button:not(.collapsed){
+    background-color: #FAFAFA;
+    color: #000;
+    box-shadow: none;
+}
+
+.accordion-button:focus{
+ border: none;
+ box-shadow: none;
+}
+.accordion-body{
+  background-color: #FAFAFA;
+  color: #666666;
+}
+.accordion-button::before {
+    background-image: url(assets/images/23.png);
+    background-repeat: no-repeat;
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+    background-position: left;
+}
+.accordion-button::after {
+    background-image: url(assets/images/23.png);
+    position: relative;
+    background-position: left;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(assets/images/24.png);
+    position: relative;
+    background-position: left;
+}
+.view_all_button{
+   border: 1px solid #DFC789;
+   border-radius: 20px;
+   background-color: #DFC789;
+   width: 200px;
+   margin: auto;
+   padding: 10px;
+   top: 20px;
+   position: relative;
+}
+
+.resources-top{
+   padding-top: 100px !important;
+   padding-bottom: 0px !important;
+   margin-bottom: 100px !important;
+}
+a{
+ color: rgba(0, 0, 0, 1) !important;
+}
+a:hover{
+  font-weight: bold !important;
+}
+</style>
 <div id="resources" class="resources-top">
   <!-- faq tabbing section -->
   <div class="faq_tabbing_section py-100" id="dogepedia">
@@ -31,7 +103,7 @@
                 <div class="accordion" id="accordionExample1">
                   <div class="accordion-item">
                     <div class="accordion-header" id="headingOne">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         What is Dogecoin?
                       </button>
@@ -46,7 +118,7 @@
                   </div>
                   <div class="accordion-item">
                     <div class="accordion-header" id="headingTwo">
-                      <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                      <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                         I sent my Dogecoin to wrong address,
                         where can you help in this case?
@@ -62,7 +134,7 @@
                   </div>
                   <div class="accordion-item">
                     <div class="accordion-header" id="headingThree">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         What do you mean by "decentralised"?
                       </button>
@@ -297,7 +369,7 @@
   <div class="view_all_button">
     <div class="text-center">
       <a href="{{ .Params.url | absURL }}/dogepedia/"
-        class="view_all_btn d-inline-block text-decoration-none montserrat fw-normal">VIEW ALL</a>
+        class="view_all_btn d-inline-block text-decoration-none fw-normal">VIEW ALL</a>
     </div>
   </div>
   <div class="container">

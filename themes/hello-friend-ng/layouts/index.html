@@ -16,7 +16,6 @@
         width: 100%;
         position: absolute;
         top: 50%;
-        transform: translateY(-50%);
         font-size: 28px;
         line-height: 50px;
         text-align: center;
@@ -98,13 +97,13 @@
             <source src="/assets/images/Header_Video.mp4" type="video/mp4">
         </video>
         <div id="home" class="viewport-header">
-            <div class="container">
-                <h1 class="d_text_display"><span id="dynamic_d">D</span><span class="d_span_opacity">D</span>OGECOIN
+            <div class="container" >
+                <h1 class="d_text_display"><span id="dynamic_d">D</span>OGECOIN
                 </h1>
                 {{- with .Site.Params.homeSubtitle }}
                 <!-- <h2 class="subtitle">{{.}}</h2> -->
                 <!-- <h2 class="subtitle text-white">the people’s crypto-currency</h2> -->
-                
+
                     <div class="screen mt-3">
                         <div class="preload">
                             <span class="subtitle poppins fw-light text-white">the people’s</span>
@@ -137,7 +136,6 @@
         {{ partial "whatisdogecoin.html" . }}
         {{ partial "wallets.html" . }}
         {{ partial "community.html" . }}
-        <br />
         {{ partial "resources.html" . }}
     </main>
 

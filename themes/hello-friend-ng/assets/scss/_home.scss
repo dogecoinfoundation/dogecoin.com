@@ -17,7 +17,7 @@
       }
 
       .title {
-        font-family: "Montserrat", sans-serif;
+          font-family: "Comic Sans MS";
 
         h1, h2 {
           font-size: 97px;
@@ -150,7 +150,7 @@
 
       // Design found here: https://codepen.io/quadbaup/pen/rKOKQv
       .thought {
-        font-family: "Montserrat", sans-serif;
+        font-family: "Comic Sans MS";
         font-weight: bold;
         z-index: 5;
         display: none;
@@ -232,14 +232,14 @@
     position: relative;
     height: 100vh;
     text-align: center;
-    margin-top: -100px;
+    margin-top: -500px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
   .title {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Comic Sans MS";
   }
   
   h1, h2 {
@@ -390,7 +390,7 @@
     &::before {
       content: "";
       @include coverer;
-      top: -100vh;
+      top: -500vh;
     }
     p {
       max-width: 100vw;

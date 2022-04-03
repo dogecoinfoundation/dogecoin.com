@@ -71,11 +71,11 @@
     display: inline-block;
     margin-right: 15px;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 
     &:hover {
       text-decoration: underline;
-      color: #BA9F32;
+      color: #BA9F32 !important;
     }
 
     &:last-of-type {
