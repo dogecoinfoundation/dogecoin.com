@@ -1,6 +1,9 @@
 +++
 title = "Dogecoin is a joke!"
 date = "2021-10-22"
+type = "faq"
+image = "/assets/images/faq-image1.jpg"
+url = "/dogepedia/dogecoin-is-a-joke.md"
 [ author ]
   name = "Dogecoin"
 +++

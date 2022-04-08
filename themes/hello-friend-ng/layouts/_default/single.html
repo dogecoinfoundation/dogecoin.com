@@ -1,52 +1,106 @@
 {{ define "main" }}
-    <main class="post">
-
-        <div class="post-info">
+<main class="post post_cnt_1 w-100">
+    <div class="conainer-fluid px-0">
+        <!-- <div class="post-info">
             {{ if .IsTranslated }}
-                {{ i18n "postAvailable" }}
-                {{ range .Translations }}
-                    <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
-                {{ end}}
+            {{ i18n "postAvailable" }}
+            {{ range .Translations }}
+            <a href="{{ .Permalink }}"><span
+                    class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+            {{ end}}
             {{ end }}
             </p>
-        </div>
-
-        <article>
-            <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
-
-            {{ if .Params.Cover }}
-                <figure class="post-cover">
-                    <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" />
-                
-                    {{ if .Params.CoverCaption }}
-                        <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
-                    {{ end }}
-                </figure>
-            {{ end }}
-            
-            {{ if .Params.toc }}
-                <hr />
-                <aside id="toc">
-                <div class="toc-title">{{ i18n "tableOfContents" }}</div>
-                    {{ .TableOfContents }}
-                </aside>
-                <hr />
-            {{ end }}
-
-            <div class="post-content">
-                {{ .Content }}
+        </div> -->
+        <article class="w-100">
+            <div class="container-fluid px-0">
+                <div class="post_inner_page_title">
+                    <h1 class="post-title text-uppercase text-center text-black fw-bold montserrat font60 mb-2 pb-0">DOGEPEDIA
+                    </h1>
+                    <!-- <h3 class="post-title text-uppercase text-center color-dfc788 fw-bold montserrat font20">{{ .Title }}</h3> -->
+                    <!-- final breadcrumb -->
+                    <!-- <a class="text-center montserrat fw-normal text-uppercase text-white text-decoration-none mx-auto d-table">Home
+                        <span class="color-dfc788 ps-3">— &nbsp;&nbsp;&nbsp; {{ .Title }}</span></a> -->
+                        <a class="text-center montserrat fw-normal text-uppercase text-black text-decoration-none mx-auto d-table">Home
+                            <span class="color-dfc788 ps-3">— &nbsp;&nbsp;&nbsp; DOGEPEDIA</span></a>
+                    <!-- <h3 class="post-title "><a href="{{ .Permalink }}"
+                            class="font20 montserrat fw-normal text-uppercase text-white text-decoration-none mx-auto d-table">{{
+                            .Title | markdownify }}</a></h3> -->
+                </div>
             </div>
+            {{ if .Params.Cover }}
+            <figure class="post-cover">
+                <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" />
+
+                {{ if .Params.CoverCaption }}
+                <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
+                {{ end }}
+            </figure>
+            {{ end }}
+
+            {{ if .Params.toc }}
+            <hr />
+            <aside id="toc">
+                <div class="toc-title">{{ i18n "tableOfContents" }}</div>
+                {{ .TableOfContents }}
+            </aside>
+            <hr />
+            {{ end }}
+            <div class="pst_inner_content">
+                <div class="container">
+                    <div class="row justify-content-end">
+                        <div class="col-12 col-md-6 pt-100 col-lg-3 px-3 px-lg-3 px-xl-0 for_tabbing_style">
+                            <div class="tab nav flex-column nav-pills  sticky-lg-top">
+                                <a href="../dogepedia/#FAQ"
+                                    class="tablinks font16 montserrat fw-medium color-505050 nav-link text-start d-block active">Frequently
+                                    Asked Questions</a>
+                                <a href="../dogepedia/#Resources"
+                                    class="tablinks font16 montserrat fw-medium color-505050 nav-link text-start d-block">Resources</a>
+                                <a href="../dogepedia/#HowTo"
+                                    class="tablinks font16 montserrat fw-medium color-505050 nav-link text-start d-block">How To's</a>
+                                <a href="../dogepedia/#Documentation"
+                                    class="tablinks font16 montserrat fw-medium color-505050 nav-link text-start d-block">Documentation</a>
+                            </div>
+    
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-9 my-4 py-3 ps-3 ps-lg-4 ps-xl-5">
+                            <div class="text-end mb-4">
+                                <a href="../dogepedia/" class="d-inline-block"><img src="/assets/images/go_back_btn.png"
+                                        alt="go back btn"></a>
+                            </div>
+                            <div class="post_image_fix">
+                                <img class="post-image" src="{{ .Params.image | absURL }}" alt="{{ .Title }}" />
+                            </div>
+                            <div class="post-content post_content_data1 text-start p-5">
+    
+                                <h3 class="post-title text-start color4d4d4d fw-bold montserrat font20">{{ .Title }}</h3>
+                                {{ .Content }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </article>
 
-        <hr />
+        <!-- <hr /> -->
 
         <div class="post-info">
             {{ partial "tags.html" .Params.tags }}
             {{ partial "categories.html" . }}
 
             {{- if .GitInfo }}
-			    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-commit"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg><a href="{{ .Site.Params.gitUrl -}}{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a> @ {{ if .Site.Params.dateformNum }}{{ dateFormat .Site.Params.dateformNum .GitInfo.AuthorDate.Local }}{{ else }}{{ dateFormat "2006-01-02" .GitInfo.AuthorDate.Local }}{{ end }}</p>
-			{{- end }}
-  		</div>
-    </main>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-git-commit">
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <line x1="1.05" y1="12" x2="7" y2="12"></line>
+                    <line x1="17.01" y1="12" x2="22.96" y2="12"></line>
+                </svg><a href="{{ .Site.Params.gitUrl -}}{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{
+                    .GitInfo.AbbreviatedHash }}</a> @ {{ if .Site.Params.dateformNum }}{{ dateFormat
+                .Site.Params.dateformNum .GitInfo.AuthorDate.Local }}{{ else }}{{ dateFormat "2006-01-02"
+                .GitInfo.AuthorDate.Local }}{{ end }}</p>
+            {{- end }}
+        </div>
+    </div>
+</main>
 {{ end }}

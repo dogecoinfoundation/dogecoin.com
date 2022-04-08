@@ -1,10 +1,10 @@
 .menu {
   z-index: 9999;
   // Default
-  background: $light-background-header;
+  //background: $light-background-header;
 
   @media (prefers-color-scheme: dark) {
-    background: $dark-background-header;
+    //background: $dark-background-header;
   }
 
   @media (prefers-color-scheme: light) {
@@ -16,7 +16,7 @@
   }
 
   [data-theme=light] & {
-    background: $light-background-header;
+    //background: $light-background-header;
   }
 
   @media #{$media-size-phone} {
@@ -39,7 +39,7 @@
     list-style: none;
 
     li {
-      margin: 0 12px;
+      margin: 0 9px;
     }
 
     @media #{$media-size-phone} {
@@ -71,9 +71,11 @@
     display: inline-block;
     margin-right: 15px;
     text-decoration: none;
+    color: rgba(255, 255, 255, 1);
 
     &:hover {
       text-decoration: underline;
+      color: rgba(255, 255, 255, 1);
     }
 
     &:last-of-type {

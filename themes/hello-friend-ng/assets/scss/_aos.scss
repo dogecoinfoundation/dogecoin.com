@@ -1,0 +1,68 @@
+    .font28 {
+        font-size: 28px;
+    }
+
+    .screen {
+        position: relative;
+        height: 100%;
+        letter-spacing: 1px;
+    }
+
+    .preload {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 28px;
+        line-height: 50px;
+        text-align: center;
+        text-transform: lowercase;
+    }
+
+    .preload__letter {
+        display: inline-block;
+        margin: 0 0px;
+        position: relative;
+        letter-spacing: -5px;
+        text-transform: lowercase;
+    }
+
+    .preload__letter--loaded::after {
+        content: "";
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        color: #fff;
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    .d_text_display {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .d_text_display #dynamic_d {
+        opacity: 1;
+        left: 0;
+        bottom: 0;
+        border-radius: 10px;
+        transition: .5s;
+        transform: translateY(100%) scale(1.2);
+        visibility: visible;
+    }
+
+    .d_text_display.for_animation_class #dynamic_d {
+        transform: translateY(0%) scale(1);
+        visibility: visible;
+    }
+
+
+    @media (max-width: 768px) {
+        .preload {
+            font-size: 20px;
+            top: 55%;
+        }
+    }

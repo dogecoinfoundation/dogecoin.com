@@ -1,3 +1,5 @@
+
+
 <header id="header" class="header">
     <span class="header__inner">
         {{ partial "logo.html" . }}
@@ -13,7 +15,7 @@
                 </span>
             {{ end }}
             {{- if .Site.Params.EnableThemeToggle }}
-                <span class="theme-toggle not-selectable">{{ partial "theme-toggle-icon.html" . }}</span>
+                <span class="theme-toggle not-selectable d-none">{{ partial "theme-toggle-icon.html" . }}</span>
             {{- end}}
             {{ partial "locale.html" . }}
         </nav>

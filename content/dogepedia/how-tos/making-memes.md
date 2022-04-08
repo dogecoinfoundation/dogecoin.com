@@ -1,6 +1,9 @@
 +++
 title = "Making Memes"
 date = "2021-10-22"
+type = "how-to"
+image = "/assets/images/faq-image1.jpg"
+url = "/dogepedia/making-memes.md"
 [ author ]
   name = "Dogecoin"
 +++

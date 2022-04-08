@@ -1,6 +1,9 @@
 +++
 title = "Dogecoin has no utility!"
 date = "2021-10-22"
+type = "faq"
+image = "/assets/images/faq-image5.jpg"
+url = "/dogepedia/dogecoin-has-no-utility.md"
 [ author ]
   name = "Dogecoin"
 +++

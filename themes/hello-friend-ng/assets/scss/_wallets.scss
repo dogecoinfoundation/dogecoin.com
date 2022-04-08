@@ -1,0 +1,14 @@
+  .wallets-bg {
+    width: 97.9vw !important;
+    background-image: url(assets/images/combined-bg.png);
+    background-size: cover;
+    background-position: top, bottom, right;
+    background-repeat: no-repeat;
+  }
+
+  .wallet {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    padding-top: 100px;
+  }

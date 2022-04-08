@@ -1,6 +1,9 @@
 +++
 title = "Dogecoin has no developers!"
 date = "2021-10-22"
+type = "faq"
+image = "/assets/images/faq-image4.jpg"
+url = "/dogepedia/dogecoin-has-no-developers.md"
 [ author ]
   name = "Dogecoin"
 +++
