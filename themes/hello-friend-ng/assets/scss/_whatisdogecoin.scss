@@ -1,17 +1,35 @@
   .parent {
     position: relative;
-    top: 0;
-    left: 0;
+    background-image: src("assets/images/3.png") !important;
   }
+
   .under {
     position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-image: src("assets/images/3.png");
+    .img {
+      height: 700px !important;
+      width: 450px;
+    }
   }
+
   .over {
     position: absolute;
     margin: auto;
-    padding-left: 42px;
   }
+
+
+
+  // .parent {
+  //   position: relative;
+  //   top: 0;
+  //   left: 0;
+  // }
+  // .under {
+  //   position: relative;
+  //   top: 0;
+  //   left: 0;
+  // }
+  // .over {
+  //   position: absolute;
+  //   top: 30px;
+  //   left: 30px;
+  // }
