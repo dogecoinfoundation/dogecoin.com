@@ -1,5 +1,9 @@
   .community {
     position:relative;
     display: block;
-    padding: 100px 0 100px 0;
+    padding: 100px 0 50px 0;
+
+    [data-theme=dark] & {
+      color: #ffffff;
+    }
   }

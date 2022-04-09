@@ -11,4 +11,12 @@
     overflow: hidden;
     display: block;
     padding-top: 100px;
+
+    [data-theme=dark] & {
+      color: #ffffff;
+      .card-body {
+        color: #000000;
+      }
+    }
+    
   }

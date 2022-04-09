@@ -1,9 +1,23 @@
   .resources-top {
     position:relative;
     display: block;
-    padding: 100px 0 100px 0 !important;
-    margin: 400px 0 100px 0;
-    background-color: #fafafa;
+    padding: 50px 0 50px 0 !important;
+    margin: 0;
+    [data-theme=dark] & {
+      background-color: #fafafa;
+      .accordion-body {
+        color: #000000;
+      }
+    }
+    [data-theme=light] & {
+      background-color: #fafafa;
+      .accordion-header {
+        color: #ffffff;
+      }
+      .accordion-body {
+        color: #000000;
+      }
+    }
   }
 
   .resources-bottom {
@@ -12,13 +26,55 @@
     background-repeat: no-repeat;
     position:relative;
     display: block;
+
+    [data-theme=dark] & {
+      color: #000000;
+    }
+    [data-theme=light] & {
+      .accordion-header {
+        color: #ffffff;
+      }
+      .accordion-body {
+        color: #000000;
+      }
+    }
   }
   .resources-bottom.card {
     background-color: #fcf4df;
   }
 
-  @media (max-width: 991.98px) { 
-    .resources-top {
-      margin: 50px 0 100px 0;
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+  .resources-bottom {
+    margin: 50px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  .resources-top {
+    margin: 50px 0 100px 0;
+  }
+  .resources-bottom {
+    margin: 100px;
+    .card {
+      width: 96px;
     }
   }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { 
+
+}
