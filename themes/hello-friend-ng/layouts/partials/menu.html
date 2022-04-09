@@ -3,7 +3,7 @@
         {{ range .Site.Menus.main -}}
             {{ if .Children }}
                 <li class="tooltip">
-                    <span><a href="{{ .URL | relLangURL }}">{{ .Name }}</a><span class="caret">&#9660;</span></span>
+                    <span><a href="{{ .URL | relLangURL }}">{{ .Name }}</a><span class="caret">&blacktriangledown;</span></span>
                     <div class="tooltip-content">
                       <div class="tooltip-body">
                       {{ range .Children -}}

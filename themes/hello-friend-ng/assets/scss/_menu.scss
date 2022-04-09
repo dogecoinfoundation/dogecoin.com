@@ -1,22 +1,22 @@
 .menu {
   z-index: 9999;
   // Default
-  background: transparent;
+  background: $light-background-header;
 
   @media (prefers-color-scheme: dark) {
-    background: transparent;
+    background: $dark-background-header;
   }
 
   @media (prefers-color-scheme: light) {
-    background: transparent;
+    background: $light-background-header;
   }
 
   [data-theme=dark] & {
-    background: transparent;
+    background: $dark-background-header;
   }
 
   [data-theme=light] & {
-    background: transparent;
+    background: $light-background-header;
   }
 
   @media #{$media-size-phone} {
@@ -39,7 +39,7 @@
     list-style: none;
 
     li {
-      margin: 0 12px;
+      margin: 0 9px;
     }
 
     @media #{$media-size-phone} {

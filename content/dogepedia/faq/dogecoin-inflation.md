@@ -1,6 +1,8 @@
 +++
 title = "Dogecoin Inflation"
 date = "2021-10-22"
+type = "faq"
+
 [ author ]
   name = "Dogecoin"
 +++

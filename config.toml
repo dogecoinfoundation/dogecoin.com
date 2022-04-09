@@ -44,7 +44,7 @@ disableHugoGeneratorInject = false
       unsafe = true
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  posts = "/:title/"
 
 [author]
   name = "Dogecoin"
@@ -90,7 +90,7 @@ disableHugoGeneratorInject = false
   # Per default, this option is off.
   # The theme is respecting the prefers-color-scheme of the operating systeme.
   # With this option on, the page user is able to set the scheme he wants.
-  enableThemeToggle = false
+  enableThemeToggle = true
 
   # Sharing buttons
   #
@@ -262,12 +262,6 @@ disableHugoGeneratorInject = false
     weight     = 5
 
     [[menu.main]]
-    identifier = "resource"
-    name       = "Resources"
-    url        = "#resources"
-    weight     = 5
-
-    [[menu.main]]
     identifier = "how-tos"
     name       = "How Tos"
     url        = "dogepedia/#howto"
@@ -281,12 +275,12 @@ disableHugoGeneratorInject = false
     parent = "dogepedia"
     weight     = 5
     
-  [[menu.main]]
-  identifier = "foundation"
-  name       = "Foundation"
-  url        = "https://foundation.dogecoin.com"
-  weight     = 6
-
+    [[menu.main]]
+    identifier = "resource"
+    name       = "Resources"
+    url        = "dogepedia/resources/"
+    parent = "dogepedia"
+    weight     = 5
 
 [[params.footerLegal]]
     name = "Terms & Conditions"

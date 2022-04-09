@@ -1,6 +1,8 @@
 +++
 title = "Dogecoin has no developers!"
 date = "2021-10-22"
+type = "faq"
+
 [ author ]
   name = "Dogecoin"
 +++

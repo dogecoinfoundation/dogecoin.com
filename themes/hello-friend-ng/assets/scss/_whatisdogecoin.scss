@@ -7,9 +7,11 @@
     position: relative;
     top: 0;
     left: 0;
+    width: 100%;
+    background-image: src("assets/images/3.png");
   }
   .over {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    margin: auto;
+    padding-left: 42px;
   }

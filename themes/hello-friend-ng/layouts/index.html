@@ -1,9 +1,8 @@
 {{ define "body" }}
+  <body class="home">
+{{ end }}
 
-<body class="home">
-    {{ end }}
-
-    {{ define "main" }}
+{{ define "main" }}
     <!-- The video -->
     <div>
         <video id="video-header" autoplay loop muted>
@@ -21,7 +20,6 @@
     </div>
     <main>
       {{ partial "whatisdogecoin.html" . }}
-        <br />
       {{ partial "wallets.html" . }}
       {{ partial "community.html" . }}
         <br />

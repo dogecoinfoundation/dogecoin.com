@@ -1,5 +1,5 @@
 +++
-title = "Is there a roadmap?"
+title = "Is xxx project affiliated with The Dogecoin Foundation?"
 date = "2021-10-22"
 type = "article"
 
@@ -7,4 +7,3 @@ type = "article"
   name = "Dogecoin"
 +++
 
-Dogecoin and roadmaps.
