@@ -173,7 +173,6 @@
     &::before {
       content: "";
       @include coverer;
-      top: -100vh;
     }
     p {
       max-width: 100vw;
@@ -188,16 +187,15 @@
   .screen {
     position: relative;
     height: 100%;
+    width: 100vw;
     letter-spacing: 1px;
   }
 
   .preload {
-    width: 100%;
-    position: absolute;
-    top: 50%;
+    position: relative;
     transform: translateY(-50%);
-    font-size: 28px;
-    line-height: 50px;
+    font-size: 2.2vw;
+    line-height: 5px;
     text-align: center;
     text-transform: lowercase;
   }
@@ -214,8 +212,8 @@
     content: "";
     width: 100%;
     text-align: center;
-    position: absolute;
-    top: 100%;
+    position: relative;
+    top: 50%;
     left: 0;
     color: #fff;
     font-size: 18px;
@@ -225,6 +223,7 @@
   .d_text_display {
     position: relative;
     overflow: hidden;
+    font-size: 10vw;
   }
 
   .d_text_display #dynamic_d {
