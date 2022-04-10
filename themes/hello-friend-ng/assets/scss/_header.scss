@@ -28,8 +28,8 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    width: 1170px;
-    max-width: 100%;
+    width: 97vw;
+    max-width: 1170px;
   }
 
   &.minimize {
@@ -41,6 +41,7 @@
       .logo-labels {
         .main-label {
           margin-top: -5px !important;
+          width: 2vw;
         }
         .sub-label {
           display: none;

@@ -11,19 +11,62 @@
 
         <div id="home" class="viewport-header">
             <div class="container">
-                <h1>DOGECOIN</h1>
+                <h1 class="d_text_display d_span_opacity"><span id="dynamic_d">D</span>OGECOIN
+                    </h1>
                 {{- with .Site.Params.homeSubtitle }}
-                <h2 class="subtitle">{{.}}</h2>
+                <!-- <h2 class="subtitle">{{.}}</h2> -->
+                
+                <div class="screen mt-3">
+                    <div class="preload">
+                        <span class="subtitle poppins fw-light text-white">the people’s</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">C</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">r</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">y</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">p</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">t</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">o</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">C</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">u</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">r</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">r</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">e</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">n</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">c</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">y</span>
+                    </div>
+                </div>
                 {{- end }}
             </div>
         </div>
     </div>
+        <!-- loading start -->
+        <div class="preloader_div">
+
+        <div id="preloader" class="pre_loader_new">
+            <div class="txt">
+                <img src="assets/images/preloader-logo.png" alt="preloader logo" class="mb-2">
+                <p class="txt-perc">0%</p>
+                <div class="progress"><span></span></div>
+            </div>
+        </div>
+        <div id="intro" class="header-container fs">
+            <div class="bcg"></div>
+            <span class="scroll-hint">Scroll Down</span>
+        </div>
+
+        </div>
+        <!-- loading end -->
     <main>
         {{ partial "whatisdogecoin.html" . }}
         {{ partial "wallets.html" . }}
         {{ partial "community.html" . }}
         {{ partial "resources.html" . }}
     </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@0.0.3/dist/confetti.browser.min.js"></script>
     <script type="text/javascript">
         var navbar = document.querySelector('header')
         var rect = document.querySelector("#home").getBoundingClientRect();
@@ -44,5 +87,85 @@
                 video.classList.remove('scrolled')
             }
         }
+        setTimeout(function () {
+           
+        
+        var options = {
+            preload: {
+                selector: '.preload',
+                itemSelector: '.preload__letter',
+                text: 'cryptocurrency'
+            }
+        }
+        var Preload = function () {
+            preloadLetters = document.querySelectorAll(options.preload.itemSelector);
+            text = options.preload.text.toUpperCase().split('');
+            intervals = [];
+
+            this.init = function () {
+                for (var i = 0; i < text.length; i++) {
+                    letterRandomize(preloadLetters[i], i);
+                }
+            }
+
+            var letterRandomize = function (el, index) {
+                possible = "cryptocurrency";
+                intervals[index] = setInterval(function () {
+                    el.innerHTML = possible.charAt(Math.floor(Math.random() * possible.length))
+                }, 50);
+                setTimeout(function () {
+                    clearInterval(intervals[index]);
+                    el.innerHTML = text[index];
+                    el.classList.add('preload__letter--loaded');
+                }, 250 * index);
+            }
+        }
+
+        var p = new Preload();
+        p.init();
+    }, 2100);
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // You can also pass an optional settings object
+        // below listed default settings
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: true, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+        setTimeout(function () {
+            $("#dynamic_d").html('Ð').parent().addClass('for_animation_class');
+        }, 5500);
+    </script>
+    
+    <script>
+        $(document).ready(function () {
+            if ($(window).width() <= 991) {
+                $('.menu__inner .nav-items .nav-link').on('click', function () {
+                    console.log(this);
+                    $(".menu").toggleClass('hidden');
+                });
+            }
+        });
     </script>
     {{ end }}
