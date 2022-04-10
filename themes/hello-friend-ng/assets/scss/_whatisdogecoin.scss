@@ -1,35 +1,99 @@
-  .parent {
-    position: relative;
-    background-image: src("assets/images/3.png") !important;
-  }
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
 
+// X-Small devices (portrait phones, 0px to S)
+@media (max-width: 575px) { 
   .under {
     position: relative;
-    .img {
-      height: 700px !important;
-      width: 450px;
-    }
+    width: 500px !important;
   }
-
   .over {
     position: absolute;
-    margin: auto;
+    top: 5vh;
+    left: 11.3vw;
+    width: 75vw;
+    max-width: 405px;
   }
+}
 
+// Small devices (landscape phones, 576px to M)
+@media (min-width: 576px) and (max-width: 767px) { 
+  .under {
+    position: relative;
+    width: 600px !important;
+  }
+  .over {
+    position: absolute;
+    top: 5vh;
+    left: 11.3vw;
+    width: 72vw;
+    max-width: 405px;
+  }
+}
 
+// Medium devices (tablets, 768px to L)
+@media (min-width: 768px) and (max-width: 991px) { 
+  .under {
+    position: relative;
+    width: 42vw !important;
+    max-width: 420px !important;
+  }
+  .over {
+    position: absolute;
+    top: 9.99vh;
+    left: 6.66vw;
+    width: 30vw;
+    max-width: 360px !important;
+  }
+}
 
-  // .parent {
-  //   position: relative;
-  //   top: 0;
-  //   left: 0;
-  // }
-  // .under {
-  //   position: relative;
-  //   top: 0;
-  //   left: 0;
-  // }
-  // .over {
-  //   position: absolute;
-  //   top: 30px;
-  //   left: 30px;
-  // }
+// Large devices (desktops, 992px to XL)
+@media (min-width: 992px) and (max-width: 1199px) {  
+  .under {
+    position: relative;
+    width: 42vw !important;
+    max-width: 500px !important;
+  }
+  .over {
+    position: absolute;
+    top: 9.99vh;
+    left: 6.66vw;
+    width: 30vw;
+    max-width: 360px !important;
+  }
+}
+
+// X-Large devices (large desktops, 1200px to XXL)
+@media (min-width: 1200px) and (max-width: 1399px) {  
+  .under {
+    position: relative;
+    width: 50vw !important;
+    max-width: 500px !important;
+  }
+  .over {
+    position: absolute;
+    top: 9.99vh;
+    left: 6.66vw;
+    width: 30vw;
+    max-width: 360px !important;
+  } 
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {  
+  .under {
+    position: relative;
+    width: 50vw !important;
+    max-width: 500px !important;
+  }
+  .over {
+    position: absolute;
+    top: 9vh;
+    left: 4vw;
+    width: 30vw;
+    max-width: 375px !important;
+  } 
+}
