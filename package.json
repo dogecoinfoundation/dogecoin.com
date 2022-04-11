@@ -4,7 +4,8 @@
   "description": "dogecoin.com redesign",
   "main": "index.html",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "rfs": "^9.0.6"
   },
   "scripts": {
     "hugo:build": "hugo -d build",

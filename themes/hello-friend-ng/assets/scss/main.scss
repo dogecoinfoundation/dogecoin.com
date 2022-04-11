@@ -26,6 +26,8 @@
 @import "node_modules/bootstrap/scss/bootstrap-grid";
 @import "node_modules/bootstrap/scss/bootstrap-reboot";
 @import "node_modules/bootstrap/scss/bootstrap-utilities";
+/* RFS */
+@import "node_modules/rfs/scss";
 /* Main stuff */
 @import "variables";
 @import "mixins";
