@@ -1,23 +1,11 @@
+
+
   .resources-top {
     position:relative;
     display: block;
     padding: 50px 0 50px 0 !important;
     margin: 0;
-    [data-theme=dark] & {
-      background-color: #fafafa;
-      .accordion-body {
-        color: #000000;
-      }
-    }
-    [data-theme=light] & {
-      background-color: #fafafa;
-      .accordion-header {
-        color: #ffffff;
-      }
-      .accordion-body {
-        color: #000000;
-      }
-    }
+    background-color: #fafafa;
   }
 
   .resources-bottom {
@@ -44,8 +32,14 @@
   }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-
+@media (max-width: 576px) { 
+  #resources {
+    width: 100vw;
+    position: relative;
+    display: block;
+    padding-top: 6.5em;
+    left: 3rem;
+  }
 }
 
 // Medium devices (tablets, 768px and up)

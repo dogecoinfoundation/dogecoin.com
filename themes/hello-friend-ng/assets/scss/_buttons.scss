@@ -40,6 +40,7 @@ a.button {
 
   [data-theme=light] & {
     background: $light-background-header;
+    color: inherit;
   }
 
   &.outline {
@@ -65,6 +66,7 @@ a.button {
   
     [data-theme=light] & {
       border-color: $light-background-secondary;
+      color: inherit;
     }
 
     :hover {
@@ -125,6 +127,7 @@ a.button {
   
     @media (prefers-color-scheme: light) {
       background: $light-background-secondary;
+      color: inherit;
     }
   
     [data-theme=dark] & {
@@ -134,6 +137,7 @@ a.button {
   
     [data-theme=light] & {
       background: $light-background-secondary;
+      color: inherit;
     }
   }
 }

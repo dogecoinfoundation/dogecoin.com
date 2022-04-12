@@ -2,8 +2,13 @@
 @import "normalize";
 @import "prism";
 @import "node_modules/bootstrap/scss/functions";
+// Default variable overrides
+@import "accordion";
+
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/root";
+// Optional Bootstrap components here
 @import "node_modules/bootstrap/scss/reboot";
 @import "node_modules/bootstrap/scss/helpers";
 @import "node_modules/bootstrap/scss/type";

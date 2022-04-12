@@ -1,21 +1,23 @@
-  .wallets-bg {
-    width: 97.9vw !important;
-    background-image: url(assets/images/wallets_bg.png);
-    background-size: 100% 740px;
-    // background-size: 100vw 105vh; // wraps under phone image
-    background-repeat: no-repeat;
-  }
+.wallets-bg {
+  width: 97.9vw !important;
+  background-image: url(assets/images/wallets_bg.png);
+  background-size: 100% 740px;
+  // background-size: 100vw 105vh; // wraps under phone image
+  background-repeat: no-repeat;
+}
 
-  .wallet {
-    position: relative;
-    overflow: hidden;
-    display: block;
-    padding-top: 100px;
-    [data-theme=dark] & {
-      color: #ffffff;
-      .card-body {
-        color: #000000;
-      }
+.wallet {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  padding-top: 100px;
+  [data-theme="dark"] & {
+    color: #ffffff;
+    .card-body {
+      color: #000000;
     }
-    
   }
+}
+
+@media (max-width: 575px) {
+}

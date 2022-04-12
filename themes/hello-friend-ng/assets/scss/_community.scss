@@ -7,3 +7,18 @@
       color: #ffffff;
     }
   }
+
+
+@media (max-width: 575px) {
+  .community {
+    width: 100vw;
+    position: relative;
+    display: block;
+    padding-top: 6.5em;
+    left: 3rem;
+
+    [data-theme="dark"] & {
+      color: #ffffff;
+    }
+  }
+}
