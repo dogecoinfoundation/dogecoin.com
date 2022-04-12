@@ -105,45 +105,45 @@
 }
 
 .tab {
-    top: 0;
-    overflow: hidden;
-    min-width: 250px;
-    width: 30%;
-    float: left;
+  top: 0;
+  overflow: hidden;
+  min-width: 250px;
+  width: 30%;
+  float: left;
 
-    button {
-    display: block;
-    width: 100%;
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    text-align: left;
-    padding: 14px 16px;
-    transition: 0.3s;
-    border-left: 5px solid #ccae40;
-    border-radius: 0;
-    }
+  button {
+  display: block;
+  width: 100%;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: left;
+  padding: 14px 16px;
+  transition: 0.3s;
+  border-left: 5px solid #ccae40;
+  border-radius: 0;
   }
-    
-  .tab button:hover {
-    background-color: #dfc66d;
-    border-radius: 0;
-  }
+}
   
-  .tab button.active {
-    background-color: #ccae40;
-    border-radius: 0;
-  }
-  
-  .tabcontent {
-    width: 65%;
-    float: right;
-    display: none;
-    padding: 6px 12px;
-    border-top: none;
-  }
+.tab button:hover {
+  background-color: #dfc66d;
+  border-radius: 0;
+}
+
+.tab button.active {
+  background-color: #ccae40;
+  border-radius: 0;
+}
+
+.tabcontent {
+  width: 65%;
+  float: right;
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
 
   @media screen and (max-width: 935px) { 
     .tab {

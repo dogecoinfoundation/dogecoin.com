@@ -1,0 +1,81 @@
+<div class="tablist">
+  <section class="box">
+    <!-- Tab content -->
+    <div id="FAQ" class="tabcontent" style="display: block">
+      {{ range $elem_key, $elem_val := first 3 (where .Site.Pages ".Params.type"
+      "faq") }}
+      <div class="accordion-header" id="heading{{ $elem_key }}">
+        <button
+          type="button"
+          class="collapsible accordion-button collapsed"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse{{ $elem_key }}"
+          aria-expanded="false"
+          aria-controls="collapse{{ $elem_key }}"
+        >
+          {{ .Title }}
+        </button>
+      </div>
+      <div
+        id="collapse{{ $elem_key }}"
+        class="accordion-collapse collapse"
+        aria-labelledby="heading{{ $elem_key }}"
+        data-bs-parent="#accordionExample1"
+      >
+        <div class="accordion-body">
+          <p class="text-start p-2">
+            {{ .Summary | safeHTML | truncate 300 }} {{ if .Truncated }}
+            <a href="{{ .RelPermalink }}">Read More…</a>
+            {{ end }}
+          </p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    
+    <div id="Resources" class="tabcontent">
+      <div class="container">
+        {{ range $elem_key, $elem_val := first 5 (where .Pages ".Params.type"
+        "resources") }}
+        <p class="text-start">
+          {{ .Content | safeHTML | truncate 380 }} {{ if .Truncated }}
+          <a href="{{ .RelPermalink }}">Read More…</a>
+          {{ end }}
+        </p>
+        {{ end }}
+      </div>
+    </div>
+
+    <div id="HowTo" class="tabcontent">
+      <div>some howto</div>
+      <div class="posts-group">
+        <ul class="posts-list">
+          {{ range $elem_key, $elem_val := first 5 (where .Site.Pages
+          ".Params.type" "how-to") }} {{ $elem_key }} -- {{ $elem_val }}
+          <li class="post-item">
+          <p class="text-start p-2">
+            {{ .Summary | safeHTML | truncate 300 }} {{ if .Truncated }}
+            <a href="{{ .RelPermalink }}">Read More…</a>
+            {{ end }}
+          </p>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+
+    <div id="Documentation" class="tabcontent">
+      <div class="container text-start">
+        {{ range $elem_key, $elem_val := first 3 (where .Site.Pages
+        ".Params.type" "article") }}
+        {{ $elem_key }} -- {{ $elem_val }} 
+          <p class="text-start p-2">
+            {{ .Summary | safeHTML | truncate 100 }} {{ if .Truncated }}
+            <a href="{{ .RelPermalink }}">Read More…</a>
+            {{ end }}
+          </p>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+</div>

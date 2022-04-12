@@ -1,0 +1,180 @@
+.tablist {
+  color: #222;
+
+    .title {
+        position: relative;
+        padding: 200px 100px 150px 100px;
+        margin-top: -100px;
+        background-color: $dark-background;
+        width: 50vw;
+
+        h1 {
+            font-weight: bold;
+            color: black !important;
+        }
+
+        a {
+            color: black;
+        }
+
+        b {
+            color: #ccae40;
+        }
+    }
+
+    .content {
+        position: relative;
+    }
+
+    .box {
+      margin-top: 50px !important;
+      margin-bottom: 50px !important;
+      width: 50vw;
+      margin: auto;
+    }
+
+    // .container {
+    //   grid-template-columns: auto;
+    //   grid-column-gap: 50px;
+    //   grid-row-gap: 50px;
+    // }
+
+    .item {
+      display: block;
+      border: none;
+      padding: 20px 0px;
+
+      h4 {
+        font-weight: bold;
+        float: left;
+        width: 70%;
+        height: 100%;
+        margin: auto;
+        text-align: left;
+      }
+
+      a {
+        float: right;
+        min-width: 150px;
+        width: 20%;
+        &:link {
+          text-decoration: none
+        }
+
+        &:visited {
+          text-decoration: none
+        }
+      }
+
+
+      button {
+        color: black;
+        background-color: #ccae40;
+        border-radius: 0;
+        float: right;
+      }
+    }
+
+    .collapsible {
+      display: block;
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      border-radius: 0;
+    }
+    
+    .active, .collapsible:hover {
+      background-color: #ccc;
+    }
+    
+    .expanded {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: #f1f1f1;
+      text-align: left !important;
+      margin-bottom: 10px;
+    }
+    
+}
+
+.tab {
+    top: 0;
+    overflow: hidden;
+    min-width: 250px;
+    width: 30%;
+    float: left;
+
+    button {
+    display: block;
+    width: 100%;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: left;
+    padding: 14px 16px;
+    transition: 0.3s;
+    border-left: 5px solid #ccae40;
+    border-radius: 0;
+    }
+  }
+    
+  .tab button:hover {
+    background-color: #dfc66d;
+    border-radius: 0;
+  }
+  
+  .tab button.active {
+    background-color: #ccae40;
+    border-radius: 0;
+  }
+  
+  .tabcontent {
+    width: 65%;
+    float: right;
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+  }
+
+  @media screen and (max-width: 935px) { 
+    .tab {
+      width: 100%;
+
+      button {
+        display: inline-block;
+        width: 100%;
+      }
+    }
+
+    .tabcontent {
+      width: 100%;
+      float: none;
+    }
+  }
+
+  @media screen and (max-width: 480px) { 
+    .tablist {
+      font-size: 15px !important;
+
+      .item {
+        h4, a {
+          display: block !important;
+          text-align: left;
+          width: 100%;
+        }
+        button {
+          float: left;
+        }
+      }
+    }
+  }
+

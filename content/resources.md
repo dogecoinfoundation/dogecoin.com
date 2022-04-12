@@ -1,7 +1,9 @@
 +++
 title = "Resources"
 date = "2021-10-22"
-aliases = ["dogepedia/resources"]
+aliases = ["resources"]
+type = "resources"
+page = "page/resources.html"
 [ author ]
   name = "Dogecoin"
 +++
