@@ -1,13 +1,14 @@
 <div class="tablist">
-  <section class="box">
     <!-- Tab content -->
     <div id="FAQ" class="tabcontent" style="display: block">
+    <div class="accordion">
       {{ range $elem_key, $elem_val := first 3 (where .Site.Pages ".Params.type"
       "faq") }}
+      <div class="item">
       <div class="accordion-header" id="heading{{ $elem_key }}">
         <button
           type="button"
-          class="collapsible accordion-button collapsed"
+          class="accordion-button collapsed"
           data-bs-toggle="collapse"
           data-bs-target="#collapse{{ $elem_key }}"
           aria-expanded="false"
@@ -20,18 +21,20 @@
         id="collapse{{ $elem_key }}"
         class="accordion-collapse collapse"
         aria-labelledby="heading{{ $elem_key }}"
-        data-bs-parent="#accordionExample1"
+        data-bs-parent="#FAQ"
       >
         <div class="accordion-body">
           <p class="text-start p-2">
-            {{ .Summary | safeHTML | truncate 300 }} {{ if .Truncated }}
+            {{ .Summary | safeHTML | truncate 280 }} {{ if .Truncated }}
             <a href="{{ .RelPermalink }}">Read More…</a>
             {{ end }}
           </p>
         </div>
       </div>
+      </div>
       {{ end }}
     </div>
+      </div>
     
     <div id="Resources" class="tabcontent">
       <div class="container">
@@ -77,5 +80,4 @@
         {{ end }}
       </div>
     </div>
-  </section>
 </div>
