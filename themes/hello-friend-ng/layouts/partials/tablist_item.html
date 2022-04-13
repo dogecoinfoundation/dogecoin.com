@@ -26,7 +26,7 @@
         <div class="accordion-body">
           <p class="text-start p-2">
             {{ .Summary | safeHTML | truncate 280 }} {{ if .Truncated }}
-            <a href="{{ .RelPermalink }}">Read More…</a>
+            <a class="fw-bold" href="{{ .RelPermalink }}">Read More…</a>
             {{ end }}
           </p>
         </div>
@@ -37,7 +37,7 @@
       </div>
     
     <div id="Resources" class="tabcontent">
-      <div class="container">
+      <div class="container text-start">
         {{ range $elem_key, $elem_val := first 5 (where .Pages ".Params.type"
         "resources") }}
           {{ .Content | truncate 380 }} {{ if .Truncated }}
@@ -74,7 +74,7 @@
         <div class="accordion-body">
           <p class="text-start p-2">
             {{ .Summary | safeHTML | truncate 280 }} {{ if .Truncated }}
-            <a href="{{ .RelPermalink }}">Read More…</a>
+            <a class="fw-bold" href="{{ .RelPermalink }}">Read More…</a>
             {{ end }}
           </p>
         </div>
@@ -110,7 +110,7 @@
         <div class="accordion-body">
           <p class="text-start p-2">
             {{ .Summary | safeHTML | truncate 280 }} {{ if .Truncated }}
-            <a href="{{ .RelPermalink }}">Read More…</a>
+            <a class="fw-bold" href="{{ .RelPermalink }}">Read More…</a>
             {{ end }}
           </p>
         </div>
