@@ -1,5 +1,6 @@
 .tablist {
   color: #222;
+  @include font-size(1rem);
   .title {
     position: relative;
     width: 100vw;
@@ -24,13 +25,12 @@
     h4 {
       font-weight: bold;
       float: left;
-      width: 70%;
+      width: 100%;
       height: 100%;
     }
 
     a {
       min-width: 150px;
-      width: 20%;
       &:link {
         text-decoration: none;
       }
@@ -39,12 +39,8 @@
         text-decoration: none;
       }
     }
-
     button {
-      color: black;
-      background-color: #ccae40;
-      border-radius: 0;
-      float: right;
+      background-color: #fafafa;
     }
   }
 
@@ -80,7 +76,7 @@
   top: 0;
   overflow: hidden;
   min-width: 250px;
-  width: 30%;
+  width: 100%;
   float: left;
 
   button {
@@ -92,7 +88,7 @@
     outline: none;
     cursor: pointer;
     text-align: left;
-    padding: 14px 16px;
+    padding: .87rem 1rem;
     transition: 0.3s;
     border-left: 5px solid #ccae40;
     border-radius: 0;
@@ -109,51 +105,45 @@
   border-radius: 0;
 }
 
-.tabcontent {
-  width: 65%;
-  float: right;
-  display: none;
-  padding: 6px 12px;
-  border-top: none;
-  text-align: left;
-}
-
 @media screen and (max-width: 935px) {
-  .tab {
+  .tabcontent {
     width: 100%;
-
+    display: none;
+    border-top: none;
+  }
+  .tab {
     button {
       display: inline-block;
       width: 100%;
     }
   }
-
-  .tabcontent {
-    width: 100%;
-    float: none;
-  }
-}
-
-// tablist
-
-.tablist {
-  @include font-size(1rem);
-
-  .item {
-    h4,
-    a {
-    }
-    button {
-      background-color: #fafafa;
-    }
-  }
 }
 
 @media screen and (max-width: 480px) {
-  .tablist {
-    font-size: 15px !important;
-    width: 100vw;
+}
 
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+  #resources {
+    width: 100vw;
+    position: relative;
+    display: block;
+    padding-top: 6.5em;
+    left: 3rem;
+  }
+  .tabcontent {
+    width: 100%;
+    display: none;
+    border-top: none;
+  }
+  .tab {
+    button {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+  .tablist {
     .item {
       h4,
       a {
@@ -161,8 +151,94 @@
         width: 100%;
       }
       button {
+        width: 100%;
         background-color: #fafafa;
       }
     }
   }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {  
+  #resources {
+    width: 100vw;
+    position: relative;
+    display: block;
+    padding-top: 6.5em;
+  }
+  .tabcontent {
+    width: 100%;
+    display: none;
+    border-top: none;
+  }
+  .tab {
+    button {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+  .tablist {
+    .item {
+      h4,
+      a {
+        display: block !important;
+        width: 100%;
+      }
+      button {
+        width: 100%;
+        background-color: #fafafa;
+      }
+    }
+  }
+
+  .resources-bottom {
+    margin: 50px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) { 
+  .tabcontent {
+    width: 100%;
+    display: none;
+    border-top: none;
+  }
+  .tab {
+    button {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+  .tablist {
+    .item {
+      h4,
+      a {
+        display: block !important;
+        width: 100%;
+      }
+      button {
+        width: 100%;
+        background-color: #fafafa;
+      }
+    }
+  }
+  .resources-top {
+    margin: 50px 0 100px 0;
+  }
+  .resources-bottom {
+    margin: 100px;
+    .card {
+      width: 96px;
+    }
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) { 
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) { 
+
 }

@@ -3,25 +3,23 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-sm-6">
-          <img class="img-fluid mr-5" widht="100%" src="assets/images/22.png" />
+          <img class="img-fluid" widht="100%" src="assets/images/22.png" />
         </div>
-        <div class="col-lg-1 col-sm-4 pt-4">
-          {{ partial "tablist_menu.html" . }}
-        </div>
-        <div class="col-lg-8 col-sm-8">
+        <div class="col-lg-1 col-sm-6">{{ partial "tablist_menu.html" . }}</div>
+        <div class="col-lg-8 col-sm-12">
           <div>{{ partial "tablist_item.html" . }}</div>
         </div>
       </div>
     </div>
     <!-- vie all button -->
-    <div class="view_all_button">
-      <div class="text-center">
+    <div class="button-container">
+      <button class="dogepedia-button rounded-pill">
         <a
           href="{{ .Params.url | absURL }}/dogepedia/"
-          class="view_all_btn d-inline-block text-decoration-none montserrat fw-normal"
+          class="dogepedia-button rounded-pill d-inline-block text-decoration-none montserrat fw-normal"
           >VIEW ALL</a
         >
-      </div>
+      </button>
     </div>
   </div>
 

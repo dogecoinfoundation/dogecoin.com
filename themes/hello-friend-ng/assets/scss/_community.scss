@@ -6,6 +6,13 @@
     [data-theme=dark] & {
       color: #ffffff;
     }
+    .do-only {
+      @include font-size(11rem);
+    }
+    .good-everyday {
+      @include font-size(11rem);
+      padding-right: 1rem !important;
+    }
   }
 
 

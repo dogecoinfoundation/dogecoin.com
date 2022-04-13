@@ -1,5 +1,4 @@
-
-
+  
   .resources-top {
     position:relative;
     display: block;
@@ -40,10 +39,22 @@
     padding-top: 6.5em;
     left: 3rem;
   }
+
+  .resources-bottom {
+    width: 100vw;
+    padding: 1rem !important;
+    margin: auto !important;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
+@media (max-width: 768px) {  
+  #resources {
+    width: 100vw;
+    position: relative;
+    display: block;
+    padding-top: 6.5em;
+  }
 
   .resources-bottom {
     margin: 50px;
@@ -51,7 +62,7 @@
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
+@media (max-width: 992px) { 
   .resources-top {
     margin: 50px 0 100px 0;
   }
