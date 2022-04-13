@@ -33,9 +33,6 @@
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
   #resources {
-    height: 100vh !important;
-  }
-  #resources {
     width: 100vw;
     position: relative;
     display: block;
@@ -48,14 +45,15 @@
     top: 6.5rem !important;
     padding: 1rem !important;
     margin: auto !important;
+    height: 100% !important;
+    position: relative;
+    display: block;
+    top: 5vh !important;
   }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {
-  #resources {
-    height: 100vh !important;
-  }
   #resources {
     width: 100vw;
     position: relative;
@@ -64,20 +62,20 @@
   }
 
   .resources-bottom {
-    margin: 50px;
+    margin: 5vh;
   }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  #resources {
-    height: 100vh !important;
-  }
   .resources-top {
     margin: 50px 0 100px 0;
   }
   .resources-bottom {
-    top: 15vh !important;
+    height: 50vh !important;
+    position: relative;
+    display: block;
+    top: 5vh !important;
     .card {
       width: 96px;
     }
@@ -86,14 +84,14 @@
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  #resources {
-    height: 100vh !important;
-  }
   .resources-top {
-    margin: 50px 0 100px 0;
+    margin: 50px 0 50px 0;
   }
   .resources-bottom {
-    top: 15vh !important;
+    height: 45vh !important;
+    position: relative;
+    display: block;
+    top: 5vh !important;
     .card {
       width: 96px;
     }
@@ -102,14 +100,14 @@
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
-  #resources {
-    height: 100vh !important;
-  }
   .resources-top {
     margin: 50px 0 100px 0;
   }
   .resources-bottom {
-    top: 15vh !important;
+    height: 55vh !important;
+    position: relative;
+    display: block;
+    top: 10vh !important;
     .card {
       width: 96px;
     }
