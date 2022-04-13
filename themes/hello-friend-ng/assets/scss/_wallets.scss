@@ -1,8 +1,7 @@
 .wallets-bg {
-  width: 97.9vw !important;
+  width: 100vw !important;
   background-image: url(assets/images/wallets_bg.png);
-  background-size: 100% 740px;
-  // background-size: 100vw 105vh; // wraps under phone image
+  background-size: 100vw 100vh; // wraps under phone image
   background-repeat: no-repeat;
 }
 
@@ -10,14 +9,14 @@
   position: relative;
   overflow: hidden;
   display: block;
-  padding-top: 100px;
+  padding-top: 5vh;
   [data-theme="dark"] & {
     color: #ffffff;
     .card-body {
       color: #000000;
     }
   }
-}
-
-@media (max-width: 575px) {
+  p {
+    @include font-size(1.2rem);
+  }
 }

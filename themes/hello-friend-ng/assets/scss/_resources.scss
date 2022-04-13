@@ -60,19 +60,25 @@
     display: block;
     padding-top: 6.5em;
   }
-
   .resources-bottom {
-    margin: 5vh;
+    position: relative;
+    display: block;
+    top: 5vh !important;
+    .card {
+      width: 96px;
+    }
   }
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
+@media (max-width: 992px) {
+  #resources {
+    height: 100%;
+  }
   .resources-top {
     margin: 50px 0 100px 0;
   }
   .resources-bottom {
-    height: 50vh !important;
     position: relative;
     display: block;
     top: 5vh !important;
@@ -83,12 +89,11 @@
 }
 
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .resources-top {
     margin: 50px 0 50px 0;
   }
   .resources-bottom {
-    height: 45vh !important;
     position: relative;
     display: block;
     top: 5vh !important;

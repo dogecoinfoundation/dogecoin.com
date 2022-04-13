@@ -86,6 +86,7 @@
     height: 100%;
     text-align: left;
     padding: .5rem !important;
+    @include font-size(1.1rem);
   }
   .under {
     width: 100%;
@@ -130,6 +131,7 @@
     padding-left: 2em !important;
     top: -18vh;
     text-align: left;
+    @include font-size(1.1rem);
   }
 }
 
