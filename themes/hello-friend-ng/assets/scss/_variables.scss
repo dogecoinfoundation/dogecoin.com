@@ -18,22 +18,22 @@ $dark-color-secondary: #b3b3bd;
 $dark-border-color: #4e4e57;
 $dark-table-color: #0b0b0c;
 
-$media-size-phone: "(max-width: 540px)";
-$media-size-tablet: "(max-width: 960px)";
+$media-size-phone: "(max-width: 576px)";
+$media-size-tablet: "(max-width: 992px)";
 
 /* Variables for js, must be the same as these in @custom-media queries */
 :root {
-  --phoneWidth: (max-width: 540px);
-  --tabletWidth: (max-width: 960px);
+  --phoneWidth: (max-width: 576px);
+  --tabletWidth: (max-width: 992px);
 }
 
 /* Content */
 $max-width: 1400px;
 $container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px,
-  xxl: 1320px
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
 );
 

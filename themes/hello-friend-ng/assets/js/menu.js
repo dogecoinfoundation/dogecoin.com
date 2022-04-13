@@ -3,7 +3,7 @@
 const menuTrigger = document.querySelector(".menu-trigger");
 const menu = document.querySelector(".menu");
 const mobileQuery = getComputedStyle(document.body).getPropertyValue(
-  "--phoneWidth"
+  "--tabletWidth"
 );
 const isMobile = () => window.matchMedia(mobileQuery).matches;
 const isMobileMenu = () => {

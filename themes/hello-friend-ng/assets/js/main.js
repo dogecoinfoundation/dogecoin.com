@@ -59,7 +59,7 @@
         localStorage.removeItem("theme");
     }
 
-    // Shring the navbar when scrolling
+    // Shrink the navbar when scrolling
     if (header) {
         window.addEventListener("scroll", () => {
             if (window.scrollY > 10) {

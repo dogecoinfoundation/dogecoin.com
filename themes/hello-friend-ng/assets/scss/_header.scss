@@ -7,7 +7,7 @@
   left: 0;
   right: 0;
   padding: 10px 15px;
-  background: $dark-background-header;
+  background: $dark-background-secondary;
   color: $dark-color;
   font-family: "Montserrat" sans-serif;
   z-index: 100;
@@ -18,7 +18,7 @@
     flex-direction: row;
     align-items: center;
 
-    @media #{$media-size-phone} {
+    @media #{$media-size-tablet} {
       flex-direction: row-reverse;
     }
   }
@@ -29,23 +29,14 @@
     justify-content: space-between;
     margin: 0 auto;
     width: 97vw;
-    max-width: 1170px;
+    max-width: 1400px;
   }
 
   &.minimize {
     padding: 5px;
     .logo {
       img {
-        height: 32px;
-      }
-      .logo-labels {
-        .main-label {
-          margin-top: -5px !important;
-          width: 2vw;
-        }
-        .sub-label {
-          display: none;
-        }
+        height: 2rem;
       }
     }
   }
