@@ -21,6 +21,12 @@
     @media #{$media-size-tablet} {
       flex-direction: row-reverse;
     }
+    .menu-trigger {
+      position: inherit;
+      padding-left: 1rem !important;
+      padding-right: 1.85rem !important;
+      padding-bottom: 1.85em !important;
+    }
   }
 
   &__inner {
@@ -28,8 +34,8 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    width: 97vw;
-    max-width: 1400px;
+    width: 100%;
+    max-width: 1200px;
   }
 
   &.minimize {

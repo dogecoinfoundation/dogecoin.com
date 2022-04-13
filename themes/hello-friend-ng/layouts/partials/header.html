@@ -1,20 +1,28 @@
 <header id="header" class="header">
-    <span class="header__inner">
-        {{ partial "logo.html" . }}
-        <nav class="header__right">
-            {{ if len .Site.Menus }}
-                {{ partial "menu.html" . }}
-                <span class="menu-trigger">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
-                    </svg>
-                </span>
-            {{ end }}
-            {{- if .Site.Params.EnableThemeToggle }}
-                <span class="theme-toggle not-selectable">{{ partial "theme-toggle-icon.html" . }}</span>
-            {{- end}}
-            {{ partial "locale.html" . }}
-        </nav>
-    </span>
+  <span class="header__inner">
+    {{ partial "logo.html" . }}
+    <nav class="header__right">
+      {{ if len .Site.Menus }} {{ partial "menu.html" . }}
+      <span class="menu-trigger">
+        <svg
+          width="24"
+          height="24"
+          xmlns="http://www.w3.org/2000/svg"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+        >
+          <path
+            d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z"
+            fill="#1040e2"
+          />
+          <path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z" />
+        </svg>
+      </span>
+      {{ end }} {{- if .Site.Params.EnableThemeToggle }}
+      <span class="theme-toggle not-selectable"
+        >{{ partial "theme-toggle-icon.html" . }}</span
+      >
+      {{- end}} {{ partial "locale.html" . }}
+    </nav>
+  </span>
 </header>
