@@ -190,34 +190,24 @@ disableHugoGeneratorInject = false
     weight    = 3
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-  [languages.he]
+  [languages.zh-cn]
     subtitle  = "Hello Friend NG Theme"
     weight    = 4
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-  [languages.zh-cn]
+  [languages.pt]
     subtitle  = "Hello Friend NG Theme"
     weight    = 5
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-  [languages.pt]
+  [languages.no]
     subtitle  = "Hello Friend NG Theme"
     weight    = 6
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-  [languages.sr]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 7
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
-  [languages.no]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 8
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
   [languages.th]
     subtitle  = "Hello Friend NG Theme"
-    weight    = 9
+    weight    = 7
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
