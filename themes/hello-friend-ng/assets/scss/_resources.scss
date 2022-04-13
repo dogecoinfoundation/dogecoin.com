@@ -33,6 +33,9 @@
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
   #resources {
+    height: 100vh !important;
+  }
+  #resources {
     width: 100vw;
     position: relative;
     display: block;
@@ -51,6 +54,9 @@
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {
   #resources {
+    height: 100vh !important;
+  }
+  #resources {
     width: 100vw;
     position: relative;
     display: block;
@@ -64,6 +70,9 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+  #resources {
+    height: 100vh !important;
+  }
   .resources-top {
     margin: 50px 0 100px 0;
   }
@@ -77,6 +86,9 @@
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+  #resources {
+    height: 100vh !important;
+  }
   .resources-top {
     margin: 50px 0 100px 0;
   }
@@ -90,6 +102,9 @@
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
+  #resources {
+    height: 100vh !important;
+  }
   .resources-top {
     margin: 50px 0 100px 0;
   }

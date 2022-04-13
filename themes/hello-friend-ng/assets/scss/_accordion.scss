@@ -5,18 +5,14 @@ $accordion-button-active-icon:  url("data:image/svg+xml,<svg width='24' height='
 
 .accordion-button {
     width: 100% !important;
-}
-
-.accordion-button:not(.collapsed) {
-    color: #0c63e4;
-    background-color: #fafafa;
-    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.125);
+    padding-left: 2em !important;
+    align-items: left !important;
+    justify-content: flex-start !important;
 }
 
 .accordion-button:after {
     position: absolute;
     order: -1; //swap order
-    margin-right:0.5em !important; // just extra space between text and icon   
+    margin-right:.5em !important; // just extra space between text and icon
     left: 0vw !important;
 }
-
