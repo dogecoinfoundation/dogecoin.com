@@ -1,37 +1,37 @@
-  
-  .resources-top {
-    position:relative;
-    display: block;
-    padding: 50px 0 50px 0 !important;
-    margin: 0;
-    background-color: #fafafa;
+.resources-top {
+  position: relative;
+  display: block;
+  width: 100vw;
+  padding: 1rem !important;
+  margin: auto !important;
+  background-color: #fafafa;
+}
+
+.resources-bottom {
+  background-image: url(assets/images/25.png), url(assets/images/31.png);
+  background-position: left, right;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+
+  [data-theme="dark"] & {
+    color: #000000;
   }
-
-  .resources-bottom {
-    background-image: url(assets/images/25.png), url(assets/images/31.png);
-    background-position: left, right;
-    background-repeat: no-repeat;
-    position:relative;
-    display: block;
-
-    [data-theme=dark] & {
+  [data-theme="light"] & {
+    .accordion-header {
+      color: #ffffff;
+    }
+    .accordion-body {
       color: #000000;
     }
-    [data-theme=light] & {
-      .accordion-header {
-        color: #ffffff;
-      }
-      .accordion-body {
-        color: #000000;
-      }
-    }
   }
-  .resources-bottom.card {
-    background-color: #fcf4df;
-  }
+}
+.resources-bottom.card {
+  background-color: #fcf4df;
+}
 
 // Small devices (landscape phones, 576px and up)
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
   #resources {
     width: 100vw;
     position: relative;
@@ -42,13 +42,14 @@
 
   .resources-bottom {
     width: 100vw;
+    top: 6.5rem !important;
     padding: 1rem !important;
     margin: auto !important;
   }
 }
 
 // Medium devices (tablets, 768px and up)
-@media (max-width: 768px) {  
+@media (max-width: 768px) {
   #resources {
     width: 100vw;
     position: relative;
@@ -62,12 +63,12 @@
 }
 
 // Large devices (desktops, 992px and up)
-@media (max-width: 992px) { 
+@media (min-width: 992px) {
   .resources-top {
     margin: 50px 0 100px 0;
   }
   .resources-bottom {
-    margin: 100px;
+    top: 15vh !important;
     .card {
       width: 96px;
     }
@@ -75,11 +76,27 @@
 }
 
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-
+@media (min-width: 1200px) {
+  .resources-top {
+    margin: 50px 0 100px 0;
+  }
+  .resources-bottom {
+    top: 15vh !important;
+    .card {
+      width: 96px;
+    }
+  }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { 
-
+@media (min-width: 1400px) {
+  .resources-top {
+    margin: 50px 0 100px 0;
+  }
+  .resources-bottom {
+    top: 15vh !important;
+    .card {
+      width: 96px;
+    }
+  }
 }

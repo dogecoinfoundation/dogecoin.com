@@ -7,10 +7,10 @@
       color: #ffffff;
     }
     .do-only {
-      @include font-size(11rem);
+      @include font-size(8.5vw);
     }
     .good-everyday {
-      @include font-size(11rem);
+      @include font-size(8.5vw);
       padding-right: 1rem !important;
     }
   }

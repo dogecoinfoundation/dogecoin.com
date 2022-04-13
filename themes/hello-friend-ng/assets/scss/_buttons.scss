@@ -96,9 +96,16 @@ a.button {
     min-width: 200px;
     padding: 14px 24px;
   }
+}
 
-  .dogepedia-button {
-    color: #dfc66d !important;
+.dogepedia-button {
+  position: relative;
+  top: 4.5vh !important;
+  margin: auto !important;
+  background-color: #dfc66d !important;
+  color: #000000 !important;
+  a {
+    top: 0vh !important;
   }
 }
 
