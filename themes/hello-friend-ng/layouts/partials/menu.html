@@ -2,7 +2,7 @@
     <ul class="menu__inner">
         {{ range .Site.Menus.main -}}
             {{ if .Children }}
-                <li class="tooltip">
+                <li class="tooltip" role="tooltip">
                     <span><a href="{{ .URL | relLangURL }}">{{ .Name }}</a><span class="caret">&blacktriangledown;</span></span>
                     <div class="tooltip-content">
                       <div class="tooltip-body">
