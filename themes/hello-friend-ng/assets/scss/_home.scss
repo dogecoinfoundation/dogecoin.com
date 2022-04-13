@@ -114,52 +114,6 @@
     }
   }
 
-  .wrapper {
-    position: relative;
-    width: 97.9vw;
-    overflow: hidden;
-    display: block;
-    padding-top: 50px;
-    .section {
-      position: relative;
-      .article {
-        width: 97.9vw;
-        height: 100vh;
-        margin: 0 auto;
-        padding: 2em 0;
-        p {
-          margin-bottom: 1em;
-          &:last-of-type {
-            margin-bottom: 0;
-          }
-        }
-      }
-      &:after {
-        display: block;
-        position: relative;
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        height: 30em;
-        width: 100%;
-      }
-    }
-  }
-
-  @media only screen and (max-width: 600px) {
-    .wrapper {
-      section {
-        article {
-          width: 100%;
-        }
-        &:after {
-          height: 15em;
-        }
-      }
-    }
-  }
-
   main {
     [data-theme="dark"] & {
       background: #000000;

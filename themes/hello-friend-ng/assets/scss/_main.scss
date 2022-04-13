@@ -4,13 +4,14 @@
 
 html {
   position: relative;
-  width:100%;
-  height:100%;
   box-sizing: border-box;
   line-height: 1.6;
   letter-spacing: 0.06em;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  padding-left: .5em !important;
+  padding-right: .5em !important;
+  margin: 0 auto !important;
 }
 
 *,
@@ -35,8 +36,6 @@ body {
 
   display: flex;
   flex-direction: column;
-  height: 100%;
-  min-height: 100vh;
 
   // Default
   background-color: $light-background;
@@ -94,7 +93,7 @@ body {
     overflow: hidden;
     header, .left, footer {
       transition: transform 2s cubic-bezier(.2,0,.84,0);
-      transform: translate(100vw, 40px);
+      transform: translate(100%, 40px);
     }
     .doge-container {
       transition: transform .4s ease-out;
