@@ -49,7 +49,7 @@
   }
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1400px) {
   .footer-column1 {
     padding-left: 20px;
   }
@@ -112,7 +112,7 @@
   &__inner {
     display: flex;
     margin: 0 auto;
-    width: 1170px;
+    width: 1400px;
     max-width: 100%;
 
     @media #{$media-size-tablet} {

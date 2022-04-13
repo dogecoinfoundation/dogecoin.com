@@ -2,7 +2,7 @@
     <!-- Tab content -->
     <div id="FAQ" class="tabcontent" style="display: block">
     <div class="accordion">
-      {{ range $elem_key, $elem_val := first 3 (where .Site.Pages ".Params.type"
+      {{ range $elem_key, $elem_val := first 5 (where .Site.Pages ".Params.type"
       "faq") }}
       <div class="item">
       <div class="accordion-header" id="heading{{ $elem_key }}">

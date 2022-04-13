@@ -278,7 +278,7 @@ disableHugoGeneratorInject = false
     [[menu.main]]
     identifier = "resource"
     name       = "Resources"
-    url        = "dogepedia/resources/"
+    url        = "resources/"
     parent = "dogepedia"
     weight     = 5
 
