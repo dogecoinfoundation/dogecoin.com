@@ -20,3 +20,31 @@ menuTrigger &&
   );
 
 window.addEventListener("resize", isMobileMenu);
+
+window.addEventListener('load', function () {
+  if (screen.width <= 991) {
+      document.querySelector('.menu__inner').addEventListener('click', function () {
+          let menu = document.querySelector(".menu");
+          menu.classList.add('hidden');
+      });
+  }
+});
+var navbar = document.querySelector('header')
+var rect = document.querySelector("#home").getBoundingClientRect();
+var offset = {
+  top: rect.top + window.scrollY,
+  left: rect.left + window.scrollX,
+};
+
+// Script to hide/show menu
+var video = document.querySelector('#video-header');
+window.onscroll = function () {
+  // pageYOffset or scrollY
+  if (window.pageYOffset > rect.height) {
+      navbar.classList.add('scrolled')
+      video.classList.add('scrolled')
+  } else {
+      navbar.classList.remove('scrolled')
+      video.classList.remove('scrolled')
+  }
+}

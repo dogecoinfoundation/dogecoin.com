@@ -39,57 +39,15 @@
             </div>
         </div>
     </div>
-        <!-- loading start -->
-        <!-- <div class="preloader_div">
 
-        <div id="preloader" class="pre_loader_new">
-            <div class="txt">
-                <img src="assets/images/preloader-logo.png" alt="preloader logo" class="mb-2">
-                <p class="txt-perc">0%</p>
-                <div class="progress"><span></span></div>
-            </div>
-        </div>
-        <div id="intro" class="header-container fs">
-            <div class="bcg"></div>
-            <span class="scroll-hint">Scroll Down</span>
-        </div>
-
-        </div> -->
-        <!-- loading end -->
     <main>
         {{ partial "whatisdogecoin.html" . }}
         {{ partial "wallets.html" . }}
         {{ partial "community.html" . }}
         {{ partial "resources.html" . }}
     </main>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@0.0.3/dist/confetti.browser.min.js"></script>
     <script type="text/javascript">
-        var navbar = document.querySelector('header')
-        var rect = document.querySelector("#home").getBoundingClientRect();
-        var offset = {
-            top: rect.top + window.scrollY,
-            left: rect.left + window.scrollX,
-        };
-
-        // Script to hide/show menu
-        var video = document.querySelector('#video-header');
-        window.onscroll = function () {
-            // pageYOffset or scrollY
-            if (window.pageYOffset > rect.height) {
-                navbar.classList.add('scrolled')
-                video.classList.add('scrolled')
-            } else {
-                navbar.classList.remove('scrolled')
-                video.classList.remove('scrolled')
-            }
-        }
         setTimeout(function () {
-           
-        
         var options = {
             preload: {
                 selector: '.preload',
@@ -128,7 +86,6 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
-
         // You can also pass an optional settings object
         // below listed default settings
         AOS.init({
@@ -154,18 +111,12 @@
 
         });
         setTimeout(function () {
-            $("#dynamic_d").html('Ð').parent().addClass('for_animation_class');
+            var dogecoin_d = document.querySelector('#dynamic_d');
+            dogecoin_d.innerHTML = 'Ð';
+            dogecoin_d.classList.add('for_animation_class');
         }, 5500);
     </script>
     
     <script>
-        $(document).ready(function () {
-            if ($(window).width() <= 991) {
-                $('.menu__inner .nav-items .nav-link').on('click', function () {
-                    console.log(this);
-                    $(".menu").toggleClass('hidden');
-                });
-            }
-        });
     </script>
     {{ end }}
