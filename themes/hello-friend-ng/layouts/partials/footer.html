@@ -62,8 +62,9 @@
     </div>  
     <!-- JavaScript and dependencies -->
 
-    {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
-    {{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
+    {{ $bootstrap := resources.Get "js/bootstrap.min.js" }}
+    {{ $popperjs := resources.Get "js/lib/popper.js" }}
+    {{ $js := slice $bootstrap $popperjs | resources.Concat "js/bundle.js" | resources.Minify }}
 
-    <script src="{{$js.RelPermalink}}" defer></script>
+    <script src="{{$js.RelPermalink}}"  type="application/javascript;charset=utf-8" defer></script>
 </footer>
