@@ -9,14 +9,23 @@
   position: relative;
   overflow: hidden;
   display: block;
-  padding-top: 5vh;
+  padding-top: 7.5vh;
   [data-theme="dark"] & {
     color: #ffffff;
     .card-body {
       color: #000000;
     }
   }
+  .card {
+    height: 100%;
+    width: 100%;
+    min-height: 6.25rem !important;
+    max-height: 18.5rem !important;
+    min-width: 6.25rem !important;
+    max-width: 32rem !important;
+    padding-top: 0.5rem !important;
+  }
   p {
-    @include font-size(1.2rem);
+    @include font-size(.85rem);
   }
 }
