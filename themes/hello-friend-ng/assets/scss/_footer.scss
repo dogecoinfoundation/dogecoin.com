@@ -76,12 +76,17 @@
   }
 
   .footer-column1 {
+    position: relative;
+    padding-right: 1em !important;
     width: 100% !important;
+    right: 7.5vw !important;
   }
 
   .footer-column {
+    position: relative;
     width: 100% !important;
     margin-bottom: 20px;
+    right: 7.5vw !important;
   }
 }
 
