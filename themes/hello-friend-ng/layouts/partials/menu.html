@@ -1,5 +1,5 @@
-<nav class="navbar menu">
-  <ul class="menu__inner nav-items">
+<nav class="menu">
+  <ul class="menu__inner">
     {{ range .Site.Menus.main -}} {{ if .Children }}
     <li class="tooltip" role="tooltip">
       <span
@@ -15,7 +15,7 @@
       </div>
     </li>
     {{ else }}
-    <li class="nav-link"><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+    <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
     {{ end }} {{- end }}
   </ul>
 </nav>
