@@ -25,7 +25,7 @@ buildExpired = false
 canonifyURLs = true
 
 enableRobotsTXT = true
-enableGitInfo   = true
+enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = true
 disableRSS     = false
@@ -119,10 +119,14 @@ disableHugoGeneratorInject = false
     copyright = false
     author = true
 
-    topText = []
+    topText = ["Website Design - <a href='https://twitter.com/cb_doge' target='_blank' class='fw-normal text-decoration-none'>CB</a>"]
     bottomText = [
-      "Website Design - CE ",
-      "| <span>Coding - Florian & xanimo</span>"
+      "Code - <a href='https://github.com/bellesea' class='fw-normal text-decoration-none' target='_blank'>Belle</a>,",
+       "<a href='https://github.com/exu3' class='fw-normal text-decoration-none' target='_blank'>Ella</a>,",
+      "<a target='_blank' href='https://github.com/fdidron' class='fw-normal text-decoration-none'>Florian</a>,", 
+      "<a target='_blank' href='https://github.com/quackduck' class='fw-normal text-decoration-none'>Ishan</a>,", 
+      "<a class='fw-normal text-decoration-none' target='_blank' href='https://github.com/sampoder'>Sam</a>,", 
+      "<a target='_blank' class='fw-normal text-decoration-none' href='https://github.com/qlpqlp'>qlpqlp</a>"
     ]
 
   # Colors for favicons
@@ -278,7 +282,7 @@ disableHugoGeneratorInject = false
 
   [[params.footerLegal]]
     name = "Privacy Policy"
-    url  = "#"
+    url  = "/legal"
 
   [[params.footerLegal]]
     name = "Trademarks"
