@@ -13,6 +13,7 @@ Mining pools are services, operated by third parties not affiliated with Dogecoi
 
 By joining their efforts with other miners in a mining pool, which coordinates their work and distributes the rewards following pre-established rules the miners have agreed to, miners earn a steadier flow of Dogecoin. Even though they get awarded only a portion of the overall block reward, over a long period of time, mining a pool allows a miner to earn a more predictable and usually higher amount of Dogecoin.
 
+![image info](../../../assets/images/dogepedia/6.png)
 ### Mining Pools and Rewards
 When mining in a pool, miners agree to accept the rules defined by the pool for the distribution of the rewards. 
 

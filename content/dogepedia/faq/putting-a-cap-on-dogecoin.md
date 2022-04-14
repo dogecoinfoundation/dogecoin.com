@@ -7,6 +7,8 @@ type = "faq"
   name = "Dogecoin"
 +++
 
+![image info](../../../assets/images/dogepedia/7.png)
+
 Right now, and for the next hundred years or so, Dogecoin operates like, and will continue to operate like, most other crypto assets. “Capped” assets are nowhere near mined out – and will continue adding to their supply, just like Dogecoin, for the foreseeable future.  
 
 Dogecoin’s supply is **not** unlimited, because it has an absolute limit of issuance per block, per day, per year – just like other coins do. The only difference is that Dogecoin’s issuance does not have an end date.  Therefore, Dogecoin is only “infinite” over “infinite time”. Over finite time, its issuance is, in fact, finite. 

@@ -9,6 +9,7 @@ type = "article"
  
 Dogecoin was originally created as a joke in late 2013 by Billy Markus and Jackson Palmer. Both Billy and Jackson thought that cryptocurrency was being taken far too seriously and wasn’t much fun. Jackson created the Dogecoin.com website and would have been, for a while, the public face of Dogecoin, while Billy worked as a solo developer on the first 4 releases.
 
+![image info](../../../assets/images/dogepedia/12.png)
 
 On December 6th, 2013, Dogecoin was launched taking influence from the famous Doge meme: an image of a very adorable Shiba Inu dog with multi-coloured comic sans text that appears as the dog’s “thought bubbles”. 
 
