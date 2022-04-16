@@ -1,6 +1,8 @@
 +++
 title = "How do I get a Dogecoin wallet?"
 date = "2021-10-22"
+type = "article"
+
 [ author ]
   name = "Dogecoin"
 +++
@@ -9,6 +11,7 @@ A wallet is necessary for people wanting to trade, use, or ‘hodl’ Dogecoin. 
 
 Generally speaking, there are two overarching categories of wallets: 'custodial' and 'non-custodial', depending on whether you are the sole holder of your wallet's private key. Additionally, wallets can be 'hot' or 'cold', depending on whether they are connected to the internet or not.
 
+![image info](../../../assets/images/dogepedia/4.png)
 ## Custodial Wallets and Non-Custodial Wallets {#custodial-vs-non-custodial-wallets}
 
 A **custodial wallet** is a wallet to which you do not hold the [private key](dogepedia/articles/how-to-backup-a-wallet). In this case, the term “custodial" means that a trusted entity *other than yourself* holds custody of the coins on your behalf and manages the private key. Examples of custodial wallets include web-based exchange wallets. 

@@ -40,6 +40,7 @@ a.button {
 
   [data-theme=light] & {
     background: $light-background-header;
+    color: inherit;
   }
 
   &.outline {
@@ -65,6 +66,7 @@ a.button {
   
     [data-theme=light] & {
       border-color: $light-background-secondary;
+      color: inherit;
     }
 
     :hover {
@@ -93,6 +95,17 @@ a.button {
   &.wide {
     min-width: 200px;
     padding: 14px 24px;
+  }
+}
+
+.dogepedia-button {
+  position: relative;
+  top: 4.5vh !important;
+  margin: auto !important;
+  background-color: #dfc66d !important;
+  color: #000000 !important;
+  a {
+    top: 0vh !important;
   }
 }
 
@@ -125,6 +138,7 @@ a.button {
   
     @media (prefers-color-scheme: light) {
       background: $light-background-secondary;
+      color: inherit;
     }
   
     [data-theme=dark] & {
@@ -134,6 +148,7 @@ a.button {
   
     [data-theme=light] & {
       background: $light-background-secondary;
+      color: inherit;
     }
   }
 }

@@ -7,7 +7,8 @@
 
     .icon {
         display: inline-block;  
-        font-size: 12.8px;
+        @include font-size(.78rem);
+        text-decoration: none;
     }
 
     &:hover {
@@ -65,7 +66,7 @@
     display: none;
 }
 
-  @media screen and (max-width: 776px) {
+  @media screen and (max-width: 992px) {
       .lang1 {
           display: none;
       }

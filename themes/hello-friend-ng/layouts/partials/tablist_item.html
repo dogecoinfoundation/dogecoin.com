@@ -1,0 +1,122 @@
+<div class="tablist">
+    <!-- Tab content -->
+    <div id="FAQ" class="tabcontent" style="display: block">
+    <div class="accordion">
+      {{ range $elem_key, $elem_val := first 5 (where .Site.Pages ".Params.type"
+      "faq") }}
+      <div class="item">
+      <div class="accordion-header" id="heading{{ $elem_key }}">
+        <button
+          type="button"
+          class="accordion-button collapsed"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse{{ $elem_key }}"
+          aria-expanded="false"
+          aria-controls="collapse{{ $elem_key }}"
+        >
+          {{ .Title }}
+        </button>
+      </div>
+      <div
+        id="collapse{{ $elem_key }}"
+        class="accordion-collapse collapse"
+        aria-labelledby="heading{{ $elem_key }}"
+        data-bs-parent="#FAQ"
+      >
+        <div class="accordion-body">
+          <p class="text-start p-2">
+            {{ .Summary | safeHTML | truncate 280 }} {{ if .Truncated }}
+            <a class="fw-bold" href="{{ .RelPermalink }}">Read More…</a>
+            {{ end }}
+          </p>
+        </div>
+      </div>
+      </div>
+      {{ end }}
+    </div>
+      </div>
+    
+    <div id="Resources" class="tabcontent">
+      <div class="container text-start">
+        {{ range $elem_key, $elem_val := first 5 (where .Pages ".Params.type"
+        "resources") }}
+          {{ .Content | truncate 380 }} {{ if .Truncated }}
+          <a href="{{ .RelPermalink }}">Read More…</a>
+          {{ end }}
+        </p>
+        {{ end }}
+      </div>
+    </div>
+
+    <div id="HowTo" class="tabcontent">
+    <div class="accordion">
+      {{ range $elem_key, $elem_val := first 5 (where .Site.Pages ".Params.type"
+      "how-to") }}
+      <div class="item">
+      <div class="accordion-header" id="heading{{ $elem_key }}">
+        <button
+          type="button"
+          class="accordion-button collapsed"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse{{ $elem_key }}"
+          aria-expanded="false"
+          aria-controls="collapse{{ $elem_key }}"
+        >
+          {{ .Title }}
+        </button>
+      </div>
+      <div
+        id="collapse{{ $elem_key }}"
+        class="accordion-collapse collapse"
+        aria-labelledby="heading{{ $elem_key }}"
+        data-bs-parent="#HowTo"
+      >
+        <div class="accordion-body">
+          <p class="text-start p-2">
+            {{ .Summary | safeHTML | truncate 280 }} {{ if .Truncated }}
+            <a class="fw-bold" href="{{ .RelPermalink }}">Read More…</a>
+            {{ end }}
+          </p>
+        </div>
+      </div>
+      </div>
+      {{ end }}
+    </div>
+    </div>
+
+    <div id="Documentation" class="tabcontent">
+    <div class="accordion">
+      {{ range $elem_key, $elem_val := first 5 (where .Site.Pages ".Params.type"
+      "article") }}
+      <div class="item">
+      <div class="accordion-header" id="heading{{ $elem_key }}">
+        <button
+          type="button"
+          class="accordion-button collapsed"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse{{ $elem_key }}"
+          aria-expanded="false"
+          aria-controls="collapse{{ $elem_key }}"
+        >
+          {{ .Title }}
+        </button>
+      </div>
+      <div
+        id="collapse{{ $elem_key }}"
+        class="accordion-collapse collapse"
+        aria-labelledby="heading{{ $elem_key }}"
+        data-bs-parent="#Documentation"
+      >
+        <div class="accordion-body">
+          <p class="text-start p-2">
+            {{ .Summary | safeHTML | truncate 280 }} {{ if .Truncated }}
+            <a class="fw-bold" href="{{ .RelPermalink }}">Read More…</a>
+            {{ end }}
+          </p>
+        </div>
+      </div>
+      </div>
+      {{ end }}
+    </div>
+    </div>
+</div>

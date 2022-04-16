@@ -1,4 +1,4 @@
-baseURL = "https://preview.dogecoin.com"
+baseURL = "preview.dogecoin.com"
 title   = "Dogecoin"
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -27,13 +27,19 @@ canonifyURLs = true
 enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = true
-enableMissingTranslationPlaceholders = false
+enableMissingTranslationPlaceholders = true
 disableRSS     = false
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
-
+[module]
+  [[module.mounts]]
+    source = "node_modules/bootstrap/dist/js/bootstrap.min.js"
+    target = "assets/js/bootstrap.min.js"
+  [[module.mounts]]
+    source = "node_modules/@popperjs/core/lib/popper.js"
+    target = "assets/js/lib/popper.js"
 
 [markup]
   [markup.goldmark]
@@ -116,10 +122,19 @@ disableHugoGeneratorInject = false
     copyright = false
     author = true
 
-    topText = []
+    topText = ["Website Design - <a href='https://twitter.com/cb_doge' target='_blank' class='fw-normal text-decoration-none'>CB</a>"]
     bottomText = [
-      "Website Design - CE ",
-      "| <span>Coding - Florian & xanimo</span>"
+      "Code - <a class='fw-normal text-decoration-none' href='https://github.com/bellesea' target='_blank'>Belle</a>,",
+       "<a class='fw-normal text-decoration-none' href='https://github.com/xanimo' target='_blank'>Bluezr</a>,",
+       "<a class='fw-normal text-decoration-none' href='https://github.com/exu3' target='_blank'>Ella</a>,",
+      "<a class='fw-normal text-decoration-none' href='https://github.com/fdidron' target='_blank'>Florian</a>,",
+      "<a class='fw-normal text-decoration-none' href='https://github.com/quackduck' target='_blank'>Ishan</a>,",
+      "<a class='fw-normal text-decoration-none' href='https://github.com/sampoder' target='_blank' >Sam</a>,",
+      "<a class='fw-normal text-decoration-none' href='https://github.com/michilumin' target='_blank'>Michi</a>,",
+      "<a class='fw-normal text-decoration-none' href='https://github.com/MishaBoar' target='_blank'>Misha</a>,",
+      "<a class='fw-normal text-decoration-none' href='https://github.com/qlpqlp' target='_blank' >Paulo</a>,",
+      "<a class='fw-normal text-decoration-none' href='https://github.com/RichieJohn' target='_blank'>Richard</a>,",
+      "<a class='fw-normal text-decoration-none' href='https://github.com/tjstebbing' target='_blank'>Tim</a>"
     ]
 
   # Colors for favicons
@@ -187,59 +202,49 @@ disableHugoGeneratorInject = false
     weight    = 3
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-  [languages.he]
+  [languages.zh-cn]
     subtitle  = "Hello Friend NG Theme"
     weight    = 4
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-  [languages.zh-cn]
+  [languages.pt]
     subtitle  = "Hello Friend NG Theme"
     weight    = 5
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-  [languages.pt]
+  [languages.no]
     subtitle  = "Hello Friend NG Theme"
     weight    = 6
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-  [languages.sr]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 7
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
-  [languages.no]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 8
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
   [languages.th]
     subtitle  = "Hello Friend NG Theme"
-    weight    = 9
+    weight    = 7
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
   [[menu.main]]
     identifier = "home"
     name       = "Home"
-    url        = "/"
+    url        = "#home"
     weight     = 1
 
   [[menu.main]]
     identifier = "what-is-dogecoin"
     name       = "What is Dogecoin?"
-    url        = "what-is-dogecoin/"
+    url        = "#what-is-dogecoin"
     weight     = 2
 
   [[menu.main]]
     identifier = "wallets"
     name       = "Wallets"
-    url        = "wallets/"
+    url        = "#wallets"
     weight     = 3
 
   [[menu.main]]
     identifier = "community"
     name       = "Community"
-    url        = "community/"
+    url        = "#community"
     weight     = 4
 
   [[menu.main]]
@@ -259,13 +264,6 @@ disableHugoGeneratorInject = false
     weight     = 5
 
     [[menu.main]]
-    identifier = "resource"
-    name       = "Resources"
-    url        = "dogepedia/resources"
-    parent = "dogepedia"
-    weight     = 5
-
-    [[menu.main]]
     identifier = "how-tos"
     name       = "How Tos"
     url        = "dogepedia/#howto"
@@ -279,12 +277,12 @@ disableHugoGeneratorInject = false
     parent = "dogepedia"
     weight     = 5
     
-  [[menu.main]]
-  identifier = "foundation"
-  name       = "Foundation"
-  url        = "https://foundation.dogecoin.com"
-  weight     = 6
-
+    [[menu.main]]
+    identifier = "resource"
+    name       = "Resources"
+    url        = "resources/"
+    parent = "dogepedia"
+    weight     = 5
 
 [[params.footerLegal]]
     name = "Terms & Conditions"
@@ -292,7 +290,7 @@ disableHugoGeneratorInject = false
 
   [[params.footerLegal]]
     name = "Privacy Policy"
-    url  = "#"
+    url  = "/legal"
 
   [[params.footerLegal]]
     name = "Trademarks"

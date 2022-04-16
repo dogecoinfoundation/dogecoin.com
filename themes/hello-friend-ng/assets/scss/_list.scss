@@ -6,7 +6,7 @@
   margin: 20px auto;
 
   @media #{$media-size-tablet} {
-    max-width: 660px;
+    max-width: 992px;
   }
 
   &:not(:last-of-type) {

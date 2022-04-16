@@ -1,6 +1,8 @@
 +++
 title = "What is a miner?"
 date = "2021-10-22"
+type = "article"
+
 [ author ]
   name = "Dogecoin"
 +++

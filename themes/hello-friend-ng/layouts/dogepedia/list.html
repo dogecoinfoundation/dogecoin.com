@@ -1,0 +1,140 @@
+<!-- {{ define "main" }}
+<main class="dogepedia">
+    <div class="title">
+      <h1>{{ .Title }}</h1>
+      <a>Home — <b>{{ .Title }}</b></a>
+    </div>
+      <div class="underline"></div>
+<section class="box">
+<div class="tab">
+    <button class="tablinks active" onclick="openToggle(event, 'FAQ')">{{ .Params.faq }}</button>
+    <button class="tablinks" onclick="openToggle(event, 'Resources')">{{ .Params.resources }}</button>
+    <button class="tablinks" onclick="openToggle(event, 'HowTo')">{{ .Params.howto }}</button>
+    <button class="tablinks" onclick="openToggle(event, 'Documentation')">{{ .Params.documentation }}</button>
+    <button class="tablinks" onclick="openToggle(event, 'Articles')">{{ .Params.article }}</button>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="FAQ" class="tabcontent" style="display: block">
+    {{ range where .Pages ".Params.type" "faq" }}
+    <button type="button" class="collapsible">{{ .Title }}</button>
+    <div class="expanded">
+      <p>{{ .Content }}</p>
+    </div>
+    {{ end }}
+</div>
+  
+  <div id="Resources" class="tabcontent">
+      <div>some resources</div>
+  </div>
+  
+  <div id="HowTo" class="tabcontent">
+    <div class="container">
+            {{ range where .Pages ".Params.type" "how-to" }}
+            <div class="item">
+                <span class="post-date">
+                    <span class="day">
+                        {{ .Date.Format "2"}}
+                    </span>
+                    <span class="month">
+                        {{ .Date.Format "Jan"}}
+                    </span>
+                </span>
+                <h4 class="grid-title">{{.Title}}</h4>
+                <a href="{{.Permalink}}">
+                    <button class="post-button">Read more</button>
+                </a>
+            </div>
+            {{ end }}
+    </div>
+  </div>
+
+  <div id="Documentation" class="tabcontent">
+      <div>some documentation</div>
+    <div class="posts-group">
+        <ul class="posts-list">
+            {{ range where .Pages ".Params.type" "how-to" }}
+            <li class="post-item">
+                 <span class="post-date">
+                    <span class="day">
+                        {{ .Date.Format "2"}}
+                    </span>
+                    <span class="month">
+                        {{ .Date.Format "Jan"}}
+                    </span>
+                </span> 
+                <span class="post-title">{{.Title}}</span>
+                <a href="{{.Permalink}}">
+                    <button class="post-button">Read more</button>
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+  </div>
+
+  <div id="Articles" class="tabcontent">
+    <div class="container">
+        {{ range where .Pages ".Params.type" "article" }}
+        <div class="item">
+            <span class="post-date">
+                <span class="day">
+                    {{ .Date.Format "2"}}
+                </span>
+                <span class="month">
+                    {{ .Date.Format "Jan"}}
+                </span>
+            </span>
+            <h4 class="grid-title">{{.Title}}</h4>
+            <a href="{{.Permalink}}">
+                <button class="post-button">Read more</button>
+            </a>
+        </div>
+        {{ end }}
+</div>
+
+  </div>
+</section>
+  </main>
+</div>
+
+<script>
+function openToggle(evt, type) {
+  var i, tabcontent, tablinks;
+
+  tabcontent = document.getElementsByClassName("tabcontent");
+
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  tablinks = document.getElementsByClassName("tablinks");
+
+
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  document.getElementById(type).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+//for collapsible 
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    var content = this.nextElementSibling;
+
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+{{ end }} -->

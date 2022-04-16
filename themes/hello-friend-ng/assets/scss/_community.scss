@@ -1,0 +1,35 @@
+  .community {
+    position:relative;
+    display: block;
+    padding: 7.5vh 0 50px 0;
+
+    [data-theme=dark] & {
+      color: #ffffff;
+    }
+    .do-only {
+      @include font-size(8.5vw);
+    }
+    .good-everyday {
+      @include font-size(8.5vw);
+      padding-right: 1rem !important;
+    }
+    .video {
+      max-width: 100%;
+      height: auto;
+   }
+  }
+
+
+@media (max-width: 575px) {
+  .community {
+    width: 100vw;
+    position: relative;
+    display: block;
+    padding-top: 6.5em;
+    left: 3rem;
+
+    [data-theme="dark"] & {
+      color: #ffffff;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+
+.wallets-bg {
+  width: 100vw !important;
+  background-image: url(assets/images/wallets_bg.png);
+  background-size: 100vw 100vh; // wraps under phone image
+  background-repeat: no-repeat;
+}
+
+.wallet {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  padding-top: 7vh;
+  [data-theme="dark"] & {
+    color: #ffffff;
+    .card-body {
+      color: #000000;
+    }
+  }
+  .card {
+    height: 100%;
+    width: 100%;
+    min-height: 12rem !important;
+    max-height: 19rem !important;
+    min-width: 12rem !important;
+    max-width: 32rem !important;
+    padding-top: 0.5rem !important;
+  }
+  p {
+    @include font-size(.85rem);
+  }
+  .dropdown-toggle::after {
+    visibility: hidden !important;
+  }
+}

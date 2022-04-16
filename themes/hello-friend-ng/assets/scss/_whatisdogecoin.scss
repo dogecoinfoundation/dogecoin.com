@@ -1,0 +1,346 @@
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+// X-Small devices (portrait phones, 0px to S)
+@media (max-width: 575px) {
+  .parent {
+    position: relative;
+    top: 0;
+    left: 5vw;
+  }
+  .kabosu-content {
+    width: 100vw !important;
+    height: 100%;
+    text-align: left;
+    left: 7.5vw;
+    padding: 3rem !important;
+    padding-bottom: 1rem !important;
+  }
+  .under {
+    width: 100%;
+    padding: .5rem !important;
+    position: relative;
+    max-width: 24rem;
+  }
+  .over {
+    width: 100%;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    padding: .5rem !important;
+    max-width: 20rem;
+  }
+  .parent-numbers {
+    height: 38vh;
+    width: 100%;
+    padding: 2rem !important;
+  }
+  .under-numbers {
+    position: relative;
+    width: 100% !important;
+    left: 10vw;
+    padding-bottom: 1em !important;
+    padding: .5rem !important;
+    max-width: 24rem;
+  }
+  .over-numbers {
+    position: relative;
+    width: 100% !important;
+    margin: auto;
+    padding: .5rem !important;
+    top: -21vh;
+    max-width: 24rem;
+    text-align: left;
+    font-weight: 600;
+    @include font-size(4.2rem);
+  }
+  .text-numbers {
+    position: relative;
+    width: 100% !important;
+    padding-left: 2em !important;
+    top: -18vh;
+    text-align: left;
+  }
+}
+
+// Small devices (landscape phones, 576px to M)
+@media (min-width: 576px) and (max-width: 767px) {
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .kabosu-content {
+    // width: 32vw !important;
+    height: 100%;
+    text-align: left;
+    padding: .5rem !important;
+    @include font-size(1.1rem);
+  }
+  .under {
+    width: 100%;
+    padding: .5rem !important;
+    position: relative;
+    max-width: 26rem;
+  }
+  .over {
+    width: 100%;
+    position: absolute;
+    top: 5vh;
+    left: 7.25vh;
+    padding: .5rem !important;
+    max-width: 20rem;
+  }
+  .parent-numbers {
+    height: 32vh;
+    width: 100%;
+    padding: .5rem !important;
+  }
+  .under-numbers {
+    position: relative;
+    width: 100% !important;
+    padding-bottom: 1em !important;
+    padding: .5rem !important;
+    max-width: 24rem;
+  }
+  .over-numbers {
+    position: relative;
+    width: 100% !important;
+    margin: auto;
+    padding: .5rem !important;
+    top: -21vh;
+    max-width: 24rem;
+    text-align: left;
+    font-weight: 600;
+    @include font-size(4.2rem);
+  }
+  .text-numbers {
+    position: relative;
+    width: 100% !important;
+    padding-left: 2em !important;
+    top: -18vh;
+    text-align: left;
+    @include font-size(1.1rem);
+  }
+}
+
+// Medium devices (tablets, 768px to L)
+@media (min-width: 768px) and (max-width: 991px) {
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .kabosu-content {
+    position:inherit;
+    width: 32vw !important;
+    height: 100%;
+    text-align: left;
+    padding: .5rem !important;
+    max-width: 50rem;
+    
+  }
+  .under {
+    width: 100%;
+    padding: .5rem !important;
+    position: relative;
+    max-width: 36rem;
+  }
+  .over {
+    width: 100%;
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    margin-right: 1vw;
+    padding: .5rem !important;
+    max-width: 15rem;
+  }
+  .over-numbers {
+    position: relative;
+    width: 100% !important;
+    margin: auto;
+    padding: .5rem !important;
+    top: -13.5vh;
+    left: 3.5vw;
+    max-width: 36rem;
+    text-align: left;
+    font-weight: 600;
+    @include font-size(2rem);
+  }
+  .text-numbers {
+    position: relative;
+    width: 100% !important;
+    padding-left: 2em !important;
+    top: -12vh;
+    text-align: left;
+  }
+}
+
+// Large devices (desktops, 992px to XL)
+@media (min-width: 992px) and (max-width: 1199px) {
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .kabosu-content {
+    position: inherit;
+    float: left;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: .5rem !important;
+    max-width: 42rem;
+    
+  }
+  .under {
+    width: 100%;
+    padding: .5rem !important;
+    position: relative;
+    max-width: 24rem;
+  }
+  .over {
+    width: 100%;
+    position: absolute;
+    top: 5vh;
+    left: 4.2vw;
+    margin-right: 1vw;
+    padding: .5rem !important;
+    max-width: 20rem;
+  }
+  .over-numbers {
+    position: relative;
+    width: 100% !important;
+    margin: auto;
+    padding: .5rem !important;
+    top: -14.5vh;
+    left: 3.5vw;
+    max-width: 36rem;
+    text-align: left;
+    font-weight: 600;
+    @include font-size(2rem);
+  }
+  .text-numbers {
+    position: relative;
+    width: 100% !important;
+    padding-left: 2em !important;
+    top: -12vh;
+    text-align: left;
+  }
+}
+
+// X-Large devices (large desktops, 1200px to XXL)
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .kabosu-content {
+    position: inherit;
+    float: left;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: .5rem !important;
+    max-width: 42rem;
+    
+  }
+  .under {
+    position: relative;
+    width: 100%;
+    padding: .5rem !important;
+    left: 5vw;
+    max-width: 24rem;
+  }
+  .over {
+    width: 100%;
+    position: absolute;
+    top: 5vh;
+    left: 8vw;
+    padding: .5rem !important;
+    max-width: 20rem;
+  }
+  .over-numbers {
+    position: relative;
+    width: 100% !important;
+    margin: auto;
+    padding: .5rem !important;
+    top: -14.5vh;
+    left: 1.5vw;
+    max-width: 18rem;
+    text-align: left;
+    font-weight: 600;
+    @include font-size(2rem);
+  }
+  .text-numbers {
+    position: relative;
+    width: 100% !important;
+    padding-left: 2em !important;
+    top: -12vh;
+    text-align: left;
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .kabosu-content {
+    position: inherit;
+    float: left;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: .5rem !important;
+    max-width: 42rem;
+    
+  }
+  .under {
+    position: relative;
+    width: 100%;
+    left: 7.5vw;
+    padding: .5rem !important;
+    max-width: 24rem;
+  }
+  .over {
+    width: 32vw;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    padding: .5rem !important;
+    max-width: 20rem;
+  }
+  .under-numbers {
+    position: relative;
+    width: 33vh !important;
+    padding-bottom: 1em !important;
+    padding: .5rem !important;
+    max-width: 24rem;
+  }
+  .over-numbers {
+    position: relative;
+    width: 100% !important;
+    margin: auto;
+    padding: .5rem !important;
+    top: -17vh;
+    max-width: 18rem;
+    text-align: left;
+    font-weight: 600;
+    @include font-size(2rem);
+  }
+  .text-numbers {
+    position: relative;
+    width: 100% !important;
+    padding-left: 2em !important;
+    top: -12vh;
+    text-align: left;
+  }
+}

@@ -1,5 +1,3 @@
-
-
 <footer>
     <div class="footer-container">
         <img class="footer-image" src="/footer-map.png"/>
@@ -48,9 +46,25 @@
                 </div>
                 </div>
                 <div>
-                    Website Design - CE | <span>Coding - Florian & xanimo</span>
+                {{with .Site.Params.footer.topText}}
+                    <div class="text-wrap">
+                        {{ range . }}<span>{{ . | safeHTML}}</span> {{ end }}
+                    </div>
+                {{ end }}
+                {{with .Site.Params.footer.bottomText}}
+                    <div class="text-wrap">
+                        {{ range . }}<span>{{ . | safeHTML}}</span> {{ end }}
+                    </div>
+                {{ end }}
                 </div>
             </div>
         </div>
     </div>  
+    <!-- JavaScript and dependencies -->
+
+    {{ $bootstrap := resources.Get "js/bootstrap.min.js" }}
+    {{ $popperjs := resources.Get "js/lib/popper.js" }}
+    {{ $js := slice $bootstrap $popperjs | resources.Concat "js/bundle.js" | resources.Minify }}
+
+    <script src="{{$js.RelPermalink}}"  type="application/javascript;charset=utf-8" defer></script>
 </footer>

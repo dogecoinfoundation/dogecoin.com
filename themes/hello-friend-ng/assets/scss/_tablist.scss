@@ -1,0 +1,284 @@
+.tablist {
+  color: #222;
+  @include font-size(1rem);
+  .title {
+    position: relative;
+    width: 100vw;
+
+    h1 {
+      font-weight: bold;
+    }
+
+    a {
+      color: black;
+    }
+  }
+
+  .content {
+    position: relative;
+  }
+
+  .item {
+    display: block;
+    border: none;
+
+    h4 {
+      font-weight: bold;
+      float: left;
+      width: 100%;
+      height: 100%;
+    }
+
+    a {
+      min-width: 150px;
+      &:link {
+        text-decoration: none;
+      }
+
+      &:visited {
+        text-decoration: none;
+      }
+    }
+    button {
+      background-color: #fafafa;
+    }
+  }
+
+  .collapsible {
+    display: block;
+    background-color: #fafafa;
+    color: #444;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: 0;
+  }
+
+  .active,
+  .collapsible:hover {
+    background-color: #fafafa;
+  }
+
+  .expanded {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #fafafa;
+    text-align: left !important;
+    margin-bottom: 10px;
+  }
+}
+
+.tab {
+  top: 0;
+  overflow: hidden;
+  min-width: 250px;
+  width: 100%;
+  float: left;
+
+  button {
+    display: block;
+    width: 100%;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: left;
+    padding: .87rem 1rem;
+    transition: 0.3s;
+    border-left: 5px solid #ccae40;
+    border-radius: 0;
+  }
+}
+
+.tab button:hover {
+  background-color: #dfc66d;
+  border-radius: 0;
+}
+
+.tab button.active {
+  background-color: #ccae40;
+  border-radius: 0;
+}
+
+@media screen and (max-width: 935px) {
+  .tabcontent {
+    width: 100%;
+    display: none;
+    border-top: none;
+  }
+  .tab {
+    button {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+  #resources {
+    width: 100vw;
+    position: relative;
+    display: block;
+    padding-top: 6.5em;
+    left: 3rem;
+  }
+  .tabcontent {
+    width: 100%;
+    display: none;
+    border-top: none;
+  }
+  .tab {
+    button {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+  .tablist {
+    .item {
+      h4,
+      a {
+        display: block !important;
+        width: 100%;
+      }
+      button {
+        width: 100%;
+        background-color: #fafafa;
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {  
+  #resources {
+    width: 100vw;
+    position: relative;
+    display: block;
+    padding-top: 6.5em;
+  }
+  .tabcontent {
+    width: 100%;
+    display: none;
+    border-top: none;
+  }
+  .tab {
+    button {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+  .tablist {
+    .item {
+      h4,
+      a {
+        display: block !important;
+        width: 100%;
+      }
+      button {
+        width: 100%;
+        background-color: #fafafa;
+      }
+    }
+  }
+
+  .resources-bottom {
+    margin: 50px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) { 
+  .tabcontent {
+    width: 100%;
+    display: none;
+    border-top: none;
+  }
+  .tab {
+    button {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+  .tablist {
+    width: 100vw !important;
+    padding: 1em !important;
+    .item {
+      h4,
+      a {
+        display: block !important;
+        width: 100%;
+      }
+      button {
+        width: 100%;
+        background-color: #fafafa;
+      }
+    }
+  }
+  .resources-top {
+    margin: 50px 0 100px 0;
+  }
+  .resources-bottom {
+    margin: 100px;
+    .card {
+      width: 96px;
+    }
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) { 
+  .tablist {
+    width: 100vw !important;
+    padding: 1em !important;
+    .item {
+      h4,
+      a {
+        display: block !important;
+        width: 100%;
+      }
+      button {
+        width: 100%;
+        background-color: #fafafa;
+      }
+    }
+  }
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media screen and (max-width: 1400px) { 
+  .tablist {
+    width: 100% !important;
+    padding: 1em !important;
+    .item {
+      width: 100% !important;
+      h4,
+      a {
+        display: block !important;
+        width: 100%;
+      }
+      button {
+        width: 100%;
+        background-color: #fafafa;
+      }
+    }
+  }
+
+  .resources-bottom {
+    bottom: 5vh !important;
+    margin: 100px;
+    .card {
+      width: 96px;
+    }
+  }
+}
