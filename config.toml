@@ -1,4 +1,4 @@
-baseURL = "preview.dogecoin.com"
+baseURL = ""
 title   = "Dogecoin"
 languageCode = "en-us"
 theme = "hello-friend-ng"
