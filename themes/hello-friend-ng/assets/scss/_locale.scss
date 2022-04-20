@@ -58,7 +58,11 @@
             align-items: flex-start;
             justify-content: left;
             text-decoration: none;
+        &:hover {
+          color: #ffc107;
         }
+        }
+
     }
 }
 

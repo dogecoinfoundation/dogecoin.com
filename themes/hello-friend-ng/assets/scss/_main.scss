@@ -1,5 +1,5 @@
-* { 
-  margin:0; 
+* {
+  margin:0;
 }
 
 html {
@@ -22,17 +22,20 @@ html {
   box-sizing: inherit;
 }
 
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("../static/fonts/ComicSansMS3.woff") format('woff');
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Roboto",
-  "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Comic Sans MS";
   font-display: auto;
   @include font-size(1.1rem);
   line-height: 1.54;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
 
@@ -117,7 +120,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+    font-family: "Comic Sans MS";
 }
 
 h2,
@@ -167,6 +170,9 @@ h4 {
 
 a {
   color: inherit;
+  &:hover {
+  color: #ffc107;
+  }
 }
 
 img {
