@@ -1,9 +1,13 @@
 .locale {
-    padding-left: 20px; 
+    margin-left: -15px; /* jank code to make spacing even while dark mode toggle is removed */
     display: inline-block;
     text-transform: uppercase;
     min-width: 113px;
     text-align: left;
+    
+    a {
+        text-decoration: none !important;
+    }
 
     .icon {
         display: inline-block;  
@@ -72,7 +76,6 @@
       }
 
       .locale {
-        padding-right: 15px;
         min-width: 0;
       }
   }

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 * { 
   margin:0; 
+  letter-spacing: 0;
 }
 
 html {
@@ -530,4 +533,25 @@ hr {
   align-self: center;
   align-items: center;
   margin: auto;
+}
+
+.comic-neue {
+  font-family: "Comic Neue", cursive !important;
+}
+
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive !important;
+  font-weight: bold;
+  font-size: larger;
+  
+  button {
+    font-weight: bold;
+  }
+}
+
+/* override default max-width */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1200px !important;
+  }
 }

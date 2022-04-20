@@ -12,7 +12,7 @@
                 <p>The Shiba Inu is a Japanese breed of dog that was popularized as an online meme and represents Dogecoin. Dogecoin was created by Jackson Palmer & Shibetoshi Nakamoto. Logo design by Christine Ricks.</p>
             </div>
             <div class="footer-column">
-                <a class="footer-title">Legal</a>
+                <a class="footer-title comic-neue-bold">Legal</a>
                 {{- with .Site.Params.footerLegal }}
                     {{ range . -}}
                     <li><a href="{{ .url | relLangURL }}" >{{ .name }}</a></li>
@@ -21,13 +21,13 @@
                 {{- end }}
             </div>
             <div class="footer-column">
-                <a class="footer-title">Sitemap</a>
+                <a class="footer-title comic-neue-bold">Sitemap</a>
                 {{ range .Site.Menus.main -}}
                 <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
                 {{- end }}
             </div>
             <div class="footer-column">
-                <a class="footer-title">Foundation</a>
+                <a class="footer-title comic-neue-bold">Foundation</a>
                 {{- with .Site.Params.footerFoundation }}
                     {{ range . -}}
                         <li><a href="{{ .url | relLangURL }}" >{{ .name }}</a></li>
@@ -45,14 +45,14 @@
                     © 2014-{{ now.Year }} | The Dogecoin Project
                 </div>
                 </div>
-                <div>
+                <div class="footer-credits-box">
                 {{with .Site.Params.footer.topText}}
-                    <div class="text-wrap">
+                    <div class="text-wrap footer-credits">
                         {{ range . }}<span>{{ . | safeHTML}}</span> {{ end }}
                     </div>
                 {{ end }}
                 {{with .Site.Params.footer.bottomText}}
-                    <div class="text-wrap">
+                    <div class="text-wrap footer-credits">
                         {{ range . }}<span>{{ . | safeHTML}}</span> {{ end }}
                     </div>
                 {{ end }}

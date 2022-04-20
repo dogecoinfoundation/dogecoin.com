@@ -118,3 +118,23 @@
     }
   }
 }
+
+.find-more-card {
+  border-radius: 10px !important;
+  text-align: left !important;
+
+  h5 {
+    font-weight: bold;
+  }
+
+  .find-more-text {
+    padding: 1rem;
+    padding-bottom: 0.7rem;
+
+    a {
+      padding-bottom: 0.3rem;
+      text-decoration: none !important;
+      border-bottom: 1px solid #000000;
+    }
+  }
+}
