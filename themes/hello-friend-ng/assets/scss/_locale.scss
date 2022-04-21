@@ -70,12 +70,12 @@
     display: none;
 }
 
-  @media screen and (max-width: 992px) {
-      .lang1 {
-          display: none;
-      }
+@media screen and (max-width: 992px) {
+    .lang1 {
+        display: none;
+    }
 
-      .locale {
+    .locale {
         min-width: 0;
-      }
-  }
+    }
+}
