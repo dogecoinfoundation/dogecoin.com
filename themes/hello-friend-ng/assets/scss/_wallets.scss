@@ -3,7 +3,6 @@
   width: 100vw !important;
   background-image: url(assets/images/wallets_bg.png);
   background-size: 100vw; // wraps under phone image
-  background-position: 0 -100px;
   background-repeat: no-repeat;
 }
 
@@ -11,7 +10,7 @@
   position: relative;
   overflow: hidden;
   display: block;
-  padding-top: 7vh;
+  padding-top: 15vh;
   [data-theme="dark"] & {
     color: #ffffff;
     .card-body {
@@ -55,5 +54,6 @@
 }
 
 .wallet-bottom-container {
+  padding-top: 12vh !important;
   margin-top: 10vh;
 }
