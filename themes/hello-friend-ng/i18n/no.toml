@@ -1,0 +1,40 @@
+# Translations for English
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# Generic
+#
+[translations]
+other = "Oversettelser"
+
+[postAvailable]
+other = "Også tilgjengelig i"
+
+
+# 404.html
+#
+[archives]
+other = "Arkiv"
+
+[home]
+other = "Hjem"
+
+[notFound]
+other = "Ånei, siden ble ikke funnet..."
+
+
+# posts/single.html
+#
+[readingTime]
+one   = "Ett minutt"
+other = "{{ .Count }} minutter"
+
+[tableOfContents]
+other = "Innholdsfortegnelse"
+
+[wordCount]
+one   = "Ett ord
+"
+other = "{{ .Count }} Ord"
+
+[lastModified]
+other = "Sist oppdatert"
