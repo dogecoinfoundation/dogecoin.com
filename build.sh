@@ -3,10 +3,10 @@
 CONTENT_FILES=$(find content -name "*.md")
 
 # Lists all master translation (english) files.
-MASTER_FILES=$(echo "$CONTENT_FILES" | awk -F '/' '{if($2 == "md") {print $0}}')
+MASTER_FILES=$(echo "$CONTENT_FILES" | awk -F '/' '{if($2 == "en") {print $0}}')
 
 # Lists all the locales
-LOCALES=$(echo "$CONTENT_FILES" | awk -F '/' '{if($2 != "md") {print $2}}' | sort -u)
+LOCALES=$(echo "$CONTENT_FILES" | awk -F '/' '{if($2 != "en") {print $2}}' | sort -u)
 
 # Symlinks created are kept into this array to be removed after the build process
 SYM_LINKS=()
@@ -17,7 +17,7 @@ for MASTER_FILE in $MASTER_FILES
 do
   for LOCALE in $LOCALES
   do
-    LOCALE_VARIANT=$(echo $MASTER_FILE | sed "s/.$LOCALE/")
+    LOCALE_VARIANT=$(echo $MASTER_FILE | sed "s/\/en/\/$LOCALE/")
     if [ ! -f $LOCALE_VARIANT ]; then
       ln ${MASTER_FILE} ${LOCALE_VARIANT}
       SYM_LINKS+=($LOCALE_VARIANT)
