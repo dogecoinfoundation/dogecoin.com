@@ -17,7 +17,7 @@
                     {{ range . -}}
                     <li><a href="{{ .url | relLangURL }}" >{{ .name }}</a></li>
                     {{- end -}}
-            
+
                 {{- end }}
             </div>
             <div class="footer-column">
@@ -30,9 +30,9 @@
                 <a class="footer-title">{{i18n "footer[foundation]" }}</a>
                 {{- with .Site.Params.footerFoundation }}
                     {{ range . -}}
-                        <li><a href="{{ .url | relLangURL }}" >{{ .name }}</a></li>
+                        <li><a href="{{ .url }}" >{{ .name }}</a></li>
                     {{- end -}}
-            
+
                 {{- end }}
             </div>
         </div>

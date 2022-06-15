@@ -1,7 +1,7 @@
 <nav class="menu">
   <ul class="menu__inner">
     {{ range .Site.Menus.main -}} {{ if .Children }}
-    <li class="tooltip" role="tooltip">
+    <li class="tooltip" role="tooltip" style="opacity: 1">
       <span
         ><a href="{{ .URL | relLangURL }}">{{ .Name }}</a
         ><span class="caret">&blacktriangledown;</span></span
