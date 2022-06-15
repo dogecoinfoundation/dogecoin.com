@@ -91,6 +91,59 @@ pre {
 
 a {
   background-color: transparent;
+    &:hover {
+        color: #ffc107 !important;
+        text-decoration: none !important;
+        text-shadow: 0px 0px 1px #D1D1D1 !important;
+        background: transparent !important
+    }
+}
+
+/**
+ * Fix header background on sub pages
+ */
+
+.header {
+  background: #0b0b0b !important;
+}
+
+/**
+ * Fix header menu on mobile
+ */
+
+.menu__inner {
+    background-color: #0b0b0b !important;
+}
+
+/**
+ * Fix Accodion hover button
+ */
+
+.accordion-button{
+  color: inherit !important;
+}
+
+/**
+ * Fix Dogepedia houver button
+ */
+
+.dogepedia-button:hover{
+ background-color: #FFFFFF !important;
+ border: 1px solid #dfc66d !important;
+}
+
+/**
+ * Fix the language flags
+ */
+.current-locale{
+  text-align: -webkit-center !important;
+}
+
+/**
+ * Fix opacity on latest bootsrap
+ */
+.tooltip {
+  opacity: 1 !important;
 }
 
 /**

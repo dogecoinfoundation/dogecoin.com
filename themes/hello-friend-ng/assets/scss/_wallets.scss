@@ -2,7 +2,7 @@
 .wallets-bg {
   width: 100vw !important;
   background-image: url(assets/images/wallets_bg.png);
-  background-size: 100vw 100vh; // wraps under phone image
+  background-size: 100vw; // wraps under phone image
   background-repeat: no-repeat;
 }
 
@@ -10,7 +10,7 @@
   position: relative;
   overflow: hidden;
   display: block;
-  padding-top: 7vh;
+  padding-top: 15vh;
   [data-theme="dark"] & {
     color: #ffffff;
     .card-body {
@@ -32,4 +32,28 @@
   .dropdown-toggle::after {
     visibility: hidden !important;
   }
+}
+
+.rounded-5 {
+  border-radius: 20px;
+  border: none;
+}
+
+@media (min-width: 992px) {
+  .wallet-blurb {
+    width: 80%;
+    margin: 0 !important;
+  }
+}
+
+.google-play-button {
+  width: 15vw;
+  height: auto;
+  margin-top: 10px;
+  margin-left: -5px;
+}
+
+.wallet-bottom-container {
+  padding-top: 12vh !important;
+  margin-top: 10vh;
 }

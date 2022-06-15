@@ -32,6 +32,8 @@
         }
     }
 
+    document.documentElement.setAttribute("data-theme", "light"); //force light theme (temp)
+
     // Switch the theme.
     function switchTheme(e) {
         if (chosenThemeIsDark) {

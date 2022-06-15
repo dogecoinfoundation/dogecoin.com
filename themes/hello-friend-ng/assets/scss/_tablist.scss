@@ -41,6 +41,8 @@
     }
     button {
       background-color: #fafafa;
+      font-weight: bold;
+      font-size: large;
     }
   }
 
@@ -124,7 +126,7 @@
 
 
 // Small devices (landscape phones, 576px and up)
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
   #resources {
     width: 100vw;
     position: relative;
@@ -159,7 +161,7 @@
 }
 
 // Medium devices (tablets, 768px and up)
-@media (max-width: 768px) {  
+@media (max-width: 768px) {
   #resources {
     width: 100vw;
     position: relative;
@@ -197,7 +199,7 @@
 }
 
 // Large devices (desktops, 992px and up)
-@media (max-width: 992px) { 
+@media (max-width: 992px) {
   .tabcontent {
     width: 100%;
     display: none;
@@ -236,7 +238,7 @@
 }
 
 // X-Large devices (large desktops, 1200px and up)
-@media (max-width: 1200px) { 
+@media (max-width: 1200px) {
   .tablist {
     width: 100vw !important;
     padding: 1em !important;
@@ -256,7 +258,7 @@
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media screen and (max-width: 1400px) { 
+@media screen and (max-width: 1400px) {
   .tablist {
     width: 100% !important;
     padding: 1em !important;

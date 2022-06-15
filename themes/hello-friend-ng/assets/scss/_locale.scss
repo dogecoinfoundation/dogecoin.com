@@ -1,12 +1,16 @@
 .locale {
-    padding-left: 20px; 
+    margin-left: -15px; /* jank code to make spacing even while dark mode toggle is removed */
     display: inline-block;
     text-transform: uppercase;
     min-width: 113px;
     text-align: left;
 
+    a {
+        text-decoration: none !important;
+    }
+
     .icon {
-        display: inline-block;  
+        display: inline-block;
         @include font-size(.78rem);
         text-decoration: none;
     }
@@ -39,7 +43,7 @@
                 height: 0px;
                 width: 0px;
                 top: -15px;
-                left: 20px; 
+                left: 20px;
                 border-width: 10px;
                 border-style: solid;
                 transform: rotate(90deg);
@@ -51,7 +55,7 @@
             text-align: left;
             padding: 1px 0 1px 10px;
         }
-        
+
         .locale-list a {
             display: inline-block;
             padding: 3px;
@@ -66,13 +70,12 @@
     display: none;
 }
 
-  @media screen and (max-width: 992px) {
-      .lang1 {
-          display: none;
-      }
+@media screen and (max-width: 992px) {
+    .lang1 {
+        display: none;
+    }
 
-      .locale {
-        padding-right: 15px;
+    .locale {
         min-width: 0;
-      }
-  }
+    }
+}

@@ -7,15 +7,28 @@
       color: #ffffff;
     }
     .do-only {
-      @include font-size(8.5vw);
+      @include font-size(6.5vw);
     }
     .good-everyday {
-      @include font-size(8.5vw);
+      @include font-size(6.5vw);
       padding-right: 1rem !important;
     }
     .video {
       max-width: 100%;
       height: auto;
+   }
+   .social-image {
+     border: 0.5px solid gainsboro;
+     width: 24% !important;
+
+     a img {
+      padding: 0 !important;
+      height: 100%;
+      vertical-align: middle;
+     }
+   }
+   .youtube-logo {
+     max-width: 60% !important;
    }
   }
 
@@ -31,5 +44,23 @@
     [data-theme="dark"] & {
       color: #ffffff;
     }
+  }
+}
+
+@media (min-width: 992px) {
+  .community {
+    .do-only-box {
+      margin-left: 10vw;
+    }
+  }
+
+  .doge-graphics {
+    position: relative;
+    width: 100%;
+    margin: auto;
+  }
+
+  .doge-graphics-letter {
+    margin: auto;
   }
 }

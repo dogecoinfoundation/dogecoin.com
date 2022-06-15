@@ -8,11 +8,11 @@
   left: 0;
   right: 0;
   padding: 10px 15px;
-  background: $dark-background-header;
   color: $dark-color;
   font-family: "Montserrat" sans-serif;
   z-index: 100;
   transition: padding .2s ease-in;
+  background: transparent;
 
   &__right {
     display: flex;
@@ -40,6 +40,7 @@
   }
 
   &.minimize {
+    background: $dark-background-header;
     padding: 5px;
     .logo {
       img {
@@ -72,4 +73,8 @@ header.scrolled {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+}
+
+.mt-1 {
+  margin-top: 12px !important;
 }

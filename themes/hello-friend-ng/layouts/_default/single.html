@@ -1,7 +1,7 @@
 {{ define "main" }}
-    <main class="post">
+    <main class="post comic-neue">
 
-        <div class="post-info">
+        <div class="post-info comic-neue">
             {{ if .IsTranslated }}
                 {{ i18n "postAvailable" }}
                 {{ range .Translations }}
@@ -12,38 +12,37 @@
                   {{ end }}
                 {{ end}}
             {{ end }}
-            </p>
         </div>
         <article>
-            <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+            <h2 class="post-title comic-neue"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
 
             {{ if .Params.Cover }}
                 <figure class="post-cover">
                     <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" />
                 
                     {{ if .Params.CoverCaption }}
-                        <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
+                        <figcaption class="center comic-neue">{{ .Params.CoverCaption | markdownify }}</figcaption>
                     {{ end }}
                 </figure>
             {{ end }}
             
             {{ if .Params.toc }}
                 <hr />
-                <aside id="toc">
-                <div class="toc-title">{{ i18n "tableOfContents" }}</div>
+                <aside id="toc comic-neue">
+                <div class="toc-title comic-neue">{{ i18n "tableOfContents" }}</div>
                     {{ .TableOfContents }}
                 </aside>
                 <hr />
             {{ end }}
 
-            <div class="post-content">
+            <div class="post-content comic-neue">
                 {{ .Content }}
             </div>
         </article>
 
         <hr />
 
-        <div class="post-info">
+        <div class="post-info comic-neue">
             {{ partial "tags.html" .Params.tags }}
             {{ partial "categories.html" . }}
 
