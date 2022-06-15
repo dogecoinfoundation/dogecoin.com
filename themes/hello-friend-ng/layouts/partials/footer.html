@@ -6,13 +6,13 @@
                 <div class="logo">
                     <img src="/doge-logo.png" alt="Dogecoin logo" />
                     <div class="logo-labels">
-                        <div class="main-label footer-label">DOGECOIN</div>
+                        <div class="main-label footer-label comic-neue">DOGECOIN</div>
                     </div>
                 </div>
-                <p style="padding-top: 10px">{{i18n "footer[text1]" }}</p>
+                <p style="padding-top: 10px" class="comic-neue">{{i18n "footer[text1]" }}</p>
             </div>
             <div class="footer-column">
-                <a class="footer-title">{{i18n "footer[legal]" }}</a>
+                <a class="footer-title comic-neue-bold">{{i18n "footer[legal]" }}</a>
                 {{- with .Site.Params.footerLegal }}
                     {{ range . -}}
                     <li><a href="{{ .url | relLangURL }}" >{{ .name }}</a></li>
@@ -21,13 +21,13 @@
                 {{- end }}
             </div>
             <div class="footer-column">
-                <a class="footer-title">{{i18n "footer[sitemap]" }}</a>
+                <a class="footer-title comic-neue-bold">{{i18n "footer[sitemap]" }}</a>
                 {{ range .Site.Menus.main -}}
                 <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
                 {{- end }}
             </div>
             <div class="footer-column">
-                <a class="footer-title">{{i18n "footer[foundation]" }}</a>
+                <a class="footer-title comic-neue-bold">{{i18n "footer[foundation]" }}</a>
                 {{- with .Site.Params.footerFoundation }}
                     {{ range . -}}
                         <li><a href="{{ .url }}" >{{ .name }}</a></li>
@@ -42,16 +42,16 @@
             <div class="footer__content" style="display: block; text-align: center">
                 <div class="row">
                 {{with .Site.Params.footer.topText}}
-                    <div class="text-wrap">
+                    <div class="text-wrap footer-credits comic-neue">
                         {{ range . }}<span>{{ . | safeHTML}}</span> {{ end }}
                     </div>
                 {{ end }}
                 {{with .Site.Params.footer.bottomText}}
-                    <div class="text-wrap">
+                    <div class="text-wrap footer-credits comic-neue">
                         {{ range . }}<span>{{ . | safeHTML}}</span> {{ end }}
                     </div>
                 {{ end }}
-                <p style="text-align: center">© 2014-{{ now.Year }} | {{i18n "footer[copyright]" }}</p>
+                <p style="text-align: center" class="comic-neue">© 2014-{{ now.Year }} | {{i18n "footer[copyright]" }}</p>
                 </div>
             </div>
         </div>

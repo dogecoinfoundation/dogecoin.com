@@ -2,10 +2,10 @@
   <div class="resources-top pb-4">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-sm-6">
-          <img class="img-fluid" widht="100%" src="/assets/images/22.png" />
+        <div class="col-lg-3 col-sm-6 resources-image">
+          <img class="img-fluid" style="width: 100% !important" src="/assets/images/22.png" />
         </div>
-        <div class="col-lg-1 col-sm-6">{{ partial "tablist_menu.html" . }}</div>
+        <div class="col-lg-1 col-sm-6 resources-image">{{ partial "tablist_menu.html" . }}</div>
         <div class="col-lg-8 col-sm-12">
           <div>{{ partial "tablist_item.html" . }}</div>
         </div>
@@ -15,7 +15,7 @@
     <button class="dogepedia-button rounded-pill">
       <a
         href="{{ .Params.url | absURL }}/dogepedia/"
-        class="text-decoration-none montserrat"
+        class="text-decoration-none comic-neue"
         >{{i18n "resources[viewall]" }}</a
       >
     </button>
@@ -23,10 +23,10 @@
   <div class="resources-bottom pb-2">
     <div class="container">
       <div class="row">
-        <h2 class="title fs-2 mb-5 text-dark">{{i18n "resources[title]" }}</h2>
+        <h2 class="title fs-2 mb-5 text-dark comic-neue">{{i18n "resources[title]" }}</h2>
         <div class="col-12 col-md-6 col-lg-3">
           <div
-            class="card border-0"
+            class="card border-0 find-more-card"
             data-aos="fade-up"
             data-aos-offset="100"
             data-aos-delay="10"
@@ -41,17 +41,19 @@
                 width="98px"
                 alt="..."
               />
-              <h5 class="card-title">{{i18n "resources[title1]" }}</h5>
-              <p class="card-text">
-                {{i18n "resources[text1]" }}
-              </p>
-              <a href="https://foundation.dogecoin.com/">{{i18n "resources[visit]" }} -></a>
+              <div class="find-more-text">
+                <h5 class="card-title comic-neue">{{i18n "resources[title1]" }}</h5>
+                <p class="card-text comic-neue">
+                  {{i18n "resources[text1]" }}
+                </p>
+                <a href="https://foundation.dogecoin.com/" class="comic-neue">{{i18n "resources[visit]" }} -></a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
           <div
-            class="card border-0"
+            class="card border-0  find-more-card"
             data-aos="fade-up"
             data-aos-offset="100"
             data-aos-delay="10"
@@ -66,17 +68,19 @@
                 width="98px"
                 alt="..."
               />
-              <h5 class="card-title">{{i18n "resources[title2]" }}</h5>
-              <p class="card-text">
-                {{i18n "resources[text2]" }}
-              </p>
-              <a href="https://foundation.dogecoin.com/blog/">{{i18n "resources[visit]" }} -></a>
+              <div class="find-more-text">
+                <h5 class="card-title comic-neue">{{i18n "resources[title2]" }}</h5>
+                <p class="card-text comic-neue">
+                  {{i18n "resources[text2]" }}
+                </p>
+                <a href="https://foundation.dogecoin.com/blog/" class="comic-neue">{{i18n "resources[visit]" }} -></a>
+             </div>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
           <div
-            class="card border-0"
+            class="card border-0 find-more-card"
             data-aos="fade-up"
             data-aos-offset="100"
             data-aos-delay="10"
@@ -91,17 +95,19 @@
                 width="98px"
                 alt="..."
               />
-              <h5 class="card-title">{{i18n "resources[title3]" }}</h5>
-              <p class="card-text">
-                {{i18n "resources[text3]" }}
-              </p>
-              <a href="https://foundation.dogecoin.com/announcements/">{{i18n "resources[visit]" }} -></a>
+              <div class="find-more-text">
+                <h5 class="card-title comic-neue">{{i18n "resources[title3]" }}</h5>
+                <p class="card-text comic-neue">
+                  {{i18n "resources[text3]" }}
+                </p>
+                <a href="https://foundation.dogecoin.com/announcements/" class="comic-neue">{{i18n "resources[visit]" }} -></a>
+            </div>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
           <div
-            class="card border-0"
+            class="card border-0 find-more-card"
             data-aos="fade-up"
             data-aos-offset="100"
             data-aos-delay="10"
@@ -116,11 +122,13 @@
                 width="98px"
                 alt="..."
               />
-              <h5 class="card-title">{{i18n "resources[title4]" }}</h5>
-              <p class="card-text">
-                {{i18n "resources[text4]" }}
-              </p>
-              <a href="trademarks/">{{i18n "resources[visit]" }} -></a>
+              <div class="find-more-text">
+                <h5 class="card-title comic-neue">{{i18n "resources[title4]" }}</h5>
+                <p class="card-text comic-neue">
+                  {{i18n "resources[text4]" }}
+                </p>
+                <a href="trademarks/" class="comic-neue">{{i18n "resources[visit]" }} -></a>
+              </div>
             </div>
           </div>
         </div>

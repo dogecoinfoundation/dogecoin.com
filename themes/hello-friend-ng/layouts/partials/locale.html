@@ -5,7 +5,7 @@
           {{ else }}
         <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
           {{ end }}
-        <a class="lang1">{{(.Lang)}}</a>
+        <a class="lang1"><span class="badge bg-dark text-light comic-neue">{{(.Lang)}}</span></a>
         <a class="icon">▼</a>
     </div>
     <div class="locale-list">
@@ -13,12 +13,12 @@
           {{ if eq (.Lang) "pt-pt"}}
           <div class="lang">
               <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-pt flag-icon-squared"></span></a>
-              <a href="/{{(.Lang)}}">{{(.Lang)}}</a>
+              <a href="/{{(.Lang)}}"><span class="badge bg-dark text-ligh comic-neuet">{{(.Lang)}}</span></a>
           </div>
           {{ else }}
           <div class="lang">
               <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
-              <a href="/{{(.Lang)}}">{{(.Lang)}}</a>
+              <a href="/{{(.Lang)}}"><span class="badge bg-dark text-light comic-neue">{{(.Lang)}}</span></a>
           </div>
           {{ end }}
         {{ end }}

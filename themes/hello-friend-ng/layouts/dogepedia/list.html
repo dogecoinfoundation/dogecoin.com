@@ -13,19 +13,22 @@
     <button class="tablinks" onclick="openToggle(event, 'Documentation')">{{ .Params.documentation }}</button>
     <button class="tablinks" onclick="openToggle(event, 'Articles')">{{ .Params.article }}</button>
   </div>
-  
+
   <!-- Tab content -->
+<div>
+<main class="dogepedia">
+<section class="box">
   <div id="FAQ" class="tabcontent" style="display: block">
     {{ range where .Pages ".Params.type" "faq" }}
-    <button type="button" class="collapsible">{{ .Title }}</button>
+    <button type="button" class="collapsible comic-neue">{{ .Title }}</button>
     <div class="expanded">
-      <p>{{ .Content }}</p>
+      <p class="comic-neue">{{ .Content }}</p>
     </div>
     {{ end }}
 </div>
   
   <div id="Resources" class="tabcontent">
-      <div>{{i18n "list[some-respurces]" }}</div>
+      <div class="comic-neue">{{i18n "list[some-respurces]" }}</div>
   </div>
   
   <div id="HowTo" class="tabcontent">
@@ -33,16 +36,16 @@
             {{ range where .Pages ".Params.type" "how-to" }}
             <div class="item">
                 <span class="post-date">
-                    <span class="day">
+                    <span class="day comic-neue">
                         {{ .Date.Format "2"}}
                     </span>
-                    <span class="month">
+                    <span class="month comic-neue">
                         {{ .Date.Format "Jan"}}
                     </span>
                 </span>
-                <h4 class="grid-title">{{.Title}}</h4>
+                <h4 class="grid-title comic-neue">{{.Title}}</h4>
                 <a href="{{.Permalink}}">
-                    <button class="post-button">{{i18n "list[read-more]" }}</button>
+                    <button class="post-button comic-neue">{{i18n "list[read-more]" }}</button>
                 </a>
             </div>
             {{ end }}
@@ -50,22 +53,22 @@
   </div>
 
   <div id="Documentation" class="tabcontent">
-      <div>some documentation</div>
+      <div class="comic-neue">some documentation</div>
     <div class="posts-group">
         <ul class="posts-list">
             {{ range where .Pages ".Params.type" "how-to" }}
             <li class="post-item">
                  <span class="post-date">
-                    <span class="day">
+                    <span class="day comic-neue">
                         {{ .Date.Format "2"}}
                     </span>
-                    <span class="month">
+                    <span class="month comic-neue">
                         {{ .Date.Format "Jan"}}
                     </span>
                 </span> 
-                <span class="post-title">{{.Title}}</span>
+                <span class="post-title comic-neue">{{.Title}}</span>
                 <a href="{{.Permalink}}">
-                    <button class="post-button">{{i18n "list[read-more]" }}</button>
+                    <button class="post-button comic-neue">{{i18n "list[read-more]" }}</button>
                 </a>
             </li>
             {{ end }}
@@ -78,16 +81,16 @@
         {{ range where .Pages ".Params.type" "article" }}
         <div class="item">
             <span class="post-date">
-                <span class="day">
+                <span class="day comic-neue">
                     {{ .Date.Format "2"}}
                 </span>
-                <span class="month">
+                <span class="month comic-neue">
                     {{ .Date.Format "Jan"}}
                 </span>
             </span>
-            <h4 class="grid-title">{{.Title}}</h4>
+            <h4 class="grid-title comic-neue">{{.Title}}</h4>
             <a href="{{.Permalink}}">
-                <button class="post-button">{{i18n "list[read-more]" }}</button>
+                <button class="post-button comic-neue">{{i18n "list[read-more]" }}</button>
             </a>
         </div>
         {{ end }}

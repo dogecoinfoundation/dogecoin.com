@@ -88,11 +88,11 @@
       font-size: 15px;
       border-radius: 0;
     }
-    
+
     .active, .collapsible:hover {
       background-color: #ccc;
     }
-    
+
     .expanded {
       padding: 0 18px;
       display: none;
@@ -101,40 +101,41 @@
       text-align: left !important;
       margin-bottom: 10px;
     }
-    
-}
+    .tab {
+      top: 0;
+      overflow: hidden;
+      min-width: 250px;
+      width: 30%;
+      float: left;
 
-.tab {
-  top: 0;
-  overflow: hidden;
-  min-width: 250px;
-  width: 30%;
-  float: left;
+      button {
+      display: block;
+      width: 100%;
+      // background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      text-align: left;
+      padding: 14px 16px;
+      transition: 0.3s;
+      // border-left: 5px solid #ccae40;
+      border-bottom: 0.5px solid gainsboro;
+      border-radius: 0;
+      }
+    }
 
-  button {
-  display: block;
-  width: 100%;
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  text-align: left;
-  padding: 14px 16px;
-  transition: 0.3s;
-  border-left: 5px solid #ccae40;
-  border-radius: 0;
-  }
-}
-  
-.tab button:hover {
-  background-color: #dfc66d;
-  border-radius: 0;
-}
+    .tab button:hover {
+      color: #ccae40 !important;
+      background-color: transparent;
+      border-radius: 0;
+    }
 
-.tab button.active {
-  background-color: #ccae40;
-  border-radius: 0;
+    .tab button.active {
+      color: #ccae40 !important;
+      background-color: transparent;
+      border-radius: 0;
+    }
 }
 
 .tabcontent {
@@ -145,7 +146,7 @@
   border-top: none;
 }
 
-  @media screen and (max-width: 935px) { 
+  @media screen and (max-width: 935px) {
     .tab {
       width: 100%;
 
@@ -161,10 +162,10 @@
     }
   }
 
-  @media screen and (max-width: 480px) { 
+  @media screen and (max-width: 480px) {
     .dogepedia {
       font-size: 15px !important;
-      
+
       .tab {
         margin-bottom: 20px;
       }
@@ -181,4 +182,3 @@
       }
     }
   }
-

@@ -70,6 +70,17 @@
   }
 }
 
+@media (min-width: 992px) {
+  .resources-image, .resources-menu {
+    padding-top: 50px;
+  }
+
+  .resources-image img {
+    max-width: 130% !important;
+    margin-left: -30%;
+  }
+}
+
 // Large devices (desktops, 992px and up)
 @media (max-width: 992px) {
   #resources {
@@ -115,6 +126,26 @@
     top: 10vh !important;
     .card {
       width: 96px;
+    }
+  }
+}
+
+.find-more-card {
+  border-radius: 10px !important;
+  text-align: left !important;
+
+  h5 {
+    font-weight: bold;
+  }
+
+  .find-more-text {
+    padding: 1rem;
+    padding-bottom: 0.7rem;
+
+    a {
+      padding-bottom: 0.3rem;
+      text-decoration: none !important;
+      border-bottom: 1px solid #000000;
     }
   }
 }

@@ -54,16 +54,16 @@ a.button {
       border-color: $dark-background-secondary;
       color: inherit;
     }
-  
+
     @media (prefers-color-scheme: light) {
       border-color: $light-background-secondary;
     }
-  
+
     [data-theme=dark] & {
       border-color: $dark-background-secondary;
       color: inherit;
     }
-  
+
     [data-theme=light] & {
       border-color: $light-background-secondary;
       color: inherit;
@@ -104,6 +104,7 @@ a.button {
   margin: auto !important;
   background-color: #dfc66d !important;
   color: #000000 !important;
+  font-size: x-small;
   a {
     top: 0vh !important;
   }
@@ -135,17 +136,17 @@ a.button {
       background: $dark-background-secondary;
       color: inherit;
     }
-  
+
     @media (prefers-color-scheme: light) {
       background: $light-background-secondary;
       color: inherit;
     }
-  
+
     [data-theme=dark] & {
       background: $dark-background-secondary;
       color: inherit;
     }
-  
+
     [data-theme=light] & {
       background: $light-background-secondary;
       color: inherit;

@@ -77,7 +77,7 @@
   h1 {
     font-size: 6.9vw;
     font-weight: 700;
-    color: #c5c5c5;
+    color: #ffffff;
     top: 50%;
   }
 
@@ -86,6 +86,7 @@
     line-height: 1.1em;
     margin: 0px;
     display: block;
+    letter-spacing: -1px;
     @media #{$media-size-phone} {
       font-size: 40px;
     }
@@ -177,7 +178,7 @@
   .d_text_display {
     position: relative;
     overflow: hidden;
-    font-size: 10vw;
+    font-size: 7vw;
   }
 
   .d_text_display #dynamic_d {
@@ -199,6 +200,13 @@
     .preload {
       font-size: 20px;
       top: 55%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .fs-3 {
+        font-size: 1.55rem !important;
+        line-height: 35px;
     }
   }
 }
