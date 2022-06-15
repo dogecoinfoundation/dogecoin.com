@@ -260,13 +260,13 @@ disableHugoGeneratorInject = false
     parent = "dogepedia"
     weight     = 5
 
-[[languages.en.params.footerLegal]]
-    name = "Terms & Conditions"
-    url  = "/terms"
+#[[languages.en.params.footerLegal]]
+#    name = "Terms & Conditions"
+#    url  = "/terms"
 
-  [[languages.en.params.footerLegal]]
-    name = "Privacy Policy"
-    url  = "/legal"
+#  [[languages.en.params.footerLegal]]
+#    name = "Privacy Policy"
+#    url  = "/legal"
 
   [[languages.en.params.footerLegal]]
     name = "Trademarks"
@@ -290,7 +290,7 @@ disableHugoGeneratorInject = false
 
   [[languages.en.params.footerFoundation]]
     name = "Trailmap"
-    url  = "https://foundation.dogecoin.com/roadmap/"
+    url  = "https://foundation.dogecoin.com/trailmap/prologue/"
 
 ##############################
 # Language Translation FR

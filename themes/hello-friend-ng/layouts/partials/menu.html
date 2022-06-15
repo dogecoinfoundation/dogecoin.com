@@ -3,19 +3,19 @@
     {{ range .Site.Menus.main -}} {{ if .Children }}
     <li class="tooltip" role="tooltip opacity1">
       <span
-        ><a href="{{ .URL | relLangURL }}" class="comic-neue">{{ .Name }}</a
+        ><a href="{{ .URL | relLangURL }}" class="comic-neue tooltip-body-sub">{{ .Name }}</a
         ><span class="caret">&blacktriangledown;</span></span
       >
       <div class="tooltip-content">
         <div class="tooltip-body">
           {{ range .Children -}}
-          <a href="{{ .URL | relLangURL }}" class="comic-neue">{{ .Name }}</a>
+          <a href="{{ .URL | relLangURL }}" class="comic-neue tooltip-body-sub">{{ .Name }}</a>
           {{- end }}
         </div>
       </div>
     </li>
     {{ else }}
-    <li><a href="{{ .URL | relLangURL }}" class="comic-neue">{{ .Name }}</a></li>
+    <li><a href="{{ .URL | relLangURL }}" class="comic-neue tooltip-body-sub">{{ .Name }}</a></li>
     {{ end }} {{- end }}
   </ul>
 </nav>

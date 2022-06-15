@@ -72,10 +72,10 @@ other = "Dogecoin is the accidental crypto movement that makes people smile! It 
 other = "Dogecoin Manifesto"
 
 ["whatisdogecoin[lead][text3]"]
-other = ", and its amazing, vibrant community made up of friendly folks just like you! Learn more"
+other = ", and its amazing, vibrant community made up of friendly folks just like you!"
 
 ["whatisdogecoin[here]"]
-other = "here"
+other = "Learn more."
 
 ["whatisdogecoin[choosewallet][title1]"]
 other = "choose your wallet"
@@ -90,7 +90,7 @@ other = "configure your wallet"
 other = "After downloading, you can configure your wallet according to our"
 
 ["whatisdogecoin[guide]"]
-other = "guide"
+other = "guide."
 
 ["whatisdogecoin[choosewallet][title3]"]
 other = "get some dogecoin"
@@ -99,13 +99,13 @@ other = "get some dogecoin"
 other = "There’s lots of ways to get your hands on some Dogecoin."
 
 ["whatisdogecoin[learnmore]"]
-other = "Learn more"
+other = "Learn more."
 
 ##############################
 # partials/wallets.html
 ##############################
 ["wallets[title]"]
-other = "wallets"
+other = "Wallets"
 
 ["wallets[text1]"]
 other = "There are many ways you can get a wallet, and the best choice of wallet for you is dependent upon the purpose for which you intend to use your Dogecoin. There are two overarching categories of wallets: ‘custodial’ and ‘non-custodial’, depending on whether you are the sole holder of your wallet’s private key. The wallets listed on this website are non-custodial wallets, meaning that you possess and control the private keys."
@@ -120,7 +120,7 @@ other = "MultiDoge is a 'light' wallet. It syncs with the blockchain by 'skimmin
 other = "Dogecoin Core"
 
 ["wallets[core][text1]"]
-other = "Dogecoin Core, on the other hand, is a 'full' wallet. It syncs by downloading it, providing a solid-working Dogecoin wallet."
+other = "Dogecoin Core, on the other hand, is a 'full' wallet. It syncs by downloading the blockchain, providing a solid-working Dogecoin wallet."
 
 ["wallets[mydoge][title1]"]
 other = "MyDoge"
