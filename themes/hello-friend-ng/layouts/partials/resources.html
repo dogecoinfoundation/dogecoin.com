@@ -12,13 +12,14 @@
       </div>
     </div>
     <!-- view all button -->
-    <button class="dogepedia-button rounded-pill">
       <a
         href="{{ .Params.url | absURL }}/dogepedia/"
         class="text-decoration-none comic-neue"
-        >{{i18n "resources[viewall]" }}</a
+        >
+    <button class="dogepedia-button rounded-pill" style="width: 200px; height: 60px; font-size: 18px; top: 4vh !important">
+{{i18n "resources[viewall]" }}
+    </button></a
       >
-    </button>
   </div>
   <div class="resources-bottom pb-2">
     <div class="container">

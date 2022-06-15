@@ -22,7 +22,6 @@ A **non-custodial wallet**, on the other hand, is a wallet where you hold and co
 
 Having said this, it’s very important that people who use non-custodial wallets don’t lose their private keys or seed phrases! This can be avoided by [backing-up your non-custodial wallet](/dogepedia/articles/how-to-backup-a-wallet), and is why you should never share your seed phrase or private key with anyone you do not trust.
 
-**[INSERT DIAGRAM OF HOT/COLD & CUSTODIAL/NON-CUSTODIAL WALLET TYPES]**
 
 ## Hot Wallets and Cold Wallets {#hot-and-cold-wallets}
 
