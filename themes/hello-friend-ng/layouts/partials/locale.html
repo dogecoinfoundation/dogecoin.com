@@ -1,15 +1,26 @@
 <div class="locale">
     <div class="current-locale">
+      {{ if eq (.Lang) "pt-pt"}}
+        <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-pt flag-icon-squared"></span></a>
+          {{ else }}
         <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+          {{ end }}
         <a class="lang1">{{(.Lang)}}</a>
         <a class="icon">▼</a>
     </div>
     <div class="locale-list">
         {{ range .Translations}}
-        <div class="lang">
-            <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
-            <a href="/{{(.Lang)}}">{{(.Lang)}}</a>
-        </div>
+          {{ if eq (.Lang) "pt-pt"}}
+          <div class="lang">
+              <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-pt flag-icon-squared"></span></a>
+              <a href="/{{(.Lang)}}">{{(.Lang)}}</a>
+          </div>
+          {{ else }}
+          <div class="lang">
+              <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+              <a href="/{{(.Lang)}}">{{(.Lang)}}</a>
+          </div>
+          {{ end }}
         {{ end }}
     </div>
 </div>

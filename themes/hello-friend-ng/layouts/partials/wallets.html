@@ -1,19 +1,13 @@
 <div id="wallets" class="container-fluid wallet wallets-bg wallets-bg-r">
   <div class="container align-middle p-5">
     <div class="row">
-      <div class="col-md-12 col-lg-4 p-1">
-        <h2 class="title card-title text-start text-dark">Wallets</h2>
+      <div class="col">
+        <h2 class="title card-title text-start text-dark">{{i18n "wallets[title]" }}</h2>
         <p class="text-start fs-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          {{i18n "wallets[text1]" }}
         </p>
       </div>
-      <div class="col-md-6 col-lg-4 p-1">
+<!--      <div class="col-md-6 col-lg-4 p-1" style="display: none">
         <div class="card rounded-5 align-middle">
           <div class="card-body">
             <img
@@ -23,10 +17,9 @@
               width="98px"
               alt="..."
             />
-            <h5 class="card-title">MultiDoge</h5>
+            <h5 class="card-title">{{i18n "wallets[multidoge][title1]" }}</h5>
             <p class="card-text text-start">
-              MultiDoge is a "light" wallet. It syncs with the blockchain by
-              "skimming" through the blockchain, providing fast sync times.
+              {{i18n "wallets[multidoge][text1]" }}
             </p>
             <div class="row">
               <div class="col">
@@ -108,7 +101,10 @@
           </div>
         </div>
       </div>
-      <div
+  </div>
+
+
+<div
         class="col-md-6 col-lg-4 p-1"
         data-aos="fade-up"
         data-aos-offset="100"
@@ -125,12 +121,108 @@
               alt="..."
             />
 
-            <h5 class="card-title">Dogecoin Core</h5>
+            <h5 class="card-title">{{i18n "wallets[core][title1]" }}</h5>
             <p class="card-text text-start">
-              Dogecoin Core, on the other hand, is a "full" wallet. It syncs by
-              downloading it, providing a solid-working Dogecoin wallet.
+              {{i18n "wallets[core][text1]" }}
             </p>
-            <div class="row">
+
+          </div>
+        </div>
+      </div>
+    </div>
+ -->
+
+
+
+
+
+
+
+<div id="carouselWalletIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselWalletIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: rgba(102, 102, 102, 1)"></button>
+    <button type="button" data-bs-target="#carouselWalletIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: rgba(102, 102, 102, 1)"></button>
+    <button type="button" data-bs-target="#carouselWalletIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: rgba(102, 102, 102, 1)"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+  <div class="container p-5">
+    <div class="row">
+      <div
+        class="col-sm-12 col-md-6 align-middle order-last"
+        data-aos="fade-left"
+        data-aos-offset="100"
+        data-aos-delay="10"
+        data-aos-duration="1000"
+      >
+        <p class="text-start fs-1">{{i18n "wallets[mydoge][title1]" }}</p>
+        <p class="text-start fs-4">
+          {{i18n "wallets[mydoge][text1]" }}
+        </p>
+        <div class="row">
+           <div class="col"><a href="https://play.google.com/store/apps/details?id=com.mydoge.android" target="_blank"><img src="/assets/images/15a.png" /></a></div>
+           <div class="col"><a href="https://apps.apple.com/app/mydoge-wallet/id1600967876" target="_blank"><img src="/assets/images/15i.png" /></a></div>
+        </div>
+
+      </div>
+      <div
+        class="col-sm-12 col-md-6"
+        data-aos="fade-right"
+        data-aos-offset="100"
+        data-aos-delay="10"
+        data-aos-duration="1000"
+      >
+        <img src="/assets/images/16.png"/>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="carousel-item">
+  <div class="container p-5">
+    <div class="row">
+      <div
+        class="col-sm-12 col-md-6 align-middle order-last"
+        data-aos="fade-left"
+        data-aos-offset="100"
+        data-aos-delay="10"
+        data-aos-duration="1000"
+      >
+        <p class="text-start fs-1">DogeChain Online Wallet</p>
+        <p class="text-start fs-4">
+          The Dogechain online wallet allows you to securely access your coins from all over the world. Secure | Worldwide access | Privacy | Easy
+        </p>
+        <div class="row">
+           <div class="col"><a href="https://dogechain.info/wallet/" class="btn btn-success" target="_blank">DogeChain Wallet</a></div>
+        </div>
+
+      </div>
+      <div
+        class="col-sm-12 col-md-6"
+        data-aos="fade-right"
+        data-aos-offset="100"
+        data-aos-delay="10"
+        data-aos-duration="1000"
+      >
+        <img src="/assets/images/dogechain.png"/>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="carousel-item">
+  <div class="container p-5">
+    <div class="row">
+      <div
+        class="col-sm-12 col-md-6 align-middle order-last"
+        data-aos="fade-left"
+        data-aos-offset="100"
+        data-aos-delay="10"
+        data-aos-duration="1000"
+      >
+        <p class="text-start fs-1">{{i18n "wallets[core][title1]" }}</p>
+        <p class="text-start fs-4">
+          {{i18n "wallets[core][text1]" }}
+        </p>
+           <div class="row">
               <div class="col">
                 <div class="dropdown">
                   <a
@@ -140,6 +232,7 @@
                     id="dropdownMenuLink"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
+                    style="background-color: transparent; border: none"
                   >
                     <img src="/assets/images/12.png" />
                   </a>
@@ -174,6 +267,7 @@
                     id="dropdownMenuLink"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
+                    style="background-color: transparent; border: none"
                   >
                     <img src="/assets/images/13.png" />
                   </a>
@@ -208,6 +302,7 @@
                     id="dropdownMenuLink"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
+                    style="background-color: transparent; border: none"
                   >
                     <img src="/assets/images/14.png" />
                   </a>
@@ -224,28 +319,10 @@
                   </ul>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container p-5">
-    <div class="row">
-      <div
-        class="col-sm-12 col-md-6 align-middle order-last"
-        data-aos="fade-left"
-        data-aos-offset="100"
-        data-aos-delay="10"
-        data-aos-duration="1000"
-      >
-        <p class="text-start fs-1">Android Wallet</p>
-        <p class="text-start fs-4">
-          Lorem ipsum dolor st amet, consetetur adipiscing elit, sed dodi
-          eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad
-          minim
-        </p>
-        <img src="/assets/images/15.png" />
+
+           </div>
+
+
       </div>
       <div
         class="col-sm-12 col-md-6"
@@ -254,8 +331,59 @@
         data-aos-delay="10"
         data-aos-duration="1000"
       >
-        <img src="/assets/images/16.png" />
+        <img src="/assets/images/doge-core.png" style="max-height: 742px" />
       </div>
     </div>
   </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselWalletIndicators" data-bs-slide="prev" style="background-color: transparent;">
+    <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: rgba(102, 102, 102, 1)"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselWalletIndicators" data-bs-slide="next" style="background-color: transparent;">
+    <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: rgba(102, 102, 102, 1)"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+
+}
+setInterval(function() {
+plusDivs(1);
+}, 6000);
+</script>

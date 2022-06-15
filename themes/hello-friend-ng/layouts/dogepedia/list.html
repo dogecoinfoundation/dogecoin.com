@@ -25,7 +25,7 @@
 </div>
   
   <div id="Resources" class="tabcontent">
-      <div>some resources</div>
+      <div>{{i18n "list[some-respurces]" }}</div>
   </div>
   
   <div id="HowTo" class="tabcontent">
@@ -42,7 +42,7 @@
                 </span>
                 <h4 class="grid-title">{{.Title}}</h4>
                 <a href="{{.Permalink}}">
-                    <button class="post-button">Read more</button>
+                    <button class="post-button">{{i18n "list[read-more]" }}</button>
                 </a>
             </div>
             {{ end }}
@@ -65,7 +65,7 @@
                 </span> 
                 <span class="post-title">{{.Title}}</span>
                 <a href="{{.Permalink}}">
-                    <button class="post-button">Read more</button>
+                    <button class="post-button">{{i18n "list[read-more]" }}</button>
                 </a>
             </li>
             {{ end }}
@@ -87,7 +87,7 @@
             </span>
             <h4 class="grid-title">{{.Title}}</h4>
             <a href="{{.Permalink}}">
-                <button class="post-button">Read more</button>
+                <button class="post-button">{{i18n "list[read-more]" }}</button>
             </a>
         </div>
         {{ end }}

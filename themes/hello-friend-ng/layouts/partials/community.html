@@ -53,8 +53,8 @@
       data-aos-delay="10"
       data-aos-duration="1000"
     >
-      <h1 class="title do-only text-start text-dark">Do Only</h1>
-      <h1 class="title good-everyday text-start text-dark">Good Everyday.</h1>
+      <h1 class="title do-only text-start text-dark">{{i18n "community[title1]" }}</h1>
+      <h1 class="title good-everyday text-start text-dark">{{i18n "community[title2]" }}</h1>
     </div>
     <div class="row pb-5">
       <div class="col-lg-6">
@@ -70,10 +70,7 @@
       </div>
       <div class="col-lg-6">
         <p class="text-start lead">
-          We believe that together, the key pillars that embody 'Do Only Good
-          Everyday' will guide us forward as we make decisions and advance the
-          Dogecoin ecosystem. The Dogecoin means: as a technical project and as
-          a movement for good in the world. Be part of our awesome community:
+          {{i18n "community[text1]" | safeHTML }}
         </p>
       </div>
     </div>
@@ -92,7 +89,7 @@
         </a>
       </div>
       <div class="col-md-3 p-3">
-        <a href="https://www.reddit.com/r/dogecoindev" target="_blank">
+        <a href="https://www.reddit.com/r/dogecoin" target="_blank">
           <img class="img-fluid p-2 mx-auto" src="/assets/images/20.png" />
         </a>
       </div>
