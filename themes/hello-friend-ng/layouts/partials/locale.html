@@ -1,26 +1,30 @@
-<div class="locale">
+<div class="locale" style="margin-left: 0px">
+<a href="{{ .Permalink }}">
     <div class="current-locale">
       {{ if eq (.Lang) "pt-pt"}}
-        <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-pt flag-icon-squared"></span></a>
+        <span class="flag flag-icon flag-icon-pt"></span>
           {{ else }}
-        <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+        <span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }}" ></span>
           {{ end }}
-        <a class="lang1"><span class="badge bg-dark text-light comic-neue">{{(.Lang)}}</span></a>
+        <span class="badge bg-dark text-light comic-neue">{{(.Lang)}}</span>
         <a class="icon">▼</a>
     </div>
-    <div class="locale-list">
+</a>
+    <div class="locale-list" style="margin-top: -1px !important">
         {{ range .Translations}}
+<a href="{{ .Permalink }}">
           {{ if eq (.Lang) "pt-pt"}}
           <div class="lang">
-              <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-pt flag-icon-squared"></span></a>
-              <a href="/{{(.Lang)}}"><span class="badge bg-dark text-ligh comic-neuet">{{(.Lang)}}</span></a>
+              <span class="flag flag-icon flag-icon-pt"></span>
+              <span class="badge bg-dark text-ligh comic-neuet">{{(.Lang)}}</span>
           </div>
           {{ else }}
           <div class="lang">
-              <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
-              <a href="/{{(.Lang)}}"><span class="badge bg-dark text-light comic-neue">{{(.Lang)}}</span></a>
+              <span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }}"></span>
+              <span class="badge bg-dark text-light comic-neue">{{(.Lang)}}</span>
           </div>
           {{ end }}
+</a>
         {{ end }}
     </div>
 </div>
