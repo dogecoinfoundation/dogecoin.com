@@ -11,11 +11,13 @@
 
         <div id="home" class="viewport-header">
             <div class="container">
-                <h1 class="d_text_display d_span_opacity comic-neue"><span id="dynamic_d">D</span>OGECOIN
-                    </h1>
+              <div>
+<img src="/assets/images/doge.png" alt="Doge" style="margin: auto; padding-left: 1.9vw; width: 28vw"/>
+                <h1 class="d_text_display d_span_opacity comic-neue"><span id="dynamic_d">D</span>OGECOIN</h1>
+               </div>
                 {{- with .Site.Params.homeSubtitle }}
-                
-                <div class="mt-1">
+<div style="min-width: 400px">
+                <div class="mt-1" style="">
                     <div class="preload comic-neue">
                         <span class="subtitle poppins fw-light text-white">the people’s</span>
                         <span class="preload__letter subtitle poppins fw-light text-white">C</span>
@@ -34,6 +36,7 @@
                         <span class="preload__letter subtitle poppins fw-light text-white">y</span>
                     </div>
                 </div>
+</div>
                 {{- end }}
             </div>
         </div>
