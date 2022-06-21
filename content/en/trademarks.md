@@ -47,8 +47,7 @@ Like copyright, a trademark owner has the right to prevent others from using the
 without consent. However, unlike copyright, trademarks indicate the “origin” of a product or service,
 and needs to be formally registered. The trademark, therefore, helps provide certainty, as a
 'guarantee of origin'.
-## Dogecoin Foundation has said it is fighting off “bad-faith trademark registrations.” What does this
-mean?
+## Dogecoin Foundation has said it is fighting off “bad-faith trademark registrations.” What does this mean?
 The Dogecoin Foundation represents the accidental crypto-movement, designed to develop a
 currency for the People. We also strongly believe in our motto – Do Only Good Everyday. *We don’t
 want the Dogecoin community to be misled or taken advantage of by individuals or companies using
