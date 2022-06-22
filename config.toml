@@ -919,3 +919,107 @@ disableHugoGeneratorInject = false
     name = "Trailmap"
     url  = "https://foundation.dogecoin.com/roadmap/"
 
+
+##############################
+# Language Translation ES
+##############################
+
+  [languages.es]
+    subtitle  = "Bem-vindo"
+    weight    = 5
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    contentDir = "content/es"
+
+[languages.es.menu]
+  [[languages.es.menu.main]]
+    identifier = "home"
+    name       = "Home"
+    url        = "/"
+    weight     = 1
+
+  [[languages.es.menu.main]]
+    identifier = "what-is-dogecoin"
+    name       = "What is Dogecoin?"
+    url        = "#what-is-dogecoin"
+    weight     = 2
+
+  [[languages.es.menu.main]]
+    identifier = "wallets"
+    name       = "Wallets"
+    url        = "#wallets"
+    weight     = 3
+
+  [[languages.es.menu.main]]
+    identifier = "community"
+    name       = "Community"
+    url        = "#community"
+    weight     = 4
+
+  [[languages.es.menu.main]]
+    identifier = "dogepedia"
+    name       = "Dogepedia"
+    url        = "dogepedia/"
+    weight     = 5
+
+    [languages.es.menu.main.params]
+      class = "parent"
+
+    [[languages.es.menu.main]]
+    identifier = "faq"
+    name       = "FAQ"
+    url        = "dogepedia/#faq"
+    parent = "dogepedia"
+    weight     = 5
+
+    [[languages.es.menu.main]]
+    identifier = "how-tos"
+    name       = "How Tos"
+    url        = "dogepedia/#howto"
+    parent = "dogepedia"
+    weight     = 5
+
+    [[languages.es.menu.main]]
+    identifier = "documentation"
+    name       = "Documentation"
+    url        = "dogepedia/#documentation"
+    parent = "dogepedia"
+    weight     = 5
+
+    [[languages.es.menu.main]]
+    identifier = "resource"
+    name       = "Resources"
+    url        = "resources/"
+    parent = "dogepedia"
+    weight     = 5
+
+[[languages.es.params.footerLegal]]
+    name = "Terms & Conditions"
+    url  = "/terms"
+
+  [[languages.es.params.footerLegal]]
+    name = "Privacy Policy"
+    url  = "/legal"
+
+  [[languages.es.params.footerLegal]]
+    name = "Trademarks"
+    url  = "/trademarks"
+
+[[languages.es.params.footerFoundation]]
+    name = "About"
+    url  = "https://foundation.dogecoin.com/about/"
+
+  [[languages.es.params.footerFoundation]]
+    name = "Manifesto"
+    url  = "https://foundation.dogecoin.com/manifesto/"
+
+  [[languages.es.params.footerFoundation]]
+    name = "Advisors"
+    url  = "https://foundation.dogecoin.com/about/"
+
+  [[languages.es.params.footerFoundation]]
+    name = "Blog"
+    url  = "https://foundation.dogecoin.com/announcements/"
+
+  [[languages.es.params.footerFoundation]]
+    name = "Trailmap"
+    url  = "https://foundation.dogecoin.com/roadmap/"

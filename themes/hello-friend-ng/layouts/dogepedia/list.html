@@ -26,11 +26,11 @@
     </div>
     {{ end }}
 </div>
-  
+
   <div id="Resources" class="tabcontent">
       <div class="comic-neue">{{i18n "list[some-respurces]" }}</div>
   </div>
-  
+
   <div id="HowTo" class="tabcontent">
     <div class="container">
             {{ range where .Pages ".Params.type" "how-to" }}
@@ -65,7 +65,7 @@
                     <span class="month comic-neue">
                         {{ .Date.Format "Jan"}}
                     </span>
-                </span> 
+                </span>
                 <span class="post-title comic-neue">{{.Title}}</span>
                 <a href="{{.Permalink}}">
                     <button class="post-button comic-neue">{{i18n "list[read-more]" }}</button>
@@ -122,7 +122,7 @@ function openToggle(evt, type) {
   evt.currentTarget.className += " active";
 }
 
-//for collapsible 
+//for collapsible
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
