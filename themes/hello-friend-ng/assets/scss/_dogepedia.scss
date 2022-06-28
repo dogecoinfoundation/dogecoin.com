@@ -6,6 +6,12 @@
         padding: 200px 100px 150px 100px;
         margin-top: -100px;
         background-color: $dark-background;
+        background-image: url("/assets/images/blochain_doge_light.svg");
+        opacity: 1;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-blend-mode: soft-light;
+        background-position: bottom right;
         width: 100vw;
 
         h1 {

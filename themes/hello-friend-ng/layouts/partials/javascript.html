@@ -1,8 +1,8 @@
 {{ $main := resources.Get "js/main.js" }}
 {{ $menu := resources.Get "js/menu.js" }}
 {{ $prism := resources.Get "js/prism.js" }}
-{{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
-{{ $secureJS := slice $main $menu $prism $bootstrap | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
+
+{{ $secureJS := slice $main $menu $prism | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
 <script type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
 
 {{ range $val := $.Site.Params.customJS }}
