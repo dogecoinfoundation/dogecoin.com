@@ -34,13 +34,6 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [module]
-  [[module.mounts]]
-    source = "node_modules/bootstrap/dist/js/bootstrap.min.js"
-    target = "assets/js/bootstrap.min.js"
-  [[module.mounts]]
-    source = "node_modules/@popperjs/core/lib/popper.js"
-    target = "assets/js/lib/popper.js"
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -194,7 +187,7 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Welcome"
+    subtitle  = "Much Welcome"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     contentDir = "content/en"
@@ -202,7 +195,7 @@ disableHugoGeneratorInject = false
 [languages.en.menu]
   [[languages.en.menu.main]]
     identifier = "home"
-    name       = "Home"
+    name       = "So Home"
     url        = "/"
     weight     = 1
 
@@ -214,19 +207,19 @@ disableHugoGeneratorInject = false
 
   [[languages.en.menu.main]]
     identifier = "wallets"
-    name       = "Wallets"
-    url        = "#wallets"
+    name       = "Much Wallets"
+    url        = "wallets/"
     weight     = 3
 
   [[languages.en.menu.main]]
     identifier = "community"
-    name       = "Community"
+    name       = "Very Community"
     url        = "#community"
     weight     = 4
 
   [[languages.en.menu.main]]
     identifier = "dogepedia"
-    name       = "Dogepedia"
+    name       = "So Dogepedia"
     url        = "dogepedia/"
     weight     = 5
 

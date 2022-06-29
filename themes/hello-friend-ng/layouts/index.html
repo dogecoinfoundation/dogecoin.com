@@ -11,8 +11,30 @@
 
         <div id="home" class="viewport-header">
             <div class="container">
-              <div>
-<img src="/assets/images/doge.png" alt="Doge" style="margin: auto; padding-left: 1.9vw; width: 28vw"/>
+          <div style="min-height: 200vh; display: flex; margin: 0 !important; position: absolute;width: 100%; display: none; z-index: 1" id="ShootingDoges" class="ShootingDoges">
+            <div class="star star0">
+              <div class="star__line"></div>
+              <div class="star__main"><img src="/assets/images/doge_star.png" alt="Dogecoin" /></div>
+            </div>
+            <div class="sstar tar1">
+              <div class="star__line"></div>
+              <div class="star__main"><img src="/assets/images/doge_star.png" alt="Dogecoin" /></div>
+            </div>
+            <div class="star star2">
+              <div class="star__line"></div>
+              <div class="star__main"><img src="/assets/images/doge_star.png" alt="Dogecoin" /></div>
+            </div>
+            <div class="star star3">
+              <div class="star__line"></div>
+              <div class="star__main"><img src="/assets/images/doge_star.png" alt="Dogecoin" /></div>
+            </div>
+            <div class="star star4">
+              <div class="star__line"></div>
+              <div class="star__main"><img src="/assets/images/doge_star.png" alt="Dogecoin" /></div>
+            </div>
+          </div>
+              <div style="position: relative; z-index: 69">
+                    <img src="/assets/images/doge.svg" alt="Doge" style="margin: auto; padding-left: 1.9vw; width: 28vw; cursor: pointer" onclick="document.querySelector('#ShootingDoges').style.display = 'flex';" />
                 <h1 class="d_text_display d_span_opacity comic-neue"><span id="dynamic_d">D</span>OGECOIN</h1>
                </div>
                 {{- with .Site.Params.homeSubtitle }}
