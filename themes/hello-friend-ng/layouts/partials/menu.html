@@ -1,3 +1,13 @@
+<style type="text/css">
+@media (max-width:960px) {
+.menu{
+   width: 100% !important;
+}
+.menu__inner a{
+  font-size: 2rem !important;
+}
+}
+</style>
 <nav class="menu">
   <ul class="menu__inner">
     {{ range .Site.Menus.main -}} {{ if .Children }}
