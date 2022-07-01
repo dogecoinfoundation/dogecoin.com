@@ -1,5 +1,5 @@
 {{ define "body" }}
-  <body class="home">
+  <body class="home"  style="overflow: hidden">
 {{ end }}
 
 {{ define "main" }}
@@ -33,14 +33,14 @@
               <div class="star__main"><img src="/assets/images/doge_star.png" alt="Dogecoin" /></div>
             </div>
           </div>
-              <div style="position: relative; z-index: 69">
+              <div style="position: relative; z-index: 69;">
                     <img src="/assets/images/doge.svg" alt="Doge" style="margin: auto; padding-left: 1.9vw; width: 28vw; cursor: pointer" onclick="document.querySelector('#ShootingDoges').style.display = 'flex';" />
                 <h1 class="d_text_display d_span_opacity comic-neue"><span id="dynamic_d">D</span>OGECOIN</h1>
                </div>
                 {{- with .Site.Params.homeSubtitle }}
-<div style="min-width: 400px">
-                <div class="mt-1" style="">
-                    <div class="preload comic-neue">
+<div style="min-width: 400px;">
+                <div class="mt-1" style=" min-height: 20px">
+                    <div class="preload comic-neue" style="">
                         <span class="subtitle poppins fw-light text-white">the people’s</span>
                         <span class="preload__letter subtitle poppins fw-light text-white">C</span>
                         <span class="preload__letter subtitle poppins fw-light text-white">r</span>
