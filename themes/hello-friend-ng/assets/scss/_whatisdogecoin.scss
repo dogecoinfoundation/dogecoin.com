@@ -6,6 +6,14 @@
 .parent-numbers{
   text-align: left;
   max-height: 200px !important;
+  position: relative;
+}
+.bg-secondary{
+    background-color: #dfc66d !important;
+}
+.btn-outline-secondary{
+ position: absolute;
+ bottom: 0px;
 }
 
 h3{
