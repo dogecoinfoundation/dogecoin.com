@@ -1,0 +1,56 @@
+{{ define "main" }}
+ <script type="text/javascript">
+  $(document).ready(function() {
+      $('#Contributors').DataTable( {
+          "order": [[ 0, "asc" ]],
+          responsive: true
+      } );
+  } );
+</script>
+
+<main class="dogepedia">
+    <div class="title">
+      <h1>{{ .Title }}</h1>
+      <a href="#" onclick="history.back()" style="text-decoration: none">< Much Go Back</a> — <b>{{ .Title }}</b></a>
+    </div>
+      <div class="underline"></div>
+<section class="box">
+
+  <!-- Tab content -->
+<div>
+<main class="dogepedia">
+  <div style="max-width: 1200px; margin: auto;background-color: #FFFFFF !important; padding: 15px; border-radius: 20px">
+<table id="Contributors"cellspacing="1"  width="100%" style="border-color: #EEEEEE; text-align: left !important" class="table table-striped">
+<thead>
+  <tr bgcolor="#EEEEEE" style="font-weight: bold">
+    <th>Shibe</th>
+    <th>Contribution</th>
+    <th>Social</th>
+  </tr>
+</thead>
+
+ {{ range where .Pages ".Params.type" "contributor" }}
+  <tr>
+    <td>
+      <div class="row">{{ if ne .Params.social_Image "" }}<img src="{{ .Params.social_Image }}" alt="{{ .Params.name }}" style="max-width: 30px;border-radius: 50%;">{{ else }}<img src="/assets/images/2.png" alt="{{ .Params.name }}" style="max-width: 30px;border-radius: 50%;">{{ end }}{{ .Params.name }}</div>
+    </td>
+    <td>
+    {{ if eq .Params.contribution_Webdesign "yes" }}<span class="badge bg-secondary" style="background-color: rgba(255, 51, 153, 1) !important">webdesign</span>{{ end }}
+    {{ if eq .Params.contribution_Assets "yes" }}<span class="badge bg-secondary" style="background-color: rgba(255, 255, 0, 1) !important; color: rgba(51, 51, 51, 1)">assets</span>{{ end }}
+    {{ if eq .Params.contribution_Coding "yes" }}<span class="badge bg-secondary" style="background-color: rgba(51, 51, 51, 1) !important;">coding</span>{{ end }}
+    {{ if eq .Params.contribution_Documentation "yes" }}<span class="badge bg-success" >documentation</span>{{ end }}
+    {{ if eq .Params.contribution_Translation "yes" }}<span class="badge bg-warning" style="color: rgba(51, 51, 51, 1)">translation</span>{{ end }}
+    <td>{{ if ne .Params.social_URL "" }}
+      <a href="{{ .Params.social_URL }}" target="_blank">
+        {{ if eq .Params.social_Type "twitter" }}<span class="badge bg-primary" style="padding: 5px"><i class="fa-brands fa-twitter" style="color: #FFFFFF" aria-hidden="true"></i> {{ .Params.social_User }}</span>{{ end }}
+        {{ if eq .Params.social_Type "github" }}<span class="badge bg-secondary" style="background-color: rgba(51, 51, 51, 1) !important;padding: 5px"><i class="fa-brands fa-github" style="color: #FFFFFF"></i> {{ .Params.social_User }}</span>{{ end }}
+        {{ if eq .Params.social_Type "reddit" }}<span class="badge bg-danger" style="padding: 5px"><i class="fa-brands fa-reddit" style="color: #FFFFFF"></i> {{ .Params.social_User }}</span>{{ end }}
+        {{ if eq .Params.social_Type "outher" }}<span class="badge bg-secondary" style="background-color: rgba(51, 51, 51, 1) !important;padding: 5px"><i class="fa-solid fa-globe" style="color: #FFFFFF"></i> {{ .Params.social_User }}</span>{{ end }}
+      </a>
+      {{ end }}
+    </td>
+  </tr>
+    {{ end }}
+</table>
+</div>
+{{ end }}
