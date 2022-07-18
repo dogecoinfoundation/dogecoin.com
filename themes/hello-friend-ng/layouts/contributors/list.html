@@ -11,7 +11,7 @@
 <main class="dogepedia">
     <div class="title">
       <h1>{{ .Title }}</h1>
-      <a href="#" onclick="history.back()" style="text-decoration: none">< Much Go Back</a> — <b>{{ .Title }}</b></a>
+      <a href="#" onclick="history.back()" style="text-decoration: none">< {{i18n "listContributors[muchgoback]" }}</a> — <b>{{ .Title }}</b></a>
     </div>
       <div class="underline"></div>
 <section class="box">
@@ -23,9 +23,9 @@
 <table id="Contributors"cellspacing="1"  width="100%" style="border-color: #EEEEEE; text-align: left !important" class="table table-striped">
 <thead>
   <tr bgcolor="#EEEEEE" style="font-weight: bold">
-    <th>Shibe</th>
-    <th>Contribution</th>
-    <th>Social</th>
+    <th>{{i18n "listContributors[shibe]" }}</th>
+    <th>{{i18n "listContributors[contribution]" }}</th>
+    <th>{{i18n "listContributors[social]" }}</th>
   </tr>
 </thead>
 
