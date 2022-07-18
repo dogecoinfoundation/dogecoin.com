@@ -426,3 +426,33 @@ template {
 [hidden] {
   display: none;
 }
+
+/**
+ * Correct pagination and styles using datatables
+ */
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+  color: #ccae40  !important;
+ border-radius: 10px;
+  &:hover{
+    color: #ccae40 !important;
+  }
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+ background: none;
+ border-color: #ccae40 !important;
+}
+select{
+ border-color: #ccae40;
+ border-radius: 10px;
+}
+
+input{
+ border-color: #ccae40;
+ border-radius: 10px;
+}
+
+table{
+ padding-top: 15px;
+ padding-bottom: 15px;
+}

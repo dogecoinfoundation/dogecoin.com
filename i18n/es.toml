@@ -72,10 +72,13 @@ other = "Dogecoin is the accidental crypto movement that makes people smile! It 
 other = "Dogecoin Manifesto"
 
 ["whatisdogecoin[lead][text3]"]
-other = ", and its amazing, vibrant community made up of friendly folks just like you! Learn more"
+other = ", and its amazing, vibrant community made up of friendly folks just like you!"
 
 ["whatisdogecoin[here]"]
-other = "here"
+other = "Learn more."
+
+["whatisdogecoin[choosewallet][started]"]
+other = "Getting started"
 
 ["whatisdogecoin[choosewallet][title1]"]
 other = "choose your wallet"
@@ -90,7 +93,7 @@ other = "configure your wallet"
 other = "After downloading, you can configure your wallet according to our"
 
 ["whatisdogecoin[guide]"]
-other = "guide"
+other = "guide."
 
 ["whatisdogecoin[choosewallet][title3]"]
 other = "get some dogecoin"
@@ -99,13 +102,13 @@ other = "get some dogecoin"
 other = "There’s lots of ways to get your hands on some Dogecoin."
 
 ["whatisdogecoin[learnmore]"]
-other = "Learn more"
+other = "Learn more."
 
 ##############################
 # partials/wallets.html
 ##############################
 ["wallets[title]"]
-other = "wallets"
+other = "Wallets"
 
 ["wallets[text1]"]
 other = "There are many ways you can get a wallet, and the best choice of wallet for you is dependent upon the purpose for which you intend to use your Dogecoin. There are two overarching categories of wallets: ‘custodial’ and ‘non-custodial’, depending on whether you are the sole holder of your wallet’s private key. The wallets listed on this website are non-custodial wallets, meaning that you possess and control the private keys."
@@ -120,7 +123,7 @@ other = "MultiDoge is a 'light' wallet. It syncs with the blockchain by 'skimmin
 other = "Dogecoin Core"
 
 ["wallets[core][text1]"]
-other = "Dogecoin Core, on the other hand, is a 'full' wallet. It syncs by downloading it, providing a solid-working Dogecoin wallet."
+other = "Dogecoin Core, on the other hand, is a 'full' wallet. It syncs by downloading the blockchain, providing a solid-working Dogecoin wallet."
 
 ["wallets[mydoge][title1]"]
 other = "MyDoge"
@@ -177,6 +180,30 @@ other = "IP FAQs"
 ["resources[text4]"]
 other = "Read our responses to some frequently asked questions about Dogecoin IP."
 
+
+##############################
+# partials/tablist_item.html
+##############################
+
+["tablist[read-more]"]
+other = "Read more"
+
+##############################
+# partials/tablist_menu.html
+##############################
+
+["tabmenu[faq]"]
+other = "FAQ"
+
+["tabmenu[resources]"]
+other = "Resources"
+
+["tabmenu[how-to]"]
+other = "How To's"
+
+["tabmenu[documentation]"]
+other = "Documentation"
+
 ##############################
 # partials/footer.html
 ##############################
@@ -196,4 +223,40 @@ other = "Foundation"
 ["footer[copyright]"]
 other = "The Dogecoin Foundation & Dogecoin Project. All rights reserved."
 
+##############################
+# wallets/list.html
+##############################
 
+["listWallets[muchgoback]"]
+other = "Much Go Back"
+
+["listWallets[wallet]"]
+other = "Wallet"
+
+["listWallets[type]"]
+other = "Type"
+
+["listWallets[active]"]
+other = "Active"
+
+["listWallets[version]"]
+other = "Version"
+
+["listWallets[download]"]
+other = "Download"
+
+##############################
+# contributors/list.html
+##############################
+
+["listContributors[muchgoback]"]
+other = "Much Go Back"
+
+["listContributors[shibe]"]
+other = "Shibe"
+
+["listContributors[contribution]"]
+other = "Contribution"
+
+["listContributors[social]"]
+other = "Social"
