@@ -35,10 +35,10 @@
  {{ range where .Pages ".Params.type" "wallet" }}
   <tr>
     <td>
-      <div class="row">{{ if ne .Params.wallet_Image "" }}<img src="{{ .Params.wallet_Image }}" alt="{{ .Params.name }}" style="max-width: 30px;border-radius: 50%;">{{ else }}<img src="/assets/images/1.png" alt="{{ .Params.name }}" style="max-width: 30px;border-radius: 50%;">{{ end }}</div>
+      <div class="row"><a href="{{ .Params.website_url }}" target="_blank">{{ if ne .Params.wallet_Image "" }}<img src="{{ .Params.wallet_Image }}" alt="{{ .Params.name }}" style="max-width: 30px;border-radius: 50%;">{{ else }}<img src="/assets/images/1.png" alt="{{ .Params.name }}" style="max-width: 30px;border-radius: 50%;">{{ end }}</a></div>
     </td>
     <td>
-      {{ .Params.name }}
+      <a href="{{ .Params.website_url }}" target="_blank" style="text-decoration: none">{{ .Params.name }}</a>
     </td>
     <td>
     {{ if eq .Params.contribution_Webdesign "yes" }}<span class="badge bg-secondary" style="background-color: rgba(255, 51, 153, 1) !important">webdesign</span>{{ end }}
@@ -64,7 +64,7 @@
       {{ if ne .Params.download_MacOS_url "" }}<a href="{{ .Params.download_MacOS_url }}" target="_blank"><span class="badge bg-secondary" style="padding: 5px; background-color: rgba(102, 102, 102, 1) !important"><i class="fa-brands fa-apple" style="color: #FFFFFF" aria-hidden="true"></i>MacOS</span></a>{{ end }}
       {{ if ne .Params.download_android_url "" }}<a href="{{ .Params.download_android_url }}" target="_blank"><span class="badge bg-secondary" style="padding: 5px; background-color: rgba(102, 102, 102, 1) !important"><i class="fa-brands fa-android" style="color: #FFFFFF" aria-hidden="true"></i> Android</span></a>{{ end }}
       {{ if ne .Params.download_ios_url "" }}<a href="{{ .Params.download_ios_url }}" target="_blank"><span class="badge bg-secondary" style="padding: 5px; background-color: rgba(102, 102, 102, 1) !important"><i class="fa-brands fa-apple" style="color: #FFFFFF" aria-hidden="true"></i> IOS</span></a>{{ end }}
-      {{ if ne .Params.download_browser_url "" }}<a href="{{ .Params.download_browser_url }}" target="_blank"><span class="badge bg-secondary" style="padding: 5px; background-color: rgba(102, 102, 102, 1) !important"><i class="fa-solid fa-globe" style="color: #FFFFFF" aria-hidden="true"></i> Browser</span></a>{{ end }}
+      {{ if ne .Params.browser_url "" }}<a href="{{ .Params.browser_url }}" target="_blank"><span class="badge bg-secondary" style="padding: 5px; background-color: rgba(102, 102, 102, 1) !important"><i class="fa-solid fa-globe" style="color: #FFFFFF" aria-hidden="true"></i> Browser</span></a>{{ end }}
     </td>
 
   </tr>

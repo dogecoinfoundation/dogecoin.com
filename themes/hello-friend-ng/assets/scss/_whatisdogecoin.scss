@@ -5,7 +5,6 @@
 }
 .parent-numbers{
   text-align: left;
-  max-height: 200px !important;
   position: relative;
 }
 .bg-secondary{
@@ -54,8 +53,8 @@ h3{
   .parent-numbers {
     height: 28vh;
     width: 100%;
-    padding: 2rem !important;
-    padding-top: 60px !important;
+    padding-top: 10px !important;
+    padding-left: 10px !important
   }
   .under-numbers {
     position: relative;
@@ -117,8 +116,8 @@ h3{
   .parent-numbers {
     height: 32vh;
     width: 100%;
-    padding: .5rem !important;
-    padding-top: 60px !important;
+    padding-top: 10px !important;
+    padding-left: 10px !important
   }
 
   .under-numbers {
