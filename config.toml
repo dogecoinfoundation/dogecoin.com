@@ -1007,7 +1007,6 @@ disableHugoGeneratorInject = false
 # Language Translation KR
 ##############################
 
-[languages]
   [languages.kr]
     subtitle  = "Much Welcome"
     weight    = 1
