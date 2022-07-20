@@ -51,7 +51,7 @@ The wallet.dat file is not a plain-text file. It is a BDB (Berkeley Database). F
     The console should return "null".
 
 - Optional: encrypt the wallet file. You can use your operating system's disk encryption options or a zip program allowing you to password-protect a file and encrypt it with a secure algorithm (AES256, for example). Make sure the password used for the encryption is impossible to forget or stored properly as well.
-- Copy the backup in multiple safe locations, NOT connected to the Internet. 
+- Copy the backup in multiple safe locations, NOT connected to the internet. 
 
 *Remember: whoever gains access to the plain-text wallet file will be able to spend your Dogecoin*.
 
