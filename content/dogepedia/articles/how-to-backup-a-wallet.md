@@ -15,7 +15,7 @@ Most Dogecoin holders use some kind of [*wallet application*](/dogepedia/article
 
 ### Wallet Backups with Dogecoin Core
 
-Dogecoin Core, the software used to run a Dogecoin node, is often used as a wallet application. In order to create a backup with Dogecoin Core, follow these steps:
+Dogecoin Core, Dogecoin's "reference implementation" and the software commonly used to run a Dogecoin node, is often used as a wallet application. In order to create a backup with Dogecoin Core, follow these steps:
 
 - (Optional, but recommended) First, encrypt your wallet. To do so, go to Settings -> Encrypt wallet. You will be asked to enter a password. It is crucial that you store this password somewhere safe and that you never lose it. Without it, you would be unable to access the funds in your encrypted wallet. 
 
@@ -27,7 +27,7 @@ Whenever you generate a new public address with Dogecoin Core or you spend coins
 *Remember: whoever gains access to the wallet.dat file will be able to spend your Dogecoin*.
 
 #### Saving Private Keys and Public Keys in a Text File
-The wallet.dat file is not a plain-text file. It is a BDB (Berkley Database). For this reason, it might be a good idea to create a plain text backup of your wallet, containing a list of all private and public keys currently in use by Dogecoin Core. In order to do so:
+The wallet.dat file is not a plain-text file. It is a BDB (Berkeley Database). For this reason, it might be a good idea to create a plain text backup of your wallet, containing a list of all private and public keys currently in use by Dogecoin Core. In order to do so:
 
 - Go to Help -> Debug Window
 - Select the Console tab
@@ -37,11 +37,19 @@ The wallet.dat file is not a plain-text file. It is a BDB (Berkley Database). Fo
     ```
     The console should return "null".
 - Dump your wallet in a file using the *dumpwallet* command and specifying the path to the file.
+
+  For **Dogecoin Core versions older than 1.14.6**, the dumpwallet command allows you to specify a full path to the wallet file, like this:
 	```console
-    dumpwallet "/Users/Cheemz/BackupDirectory/mywallet"
-    null
+    dumpwallet "/Users/Cheemz/BackupDirectory/mywallet.txt"
     ```
     The console should return "null".
+
+  For **Dogecoin Core versions newer than 1.14.6**, the dumpwallet command allows you to specify only the name of the wallet file. The file will be generated in the directory specified with the -backupdir option. When -backupdir is not specified, Dogecoin Core will store the backup file in a directory called *backups* inside the default [*data directory*](/dogepedia/how-tos/operating-a-node/#data-directory):
+  ```console
+    dumpwallet "mywallet.txt"
+    ```
+    The console should return "null".
+
 - Optional: encrypt the wallet file. You can use your operating system's disk encryption options or a zip program allowing you to password-protect a file and encrypt it with a secure algorithm (AES256, for example). Make sure the password used for the encryption is impossible to forget or stored properly as well.
 - Copy the backup in multiple safe locations, NOT connected to the Internet. 
 
