@@ -165,12 +165,12 @@ disableHugoGeneratorInject = false
     name = "reddit"
     url  = "https://www.reddit.com/r/dogecoindev"
 
+[languages]
 
 ##############################
 # Language Translation EN
 ##############################
 
-[languages]
   [languages.en]
     subtitle  = "Much Welcome"
     weight    = 1

@@ -53,7 +53,7 @@ git checkout -b personal-lang-trans-branch
 
 ## Update langFlags.yaml
 
-* Open file '```themes/hello-friend-ng/data/langFlags.yaml```'.
+* Open file '```data/langFlags.yaml```'.
 * Add according language (eg. translated-lang) in ```langFlags.yaml```.
 
 ## Create/Update translated-lang.toml

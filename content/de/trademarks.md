@@ -8,7 +8,7 @@ aliases = ["trademarks"]
 
 ## Dogecoin’s intellectual property (IP)
 This intellectual property FAQ sets out a few questions that the Dogecoin Foundation is often asked
-about our approach to managing our IP, in accordance with our
+about our approach to managing IP, in accordance with our
 [Manifesto](https://foundation.dogecoin.com/manifesto/) and for the benefit of the Dogecoin
 community.
 There are many types of IP, but for this FAQ, we are focusing on copyright and trademark as they
@@ -17,13 +17,13 @@ This FAQ does not cover issues related to the Dogecoin code, which is and will r
 For more on the Dogecoin open-source project, please see the open-source [licence
 terms](https://github.com/dogecoin/dogecoin).
 ## So, what IP makes up the Dogecoin brand?
-The Dogecoin brand includes our name, logo, and slogans like "wow much coin" – nearly anything
-which clearly distinguishes us and our much amaze community. We’ve included some pictures
+The Dogecoin brand includes the Dogecoin name, logo, and slogans like "wow much coin" – nearly anything
+which clearly distinguishes Dogecoin and its much amaze community. We’ve included some pictures
 below, as examples. Our reputation and commitment to Do Only Good Everyday also forms part of
-our brand!
-We want to be mindful of how our logo and brand is used, in order to protect the community and
+the brand!
+We want to be mindful of how the logo and brand is used, in order to protect the community and
 what it stands for.
-In addition to the word “DOGECOIN”, here are some of the logos that make up our brand:
+In addition to the word “DOGECOIN”, here are some of the logos that make up the Dogecoin brand:
       <div class="row">
         <div class="col"><img class="under" src="/assets/images/dogecoin-1.png" style="max-width: 150px;" /></div>
         <div class="col"><img class="under" src="/assets/images/dogecoin-2.png" style="max-width: 150px;" /></div>
@@ -47,24 +47,23 @@ Like copyright, a trademark owner has the right to prevent others from using the
 without consent. However, unlike copyright, trademarks indicate the “origin” of a product or service,
 and needs to be formally registered. The trademark, therefore, helps provide certainty, as a
 'guarantee of origin'.
-## Dogecoin Foundation has said it is fighting off “bad-faith trademark registrations.” What does this
-mean?
+## Dogecoin Foundation has said it is fighting off “bad-faith trademark registrations.” What does this mean?
 The Dogecoin Foundation represents the accidental crypto-movement, designed to develop a
 currency for the People. We also strongly believe in our motto – Do Only Good Everyday. *We don’t
 want the Dogecoin community to be misled or taken advantage of by individuals or companies using
 the Dogecoin brand without permission or accountability.*
 For this reason, we don't like it when people who don’t care about the Dogecoin ethos try to make
-money off of our name and logo. This damages our brand and so damages our community.
+money off of the name and logo. This damages the brand and so damages our community.
 When someone does something in an unfair way, such as registering someone else's brand, this is
 known as doing so in “bad faith”. When this happens, and if we think there is a risk of the Dogecoin
 brand being damaged, we ask our Legal Shibes to review the situation.
 ## Does this mean people can't make Dogecoin fan products through online marketplaces?
 *Absolutely not!* We love it when people use the meme in a fun way, as this is consistent with our
 values of being a welcoming cryptocurrency. We are about the community and not profit-driven
-economics. This is why we don't like people registering the Dogecoin brand or using our name or
+economics. This is why we don't like people registering the Dogecoin brand or using the name or
 logo with a view to making profit for themselves.
 ## Why is the Dogecoin Foundation registering the word "DOGECOIN" and other logos?
-If someone else registers our trademarks, they may not have the Dogecoin community’s best
+If someone else registers the trademarks, they may not have the Dogecoin community’s best
 interests at heart. If someone else owns the logo, they may try to prevent the DogeArmy and other
 fans from using it, too!
 For that reason, the Foundation has chosen to register the trademarks; holding it safe for the
@@ -74,7 +73,7 @@ them to protect their logo and name for the good of their community.
 The trademark system is not perfect. It is complex, and cumbersome – much paperwork, such
 registration deadlines! However, they ultimately protect our community and the Dogecoin name
 against misuse and exploitation.
-Trademarks held by the genuine entity, means our logo and name can be better protected from
+Trademarks held by the genuine entity, means the logo and name can be better protected from
 misuse and made available as appropriate under transparent and accessible terms.
 ## What can I do to help protect the Dogecoin brand?
 Continue to use the Dogecoin meme in collaborative, exciting and fun ways. But please, remember
