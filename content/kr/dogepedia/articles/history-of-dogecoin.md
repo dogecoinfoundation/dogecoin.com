@@ -1,5 +1,5 @@
 +++
-title = "The History of Dogecoin"
+title = "도지코인의 역사"
 date = "2021-10-22"
 type = "article"
 
@@ -7,22 +7,22 @@ type = "article"
   name = "Dogecoin"
 +++
  
-Dogecoin was originally created as a joke in late 2013 by Billy Markus and Jackson Palmer. Both Billy and Jackson thought that cryptocurrency was being taken far too seriously and wasn’t much fun. Jackson created the Dogecoin.com website and would have been, for a while, the public face of Dogecoin, while Billy worked as a solo developer on the first 4 releases.
+도지코인은 본래 2013년 말 빌리 마커스(Billy Markus)과 잭슨 팔머(Jackson Palmer) 장난으로 만들었다. 그 당시에 가상화폐가 너무 진지하고 별로 재미가 없다고 빌리과 잭슨은 둘다 생각했다. 잭슨은 Dogecoin.com 웹사이트를 만들었고 그리고 한 동안, 도지코인의 대표 얼굴 이였다, 이와 동시에 빌리는 혼자서 첫 4개의 출시를 개발했다.
 
 ![image info](../../../assets/images/dogepedia/12.png)
 
-On December 6th, 2013, Dogecoin was launched taking influence from the famous Doge meme: an image of a very adorable Shiba Inu dog with multi-coloured comic sans text that appears as the dog’s “thought bubbles”. 
+12월 6일, 2013년, 도지코인은 유명 '도지'밈의 영향을 받고 출시되었다: 귀여운 시바견 강아지의 생각을 다양한 색깔의 comic sans 자막 사진. 
 
 
-This famous meme was based on a 2010 photograph of a Japanese female Shiba Inu dog called **Kabosu**, who was adopted by Japanese kindergarten teacher Atsuko Satō from an animal shelter in 2008.  
+이 유명한 밈은 2010년에 사진에 실린 일본에 살고 있는 암컷 시바견 **카보수(Kabosu)** 에 기반을 두고 있는데요, 카보수는 일본 유치원 교사 Atsuko Satō에게 동물보호소로 부터 2008년에 입양 되었습니다.  
 
-Much to Billy and Jackson’s surprise, Dogecoin was a near-instant success, and gained tremendous popularity on sites such as Reddit, where it was —and still is — used as a tipping currency. When Dogecoin was just 2-weeks old, it reached more transactions per day than Bitcoin. Moreover, within the first month there were over one-million unique visitors to this website!  
+빌리와 잭슨이 놀라게 되었습니다, 도지코인은 곧바로 흥행에 성공했기 때문인데요, 레딧과 같은 사이트에서 유행하고, 그곳에서 그때도 지금도 tipping(선물/팁) 화폐로 사용되고 있습니다. 도지코인이 딱 2주 정도 되었을때, 비트코인 보다 더 많은 하루 송금량이 많았습니다. 또한, 첫 한달안에 백만명이 넘는 사람들이 이 사이트를 찾아왔습니다!  
 
-In 2014, both Billy and Jackson left the development efforts, while a Dogecoin Core Development team was formed. The team, comprised of a small group of core maintainers and supported by more than 40 contributors over the years, has been maintaining and developing Dogecoin since then.
+2014년, 빌리와 잭슨 모두 개발에서 손을 뗐습니다, 이와 동시에 도지코인 코어 개발팀이 결성되었습니다. 해당 팀은, 수년간 소규모의 코어 운영자 그룹과 40명이 넘는 기여자의 도움을 받으며, 그 이후로 부터 도지코인을 유지하고 개발하고 있습니다.
 
-Although owing its genesis to a joke, Dogecoin quickly developed into a massive and passionate cryptocurrency community. This fun and friendly crypto community has also been behind many great causes and charitable endeavours.  
+태초는 장난이였지만, 도지코인은 빠르게 대규모의 열정적인 커뮤니티를 가지게 되었다. 재밌고 친근한 이 가상화폐 커뮤니티는 많은 선행들과 모금 활동을 지원한 이력이 있습니다.  
 
-For example, in 2014 the Dogecoin community raised 26.5 million Dogecoin (worth around USD $30,000.00 at the time) to send the Jamaican bobsled team to the Sochi Winter Olympics! In March of that year, the Dogecoin community also raised over 40 million Dogecoin (worth around USD $30,000.00 at the time) to help with the effort of building clean-water wells in Kenya.  
+예를 들어, 2014년에 도지코인 커뮤니티는 약 2천 6백 50만 도지코인을 (그 당시 약 3만 달러 USD $30,000.00 상당) 자메이카 봅슬레이 대표팀을 소치 겨울 올림픽에 갈 수 있게 모금했습니다. 그해 3월, 도지코인 커뮤니티는 4천만 도지코인 넘게 (그 당시 약 3만 달러 USD $30,000.00) 케냐 식수 우물 건설에 보태기 위하여 모금했습니다.  
 
 
-Most recently, the [Dogecoin Foundation](https://foundation.dogecoin.com/) partnered with popular YouTubers Mr Beast and Mark Rober for their TeamSeas initiative: with the ambitious aim to raise a combined 30 million U.S. dollars to remove 30 million pounds of trash from the world’s oceans.  
+최근에, [도지코인 재단](https://foundation.dogecoin.com/kr/)에서는 유명 유튜커 Mr Beast 그리고 Mark Rober의 TeamSeas initiative를 위해 협력 했습니다: 3천만 달러를 모금하여 3천만 파운드(lbs)에 해당하는 쓰레기를 지구의 해양에서 부터 치우는 목표.  
