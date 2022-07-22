@@ -7,9 +7,9 @@ type = "article"
   name = "Dogecoin"
 +++
  
-도지코인은 본래 2013년 말 빌리 마커스(Billy Markus)과 잭슨 팔머(Jackson Palmer) 장난으로 만들었다. 그 당시에 가상화폐가 너무 진지하고 별로 재미가 없다고 빌리과 잭슨은 둘다 생각했다. 잭슨은 Dogecoin.com 웹사이트를 만들었고 그리고 한 동안, 도지코인의 대표 얼굴 이였다, 이와 동시에 빌리는 혼자서 첫 4개의 출시를 개발했다.
+도지코인은 본래 2013년 말 빌리 마커스(Billy Markus)과 잭슨 팔머(Jackson Palmer) 장난으로 만들었다. 그 당시에 가상화폐가 너무 진지하고 별로 재미가 없다고 빌리과 잭슨은 둘다 생각했다. 잭슨은 Dogecoin.com 웹사이트를 만들었고 그리고 한 동안, 도지코인의 대표 얼굴 이였다, 이와 동시에 빌리는 혼자서 첫 4개의 버전 출시를 개발했다.
 
-![image info](../../../assets/images/dogepedia/12.png)
+![image info](/assets/images/dogepedia/12.png)
 
 12월 6일, 2013년, 도지코인은 유명 '도지'밈의 영향을 받고 출시되었다: 귀여운 시바견 강아지의 생각을 다양한 색깔의 comic sans 자막 사진. 
 

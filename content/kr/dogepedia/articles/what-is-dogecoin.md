@@ -7,7 +7,7 @@ type = "article"
   name = "Dogecoin"
 +++
  
-![image info](../../../assets/images/dogepedia/3.png)
+![image info](/assets/images/dogepedia/3.png)
 도지코인은 많은 이들에게 많은 의미를 가집니다. 그 중심 속에서는, 도지코인은 많은 이들에게 미소를 띠게하는 우연의 가상화폐 **운동** 입니다!
 
 또한 [블록체인 기술](https://www.dogecoin.com/dogepedia/articles/what-is-a-blockchain)을 이용하는 오픈소스 피어 to 피어 가상화폐이며, 보안이 강한 탈중앙화 누구나 열람 할 수 있는 정보 저장 수단인 렛져를 여러 컴퓨터가 [노드](https://www.dogecoin.com/dogepedia/articles/what-is-a-node)를 운영하며 네트워크를 구성하는 시스템이다. 

@@ -17,7 +17,7 @@ type = "article"
 
 근래 들어 가상화폐거래소의 보안이 많이 좋아졌지만, 거래소를 통하여 도지코인을 구매하기에 앞서 꼭 **스스로 제대로 공부하고 알아보기/do your own research (DYOR)**를 하는 것이 중요합니다, 그 이유는 거래소도 보안 문제 혹은 논란으로 부터 면역이 아니기 때문에. 더 나은 보안을 위하여, trading의 목적이 아닌 도지코인을 [private non-custodial wallet](/dogepedia/articles/how-do-i-get-a-wallet)에 보관하는 것을 고려해보는 것도 좋습니다.
 
-![image info](../../../assets/images/dogepedia/5.png)
+![image info](/assets/images/dogepedia/5.png)
  
 ### 팁/Tipping 
 
