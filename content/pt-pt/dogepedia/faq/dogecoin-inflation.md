@@ -11,4 +11,4 @@ Dogecoin has a diminished inflation rate because it has a fixed yearly issuance 
 
 Since Dogecoin is not meant to be hoarded — and hoarding is a major barrier to a crypto**currency** being used as, well, an actual **currency** — Dogecoin will have a much more utilitarian and practical place in the economy than other cryptocurrencies, which often remain unspent. 
 
-![image info](../../../assets/images/dogepedia/10.png)
+![image info](/assets/images/dogepedia/10.png)
