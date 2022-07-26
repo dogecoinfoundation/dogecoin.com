@@ -6,6 +6,7 @@ active = "yes"
 version = "n/a"
 wallet_Image = "https://www.mydoge.com/favicon.ico"
 website_url = "https://mydoge.com"
+git_url = ""
 
 download_i686_url = ""
 download_x86_64_url = ""

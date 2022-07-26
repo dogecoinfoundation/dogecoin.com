@@ -6,6 +6,7 @@ active = "yes"
 version = "1.14.6"
 wallet_Image = "/assets/images/1.png"
 website_url = "https://dogecoin.com"
+git_url = "https://github.com/dogecoin/dogecoin"
 
 download_i686_url = "https://github.com/dogecoin/dogecoin/releases/download/v1.14.6/dogecoin-1.14.6-i686-pc-linux-gnu.tar.gz"
 download_x86_64_url = "https://github.com/dogecoin/dogecoin/releases/download/v1.14.6/dogecoin-1.14.6-x86_64-linux-gnu.tar.gz"
