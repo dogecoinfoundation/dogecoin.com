@@ -15,4 +15,4 @@ As a matter of fact, unlike other cryptocurrencies, Dogecoin has had its use cas
 
 You can read more about the history of Dogecoin [here](/dogepedia/articles/history-of-dogecoin/) and about its utility [here](/dogepedia/faq/dogecoin-has-no-utility/).
 
-![image info](../../../assets/images/dogepedia/9.png)
+![image info](/assets/images/dogepedia/9.png)

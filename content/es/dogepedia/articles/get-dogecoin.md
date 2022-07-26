@@ -17,7 +17,7 @@ You can purchase Dogecoin on an exchange at the current market price (this is ca
 
 Although the security of exchanges has come a long way in recent years, it is still crucial that you **do your own research (DYOR)** before purchasing Dogecoin via an exchange, because they are not immune to security risks or controversy. For added security, it is also important to consider keeping the Dogecoin that you do not intend to use for trading in a [private non-custodial wallet](/dogepedia/articles/how-do-i-get-a-wallet).
 
-![image info](../../../assets/images/dogepedia/5.png)
+![image info](/assets/images/dogepedia/5.png)
  
 ### Tipping 
 

@@ -7,7 +7,7 @@ type = "faq"
   name = "Dogecoin"
 +++
 
-![image info](../../../assets/images/dogepedia/7.png)
+![image info](/assets/images/dogepedia/7.png)
 
 Right now, and for the next hundred years or so, Dogecoin operates like, and will continue to operate like, most other crypto assets. “Capped” assets are nowhere near mined out – and will continue adding to their supply, just like Dogecoin, for the foreseeable future.  
 
