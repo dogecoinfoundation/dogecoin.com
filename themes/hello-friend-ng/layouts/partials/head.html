@@ -1,8 +1,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ range .Site.Author }}{{ . }} {{ end }}{{ end }}">
-<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.homeSubtitle }}{{ else }}{{ if .Params.Description }}{{ .Params.Description }}{{ else }}{{ .Summary | plainify }}{{ end }}{{ end }}" />
-<meta name="keywords" content="{{ .Site.Params.keywords }}{{ if .Params.tags }}{{ range .Params.tags }}, {{ . }}{{ end }}{{ end }}" />
+<meta name="description" content="{{ if .IsHome }} {{i18n "meta[description]" }} {{ else }}{{ if .Params.Description }}{{ .Params.Description }}{{ else }}{{ .Summary | plainify }}{{ end }}{{ end }}" />
+<meta name="keywords" content="{{ if .IsHome }} {{i18n "meta[keywords]" }} {{ else }} {{ .Site.Params.keywords }}{{ if .Params.tags }}{{ range .Params.tags }}, {{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta name="robots" content="noodp" />
 
 <meta property="og:image" content="https://dogecoin.com/assets/images/dogecoin-card.png"/>
@@ -19,7 +19,7 @@
 {{ block "title" . }}
     <title>
         {{ if .IsHome }}
-            {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} — {{ . }} {{ end }}
+           {{i18n "meta[title]" }}
         {{ else }}
             {{ .Title }} :: {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} — {{ . }}{{ end }}
         {{ end }}
