@@ -5,7 +5,7 @@ date = "2022-01-22"
   name = "Dogecoin"
 +++
 
-The Dogecoin network is a peer-to-peer payment network consisting of thousands of computers called [**nodes**](/dogepedia/articles/what-is-a-node/). Each of these nodes is running specialized software, called Dogecoin Core, which can be downloaded from the official [**Dogecoin.com**](https://dogecoin.com/) website and directly from the [**Github repository**](https://github.com/dogecoin/dogecoin/releases).
+The Dogecoin network is a peer-to-peer payment network consisting of thousands of computers called [**nodes**](/dogepedia/articles/what-is-a-node/). Each of these nodes is running specialized software. **Dogecoin Core**, Dogecoin's *reference implementation*, is the software more commonly used to run a Dogecoin node. It can be downloaded from the official [**Dogecoin.com**](https://dogecoin.com/) website and directly from the [**Github repository**](https://github.com/dogecoin/dogecoin/releases).
 
 Running a [**full node**](/dogepedia/articles/what-is-a-node/#full-nodes) is a service that volunteers in the network, called *node operators*, provide to the Dogecoin community. Unlike what happens when mining, operating a node does not lead to direct incentives or rewards, but it makes the Dogecoin network more resilient, thus contributing to utility and adoption. 
 
@@ -23,7 +23,7 @@ You can read more about the Dogecoin blockchain and nodes in these Dogepedia art
 
 Since Dogecoin Core 1.14.4, the community has made major efforts to provide a more up-to-date documentation for node operators. The documentation, useful also for advanced users and those planning to build a package for their specific operating system, is included in the Dogecoin Core repository available on Github. You can read it also online [here](https://github.com/dogecoin/dogecoin/tree/master/doc).
 
-### Summary
+## Summary
 
 - [Minimum Requirements](/dogepedia/how-tos/operating-a-node/#minimum-requirements)
 - [Data Directory](/dogepedia/how-tos/operating-a-node/#data-directory)
@@ -33,6 +33,7 @@ Since Dogecoin Core 1.14.4, the community has made major efforts to provide a mo
     - [Windows](/dogepedia/how-tos/operating-a-node/#windows-instructions)
     - [macOS](/dogepedia/how-tos/operating-a-node/#macos-instructions)
     - [Linux](/dogepedia/how-tos/operating-a-node/#linux-instructions)
+- [Upgrading Dogecoin Core](/dogepedia/how-tos/operating-a-node/#generic-upgrade-instructions)
 - [Network Configuration](/dogepedia/how-tos/operating-a-node/#network-configuration)
 - [Advanced Configuration](/dogepedia/how-tos/operating-a-node/#advanced-configuration)
 - [Dogecoin CLI](/dogepedia/how-tos/operating-a-node/#dogecoin-cli)
@@ -40,7 +41,7 @@ Since Dogecoin Core 1.14.4, the community has made major efforts to provide a mo
 
 <hr />
 
-### Minimum Requirements {#minimum-requirements}
+## Minimum Requirements {#minimum-requirements}
 Running a node is not as complicated as mining Dogecoin, as it does not involve specialized hardware and it does not consume nearly as much electricity. In fact, if you already have a computer turned on 24/24 and an unmetered Internet connection, running a node can be done in the background. The requirements for running a node are:
 
 - Currently, at least 60GB of HD space, possibly on a fast drive, for storing a full copy of the blockchain. You will need more disk space as the blockchain grows, so starting with a larger disk is a good idea. 
@@ -53,7 +54,7 @@ Many node operators use VPS services for hosting their Dogecoin nodes. Given eno
 
 <hr />
 
-### Data Directory {#data-directory}
+## Data Directory {#data-directory}
 
 The data directory is the location where the blockchain files, alongside log files and wallet files, are stored. You should make sure that this directory is located on a drive with enough disk space. The location of this directory can be changed by using the -datadir= argument when starting your Dogecoin node or using the same setting in the [dogecoin.conf file](/dogepedia/how-tos/operating-a-node/#advanced-configuration).
 
@@ -67,7 +68,7 @@ Windows  | `%APPDATA%\Dogecoin`
 
 <hr />
 
-### Disclaimer: Security {#security}
+## Disclaimer: Security {#security}
 This guide is focused on providing instructions for running a node for supporting the Dogecoin network. 
 
 Running a full node can be also useful for businesses or service providers. In these cases, additional precautions might be needed concerning the security of the machine where the node is running. This is not covered in this article and might require an experienced system administrator.
@@ -76,7 +77,7 @@ In general, running a node is not inherently different or less safe than running
 
 <hr />
 
-### Deploying a Node {#generic-instructions}
+## Deploying a Node {#generic-instructions}
 Installing a node is extremely easy - basically, it is just like installing any other application, provided that your machine meets the requirements listed above. 
 
 This is the process for all platforms:
@@ -159,15 +160,15 @@ Running Dogecoin Core node on a Linux machine is relatively straightforward. VPS
 
 - Download the latest Linux build from the [**Dogecoin Github repository**](https://github.com/dogecoin/dogecoin/releases):
     ```console
-    shibetoshi:~$ wget https://github.com/dogecoin/dogecoin/releases/download/v1.14.5/dogecoin-1.14.5-x86_64-linux-gnu.tar.gz
+    shibetoshi:~$ wget https://github.com/dogecoin/dogecoin/releases/download/v1.14.6/dogecoin-1.14.6-x86_64-linux-gnu.tar.gz
     ```
 - Untar and unzip the package you just downloaded
     ```console
-    shibetoshi:~$ tar -xvzf dogecoin-1.14.3-x86_64-linux-gnu.tar.gz
+    shibetoshi:~$ tar -xvzf dogecoin-1.14.6-x86_64-linux-gnu.tar.gz
     ```
 - Enter into the bin directory inside the directory where Dogecoin Core has been untarred:
     ```console
-    shibetoshi:~$ cd dogecoin-1.14.5/bin
+    shibetoshi:~$ cd dogecoin-1.14.6/bin
     ```
 - Start the headless Dogecoin Daemon process:
     ```console
@@ -196,7 +197,16 @@ For more information on using Dogecoin CLI refer to the [**Dogecoin CLI**](/doge
 
 <hr />
 
-### Network Configuration {#network-configuration}
+## Upgrading Dogecoin Core {#generic-upgrade-instructions}
+Once you have installed and configured it, upgrading from a recent Dogecoin Core release is usually as easy as upgrading any other application.
+
+- If you are using Core as a wallet, [make a backup](/dogepedia/articles/how-to-backup-a-wallet/) of your wallet files. It is recommend you make also a plain text backup, especially if you are running an older version of Dogecoin Core. Store it somewhere safe - whoever has access to the backups has access to your wallet.
+- Shut down your Dogecoin Core. This can be done by either closing the Dogecoin Core GUI application and waiting for it to complete the shutdown process, or, for CLI users, by issuing the *dogecoin-cli stop* command via shell. More info for CLI users is available [here](#dogecoin-cli).
+- Once done, follow the installation instructions above for your current OS.
+
+<hr />
+
+## Network Configuration {#network-configuration}
 By default, in most setups, your Dogecoin Core node might be able to establish only outbound connections. To support the Dogecoin network, you must allow inbound connections through port 22556.
 
 Depending on your local network setup, this might require extra configuration in your router and/or in your modem, and some extra rules added to your firewall.
@@ -232,16 +242,16 @@ In most homes, computers connect to the Internet through a modem or a router, wh
 - Access your router's control panel using your internet browser. Usually, most routers have a control panel accessible at https://192.168.0.1 or at https://192.168.1.1. Sometimes, a sticker is placed on the bottom or the side of the router listing the IP.
 - Login into the control panel of the router. You will need to use the username and password provided by the router manufacturer. Sometimes, a sticker is placed on the bottom or the side of the router revealing the admin password. These are some common default passwords used by popular router manufacturers:
 
-	Manufacturer | Username | Password
-	-------------|----------|---------
-	D-Link       |  admin   | (blank)
-	Netgear      |  admin   | password
-	Linksys      |  admin   | admin
-	Asus         |  admin   | admin
-	DrayTek      |  admin   | admin
-	ZyXel        |  admin   | 1234
-	TP-Link      |  admin   | admin
-	Belkin       |  admin   | (blank)
+    Manufacturer | Username | Password
+    -------------|----------|---------
+    D-Link       |  admin   | (blank)
+    Netgear      |  admin   | password
+    Linksys      |  admin   | admin
+    Asus         |  admin   | admin
+    DrayTek      |  admin   | admin
+    ZyXel        |  admin   | 1234
+    TP-Link      |  admin   | admin
+    Belkin       |  admin   | (blank)
 
 - In the router's control panel, assign a static IP to the machine running Dogecoin Core. This is normally done in the Dynamic Host Configuration Protocol (DHCP) page.
 - In the router's control panel, configure port forwarding, forwarding all inbound traffic to port 22556 from your router to the static IP you assigned to the machine running Dogecoin Core.
@@ -255,7 +265,7 @@ Finally, in some setups and operating systems, you will also need to open port 2
 
 <hr />
 
-### Advanced Configuration {#advanced-configuration}
+## Advanced Configuration {#advanced-configuration}
 
 Dogecoin Core is highly configurable. Configuration settings for the Dogecoin Core Daemon or the Dogecoin Core GUI can be used as an argument when starting Dogecoin Core or can be saved inside the dogecoin.conf file, which should be placed inside the [data directory](/dogepedia/how-tos/operating-a-node/#dogecoin-cli).
 
@@ -363,6 +373,12 @@ You can configure a custom location for the data directory.
 datadir=/dogecoin/data
 ```
 
+#### Custom Backup Directory (Dogecoin Core versions > 1.14.6) {#backup-directory}
+You can configure a custom location for the directory used to store backups when using the *dumpwallet* and *backupwallet* CLI commands.
+```
+backupdir=/Users/Cheemz/SecretCannolo/
+```
+
 #### Disable Wallet Functionality {#disable-wallet}
 If you are operating Dogecoin Core to support the network, probably you are not using it also as a Dogecoin wallet. To disable wallet functionality, use the *disablewallet* setting.
 ```
@@ -396,7 +412,7 @@ uacomment=Cheemz
 
 <hr />
 
-### Dogecoin CLI {#dogecoin-cli}
+## Dogecoin CLI {#dogecoin-cli}
 The Dogecoin CLI is a tool allowing you to access the JSON-RPC interface provided with Dogecoin Core. It is recommended that you explore the several commands listed when using the *help* command, where commands will be neatly divided into categories.
 
 The Github repository has a [good introduction to using the Dogecoin CLI tool](https://github.com/dogecoin/dogecoin/blob/master/doc/getting-started.md).
@@ -404,82 +420,140 @@ The Github repository has a [good introduction to using the Dogecoin CLI tool](h
 ```console
 shibetoshi:~$ dogecoin-cli help
 ```
-As of Dogecoin Core 1.14.5, this is the output of the command:
+
+As of Dogecoin Core 1.14.6, this is the output of the command:
 
 ```console
-	== Blockchain ==
-	getbestblockhash
-	getblock "blockhash" ( verbose )
-	getblockchaininfo
-	getblockcount
-	getblockhash height
-	getblockheader "hash" ( verbose )
-	getchaintips
-	getdifficulty
-	getmempoolancestors txid (verbose)
-	getmempooldescendants txid (verbose)
-	getmempoolentry txid
-	getmempoolinfo
-	getrawmempool ( verbose )
-	gettxout "txid" n ( include_mempool )
-	gettxoutproof ["txid",...] ( blockhash )
-	gettxoutsetinfo
-	preciousblock "blockhash"
-	pruneblockchain
-	verifychain ( checklevel nblocks )
-	verifytxoutproof "proof"
+    == Blockchain ==
+    getbestblockhash
+    getblock "blockhash" ( verbose )
+    getblockchaininfo
+    getblockcount
+    getblockhash height
+    getblockheader "hash" ( verbose )
+    getchaintips
+    getdifficulty
+    getmempoolancestors txid (verbose)
+    getmempooldescendants txid (verbose)
+    getmempoolentry txid
+    getmempoolinfo
+    getrawmempool ( verbose )
+    gettxout "txid" n ( include_mempool )
+    gettxoutproof ["txid",...] ( blockhash )
+    gettxoutsetinfo
+    preciousblock "blockhash"
+    pruneblockchain
+    verifychain ( checklevel nblocks )
+    verifytxoutproof "proof"
 
-	== Control ==
-	getinfo
-	getmemoryinfo
-	help ( "command" )
-	stop
+    == Control ==
+    getinfo
+    getmemoryinfo
+    help ( "command" )
+    stop
 
-	== Generating ==
-	generate nblocks ( maxtries auxpow )
-	generatetoaddress nblocks address (maxtries auxpow)
+    == Generating ==
+    generate nblocks ( maxtries auxpow )
+    generatetoaddress nblocks address (maxtries auxpow)
 
-	== Mining ==
-	createauxblock <address>
-	getauxblock (hash auxpow)
-	getblocktemplate ( TemplateRequest )
-	getmininginfo
-	getnetworkhashps ( nblocks height )
-	prioritisetransaction <txid> <priority delta> <fee delta>
-	submitauxblock <hash> <auxpow>
-	submitblock "hexdata" ( "jsonparametersobject" )
+    == Mining ==
+    createauxblock <address>
+    getauxblock (hash auxpow)
+    getblocktemplate ( TemplateRequest )
+    getmininginfo
+    getnetworkhashps ( nblocks height )
+    prioritisetransaction <txid> <priority delta> <fee delta>
+    submitauxblock <hash> <auxpow>
+    submitblock "hexdata" ( "jsonparametersobject" )
 
-	== Network ==
-	addnode "node" "add|remove|onetry"
-	clearbanned
-	disconnectnode "address"
-	getaddednodeinfo ( "node" )
-	getconnectioncount
-	getnettotals
-	getnetworkinfo
-	getpeerinfo
-	listbanned
-	ping
-	setban "subnet" "add|remove" (bantime) (absolute)
-	setnetworkactive true|false
+    == Network ==
+    addnode "node" "add|remove|onetry"
+    clearbanned
+    disconnectnode "address" 
+    getaddednodeinfo ( "node" )
+    getconnectioncount
+    getnettotals
+    getnetworkinfo
+    getpeerinfo
+    listbanned
+    ping
+    setban "subnet" "add|remove" (bantime) (absolute)
+    setmaxconnections
+    setnetworkactive true|false
 
-	== Rawtransactions ==
-	createrawtransaction [{"txid":"id","vout":n},...] {"address":amount,"data":"hex",...} ( locktime )
-	decoderawtransaction "hexstring"
-	decodescript "hexstring"
-	getrawtransaction "txid" ( verbose )
-	sendrawtransaction "hexstring" ( allowhighfees )
-	signrawtransaction "hexstring" ( [{"txid":"id","vout":n,"scriptPubKey":"hex","redeemScript":"hex"},...] ["privatekey1",...] sighashtype )
+    == Rawtransactions ==
+    createrawtransaction [{"txid":"id","vout":n},...] {"address":amount,"data":"hex",...} ( locktime )
+    decoderawtransaction "hexstring"
+    decodescript "hexstring"
+    fundrawtransaction "hexstring" ( options )
+    getrawtransaction "txid" ( verbose )
+    sendrawtransaction "hexstring" ( allowhighfees )
+    signrawtransaction "hexstring" ( [{"txid":"id","vout":n,"scriptPubKey":"hex","redeemScript":"hex"},...] ["privatekey1",...] sighashtype )
 
-	== Util ==
-	createmultisig nrequired ["key",...]
-	estimatefee nblocks
-	estimatepriority nblocks
-	estimatesmartfee nblocks
-	estimatesmartpriority nblocks
-	signmessagewithprivkey "privkey" "message"
-	validateaddress "address"
-	verifymessage "address" "signature" "message"
+    == Util ==
+    createmultisig nrequired ["key",...]
+    estimatefee nblocks
+    estimatepriority nblocks
+    estimatesmartfee nblocks
+    estimatesmartpriority nblocks
+    signmessagewithprivkey "privkey" "message"
+    validateaddress "address"
+    verifymessage "address" "signature" "message"
+
+    == Wallet ==
+    abandontransaction "txid"
+    addmultisigaddress nrequired ["key",...] ( "account" )
+    addwitnessaddress "address"
+    backupwallet "destination"
+    bumpfee "txid" ( options ) 
+    dumpprivkey "address"
+    dumpwallet "filename"
+    getaccount "address"
+    getaccountaddress "account"
+    getaddressesbyaccount "account"
+    getbalance ( "account" minconf include_watchonly )
+    getnewaddress ( "account" )
+    getrawchangeaddress
+    getreceivedbyaccount "account" ( minconf )
+    getreceivedbyaddress "address" ( minconf )
+    gettransaction "txid" ( include_watchonly )
+    getunconfirmedbalance
+    getwalletinfo
+    importaddress "address" ( "label" rescan p2sh )
+    importmulti "requests" "options"
+    importprivkey "dogecoinprivkey" ( "label" ) ( rescan )
+    importprunedfunds
+    importpubkey "pubkey" ( "label" rescan )
+    importwallet "filename"
+    keypoolrefill ( newsize )
+    listaccounts ( minconf include_watchonly)
+    listaddressgroupings
+    listlockunspent
+    listreceivedbyaccount ( minconf include_empty include_watchonly)
+    listreceivedbyaddress ( minconf include_empty include_watchonly)
+    listsinceblock ( "blockhash" target_confirmations include_watchonly)
+    liststucktransactions ( verbose include_watchonly )
+    listtransactions ( "account" count skip include_watchonly)
+    listunspent ( minconf maxconf  ["addresses",...] [include_unsafe] [query_options])
+    lockunspent unlock ([{"txid":"txid","vout":n},...])
+    move "fromaccount" "toaccount" amount ( minconf "comment" )
+    removeprunedfunds "txid"
+    rescan ( "height" )
+    sendfrom "fromaccount" "toaddress" amount ( minconf "comment" "comment_to" )
+    sendmany "fromaccount" {"address":amount,...} ( minconf "comment" ["address",...] )
+    sendtoaddress "address" amount ( "comment" "comment_to" subtractfeefromamount )
+    setaccount "address" "account"
+    settxfee amount
+    signmessage "address" "message"
+    walletlock
+    walletpassphrase "passphrase" timeout
+    walletpassphrasechange "oldpassphrase" "newpassphrase"
+```
+
+You can also get help and information about any command using the *help* command with the extra argument:
+
+```console
+shibetoshi:~$ dogecoin-cli help <command>
 ```
 
 Some useful commands are listed below.
@@ -494,9 +568,19 @@ Some useful commands are listed below.
     ```console
     shibetoshi:~$ dogecoin-cli getinfo
     ```
+- Rescan the blockchain from a specific block (since Dogecoin Core 1.14.6):
+
+This command allows node operators to rescan the chain for wallet transactions from a certain height.
+    ```console
+    shibetoshi:~$ dogecoin-cli rescan <block height>
+    ```
 - Get total number of connections:
     ```console
     shibetoshi:~$ dogecoin-cli getconnectioncount
+    ```
+- Set maximum number of connections (since Dogecoin Core 1.14.6):
+    ```console
+    shibetoshi:~$ dogecoin-cli setmaxconnections <desired_amount>
     ```
 - Add a node to the addnode list:
     ```console
@@ -522,10 +606,19 @@ Some useful commands are listed below.
     ```console
     shibetoshi:~$ dogecoin-cli gettransaction <txid>
     ```
+- List and explore "stuck" transactions (since Dogecoin Core 1.14.6):
+If you are using your Dogecoin Node to send and receive transactions, it might be useful to identify "stuck" transactions (not mined and not in the mempool) before an upgrade to local fee and dust policies which might allow old forgotten transactions to get "unstuck" due to more permissive policies.
+
+The method can be called with:
+
+```console
+shibetoshi:~$ dogecoin-cli liststucktransactions
+```
+
 
 In general, it is recommend that you explore and "play" with the various available commands; there is no better way to learn. The JSON-RPC interface can be used to develop services and automate the management of your Dogecoin Core node.
 
 <hr />
 
-### Finding Help as a Dogecoin Node Operator {#finding-help}
+## Finding Help as a Dogecoin Node Operator {#finding-help}
 There are several communities where you can find help in setting up and operating your node. On reddit, you can ask questions on [r/dogecoin](https://www.reddit.com/r/dogecoin/) or [r/dogeducation](https://www.reddit.com/r/dogeducation/). Help can be found also on other social networks - there is an active community of shibes running Dogecoin Nodes.
