@@ -6,12 +6,16 @@
 <meta name="robots" content="noodp" />
 
 <meta property="og:image" content="https://dogecoin.com/assets/images/dogecoin-card.png"/>
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Params.homeSubtitle }}{{ else }}{{ .Params.title }}{{ end }}">
+<meta property="og:description" content="{{ if .IsHome }}{{ .Site.Params.homeSubtitle }}{{ else }}{{ if .Params.Description }}{{ .Params.Description }}{{ else }}{{ .Summary | plainify }}{{ end }}{{ end }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dogecoin.com/">
+
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Params.homeSubtitle }}{{ else }}{{ .Params.title }}{{ end }}">
-<meta name="twitter:site" content="https://dogecoin.com">
+<meta name="twitter:site" content="https://dogecoin.com/">
 <meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.homeSubtitle }}{{ else }}{{ if .Params.Description }}{{ .Params.Description }}{{ else }}{{ .Summary | plainify }}{{ end }}{{ end }}">
 <meta name="twitter:image" content="https://dogecoin.com/assets/images/dogecoin-card.png">
-
 
 <meta name="theme-color" content="{{ .Site.Params.themeColor }}" />
 <link rel="canonical" href="{{ .Permalink }}" />
@@ -59,7 +63,7 @@
 {{ template "_internal/schema.html" . }}
 
 {{ if isset .Site.Taxonomies "series" }}
-    {{ template "_internal/opengraph.html" . }}
+  <!--  {{ template "_internal/opengraph.html" . }}-->
 {{ end }}
 
 {{ range .Params.categories }}
