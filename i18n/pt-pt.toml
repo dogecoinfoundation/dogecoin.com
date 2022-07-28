@@ -38,6 +38,18 @@ other = "{{ .Count }} Palavras"
 other = "Última actualização"
 
 ##############################
+# website header SEO
+##############################
+["meta[title]"]
+other = "Dogecoin - An open-source peer-to-peer digital currency"
+
+["meta[description]"]
+other = "An open-source peer-to-peer digital currency, favoured by Shiba Inus worldwide"
+
+["meta[keywords]"]
+other = "dogecoin, doge, currency, cryptocurrency, digital currency, shiba inu"
+
+##############################
 # partials/list.html
 ##############################
 

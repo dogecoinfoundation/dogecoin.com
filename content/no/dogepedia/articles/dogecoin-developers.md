@@ -2,12 +2,13 @@
 title = "Who are the current Dogecoin developers?"
 date = "2021-10-22"
 type = "article"
+draft = true 
 
 [ author ]
   name = "Dogecoin"
 +++
 
-Although development of Dogecoin is open and participatory, there is still a strong group of key developers who maintain and contribute to the Dogecoin blockchain and ecosystem.  
+Although development of Dogecoin is open and participatory, there is still a strong group of key developers who maintain and contribute to the Dogecoin blockchain and ecosystem.
 
 Dogecoin was created by Billy Markus and Jackson Palmer in 2013, and Billy worked on Dogecoin as its principal developer for its first releases.  
 
