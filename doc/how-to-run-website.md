@@ -1,6 +1,6 @@
-# How To Run Dogecoin Preview Website
+# How To Run Dogecoin Website
 
-- [How To Run Dogecoin Preview Website](#how-to-run-dogecoin-website)
+- [How To Run Dogecoin Website](#how-to-run-dogecoin-website)
   - [Install Hugo](#install-hugo)
     - [Install on Windows](#install-on-windows)
       - [Set up Your Directories](#set-up-your-directories)
@@ -120,14 +120,14 @@ snap install hugo
 ```
 
 ## Install NPM
-```
-npm install
-```
+
+* Go to https://nodejs.org/en/download/
+* Download your OS version and install it
 
 ## Run Website
 
 * Open a Terminal.
-* Go to the root folder of ```dogecoin.com``` which you just get from the step '[How To Get Dogecoin Preview Website](how-to-get-website.md)'.
+* Go to the root folder of ```dogecoin.com``` which you just get from the step '[How To Get Dogecoin Website](how-to-get-website.md)'.
 
 * Run the command as below to install all module dependencies (you have to install NPM if you dont have installed):
 

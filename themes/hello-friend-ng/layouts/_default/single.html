@@ -2,7 +2,7 @@
 <main class="dogepedia">
     <div class="title" style="color: #FFFFFF">
       <h1>{{ .Title }}</h1>
-      <a href="#" onclick="history.back()" style="text-decoration: none">< Much Go Back</a> — <b>{{ .Title }}</b>
+      <a href="#" onclick="history.back()" style="text-decoration: none">< {{i18n "listWallets[muchgoback]" }} </a> — <b>{{ .Title }}</b></a>
     </div>
       <div class="underline"></div>
 
@@ -27,13 +27,13 @@
             {{ if .Params.Cover }}
                 <figure class="post-cover">
                     <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" style="max-width: 200px" />
-                
+
                     {{ if .Params.CoverCaption }}
                         <figcaption class="center comic-neue">{{ .Params.CoverCaption | markdownify }}</figcaption>
                     {{ end }}
                 </figure>
             {{ end }}
-            
+
             {{ if .Params.toc }}
                 <hr />
                 <aside id="toc comic-neue">
