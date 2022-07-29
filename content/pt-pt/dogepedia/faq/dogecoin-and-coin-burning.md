@@ -11,4 +11,4 @@ Dogecoin does not need coin burning marketing mechanisms that new tokens and oth
 
 Simplez.
 
-![image info](../../../assets/images/dogepedia/8.png)
+![image info](/assets/images/dogepedia/8.png)

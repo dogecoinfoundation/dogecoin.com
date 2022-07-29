@@ -6,16 +6,14 @@
 }
 
 html {
-  width: 100%;
-  height: 100%;
   position: relative;
   box-sizing: border-box;
   line-height: 1.6;
   letter-spacing: 0.06em;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  padding-left: .5em !important;
-  padding-right: .5em !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
   margin: 0 auto !important;
 }
 
@@ -128,7 +126,7 @@ h3,
 h4,
 h5,
 h6 {
-  display: flex;
+  /*display: flex;*/
   align-items: center;
   line-height: 1.3;
 }

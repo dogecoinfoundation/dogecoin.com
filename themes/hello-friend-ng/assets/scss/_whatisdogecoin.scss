@@ -4,14 +4,25 @@
   left: 0;
 }
 .parent-numbers{
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #FFFFFF;
-  color: #000000;;
+  text-align: left;
+  position: relative;
+}
+.bg-secondary{
+    background-color: #dfc66d !important;
+}
+.btn-outline-secondary{
+ position: absolute;
+ bottom: 0px;
+}
+
+h3{
+   max-height: 15% !important;
+   font-size: 1.5rem !important;
 }
 
 // X-Small devices (portrait phones, 0px to S)
 @media (max-width: 575px) {
+
   .parent {
     position: relative;
     top: 0;
@@ -40,9 +51,14 @@
     max-width: 28rem;
   }
   .parent-numbers {
-    height: 38vh;
+    height: 28vh;
     width: 100%;
-    padding: 2rem !important;
+    padding-top: 10px !important;
+    padding-left: 10px !important;
+    position: unset;
+  }
+  .btn-outline-secondary{
+   position: unset;
   }
   .under-numbers {
     position: relative;
@@ -56,10 +72,10 @@
     position: relative;
     width: 100% !important;
     margin: auto;
-    padding: .5rem !important;
+    /*padding: .5rem !important;*/
     top: -21vh;
-    max-width: 24rem;
-    text-align: left;
+    /*max-width: 24rem;*/
+    /*text-align: left;*/
     font-weight: 600;
     @include font-size(4.2rem);
   }
@@ -104,8 +120,14 @@
   .parent-numbers {
     height: 32vh;
     width: 100%;
-    padding: .5rem !important;
+    padding-top: 10px !important;
+    padding-left: 10px !important;
+    position: unset;
   }
+  .btn-outline-secondary{
+   position: unset;
+  }
+
   .under-numbers {
     position: relative;
     width: 100% !important;
@@ -117,10 +139,10 @@
     position: relative;
     width: 100% !important;
     margin: auto;
-    padding: .5rem !important;
+    /*padding: .5rem !important;*/
     top: -21vh;
-    max-width: 24rem;
-    text-align: left;
+    /*max-width: 24rem;
+    text-align: left;*/
     font-weight: 600;
     @include font-size(4.2rem);
   }
@@ -169,7 +191,7 @@
     position: relative;
     width: 100% !important;
     margin: auto;
-    padding: .5rem !important;
+    /*padding: .5rem !important;*/
     top: -13.5vh;
     left: 3.5vw;
     max-width: 36rem;
@@ -222,7 +244,7 @@
     position: relative;
     width: 100% !important;
     margin: auto;
-    padding: .5rem !important;
+    /*padding: .5rem !important;*/
     top: -14.5vh;
     left: 3.5vw;
     max-width: 36rem;
@@ -275,7 +297,7 @@
     position: relative;
     width: 100% !important;
     margin: auto;
-    padding: .5rem !important;
+    /*padding: .5rem !important;*/
     top: -14.5vh;
     left: 1.5vw;
     max-width: 18rem;
@@ -335,7 +357,7 @@
     position: relative;
     width: 100% !important;
     margin: auto;
-    padding: .5rem !important;
+    /*padding: .5rem !important;*/
     top: -17vh;
     max-width: 18rem;
     text-align: left;

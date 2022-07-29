@@ -1,5 +1,5 @@
 {{ define "body" }}
-  <body class="home"  style="overflow: hidden">
+  <body class="home"  style="overflow: hidden; padding: 20px">
 {{ end }}
 
 {{ define "main" }}
@@ -34,7 +34,7 @@
             </div>
           </div>
               <div style="position: relative; z-index: 69;">
-                    <img src="/assets/images/doge.svg" alt="Doge" style="margin: auto; padding-left: 1.9vw; width: 28vw; cursor: pointer" onclick="document.querySelector('#ShootingDoges').style.display = 'flex';" />
+                    <img class="dogelogo" src="/assets/images/doge.svg" alt="Doge" onclick="document.querySelector('#ShootingDoges').style.display = 'flex';" />
                 <h1 class="d_text_display d_span_opacity comic-neue"><span id="dynamic_d">D</span>OGECOIN</h1>
                </div>
                 {{- with .Site.Params.homeSubtitle }}
@@ -65,9 +65,9 @@
     </div>
     <main>
         {{ partial "whatisdogecoin.html" . }}
-        {{ partial "wallets.html" . }}
         {{ partial "community.html" . }}
         {{ partial "resources.html" . }}
+    <div style="width: 100vw !important"></div>        
     </main>
     <script type="text/javascript">
         setTimeout(function () {
@@ -128,7 +128,7 @@
             delay: 0, // values from 0 to 3000, with step 50ms
             duration: 400, // values from 0 to 3000, with step 50ms
             easing: 'ease', // default easing for AOS animations
-            once: true, // whether animation should happen only once - while scrolling down
+            once: false, // whether animation should happen only once - while scrolling down
             mirror: false, // whether elements should animate out while scrolling past them
             anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 

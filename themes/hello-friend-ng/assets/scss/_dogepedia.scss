@@ -1,5 +1,27 @@
 .dogepedia {
-  color: #222;
+
+    article > div > p > img{
+     max-width: 300px !important;
+     margin: auto;
+    }
+    h2{
+      border-left: 5px solid #B79C32;
+      padding: 10px
+    }
+
+    h3{
+      padding: 10px
+    }
+    article > div > ul > li{
+       list-style: none;
+       border-left: 2px solid #CCCCCC;
+       margin: 5px;
+       padding-left: 15px;
+
+    }
+    li > a{
+      text-decoration: none;
+    }
 
     .title {
         position: relative;
@@ -35,7 +57,7 @@
     .box {
       margin-top: 50px !important;
       margin-bottom: 50px !important;
-      width: 80vw;
+      width: 95vw;
       margin: auto;
     }
 

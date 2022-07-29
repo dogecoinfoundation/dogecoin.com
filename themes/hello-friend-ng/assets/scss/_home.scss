@@ -45,6 +45,8 @@
     }
   }
 
+
+
   video.scrolled {
     visibility: hidden;
   }
@@ -196,17 +198,41 @@
     visibility: visible;
   }
 
+  .dogelogo{
+    margin: auto;
+    min-width: 35vw;
+    cursor: pointer;
+    padding-right: 25px;
+  }
+
   @media (max-width: 768px) {
     .preload {
       font-size: 20px;
       top: 55%;
     }
-  }
 
+    .dogelogo{
+      max-width: 80vw;
+    }
+
+    .d_text_display {
+      font-size: 13vw;
+    }
+  }
+  @media (min-width:768px) and (max-width:1200px){
+    .dogelogo{
+      max-width: 50vw;
+    }
+
+    .d_text_display {
+      font-size: 6vw;
+    }
+  }
   @media (min-width: 1200px) {
     .fs-3 {
         font-size: 1.55rem !important;
         line-height: 35px;
     }
   }
+
 }
