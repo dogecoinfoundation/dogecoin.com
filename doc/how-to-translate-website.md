@@ -1,6 +1,6 @@
-# How To Translate Dogecoin Preview Website
+# How To Translate Dogecoin Website
 
-- [How To Translate Dogecoin Preview Website](#how-to-translate-dogecoin-foundation-website)
+- [How To Translate Dogecoin Website](#how-to-translate-dogecoin-foundation-website)
   - [Apply for translation](#apply-for-translation)
   - [Get the code](#get-the-code)
   - [Checkout a new branch](#checkout-a-new-branch)
@@ -22,7 +22,7 @@
 
 ## Get the code
 
-* Get the code by following the steps in '[How To Get Dogecoin Preview Website](how-to-get-website.md)
+* Get the code by following the steps in '[How To Get Dogecoin Website](how-to-get-website.md)
 
 ## Checkout a new branch
 
@@ -69,7 +69,7 @@ git checkout -b personal-lang-trans-branch
 
 ## Test translation
 
-* Run the website locally by following the steps in [How To Run Dogecoin Preview Website](how-to-run-website.md) to test the translation, make sure it will work as expected.
+* Run the website locally by following the steps in [How To Run Dogecoin Website](how-to-run-website.md) to test the translation, make sure it will work as expected.
 
 ## Pull Request
 
