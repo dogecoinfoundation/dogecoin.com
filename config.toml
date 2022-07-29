@@ -597,26 +597,26 @@ disableHugoGeneratorInject = false
 
 [languages.pt-pt.menu]
   [[languages.pt-pt.menu.main]]
-    identifier = "home"
-    name       = "Home"
+    identifier = "uau"
+    name       = "Uau"
     url        = "/"
     weight     = 1
 
   [[languages.pt-pt.menu.main]]
-    identifier = "what-is-dogecoin"
-    name       = "What is Dogecoin?"
+    identifier = "o-que-e-dogecoin"
+    name       = "O que é Dogecoin?"
     url        = "#what-is-dogecoin"
     weight     = 2
 
   [[languages.pt-pt.menu.main]]
-    identifier = "wallets"
-    name       = "Wallets"
-    url        = "#wallets"
+    identifier = "~carteiras"
+    name       = "Carteiras"
+    url        = "wallets/"
     weight     = 3
 
   [[languages.pt-pt.menu.main]]
-    identifier = "community"
-    name       = "Community"
+    identifier = "comunidade"
+    name       = "Comunidade"
     url        = "#community"
     weight     = 4
 
@@ -637,40 +637,40 @@ disableHugoGeneratorInject = false
     weight     = 5
 
     [[languages.pt-pt.menu.main]]
-    identifier = "how-tos"
-    name       = "How Tos"
+    identifier = "como-fazer"
+    name       = "Como fazer"
     url        = "dogepedia/#howto"
     parent = "dogepedia"
     weight     = 5
 
     [[languages.pt-pt.menu.main]]
-    identifier = "documentation"
-    name       = "Documentation"
+    identifier = "documentacao"
+    name       = "Documentação"
     url        = "dogepedia/#documentation"
     parent = "dogepedia"
     weight     = 5
 
     [[languages.pt-pt.menu.main]]
-    identifier = "resource"
-    name       = "Resources"
+    identifier = "recursos"
+    name       = "Recursos"
     url        = "resources/"
     parent = "dogepedia"
     weight     = 5
 
 [[languages.pt-pt.params.footerLegal]]
-    name = "Terms & Conditions"
+    name = "Termos & Condições"
     url  = "/terms"
 
   [[languages.pt-pt.params.footerLegal]]
-    name = "Privacy Policy"
+    name = "Politica de Privacidade"
     url  = "/legal"
 
   [[languages.pt-pt.params.footerLegal]]
-    name = "Trademarks"
+    name = "Marcas registradas"
     url  = "/trademarks"
 
 [[languages.pt-pt.params.footerFoundation]]
-    name = "About"
+    name = "Sobre"
     url  = "https://foundation.dogecoin.com/about/"
 
   [[languages.pt-pt.params.footerFoundation]]
@@ -678,7 +678,7 @@ disableHugoGeneratorInject = false
     url  = "https://foundation.dogecoin.com/manifesto/"
 
   [[languages.pt-pt.params.footerFoundation]]
-    name = "Advisors"
+    name = "Consultores"
     url  = "https://foundation.dogecoin.com/about/"
 
   [[languages.pt-pt.params.footerFoundation]]
@@ -904,7 +904,7 @@ disableHugoGeneratorInject = false
 
   [languages.es]
     subtitle  = "Bem-vindo"
-    weight    = 5
+    weight    = 8
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     contentDir = "content/es"
 
@@ -1009,7 +1009,7 @@ disableHugoGeneratorInject = false
 
   [languages.kr]
     subtitle  = "Much Welcome"
-    weight    = 1
+    weight    = 9
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     contentDir = "content/kr"
 
