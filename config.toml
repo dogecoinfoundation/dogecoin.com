@@ -609,7 +609,7 @@ disableHugoGeneratorInject = false
     weight     = 2
 
   [[languages.pt-pt.menu.main]]
-    identifier = "~carteiras"
+    identifier = "carteiras"
     name       = "Carteiras"
     url        = "wallets/"
     weight     = 3
@@ -658,15 +658,15 @@ disableHugoGeneratorInject = false
     weight     = 5
 
 [[languages.pt-pt.params.footerLegal]]
-    name = "Termos & Condições"
+    name = "Termos e Condições"
     url  = "/terms"
 
   [[languages.pt-pt.params.footerLegal]]
-    name = "Politica de Privacidade"
+    name = "Política de Privacidade"
     url  = "/legal"
 
   [[languages.pt-pt.params.footerLegal]]
-    name = "Marcas registradas"
+    name = "Marcas registadas"
     url  = "/trademarks"
 
 [[languages.pt-pt.params.footerFoundation]]

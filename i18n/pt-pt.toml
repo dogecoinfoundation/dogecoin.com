@@ -94,19 +94,19 @@ other = "Começa aqui"
 other = "escolhe uma carteira"
 
 ["whatisdogecoin[choosewallet][text1]"]
-other = "A carteira é necessária para as pessoas poderem utilizar, trocar ou guardar Dogecoin. Poderás escolher uma carteira"
+other = "Uma carteira é necessária para as pessoas poderem utilizar, trocar ou guardar Dogecoin. Podes escolher uma carteira"
 
 ["whatisdogecoin[choosewallet][title2]"]
-other = "configurar a tua carteira"
+other = "configura a tua carteira"
 
 ["whatisdogecoin[choosewallet][text2]"]
-other = "Após escolheres, poderás configurar a tua carteira de acordo com o nosso"
+other = "Após escolheres, poderás configurar a tua carteira, de acordo com o nosso"
 
 ["whatisdogecoin[guide]"]
 other = "guia."
 
 ["whatisdogecoin[choosewallet][title3]"]
-other = "obtem algum dogecoin"
+other = "obtém algum dogecoin"
 
 ["whatisdogecoin[choosewallet][text3]"]
 other = "Há muitas maneiras de colocar as mãos em alguns Dogecoin."
@@ -151,14 +151,14 @@ other = "Faz Apenas"
 other = "o Bem Todos os Dias."
 
 ["community[text1]"]
-other = "A comunidade Dogecoin preocupa se em apoiar uns aos outros, ser simpatico, ensinar as pessoas sobre criptomoedas, arrecadar fundos, divertir se, fazer memes e ser absurdo. Isto é bem capturado pelo slogan não oficial da Dogecoin: <b>D</b>o <b>O</b>nly <b>G</b>ood <b>E</b>veryday (traduzido quer dizer <b>Faz Apenas o Bem Todos os Dias<b/>). Envolva-se no nossa incrível comunidade através dos links abaixo:"
+other = "A comunidade Dogecoin preocupa-se em se apoiar uns aos outros, ser simpatico, ensinar as pessoas sobre criptomoedas, arrecadar fundos, divertir-se, fazer memes e ser absurdo. Isto é bem capturado pelo slogan não oficial da Dogecoin: Do Only Good Everyday (traduzido quer dizer Faz Apenas o Bem Todos os Dias). Envolva-se no nossa incrível comunidade através dos links abaixo:"
 
 ##############################
 # partials/community.html
 ##############################
 
 ["resources[title]"]
-other = "Saibe mais sobre Dogecoin"
+other = "Saiba mais sobre Dogecoin"
 
 ["resources[viewall]"]
 other = "VER TODOS"
@@ -170,7 +170,7 @@ other = "Visitar"
 other = "Fundação"
 
 ["resources[text1]"]
-other = "Sabe mais sobre a Fundação Dogecoin e seu Trailmap para Dogecoin."
+other = "Sabe mais sobre a Fundação Dogecoin e o seu Trailmap para Dogecoin."
 
 ["resources[title2]"]
 other = "Blogs"
@@ -188,7 +188,7 @@ other = "Anúncios da Fundação Dogecoin podem ser encontrados aqui."
 other = "PI FAQs"
 
 ["resources[text4]"]
-other = "Leia nossas respostas a algumas perguntas frequentes sobre PI Dogecoin."
+other = "Leia as nossas respostas a algumas perguntas frequentes sobre PI Dogecoin."
 
 
 ##############################
@@ -238,7 +238,7 @@ other = "A Fundação Dogecoin e o Projeto Dogecoin. Todos os direitos reservado
 ##############################
 
 ["listWallets[muchgoback]"]
-other = "Muito Voltar Atás"
+other = "Muito Voltar Atrás"
 
 ["listWallets[wallet]"]
 other = "Carteira"
@@ -260,7 +260,7 @@ other = "Download"
 ##############################
 
 ["listContributors[muchgoback]"]
-other = "Muito Voltar Atás"
+other = "Muito Voltar Atrás"
 
 ["listContributors[shibe]"]
 other = "Shibe"
