@@ -1,5 +1,5 @@
 +++
-title = "Who owns and controls the Dogecoin Network?"
+title = "도지코인 네트워크 누가 소유하며 누가 통제하냐?"
 date = "2021-10-22"
 type = "article"
 
@@ -7,12 +7,12 @@ type = "article"
   name = "Dogecoin"
 +++
  
-One of the wonderful things about Dogecoin is that no-one, or no corporate entity, “owns” the Dogecoin blockchain: it is entirely open-source, permissionless, decentralised, and peer-to-peer.  
+도지코인의 가장 멋진 점 중 하나는 그 누구도, 그 어떤 회사도, 도지코인 블록체인을 “소유”하는이 가 없다는 것이다. 도지코인 블록체인: 완전히 오픈소스, 허용 필요없는, 탈중앙화되어 있고, 피어-to-피어 이다.  
 
-The Dogecoin network is “controlled” by the network of nodes through which it operates. Anyone can run a node, and to learn how to do so, [click here](/dogepedia/how-tos/operating-a-node). Some nodes also [mine Dogecoin](/dogepedia/how-tos/mining-dogecoin), meaning they perform computational work as part of the process to both confirm all transactions up to the next block, and the next block. They are rewarded for this work with a block reward. 
+도지코인 네트워크는 노드로 구성된 네트워크의 “통제”를 받는다. 누구나 노드를 운영할 수 있으며, 어떻게 하는지 배우고 싶다면, [여기를 누르세요](/dogepedia/how-tos/operating-a-node). 어떤 노드는 그리고 [도지코인을 채굴합니다](/dogepedia/how-tos/mining-dogecoin), 그 뜻은 다음 블록까지의 모든 송금내역을 확인하는 절차를 위해 컴퓨터 계산적인 일을 수행하여, 그리고 그 다음 블록도 그렇게 한다. 그들은 이 일에 대한 댓가로 블록 리워드를 받는다. 
 
-Dogecoin nodes function via a decentralised consensus mechanism to prevent malicious actors from gaining control over the network. Simply put, if more than half of all nodes on the Dogecoin blockchain ‘agree’ that a transaction is valid, then the transaction is processed and stored in the blockchain.  
+도지코인 노드는 악의적인 집단이 네트워크를 점거하지 못하도록 탈중앙화된 합의 메커니즘을 통하여 작동한다. 간단히 한다면, 도지코인 블록체인상의 모든 노드의 절반 이상이 한 송금이 맞다는 것에 ‘동의’ 한다면, 그럼 그 송금은 프로세싱되고 블록체인에 저장된다.  
 
-This decentralised control via nodes ensures that Dogecoin transactions are securely processed peer-to-peer without the need for a controlling centralised party, like a bank.  
+이 노드를 이용한 탈중앙화 된 통제는 도지코인 송금들이 은행과 같이 중앙화된 집단의 통제 없이 안정적으로 피어-to-피어 프로세싱이 될수 있도록 해준다.  
 
-Cool, huh? 
+어때요, 멋지나요? 
