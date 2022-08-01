@@ -1,7 +1,6 @@
 {{ define "body" }}
   <body class="home"  style="overflow: hidden; padding: 20px">
 {{ end }}
-
 {{ define "main" }}
     <!-- The video -->
     <div>
@@ -63,11 +62,19 @@
             </div>
         </div>
     </div>
+    {{ if ne (i18n "finish[translation]") "yes"}}
+      {{ if ne (.Lang) "en"}}
+        <div class="alert alert-warning" role="alert" style="position: absolute; top: 80px; z-index: 1; width: 100%">
+          This is not yet full translated to {{ if eq (.Lang) "pt-pt"}}<span class="flag flag-icon flag-icon-pt"></span>{{ else }}<span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }}" ></span>{{ end }} <span class="badge bg-dark text-light comic-neue">{{.Lang}}</span>. Please help us translating going here: <a href="https://github.com/dogecoinfoundation/dogecoin.com/blob/main/doc/how-to-translate-website.md"><b>How to Translate</b></a>
+        </div>
+      {{ end }}
+    {{ end }}
     <main>
+
         {{ partial "whatisdogecoin.html" . }}
         {{ partial "community.html" . }}
         {{ partial "resources.html" . }}
-    <div style="width: 100vw !important"></div>        
+    <div style="width: 100vw !important"></div>
     </main>
     <script type="text/javascript">
         setTimeout(function () {
