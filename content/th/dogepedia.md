@@ -52,7 +52,7 @@ For the technical shibe - but not only. Learn how the Dogecoin network actually 
 
 ### Development {#development}
 Dogecoin is useful, personable, welcoming, and reliable: and it is evolving.
-<!--- [Who are the current Dogecoin developers?](/dogepedia/articles/dogecoin-developers)-->
+- [Who are the current Dogecoin developers?](/dogepedia/articles/dogecoin-developers)
 - [How can I become a Dogecoin developer?](/dogepedia/articles/becoming-a-dogecoin-developer)
 - [Is there a roadmap?](/dogepedia/articles/dogecoin-roadmap)
 
