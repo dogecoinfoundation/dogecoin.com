@@ -33,16 +33,6 @@ a.button {
     background: $light-background-header;
   }
 
-  [data-theme=dark] & {
-    background: $dark-background-header;
-    color: inherit;
-  }
-
-  [data-theme=light] & {
-    background: $light-background-header;
-    color: inherit;
-  }
-
   &.outline {
     background: transparent;
     box-shadow: none;

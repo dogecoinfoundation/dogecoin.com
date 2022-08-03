@@ -2,6 +2,7 @@
 type = "wallet"
 
 name = "Dogecoin Core"
+order = "1"
 active = "yes"
 version = "1.14.6"
 wallet_Image = "/assets/images/1.png"
@@ -17,13 +18,25 @@ download_android_url = ""
 download_ios_url = ""
 browser_url = ""
 
+# Wallet classification
+# wow = Excelent
+# sogood = Good
+# suchwarning = Warning
+classification = "wow"
+
 # use yes or no to activate or not a type
+type_new_user = "yes"
+type_experienced_user = "yes"
+
 type_self_custodial = "yes"
 type_custodial = "no"
+
+type_2fa = "yes"
 type_full_node = "yes"
-type_browser = "no"
-type_app = "no"
-type_key_import = "yes"
-type_seed_import = "no"
-type_qr_paper_wallet = "yes"
+type_import_wallet = "yes"
+type_browser_wallet = "no"
+type_hardware_wallet = "no"
+type_multisig = "yes"
+type_opensource = "yes"
+type_api = "yes"
 +++

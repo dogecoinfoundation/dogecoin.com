@@ -1,143 +1,64 @@
-<!-- {{ define "main" }}
+{{ define "main" }}
 <main class="dogepedia">
-    <div class="title">
+    <div class="title" style="color: #FFFFFF">
       <h1>{{ .Title }}</h1>
-      <a>Home — <b>{{ .Title }}</b></a>
+      <a href="#" onclick="history.back()" style="text-decoration: none">< {{i18n "listWallets[muchgoback]" }} </a> — <b>{{ .Title }}</b></a>
     </div>
       <div class="underline"></div>
+
 <section class="box">
-<div class="tab">
-    <button class="tablinks active" onclick="openToggle(event, 'FAQ')">{{ .Params.faq }}</button>
-    <button class="tablinks" onclick="openToggle(event, 'Resources')">{{ .Params.resources }}</button>
-    <button class="tablinks" onclick="openToggle(event, 'HowTo')">{{ .Params.howto }}</button>
-    <button class="tablinks" onclick="openToggle(event, 'Documentation')">{{ .Params.documentation }}</button>
-    <button class="tablinks" onclick="openToggle(event, 'Articles')">{{ .Params.article }}</button>
-  </div>
+    <main class="post comic-neue">
 
-  <!-- Tab content -->
-<div>
-<main class="dogepedia" style="background-color: #FFFFFF; border-radius: 20px">
-<section class="box">
-  <div id="FAQ" class="tabcontent" style="display: block">
-    {{ range where .Pages ".Params.type" "faq" }}
-    <button type="button" class="collapsible comic-neue">{{ .Title }}</button>
-    <div class="expanded">
-      <p class="comic-neue">{{ .Content }}</p>
-    </div>
-    {{ end }}
-</div>
-
-  <div id="Resources" class="tabcontent">
-      <div class="comic-neue">{{i18n "list[some-respurces]" }}</div>
-  </div>
-
-  <div id="HowTo" class="tabcontent">
-    <div class="container">
-            {{ range where .Pages ".Params.type" "how-to" }}
-            <div class="item">
-                <span class="post-date">
-                    <span class="day comic-neue">
-                        {{ .Date.Format "2"}}
-                    </span>
-                    <span class="month comic-neue">
-                        {{ .Date.Format "Jan"}}
-                    </span>
-                </span>
-                <h4 class="grid-title comic-neue">{{.Title}}</h4>
-                <a href="{{.Permalink}}">
-                    <button class="post-button comic-neue">{{i18n "list[read-more]" }}</button>
-                </a>
-            </div>
+        <div class="post-info comic-neue" style="display: none">
+            {{ if .IsTranslated }}
+                {{ i18n "postAvailable" }}
+                {{ range .Translations }}
+                  {{ if eq (.Lang) "pt-pt"}}
+                      <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-pt flag-icon-squared"></span></a>
+                  {{ else }}
+                      <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+                  {{ end }}
+                {{ end}}
             {{ end }}
-    </div>
-  </div>
-
-  <div id="Documentation" class="tabcontent">
-      <div class="comic-neue">some documentation</div>
-    <div class="posts-group">
-        <ul class="posts-list">
-            {{ range where .Pages ".Params.type" "how-to" }}
-            <li class="post-item">
-                 <span class="post-date">
-                    <span class="day comic-neue">
-                        {{ .Date.Format "2"}}
-                    </span>
-                    <span class="month comic-neue">
-                        {{ .Date.Format "Jan"}}
-                    </span>
-                </span>
-                <span class="post-title comic-neue">{{.Title}}</span>
-                <a href="{{.Permalink}}">
-                    <button class="post-button comic-neue">{{i18n "list[read-more]" }}</button>
-                </a>
-            </li>
-            {{ end }}
-        </ul>
-    </div>
-  </div>
-
-  <div id="Articles" class="tabcontent">
-    <div class="container">
-        {{ range where .Pages ".Params.type" "article" }}
-        <div class="item">
-            <span class="post-date">
-                <span class="day comic-neue">
-                    {{ .Date.Format "2"}}
-                </span>
-                <span class="month comic-neue">
-                    {{ .Date.Format "Jan"}}
-                </span>
-            </span>
-            <h4 class="grid-title comic-neue">{{.Title}}</h4>
-            <a href="{{.Permalink}}">
-                <button class="post-button comic-neue">{{i18n "list[read-more]" }}</button>
-            </a>
         </div>
-        {{ end }}
-</div>
+        <article>
+            <!--<h2 class="post-title comic-neue" style="border-left: 0px; padding: 0px"><a href="{{ .Permalink }}" style="width: 100%; border-bottom: 1px solid #B79C32;">{{ .Title | markdownify }}</a></h2>-->
 
-  </div>
-</section>
-  </main>
-</div>
+            {{ if .Params.Cover }}
+                <figure class="post-cover">
+                    <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" style="max-width: 200px" />
 
-<script>
-function openToggle(evt, type) {
-  var i, tabcontent, tablinks;
+                    {{ if .Params.CoverCaption }}
+                        <figcaption class="center comic-neue">{{ .Params.CoverCaption | markdownify }}</figcaption>
+                    {{ end }}
+                </figure>
+            {{ end }}
 
-  tabcontent = document.getElementsByClassName("tabcontent");
+            {{ if .Params.toc }}
+                <hr />
+                <aside id="toc comic-neue">
+                <div class="toc-title comic-neue">{{ i18n "tableOfContents" }}</div>
+                    {{ .TableOfContents }}
+                </aside>
+                <hr />
+            {{ end }}
 
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
+            <div class="post-content comic-neue">
+               {{ .Content }}
+            </div>
+        </article>
 
-  tablinks = document.getElementsByClassName("tablinks");
+        <hr />
 
+        <div class="post-info comic-neue">
+            {{ partial "tags.html" .Params.tags }}
+            {{ partial "categories.html" . }}
 
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-
-  document.getElementById(type).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-//for collapsible
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-
-    var content = this.nextElementSibling;
-
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
-{{ end }} -->
+            {{- if .GitInfo }}
+			    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-commit"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg><a href="{{ .Site.Params.gitUrl -}}{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a> @ {{ if .Site.Params.dateformNum }}{{ dateFormat .Site.Params.dateformNum .GitInfo.AuthorDate.Local }}{{ else }}{{ dateFormat "2006-01-02" .GitInfo.AuthorDate.Local }}{{ end }}</p>
+			{{- end }}
+  		</div>
+    </main>
+  		</section>
+    </main>
+{{ end }}

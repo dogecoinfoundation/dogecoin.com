@@ -2,6 +2,7 @@
 type = "wallet"
 
 name = "DogeChain"
+order = "3"
 active = "yes"
 version = "n/a"
 wallet_Image = "https://dogechain.info/favicon.png"
@@ -17,13 +18,25 @@ download_android_url = ""
 download_ios_url = ""
 browser_url = "https://dogechain.info/wallet/"
 
+# Wallet classification
+# wow = Excelent
+# sogood = Good
+# suchwarning = Warning
+classification = "sogood"
+
 # use yes or no to activate or not a type
-type_self_custodial = "no"
-type_custodial = "yes"
+type_new_user = "yes"
+type_experienced_user = "no"
+
+type_self_custodial = "yes"
+type_custodial = "no"
+
+type_2fa = "yes"
 type_full_node = "no"
-type_browser = "yes"
-type_app = "no"
-type_key_import = "no"
-type_seed_import = "no"
-type_qr_paper_wallet = "no"
+type_import_wallet = "no"
+type_browser_wallet = "yes"
+type_hardware_wallet = "no"
+type_multisig = "no"
+type_opensource = "yes"
+type_api = "yes"
 +++
