@@ -7,18 +7,17 @@
       } );
   } );
 </script>
-
 <main class="dogepedia">
-    <div class="title">
+    <div class="title" style="color: #FFFFFF">
       <h1>{{ .Title }}</h1>
-      <a href="#" onclick="history.back()" style="text-decoration: none">< {{i18n "listContributors[muchgoback]" }}</a> — <b>{{ .Title }}</b></a>
+      <a href="#" onclick="history.back()" style="text-decoration: none">< {{i18n "listWallets[muchgoback]" }} </a> — <b>{{ .Title }}</b></a>
     </div>
       <div class="underline"></div>
+
 <section class="box">
+    <main class="comic-neue">
 
   <!-- Tab content -->
-<div>
-<main class="dogepedia">
   <div style="max-width: 1200px; margin: auto;background-color: #FFFFFF !important; padding: 15px; border-radius: 20px">
 <table id="Contributors"cellspacing="1"  width="100%" style="border-color: #EEEEEE; text-align: left !important" class="table table-striped">
 <thead>
@@ -40,7 +39,9 @@
     {{ if eq .Params.contribution_Coding "yes" }}<span class="badge bg-secondary" style="background-color: rgba(51, 51, 51, 1) !important;">coding</span>{{ end }}
     {{ if eq .Params.contribution_Documentation "yes" }}<span class="badge bg-success" >documentation</span>{{ end }}
     {{ if eq .Params.contribution_Translation "yes" }}<span class="badge bg-warning" style="color: rgba(51, 51, 51, 1)">translation</span>{{ end }}
-    <td>{{ if ne .Params.social_URL "" }}
+    </td>
+    <td>
+      {{ if ne .Params.social_URL "" }}
       <a href="{{ .Params.social_URL }}" target="_blank">
         {{ if eq .Params.social_Type "twitter" }}<span class="badge bg-primary" style="padding: 5px"><i class="fa-brands fa-twitter" style="color: #FFFFFF" aria-hidden="true"></i> {{ .Params.social_User }}</span>{{ end }}
         {{ if eq .Params.social_Type "github" }}<span class="badge bg-secondary" style="background-color: rgba(51, 51, 51, 1) !important;padding: 5px"><i class="fa-brands fa-github" style="color: #FFFFFF"></i> {{ .Params.social_User }}</span>{{ end }}
@@ -53,4 +54,7 @@
     {{ end }}
 </table>
 </div>
+    </main>
+  		</section>
+    </main>
 {{ end }}
