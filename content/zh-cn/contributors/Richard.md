@@ -12,5 +12,5 @@ contribution_Webdesign = "yes"
 contribution_Assets = "no"
 contribution_Coding = "no"
 contribution_Translation = "no"
-contribution_Documentation = "no"
+contribution_Documentation = "yes"
 +++
