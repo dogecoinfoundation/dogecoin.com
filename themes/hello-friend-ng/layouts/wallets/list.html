@@ -1,74 +1,498 @@
 {{ define "main" }}
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/searchpanes/2.0.2/css/searchPanes.dataTables.min.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/select/1.4.0/css/select.dataTables.min.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/responsive/2.3.0/css/responsive.dataTables.min.css" type="text/css" />
+<script src="//cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/searchpanes/2.0.2/js/dataTables.searchPanes.min.js"></script>
+<script src="//cdn.datatables.net/select/1.4.0/js/dataTables.select.min.js"></script>
+<script src="//cdn.datatables.net/buttons/2.2.3/js/dataTables.buttons.min.js"></script>
+<style type="text/css">
+div.dtsp-verticalContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+div.dtsp-verticalContainer div.dtsp-verticalPanes,
+div.dtsp-verticalContainer div.container{
+    width: 10%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 0;
+}
+
+div.dtsp-verticalContainer div.dtsp-verticalPanes{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 26%;
+}
+
+div.dtsp-verticalPanes {
+    margin-right: 20px;
+}
+
+div.dtsp-title {
+    margin-right: 0px !important;
+    margin-top: 13px !important;
+}
+
+input.dtsp-search {
+    min-width: 0px !important;
+    padding-left: 0px !important;
+    margin: 0px !important;
+}
+
+div.dtsp-verticalContainer div.dtsp-verticalPanes div.dtsp-searchPanes{
+    flex-direction: column;
+    flex-basis: 0px;
+}
+
+div.dtsp-verticalContainer div.dtsp-verticalPanes div.dtsp-searchPanes div.dtsp-searchPane{
+    flex-basis: 0px;
+}
+
+div.dtsp-verticalContainer div.container{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 60%;
+}
+
+div.dtsp-panesContainer {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px !important;
+}
+.dtsp-dataTable{
+  min-width: 70%;
+}
+.dtsp-titleRow{
+  display: none;
+}
+div.dataTables_wrapper{
+  width: 100%;
+}
+.even.selected > .dtsp-nameColumn, .odd.selected > .dtsp-nameColumn{
+  box-shadow: none;
+  background-color: #66CC33;
+}
+.dtsp-topRow{
+ padding: 10px;
+}
+.dropdown-item:hover{
+ color: #333333 !important;
+ font-weight: bold;
+}
+table.dataTable.stripe>tbody>tr.odd.selected>*, table.dataTable.display>tbody>tr.odd.selected>*, table.dataTable.stripe tbody tr.odd.selected, table.dataTable.display tbody tr.odd.selected{
+  background-color: #fff3cd;
+  box-shadow: none !important;
+  color: #333333;
+
+}
+table.dataTable.stripe>tbody>tr.even.selected>*, table.dataTable.display>tbody>tr.even.selected>*, table.dataTable.stripe tbody tr.even.selected, table.dataTable.display tbody tr.even.selected{
+  background-color: #fff3cd;
+  box-shadow: none !important;
+  color: #333333;
+}
+.dataTables_scrollBody{
+ height: auto !important;
+ max-height: none !important;
+}
+.dtsp-topRow{
+  border-left: 4px solid #ccae40 !important;
+  margin-bottom: 10px !important;
+}
+.dtsp-search{
+  font-weight: bold !important;
+}
+.dtsp-nameColumn:hover{
+ background-color: #66CC33;
+}
+
+@media (max-width:960px) {
+  .dtsp-dataTable{
+    min-width: 100%;
+  }
+  div.dtsp-verticalPanes{
+    margin-right: 0px;
+  }
+}
+.fa-circle {
+  color: #666666;
+}
+.wow {
+    color: #66CC33;
+}
+.sogood {
+    color: #BCE9A5;
+}
+.suchwarning {
+    color: #FFCC33;
+}
+/**
+ * Correct pagination and styles using datatables
+ */
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+  color: #ccae40  !important;
+ border-radius: 10px;
+  &:hover{
+    color: #ccae40 !important;
+  }
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+ background: none;
+ border-color: #ccae40 !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+ color: #ccae40 !important;
+}
+
+select{
+ border-color: #ccae40;
+ border-radius: 10px;
+}
+
+input{
+ border-color: #ccae40;
+ border-radius: 10px;
+}
+
+table{
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+
+</style>
  <script type="text/javascript">
-  $(document).ready(function() {
-      $('#Wallets').DataTable( {
-          "order": [[ 0, "asc" ]],
-          responsive: true
-      } );
-  } );
+
+$(document).ready(function() {
+    var dt = $('#Wallets').DataTable({
+        responsive: true,
+        order: [[0, 'asc']],
+        searchPanes: {
+          cascadePanes: true,
+            viewTotal: true,
+            columns: [2, 3, 4, 5],
+            layout: 'columns-1'
+        },
+        dom: '<"dtsp-verticalContainer"<"dtsp-verticalPanes"P><"dtsp-dataTable"frtip>>',
+        columnDefs: [
+            {
+                target: 0,
+                visible: false,
+                searchable: false,
+            },
+            {
+                searchPanes: {
+                  initCollapsed: false,
+                  header: 'System',
+                  show: true,
+                    options: [
+                        {
+                            label: 'Windows',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[2].match(/windows.*/)) {
+                                    return rowData[2];
+                                }
+                            }
+                        },
+                        {
+                            label: 'Linux',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[2].match(/linux.*/)) {
+                                    return rowData[2];
+                                }
+                            }
+                        },
+                        {
+                            label: 'MacOS',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[2].match(/macos.*/)) {
+                                    return rowData[2];
+                                }
+                            }
+                        },
+                        {
+                            label: 'Android',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[2].match(/android.*/)) {
+                                    return rowData[2];
+                                }
+                            }
+                        },
+                        {
+                            label: 'IOS',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[2].match(/ios.*/)) {
+                                    return rowData[2];
+                                }
+                            }
+                        },
+                        {
+                            label: 'Hardware Wallet',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[2].match(/type_hardware_wallet.*/)) {
+                                    return rowData[2];
+                                }
+                            }
+                        },
+                        {
+                            label: 'Browser Wallet',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[2].match(/type_browser_wallet.*/)) {
+                                    return rowData[2];
+                                }
+                            }
+                        }
+                    ],
+                    combiner: 'and'
+                },
+                targets: [2],
+                visible: false
+            },
+            {
+                searchPanes: {
+                  initCollapsed: false,
+                  header: 'User Type',
+                  show: true,
+                    options: [
+                        {
+                            label: 'New',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[3].match(/type_new_user.*/)) {
+                                    return rowData[3];
+                                }
+                            }
+                        },
+                        {
+                            label: 'Experienced',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[3].match(/type_experienced_user.*/)) {
+                                    return rowData[3];
+                                }
+                            }
+                        }
+                    ],
+                    combiner: 'and'
+                },
+                targets: [3],
+                visible: false
+            },
+            {
+                searchPanes: {
+                  initCollapsed: false,
+                  header: 'Wallet Type',
+                  show: true,
+                    options: [
+                        {
+                            label: 'Self Custodial',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[4].match(/type_self_custodial.*/)) {
+                                    return rowData[4];
+                                }
+                            }
+                        },
+                        {
+                            label: 'Custodial',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[4].match(/type_custodial.*/)) {
+                                    return rowData[4];
+                                }
+                            }
+                        }
+                    ],
+                    combiner: 'and'
+                },
+                targets: [4],
+                                visible: false
+            },
+
+
+            {
+                searchPanes: {
+                  initCollapsed: false,
+                  header: 'Features',
+                  show: true,
+                    options: [
+
+                        {
+                            label: '2FA',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[5].match(/type_2fa*/)) {
+                                    return rowData[5];
+                                }
+                            }
+                        },
+                        {
+                            label: 'Full Node',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[5].match(/type_full_node.*/)) {
+                                    return rowData[5];
+                                }
+                            }
+                        },
+                        {
+                            label: 'Import Wallet',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[5].match(/type_import_wallet.*/)) {
+                                    return rowData[5];
+                                }
+                            }
+                        },
+                        {
+                            label: 'Opensource',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[5].match(/type_opensource.*/)) {
+                                    return rowData[5];
+                                }
+                            }
+                        },
+                        {
+                            label: 'MultiSig',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[5].match(/type_multisig*/)) {
+                                    return rowData[5];
+                                }
+                            }
+                        },
+                        {
+                            label: 'API',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[5].match(/type_api.*/)) {
+                                    return rowData[5];
+                                }
+                            }
+                        }
+                    ],
+                    combiner: 'and'
+                },
+                targets: [5],
+                                visible: false
+            }
+
+
+        ],
+        select: {
+            style:    'os',
+            selector: 'td:first-child'
+        }
+    });
+
+    dt.on('select.dt', () => {
+        dt.searchPanes.rebuildPane(0, true);
+    });
+
+    dt.on('deselect.dt', () => {
+        dt.searchPanes.rebuildPane(0, true);
+    });
+    table.searchPanes();
+    $("div.dtsp-verticalPanes").append(table.searchPanes.container());
+});
 </script>
 <main class="dogepedia">
-    <div class="title">
+    <div class="title" style="color: #FFFFFF">
       <h1>{{ .Title }}</h1>
       <a href="#" onclick="history.back()" style="text-decoration: none">< {{i18n "listWallets[muchgoback]" }} </a> — <b>{{ .Title }}</b></a>
     </div>
       <div class="underline"></div>
+
 <section class="box">
+    <main class="comic-neue">
 
   <!-- Tab content -->
-<div>
-<main class="dogepedia">
   <div style="max-width: 1200px; margin: auto;background-color: #FFFFFF !important; padding: 15px; border-radius: 20px">
-<table id="Wallets"cellspacing="1"  width="100%" style="border-color: #EEEEEE; text-align: left !important" class="table table-striped">
+            <div class="alert alert-warning" role="alert" style="width: 100%">
+          <i class="fa-solid fa-triangle-exclamation"></i> <b>Disclaimer:</b> We did not performed any audits to the current listed wallets below
+        </div>
+<div class="dtsp-verticalContainer">
+        <div class="dtsp-verticalPanes"></div>
+
+<table id="Wallets" cellspacing="1" width="100%" style="border-color: #EEEEEE; text-align: left !important" class="table table-striped display nowrap responsive">
 <thead>
   <tr bgcolor="#EEEEEE" style="font-weight: bold">
-    <th></th>
-    <th>{{i18n "listWallets[wallet]" }}</th>
-    <th>{{i18n "listWallets[type]" }}</th>
-    <th>{{i18n "listWallets[active]" }}</th>
-    <th>{{i18n "listWallets[version]" }}</th>
-    <th>{{i18n "listWallets[download]" }}</th>
+    <th style="text-align: center">Order</th>
+    <th style="text-align: center" data-priority="1"><i class="fa-solid fa-wallet"></i> {{i18n "listWallets[wallet]" }}</th>
+    <th style="text-align: center"><i class="fa-solid fa-gears"></i> OS</th>
+    <th style="text-align: center"><i class="fa-solid fa-gears"></i> {{i18n "listWallets[type]" }}</th>
+    <th style="text-align: center"><i class="fa-solid fa-gears"></i> {{i18n "listWallets[type]" }}</th>
+    <th style="text-align: center"><i class="fa-solid fa-gears"></i> {{i18n "listWallets[type]" }}</th>
+    <th style="text-align: center"><i class="fa-solid fa-ranking-star"></i> Classification</th>
+    <th style="text-align: center" data-priority="1"><i class="fa-solid fa-cloud-arrow-down"></i> {{i18n "listWallets[download]" }}</th>
   </tr>
 </thead>
 
  {{ range where .Pages ".Params.type" "wallet" }}
   <tr>
-    <td>
-      <div class="row"><a href="{{ .Params.website_url }}" target="_blank">{{ if ne .Params.wallet_Image "" }}<img src="{{ .Params.wallet_Image }}" alt="{{ .Params.name }}" style="max-width: 30px;border-radius: 50%;">{{ else }}<img src="/assets/images/1.png" alt="{{ .Params.name }}" style="max-width: 30px;border-radius: 50%;">{{ end }}</a></div>
+    <td style="vertical-align: middle">
+      {{ .Params.order }}
+    </td>
+    <td style="vertical-align: middle">
+      {{ if ne .Params.wallet_Image "" }}<img src="{{ .Params.wallet_Image }}" alt="{{ .Params.name }}" style="height: 30px;border-radius: 50%; display: inline-flex; margin-right: 20px">{{ else }}<img src="/assets/images/1.png" alt="{{ .Params.name }}" style="max-width: 30px;border-radius: 50%; display: inline-flex; margin-right: 20px">{{ end }} <a href="{{ .Params.website_url }}" target="_blank" style="font-weight: bold; width: 100%;">{{ .Params.name }}</a>
     </td>
     <td>
-      <a href="{{ .Params.website_url }}" target="_blank" style="text-decoration: none">{{ .Params.name }}</a>
+      {{ if eq .Params.type_hardware_wallet "yes" }}type_hardware_wallet{{ end }}
+      {{ if eq .Params.type_browser_wallet "yes" }}type_browser_wallet{{ end }}
+      {{ if ne .Params.download_i686_url "" }}linux{{ else }}{{ if ne .Params.download_x86_64_url "" }}linux{{ end }}{{ end }}
+      {{ if ne .Params.download_win32_url "" }}windows{{ else }}{{ if ne .Params.download_win64_url "" }}windows{{ end }}{{ end }}
+      {{ if ne .Params.download_MacOS_url "" }}macos{{ end }}
+      {{ if ne .Params.download_android_url "" }}android{{ end }}
+      {{ if ne .Params.download_ios_url "" }}ios{{ end }}
     </td>
     <td>
-    {{ if eq .Params.contribution_Webdesign "yes" }}<span class="badge bg-secondary" style="background-color: rgba(255, 51, 153, 1) !important">webdesign</span>{{ end }}
-    {{ if eq .Params.contribution_Assets "yes" }}<span class="badge bg-secondary" style="background-color: rgba(255, 255, 0, 1) !important; color: rgba(51, 51, 51, 1)">assets</span>{{ end }}
-    {{ if eq .Params.contribution_Coding "yes" }}<span class="badge bg-secondary" style="background-color: rgba(51, 51, 51, 1) !important;">coding</span>{{ end }}
+      {{ if eq .Params.type_new_user "yes" }}type_new_user{{ end }}
+      {{ if eq .Params.type_experienced_user "yes" }}type_experienced_user{{ end }}
+    </td>
+    <td>
+      {{ if eq .Params.type_self_custodial "yes" }}type_self_custodial{{ end }}
+      {{ if eq .Params.type_custodial "yes" }}type_custodial{{ end }}
+    </td>
+    <td>
+      {{ if eq .Params.type_2fa "yes" }}type_2fa{{ end }}
+      {{ if eq .Params.type_full_node "yes" }}type_full_node{{ end }}
+      {{ if eq .Params.type_import_wallet "yes" }}type_import_wallet{{ end }}
+      {{ if eq .Params.type_multisig "yes" }}type_multisig{{ end }}
+      {{ if eq .Params.type_opensource "yes" }}type_opensource{{ end }}
+      {{ if eq .Params.type_api "yes" }}type_api{{ end }}
+    </td>
+    <td style="text-align: center">
+        <i class="fa-solid fa-circle {{ .Params.classification }}"></i>
+    </td>
+    <td>
 
-    {{ if eq .Params.type_self_custodial "yes" }}<span class="badge bg-success" >Self Custodial</span>{{ end }}
-    {{ if eq .Params.type_custodial "yes" }}<span class="badge bg-danger">Custodial</span>{{ end }}
-    {{ if eq .Params.type_full_node "yes" }}<span class="badge bg-warning" style="color: rgba(51, 51, 51, 1)">Full Node</span>{{ end }}
-    {{ if eq .Params.type_browser "yes" }}<span class="badge bg-primary">Browser</span>{{ end }}
-    {{ if eq .Params.type_app "yes" }}<span class="badge bg-secondary" style="background-color: rgba(255, 51, 153, 1) !important">App</span>{{ end }}
-    {{ if eq .Params.type_key_import "yes" }}<span class="badge bg-secondary" style="background-color: rgba(255, 255, 0, 1) !important; color: rgba(51, 51, 51, 1)">Key Import</span>{{ end }}
-    {{ if eq .Params.type_seed_import "yes" }}<span class="badge bg-secondary" style="background-color: rgba(255, 255, 0, 1) !important; color: rgba(51, 51, 51, 1)">Seed Import</span>{{ end }}
-    {{ if eq .Params.type_qr_paper_wallet "yes" }}<span class="badge bg-secondary" style="background-color: rgba(255, 255, 0, 1) !important; color: rgba(51, 51, 51, 1)">QR Paper Wallet</span>{{ end }}
-    </td>
-    <td>{{ if eq .Params.active "yes" }}<i class="fa-solid fa-check" style="color: #28a745" aria-hidden="true"></i>{{ else }}<i class="fa-solid fa-circle-xmark" style="color: rgba(255, 51, 0, 1)" aria-hidden="true"></i>{{ end }}</td>
-    <td>{{ .Params.version }}</td>
-    <td>
-      {{ if ne .Params.git_url "" }}<a href="{{ .Params.git_url }}" target="_blank"><span class="badge bg-secondary" style="padding: 5px; background-color: rgba(51, 51, 51, 1) !important"><i class="fa-brands fa-github" style="color: #FFFFFF" aria-hidden="true"></i> {{ .Params.name }}</span></a>{{ end }}
-      {{ if ne .Params.download_i686_url "" }}<a href="{{ .Params.download_i686_url }}"><span class="badge bg-secondary" style="padding: 5px; background-color: rgba(51, 51, 51, 1) !important"><i class="fa-brands fa-linux" style="color: #FFFFFF" aria-hidden="true"></i> i686</span></a>{{ end }}
-      {{ if ne .Params.download_x86_64_url "" }}<a href="{{ .Params.download_x86_64_url }}" target="_blank"><span class="badge bg-secondary" style="padding: 5px; background-color: rgba(51, 51, 51, 1) !important"><i class="fa-brands fa-linux" style="color: #FFFFFF" aria-hidden="true"></i> x86_64</span></a>{{ end }}
-      {{ if ne .Params.download_win32_url "" }}<a href="{{ .Params.download_win32_url }}" target="_blank"><span class="badge bg-secondary" style="padding: 5px; background-color: rgba(51, 51, 51, 1) !important"><i class="fa-brands fa-windows" style="color: #FFFFFF" aria-hidden="true"></i> win32</span></a>{{ end }}
-      {{ if ne .Params.download_win64_url "" }}<a href="{{ .Params.download_win64_url }}" target="_blank"><span class="badge bg-secondary" style="padding: 5px; background-color: rgba(51, 51, 51, 1) !important"><i class="fa-brands fa-windows" style="color: #FFFFFF" aria-hidden="true"></i> win64</span></a>{{ end }}
-      {{ if ne .Params.download_MacOS_url "" }}<a href="{{ .Params.download_MacOS_url }}" target="_blank"><span class="badge bg-secondary" style="padding: 5px; background-color: rgba(51, 51, 51, 1) !important"><i class="fa-brands fa-apple" style="color: #FFFFFF" aria-hidden="true"></i>MacOS</span></a>{{ end }}
-      {{ if ne .Params.download_android_url "" }}<a href="{{ .Params.download_android_url }}" target="_blank"><span class="badge bg-secondary" style="padding: 5px; background-color: rgba(51, 51, 51, 1) !important"><i class="fa-brands fa-android" style="color: #FFFFFF" aria-hidden="true"></i> Android</span></a>{{ end }}
-      {{ if ne .Params.download_ios_url "" }}<a href="{{ .Params.download_ios_url }}" target="_blank"><span class="badge bg-secondary" style="padding: 5px; background-color: rgba(51, 51, 51, 1) !important"><i class="fa-brands fa-apple" style="color: #FFFFFF" aria-hidden="true"></i> IOS</span></a>{{ end }}
-      {{ if ne .Params.browser_url "" }}<a href="{{ .Params.browser_url }}" target="_blank"><span class="badge bg-secondary" style="padding: 5px; background-color: rgba(51, 51, 51, 1) !important"><i class="fa-solid fa-globe" style="color: #FFFFFF" aria-hidden="true"></i> Browser</span></a>{{ end }}
+<div class="btn-group d-grid gap-2" role="group" aria-label="Button group with nested dropdown">
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Download
+    </button>
+    <ul class="dropdown-menu">
+      {{ if ne .Params.download_i686_url "" }}<li><a class="dropdown-item" href="{{ .Params.download_i686_url }}"><i class="fa-brands fa-linux" aria-hidden="true"></i> i686</a></li>{{ end }}
+      {{ if ne .Params.download_x86_64_url "" }}<li><a class="dropdown-item" href="{{ .Params.download_x86_64_url }}" target="_blank"><i class="fa-brands fa-linux" aria-hidden="true"></i> x86_64</a></li>{{ end }}
+      {{ if ne .Params.download_win32_url "" }}<li><a class="dropdown-item" href="{{ .Params.download_win32_url }}" target="_blank"><i class="fa-brands fa-windows" aria-hidden="true"></i> win32</a></li>{{ end }}
+      {{ if ne .Params.download_win64_url "" }}<li><a class="dropdown-item" href="{{ .Params.download_win64_url }}" target="_blank"><i class="fa-brands fa-windows" aria-hidden="true"></i> win64</a></li>{{ end }}
+      {{ if ne .Params.download_MacOS_url "" }}<li><a class="dropdown-item" href="{{ .Params.download_MacOS_url }}" target="_blank"><i class="fa-brands fa-apple" aria-hidden="true"></i> MacOS</a></li>{{ end }}
+      {{ if ne .Params.download_android_url "" }}<li><a class="dropdown-item" href="{{ .Params.download_android_url }}" target="_blank"><i class="fa-brands fa-android" aria-hidden="true"></i> Android</a></li>{{ end }}
+      {{ if ne .Params.download_ios_url "" }}<li><a class="dropdown-item" href="{{ .Params.download_ios_url }}" target="_blank"><i class="fa-brands fa-apple" aria-hidden="true"></i> IOS</a></li>{{ end }}
+      {{ if ne .Params.browser_url "" }}<li><a class="dropdown-item" href="{{ .Params.browser_url }}" target="_blank"><i class="fa-solid fa-globe" aria-hidden="true"></i> Browser</a></li>{{ end }}
+      {{ if ne .Params.git_url "" }}<li><hr class="dropdown-divider"></li><li><a class="dropdown-item" href="{{ .Params.git_url }}" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> {{ .Params.name }}</a></li>{{ end }}
+    </ul>
+  </div>
+</div>
     </td>
 
   </tr>
     {{ end }}
 </table>
+<div class="row" ><div class="col"><i class="fa-solid fa-circle" style="color: #66CC33"></i> Much Wow | <i class="fa-solid fa-circle" style="color: #BCE9A5"></i> So Good |  <i class="fa-solid fa-circle" style="color: #FFCC33"></i> Such Warning</div></div>
 </div>
+</div>
+
+
+    </main>
+  		</section>
+    </main>
 {{ end }}
