@@ -111,7 +111,10 @@ table.dataTable.stripe>tbody>tr.even.selected>*, table.dataTable.display>tbody>t
 }
 .dtsp-nameColumn:hover{
  background-color: #66CC33;
+   color: #333333;
+   font-weight: bold;
 }
+
 
 @media (max-width:960px) {
   .dtsp-dataTable{
@@ -166,6 +169,9 @@ table{
  padding-top: 15px;
  padding-bottom: 15px;
 }
+.sorting {
+ background: none !important;
+}
 
 </style>
  <script type="text/javascript">
@@ -175,6 +181,7 @@ $(document).ready(function() {
         responsive: true,
         order: [[0, 'asc']],
         searchPanes: {
+          controls: false,
           cascadePanes: true,
             viewTotal: true,
             columns: [2, 3, 4, 5],
@@ -323,7 +330,7 @@ $(document).ready(function() {
                         {
                             label: '2FA',
                             value: function(rowData, rowIdx) {
-                                if (rowData[5].match(/type_2fa*/)) {
+                                if (rowData[5].match(/2FA*/)) {
                                     return rowData[5];
                                 }
                             }
@@ -331,7 +338,7 @@ $(document).ready(function() {
                         {
                             label: 'Full Node',
                             value: function(rowData, rowIdx) {
-                                if (rowData[5].match(/type_full_node.*/)) {
+                                if (rowData[5].match(/Full Node.*/)) {
                                     return rowData[5];
                                 }
                             }
@@ -339,7 +346,7 @@ $(document).ready(function() {
                         {
                             label: 'Import Wallet',
                             value: function(rowData, rowIdx) {
-                                if (rowData[5].match(/type_import_wallet.*/)) {
+                                if (rowData[5].match(/Import Wallet.*/)) {
                                     return rowData[5];
                                 }
                             }
@@ -347,7 +354,7 @@ $(document).ready(function() {
                         {
                             label: 'Opensource',
                             value: function(rowData, rowIdx) {
-                                if (rowData[5].match(/type_opensource.*/)) {
+                                if (rowData[5].match(/Opensource.*/)) {
                                     return rowData[5];
                                 }
                             }
@@ -355,7 +362,7 @@ $(document).ready(function() {
                         {
                             label: 'MultiSig',
                             value: function(rowData, rowIdx) {
-                                if (rowData[5].match(/type_multisig*/)) {
+                                if (rowData[5].match(/Multisig*/)) {
                                     return rowData[5];
                                 }
                             }
@@ -363,7 +370,7 @@ $(document).ready(function() {
                         {
                             label: 'API',
                             value: function(rowData, rowIdx) {
-                                if (rowData[5].match(/type_api.*/)) {
+                                if (rowData[5].match(/API.*/)) {
                                     return rowData[5];
                                 }
                             }
@@ -372,7 +379,7 @@ $(document).ready(function() {
                     combiner: 'and'
                 },
                 targets: [5],
-                                visible: false
+                                visible: true
             }
 
 
@@ -392,7 +399,12 @@ $(document).ready(function() {
     });
     table.searchPanes();
     $("div.dtsp-verticalPanes").append(table.searchPanes.container());
+
+
 });
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 </script>
 <main class="dogepedia">
     <div class="title" style="color: #FFFFFF">
@@ -400,14 +412,12 @@ $(document).ready(function() {
       <a href="#" onclick="history.back()" style="text-decoration: none">< {{i18n "listWallets[muchgoback]" }} </a> — <b>{{ .Title }}</b></a>
     </div>
       <div class="underline"></div>
-
 <section class="box">
     <main class="comic-neue">
-
   <!-- Tab content -->
   <div style="max-width: 1200px; margin: auto;background-color: #FFFFFF !important; padding: 15px; border-radius: 20px">
             <div class="alert alert-warning" role="alert" style="width: 100%">
-          <i class="fa-solid fa-triangle-exclamation"></i> <b>Disclaimer:</b> We did not performed any audits to the current listed wallets below
+          <i class="fa-solid fa-triangle-exclamation"></i> <b>Disclaimer:</b> We have not performed any audits of the wallets listed below.
         </div>
 <div class="dtsp-verticalContainer">
         <div class="dtsp-verticalPanes"></div>
@@ -420,13 +430,14 @@ $(document).ready(function() {
     <th style="text-align: center"><i class="fa-solid fa-gears"></i> OS</th>
     <th style="text-align: center"><i class="fa-solid fa-gears"></i> {{i18n "listWallets[type]" }}</th>
     <th style="text-align: center"><i class="fa-solid fa-gears"></i> {{i18n "listWallets[type]" }}</th>
-    <th style="text-align: center"><i class="fa-solid fa-gears"></i> {{i18n "listWallets[type]" }}</th>
+    <th style="text-align: center"><i class="fa-solid fa-gears"></i> Features</th>
     <th style="text-align: center"><i class="fa-solid fa-ranking-star"></i> Classification</th>
     <th style="text-align: center" data-priority="1"><i class="fa-solid fa-cloud-arrow-down"></i> {{i18n "listWallets[download]" }}</th>
   </tr>
 </thead>
 
  {{ range where .Pages ".Params.type" "wallet" }}
+ {{ if eq .Params.active "yes" }}
   <tr>
     <td style="vertical-align: middle">
       {{ .Params.order }}
@@ -452,15 +463,15 @@ $(document).ready(function() {
       {{ if eq .Params.type_custodial "yes" }}type_custodial{{ end }}
     </td>
     <td>
-      {{ if eq .Params.type_2fa "yes" }}type_2fa{{ end }}
-      {{ if eq .Params.type_full_node "yes" }}type_full_node{{ end }}
-      {{ if eq .Params.type_import_wallet "yes" }}type_import_wallet{{ end }}
-      {{ if eq .Params.type_multisig "yes" }}type_multisig{{ end }}
-      {{ if eq .Params.type_opensource "yes" }}type_opensource{{ end }}
-      {{ if eq .Params.type_api "yes" }}type_api{{ end }}
+      {{ if eq .Params.type_2fa "yes" }}<span class="badge rounded-pill bg-primary"style=" display: block; margin: 3px">2FA</span>{{ end }}
+      {{ if eq .Params.type_full_node "yes" }}<span class="badge rounded-pill bg-dark"style=" display: block; margin: 3px">Full Node</span>{{ end }}
+      {{ if eq .Params.type_import_wallet "yes" }}<span class="badge rounded-pill bg-light "style=" display: block; margin: 3px; background-color: #FF9900 !important">Import Wallet</span>{{ end }}
+      {{ if eq .Params.type_multisig "yes" }}<span class="badge rounded-pill bg-light text-dark"style=" display: block; margin: 3px; background-color: #66CC33 !important">Multisig</span>{{ end }}
+      {{ if eq .Params.type_opensource "yes" }}<span class="badge rounded-pill bg-light text-dark"style=" display: block; margin: 3px; background-color: rgba(255, 255, 0, 1) !important">Opensource</span>{{ end }}
+      {{ if eq .Params.type_api "yes" }}<span class="badge rounded-pill bg-light  "style=" display: block; margin: 3px; background-color: rgba(255, 51, 153, 1) !important">API</span>{{ end }}
     </td>
     <td style="text-align: center">
-        <i class="fa-solid fa-circle {{ .Params.classification }}"></i>
+        <span data-toggle="tooltip" data-placement="top" title="{{ .Params.classification }}"><i class="fa-solid fa-circle {{ .Params.classification }}"></i></span>
     </td>
     <td>
 
@@ -486,8 +497,9 @@ $(document).ready(function() {
 
   </tr>
     {{ end }}
+    {{ end }}
 </table>
-<div class="row" ><div class="col"><i class="fa-solid fa-circle" style="color: #66CC33"></i> Much Wow | <i class="fa-solid fa-circle" style="color: #BCE9A5"></i> So Good |  <i class="fa-solid fa-circle" style="color: #FFCC33"></i> Such Warning</div></div>
+<div class="row" ><div class="col"><span data-toggle="tooltip" data-placement="top" title="Wen a wallet is considered by the community secure and easy to use"><i class="fa-solid fa-circle" style="color: #66CC33"></i> Much Wow</span> | <span data-toggle="tooltip" data-placement="top" title="Wen a wallet is considered by the community secure but have room for improvment"><i class="fa-solid fa-circle" style="color: #BCE9A5"></i> So Good</span> |  <span data-toggle="tooltip" data-placement="top" title="Wen a wallet is considered by the community that can be improved in security"><i class="fa-solid fa-circle" style="color: #FFCC33"></i> Such Warning</div></span></div>
 </div>
 </div>
 

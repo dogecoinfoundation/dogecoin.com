@@ -1,12 +1,12 @@
 +++
 type = "wallet"
 
-name = "Coinbase"
+name = "Coinbase Wallet app"
 order = "4"
 active = "yes"
 version = "n/a"
 wallet_Image = "https://assets.coinbase.com/assets/favicon-228.8bf0b89343ce0803d57d6e81d143d091.png"
-website_url = "https://www.coinbase.com/wallet"
+website_url = "https://wallet.coinbase.com/"
 git_url = ""
 
 download_i686_url = ""
@@ -14,7 +14,7 @@ download_x86_64_url = ""
 download_win32_url = ""
 download_win64_url = ""
 download_MacOS_url = ""
-download_android_url = "https://play.google.com/store/apps/details?id=com.coinbase.android"
+download_android_url = "https://play.google.com/store/apps/details?id=org.toshi"
 download_ios_url = "https://apps.apple.com/us/app/coinbase-wallet-nfts-crypto/id1278383455"
 browser_url = ""
 

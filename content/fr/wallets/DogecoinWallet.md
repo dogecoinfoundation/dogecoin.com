@@ -3,7 +3,7 @@ type = "wallet"
 
 name = "Dogecoin Wallet"
 order = "11"
-active = "yes"
+active = "no"
 version = "n/a"
 wallet_Image = "https://i.imgur.com/QZlZji2.png"
 website_url = "https://langerhans.github.io/dogecoin-wallet-new/"
