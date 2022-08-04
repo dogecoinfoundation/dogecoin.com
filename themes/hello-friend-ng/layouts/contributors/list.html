@@ -7,6 +7,19 @@
       } );
   } );
 </script>
+<style type="text/css">
+.btn-outline-secondary{
+  position: inherit;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  color: #6c757d !important;  
+}
+.btn-outline-secondary:hover{
+ background-color: #6c757d !important;
+ color: rgba(255, 255, 255, 1) !important;
+}
+</style>
 <main class="dogepedia">
     <div class="title" style="color: #FFFFFF">
       <h1>{{ .Title }}</h1>
@@ -22,9 +35,9 @@
 <table id="Contributors"cellspacing="1"  width="100%" style="border-color: #EEEEEE; text-align: left !important" class="table table-striped">
 <thead>
   <tr bgcolor="#EEEEEE" style="font-weight: bold">
-    <th>{{i18n "listContributors[shibe]" }}</th>
-    <th>{{i18n "listContributors[contribution]" }}</th>
-    <th>{{i18n "listContributors[social]" }}</th>
+    <th><i class="fa-solid fa-paw"></i> {{i18n "listContributors[shibe]" }}</th>
+    <th><i class="fa-solid fa-code"></i> {{i18n "listContributors[contribution]" }}</th>
+    <th><i class="fa-solid fa-users"></i> {{i18n "listContributors[social]" }}</th>
   </tr>
 </thead>
 
@@ -34,19 +47,19 @@
       <div class="row">{{ if ne .Params.social_Image "" }}<img src="{{ .Params.social_Image }}" alt="{{ .Params.name }}" style="max-width: 30px;border-radius: 50%;">{{ else }}<img src="/assets/images/2.png" alt="{{ .Params.name }}" style="max-width: 30px;border-radius: 50%;">{{ end }}{{ .Params.name }}</div>
     </td>
     <td>
-    {{ if eq .Params.contribution_Webdesign "yes" }}<span class="badge bg-secondary" style="background-color: rgba(255, 51, 153, 1) !important">webdesign</span>{{ end }}
-    {{ if eq .Params.contribution_Assets "yes" }}<span class="badge bg-secondary" style="background-color: rgba(255, 255, 0, 1) !important; color: rgba(51, 51, 51, 1)">assets</span>{{ end }}
-    {{ if eq .Params.contribution_Coding "yes" }}<span class="badge bg-secondary" style="background-color: rgba(51, 51, 51, 1) !important;">coding</span>{{ end }}
-    {{ if eq .Params.contribution_Documentation "yes" }}<span class="badge bg-success" >documentation</span>{{ end }}
-    {{ if eq .Params.contribution_Translation "yes" }}<span class="badge bg-warning" style="color: rgba(51, 51, 51, 1)">translation</span>{{ end }}
+    {{ if eq .Params.contribution_Webdesign "yes" }}<span class="badge rounded-pill bg-secondary" style="background-color: rgba(255, 51, 153, 1) !important">Webdesign</span>{{ end }}
+    {{ if eq .Params.contribution_Assets "yes" }}<span class="badge rounded-pill bg-secondary" style="background-color: rgba(255, 255, 0, 1) !important; color: rgba(51, 51, 51, 1)">Assets</span>{{ end }}
+    {{ if eq .Params.contribution_Coding "yes" }}<span class="badge rounded-pill bg-primary">Coding</span>{{ end }}
+    {{ if eq .Params.contribution_Documentation "yes" }}<span class="badge rounded-pill bg-success text-dark" style="background-color: rgba(102, 204, 0, 1) !important" >Documentation</span>{{ end }}
+    {{ if eq .Params.contribution_Translation "yes" }}<span class="badge rounded-pill bg-warning" style="color: rgba(51, 51, 51, 1)">Translation</span>{{ end }}
     </td>
     <td>
       {{ if ne .Params.social_URL "" }}
-      <a href="{{ .Params.social_URL }}" target="_blank">
-        {{ if eq .Params.social_Type "twitter" }}<span class="badge bg-primary" style="padding: 5px"><i class="fa-brands fa-twitter" style="color: #FFFFFF" aria-hidden="true"></i> {{ .Params.social_User }}</span>{{ end }}
-        {{ if eq .Params.social_Type "github" }}<span class="badge bg-secondary" style="background-color: rgba(51, 51, 51, 1) !important;padding: 5px"><i class="fa-brands fa-github" style="color: #FFFFFF"></i> {{ .Params.social_User }}</span>{{ end }}
-        {{ if eq .Params.social_Type "reddit" }}<span class="badge bg-danger" style="padding: 5px"><i class="fa-brands fa-reddit" style="color: #FFFFFF"></i> {{ .Params.social_User }}</span>{{ end }}
-        {{ if eq .Params.social_Type "outher" }}<span class="badge bg-secondary" style="background-color: rgba(51, 51, 51, 1) !important;padding: 5px"><i class="fa-solid fa-globe" style="color: #FFFFFF"></i> {{ .Params.social_User }}</span>{{ end }}
+      <a href="{{ .Params.social_URL }}" target="_blank" class="btn btn-outline-secondary">
+        {{ if eq .Params.social_Type "twitter" }}<i class="fa-brands fa-twitter"></i> {{ .Params.social_User }}{{ end }}
+        {{ if eq .Params.social_Type "github" }}<i class="fa-brands fa-github"></i> {{ .Params.social_User }}{{ end }}
+        {{ if eq .Params.social_Type "reddit" }}<i class="fa-brands fa-reddit"></i> {{ .Params.social_User }}{{ end }}
+        {{ if eq .Params.social_Type "outher" }}<i class="fa-solid fa-globe"></i> {{ .Params.social_User }}{{ end }}
       </a>
       {{ end }}
     </td>

@@ -116,7 +116,7 @@ table.dataTable.stripe>tbody>tr.even.selected>*, table.dataTable.display>tbody>t
 }
 
 
-@media (max-width:960px) {
+@media (max-width:1000px) {
   .dtsp-dataTable{
     min-width: 100%;
   }
@@ -172,7 +172,9 @@ table{
 .sorting {
  background: none !important;
 }
-
+.datawidth{
+  max-width: 250px !important;
+}
 </style>
  <script type="text/javascript">
 
@@ -330,7 +332,7 @@ $(document).ready(function() {
                         {
                             label: '2FA',
                             value: function(rowData, rowIdx) {
-                                if (rowData[5].match(/2FA*/)) {
+                                if (rowData[5].match(/type_2fa*/)) {
                                     return rowData[5];
                                 }
                             }
@@ -338,7 +340,7 @@ $(document).ready(function() {
                         {
                             label: 'Full Node',
                             value: function(rowData, rowIdx) {
-                                if (rowData[5].match(/Full Node.*/)) {
+                                if (rowData[5].match(/type_full_node.*/)) {
                                     return rowData[5];
                                 }
                             }
@@ -346,7 +348,7 @@ $(document).ready(function() {
                         {
                             label: 'Import Wallet',
                             value: function(rowData, rowIdx) {
-                                if (rowData[5].match(/Import Wallet.*/)) {
+                                if (rowData[5].match(/type_import_wallet.*/)) {
                                     return rowData[5];
                                 }
                             }
@@ -354,7 +356,7 @@ $(document).ready(function() {
                         {
                             label: 'Opensource',
                             value: function(rowData, rowIdx) {
-                                if (rowData[5].match(/Opensource.*/)) {
+                                if (rowData[5].match(/type_opensource.*/)) {
                                     return rowData[5];
                                 }
                             }
@@ -362,7 +364,7 @@ $(document).ready(function() {
                         {
                             label: 'MultiSig',
                             value: function(rowData, rowIdx) {
-                                if (rowData[5].match(/Multisig*/)) {
+                                if (rowData[5].match(/type_multisig*/)) {
                                     return rowData[5];
                                 }
                             }
@@ -370,7 +372,7 @@ $(document).ready(function() {
                         {
                             label: 'API',
                             value: function(rowData, rowIdx) {
-                                if (rowData[5].match(/API.*/)) {
+                                if (rowData[5].match(/type_api.*/)) {
                                     return rowData[5];
                                 }
                             }
@@ -379,7 +381,7 @@ $(document).ready(function() {
                     combiner: 'and'
                 },
                 targets: [5],
-                                visible: true
+                                visible: false
             }
 
 
@@ -431,7 +433,7 @@ $(function () {
     <th style="text-align: center"><i class="fa-solid fa-gears"></i> {{i18n "listWallets[type]" }}</th>
     <th style="text-align: center"><i class="fa-solid fa-gears"></i> {{i18n "listWallets[type]" }}</th>
     <th style="text-align: center"><i class="fa-solid fa-gears"></i> Features</th>
-    <th style="text-align: center"><i class="fa-solid fa-ranking-star"></i> Classification</th>
+    <th style="text-align: center; width: auto !important" class="datawidth"><i class="fa-solid fa-gears"></i> Features</th>
     <th style="text-align: center" data-priority="1"><i class="fa-solid fa-cloud-arrow-down"></i> {{i18n "listWallets[download]" }}</th>
   </tr>
 </thead>
@@ -443,7 +445,7 @@ $(function () {
       {{ .Params.order }}
     </td>
     <td style="vertical-align: middle">
-      {{ if ne .Params.wallet_Image "" }}<img src="{{ .Params.wallet_Image }}" alt="{{ .Params.name }}" style="height: 30px;border-radius: 50%; display: inline-flex; margin-right: 20px">{{ else }}<img src="/assets/images/1.png" alt="{{ .Params.name }}" style="max-width: 30px;border-radius: 50%; display: inline-flex; margin-right: 20px">{{ end }} <a href="{{ .Params.website_url }}" target="_blank" style="font-weight: bold; width: 100%;">{{ .Params.name }}</a>
+      {{ if ne .Params.wallet_Image "" }}<img src="{{ .Params.wallet_Image }}" alt="{{ .Params.name }}" style="height: 30px;border-radius: 50%; display: inline-flex; margin-right: 20px">{{ else }}<img src="/assets/images/1.png" alt="{{ .Params.name }}" style="max-width: 30px;border-radius: 50%; display: inline-flex; margin-right: 20px">{{ end }} <a href="{{ .Params.website_url }}" target="_blank" style="font-weight: bold; width: 100%;">{{ .Params.name }} </a>
     </td>
     <td>
       {{ if eq .Params.type_hardware_wallet "yes" }}type_hardware_wallet{{ end }}
@@ -463,22 +465,38 @@ $(function () {
       {{ if eq .Params.type_custodial "yes" }}type_custodial{{ end }}
     </td>
     <td>
-      {{ if eq .Params.type_2fa "yes" }}<span class="badge rounded-pill bg-primary"style=" display: block; margin: 3px">2FA</span>{{ end }}
-      {{ if eq .Params.type_full_node "yes" }}<span class="badge rounded-pill bg-dark"style=" display: block; margin: 3px">Full Node</span>{{ end }}
-      {{ if eq .Params.type_import_wallet "yes" }}<span class="badge rounded-pill bg-light "style=" display: block; margin: 3px; background-color: #FF9900 !important">Import Wallet</span>{{ end }}
-      {{ if eq .Params.type_multisig "yes" }}<span class="badge rounded-pill bg-light text-dark"style=" display: block; margin: 3px; background-color: #66CC33 !important">Multisig</span>{{ end }}
-      {{ if eq .Params.type_opensource "yes" }}<span class="badge rounded-pill bg-light text-dark"style=" display: block; margin: 3px; background-color: rgba(255, 255, 0, 1) !important">Opensource</span>{{ end }}
-      {{ if eq .Params.type_api "yes" }}<span class="badge rounded-pill bg-light  "style=" display: block; margin: 3px; background-color: rgba(255, 51, 153, 1) !important">API</span>{{ end }}
+      {{ if eq .Params.type_2fa "yes" }}type_2fa{{ end }}
+      {{ if eq .Params.type_full_node "yes" }}type_full_node{{ end }}
+      {{ if eq .Params.type_import_wallet "yes" }}type_import_wallet{{ end }}
+      {{ if eq .Params.type_multisig "yes" }}type_multisig{{ end }}
+      {{ if eq .Params.type_opensource "yes" }}type_opensource{{ end }}
+      {{ if eq .Params.type_api "yes" }}type_api{{ end }}
     </td>
-    <td style="text-align: center">
-        <span data-toggle="tooltip" data-placement="top" title="{{ .Params.classification }}"><i class="fa-solid fa-circle {{ .Params.classification }}"></i></span>
+    <td>
+      {{ if eq .Params.type_2fa "yes" }}<span class="badge rounded-pill bg-primary" style="margin: 3px; float: left">2FA</span>{{ end }}
+      {{ if eq .Params.type_full_node "yes" }}<span class="badge rounded-pill bg-dark" style="margin: 3px; float: left">Full Node</span>{{ end }}
+      {{ if eq .Params.type_import_wallet "yes" }}<span class="badge rounded-pill bg-light " style="margin: 3px; float: left; background-color: #FF9900 !important">Import Wallet</span>{{ end }}
+      {{ if eq .Params.type_multisig "yes" }}<span class="badge rounded-pill bg-light text-dark" style="margin: 3px; float: left; background-color: #66CC33 !important">Multisig</span>{{ end }}
+      {{ if eq .Params.type_opensource "yes" }}<span class="badge rounded-pill bg-light text-dark" style="margin: 3px; float: left; background-color: rgba(255, 255, 0, 1) !important">Opensource</span>{{ end }}
+      {{ if eq .Params.type_api "yes" }}<span class="badge rounded-pill bg-light" style="margin: 3px; float: left; background-color: rgba(255, 51, 153, 1) !important">API</span>{{ end }}
+
+      {{ if eq .Params.type_self_custodial "yes" }}<span class="badge rounded-pill bg-light" style="margin: 3px; float: left; background-color: #66CC33 !important">Self Custodial</span>{{ end }}
+      {{ if eq .Params.type_custodial "yes" }}<span class="badge rounded-pill bg-danger" style="margin: 3px; float: left;">Custodial</span>{{ end }}
+
+      {{ if eq .Params.type_hardware_wallet "yes" }}<span class="badge rounded-pill bg-light" style="margin: 3px; float: left; background-color: rgba(255, 51, 153, 1) !important">Hardware Wallet</span>{{ end }}
+      {{ if eq .Params.type_browser_wallet "yes" }}<span class="badge rounded-pill bg-warning " style="margin: 3px; float: left;">Browser Wallet</span>{{ end }}
+      {{ if ne .Params.download_i686_url "" }}<span class="badge rounded-pill bg-dark" style="margin: 3px; float: left;">Linux</span>{{ else }}{{ if ne .Params.download_x86_64_url "" }}<span class="badge rounded-pill bg-light" style="margin: 3px; float: left; background-color: rgba(255, 51, 153, 1) !important">Linux</span>{{ end }}{{ end }}
+      {{ if ne .Params.download_win32_url "" }}<span class="badge rounded-pill bg-primary" style="margin: 3px; float: left;">Windows</span>{{ else }}{{ if ne .Params.download_win64_url "" }}<span class="badge rounded-pill bg-light" style="margin: 3px; float: left; background-color: rgba(255, 51, 153, 1) !important">Windows</span>{{ end }}{{ end }}
+      {{ if ne .Params.download_MacOS_url "" }}<span class="badge rounded-pill bg-light text-dark" style="margin: 3px; float: left; background-color: #ccc !important">MacOS</span>{{ end }}
+      {{ if ne .Params.download_android_url "" }}<span class="badge rounded-pill bg-light text-dark" style="margin: 3px; float: left; background-color: rgba(153, 255, 51, 1) !important">Android</span>{{ end }}
+      {{ if ne .Params.download_ios_url "" }}<span class="badge rounded-pill bg-light" style="margin: 3px; float: left; background-color: #666 !important">IOS</span>{{ end }}
     </td>
     <td>
 
 <div class="btn-group d-grid gap-2" role="group" aria-label="Button group with nested dropdown">
   <div class="btn-group" role="group">
     <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-      Download
+      <span data-toggle="tooltip" data-placement="top" title="{{ .Params.classification }}"><i class="fa-solid fa-circle {{ .Params.classification }}"></i></span> Download
     </button>
     <ul class="dropdown-menu">
       {{ if ne .Params.download_i686_url "" }}<li><a class="dropdown-item" href="{{ .Params.download_i686_url }}"><i class="fa-brands fa-linux" aria-hidden="true"></i> i686</a></li>{{ end }}
