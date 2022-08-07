@@ -1,10 +1,10 @@
 +++
 title = "狗狗币是什么?"
-date = "2022-08-07"
+date = "2021-10-22"
 type = "article"
 
 [ author ]
-  name = "Tiger Hu"
+  name = "Dogecoin"
 +++
  
 ![image info](/assets/images/dogepedia/3.png)
