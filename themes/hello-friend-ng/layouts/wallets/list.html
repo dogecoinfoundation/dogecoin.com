@@ -115,7 +115,11 @@ table.dataTable.stripe>tbody>tr.even.selected>*, table.dataTable.display>tbody>t
    font-weight: bold;
 }
 
-
+.walletsfooter{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+}
 @media (max-width:1000px) {
   .dtsp-dataTable{
     min-width: 100%;
@@ -179,6 +183,7 @@ table{
  <script type="text/javascript">
 
 $(document).ready(function() {
+
     var dt = $('#Wallets').DataTable({
         responsive: true,
         order: [[0, 'asc']],
@@ -402,7 +407,6 @@ $(document).ready(function() {
     table.searchPanes();
     $("div.dtsp-verticalPanes").append(table.searchPanes.container());
 
-
 });
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
@@ -516,8 +520,8 @@ $(function () {
   </tr>
     {{ end }}
     {{ end }}
+    <tfoot><tr><th colspan="8" style="text-align: center; padding: 15px" data-priority="1"><div class="col"><span data-toggle="tooltip" data-placement="top" title="Wen a wallet is considered by the community secure and easy to use"><i class="fa-solid fa-circle" style="color: #66CC33"></i> Much Wow</span> | <span data-toggle="tooltip" data-placement="top" title="Wen a wallet is considered by the community secure but have room for improvment"><i class="fa-solid fa-circle" style="color: #BCE9A5"></i> So Good</span> |  <span data-toggle="tooltip" data-placement="top" title="Wen a wallet is considered by the community that can be improved in security"><i class="fa-solid fa-circle" style="color: #FFCC33"></i> Such Warning</span></div></th></tr></tfoot>
 </table>
-<div class="row" ><div class="col"><span data-toggle="tooltip" data-placement="top" title="Wen a wallet is considered by the community secure and easy to use"><i class="fa-solid fa-circle" style="color: #66CC33"></i> Much Wow</span> | <span data-toggle="tooltip" data-placement="top" title="Wen a wallet is considered by the community secure but have room for improvment"><i class="fa-solid fa-circle" style="color: #BCE9A5"></i> So Good</span> |  <span data-toggle="tooltip" data-placement="top" title="Wen a wallet is considered by the community that can be improved in security"><i class="fa-solid fa-circle" style="color: #FFCC33"></i> Such Warning</div></span></div>
 </div>
 </div>
 
