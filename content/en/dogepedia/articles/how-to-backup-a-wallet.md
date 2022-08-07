@@ -11,7 +11,7 @@ A wallet is just a collection of *private keys* and *public keys*.
 
 Each one of the wallet’s private keys is a randomised 256-bit number unique to your wallet, and it is what you need to be able to access and spend your coins. Your public address - the address which other Dogecoin wallets can use to send Dogecoin to your wallet - is a hashed version of the public key associated with the private key.
 
-Most Dogecoin holders use some kind of [*wallet application*](/dogepedia/articles/how-do-i-get-a-wallet), like Dogecoin Core, or devices like [*hardware wallets*](/dogepedia/articles/dogecoin-hardware-wallets/) to manage their wallets. Each of these might involve a different process to generate a backup. 
+Most Dogecoin holders use some kind of [*wallet application*](/dogepedia/articles/how-do-i-get-a-wallet), like Dogecoin Core, and devices like [*hardware wallets*](/dogepedia/articles/dogecoin-hardware-wallets/) to manage their wallets. Each of these might involve a different process to generate a backup. 
 
 ### Wallet Backups with Dogecoin Core
 
@@ -22,7 +22,11 @@ Dogecoin Core, Dogecoin's "reference implementation" and the software commonly u
    On the other hand, this password adds an extra layer of security to your backup. Without it, even if an attacker gains access to your wallet file, they will still be unable to spend your Dogecoin, unless they succeed in brute forcing or guessing the encryption password.
 - Go to File -> Backup Wallet. This will generate a wallet.dat file, which stores a list of all the key pairs you have used. Restoring this file will give you access to your Dogecoin. Store it somewhere safe, in a device not connected to the internet.
 
-Whenever you generate a new public address with Dogecoin Core or you spend coins, it is recommended that you create a new backup, as the old wallet.dat files might not contain a copy of the private key associated with the new public address or with possible change addresses - thus, upon restoring the wallet, you might be missing part of your Dogecoin.
+Recent releases of Dogecoin Core include support for key derivation. This means that, even if you generate a new address for use in your wallet, you do not need to create a new backup, as the address is derived deterministically from the seed key stored in the wallet. You might still want to create a new backup if you want to save labels you have created for your wallet.
+
+**IMPORTANT**: wallets created with Dogecoin Core releases older than version 1.10, instead, contain a list of *randomly* generated private keys. Even when imported in Dogecoin Core 1.14+, these wallets will keep using this way of generating addresses, so whenever you generate a new public address with Dogecoin Core or you spend coins, it is recommended that you create a new backup, as the old wallet.dat files might not contain a copy of the private key associated with the new public address or with possible change addresses - thus, upon restoring the wallet, you might be missing part of your Dogecoin.
+
+You can check which format your current wallet is using by looking at the "HD" icon in the lower right corner of the screen. When greyed out, your wallet is using the old format and needs to be backed up again after a new address is generated.
 
 *Remember: whoever gains access to the wallet.dat file will be able to spend your Dogecoin*.
 
