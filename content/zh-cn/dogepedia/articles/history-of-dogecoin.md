@@ -1,28 +1,26 @@
 +++
-title = "The History of Dogecoin"
+title = "狗狗币的历史"
 date = "2021-10-22"
 type = "article"
 
 [ author ]
   name = "Dogecoin"
 +++
- 
-Dogecoin was originally created as a joke in late 2013 by Billy Markus and Jackson Palmer. Both Billy and Jackson thought that cryptocurrency was being taken far too seriously and wasn’t much fun. Jackson created the Dogecoin.com website and would have been, for a while, the public face of Dogecoin, while Billy worked as a solo developer on the first 4 releases.
+
+狗狗币是2013年底作为一个玩笑由Billy Markus和Jackson Palmer创建的。Billy和Jackson觉得加密货币太严肃了，没有什么好玩的。于是，Jackson创建了Dogecoin.com网站，这个网站在很长时间都是狗狗币的官方门户。然后，Billy独自开发了狗狗币的前4个版本。
 
 ![image info](/assets/images/dogepedia/12.png)
 
-On December 6th, 2013, Dogecoin was launched taking influence from the famous Doge meme: an image of a very adorable Shiba Inu dog with multi-coloured comic sans text that appears as the dog’s “thought bubbles”. 
+2013年12月6日，在当时风靡世界的Doge模因文化的影响，狗狗币诞生了。它是一张非常可爱的没有文字的漫画柴犬形象，看起来充满了狗狗的思想智慧。
 
+这个著名的模因文化发源于2010年网上出现的一只日本雌性柴犬**Kabosu**的照片，这只狗狗是日本幼儿园老师Atsuko Satō在2008年从动物收容所收养的。
 
-This famous meme was based on a 2010 photograph of a Japanese female Shiba Inu dog called **Kabosu**, who was adopted by Japanese kindergarten teacher Atsuko Satō from an animal shelter in 2008.  
+出乎Billy和Jackson的意料，狗狗币推出后立即获得了巨大的成功，在Reddit等网站上受到了热烈的欢迎，它被用来作为打赏小费的货币。狗狗币诞生2周后，它每天的交易量就超过了比特币。诞生不到一个月，网站访问量就超过了100万人！
 
-Much to Billy and Jackson’s surprise, Dogecoin was a near-instant success, and gained tremendous popularity on sites such as Reddit, where it was —and still is — used as a tipping currency. When Dogecoin was just 2-weeks old, it reached more transactions per day than Bitcoin. Moreover, within the first month there were over one-million unique visitors to this website!  
+2014年，Billy和Jackson相继退出了狗狗币的开发工作，新的狗狗币核心开发团队组建成立。这个团队由一个核心维护者团队构成，多年来得到了40多名贡献者的支持，从那之后，狗狗币就一直由他们在开发和维护。
 
-In 2014, both Billy and Jackson left the development efforts, while a Dogecoin Core Development team was formed. The team, comprised of a small group of core maintainers and supported by more than 40 contributors over the years, has been maintaining and developing Dogecoin since then.
+尽管起源于一个笑话，但狗狗币很快发展出了一个庞大且充满激情的加密货币社区。这个有趣而友善的加密社区一直在支持一些伟大事业和慈善事业。
 
-Although owing its genesis to a joke, Dogecoin quickly developed into a massive and passionate cryptocurrency community. This fun and friendly crypto community has also been behind many great causes and charitable endeavours.  
+例如，2014年狗狗币社区筹集了2650万枚狗狗币（当时价值约3万美金），用于支持牙买加雪橇队去参加索契冬奥会！2014年3月，狗狗币社区筹集了超过4000万枚狗狗币（当时价值约3万美金），用于帮助在肯尼亚建造清洁水井。
 
-For example, in 2014 the Dogecoin community raised 26.5 million Dogecoin (worth around USD $30,000.00 at the time) to send the Jamaican bobsled team to the Sochi Winter Olympics! In March of that year, the Dogecoin community also raised over 40 million Dogecoin (worth around USD $30,000.00 at the time) to help with the effort of building clean-water wells in Kenya.  
-
-
-Most recently, the [Dogecoin Foundation](https://foundation.dogecoin.com/) partnered with popular YouTubers Mr Beast and Mark Rober for their TeamSeas initiative: with the ambitious aim to raise a combined 30 million U.S. dollars to remove 30 million pounds of trash from the world’s oceans.  
+最近，[狗狗币基金会](https://foundation.dogecoin.com/zh-cn/)与广受欢迎的YouTube博主Mr Beast和Mark Rober合作开展了TeamSeas计划，打算筹集3000万美金，用于从海洋中清除3000万磅垃圾。 

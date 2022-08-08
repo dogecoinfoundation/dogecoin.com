@@ -8,7 +8,7 @@ type = "article"
 +++
  
 ![image info](/assets/images/dogepedia/3.png)
-狗狗币对不同人而言意味着不同的含义。 本质来讲，狗狗币是一场偶然发起的给人们带来快乐的加密货币运动！ 
+狗狗币对不同人而言意味着不同的含义。本质来讲，狗狗币是一场偶然发起的给人们带来快乐的加密货币运动！ 
 
 狗狗币是一种运用[区块链技术](https://www.dogecoin.com/zh-cn/dogepedia/articles/what-is-a-blockchain)的开源分布式数字货币 , 通过运用由计算机[节点](https://www.dogecoin.com/zh-cn/dogepedia/articles/what-is-a-node)组成的网络进行记账实现了一个高度安全的去中心化的系统。
 
