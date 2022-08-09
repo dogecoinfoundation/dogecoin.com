@@ -7,6 +7,12 @@
   font-size: 2rem !important;
 }
 }
+.fa-shirt {
+  color: rgba(204, 204, 204, 1) !important;
+}
+.fa-shirt:hover {
+  color: #ffc107 !important;
+}
 </style>
 <nav class="menu">
   <ul class="menu__inner">
@@ -27,5 +33,6 @@
     {{ else }}
     <li><a href="{{ .URL | relLangURL }}" class="comic-neue tooltip-body-sub">{{ .Name }}</a></li>
     {{ end }} {{- end }}
+    <li><a href="https://dogecoinswag.store/" class="comic-neue tooltip-body-sub" target="_blank" ><i class="fa-solid fa-shirt"></i></a></li>
   </ul>
 </nav>
