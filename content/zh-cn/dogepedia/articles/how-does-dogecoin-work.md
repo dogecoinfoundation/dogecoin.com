@@ -1,27 +1,27 @@
 +++
-title = "How Does Dogecoin Work?"
+title = "狗狗币如何运转?"
 date = "2022-04-16"
 type = "article"
 
 [ author ]
   name = "Dogecoin"
 +++
- 
-Magic and memes! (Just kidding. Kind of.) 
 
-First things first: Dogecoin *is* money.  
+魔法和模因文化！（开玩笑的啦~）
 
-Like other popular cryptocurrencies, Dogecoin works by utilising [blockchain technology](/dogepedia/articles/what-is-a-blockchain). Unlike a lot of other popular cryptocurrencies, though, the fees to send Dogecoin are extremely small, and the speed by which Dogecoin transactions are confirmed is relatively fast.
+重中之重: 狗狗币是货币。  
+
+和其他流行的加密货币一样, 狗狗币通过[区块链技术](/zh-cn/dogepedia/articles/what-is-a-blockchain)运转。但是，和其他绝大多数加密货币不同，狗狗币的交易费用非常低，交易确认的速度又非常快。
 
 ![image info](/assets/images/dogepedia/11.png)
-Simply put, if you would like to send money to someone who is located anywhere in the world — or receive money from someone who is located anywhere in the world — *without* using a centralised bank and paying foreign currency exchange and transfer fees, then Dogecoin can work for you! 
+首先，如果你想向世界上任何地方的某个人寄一笔钱或者收一笔钱，但是你又不想使用中心化的银行从而需要支付外币兑换和转账费用，那么狗狗币就是你的好选择！
 
-Furthermore, Dogecoin can be used to purchase goods and services, and for tipping people on popular social-media platforms like Reddit and Twitter. See [Community and Ecosystem](/dogepedia/#community-and-ecosystem) for more information on how Dogecoin can be used and how it works!
+除此之外，狗狗币还可以用来购买商品和服务，可以在Reddit和Twitter这样的社交平台上打赏小费，更多关于狗狗币用途和运转方式的信息，请参阅[社区和生态](/zh-cn/dogepedia/#community-and-ecosystem)!
 
-## Go in depth! {#in-depth}
-If you want to know more about how Dogecoin works, check the following in-depth articles.
+## 深度了解! {#in-depth}
+如果你想了解更多狗狗币是如何运转的，请点击查看以下更深入的资料。
 
-* [What is a Blockchain](/dogepedia/articles/what-is-a-blockchain)
-* [What is a Node](/dogepedia/articles/what-is-a-node)
-* [What is a Miner](/dogepedia/articles/what-is-a-miner)
-* [What is a Mining Pool](/dogepedia/articles/what-is-a-mining-pool)
+* [什么是区块链](/zh-cn/dogepedia/articles/what-is-a-blockchain)
+* [什么是节点](/zh-cn/dogepedia/articles/what-is-a-node)
+* [什么是矿工](/zh-cn/dogepedia/articles/what-is-a-miner)
+* [什么是矿池](/zh-cn/dogepedia/articles/what-is-a-mining-pool)
