@@ -1,4 +1,8 @@
 <style type="text/css">
+.dogecoinswag{
+  display: none;
+}
+
 @media (max-width:960px) {
 .menu{
    width: 100% !important;
@@ -6,6 +10,13 @@
 .menu__inner a{
   font-size: 2rem !important;
 }
+.dogecoinswag{
+  display: inherit;
+}
+.dogecoinswagicon{
+  display: none;
+}
+
 }
 .fa-shirt {
   color: rgba(204, 204, 204, 1) !important;
@@ -33,6 +44,6 @@
     {{ else }}
     <li><a href="{{ .URL | relLangURL }}" class="comic-neue tooltip-body-sub">{{ .Name }}</a></li>
     {{ end }} {{- end }}
-    <li><a href="https://dogecoinswag.store/" class="comic-neue tooltip-body-sub" target="_blank" ><i class="fa-solid fa-shirt"></i></a></li>
+    <li><a href="https://dogecoinswag.store/" class="comic-neue tooltip-body-sub" target="_blank" ><i class="fa-solid fa-shirt dogecoinswagicon"></i> <span class="dogecoinswag"> Dogecoin<span style="color: rgba(255, 0, 153, 1)">Swag</span></span></a></li>
   </ul>
 </nav>
