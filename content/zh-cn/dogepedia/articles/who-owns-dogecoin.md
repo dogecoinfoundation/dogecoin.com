@@ -1,5 +1,5 @@
 +++
-title = "Who owns and controls the Dogecoin Network?"
+title = "谁拥有和控制狗狗币网络？"
 date = "2021-10-22"
 type = "article"
 
@@ -7,12 +7,12 @@ type = "article"
   name = "Dogecoin"
 +++
  
-One of the wonderful things about Dogecoin is that no-one, or no corporate entity, “owns” the Dogecoin blockchain: it is entirely open-source, permissionless, decentralised, and peer-to-peer.  
+狗狗币的一大优点是没有个人或公司团体能够控制狗狗币区块链网络：它是完全开源的、无需许可的、去中心化的和点对点的。  
 
-The Dogecoin network is “controlled” by the network of nodes through which it operates. Anyone can run a node, and to learn how to do so, [click here](/dogepedia/how-tos/operating-a-node). Some nodes also [mine Dogecoin](/dogepedia/how-tos/mining-dogecoin), meaning they perform computational work as part of the process to both confirm all transactions up to the next block, and the next block. They are rewarded for this work with a block reward. 
+狗狗币网络由运行的节点网络控制。任何人都可以运行一个节点，了解如何操作[请单击此处](/zh-cn/dogepedia/how-tos/operating-a-node). 一些节点还会[挖掘狗狗币](/zh-cn/dogepedia/how-tos/mining-dogecoin)，他们通过算力计算来确认下一区块、下下区块上要记录的交易。他们以此来获得区块奖励。
 
-Dogecoin nodes function via a decentralised consensus mechanism to prevent malicious actors from gaining control over the network. Simply put, if more than half of all nodes on the Dogecoin blockchain ‘agree’ that a transaction is valid, then the transaction is processed and stored in the blockchain.  
+狗狗币节点通过去中心化的共识机制，来防止恶意参与者获得对狗狗币网络的控制权。简单的来说，当且仅有狗狗币区块链上超过一半的节点认同一笔交易有效，那么这笔交易就会被处理并记录到区块链中。
+  
+这种通过分散的节点、点对点的方法，保证了狗狗币交易的安全性，而不需要一个像银行这样的中央控制方来实现安全。
 
-This decentralised control via nodes ensures that Dogecoin transactions are securely processed peer-to-peer without the need for a controlling centralised party, like a bank.  
-
-Cool, huh? 
+是不是很酷？ 
