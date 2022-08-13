@@ -13,9 +13,9 @@ type = "article"
 
 获得狗狗币的一种常见方法是从交易所购买。市面上有很多交易所，你可以在交易所用法定货币购买加密货币，也可以用加密货币兑换法定货币。
 
-你可以在交易所按照当前市场价格购买狗狗币，这被称为现价交易。或者你可以出一个价格，当市场价格到达这个价格的时候就会达成交易，这被称为限价交易。有一些交易所只允许他们的用户进行市价交易。
+你可以在交易所按照当前市场价格购买狗狗币，这被称为市价交易。或者你可以出一个价格，当市场价格到达这个价格的时候就会达成交易，这被称为限价交易。有一些交易所只允许他们的用户进行市价交易。
 
-尽管现在交易所的安全性已经有了很大提升，但是你在通过交易所购买狗狗币钱还是需要自己进行仔细的研究，一些风险和争议性问题仍然有可能出现。更安全起见，最好还是考虑把你的短期不打算用于交易的狗狗币放到一个[私有非托管钱包](/zh-cn/dogepedia/articles/how-do-i-get-a-wallet)里。
+尽管现在交易所的安全性已经有了很大提升，但是你在通过交易所购买狗狗币钱还是需要**自己进行仔细的研究**，一些风险和争议性问题仍然有可能出现。更安全起见，最好还是考虑把你的短期不打算用于交易的狗狗币放到一个[私有非托管钱包](/zh-cn/dogepedia/articles/how-do-i-get-a-wallet)里。
 
 ![image info](/assets/images/dogepedia/5.png)
  
@@ -29,4 +29,4 @@ type = "article"
 
 ### 其他 
 
-这里还有很多方法可以获得狗狗币。一些活动比如[Dogecoin Folding @ Home](/zh-cn/dogepedia/articles/dogecoin-folding-at-home),包括[挖矿](/zh-cn/dogepedia/how-tos/mining-dogecoin)都可以获得一些狗狗币! 
+这里还有很多方法可以获得狗狗币。一些活动比如[Dogecoin Folding @ Home](/zh-cn/dogepedia/articles/dogecoin-folding-at-home)，包括[挖矿](/zh-cn/dogepedia/how-tos/mining-dogecoin)都可以获得一些狗狗币！
