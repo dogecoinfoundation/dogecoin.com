@@ -22,12 +22,12 @@ aliases = ["dogepedia"]
 你的狗狗币之旅将从这里开始，拥有一个钱包你就可以开始储蓄或者花费狗狗币了。
 - [如何获得钱包？](/zh-cn/dogepedia/articles/how-do-i-get-a-wallet)
 - [如何备份钱包？](/zh-cn/dogepedia/articles/how-to-backup-a-wallet)
-- [硬件钱包的有点以及如何使用？](/zh-cn/dogepedia/articles/dogecoin-hardware-wallets)
+- [硬件钱包的优点以及如何使用？](/zh-cn/dogepedia/articles/dogecoin-hardware-wallets)
 - [如何找回丢失的钱包？](/zh-cn/dogepedia/articles/recover-a-lost-wallet)
 - [钱包到底是什么，是真实存在的吗？](/zh-cn/dogepedia/articles/what-is-a-wallet)
 
 ### 狗狗币的使用 {#using-doge}
-狗狗币是一种货币，你可以用它来付款和收款。
+狗狗币是一种加密货币，你可以用它来付款和收款。
 - [如何收发狗狗币？](/zh-cn/dogepedia/articles/send-and-receive-dogecoin)
 - [如何使用狗狗币从最喜欢的商店买东西？](/zh-cn/dogepedia/articles/using-dogecoin-in-a-store)
 - [使用狗狗币时候我的隐私有保护吗？](/zh-cn/dogepedia/articles/dogecoin-and-privacy)
