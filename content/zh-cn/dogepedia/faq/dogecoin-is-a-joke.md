@@ -1,5 +1,5 @@
 +++
-title = "Dogecoin is a joke!"
+title = "狗狗币就是个笑话！"
 date = "2021-10-22"
 type = "faq"
 
@@ -7,12 +7,12 @@ type = "faq"
   name = "Dogecoin"
 +++
 
-It is true that Dogecoin was born as a joke - and this sense of fun should forever remain and never go away! Despite Dogecoin’s genesis as a joke, though, more and more people are beginning to realise Dogecoin’s utilitarian value as a legitimate, efficient, and functional currency.  
+狗狗币确实是因一个玩笑而生，而且这种快乐精神将会永存！但是，正如无心插柳柳成荫，现在越来越多的人开始意识到狗狗币的实用价值，它有潜力成为一种合法的、高效的、极具性能的货币。
 
-Because of this, Dogecoin has now evolved into much *more* than ‘*just* a joke’, whilst still maintaining its LOL attitude. Indeed, as the late and great Sporklin once commented: “Dogecoin can be a joke and still be functional … While the branding is frontal jokes and memes, everything under that has been solid from the start”. 
+现在，狗狗币在保持其快乐精神的同时，已经发展成*不仅仅*是“*一个笑话*”。就像已故的伟大的Sporklin所说，“狗狗币可以是一个有用的玩笑“。狗狗币充满玩笑和模因的表象之下，是其自诞生以来就不断巩固的实用性根基。
 
-As a matter of fact, unlike other cryptocurrencies, Dogecoin has had its use case, and thus utility, from its inception. A few days after its launch in December 2013, a tipping bot became available, allowing users to easily tip each other on reddit. The speed of the transactions and the low fees made Dogecoin "the" tipping cryptocurrency on reddit, for a while. At the same time, the community also started collecting Dogecoin for many great causes and charitable endeavours.
+跟其他加密货币不同，狗狗币自诞生之时起，就很有实用性，有其现实的应用场景。2013年12月狗狗币诞生没几天，一个打赏程序就出现了，使用者可以在reddit上通过它来轻易的互相打赏。很长一段时间，狗狗币都因为交易高效和低费用被作为reddit上的打赏货币。在这段时间，狗狗币社区也用狗狗币支持了一些伟大事业和慈善事业。
 
-You can read more about the history of Dogecoin [here](/dogepedia/articles/history-of-dogecoin/) and about its utility [here](/dogepedia/faq/dogecoin-has-no-utility/).
+你可以在这里阅读更多关于[狗狗币历史](/zh-cn/dogepedia/articles/history-of-dogecoin/)和[实用性](/zh-cn/dogepedia/faq/dogecoin-has-no-utility/)的资料。
 
 ![image info](/assets/images/dogepedia/9.png)
