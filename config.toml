@@ -1106,3 +1106,108 @@ disableHugoGeneratorInject = false
   [[languages.kr.params.footerFoundation]]
     name = "Trailmap"
     url  = "https://foundation.dogecoin.com/trailmap/prologue/"
+
+
+##############################
+# Language Translation ZH-TW
+##############################
+
+  [languages.zh-tw]
+    subtitle  = "Much Welcome"
+    weight    = 4
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    contentDir = "content/zh-tw"
+
+[languages.zh-tw.menu]
+  [[languages.zh-tw.menu.main]]
+    identifier = "home"
+    name       = "So Home"
+    url        = "/"
+    weight     = 1
+
+  [[languages.zh-tw.menu.main]]
+    identifier = "what-is-dogecoin"
+    name       = "What is Dogecoin?"
+    url        = "#what-is-dogecoin"
+    weight     = 2
+
+  [[languages.zh-tw.menu.main]]
+    identifier = "wallets"
+    name       = "Much Wallets"
+    url        = "#wallets"
+    weight     = 3
+
+  [[languages.zh-tw.menu.main]]
+    identifier = "community"
+    name       = "Very Community"
+    url        = "#community"
+    weight     = 4
+
+  [[languages.zh-tw.menu.main]]
+    identifier = "dogepedia"
+    name       = "So Dogepedia"
+    url        = "dogepedia/"
+    weight     = 5
+
+    [languages.zh-tw.menu.main.params]
+      class = "parent"
+
+    [[languages.zh-tw.menu.main]]
+    identifier = "faq"
+    name       = "FAQ"
+    url        = "dogepedia/#faq"
+    parent = "dogepedia"
+    weight     = 5
+
+    [[languages.zh-tw.menu.main]]
+    identifier = "how-tos"
+    name       = "How Tos"
+    url        = "dogepedia/#howto"
+    parent = "dogepedia"
+    weight     = 5
+
+    [[languages.zh-tw.menu.main]]
+    identifier = "documentation"
+    name       = "Documentation"
+    url        = "dogepedia/#documentation"
+    parent = "dogepedia"
+    weight     = 5
+
+    [[languages.zh-tw.menu.main]]
+    identifier = "resource"
+    name       = "Resources"
+    url        = "resources/"
+    parent = "dogepedia"
+    weight     = 5
+
+[[languages.zh-tw.params.footerLegal]]
+    name = "Terms & Conditions"
+    url  = "/terms"
+
+  [[languages.zh-tw.params.footerLegal]]
+    name = "Privacy Policy"
+    url  = "/legal"
+
+  [[languages.zh-tw.params.footerLegal]]
+    name = "Trademarks"
+    url  = "/trademarks"
+
+[[languages.zh-tw.params.footerFoundation]]
+    name = "About"
+    url  = "https://foundation.dogecoin.com/about/"
+
+  [[languages.zh-tw.params.footerFoundation]]
+    name = "Manifesto"
+    url  = "https://foundation.dogecoin.com/manifesto/"
+
+  [[languages.zh-tw.params.footerFoundation]]
+    name = "Advisors"
+    url  = "https://foundation.dogecoin.com/about/"
+
+  [[languages.zh-tw.params.footerFoundation]]
+    name = "Blog"
+    url  = "https://foundation.dogecoin.com/announcements/"
+
+  [[languages.zh-tw.params.footerFoundation]]
+    name = "Trailmap"
+    url  = "https://foundation.dogecoin.com/roadmap/"
