@@ -1,5 +1,5 @@
 +++
-title = "Dogecoin and Privacy"
+title = "使用狗狗币的时候我的隐私有保护吗？"
 date = "2021-10-22"
 type = "article"
 
@@ -7,8 +7,8 @@ type = "article"
   name = "Dogecoin"
 +++
 
-Privacy is an interesting topic, and one in which Dogecoin community members are actively involved. For starters, it’s worthwhile acknowledging that every transaction on the blockchain is public. That is, it’s possible for anyone to see any Dogecoin transaction that has ever been made if you have the public wallet address! This is why, if you wish to remain anonymous, it’s important not to claim any public address as yours. 
+隐私是一个有趣、也是狗狗币社区成员积极参与的话题。首先，值得承认的是区块链上的每一笔交易都是公开的。也就是说，如果你有公共钱包地址，任何人都有可能看到任何狗狗币的交易记录！这就是为什么，如果你想保持匿名，就要格外注意不要声称任何公开地址是你的。
 
-If you have a [hardware wallet](/dogepedia/articles/dogecoin-hardware-wallets), you can create new randomised public addresses for new transactions after the previous transaction has occurred. Some people prefer to do this for anonymity and privacy reasons, and you can even create several accounts under the same [seed phrase](/dogepedia/articles/how-to-backup-a-wallet) so that Dogecoin can be stored in different accounts according to their purpose (for example, account 1 for daily transactions, account 2 for charity, etc). 
+如果你有一个[硬件钱包](/dogepedia/articles/dogecoin-hardware-wallets)，你可以在之前的交易发生后为新的交易创建新的随机公共地址。有些人出于匿名和隐私的原因喜欢这样做，你甚至可以在同一个[助记词](/dogepedia/文章/如何备份钱包)下创建多个帐户，这样狗狗币就可以根据它们的用途存储在不同的帐户中(例如，帐户1用于日常交易，帐户2用于慈善等等)。
 
-Ultimately, though, it’s important to remember that the [blockchain](/dogepedia/articles/what-is-a-blockchain) is a **public** ledger, and it’s possible to see all Dogecoin transactions that have occurred over time. Moreover, even if public addresses aren’t directly associated with people or organisations, there may come a point in the future whereby computer scientists are able to de-anonymise public address and link them to their owner.
+但最终，格外要记住，区块链是一个公共账本，它可以看到所有时间的狗狗币交易记录。此外，即使公共地址与个人或组织没有直接联系，在未来的某个时刻，计算机科学家可能会借此对公共地址进行去匿名化处理，并将它们与所有者联系起来。
