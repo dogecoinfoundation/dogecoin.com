@@ -1,5 +1,5 @@
 +++
-title = "Who are the current Dogecoin developers?"
+title = "现在狗狗币的开发者是谁？"
 date = "2021-10-22"
 type = "article"
 
@@ -7,12 +7,12 @@ type = "article"
   name = "Dogecoin"
 +++
 
-The development of Dogecoin is open, permissionless, and participatory. Over the years, a varied group of developers has contributed to the development of Dogecoin Core, Dogecoin's reference implementation.
+狗狗币的发展是开放的、无需许可的、参与式的。多年来，不同的开发团队为狗狗币核心(狗狗币的参考实现)的开发做出了贡献。
 
-Dogecoin was created by Billy Markus and Jackson Palmer in 2013. Billy worked on Dogecoin Core as its main developer for its first releases. Dogecoin Core started as a fork of Lucky Coin and Litecoin, themselves forks of Bitcoin Core. Dogecoin Core thus derived most of its codebase from the work Bitcoin developers had done on the Bitcoin repository.
+狗狗币是由Billy Markus和Jackson Palmer在2013年创造的。Billy作为狗狗币核心的主要开发者参与了它的第一次发行。狗狗币核心最初源自幸运币和莱特币，而幸运币和莱特币则源自比特币核心。因此，狗狗币核心的大部分代码来源于比特币开发者在其项目上所做的工作。
 
-In 2014, Billy and Jackson left the project. A group of developers replaced them to act as maintainers of the repository. This group, whose composition changed  over the years, coordinated the efforts of more than 40 contributors. New contributors can join the development of Dogecoin Core in the public Github repository, available [here](https://github.com/dogecoin/dogecoin).
+2014年，Billy和Jackson离开了这个项目。而另一组开发人员取代了他们，成为该项目的维护者。这个团队多年来一直在发生变化，它由40多个贡献者互相协作，并且硕果累累。如果新的贡献者想参与狗狗币核心的开发工作，请访问其Github上的[公共代码库](https://github.com/dogecoin/dogecoin)。
 
-Development of the overall ecosystem is also crucial - as if the aim of the reference implementation is to build a solid and stable foundation, innovation can happen through services built on top of it (and at times, in synergy with it). There are many solo developers, organizations, and companies building services on top of the existing Dogecoin Core codebase, including payment channel functionality, experimental support for NFTs, and tipping services. The Dogecoin Foundation repository can be found on Github [here](https://github.com/dogecoinfoundation).
+整个生态系统的发展也至关重要——就好像参考实现的目的是为了建立一个坚实而稳定的基础，创新可以通过建立在其上的服务产生(有时，与之协同)。有许多独立开发者、组织和公司在现有狗狗币核心的代码基础上构建服务，包括支付通道功能、对NFT的实验性支持和打赏服务。狗狗币基金会的项目可以在Github上找到，[请查看这里](https://github.com/dogecoinfoundation)。
 
-You do not need any authorization or permission to start contributing to Dogecoin Core or to build new services on top of it. If you are interested in becoming a Dogecoin developer, learn more [here](/dogepedia/articles/becoming-a-dogecoin-developer).
+你不需要任何授权或许可就可以开始为狗狗币核心做出贡献或在其上构建新的服务。如果你有兴趣成为一名狗狗币开发者，[在这里](/zh-cn/dogepedia/articles/becoming-a-dogecoin-developer/）可以了解更多。

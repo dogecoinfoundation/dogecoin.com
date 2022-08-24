@@ -1,5 +1,5 @@
 +++
-title = "How can I become a Dogecoin developer?"
+title = "如何成为一个狗狗币开发者？"
 date = "2022-04-19"
 type = "article"
 
@@ -8,12 +8,12 @@ type = "article"
 
 +++
 
-Dogecoin is an open-source project, meaning that anyone with some technical know-how can contribute to Dogecoin’s technical development. Even if you’re new to the space, it’s never too late to learn new tricks!  
+狗狗币是一个开源项目，这意味着在技术上知行合一的任何人都可以为狗狗币的开发做出贡献。就算你是新手，学习新技巧也都永远不晚！
 
-Dogecoin has an amazing team of developers and volunteers who are committed to welcoming new people into the space and helping them to learn and develop their skills. The community is extremely encouraging, too, and it’s very common to see old Shibes helping new Shibes as they enter the space.  
+狗狗币有一个了不起的开发者和志愿者团队，他们致力于欢迎新人加入，并帮助他们学习和发展他们的技能。这个社区也特别鼓舞人心，时常可以看到老狗们在帮助新来的狗子们。
 
-Dogecoin has many projects through which you can help: Core, Libdogecoin, Gigawallet, Documentation, and websites to name but a few. [As emphasised](https://twitter.com/tjstebbing/status/1480001128880230401?s=20) by the Dogecoin Foundation’s Timothy Stebbing: YOU can be a Dogecoin Dev just by picking-up your metaphorical shovel! Opensource communities are meritocracies: the more you do, the more you’re respected and the more you can be the change you want to see! 
+狗狗币有很多你可以帮助的项目：Core、Libdogecoin、Gigawallet、文档和网站等等。正如狗狗币基金会的[Timothy Stebbing](https://twitter.com/tjstebbing/status/1480001128880230401?s=20)所强调的：只要拿起你的铲子，你就可以成为狗狗币的开发者！开源社区崇尚任人唯贤：你做得越多，你就越受尊重，你就越能成为自己所期待的样子！
 
-The Dogecoin developers are passionate about growing the space through which people can BUIDL the Dogecoin ecosystem. To this end, one of the key objectives behind [Libdogecoin](https://github.com/dogecoinfoundation/libdogecoin) is to create bindings for many languages so that Dogecoin is more accessible to a broader developer audience.
+狗狗币的开发者们对这些能搞起狗狗币生态的人所带来的进步充满热情。为此，[Libdogecoin](https://github.com/dogecoinfoundation/libdogecoin)背后的一个关键目标是为许多编程语言建立捆绑，这样狗狗币就可以更广泛地面向开发人员。
 
-If you would like to contribute to Dogecoin technical development and become a Dogecoin developer, check-out the [Dogecoin Core](https://github.com/dogecoin/dogecoin) and [The Dogecoin Foundation](https://github.com/dogecoinfoundation) GitHub repositories and get involved!
+如果你想为狗狗币的技术开发做出贡献，成为狗狗币的开发者，请看看GitHub上[Dogecoin Core](https://github.com/dogecoin/dogecoin)和[狗狗币基金会](https://github.com/dogecoinfoundation)的项目，并参与进来！
