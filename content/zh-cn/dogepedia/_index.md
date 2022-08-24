@@ -40,7 +40,7 @@ article = "Articles"
 狗狗币是一种加密货币，你可以用它来付款和收款。
 - [如何收发狗狗币？](/zh-cn/dogepedia/articles/send-and-receive-dogecoin)
 - [如何使用狗狗币从最喜欢的商店买东西？](/zh-cn/dogepedia/articles/using-dogecoin-in-a-store)
-- [使用狗狗币时候我的隐私有保护吗？](/zh-cn/dogepedia/articles/dogecoin-and-privacy)
+- [使用狗狗币时我的隐私有保护吗？](/zh-cn/dogepedia/articles/dogecoin-and-privacy)
 
 ### 社区和生态 {#community-and-ecosystem}
 - [如何加入狗狗币社区？](/zh-cn/dogepedia/articles/join-the-dogecoin-community)
@@ -48,7 +48,7 @@ article = "Articles"
 - [我可以怎么参与进来做贡献？](/zh-cn/dogepedia/articles/how-can-i-help-doge)
 - [我的公司怎样接收狗狗币？](/zh-cn/dogepedia/articles/how-can-my-business-accept-dogecoin)
 - [现在有哪些商家接受狗狗币？](/zh-cn/dogepedia/articles/merchants-accepting-doge)
-- [那些慈善机构接受狗狗币？](/zh-cn/dogepedia/articles/charities-accepting-doge)
+- [哪些慈善机构接受狗狗币？](/zh-cn/dogepedia/articles/charities-accepting-doge)
 - [Dogecoin Folding @ Home是什么？](/zh-cn/dogepedia/articles/dogecoin-folding-at-home)
 
 ### 运行节点、挖矿、等等...... {#nodex-and-mining}
