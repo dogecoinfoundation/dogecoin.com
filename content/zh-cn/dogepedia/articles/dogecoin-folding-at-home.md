@@ -1,5 +1,5 @@
 +++
-title = "What is Dogecoin Folding @ Home?"
+title = "Dogecoin Folding @ Home是什么？"
 date = "2021-10-22"
 type = "article"
 
