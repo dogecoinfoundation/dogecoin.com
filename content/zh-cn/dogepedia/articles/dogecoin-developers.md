@@ -15,4 +15,4 @@ type = "article"
 
 整个生态系统的发展也至关重要——就好像参考实现的目的是为了建立一个坚实而稳定的基础，创新可以通过建立在其上的服务产生(有时，与之协同)。有许多独立开发者、组织和公司在现有狗狗币核心的代码基础上构建服务，包括支付通道功能、对NFT的实验性支持和打赏服务。狗狗币基金会的项目可以在Github上找到，[请查看这里](https://github.com/dogecoinfoundation)。
 
-你不需要任何授权或许可就可以开始为狗狗币核心做出贡献或在其上构建新的服务。如果你有兴趣成为一名狗狗币开发者，[在这里](/zh-cn/dogepedia/articles/becoming-a-dogecoin-developer/）可以了解更多。
+你不需要任何授权或许可就可以开始为狗狗币核心做出贡献或在其上构建新的服务。如果你有兴趣成为一名狗狗币开发者，[在这里](/zh-cn/dogepedia/articles/becoming-a-dogecoin-developer/)可以了解更多。
