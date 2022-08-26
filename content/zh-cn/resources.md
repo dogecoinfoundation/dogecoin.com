@@ -1,5 +1,5 @@
 +++
-title = "自愿"
+title = "资源"
 date = "2021-10-22"
 aliases = ["resources"]
 type = "resources"
