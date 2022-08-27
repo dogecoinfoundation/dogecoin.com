@@ -42,13 +42,13 @@ other = "最后修改"
 # website header SEO
 ##############################
 ["meta[title]"]
-other = "Dogecoin - An open-source peer-to-peer digital currency"
+other = "狗狗币 - 开源点对点的数字货币"
 
 ["meta[description]"]
-other = "An open-source peer-to-peer digital currency, favoured by Shiba Inus worldwide"
+other = "全世界狗狗爱好者们拥护的开源点对点数字货币"
 
 ["meta[keywords]"]
-other = "dogecoin, doge, currency, cryptocurrency, digital currency, shiba inu"
+other = "狗狗币, doge, 货币, 加密货币, 数字货币, 柴犬"
 
 
 ##############################
@@ -108,141 +108,141 @@ other = "y"
 ##############################
 
 ["list[some-respurces]"]
-other = "some resources"
+other = "资料"
 
 ["list[read-more]"]
-other = "Read more"
+other = "了解更多"
 
 
 ##############################
 # partials/whatisdogecoin.html
 ##############################
 ["whatisdogecoin[title]"]
-other = "What is Dogecoin?"
+other = "狗狗币是什么"
 
 ["whatisdogecoin[text1]"]
-other = "An open-source peer-to-peer digital currency, favoured by"
+other = "开源点对点的数字货币"
 
 ["whatisdogecoin[text2]"]
-other = "Shiba Inus worldwide."
+other = "全世界狗狗爱好者们的最爱。"
 
 ["whatisdogecoin[lead]"]
-other = "At its heart,"
+other = "本质来讲，"
 
 ["whatisdogecoin[lead][text1]"]
-other = "Dogecoin is the accidental crypto movement that makes people smile! It is also an opensource peer-to-peer cryptocurrency that utilises blockchain technology, a highly secure decentralised system of storing information as a public ledger that is maintained by a network of computers called nodes. More than this, though, is the ethos of Dogecoin, summarised in the"
-
+other = "本质来讲，狗狗币是一场偶然发起的给人们带来快乐的加密货币运动！狗狗币是一种运用区块链技术的开源分布式数字货币 , 通过运用由计算机节点组成的网络进行记账实现了一个高度安全的去中心化的系统。 更重要的，狗狗币所蕴含的精神，如"
+这是一种高度安全的分散系统，将信息存储为公共分类账，由称为节点的计算机网络维护。然而，更重要的是狗狗币的精神，总结在 狗狗币宣言 中，以及由像你一样友好的人组成的令人惊叹、充满活力的社区！ 学到更多。
 ["whatisdogecoin[lead][text2]"]
-other = "Dogecoin Manifesto"
+other = "狗狗币宣言"
 
 ["whatisdogecoin[lead][text3]"]
-other = ", and its amazing, vibrant community made up of friendly folks just like you!"
+other = "中所言，是一个由你我一样友善的人组成的令人惊叹、充满活力的社区！"
 
 ["whatisdogecoin[here]"]
-other = "Learn more."
+other = "了解更多。"
 
 ["whatisdogecoin[choosewallet][started]"]
-other = "Getting started"
+other = "让我们开始吧！"
 
 ["whatisdogecoin[choosewallet][title1]"]
-other = "choose your wallet"
+other = "选择钱包"
 
 ["whatisdogecoin[choosewallet][text1]"]
-other = "A wallet is necessary for people wanting to use, trade, or hold Dogecoin. You can pick a wallet"
+other = "对于想要使用、交易、持有狗狗币的人来说，一个钱包都是必须的。来挑选一个钱包把。"
 
 ["whatisdogecoin[choosewallet][title2]"]
-other = "configure your wallet"
+other = "配置钱包"
 
 ["whatisdogecoin[choosewallet][text2]"]
-other = "After downloading, you can configure your wallet according to our"
+other = "下载完成后，可以根据指南进行钱包配置。"
 
 ["whatisdogecoin[guide]"]
-other = "guide."
+other = "指南"
 
 ["whatisdogecoin[choosewallet][title3]"]
-other = "get some dogecoin"
+other = "获取狗狗币"
 
 ["whatisdogecoin[choosewallet][text3]"]
-other = "There’s lots of ways to get your hands on some Dogecoin."
+other = "获取狗狗币有很多方法。"
 
 ["whatisdogecoin[learnmore]"]
-other = "Learn more."
+other = "了解更多"
 
 ##############################
 # partials/wallets.html
 ##############################
 ["wallets[title]"]
-other = "Wallets"
+other = "钱包"
 
 ["wallets[text1]"]
-other = "There are many ways you can get a wallet, and the best choice of wallet for you is dependent upon the purpose for which you intend to use your Dogecoin. There are two overarching categories of wallets: ‘custodial’ and ‘non-custodial’, depending on whether you are the sole holder of your wallet’s private key. The wallets listed on this website are non-custodial wallets, meaning that you possess and control the private keys."
+other = "无论是交易狗狗币，使用狗狗币还是屯狗狗币，拥有一个狗狗币钱包都是必须的。狗狗币钱包有多种选择，具体哪个最合适，要看你的使用目的是什么。一般来说，钱包有两大类，根据你是否是钱包密码的唯一所有者，可以分为托管钱包和非托管钱包。另外，还可以根据是否接入互联网，分为热钱包和冷钱包。我们网站上所列的钱包都是非托管钱包，也就是说你自己控制自己的钱包密码。"
 
 ["wallets[multidoge][title1]"]
 other = "MultiDoge"
 
 ["wallets[multidoge][text1]"]
-other = "MultiDoge is a 'light' wallet. It syncs with the blockchain by 'skimming' through the blockchain, providing fast sync times."
+other = "MultiDoge是一个轻量级钱包。它通过“跳读”浏览区块链网络来进行数据同步，提高了同步的效率。"
 
 ["wallets[core][title1]"]
 other = "Dogecoin Core"
 
 ["wallets[core][text1]"]
-other = "Dogecoin Core, on the other hand, is a 'full' wallet. It syncs by downloading the blockchain, providing a solid-working Dogecoin wallet."
+other = "Dogecoin Core是一个完整的钱包，它通过下载完整的区块链数据来进行同步，提供了一个独立运行的狗狗币钱包。"
 
 ["wallets[mydoge][title1]"]
 other = "MyDoge"
 
 ["wallets[mydoge][text1]"]
-other = "MyDoge is a free and secure self-custodial Dogecoin wallet. It's also a community for Dogecoin enthusiasts to explore the Dogeverse and connect with friends! With MyDoge, you can buy, send, receive, and store your Dogecoin safely. You can also send & receive Dogecoin tips on Twitter. MyDoge Wallet - Your Keys, Your Crypto."
+other = "MyDoge是一个免费安全的自托管狗狗币千百。它也是一个狗狗币爱好者们探索狗狗币世界、结识朋友的社区！有了MyDoge，你就可以安全的购买、发送、储藏狗狗币，你也可以在Twitter上收发狗狗币。 MyDoge Wallet - 你自己的密钥，你自己的钱包。"
 
 ##############################
 # partials/community.html
 ##############################
 ["community[title1]"]
-other = "Do Only"
+other = "每日"
 
 ["community[title2]"]
-other = "Good Everyday."
+other = "正气"
 
 ["community[text1]"]
-other = "The Dogecoin community cares about supporting each other, being kind, teaching people about cryptocurrency, fundraising, having fun, making memes, and being absurd. This is nicely captured by Dogecoin’s unofficial tagline: <b>D</b>o <b>O</b>nly <b>G</b>ood <b>E</b>veryday. Get involved in our awesome community via the below links:"
+other = "狗狗币社区致力于互帮互助、友善、普及加密货币、寻求筹款支持、有趣、形成信仰以及将荒谬变成现实。狗狗币的非官方口号很好地概括了这些： <b>每日正气</b>。通过以下链接来加入我们卓越的社区吧:"
 
 ##############################
 # partials/community.html
 ##############################
 
 ["resources[title]"]
-other = "Find out more about Dogecoin"
+other = "了解更多关于狗狗币"
 
 ["resources[viewall]"]
-other = "VIEW ALL"
+other = "全部查看"
 
 ["resources[visit]"]
-other = "Visit"
+other = "点击查看"
 
 ["resources[title1]"]
-other = "Foundation"
+other = "基金会"
 
 ["resources[text1]"]
-other = "Learn more about the Dogecoin Foundation and its Trailmap for Dogecoin!"
+other = "了解更多关于狗狗币基金会和狗狗币路线图！"
 
 ["resources[title2]"]
-other = "Blogs"
+other = "博文"
 
 ["resources[text2]"]
-other = "Stay up to date with blog posts from Foundation Developers!"
+other = "随时了解基金会开发者们的博文！"
 
 ["resources[title3]"]
-other = "Announcements"
+other = "公告"
 
 ["resources[text3]"]
-other = "Announcements from the Dogecoin Foundation can be found here."
+other = "在这里查看狗狗币基金会的公告。"
 
 ["resources[title4]"]
-other = "IP FAQs"
+other = "IP常见问题"
 
 ["resources[text4]"]
-other = "Read our responses to some frequently asked questions about Dogecoin IP."
+other = "了解关于狗狗币IP常见问题的回答。"
 
 
 ##############################
@@ -250,39 +250,39 @@ other = "Read our responses to some frequently asked questions about Dogecoin IP
 ##############################
 
 ["tablist[read-more]"]
-other = "Read more"
+other = "了解更多"
 
 ##############################
 # partials/tablist_menu.html
 ##############################
 
 ["tabmenu[faq]"]
-other = "FAQ"
+other = "常见问题"
 
 ["tabmenu[resources]"]
-other = "Resources"
+other = "资源"
 
 ["tabmenu[how-to]"]
-other = "How To's"
+other = "如何上手"
 
 ["tabmenu[documentation]"]
-other = "Documentation"
+other = "文档"
 
 ##############################
 # partials/footer.html
 ##############################
 
 ["footer[text1]"]
-other = "The Shiba Inu is a Japanese breed of dog that was popularized as an online meme and represents Dogecoin. Dogecoin was created by Jackson Palmer & Shibetoshi Nakamoto."
+other = "柴犬是一种日本犬，在网络上很受欢迎，形成了一种模因，是狗狗币的象征。狗狗币由Jackson Palmer和Shibetoshi Nakamoto创立。"
 
 ["footer[legal]"]
-other = "Legal"
+other = "法律声明"
 
 ["footer[sitemap]"]
-other = "Sitemap"
+other = "网站地图"
 
 ["footer[foundation]"]
-other = "Foundation"
+other = "基金会"
 
 ["footer[copyright]"]
 other = "The Dogecoin Foundation & Dogecoin Project. All rights reserved."
@@ -292,10 +292,10 @@ other = "The Dogecoin Foundation & Dogecoin Project. All rights reserved."
 ##############################
 
 ["listWallets[muchgoback]"]
-other = "Much Go Back"
+other = "返回"
 
 ["listWallets[wallet]"]
-other = "Wallet"
+other = "钱包"
 
 ["listWallets[type]"]
 other = "Type"
@@ -304,23 +304,23 @@ other = "Type"
 other = "Active"
 
 ["listWallets[version]"]
-other = "Version"
+other = "版本"
 
 ["listWallets[download]"]
-other = "Download"
+other = "下载"
 
 ##############################
 # contributors/list.html
 ##############################
 
 ["listContributors[muchgoback]"]
-other = "Much Go Back"
+other = "返回"
 
 ["listContributors[shibe]"]
-other = "Shibe"
+other = "贡献者"
 
 ["listContributors[contribution]"]
-other = "Contribution"
+other = "贡献"
 
 ["listContributors[social]"]
-other = "Social"
+other = "社交账号"
