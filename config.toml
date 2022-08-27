@@ -499,7 +499,7 @@ disableHugoGeneratorInject = false
 
   [[languages.zh-cn.menu.main]]
     identifier = "what-is-dogecoin"
-    name       = "狗狗币是什么？"
+    name       = "狗狗币是什么"
     url        = "#what-is-dogecoin"
     weight     = 2
 
@@ -573,7 +573,7 @@ disableHugoGeneratorInject = false
     url  = "https://foundation.dogecoin.com/zh-cn/manifesto/"
 
   [[languages.zh-cn.params.footerFoundation]]
-    name = "顾问"
+    name = "顾问团"
     url  = "https://foundation.dogecoin.com/zh-cn/about/"
 
   [[languages.zh-cn.params.footerFoundation]]

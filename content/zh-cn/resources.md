@@ -8,7 +8,7 @@ page = "page/resources.html"
   name = "Dogecoin"
 +++
 
-狗狗爱好者们创建的资源列表，方便使用和研究狗狗币。
+### 狗狗爱好者们创建的资源列表，方便使用和研究狗狗币。
 
 ### 监测、研究狗狗币及其网络的工具
 - [SoChain - 狗狗币区块链浏览器](https://sochain.com/DOGE)
@@ -24,7 +24,7 @@ page = "page/resources.html"
 ### 第三方支付服务提供商
 - [Coinbase - 为Wordpress和Shopify提供集成服务](https://commerce.coinbase.com/integrate)
 - [Bitpay - 为多个平台提供集成服务](https://bitpay.com/integrations/)
-Communities
+
 ### 社区
 - [reddit狗狗币社区](https://reddit.com/r/dogecoin)
 - [reddit狗狗币开发者社区](https://reddit.com/r/dogecoindev)
