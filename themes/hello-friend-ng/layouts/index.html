@@ -34,6 +34,7 @@
           </div>
 <style type="text/css">
 .sbbox {
+  text-decoration: none;  
   width: 40%;
   margin: 50px auto;
   left: 80%;
@@ -45,6 +46,10 @@
   font-weight: 900;
   font-family: arial;
   position: absolute;
+}
+
+.sbbox:hover {
+ text-decoration: underline;
 }
 
 .sbleft:after {
@@ -75,7 +80,7 @@
 
 </style>
               <div style="position: relative; z-index: 69;">
-                    <div class="sbbox sbleft comic-neue">{{i18n "index[warning]" }}</div>
+                    <a href="https://github.com/dogecoin/dogecoin/releases/" target="_blank"><div class="sbbox sbleft comic-neue">{{i18n "index[warning]" }}</div></a>
                     <img class="dogelogo" src="/assets/images/doge.svg" alt="Doge" onclick="document.querySelector('#ShootingDoges').style.display = 'flex';" />
                 <h1 class="d_text_display d_span_opacity comic-neue"><span id="dynamic_d">D</span>OGECOIN</h1>
                </div>
