@@ -1,7 +1,6 @@
 {{ define "body" }}
   <body class="home"  style="overflow: hidden; padding: 20px">
 {{ end }}
-
 {{ define "main" }}
     <!-- The video -->
     <div>
@@ -33,7 +32,50 @@
               <div class="star__main"><img src="/assets/images/doge_star.png" alt="Dogecoin" /></div>
             </div>
           </div>
+<style type="text/css">
+.sbbox {
+  width: 40%;
+  margin: 50px auto;
+  left: 80%;
+  border-radius: 15px;
+  background: #eee;
+  color: #000;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  font-family: arial;
+  position: absolute;
+}
+
+.sbleft:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid #eee;
+  border-bottom: 15px solid #eee;
+  border-top: 15px solid transparent;
+  left: -16px;
+  top: 60%;
+}
+
+@media (max-width:1000px) {
+  .sbbox {
+    width: 90%;
+     position: relative;
+     margin: 20px;
+     left: auto;
+  }
+.sbleft:after{
+ display: none;
+}
+}
+
+
+</style>
               <div style="position: relative; z-index: 69;">
+                    <div class="sbbox sbleft comic-neue">{{i18n "index[warning]" }}</div>
                     <img class="dogelogo" src="/assets/images/doge.svg" alt="Doge" onclick="document.querySelector('#ShootingDoges').style.display = 'flex';" />
                 <h1 class="d_text_display d_span_opacity comic-neue"><span id="dynamic_d">D</span>OGECOIN</h1>
                </div>
@@ -41,21 +83,21 @@
 <div style="min-width: 400px;">
                 <div class="mt-1" style=" min-height: 20px">
                     <div class="preload comic-neue" style="">
-                        <span class="subtitle poppins fw-light text-white">the people’s</span>
-                        <span class="preload__letter subtitle poppins fw-light text-white">C</span>
-                        <span class="preload__letter subtitle poppins fw-light text-white">r</span>
-                        <span class="preload__letter subtitle poppins fw-light text-white">y</span>
-                        <span class="preload__letter subtitle poppins fw-light text-white">p</span>
-                        <span class="preload__letter subtitle poppins fw-light text-white">t</span>
-                        <span class="preload__letter subtitle poppins fw-light text-white">o</span>
-                        <span class="preload__letter subtitle poppins fw-light text-white">c</span>
-                        <span class="preload__letter subtitle poppins fw-light text-white">u</span>
-                        <span class="preload__letter subtitle poppins fw-light text-white">r</span>
-                        <span class="preload__letter subtitle poppins fw-light text-white">r</span>
-                        <span class="preload__letter subtitle poppins fw-light text-white">e</span>
-                        <span class="preload__letter subtitle poppins fw-light text-white">n</span>
-                        <span class="preload__letter subtitle poppins fw-light text-white">c</span>
-                        <span class="preload__letter subtitle poppins fw-light text-white">y</span>
+                        <span class="subtitle poppins fw-light text-white">{{i18n "index[slogan]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganC]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganR]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganY]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganP]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganT]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganO]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganC1]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganU]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganR1]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganR2]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganE]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganN]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganC2]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganY1]" }}</span>
                     </div>
                 </div>
 </div>
@@ -63,11 +105,19 @@
             </div>
         </div>
     </div>
+    {{ if ne (i18n "finish[translation]") "yes"}}
+      {{ if ne (.Lang) "en"}}
+        <div class="alert alert-warning" role="alert" style="position: absolute; top: 80px; z-index: 1; width: 100%">
+          This is only partially translated to {{ if eq (.Lang) "pt-pt"}}<span class="flag flag-icon flag-icon-pt"></span>{{ else }}<span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }}" ></span>{{ end }} <span class="badge bg-dark text-light comic-neue">{{.Lang}}</span>. Please help us finish the translation here: <a href="https://github.com/dogecoinfoundation/dogecoin.com/blob/main/doc/how-to-translate-website.md"><b>How to Translate</b></a>
+        </div>
+      {{ end }}
+    {{ end }}
     <main>
+
         {{ partial "whatisdogecoin.html" . }}
         {{ partial "community.html" . }}
         {{ partial "resources.html" . }}
-    <div style="width: 100vw !important"></div>        
+    <div style="width: 100vw !important"></div>
     </main>
     <script type="text/javascript">
         setTimeout(function () {

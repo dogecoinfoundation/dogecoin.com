@@ -15,7 +15,7 @@ other = "Também disponível em"
 other = "Arquivo"
 
 [home]
-other = "Início"
+other = "Uau"
 
 [notFound]
 other = "Oops, página não encontrada…"
@@ -41,154 +41,207 @@ other = "Última actualização"
 # website header SEO
 ##############################
 ["meta[title]"]
-other = "Dogecoin - An open-source peer-to-peer digital currency"
+other = "Dogecoin - Uma moeda digital peer-to-peer de código aberto"
 
 ["meta[description]"]
-other = "An open-source peer-to-peer digital currency, favoured by Shiba Inus worldwide"
+other = "Uma moeda digital peer-to-peer de código aberto, favorecido por Shiba Inus em todo o mundo"
 
 ["meta[keywords]"]
-other = "dogecoin, doge, currency, cryptocurrency, digital currency, shiba inu"
+other = "dogecoin, doge, moeda, cryptomoeda, moeda digital, shiba inu"
+
+
+##############################
+# index.html
+##############################
+
+["index[warning]"]
+other = "Carteira Muito Core 1.14.6 released! Muito upgrade, pff!"
+
+["index[slogan]"]
+other = "do povo"
+
+["index[sloganC]"]
+other = "c"
+
+["index[sloganR]"]
+other = "r"
+
+["index[sloganY]"]
+other = "y"
+
+["index[sloganP]"]
+other = "p"
+
+["index[sloganT]"]
+other = "t"
+
+["index[sloganO]"]
+other = "o"
+
+["index[sloganC1]"]
+other = "m"
+
+["index[sloganU]"]
+other = "o"
+
+["index[sloganR1]"]
+other = "e"
+
+["index[sloganR2]"]
+other = "d"
+
+["index[sloganE]"]
+other = "a"
+
+["index[sloganN]"]
+other = "."
+
+["index[sloganC2]"]
+other = "."
+
+["index[sloganY1]"]
+other = "."
 
 ##############################
 # partials/list.html
 ##############################
 
 ["list[some-respurces]"]
-other = "some resources"
+other = "alguns recursos"
 
 ["list[read-more]"]
-other = "Read more"
+other = "Ler mais"
 
 
 ##############################
 # partials/whatisdogecoin.html
 ##############################
 ["whatisdogecoin[title]"]
-other = "What is Dogecoin?"
+other = "O que é Dogecoin?"
 
 ["whatisdogecoin[text1]"]
-other = "An open-source peer-to-peer digital currency, favoured by"
+other = "Uma moeda digital peer-to-peer de código aberto, favorecida por"
 
 ["whatisdogecoin[text2]"]
-other = "Shiba Inus worldwide."
+other = "Shiba Inus de todo o mundo."
 
 ["whatisdogecoin[lead]"]
-other = "At its heart,"
+other = "No seu coração,"
 
 ["whatisdogecoin[lead][text1]"]
-other = "Dogecoin is the accidental crypto movement that makes people smile! It is also an opensource peer-to-peer cryptocurrency that utilises blockchain technology, a highly secure decentralised system of storing information as a public ledger that is maintained by a network of computers called nodes. More than this, though, is the ethos of Dogecoin, summarised in the"
+other = "Dogecoin é o movimento criptográfico acidental que faz as pessoas sorrirem! É também uma criptomoeda peer-to-peer de código aberto que utiliza a tecnologia blockchain, um sistema descentralizado altamente seguro de armazenamento de informações como um livro público que é mantido por uma rede de computadores chamados nós. Mais do que isso, porém, é o ethos da Dogecoin, resumido no"
 
 ["whatisdogecoin[lead][text2]"]
-other = "Dogecoin Manifesto"
+other = "Manifesto Dogecoin"
 
 ["whatisdogecoin[lead][text3]"]
-other = ", and its amazing, vibrant community made up of friendly folks just like you!"
+other = ",e a sua comunidade incrível e vibrante composta por pessoas amigáveis como tu!"
 
 ["whatisdogecoin[here]"]
-other = "Learn more."
+other = "Ler mais."
 
 ["whatisdogecoin[choosewallet][started]"]
-other = "Getting started"
+other = "Começa aqui"
 
 ["whatisdogecoin[choosewallet][title1]"]
-other = "choose your wallet"
+other = "escolhe uma carteira"
 
 ["whatisdogecoin[choosewallet][text1]"]
-other = "A wallet is necessary for people wanting to use, trade, or hold Dogecoin. You can pick a wallet"
+other = "Uma carteira é necessária para as pessoas poderem utilizar, trocar ou guardar Dogecoin. Podes escolher uma carteira"
 
 ["whatisdogecoin[choosewallet][title2]"]
-other = "configure your wallet"
+other = "configura a tua carteira"
 
 ["whatisdogecoin[choosewallet][text2]"]
-other = "After downloading, you can configure your wallet according to our"
+other = "Após escolheres, poderás configurar a tua carteira, de acordo com o nosso"
 
 ["whatisdogecoin[guide]"]
-other = "guide."
+other = "guia."
 
 ["whatisdogecoin[choosewallet][title3]"]
-other = "get some dogecoin"
+other = "obtém algum dogecoin"
 
 ["whatisdogecoin[choosewallet][text3]"]
-other = "There’s lots of ways to get your hands on some Dogecoin."
+other = "Há muitas maneiras de colocar as mãos em alguns Dogecoin."
 
 ["whatisdogecoin[learnmore]"]
-other = "Learn more."
+other = "Aprender mais."
 
 ##############################
 # partials/wallets.html
 ##############################
-["wallets[title]"]
-other = "Wallets"
-
-["wallets[text1]"]
-other = "There are many ways you can get a wallet, and the best choice of wallet for you is dependent upon the purpose for which you intend to use your Dogecoin. There are two overarching categories of wallets: ‘custodial’ and ‘non-custodial’, depending on whether you are the sole holder of your wallet’s private key. The wallets listed on this website are non-custodial wallets, meaning that you possess and control the private keys."
-
-["wallets[multidoge][title1]"]
-other = "MultiDoge"
-
-["wallets[multidoge][text1]"]
-other = "MultiDoge is a 'light' wallet. It syncs with the blockchain by 'skimming' through the blockchain, providing fast sync times."
-
-["wallets[core][title1]"]
-other = "Dogecoin Core"
-
-["wallets[core][text1]"]
-other = "Dogecoin Core, on the other hand, is a 'full' wallet. It syncs by downloading the blockchain, providing a solid-working Dogecoin wallet."
-
-["wallets[mydoge][title1]"]
-other = "MyDoge"
-
-["wallets[mydoge][text1]"]
-other = "MyDoge is a free and secure self-custodial Dogecoin wallet. It's also a community for Dogecoin enthusiasts to explore the Dogeverse and connect with friends! With MyDoge, you can buy, send, receive, and store your Dogecoin safely. You can also send & receive Dogecoin tips on Twitter. MyDoge Wallet - Your Keys, Your Crypto."
-
+#["wallets[title]"]
+#other = "Carteiras"
+#
+#["wallets[text1]"]
+#other = "There are many ways you can get a wallet, and the best choice of wallet for you is dependent upon the purpose for which you intend to use your Dogecoin. There are two overarching categories of wallets: ‘custodial’ and ‘non-custodial’, depending on whether you are the sole holder of your wallet’s private key. The wallets listed on this website are non-custodial wallets, meaning that you possess and control the private keys."
+#
+#["wallets[multidoge][title1]"]
+#other = "MultiDoge"
+#
+#["wallets[multidoge][text1]"]
+#other = "MultiDoge is a 'light' wallet. It syncs with the blockchain by 'skimming' through the blockchain, providing fast sync times."
+#
+#["wallets[core][title1]"]
+#other = "Dogecoin Core"
+#
+#["wallets[core][text1]"]
+#other = "Dogecoin Core, on the other hand, is a 'full' wallet. It syncs by downloading the blockchain, providing a solid-working Dogecoin wallet."
+#
+#["wallets[mydoge][title1]"]
+#other = "MyDoge"
+#
+#["wallets[mydoge][text1]"]
+#other = "MyDoge is a free and secure self-custodial Dogecoin wallet. It's also a community for Dogecoin enthusiasts to explore the Dogeverse and connect with friends! With MyDoge, you can buy, send, receive, and store your Dogecoin safely. You can also send & receive Dogecoin tips on Twitter. MyDoge Wallet - Your Keys, Your Crypto."
+#
 ##############################
 # partials/community.html
 ##############################
 ["community[title1]"]
-other = "Do Only"
+other = "Faz Apenas"
 
 ["community[title2]"]
-other = "Good Everyday."
+other = "o Bem Todos os Dias."
 
 ["community[text1]"]
-other = "The Dogecoin community cares about supporting each other, being kind, teaching people about cryptocurrency, fundraising, having fun, making memes, and being absurd. This is nicely captured by Dogecoin’s unofficial tagline: <b>D</b>o <b>O</b>nly <b>G</b>ood <b>E</b>veryday. Get involved in our awesome community via the below links:"
+other = "A comunidade Dogecoin preocupa-se em se apoiar uns aos outros, ser simpatico, ensinar as pessoas sobre criptomoedas, arrecadar fundos, divertir-se, fazer memes e ser absurdo. Isto é bem capturado pelo slogan não oficial da Dogecoin: Do Only Good Everyday (traduzido quer dizer Faz Apenas o Bem Todos os Dias). Envolva-se no nossa incrível comunidade através dos links abaixo:"
 
 ##############################
 # partials/community.html
 ##############################
 
 ["resources[title]"]
-other = "Find out more about Dogecoin"
+other = "Saiba mais sobre Dogecoin"
 
 ["resources[viewall]"]
-other = "VIEW ALL"
+other = "VER TODOS"
 
 ["resources[visit]"]
-other = "Visit"
+other = "Visitar"
 
 ["resources[title1]"]
-other = "Foundation"
+other = "Fundação"
 
 ["resources[text1]"]
-other = "Learn more about the Dogecoin Foundation and its Trailmap for Dogecoin!"
+other = "Sabe mais sobre a Fundação Dogecoin e o seu Trailmap para Dogecoin."
 
 ["resources[title2]"]
 other = "Blogs"
 
 ["resources[text2]"]
-other = "Stay up to date with blog posts from Foundation Developers!"
+other = "Mantenha-se atualizado com os artigos do blog da Fundação dos Desenvolvedores!"
 
 ["resources[title3]"]
-other = "Announcements"
+other = "Anúncios"
 
 ["resources[text3]"]
-other = "Announcements from the Dogecoin Foundation can be found here."
+other = "Anúncios da Fundação Dogecoin podem ser encontrados aqui."
 
 ["resources[title4]"]
-other = "IP FAQs"
+other = "PI FAQs"
 
 ["resources[text4]"]
-other = "Read our responses to some frequently asked questions about Dogecoin IP."
+other = "Leia as nossas respostas a algumas perguntas frequentes sobre PI Dogecoin."
 
 
 ##############################
@@ -196,7 +249,7 @@ other = "Read our responses to some frequently asked questions about Dogecoin IP
 ##############################
 
 ["tablist[read-more]"]
-other = "Read more"
+other = "Ler mais"
 
 ##############################
 # partials/tablist_menu.html
@@ -206,51 +259,51 @@ other = "Read more"
 other = "FAQ"
 
 ["tabmenu[resources]"]
-other = "Resources"
+other = "Recursos"
 
 ["tabmenu[how-to]"]
-other = "How To's"
+other = "Como fazer"
 
 ["tabmenu[documentation]"]
-other = "Documentation"
+other = "Documentação"
 
 ##############################
 # partials/footer.html
 ##############################
 
 ["footer[text1]"]
-other = "The Shiba Inu is a Japanese breed of dog that was popularized as an online meme and represents Dogecoin. Dogecoin was created by Jackson Palmer & Shibetoshi Nakamoto."
+other = "O Shiba Inu é uma raça japonesa canina que foi popularizada como um meme online e representa Dogecoin. Dogecoin foi criado por Jackson Palmer e Shibetoshi Nakamoto."
 
 ["footer[legal]"]
-other = "Legal"
+other = "Legalidades"
 
 ["footer[sitemap]"]
-other = "Sitemap"
+other = "Mapa do Site"
 
 ["footer[foundation]"]
-other = "Foundation"
+other = "Fundação"
 
 ["footer[copyright]"]
-other = "The Dogecoin Foundation & Dogecoin Project. All rights reserved."
+other = "A Fundação Dogecoin e o Projeto Dogecoin. Todos os direitos reservados."
 
 ##############################
 # wallets/list.html
 ##############################
 
 ["listWallets[muchgoback]"]
-other = "Much Go Back"
+other = "Muito Voltar Atrás"
 
 ["listWallets[wallet]"]
-other = "Wallet"
+other = "Carteira"
 
 ["listWallets[type]"]
-other = "Type"
+other = "Tipo"
 
 ["listWallets[active]"]
-other = "Active"
+other = "Activo"
 
 ["listWallets[version]"]
-other = "Version"
+other = "Versão"
 
 ["listWallets[download]"]
 other = "Download"
@@ -260,13 +313,13 @@ other = "Download"
 ##############################
 
 ["listContributors[muchgoback]"]
-other = "Much Go Back"
+other = "Muito Voltar Atrás"
 
 ["listContributors[shibe]"]
 other = "Shibe"
 
 ["listContributors[contribution]"]
-other = "Contribution"
+other = "Contribuição"
 
 ["listContributors[social]"]
 other = "Social"

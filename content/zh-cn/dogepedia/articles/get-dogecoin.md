@@ -1,33 +1,32 @@
 +++
-title = "How can I get Dogecoin?"
+title = "如何获得狗狗币？"
 date = "2021-10-22"
 type = "article"
 
 [ author ]
   name = "Dogecoin"
 +++
- 
-There are many ways to get your hands on Dogecoin: from exchanges, receiving tips, accepting Dogecoin for goods and services, and even from projects like Dogecoin Folding @ Home!  
 
-### Exchanges 
+有很多方法可以获得狗狗币，比如从交易所购买，比如通过小费打赏，比如提供商品和服务获得狗狗币，还可以通过参与一些项目比如Dogecoin Folding @ Home。
 
-A popular way people get their hands on Dogecoin is via an exchange. There are many exchanges on the market, and they are most commonly used to exchange fiat money for cryptocurrency, or to exchange cryptocurrency for fiat money.  
+### 交易所
 
-You can purchase Dogecoin on an exchange at the current market price (this is called a market *taker* transaction), or by making an offer to purchase cryptocurrency once it reaches a specified price (a market *maker* transaction). Some exchanges only allow its users to purchase cryptocurrencies via market taker transactions.  
+获得狗狗币的一种常见方法是从交易所购买。市面上有很多交易所，你可以在交易所用法定货币购买加密货币，也可以用加密货币兑换法定货币。
 
-Although the security of exchanges has come a long way in recent years, it is still crucial that you **do your own research (DYOR)** before purchasing Dogecoin via an exchange, because they are not immune to security risks or controversy. For added security, it is also important to consider keeping the Dogecoin that you do not intend to use for trading in a [private non-custodial wallet](/dogepedia/articles/how-do-i-get-a-wallet).
+你可以在交易所按照当前市场价格购买狗狗币，这被称为市价交易。或者你可以出一个价格，当市场价格到达这个价格的时候就会达成交易，这被称为限价交易。有一些交易所只允许他们的用户进行市价交易。
+
+尽管现在交易所的安全性已经有了很大提升，但是你在通过交易所购买狗狗币钱还是需要**自己进行仔细的研究**，一些风险和争议性问题仍然有可能出现。更安全起见，最好还是考虑把你的短期不打算用于交易的狗狗币放到一个[私有非托管钱包](/zh-cn/dogepedia/articles/how-do-i-get-a-wallet)里。
 
 ![image info](/assets/images/dogepedia/5.png)
  
-### Tipping 
+### 小费
 
-Dogecoin’s popularity can be attributed in part to its history as a tipping currency. In the early days, Dogecoin was widely used as a tipping currency on platforms like Reddit, and since Dogecoin’s insurgence in popularity in 2021, using Dogecoin a tipping currency is now back in vogue! Shibes show their appreciation to fellow Shibes on social-media platforms like Reddit by tipping them Dogecoin using popular bots, such as SoDogeTip.  
+狗狗币现在之所以这么受欢迎，部分原因在于它曾经被作为小费打赏货币。早期，狗狗币在像Reddit这样的平台上被广泛用作打赏货币。2021年狗狗币爆炸式流行后，用狗狗币进行打赏也变得再度流行！ 狗狗币热爱者们在Reddit这些社交平台上用SoDogeTip之类的程序打赏狗狗币给他人，以示感谢。
 
-### Accepting Dogecoin for Goods & Services 
+### 提供商品和服务
 
-Do you own or run a business? It's now as easy as ever to accept Dogecoin in return for goods and services via a number of easy-to-integrate third-party payment solutions. [Click here](/dogepedia/articles/how-can-my-business-accept-dogecoin) for more information. 
+你在经营一个小公司吗？ 现在，通过很多方便的第三方支付方案，提供商品和服务以收取狗狗币变得非常容易。[点击这里](/zh-cn/dogepedia/articles/how-can-my-business-accept-dogecoin)以获取更多信息。
 
+### 其他 
 
-### Other 
-
-There are other ways you can get your hands on Dogecoin, too. Popular initiatives like [Dogecoin Folding @ Home](/dogepedia/articles/dogecoin-folding-at-home), and even [mining Dogecoin](/dogepedia/how-tos/mining-dogecoin), can help people get their hands on some Doge! 
+这里还有很多方法可以获得狗狗币。一些活动比如[Dogecoin Folding @ Home](/zh-cn/dogepedia/articles/dogecoin-folding-at-home)，包括[挖矿](/zh-cn/dogepedia/how-tos/mining-dogecoin)都可以获得一些狗狗币！

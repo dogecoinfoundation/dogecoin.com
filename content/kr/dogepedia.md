@@ -52,7 +52,7 @@ aliases = ["dogepedia"]
 
 ### 개발 {#development}
 도지코인은 유용하며, personable, 따뜻하게 환영하며, 신뢰할 수 있다: 그리고 진화하고 있다.
-<!--- [Who are the current Dogecoin developers?](/dogepedia/articles/dogecoin-developers)-->
+- [Who are the current Dogecoin developers?](/dogepedia/articles/dogecoin-developers)
 - [How can I become a Dogecoin developer?](/dogepedia/articles/becoming-a-dogecoin-developer)
 - [Is there a roadmap?](/dogepedia/articles/dogecoin-roadmap)
 
