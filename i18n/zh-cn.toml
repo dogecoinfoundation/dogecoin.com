@@ -148,7 +148,7 @@ other = "让我们开始吧！"
 other = "选择钱包"
 
 ["whatisdogecoin[choosewallet][text1]"]
-other = "对于想要使用、交易、持有狗狗币的人来说，一个钱包都是必须的，来挑选一个钱包把。"
+other = "对于想要使用、交易、持有狗狗币的人来说，钱包是必须的，来挑选一个钱包把。"
 
 ["whatisdogecoin[choosewallet][title2]"]
 other = "配置钱包"
@@ -184,10 +184,10 @@ other = "MultiDoge"
 other = "MultiDoge是一个轻量级钱包。它通过“跳读”浏览区块链网络来进行数据同步，提高了同步的效率。"
 
 ["wallets[core][title1]"]
-other = "Dogecoin Core"
+other = "狗狗币核心"
 
 ["wallets[core][text1]"]
-other = "Dogecoin Core是一个完整的钱包，它通过下载完整的区块链数据来进行同步，提供了一个独立运行的狗狗币钱包。"
+other = "狗狗币核心是一个完整的钱包，它通过下载完整的区块链数据来进行同步，提供了一个独立运行的狗狗币钱包。"
 
 ["wallets[mydoge][title1]"]
 other = "MyDoge"
@@ -227,10 +227,10 @@ other = "基金会"
 other = "了解更多关于狗狗币基金会和狗狗币路线图！"
 
 ["resources[title2]"]
-other = "博文"
+other = "博客"
 
 ["resources[text2]"]
-other = "随时了解基金会开发者们的博文！"
+other = "随时了解基金会开发者们的博客！"
 
 ["resources[title3]"]
 other = "公告"
