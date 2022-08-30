@@ -20,8 +20,7 @@ type = "article"
 
 **非托管钱包**是指你自己持有和控制狗狗币私钥的钱包。许多手机钱包、狗狗币核心钱包和[硬件钱包](/zh-cn/dogepedia/articles/dogecoin-hardware-wallets)都是非托管钱包。非托管钱包的私钥存在你的本地，而不是由第三方代你保存。这也是许多人更青睐非托管钱包的原因，他们认为*“只有拥有私钥，你的狗狗币才真的是你的狗狗币”*。
 
-and is why you should never share your seed phrase or private key with anyone you do not trust.
-使用非托管钱包的人，要尤其注意不要丢失私钥或助记词，这一点千万要注意！这可以通过[备份你的非托管钱包](/zh-cn/dogepedia/articles/how-to-backup-a-wallet)来避免丢失，但是相应的，也不要和任何人泄露您的私钥或助记词。
+使用非托管钱包的人，要尤其注意不要丢失私钥或助记词。这一点千万要注意！你可以通过[备份你的非托管钱包](/zh-cn/dogepedia/articles/how-to-backup-a-wallet)来避免这样，注意不要向任何你不信人的人泄露您的私钥或助记词。
 
 ## 热钱包和冷钱包 {#hot-and-cold-wallets}
 
@@ -33,4 +32,4 @@ and is why you should never share your seed phrase or private key with anyone yo
 
 ***
 
-*你可以同时使用多种钱包*狗狗币钱包间的转账费用几乎为0，所以你可以用不同类型的钱包来作不同用途，比如用硬件钱包之类的冷钱包来保存大量的狗狗币，用托管或非托管的热钱包来进行日常小费。一切都看你喜欢怎么样。
+*你可以同时使用多种钱包！* 狗狗币钱包间的转账费用几乎为0，所以你可以用不同类型的钱包来作不同用途，比如用硬件钱包之类的冷钱包来保存大量的狗狗币，用托管或非托管的热钱包来进行日常小费。一切都看你喜欢怎么样。
