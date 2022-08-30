@@ -37,6 +37,6 @@ type_import_wallet = "no"
 type_browser_wallet = "no"
 type_hardware_wallet = "no"
 type_multisig = "no"
-type_opensource = "yes"
+type_opensource = "no"
 type_api = "no"
 +++
