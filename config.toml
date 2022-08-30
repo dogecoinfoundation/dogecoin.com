@@ -577,7 +577,7 @@ disableHugoGeneratorInject = false
     url  = "https://foundation.dogecoin.com/zh-cn/about/"
 
   [[languages.zh-cn.params.footerFoundation]]
-    name = "博文"
+    name = "博客"
     url  = "https://foundation.dogecoin.com/zh-cn/announcements/"
 
   [[languages.zh-cn.params.footerFoundation]]
