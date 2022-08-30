@@ -1,0 +1,181 @@
+{{ define "body" }}
+  <body class="home"  style="overflow: hidden; padding: 20px">
+{{ end }}
+{{ define "main" }}
+    <!-- The video -->
+    <div>
+        <video id="video-header" autoplay loop muted>
+            <source src="/assets/images/Header_Dogeathon.mp4" type="video/mp4">
+        </video>
+        <img src="/assets/images/top_fag_dogeathon.png" style="position: absolute; top: 0px; left: 0px; width: 100%">
+        <div id="home" class="viewport-header">
+            <div class="container">
+<style type="text/css">
+.sbbox {
+  text-decoration: none;
+  width: 40%;
+  margin: 20px auto;
+  left: 65%;
+  border-radius: 15px;
+  background: #eee;
+  color: #000;
+  padding: 20px;
+  text-align: left;
+  font-weight: 900;
+  font-family: arial;
+  position: absolute;
+}
+.rose:hover {
+  color: #DC2B4D !important;
+}
+.sbleft:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid #eee;
+  border-bottom: 15px solid #eee;
+  border-top: 15px solid transparent;
+  left: -16px;
+  top: 60%;
+}
+
+@media (max-width:1000px) {
+  .sbbox {
+    width: 90%;
+     position: relative;
+     margin: 20px;
+     left: auto;
+  }
+.sbleft:after{
+ display: none;
+}
+}
+.home .dogelogo {
+    padding-right: 70px;
+}
+
+</style>
+              <div style="position: relative; z-index: 69;">
+                    <div class="sbbox sbleft comic-neue">
+                      <i class="fa-solid fa-earth-oceania"></i> Victoria Australia & Online<br>
+                      <i class="fa-solid fa-calendar-day"></i> November 15th - 20th, 2022<br>
+                      <a href="#register" class="btn btn-primary rose" style="background-color: #DC2B4D; border-color: #DC2B4D; width: 100%; border-radius: 25px">Much Register!</a>
+                    </div>
+                    <img class="dogelogo" src="/assets/images/australian_animation.gif" alt="Dogegecoin" />
+                <h1 class="d_text_display d_span_opacity comic-neue"><span id="dynamic_d">D</span>OGEATHON</h1>
+               </div>
+                {{- with .Site.Params.homeSubtitle }}
+<div style="min-width: 400px;">
+                <div class="mt-1" style=" min-height: 20px">
+                    <div class="preload comic-neue" style="">
+                        <span class="subtitle poppins fw-light text-white"></span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">0</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">0</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white"> </span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">0</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">0</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white"> </span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">0</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">0</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">1</span>
+                    </div>
+                </div>
+</div>
+                {{- end }}
+            </div>
+        </div>
+    </div>
+    <main>
+        {{ partial "dogeathon_block1.html" . }}
+    <div style="width: 100vw !important"></div>
+    </main>
+    <script type="text/javascript">
+        setTimeout(function () {
+        var options = {
+            preload: {
+                selector: '.preload',
+                itemSelector: '.preload__letter',
+                text: '   a dogecoin hackathon    '
+            }
+        }
+        var Preload = function () {
+            preloadLetters = document.querySelectorAll(options.preload.itemSelector);
+            text = options.preload.text.toUpperCase().split('');
+            intervals = [];
+
+            this.init = function () {
+                for (var i = 0; i < text.length; i++) {
+                    letterRandomize(preloadLetters[i], i);
+                }
+            }
+
+            var letterRandomize = function (el, index) {
+                possible = "   a dogecoin hackathon    ";
+                intervals[index] = setInterval(function () {
+                    el.innerHTML = possible.charAt(Math.floor(Math.random() * possible.length))
+                }, 50);
+                setTimeout(function () {
+                    clearInterval(intervals[index]);
+                    el.innerHTML = text[index];
+                    el.classList.add('preload__letter--loaded');
+                }, 250 * index);
+            }
+        }
+
+        var p = new Preload();
+        p.init();
+    }, 2100);
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        // You can also pass an optional settings object
+        // below listed default settings
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+        setTimeout(function () {
+            var dogecoin_d = document.querySelector('#dynamic_d');
+            dogecoin_d.innerHTML = 'Ð';
+            dogecoin_d.classList.add('for_animation_class');
+        }, 5500);
+    </script>
+    {{ end }}
