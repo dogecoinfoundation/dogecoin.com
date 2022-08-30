@@ -18,14 +18,14 @@ type = "article"
 
 托管钱包使用起来比较方便，受到[狗狗币交易](/zh-cn/dogepedia/articles/get-dogecoin)比较频繁的人的欢迎。
 
-**非托管钱包**是指你自己持有和控制狗狗币私钥的钱包。许多手机钱包、Dogecoin Core钱包和[硬件钱包](/zh-cn/dogepedia/articles/dogecoin-hardware-wallets)都是非托管钱包。非托管钱包的私钥存在你的本地，而不是由第三方代你保存。这也是许多人更青睐非托管钱包的原因，他们认为*“只有拥有私钥，你的狗狗币才真的是你的狗狗币”*。
+**非托管钱包**是指你自己持有和控制狗狗币私钥的钱包。许多手机钱包、狗狗币核心钱包和[硬件钱包](/zh-cn/dogepedia/articles/dogecoin-hardware-wallets)都是非托管钱包。非托管钱包的私钥存在你的本地，而不是由第三方代你保存。这也是许多人更青睐非托管钱包的原因，他们认为*“只有拥有私钥，你的狗狗币才真的是你的狗狗币”*。
 
 and is why you should never share your seed phrase or private key with anyone you do not trust.
 使用非托管钱包的人，要尤其注意不要丢失私钥或助记词，这一点千万要注意！这可以通过[备份你的非托管钱包](/zh-cn/dogepedia/articles/how-to-backup-a-wallet)来避免丢失，但是相应的，也不要和任何人泄露您的私钥或助记词。
 
 ## 热钱包和冷钱包 {#hot-and-cold-wallets}
 
-**热钱包**是指接入互联网的钱包，比如Dogecoin Core钱包、MetaMask等浏览器扩展钱包、手机钱包等。热钱包既可以是托管钱包，也可以是非托管钱包。
+**热钱包**是指接入互联网的钱包，比如狗狗币核心钱包、MetaMask等浏览器扩展钱包、手机钱包等。热钱包既可以是托管钱包，也可以是非托管钱包。
 
 **冷钱包**是指未接入互联网的钱包，比如[硬件钱包](/zh-cn/dogepedia/articles/dogecoin-hardware-wallets)和纸钱包。许多人认为冷钱包比热钱包更安全，长期持币者等尤其在意持币安全性的人往往更青睐冷钱包。
 
