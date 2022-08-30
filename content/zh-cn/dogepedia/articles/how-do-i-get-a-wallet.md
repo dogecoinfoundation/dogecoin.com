@@ -27,7 +27,7 @@ and is why you should never share your seed phrase or private key with anyone yo
 
 **热钱包**是指接入互联网的钱包，比如狗狗币核心钱包、MetaMask等浏览器扩展钱包、手机钱包等。热钱包既可以是托管钱包，也可以是非托管钱包。
 
-**冷钱包**是指未接入互联网的钱包，比如[硬件钱包](/zh-cn/dogepedia/articles/dogecoin-hardware-wallets)和纸钱包。许多人认为冷钱包比热钱包更安全，长期持币者等尤其在意持币安全性的人往往更青睐冷钱包。
+**冷钱包**是指未接入互联网的钱包，比如[硬件钱包](/zh-cn/dogepedia/articles/dogecoin-hardware-wallets)和纸钱包。许多人认为冷钱包比热钱包更安全，尤其在意持币安全性的长期持币者往往更青睐冷钱包。
 
 但其实大多数人觉得非托管的热钱包，比如手机钱包，也足够安全了，可以用来进行日常开支和持有少量狗狗币。
 
