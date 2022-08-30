@@ -1,5 +1,5 @@
 +++
-title = "Resources"
+title = "资源"
 date = "2021-10-22"
 aliases = ["resources"]
 type = "resources"
@@ -8,24 +8,24 @@ page = "page/resources.html"
   name = "Dogecoin"
 +++
 
-A list of resources created by shibes that can be useful to work with Dogecoin and to research it.
+### 狗狗爱好者们创建的资源列表，方便使用和研究狗狗币。
 
-### Tools to Monitor and Study Dogecoin and its Network
-- [SoChain - Dogecoin chain explorer.](https://sochain.com/DOGE)
-- [Dogechain - Dogecoin chain explorer.](https://dogechain.info/)
-- [Blockcypher - Dogecoin chain explorer.](https://live.blockcypher.com/doge/)
-- [Blockshibe - monitor the work of miners and mining pools.](https://blockshibe.net)
-- [Blockchair - monitor the number and versions of Dogecoin nodes in the network.](https://blockchair.com/dogecoin/nodes)
+### 监测、研究狗狗币及其网络的工具
+- [SoChain - 狗狗币区块链浏览器](https://sochain.com/DOGE)
+- [Dogechain - 狗狗币区块链浏览器](https://dogechain.info/)
+- [Blockcypher - 狗狗币区块链浏览器](https://live.blockcypher.com/doge/)
+- [Blockshibe - 矿工、矿池监测工具](https://blockshibe.net)
+- [Blockchair - 狗狗币网络节点数量、版本监测工具](https://blockchair.com/dogecoin/nodes)
 
-### Shop Directories
-- [ShopDoge.xyz - a directory of shops accepting Dogecoin.](https://shopdoge.xyz/)
-- [Cryptwerk - a directory of shops accepting Dogecoin.](https://cryptwerk.com/pay-with/doge/)
+### 商店目录
+- [ShopDoge.xyz - 接受狗狗币的商户目录](https://shopdoge.xyz/)
+- [Cryptwerk - 接受狗狗币的商户目录](https://cryptwerk.com/pay-with/doge/)
 
-### Third Party Providers of Payment Integrations
-- [Coinbase - integration for Wordpress and Shopify.](https://commerce.coinbase.com/integrate)
-- [Bitpay - integrations for multiple platforms.](https://bitpay.com/integrations/)
+### 第三方支付服务提供商
+- [Coinbase - 为Wordpress和Shopify提供集成服务](https://commerce.coinbase.com/integrate)
+- [Bitpay - 为多个平台提供集成服务](https://bitpay.com/integrations/)
 
-### Communities
-- [The Official Dogecoin community on reddit.](https://reddit.com/r/dogecoin)
-- [The Official Dogecoin development community on reddit.](https://reddit.com/r/dogecoindev)
-- [The Official Dogecoin community to help educating new and old shibes.](https://reddit.com/r/dogeducation)
+### 社区
+- [reddit狗狗币社区](https://reddit.com/r/dogecoin)
+- [reddit狗狗币开发者社区](https://reddit.com/r/dogecoindev)
+- [reddit狗狗币学习社区](https://reddit.com/r/dogeducation)
