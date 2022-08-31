@@ -1,5 +1,5 @@
 {{ define "body" }}
-  <body class="home"  style="overflow: hidden; padding: 20px">
+  <body class="home"  style="overflow: hidden; padding: 20px;">
 {{ end }}
 {{ define "main" }}
     <!-- The video -->
@@ -11,6 +11,10 @@
         <div id="home" class="viewport-header">
             <div class="container">
 <style type="text/css">
+*{
+  font-family: "Comic Neue", cursive !important;
+}
+
 .sbbox {
   text-decoration: none;
   width: 40%;
@@ -105,7 +109,7 @@
         </div>
     </div>
     <main>
-        {{ partial "dogeathon_block1.html" . }}
+        {{ partial "dogeathon_blocks.html" . }}
     <div style="width: 100vw !important"></div>
     </main>
     <script type="text/javascript">
