@@ -506,7 +506,7 @@ disableHugoGeneratorInject = false
   [[languages.zh-cn.menu.main]]
     identifier = "wallets"
     name       = "钱包"
-    url        = "#wallets"
+    url        = "wallets/"
     weight     = 3
 
   [[languages.zh-cn.menu.main]]
