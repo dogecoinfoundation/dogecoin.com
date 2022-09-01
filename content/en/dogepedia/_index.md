@@ -33,7 +33,6 @@ Your journey with Dogecoin might start here. A wallet application allows you to 
 - [How do I get a wallet?](/dogepedia/articles/how-do-i-get-a-wallet)
 - [How do I backup my wallet?](/dogepedia/articles/how-to-backup-a-wallet)
 - [What are the benefits of a hardware wallet, and how to use it with Doge?](/dogepedia/articles/dogecoin-hardware-wallets)
-- [How do I recover a lost wallet?](/dogepedia/articles/recover-a-lost-wallet)
 - [What is a wallet, really?](/dogepedia/articles/what-is-a-wallet)
 
 ### Using your Doge {#using-doge}
