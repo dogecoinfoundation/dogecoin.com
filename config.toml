@@ -586,6 +586,111 @@ disableHugoGeneratorInject = false
 
 
 ##############################
+# Language Translation ZH-TW
+##############################
+
+  [languages.zh-tw]
+    subtitle  = "朋友們，大家好！"
+    weight    = 4
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    contentDir = "content/zh-tw"
+
+[languages.zh-tw.menu]
+  [[languages.zh-tw.menu.main]]
+    identifier = "home"
+    name       = "主頁"
+    url        = "/"
+    weight     = 1
+
+  [[languages.zh-tw.menu.main]]
+    identifier = "what-is-dogecoin"
+    name       = "狗狗幣是什麼"
+    url        = "#what-is-dogecoin"
+    weight     = 2
+
+  [[languages.zh-tw.menu.main]]
+    identifier = "wallets"
+    name       = "錢包"
+    url        = "wallets/"
+    weight     = 3
+
+  [[languages.zh-tw.menu.main]]
+    identifier = "community"
+    name       = "社區"
+    url        = "#community"
+    weight     = 4
+
+  [[languages.zh-tw.menu.main]]
+    identifier = "dogepedia"
+    name       = "狗狗百科"
+    url        = "dogepedia/"
+    weight     = 5
+
+    [languages.zh-tw.menu.main.params]
+      class = "parent"
+
+    [[languages.zh-tw.menu.main]]
+    identifier = "faq"
+    name       = "常見問題"
+    url        = "dogepedia/#faq"
+    parent = "dogepedia"
+    weight     = 5
+
+    [[languages.zh-tw.menu.main]]
+    identifier = "how-tos"
+    name       = "如何上手"
+    url        = "dogepedia/#howto"
+    parent = "dogepedia"
+    weight     = 5
+
+    [[languages.zh-tw.menu.main]]
+    identifier = "documentation"
+    name       = "文件"
+    url        = "dogepedia/#documentation"
+    parent = "dogepedia"
+    weight     = 5
+
+    [[languages.zh-tw.menu.main]]
+    identifier = "resource"
+    name       = "資源"
+    url        = "resources/"
+    parent = "dogepedia"
+    weight     = 5
+
+[[languages.zh-tw.params.footerLegal]]
+    name = "條款"
+    url  = "/terms"
+
+  [[languages.zh-tw.params.footerLegal]]
+    name = "隱私政策"
+    url  = "/legal"
+
+  [[languages.zh-tw.params.footerLegal]]
+    name = "商標"
+    url  = "/trademarks"
+
+[[languages.zh-tw.params.footerFoundation]]
+    name = "關於"
+    url  = "https://foundation.dogecoin.com/zh-tw/about/"
+
+  [[languages.zh-tw.params.footerFoundation]]
+    name = "宣言"
+    url  = "https://foundation.dogecoin.com/zh-tw/manifesto/"
+
+  [[languages.zh-tw.params.footerFoundation]]
+    name = "顧問團"
+    url  = "https://foundation.dogecoin.com/zh-tw/about/"
+
+  [[languages.zh-tw.params.footerFoundation]]
+    name = "部落格"
+    url  = "https://foundation.dogecoin.com/zh-tw/announcements/"
+
+  [[languages.zh-tw.params.footerFoundation]]
+    name = "路線圖"
+    url  = "https://foundation.dogecoin.com/zh-tw/roadmap/"	
+
+
+##############################
 # Language Translation PT-PT
 ##############################
 
