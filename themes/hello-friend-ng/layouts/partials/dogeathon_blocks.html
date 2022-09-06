@@ -7,6 +7,12 @@ h2{
     height: 100%;
     vertical-align: middle;
 }
+@media (max-width:960px) {
+.col{
+  margin: auto;
+  flex: auto;
+}
+}
 
 </style>
 <!-- style="background-image: url(/assets/images/dogeathon_bg.png); background-repeat: no-repeat; background-size: cover" -->
@@ -31,7 +37,7 @@ Devs at a dedicated location in Victoria, Australia.
       </div>
       <div class="col">
         <div class="row"><b>LOCATION:</b><div>Chestnut Hill Conference Lodge, Yarra Ranges,Victoria, Australia, & online</div></div>
-        <div class="row" style="padding-top:35px"><b>REGISTRATION & ATTENDANCE FEE:</b><div>Ð 4.20 (Refundable)</div></div>
+        <div class="row" style="padding-top:35px"><b>REGISTRATION & ATTENDANCE FEE:</b><div>Ð 1,500 (Refundable)</div></div>
       </div>
       <div class="col">
         <div class="row"><b>TOPIC:</b><div>Building the Dogecoin Ecosystem with new integration options: LibDogecoin, GigaWallet API, Core API, Doge-Eth Bridge, & More</div></div>
@@ -50,9 +56,9 @@ Devs at a dedicated location in Victoria, Australia.
       <div class="col">
 <h2>Accommodation Options for In-Person Attendees</h2>
           <p class="lh-md comic-neue" style="">
-<div style="padding: 15px 0 0 0">The venue, Chestnut Hill Conference Lodge, has accommodation available for up to 20 guests, and prices include all meals for check-in from 4pm Tuesday 15th and departing 11am Saturday 19th.</div>
-<div style="padding: 15px 0 0 0">• Tariff / guest (single accom.) - AUD $790 per guest, total</div>
-<div style="padding: 15px 0 0 0">• Tariff / guest (shared accom.) - AUD $560 per guest, total</div>
+<div style="padding: 15px 0 0 0">The venue, Chestnut Hill Conference Lodge, has accommodation available for up to 40 guests, and prices include all meals for check-in from 4pm Tuesday 15th and departing 11am Saturday 19th.</div>
+<!--<div style="padding: 15px 0 0 0">• Tariff / guest (single accom.) - AUD $790 per guest, total</div>-->
+<div style="padding: 15px 0 0 0">• Tariff / guest (shared accom.) - AUD $530 per guest, total (paid in Doge)</div>
 <div style="padding: 15px 0 0 0">Other accommodation options are also available in the area, and include AirBnBs, Mulberry Cottage, and Mountain View Cottage.</div>
 <img src="/assets/images/chestnut.jpg" style="border-bottom-right-radius: 25px;padding: 15px 0 0 0">
           </p>
@@ -66,23 +72,57 @@ Devs at a dedicated location in Victoria, Australia.
     <div class="row">
       <div class="col" style="color: rgba(255, 255, 255, 1) !important">
         <h2 style="color: rgba(255, 255, 255, 1) !important">Register Now for the Dogeathon!</h2>
-<p class="lh-md comic-neue" style="">
-  Registrations are currently being accepted for in-person attendees and global online participants. If you can make it Down Under, we'd be thrilled to see you! The registration fee is entirely refundable, and is only implemented because places are limited for the in-person event. If you cannot make it to the land of kangaroos and koalas, then please register as a global participant.
-</p>
-      </div>
-      <div class="col">
-<div class="row">
-  <div class="col" style="background-color: rgba(255, 255, 255, 1); margin: 15px; border-radius: 5px; text-align: center" >
-<i class="fa-solid fa-earth-oceania" style="font-size: 6vw; padding: 15px"></i>
-    <div style="padding: 15px">in-person team attendees</div>
-  <a href="#" class="btn btn-primary rose" style="background-color: #DC2B4D; border-color: #DC2B4D; width: 100%; border-radius: 25px" data-bs-toggle="modal" data-bs-target="#inPersonRegistration">Much Register!</a></div>
-  <div class="col" style="background-color: rgba(255, 255, 255, 1); margin: 15px; border-radius: 5px; text-align: center">
-<i class="fa-solid fa-globe" style="font-size: 6vw; padding: 15px"></i>
-    <div style="padding: 15px">global participants</div>
-    <a href="#" class="btn btn-primary rose" style="background-color: #DC2B4D; border-color: #DC2B4D; width: 100%; border-radius: 25px; margin-bottom: 15px" data-bs-toggle="modal" data-bs-target="#inPersonRegistration">Much Register!</a></div>
-</div>
+        <p class="lh-md comic-neue" style="">
+          Registrations are currently being accepted for in-person attendees and global online participants. If you can make it Down Under, we'd be thrilled to see you! The registration fee is entirely refundable, and is only implemented because places are limited for the in-person event. If you cannot make it to the land of kangaroos and koalas, then please register as a global participant.
+        </p>
       </div>
     </div>
+    <div class="row">
+      <div class="col">
+        <div class="row">
+          <div class="col" style="background-color: rgba(255, 255, 255, 1); margin: 15px; border-radius: 5px; text-align: center; padding: 15px">
+            <div style="padding: 15px">online participants</div>
+            <i class="fa-solid fa-globe" style="font-size: 6vw; padding: 15px"></i>
+            <div style=" font-weight: bold; font-size: 50px">FREE</div>
+            <div style=" font-weight: bold;">(BYO snacks)</div>
+            <div style=" font-weight: bold; margin: 5px" class="btn btn-light">
+              Participate online from anywere in the world!<br><br>
+            </div>
+            <a href="#" class="btn btn-primary rose" style="background-color: #DC2B4D; border-color: #DC2B4D; width: 100%; border-radius: 25px; margin-bottom: 15px" data-bs-toggle="modal" data-bs-target="#inPersonRegistration">Much Register!</a>
+          </div>
+          <div class="col" style="background-color: rgba(255, 255, 255, 1); margin: 15px; border-radius: 5px; text-align: center; padding: 15px" >
+            <div style="padding: 15px">in-person team attendees in the venue</div>
+            <i class="fa-solid fa-earth-oceania" style="font-size: 6vw; padding: 15px"></i>
+            <div style=" font-weight: bold;font-size: 50px">$530 AUD</div>
+            <div style=" font-weight: bold;">(paid in Doge)</div>
+            <div style=" font-weight: bold; margin: 5px" class="btn btn-light">
+              4 nights accomodation at the venue + meals + t-shirt
+            </div>
+            <a href="#" class="btn btn-primary rose" style="background-color: #DC2B4D; border-color: #DC2B4D; width: 100%; border-radius: 25px" data-bs-toggle="modal" data-bs-target="#inPersonRegistration">Much Register!</a>
+          </div>
+          <div class="col" style="background-color: rgba(255, 255, 255, 1); margin: 15px; border-radius: 5px; text-align: center; padding: 15px" >
+            <div style="padding: 15px">in-person team attendees</div>
+            <i class="fa-solid fa-earth-oceania" style="font-size: 6vw; padding: 15px"></i>
+            <div style=" font-weight: bold;font-size: 50px">Ð 1,500</div>
+            <div style=" font-weight: bold;">(refundable at check-in)</div>
+            <div style=" font-weight: bold; margin: 5px" class="btn btn-light">
+              4 day access + meals +  organize own accomodation nearby + t-shirt
+            </div>
+            <a href="#" class="btn btn-primary rose" style="background-color: #DC2B4D; border-color: #DC2B4D; width: 100%; border-radius: 25px" data-bs-toggle="modal" data-bs-target="#inPersonRegistration">Much Register!</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col" style="color: rgba(255, 255, 255, 1) !important">
+        <p class="lh-md comic-neue" style=" text-align: center">
+          IN PERSON spaces are limited to 70 attentees with sleeping for 40
+        </p>
+      </div>
+    </div>
+
 </div>
 </div>
 
@@ -116,11 +156,16 @@ The Dogecoin Foundation has partnered with [DO ONLY GOOD EVERYDAY SPONSOR] to co
     </div>
 </div>
 </div>
+<style type="text/css">
+h2{
+  font-size: 2vw !important;
+}
 
+</style>
 <div id="sponsors" class="pt-5">
   <div class="container" style="text-align: left; background-color: #EF9921; color: rgba(255, 255, 255, 1)">
     <div class="row" style="text-align: center; padding: 35px">
-        <h2 style="color: rgba(255, 255, 255, 1) !important; font-size: 4vw">Official Sponsors</h2>
+        <h2 style="color: rgba(255, 255, 255, 1) !important;"> Event Sponsors!</h2>
     </div>
       <div class="row">
       <div class="col" style="background-color: rgba(255, 255, 255, 1); margin: 15px; border-radius: 5px; text-align: center; min-height: 200px;display: flex;justify-content: center;align-items: center;">
@@ -132,6 +177,23 @@ The Dogecoin Foundation has partnered with [DO ONLY GOOD EVERYDAY SPONSOR] to co
       </div>
     <div class="row" style="text-align: center; padding: 35px">
         <p style="text-align: center">If your company is interested in Sponsoring the Dogeathon, please <a href="mailto:hackathon@dogecoin.com?subject=Sponsoring the Dogeathon" target="_blank"><b>get in touch</b></a>.</p>
+    </div>
+</div>
+</div>
+
+<div id="sponsors" class="pt-5">
+  <div class="container" style="text-align: left; background-color: #EF9921; color: rgba(255, 255, 255, 1)">
+    <div class="row" style="text-align: center; padding: 35px">
+        <h2 style="color: rgba(255, 255, 255, 1) !important;"> Do Only Good Everyday Sponsors!</h2>
+    </div>
+      <div class="row">
+      <div class="col" style="background-color: rgba(255, 255, 255, 1); margin: 15px; border-radius: 5px; text-align: center; min-height: 200px;display: flex;justify-content: center;align-items: center;">
+          <a href="https://mydoge.com/" target="_blank"><img src="/assets/images/MyDoge.png" style="display: block !important; margin: auto !important" /></a>
+      </div>
+      </div>
+
+    <div class="row" style="text-align: center; padding: 35px">
+        <p style="text-align: center">The Do Only Good Everyday sponsor is to cover 'limited grants for devs experiencing financial hardship' to attend, if your company is interested in Sponsoring the Dogeathon, please <a href="mailto:hackathon@dogecoin.com?subject=Sponsoring the Dogeathon" target="_blank"><b>get in touch</b></a>.</p>
     </div>
 </div>
 </div>
