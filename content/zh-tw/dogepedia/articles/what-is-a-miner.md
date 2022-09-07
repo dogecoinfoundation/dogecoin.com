@@ -1,5 +1,5 @@
 +++
-title = "What is a miner?"
+title = "礦工是什麼？"
 date = "2021-10-22"
 type = "article"
 
@@ -7,62 +7,62 @@ type = "article"
   name = "Dogecoin"
 +++
 
-A **Miner** is a specialized [node](/dogepedia/articles/what-is-a-node/) in the Dogecoin network.
+**礦工**是狗狗幣網路中的一個專門的[節點](/zh-tw/dogepedia/articles/what-is-a-node/)。
 
-After regular [nodes](/dogepedia/articles/what-is-a-node#full-nodes) in the network, by referencing the blockchain, have verified that a Dogecoin transaction is valid, the transaction is shown in a "pending" state. It stays in this state until a **miner** or a collective of miners known as a [**mining pool**](/dogepedia/articles/what-is-a-mining-pool) picks up the transaction.
+在網路中的常規[節點](/zh-tw/dogepedia/articles/what-is-a-node#full-nodes)通過引用區塊鏈驗證了一筆狗狗幣交易是有效的之後，該交易會顯示為「待處理」狀態。它會一直處於這種狀態，直到**礦工**或稱為[**礦池**](/zh-tw/dogepedia/articles/what-is-a-mining-pool) 的礦工集體接受交易。
 
-### Miners: ELI5 {#miners-eli5}
+### 礦工：ELI5 {#miners-eli5}
 
-Miners are nodes using special hardware (normally Scrypt ASIC miners) which allows them to solve cryptographic puzzles, in a process referred to as "mining". A miner receives new transactions from the other nodes in the network, combines them in a **block** following predetermined and inviolable rules enforced by the network, and then attempts to solve a puzzle that will generate a special number, called a hash, that is derived by combining the content of the block and a number called **nonce** (*number used once*). 
+礦工是使用特殊硬體（通常是 Scrypt ASIC 礦機）的節點，允許他們在稱為「採礦」的過程中解決密碼難題。礦工從網路中的其他節點接收新交易，按照網路強制執行的預定且不可侵犯的規則將它們組合在一個**區塊**中，然後嘗試解決一個將生成一個特殊數字的難題，稱為雜湊，它是通過組合區塊的內容和一個稱為 **nonce** 的數字（*使用一次的數字*）得出的。
 
-When a miner solves one of these puzzles before any other miner in the network, it is allowed to create a new block in the blockchain, thus confirming the transactions it has included in it. Miners make the blockchain secure and are rewarded for their work with so-called block rewards, consisting of 10,000 Dogecoin per mined block. Miners are also rewarded with the transaction fees associated with the transactions they have included into the block.
+當礦工在網路中的任何其他礦工之前解決其中一個難題時，就可以在區塊鏈中建立一個新區塊，從而確認其中包含的交易。礦工確保區塊鏈安全，並通過所謂的區塊獎勵獲得獎勵，每個區塊獎勵 10,000 狗狗幣。礦工還獲得與他們包含在區塊中的交易相關的交易費用。
 
-If you want to explore this process more in-depth, you can proceed to the next session - but this should be enough to understand what a miner is and what it does for the Dogecoin network.
+如果您想更深入地探索這個過程，您可以繼續下一個部分 - 但閱讀到此應該足以了解礦工是什麼以及它們對狗狗幣網路的作用。
 
-### The Role of Miners in the Dogecoin Network {#the-role-of-miners}
+### 礦工在狗狗幣網路中的角色 {#the-role-of-miners}
 
-Miners play several fundamental roles.
+礦工扮演著幾個基礎角色。
 
-- They confirm transactions by adding them into a new block
-- They secure the blockchain
-- They introduce new coins into circulation
+- 他們通過將交易添加到新區塊中來確認交易
+- 他們保護區塊鏈
+- 他們將新錢幣引入流通
 
-All the miners in the Dogecoin network are in constant competition to solve computationally-intensive puzzles, consisting in finding a special number called a nonce. The first miner - or the first mining pool - that is able to find a nonce that, when *hashed* along with the content of the block header, returns a number smaller than the current network's difficulty target, is the one allowed to write a new block into the blockchain. 
+狗狗幣網路中的所有礦工都在不斷競爭以解決計算密集型難題，包括尋找一個稱為 nonce 的特殊數字。第一個礦工 - 或第一個礦池 - 能夠找到一個若與區塊標頭的內容一起進行*雜湊*後小於當前網路難度目標的 nonce，就會被允許寫入新區塊到區塊鏈。
 
-The process of solving this puzzle is known as **Proof of Work**. By design, generating this proof is computationally intensive and thus requires a significant amount of electricity. This energy expenditure is what secures the network. A potential group of attackers would first need to gain control over a significant amount of expensive mining hardware; then, they would need to spend a lot of energy to sustain a prolonged attack against the network.
+解決這個難題的過程被稱為**工作證明**。按照設計，生成這個證明是計算密集型的，因此需要大量的電力。這種能量消耗是確保網路安全的原因。一群潛在的攻擊者首先需要控制大量昂貴的挖礦硬體；然後，他們將需要花費大量精力來維持對網路的長期攻擊。
 
 Unlike Bitcoin, but like Litecoin and other cryptocurrencies, Dogecoin uses the [*Scrypt algorithm*](https://en.wikipedia.org/wiki/Scrypt) as its underlying Proof of Work function.
 
-The **difficulty target** is a way to measure how difficult it is for a miner in the network to produce a valid block; the lower the target value, the more difficult it will be for a miner to generate a valid block because finding a proper nonce takes a longer period of time. Dogecoin's difficulty is adjusted at every block using the [*Digishield algorithm*](https://dgbwiki.com/index.php?title=DigiShield).
+**難度目標**是衡量網路中的礦工產生有效區塊的難度的一種方法；目標值越低，礦工生成有效區塊的難度就越大，因為找到合適的隨機數需要更長的時間。狗狗幣的難度是在每個區塊使用 [*Digishield 算法*](https://dgbwiki.com/index.php?title=DigiShield)進行調整。
 
-A **block** is a data structure made of a block header, containing important information including the hash of the past block, followed by a long list of transactions, making the bulk of its content. Every block that is created contains the hash of the preceding block in its header, which in turn contains the hash of its preceding block, so on and so forth creating a chain all the way back to Dogecoin’s genesis block. 
+**區塊** 是由區塊頭組成、包含重要資訊資料結構，包括過去區塊的雜湊值，然後是一長串交易，構成其大部分內容。建立的每個區塊都在其標頭中包含前一個區塊的雜湊值，而該區塊又包含其前一個塊的雜湊值，依此類推，建立一條鏈，一直回到狗狗幣的創世區塊。
 
-After a miner has mined a block, the other nodes in the network must validate it. Finally, the block is propagated throughout the network and is included in the blockchain. By chaining together blocks in this way and creating them by following strict rules enforced by the network, miners secure the blockchain and make it immutable, since the validity of a block depends on all the blocks that preceded it.
+礦工挖出一個區塊後，網路中的其他節點必須對其進行驗證。最後，該塊在整個網路中傳播並包含在區塊鏈中。通過以這種方式將塊鏈接在一起並按照網路強制執行的嚴格規則建立它們，礦工可以保護區塊鏈並使其不可變，因為一個塊的有效性取決於它之前的所有塊。
 
-In return for all this work, a miner is awarded 10,000 newly minted Dogecoin, known as a **block reward**. In addition to this block reward, miners are awarded the transaction fees associated with the transactions they have included into the block. Historically, transaction fees represent a small portion of a miner's income. Currently, transaction fees make up significantly less than 1% of the total income of most miners in the network.
+作為所有這些工作的回報，礦工將獲得 10,000 個新鑄造的狗狗幣，稱為**區塊獎勵**。除了這個區塊獎勵之外，礦工還會獲得與他們包含在區塊中的交易相關的交易費用。從歷史上看，交易費用只佔礦工收入的一小部分。目前，交易費用佔網路中大多數礦工總收入的比例遠低於 1%。
 
-Dogecoin blocks have a maximum size of 1MB and a new block is generated every minute. Considering an average transaction size of 250 bytes, a miner could *theoretically* include up to 4,000 Dogecoin transactions in a single block.
+狗狗幣區塊的最大大小為 1MB，每分鐘生成一個新區塊。考慮到 250 字節的平均交易大小，礦工*理論上*可以在單個區塊中包含多達 4,000 個狗狗幣交易。
 
-### Miners and Hashing Power {#hashing-power}
+### 礦工和算力 {#hashing-power}
 
-Each miner contributes to the network a certain amount of *hashing power*, a metric used to indicate the computational power of a miner in relation to the puzzle it is attempting to solve when mining a new block. The hashing power depends strictly on the hardware the miner is using. Currently, most profitable miners rely on the computational power of specialized machines called **ASIC Miners**.
+每個礦工都為網路貢獻了一定數量的「雜湊算力」，這是一個指標，用於指示礦工在挖掘新區塊時嘗試解決的難題的計算能力。雜湊算力嚴格取決於礦工使用的硬體。目前，大多數盈利的礦工都依賴稱為 **ASIC 礦機**的專用機器的計算能力。
 
-The hashing power of all the miners in the network is referred to as **Mining Hashrate**, and it is a key metric in the health of the Dogecoin network as the more hashing power in the network, the greater its security and its overall resistance to attacks.
+網路中所有礦工的算力稱為**挖礦雜湊速率 (Mining Hashrate)**，它是衡量狗狗幣網路健康狀況的關鍵指標，因為網路中的算力越多，其安全性和整體性就越高、越能抵抗攻擊。
 
-### AuxPoW or "Merged Mining" With Other Scrypt-based Proof of Work Cryptocurrencies {#merged-mining}
+### AuxPoW 或「合併挖礦」與其他基於 Scrypt 的工作量證明加密貨幣 {#merged-mining}
 
-Many coins, including Litecoin and Dogecoin, use the same Scrypt algorithm for their Proof of Work. 
+許多代幣，包括萊特幣和狗狗幣，都使用同一套 Scrypt 算法進行工作證明。
 
-In 2014, since the total hashrate of Dogecoin was declining, the creator of Litecoin, Charlie Lee, proposed a solution: allowing Dogecoin to accept proofs calculated for other cryptocurrencies using the same implementation of the Scrypt algorithm. The proposal was accepted and implemented in 2015 by the Dogecoin Developers. The way this was implemented is commonly referred to as **Auxiliary Proof-of-Work (AuxPoW)**.
+2014 年，由於狗狗幣的總算力下降，萊特幣的創造者 Charlie Lee 提出了一個解決方案：允許狗狗幣接受使用 Scrypt 算法的相同實作為其他加密貨幣計算的證明。該提案於 2015 年被 Dogecoin 開發人員接受並實施。這種實現方式通常被稱為**輔助工作證明 (AuxPoW)**。
 
-As a result, the proof of doing work on Litecoin or in any other classic Scrypt coin can be used as proof for mining a Dogecoin block. To do so, the miner must prepare that block with a reference in its header to the Dogecoin block it is going to mine at the same time. As long as the scrypt proofs are well-formed and match the [difficulty target](/dogepedia/articles/what-is-a-miner/#the-role-of-miners) of the Dogecoin network, then the proof can be accepted as valid.
+因此，在萊特幣或任何其他經典 Scrypt 錢幣上工作的證明可以用作挖掘狗狗幣區塊的證據。為此，礦工必須準備該區塊，並在其標頭中引用要同時開採的狗狗幣區塊。只要 scrypt 證明格式正確並且匹配狗狗幣網路的[難度目標](/zh-tw/dogepedia/articles/what-is-a-miner/#the-role-of-miners)，那麼該證明可以被接受為有效。
 
-Simply put, miners can use the same computational power they would use to calculate proofs for a single cryptocurrency to provide proofs to multiple chains simultaneously, receiving rewards from several blockchains at once, thus increasing their profit and working more efficiently.
+簡而言之，礦工可以使用與計算單一加密貨幣證明相同的計算能力，同時為多個鏈提供證明，同時從多個區塊鏈獲得獎勵，從而增加利潤並提高工作效率。
 
-### Mining Dogecoin 
+### 挖掘狗狗幣
 
-Mining Dogecoin *profitably* requires specialized (and expensive) hardware (ASIC miners); additionally, mining consumes significant amounts of electricity and involves significant maintenance costs and experience.
+要靠挖掘狗狗幣*獲利*需要專門的（且昂貴的）硬體（ASIC 礦機）；此外，挖礦會消耗大量電力並涉及大量維護成本和經驗。
 
-Miners usually prefer to work together in so-called [**Mining Pools**](/dogepedia/articles/what-is-a-mining-pool), as combining their hashing power with other miners in the network makes the process of finding new blocks more predictable, and, in the end, more profitable. 
+礦工通常更喜歡在所謂的[**礦池**](/zh-tw/dogepedia/articles/what-is-a-mining-pool)中一起工作，因為將他們的算力與網路中的其他礦工結合起來能使尋找新區塊的過程更可預測，最終更有利可圖。
 
-If you are interested, please check [our introduction to mining](/dogepedia/how-tos/mining-dogecoin/) to get you started.
+如果您有興趣，請查看[我們的挖礦介紹](/zh-tw/dogepedia/how-tos/mining-dogecoin/) 以幫助您入門。

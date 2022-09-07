@@ -1,5 +1,5 @@
 +++
-title = "What is a blockchain?"
+title = "區塊鏈是什麼？"
 date = "2021-10-22"
 type = "article"
 
@@ -7,14 +7,14 @@ type = "article"
   name = "Dogecoin"
 +++
 
-A blockchain is a digital distributed ledger that is used as a system for validating and recording transaction information. This digital ledger of transactions is duplicated and distributed throughout an entire network of computers connected to the blockchain.  
+區塊鏈是一種數字分佈式帳本，用作驗證和記錄交易資訊的系統。這種包含交易紀錄的數位帳本被複製並散發在連接到區塊鏈的整個電腦網路中。
 
-The Dogecoin blockchain consists of thousands of computers – called [**nodes**](/dogepedia/articles/what-is-a-node) – meaning that transaction information is not stored in one centralised place. Instead, Dogecoin blockchain information is stored across thousands of nodes. This is why cryptocurrencies like Dogecoin are often referred to as being *decentralised*. 
+狗狗幣區塊鏈由數千台電腦組成——稱為[**節點**](/zh-tw/dogepedia/articles/what-is-a-node)——意味著交易資訊不會集中儲存在一個的地方。相反，狗狗幣區塊鏈資訊儲存在數千個節點上。這就是為什麼像狗狗幣這樣的加密貨幣通常被稱為「去中心化」的原因。
 
-When a Dogecoin transaction is made, [full nodes](/dogepedia/articles/what-is-a-node#full-nodes) in the network, by referencing the blockchain, ensure that the sender of the transaction did not create Dogecoin out of thin air and that he is not spending the same Dogecoin twice (*double-spending*). 
+當發生狗狗幣交易時，網路中的[完整節點](/zh-tw/dogepedia/articles/what-is-a-node#full-nodes)通過引用區塊鏈，確保交易的發送者沒有憑空建立狗狗幣、重複花費同一枚狗狗幣（*雙重花費*）。
 
-In the next step, specialized nodes called [**miners**](/dogepedia/articles/what-is-a-miner) will include the information regarding the transaction in a **block**, a data structure where some or all the most recent transactions not yet confirmed by the network are batched together. Finally, the new block is distributed to the other nodes throughout the network, that will confirm that the block is valid. Every block that is created contains the hash of the preceding block, which in turn contains the hash of its preceding block, so on and so forth creating a chain all the way back to Dogecoin’s genesis block.
+在下一步中，稱為 [**礦工**](/zh-tw/dogepedia/articles/what-is-a-miner) 的專門節點將在**區塊**中包含有關交易的資訊，這是一種資料結構，其中一些或所有尚未被網路確認的最新交易都被一次處理。最後，新的區塊被分發到整個網路的其他節點，這將確認該塊是有效的。建立的每個區塊都包含前一個區塊的雜湊值，而前一個塊的雜湊值又包含其前一個塊的雜湊值，依此類推，建立一條鏈，一直追溯到狗狗幣的創世區塊。
 
-This way of structuring data, together with the decentralized nature of the network, creates an irreversible timeline where blocks become immutable links in a chain.  
+這種結構化資料的方式，加上網路的去中心化特性，創造了一個不可逆轉的時間線，在這個時間線中，每個區塊都成為鏈中不可變更的鏈結之一。
 
-In addition to being peer-to-peer and decentralised, another benefit of blockchain technology is that is extremely difficult — and often impossible — to hack, alter, or deceive the system. 
+除了點對點和去中心化之外，區塊鏈技術的另一個好處是，破解、更改或欺騙系統極其困難——通常是不可能的。

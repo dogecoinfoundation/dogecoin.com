@@ -1,5 +1,5 @@
 +++
-title = "What is a node and why is it important? Do I need to run one?"
+title = "節點是什麼？為什麼節點很重要？我需要執行一個節點嗎？"
 date = "2021-10-22"
 type = "article"
 
@@ -7,44 +7,43 @@ type = "article"
   name = "Dogecoin"
 +++
 
-The Dogecoin network is a peer-to-peer payment network consisting of thousands of computers called nodes. Each of these nodes is running specialized software, called Dogecoin Core. Transaction information is recorded into a database, split into blocks chained to each other, and distributed and replicated across the nodes of the network: this database is known as the *Dogecoin blockchain*. 
+狗狗幣網路是一個點對點支付網路，由數千台稱為節點的電腦組成。這些節點中的每一個都運行專門的軟體，稱為 Dogecoin Core。交易資訊被記錄到資料庫中，切分成相互鏈接的區塊，並在網路的節點上散佈和複製：這個資料庫被稱為*狗狗幣區塊鏈*。
 
-In practice, this results in transaction information being shared across the entire network and, subsequently, not needing to be stored in one centralized place. This is why cryptocurrencies like Dogecoin are often referred to as being *decentralized*.
+在實際情況下，這會導致交易資訊在整個網路中共享，因此不需要集中儲存在一個地方。這就是為什麼像狗狗幣這樣的加密貨幣通常被稱為「去中心化」的原因。
 
-In short, a node is software that is running on a computer that is connected to the Dogecoin network. This software communicates with other nodes on the network and in doing so keeps the distributed ledger in sync and up-to-date, in addition to providing new nodes that need to download the full Dogecoin blockchain with information about past blocks.
+簡而言之，節點是在連接到狗狗幣網路的電腦上運行的軟體。該軟體與網路上的其他節點進行通訊，從而使分佈式帳本保持同步而且是最新的，此外還為需要下載完整狗狗幣區塊鏈的新節點提供有關過去區塊的資訊。
 
-There are several types of nodes, depending on the role they play in the network.
+有幾種類型的節點，具體取決於它們在網路中扮演的角色。
 
+### 完整節點和輕量節點 {#full-nodes}
+*完整節點*是狗狗幣網路的骨幹。每個完整節點都能夠完全驗證交易和區塊。狗狗幣網路中的*大多數*完整節點包含整個區塊鏈的副本，即狗狗幣網路中曾經發生的所有交易的完整歷史記錄。完整節點通過接受來自其他完整節點的交易和區塊，驗證這些交易和區塊，然後將它們中繼到其他完整節點來支持網路。
 
-### Full Nodes and Light Nodes {#full-nodes}
-*Full nodes* are the backbone of the Dogecoin network. Each full node is able to fully validate transactions and blocks. *Most* full nodes in the Dogecoin network contain a copy of the entire blockchain, the full history of all transactions that ever occurred in the Dogecoin network. Full nodes support the network by accepting transactions and blocks from other full nodes, validating those transactions and blocks, and then relaying them to further full nodes.
+*輕量節點*（如 *Multidoge 錢包*），也稱為 SPV 節點，依賴於完整節點才能運行。它們比完整節點需要更少的儲存空間和資源，因為它們不需要儲存整個區塊鏈。輕量節點仍然能夠執行一項任務——即使用一種稱為 Simрlifiеd Pауmеnt Vеrifiсаtiоn (SPV) 的方法來驗證交易。
 
-*Light nodes* (like the *Multidoge wallet*), also known as SPV nodes, depend on full nodes for functioning. They require much less storage and resources than full nodes, since they do not need to store the entire blockchain. Light nodes are still capable of performing a task - which is to verify transactions by using a method called Simрlifiеd Pауmеnt Vеrifiсаtiоn (SPV).
+### 為什麼完整節點很重要 {#why-full-nodes-are-important}
+如果沒有運行完整節點的節點營運商，狗狗幣網路就無法運作。通過能夠完全驗證交易和區塊以及託管區塊鏈的完整副本，完整節點可以在網路中執行關鍵任務，包括驗證交易、保存所有交易的歷史記錄以及規定和執行網路規則。
 
-### Why Full Nodes Are Important {#why-full-nodes-are-important}
-Without node operators running full nodes, the Dogecoin network could not function. By being able to fully validate transactions and blocks and by hosting a full copy of the blockchain, full nodes perform crucial tasks in the network, including validating transactions, keeping a historic record of all transactions, and dictating and enforcing the rules of the network.
+在實踐中，在具有足夠磁盤空間和帶寬的機器上正確運行節點的 Dogecoin 節點操作員將有助於：
 
-In practice, a Dogecoin node operator running a node properly, on a machine with enough disk space and bandwidth, will help to:
+- 防止審查
+- 防止網路拒絕服務 (DoS) 攻擊
+- 通過提供更多頻寬為網路提供備援，這在活動高峰期間可能至關重要
+- 通過設置中繼策略建立費用和 dust 限制的基準（自 Dogecoin Core v1.14.4 起）
 
-- Protect against censorship
-- Protect against network denial of service (DoS) attacks
-- Provide redundancy to the network by providing more bandwidth, which could be critical during spikes in activity
-- Establish a baseline for fees and dust limits through setting relay policies (since Dogecoin Core v1.14.4)
+### 您需要運行一個完整的節點嗎？ {#do-you-need-to-run-a-full-node}
+運行一個完整節點需要一台具有足夠磁碟空間的電腦來託管區塊鏈的完整副本（目前約為 70GB）以及與網際網路的不限流量寬頻連接（在網路活動密集期間，一個完整節點每月可以消耗數 TB 的資料）。
 
-### Do You Need to Run a Full Node? {#do-you-need-to-run-a-full-node}
-Running a full node requires a computer with enough disk space to host a full copy of the blockchain (currently around 70GB) and an unmetered broadband connection to the internet (a full node can consume several TB of data per month in periods of intense network activity). 
+學習運行和維護節點可能是一種有趣且具有教育意義的體驗。但是以對狗狗幣網路有用的方式長時間運行節點需要一些奉獻精神和專業知識。
 
-Learning to run a node, and to maintain it, can be a fun and educational experience. But running a node in a way that is useful for the Dogecoin network for a prolonged period of time involves a bit of dedication and know-how.
+如果您能勝任這項任務，請查看我們的[操作狗狗幣節點指南](/zh-tw/dogepedia/how-tos/operating-a-node/) 以幫助您入門。
 
-If you are up to the task, please check our [Operating a Dogecoin Node Guide](/dogepedia/how-tos/operating-a-node/) to get you started.
+設置一個節點沒有直接的動機。獎勵包括為狗狗幣網路提供服務，從而有望為其帶來價值。
 
-There are no direct incentives in running a node. The reward consists in providing a service to the Dogecoin network and thus, hopefully, bringing value to it.
+### 礦工 {#miners}
+**礦工**是狗狗幣網路中的一個專門節點。
 
-### Miners {#miners}
-A **miner** is a specialized node in the Dogecoin network.
+礦工的任務是通過解決計算密集型密碼難題在區塊鏈中建立新區塊，這一過程稱為「挖礦」。礦工通過將交易包含在新區塊中來確認交易，保護區塊鏈，並通過所謂的區塊獎勵獲得獎勵，包括開採每個區塊能得到的 10,000 枚狗狗幣，以及與他們包含在區塊鏈中的交易相關的交易費用。
 
-Miners have the task of creating new blocks in the blockchain by solving computationally-intensive cryptographic puzzles, in a process referred to as "mining". Miners confirm transactions by including them in a new block, secure the blockchain, and are rewarded for their work with so-called block rewards, consisting in 10,000 Dogecoin per mined block, and with the transaction fees associated with the transactions they have included into the block.
+挖掘狗狗幣需要專門的硬體並消耗大量電力。此外，維持可盈利的採礦設置正常運行所需的維護成本和經驗比運行節點所需的成本和經驗要大得多。
 
-Mining Dogecoin requires specialized hardware and consumes significant amounts of electricity. Additionally, maintenance costs and experience required to maintain a profitable mining setup in working order are much more considerable than those needed for running a node.
-
-A detailed overview of the role of miners in the Dogecoin network can be found [here](/dogepedia/articles/what-is-a-miner/)
+礦工在狗狗幣網路中的角色的詳細概述可以在[這裡](/zh-tw/dogepedia/articles/what-is-a-miner/)找到。

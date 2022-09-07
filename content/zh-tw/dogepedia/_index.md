@@ -54,7 +54,7 @@ article = "文章"
 ### 運行節點、挖礦、等等...... {#nodex-and-mining}
 為技術達人們（或許是每個人）準備的內容。來學習一下狗狗幣網路是如何運轉的吧，以及我們應該如何提供支援。
 - [區塊鏈是什麼？](/zh-tw/dogepedia/articles/what-is-a-blockchain)
-- [節點是什麼？為什麼節點很重要？我需要運行一個嗎？](/zh-tw/dogepedia/articles/what-is-a-node)
+- [節點是什麼？為什麼節點很重要？我需要執行一個節點嗎？](/zh-tw/dogepedia/articles/what-is-a-node)
 - [礦工是什麼？](/zh-tw/dogepedia/articles/what-is-a-miner)
 - [礦池是什麼？](/zh-tw/dogepedia/articles/what-is-a-mining-pool)
 - [如何建立一個節點？](/zh-tw/dogepedia/how-tos/operating-a-node)

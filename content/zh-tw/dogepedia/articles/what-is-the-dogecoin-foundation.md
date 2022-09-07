@@ -1,5 +1,5 @@
 +++
-title = "What is the Dogecoin Foundation?"
+title = "狗狗幣基金會是什麼？"
 date = "2021-10-22"
 type = "article"
 
@@ -7,8 +7,8 @@ type = "article"
   name = "Dogecoin"
 +++
 
-The Dogecoin Foundation is a not-for-profit organisation tasked with providing (i) support for Dogecoin through development and advocacy, (ii) Dogecoin trademark defence to prevent abuse and fraud, and (iii) a roadmap and governance for the future of Dogecoin.  
+狗狗幣基金會是一個非營利組織，其任務是 (i) 通過開發和宣傳為狗狗幣提供支持，(ii) 保護狗狗幣商標以防止濫用和欺詐，以及 (iii) 狗狗幣未來的路線圖和治理。
 
-The Foundation was initially established by members of the Dogecoin team in 2014 to provide governance and support for the Dogecoin project. In 2021 the Foundation was re-invigorated by members of the core development team — along with fresh faces and new seasoned advisors — ready to grow Dogecoin for the decade ahead! 
+該基金會最初由狗狗幣團隊的成員於 2014 年成立，旨在為狗狗幣項目提供治理和支持。2021 年，核心開發團隊的成員以及新面孔和經驗豐富的新顧問重新為基金會注入了活力，並準備在未來十年發展狗狗幣！
 
-You can read about the Foundation’s guiding principles in [The Dogecoin Manifesto](https://foundation.dogecoin.com/manifesto/). 
+您可以在 [The Dogecoin Manifesto](https://foundation.dogecoin.com/manifesto/) 中了解基金會的指導原則。

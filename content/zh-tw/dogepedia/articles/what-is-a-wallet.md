@@ -1,5 +1,5 @@
 +++
-title = "What is a wallet, really?"
+title = "錢包到底是什麼？"
 date = "2021-10-22"
 type = "article"
 
@@ -7,14 +7,12 @@ type = "article"
   name = "Dogecoin"
 +++
 
-A wallet is a set of private keys that gives you access to the control of certain coins on the blockchain ledger. When you spend a coin, control of that coin is transferred from being controlled by your keys to being controlled by someone else's keys. 
+錢包是一組私鑰，可讓您存取對區塊鏈帳本上某些錢幣的控制權。當您花費一枚錢幣時，該錢幣的控制權從您的金鑰轉移到其他人的金鑰。
 
-A *wallet app* (often referred to simply as a "wallet") is an application which manages these keys, reports these amounts, and facilitates the transfer of amounts of coins between addresses. Some wallet apps store your keys locally; others store the keys on a remote server (which is less safe). Just remember: *whoever has the keys controls the coins*. 
+*錢包應用程式*（通常簡稱為「錢包」）是一個應用程式，它管理這些金鑰、報告這些金額，並促進地址之間的錢幣數量轉移。一些錢包應用程式將您的金鑰儲存在本地；其他人將金鑰儲存在遠端服務器上（這不太安全）。請記住：*擁有金鑰轉的人控制錢幣*。
 
-While some "custodial" services, where coins that are "yours" are held under the service provider's keys may be trustworthy, keep in mind that many are not. Unless you hold the keys, ultimately, the only thing keeping whoever *does* hold the keys from transferring your coins is trust. 
+雖然一些「託管」服務（其中「您的」錢幣保存在服務提供商的金鑰下）可能是值得信賴的，但請記住，許多服務並不值得信賴。除非您持有金鑰，否則，唯一能阻止持有金鑰的人轉移您的錢幣的唯一方法就是信任。
 
-**It is important to understand that unlike a physical wallet, which holds actual notes and coins, crypto wallets do not really "store" your crypto (in this case, Dogecoin) locally. They are storing a collection of private keys and private addresses used to access your Dogecoin, which is actually "living" on the [blockchain](/dogepedia/articles/what-is-a-blockchain/).** The blockchain is a digital ledger of transactions that is duplicated and distributed throughout an entire network of computers called [nodes](/dogepedia/articles/what-is-a-node/). You could have several wallet applications using the same private keys, and you would be able to access and spend your Dogecoin from each of these apps.
+**重要的是要了解，與保存實際紙幣和錢幣的物理錢包不同，加密錢包並不會真正在本地「儲存」您的加密貨幣（在本例中為狗狗幣）。他們正在儲存用於存取您的狗狗幣的私鑰和私人地址的集合，加密貨幣實際上是「活」在 [區塊鏈](/zh-tw/dogepedia/articles/what-is-a-blockchain/) 上。**區塊鏈是一個包含交易紀錄的數位帳本，在稱為 [節點](/zh-tw/dogepedia/articles/what-is-a-node/) 的整個電腦網路中複製和散佈。您可以擁有多個使用相同私鑰的錢包應用程式，且您將能從任何一個應用程式存取和使用您的狗狗幣。
 
-For more information about getting a wallet and the different types of wallets, check the article: [How do I get a wallet?](/dogepedia/articles/how-do-i-get-a-wallet/).
-
-
+有關獲取錢包和不同類型錢包的更多資訊，請查看文章：[如何獲得狗狗幣錢包？](/zh-tw/dogepedia/articles/how-do-i-get-a-wallet/)。

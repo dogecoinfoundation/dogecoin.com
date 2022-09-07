@@ -1,5 +1,5 @@
 +++
-title = "How can I use Dogecoin to buy stuff from my favorite stores?"
+title = "如何使用狗狗幣從最喜歡的商店買東西？"
 date = "2021-10-22"
 type = "article"
 
@@ -7,6 +7,6 @@ type = "article"
   name = "Dogecoin"
 +++
 
-Dogecoin is becoming increasingly popular as a payment option by merchants worldwide. Moreover, the implementation of third-party cryptocurrency payment solutions such as Coinbase Commerce and BitPay has resulted in more-and-more businesses accepting Dogecoin. It is also possible for you to indirectly use Dogecoin at merchants who don’t accept Dogecoin. For example, some companies have established relationships with credit card companies in which you can 'top up' a credit card from your Dogecoin crypto wallet. Other companies even facilitate the payments of utilities and bills with Dogecoin.
+狗狗幣作為一種支付方式越來越受到全球商家的歡迎。此外，Coinbase Commerce 和 BitPay 等第三方加密貨幣支付解決方案的導入使得越來越多的商家開始接受狗狗幣。您也可以在不接受狗狗幣的商家處間接使用狗狗幣。例如一些公司已經與信用卡公司建立了關係，您可以在其中從您的狗狗幣加密錢包中為信用卡「充值」。其他公司甚至使用狗狗幣來促進公共事業和帳單的支付。
 
-The Dogecoin community is committed to championing Dogecoin as a legitimate and viable alternative currency to traditional fiat money. To this end, over the years the community has been successful in convincing retailers to **#AcceptDoge** via online campaigns which have received overwhelming support and significant positive exposure for retailers who choose to accept Dogecoin. If you want your favourite stores to accept Dogecoin, then [get involved](/dogepedia/articles/join-the-dogecoin-community) and make your voice known!
+狗狗幣社區致力於支持狗狗幣作為傳統法定貨幣的合法且可行的替代貨幣。為此，多年來，社區通過在線活動 **#AcceptDoge** 成功說服零售商，這些活動得到了壓倒性的支持，並為選擇接受狗狗幣的零售商帶來了顯著的正面曝光。如果您希望您最喜歡的商店接受狗狗幣，那麼[參與其中](/zh-tw/dogepedia/articles/join-the-dogecoin-community)並發出您的聲音吧！
