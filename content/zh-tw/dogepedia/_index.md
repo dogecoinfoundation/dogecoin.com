@@ -33,7 +33,6 @@ article = "文章"
 - [如何獲得錢包？](/zh-tw/dogepedia/articles/how-do-i-get-a-wallet)
 - [如何備份錢包？](/zh-tw/dogepedia/articles/how-to-backup-a-wallet)
 - [硬體錢包的優點以及如何使用？](/zh-tw/dogepedia/articles/dogecoin-hardware-wallets)
-- [如何找回丟失的錢包？](/zh-tw/dogepedia/articles/recover-a-lost-wallet)
 - [錢包到底是什麼，是真實存在的嗎？](/zh-tw/dogepedia/articles/what-is-a-wallet)
 
 ### 狗狗幣的使用 {#using-doge}
