@@ -12,10 +12,7 @@ h2{
   margin: auto;
   flex: auto;
 }
-}
-
-</style>
-<!-- style="background-image: url(/assets/images/dogeathon_bg.png); background-repeat: no-repeat; background-size: cover" -->
+}</style>
 <div id="general" class="pt-5" style="padding-bottom: 35px">
   <div class="container" style="text-align: left">
     <div class="row">
@@ -27,17 +24,42 @@ h2{
 The Dogecoin Foundation welcomes all Dogecoin Developers to the inaugural Dogecoin Hackathon:
 Dogeathon! Individuals and teams can join from anywhere online, or in-person with key Dogecoin
 Devs at a dedicated location in Victoria, Australia.
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $.get( "https://what-is-dogecoin.com/dogeathon/balance.php", function( data ) {
+      $( "#dogepoolmoon" ).html( data );
+      $( "#dogepool" ).html( data );
+    });
+
+    $.get( "https://what-is-dogecoin.com/dogeathon/fiat-to-doge.php", function( data ) {
+      $( "#venue" ).html( data );
+      $( "#venueregister" ).html( data );
+    });
+
+  });
+</script>
+</script>
+
           </p>
       </div>
     </div>
     <div class="row" style="padding-top: 35px">
       <div class="col">
         <div class="row"><b>DATES:</b><div>November 15th - 20th, 2022</div></div>
-        <div class="row" style="padding-top:35px"><b>PRIZES:</b><div>Community and Panel Awars</div></div>
+        <div class="row" style="padding-top:35px"><b>LOCATION:</b><div>Chestnut Hill Conference Lodge, Yarra Ranges,Victoria, Australia, & online</div></div>
+        <div class="row" style="padding-top:35px"><b>REGISTRATION & ATTENDANCE FEE:</b><div>Ð 1,500 (Refundable)</div></div>
       </div>
       <div class="col">
-        <div class="row"><b>LOCATION:</b><div>Chestnut Hill Conference Lodge, Yarra Ranges,Victoria, Australia, & online</div></div>
-        <div class="row" style="padding-top:35px"><b>REGISTRATION & ATTENDANCE FEE:</b><div>Ð 1,500 (Refundable)</div></div>
+        <div class="row"><b>PRIZES:</b>
+        <div>Community and Panel Awars</div>
+        <div>Prize pool starts at <b>Ð <span id="dogepool">a</span></b> !<br>(Judges to be announced soon)</div>
+        <div style="padding-top: 15px">Prize Pool Address:  <b>DMiu2gDUe77jnrLvzQzyHGu6KLXvbxJNX1</b></div>
+<div class="row">
+        <div class="col" style="max-width: 110px"><img src="/assets/images/prizepoolqr.png" alt="Dogecoin Prize Pool Address" style="max-width: 100px" /></div>
+        <div class="col" style="padding-top: 20px">Shibes can tip the Prize Pool address to increase the award!</div>
+</div>
+        </div>
       </div>
       <div class="col">
         <div class="row"><b>TOPIC:</b><div>Building the Dogecoin Ecosystem with new integration options: LibDogecoin, GigaWallet API, Core API, Doge-Eth Bridge, & More</div></div>
@@ -57,8 +79,7 @@ Devs at a dedicated location in Victoria, Australia.
 <h2>Accommodation Options for In-Person Attendees</h2>
           <p class="lh-md comic-neue" style="">
 <div style="padding: 15px 0 0 0">The venue, Chestnut Hill Conference Lodge, has accommodation available for up to 40 guests, and prices include all meals for check-in from 4pm Tuesday 15th and departing 11am Saturday 19th.</div>
-<!--<div style="padding: 15px 0 0 0">• Tariff / guest (single accom.) - AUD $790 per guest, total</div>-->
-<div style="padding: 15px 0 0 0">• Tariff / guest (shared accom.) - AUD $530 per guest, total (paid in Doge)</div>
+<div style="padding: 15px 0 0 0">• Tariff / guest (shared accom.) - Ð <span id="venue"></span> (AUD $530) per guest, total</div>
 <div style="padding: 15px 0 0 0">Other accommodation options are also available in the area, and include AirBnBs, Mulberry Cottage, and Mountain View Cottage.</div>
 <img src="/assets/images/chestnut.jpg" style="border-bottom-right-radius: 25px;padding: 15px 0 0 0">
           </p>
@@ -93,8 +114,8 @@ Devs at a dedicated location in Victoria, Australia.
           <div class="col" style="background-color: rgba(255, 255, 255, 1); margin: 15px; border-radius: 5px; text-align: center; padding: 15px" >
             <div style="padding: 15px">in-person team attendees in the venue</div>
             <i class="fa-solid fa-earth-oceania" style="font-size: 6vw; padding: 15px"></i>
-            <div style=" font-weight: bold;font-size: 50px">$530 AUD</div>
-            <div style=" font-weight: bold;">(paid in Doge)</div>
+            <div style=" font-weight: bold;font-size: 50px">Ð <span id="venueregister"></span></div>
+            <div style=" font-weight: bold;">($530 AUD)</div>
             <div style=" font-weight: bold; margin: 5px" class="btn btn-light">
               4 nights accomodation at the venue + meals + t-shirt
             </div>
@@ -127,11 +148,11 @@ Devs at a dedicated location in Victoria, Australia.
 </div>
 
 
-<div class="modal fade" id="inPersonRegistration" tabindex="-1" aria-labelledby="inPersonTitle" aria-hidden="true">
+<div class="modal fade" id="inPersonRegistration" tabindex="-1" aria-labelledby="inPersonTitle" aria-hidden="true" style="padding-top: 10%; height: 90%">
   <div class="modal-dialog modal-dialog-scrollable modal-lg modal-fullscreen-xxl-down">
-    <div class="modal-content" style="height: -webkit-fill-available;">
+    <div class="modal-content" style="height: inherit; ">
       <div class="modal-header">
-        <h5 class="modal-title" id="inPersonTitle"><i class="fa-solid fa-earth-oceania"></i> in-person team attendees</h5>
+        <h5 class="modal-title" id="inPersonTitle" style="color: #000000 !important"><i class="fa-solid fa-ticket"></i> <i class="fa-solid fa-earth-oceania"></i> such tiket, much registration form</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="overflow-y: hidden">
@@ -176,7 +197,7 @@ h2{
       </div>
       </div>
     <div class="row" style="text-align: center; padding: 35px">
-        <p style="text-align: center">If your company is interested in Sponsoring the Dogeathon, please <a href="mailto:hackathon@dogecoin.com?subject=Sponsoring the Dogeathon" target="_blank"><b>get in touch</b></a>.</p>
+        <p style="text-align: center">If your company is interested in Sponsoring the Dogeathon, please <a href="mailto:registration@lists.dogecoin.org?subject=Sponsoring the Dogeathon" target="_blank"><b>get in touch</b></a>.</p>
     </div>
 </div>
 </div>
@@ -193,7 +214,7 @@ h2{
       </div>
 
     <div class="row" style="text-align: center; padding: 35px">
-        <p style="text-align: center">The Do Only Good Everyday sponsor is to cover 'limited grants for devs experiencing financial hardship' to attend, if your company is interested in Sponsoring the Dogeathon, please <a href="mailto:hackathon@dogecoin.com?subject=Sponsoring the Dogeathon" target="_blank"><b>get in touch</b></a>.</p>
+        <p style="text-align: center">The Do Only Good Everyday sponsor is to cover 'limited grants for devs experiencing financial hardship' to attend, if your company is interested in Sponsoring the Dogeathon, please <a href="mailto:registration@lists.dogecoin.org?subject=Sponsoring the Dogeathon" target="_blank"><b>get in touch</b></a>.</p>
     </div>
 </div>
 </div>
