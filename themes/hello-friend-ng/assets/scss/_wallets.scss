@@ -57,3 +57,18 @@
   padding-top: 12vh !important;
   margin-top: 10vh;
 }
+
+.btn-outline-secondary{
+  @media (prefers-color-scheme: light) {
+    color: $light-color;
+  }
+  @media (prefers-color-scheme: dark) {
+    color: $dark-color;
+  }
+  [data-theme=light] & {
+    color: $light-color;
+  }
+  [data-theme=dark] & {
+    color: $dark-color;
+  }
+}
