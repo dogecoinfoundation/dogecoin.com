@@ -33,7 +33,7 @@ type_custodial = "no"
 
 type_2fa = "yes"
 type_full_node = "no"
-type_import_wallet = "no"
+type_import_wallet = "yes"
 type_browser_wallet = "yes"
 type_hardware_wallet = "no"
 type_multisig = "no"
