@@ -1,5 +1,5 @@
 +++
-title = "What is Dogecoin?"
+title = "도지코인이란?"
 date = "2021-10-22"
 type = "article"
 
@@ -8,14 +8,14 @@ type = "article"
 +++
  
 ![image info](/assets/images/dogepedia/3.png)
-Dogecoin is many things to many different people. At its heart, Dogecoin is the accidental crypto **movement** that makes people smile! 
+도지코인은 많은 이들에게 많은 의미를 가집니다. 그 중심 속에서는, 도지코인은 많은 이들에게 미소를 띠게하는 우연의 가상화폐 **운동** 입니다!
 
-It is also an open-source peer-to-peer cryptocurrency that utilises [blockchain technology](https://www.dogecoin.com/dogepedia/articles/what-is-a-blockchain), a highly secure decentralised system of storing information as a public ledger that is maintained by a network of computers called [nodes](https://www.dogecoin.com/dogepedia/articles/what-is-a-node). 
+또한 [블록체인 기술](https://www.dogecoin.com/dogepedia/articles/what-is-a-blockchain)을 이용하는 오픈소스 피어 to 피어 가상화폐이며, 보안이 강한 탈중앙화 누구나 열람 할 수 있는 정보 저장 수단인 렛져를 여러 컴퓨터가 [노드](https://www.dogecoin.com/dogepedia/articles/what-is-a-node)를 운영하며 네트워크를 구성하는 시스템이다. 
 
-More than this, though, is the ethos of Dogecoin, summarised in the [Dogecoin Manifesto](https://foundation.dogecoin.com/manifesto/), and its amazing, vibrant community made up of friendly folks just like you!  
+이 보다 더, 도지코인의 철학이 있으며, 이는 [도지코인 성명서](https://foundation.dogecoin.com/kr/manifesto/)에 요약 되어있고, 그리고 당신과 같은 좋은 분들로 이루어진 엄청나며, 생동감 넘치는 커뮤니티가 있다!  
 
-The Dogecoin community cares about supporting each other, being kind, teaching people about cryptocurrency, fundraising, having fun, making memes, and being absurd. This is nicely captured by Dogecoin’s unofficial tagline: **D**o **O**nly **G**ood **E**veryday.  
+도지코인 커뮤니티는 서로를 돕고, 선행을 하고, 가상화폐에 대해서 교육하고, 모금하고, 좋은 시간을 보내고, 밈 만들고, 그리고 우스꽝스러운 것에 대한 관심이크다. 이는 도지코인의 비공식적인 태그라인에 잘 묘사되어있따: **D**o **O**nly **G**ood **E**veryday (매일 좋은 일을 하자).  
 
-Moreover, the Dogecoin community is passionate about championing Dogecoin as a viable and legitimate alternative currency to traditional fiat money. To this end, the Dogecoin ecosystem is ever-expanding in dynamic and organic ways, and aims to become a highly utilised currency of the People, for the People, whilst always staying true to its origin of being the most fun crypto! 
+또한, 도지코인 커뮤니티는 도지코인이 실제로 기존의 화폐를 대체 할 수 있는 화폐가 되는 것에 대해 매우 열정적이다. 이를 위하여, 도지코인 에코시스템은 다이나믹하며 자연스러운 방식으로 계속해서 확장되고 있으며, 사람들이 많이 사용되는 화폐로 거듭나는 것으로 목표하며, 사람들을 위하여, 이와 동시에 가장 재밌는 가상화폐라는 근본을 지키며! 
 
-At its core, Dogecoin is useful, personable, welcoming, and reliable – and we’re very happy you’re here. 
+그 중심에, 도지코인은 유용하며, personable, 따뜻하게 환영하며, 신뢰할 수 있다 – 그리고 당신이 여기에 있기에 저희는 행복합니다. 
