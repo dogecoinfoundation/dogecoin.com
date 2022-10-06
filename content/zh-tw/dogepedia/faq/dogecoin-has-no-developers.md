@@ -1,5 +1,5 @@
 +++
-title = "Dogecoin has no developers!"
+title = "狗狗幣沒有開發者！"
 date = "2021-10-22"
 type = "faq"
 
@@ -7,14 +7,14 @@ type = "faq"
   name = "Dogecoin"
 +++
 
-Oh, yes it does - and it always has!  
+噢，當然有啊，而且一直都有！
 
-Dogecoin’s primary purpose has always been to be used as a currency. Dogecoin was originally a fork of a cryptocurrency called Luckycoin - itself a fork of Litecoin. Billy Markus, co-creator of Dogecoin with Jackson Palmer, acted as a solo developer for the first Dogecoin Core releases. In 2014, Billy and Jackson left Dogecoin development, and a new development team was formed.  Over the years, the Dogecoin development team has consisted of a small group of maintainers coordinating the work of more than 40 contributors.
+狗狗幣的主要用途一直是被當作貨幣使用。狗狗幣最初是一種名為 Luckycoin 的加密貨幣（自身就是萊特幣的分叉）的分叉。Dogecoin Core 在一開始就只有 Billy Markus（狗狗幣的共同創造者）與 Jackson Palmer 2 位開發人員。2014 年，Billy 和 Jackson 離開了狗狗幣開發工作，接著一個新的開發團隊建立了起來。多年來，狗狗幣開發團隊由一小群維護人員組成，負責協調 40 多位貢獻者的工作。
 
-In 2015, starting from Dogecoin Core 1.10.0, the Dogecoin development team decided to re-fork Dogecoin off Bitcoin, re-applying Litecoin changes on top of the Bitcoin codebase. Thus, throughout its history, Dogecoin inherited already feature-complete code bases, and it has shared a good part of its identity with Bitcoin. Its uniqueness came from changed parameters, optimizations, and parts of the code that were not inherited from Litecoin or Bitcoin. These changes were always aimed at making Dogecoin a viable currency for day to day spending, with a focus on utility and ease of use.
+在 2015 年，從 Dogecoin Core 1.10.0 開始，狗狗幣開發團隊決定將狗狗幣從比特幣上重新分叉出來，在比特幣的代碼庫之上重新套用萊特幣的變更。因此，縱觀其歷史，狗狗幣繼承了比特幣功能早已完整的代碼庫，並與其大部分的特性相同。它的獨特性來自更改過的參數、優化以及未從萊特幣或比特幣繼承的部分原始碼。這些變更始終著重在實用性和易用性，以便狗狗幣成為能用來進行日常消費的貨幣。
 
-In the future, the plan is to focus more efforts and resources to enhance Dogecoin so that it fulfills its aim to become a currency of the People. This will require a combination of part-time contributors, volunteers, but also full-time staff including developers and engineers.   
+未來預計會集中更多的精力和資源來強化狗狗幣，使其做到成為人民的貨幣的目標。要達成此目標需要集合包括非全職貢獻者、志願者以及包括開發人員和工程師在內的全職員工等人。
 
-The Dogecoin Foundation’s [Trailmap](https://foundation.dogecoin.com/trailmap/) lists various projects as the ecosystem works towards its shared aim of becoming a currency for the People, by the People! This Trailmap is not authoritative, but an indication of where to go that is open for community feedback.
+狗狗幣基金會的[路線圖](https://foundation.dogecoin.com/trailmap/)列出了各種專案，因為這個生態系正在努力實現其共同目標，即由「人民」使其成為人民的貨幣！此路線圖並不權威，只是指明了前進的方向，而且也歡迎社區的反饋。
 
-Even though a lot of actual work is done outside of this repository, some of the development efforts can be followed on Github in the [**Dogecoin Core repository**](https://github.com/dogecoin/dogecoin). [**r/dogecoindev**](https://reddit.com/r/dogecoindev) on reddit is another good channel to discuss everything around Dogecoin's development and interact with the developers.
+儘管很多實際工作不是在 Github 上的 [**Dogecoin Core 儲存庫**](https://github.com/dogecoin/dogecoin) 完成的，但還是能在此儲存庫上追蹤到很多的開發事務。Reddit 上的 [**r/dogecoindev**](https://reddit.com/r/dogecoindev) 是另一個討論狗狗幣開發和與開發人員互動的好管道。
