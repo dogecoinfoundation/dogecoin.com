@@ -485,7 +485,7 @@ disableHugoGeneratorInject = false
 ##############################
 
   [languages.zh-cn]
-    subtitle  = "Hello Friend"
+    subtitle  = "朋友们，大家好！"
     weight    = 4
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     contentDir = "content/zh-cn"
@@ -493,31 +493,31 @@ disableHugoGeneratorInject = false
 [languages.zh-cn.menu]
   [[languages.zh-cn.menu.main]]
     identifier = "home"
-    name       = "Home"
+    name       = "主页"
     url        = "/"
     weight     = 1
 
   [[languages.zh-cn.menu.main]]
     identifier = "what-is-dogecoin"
-    name       = "What is Dogecoin?"
+    name       = "狗狗币是什么"
     url        = "#what-is-dogecoin"
     weight     = 2
 
   [[languages.zh-cn.menu.main]]
     identifier = "wallets"
-    name       = "Wallets"
-    url        = "#wallets"
+    name       = "钱包"
+    url        = "wallets/"
     weight     = 3
 
   [[languages.zh-cn.menu.main]]
     identifier = "community"
-    name       = "Community"
+    name       = "社区"
     url        = "#community"
     weight     = 4
 
   [[languages.zh-cn.menu.main]]
     identifier = "dogepedia"
-    name       = "Dogepedia"
+    name       = "狗狗百科"
     url        = "dogepedia/"
     weight     = 5
 
@@ -526,64 +526,63 @@ disableHugoGeneratorInject = false
 
     [[languages.zh-cn.menu.main]]
     identifier = "faq"
-    name       = "FAQ"
+    name       = "常见问题"
     url        = "dogepedia/#faq"
     parent = "dogepedia"
     weight     = 5
 
     [[languages.zh-cn.menu.main]]
     identifier = "how-tos"
-    name       = "How Tos"
+    name       = "如何上手"
     url        = "dogepedia/#howto"
     parent = "dogepedia"
     weight     = 5
 
     [[languages.zh-cn.menu.main]]
     identifier = "documentation"
-    name       = "Documentation"
+    name       = "文档"
     url        = "dogepedia/#documentation"
     parent = "dogepedia"
     weight     = 5
 
     [[languages.zh-cn.menu.main]]
     identifier = "resource"
-    name       = "Resources"
+    name       = "资源"
     url        = "resources/"
     parent = "dogepedia"
     weight     = 5
 
 [[languages.zh-cn.params.footerLegal]]
-    name = "Terms & Conditions"
+    name = "条款"
     url  = "/terms"
 
   [[languages.zh-cn.params.footerLegal]]
-    name = "Privacy Policy"
+    name = "隐私政策"
     url  = "/legal"
 
   [[languages.zh-cn.params.footerLegal]]
-    name = "Trademarks"
+    name = "商标"
     url  = "/trademarks"
 
 [[languages.zh-cn.params.footerFoundation]]
-    name = "About"
-    url  = "https://foundation.dogecoin.com/about/"
+    name = "关于"
+    url  = "https://foundation.dogecoin.com/zh-cn/about/"
 
   [[languages.zh-cn.params.footerFoundation]]
-    name = "Manifesto"
-    url  = "https://foundation.dogecoin.com/manifesto/"
+    name = "宣言"
+    url  = "https://foundation.dogecoin.com/zh-cn/manifesto/"
 
   [[languages.zh-cn.params.footerFoundation]]
-    name = "Advisors"
-    url  = "https://foundation.dogecoin.com/about/"
+    name = "顾问团"
+    url  = "https://foundation.dogecoin.com/zh-cn/about/"
 
   [[languages.zh-cn.params.footerFoundation]]
-    name = "Blog"
-    url  = "https://foundation.dogecoin.com/announcements/"
+    name = "博客"
+    url  = "https://foundation.dogecoin.com/zh-cn/announcements/"
 
-  [[languages.zh-cn.params.footerFoundation]]
-    name = "Trailmap"
-    url  = "https://foundation.dogecoin.com/roadmap/"
-
+ [[languages.zh-cn.params.footerFoundation]]
+    name = "路线图"
+    url  = "https://foundation.dogecoin.com/zh-cn/roadmap/"
 
 ##############################
 # Language Translation PT-PT
@@ -1113,7 +1112,6 @@ disableHugoGeneratorInject = false
 ##############################
 
   [languages.zh-tw]
-    hasCJKLanguage = true
     subtitle  = "Much Welcome"
     weight    = 4
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
