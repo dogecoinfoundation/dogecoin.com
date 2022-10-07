@@ -1,5 +1,5 @@
 +++
-title = "What is a mining pool?"
+title = "矿池是什么？?"
 date = "2022-04-16"
 type = "article"
 
@@ -7,19 +7,20 @@ type = "article"
   name = "Dogecoin"
 +++
 
-Mining pools are services, operated by third parties not affiliated with Dogecoin, which allow a group of [**miners**](/dogepedia/articles/what-is-a-miner/) to combine their [**hashing power**](/dogepedia/articles/what-is-a-miner/#hashing-power) when attempting to solve the "puzzles" involved in mining Dogecoin. 
+矿池是由不属于狗狗币的第三方运营商提供的服务，它允许一组[**矿工**](/zh-cn/dogepedia/articles/what-is-a-miner/)合并哈希算力来计算狗狗币挖矿时需要解决的“难题”。
 
-**Mining rewards** - consisting of 10,000 Dogecoin per block plus transaction fees associated to the transactions included in the block - are awarded to the miner who discovers a valid Proof of Work for a new block before any other miner in the network. Anyhow, alone, a miner has a very limited hashing power in relation to the overall **Mining Hashrate** of the network. This means a miner, even when using a powerful [**ASIC miner**](/dogepedia/how-tos/mining-dogecoin/#ASICs), has a small chance at being awarded the next block. In practice, it could take a long time before a solo miner finds a block and is awarded the rewards associated with it.
+**挖矿奖励** - 每个区块10,000枚狗狗币再加上区块相关的交易费奖励 - 将给予网络上在其他矿工之前发现新区块有效工作量证明的矿工。然而，单一矿工拥有的哈希算力，跟整个网络的**挖矿哈希算力**比，实在是太小了。这意味着一个矿工，即使使用一个强有力的[**ASIC矿机**](/zh-cn/dogepedia/how-tos/mining-dogecoin/#ASICs)，获得下一个区块奖励的几率也很低。实际上，一个单一矿工可能要等超级长的时间才能找到一个新的区块并获得奖励。
 
-By joining their efforts with other miners in a mining pool, which coordinates their work and distributes the rewards following pre-established rules the miners have agreed to, miners earn a steadier flow of Dogecoin. Even though they get awarded only a portion of the overall block reward, over a long period of time, mining in a pool allows a miner to earn a more predictable and usually higher amount of Dogecoin.
+通过在矿池中与其他矿工一起努力，以此协调大家的工作并按照事先同意的规则来分配奖励，矿工可以获得更稳定的狗狗币奖励。尽管每个矿工只获得全部区块奖励的一部分，但是长远来看，参与到矿池中挖矿可以获得更加可预测及更多的狗狗币奖励。
 
 ![image info](/assets/images/dogepedia/6.png)
-### Mining Pools and Rewards
-When mining in a pool, miners agree to accept the rules defined by the pool for the distribution of the rewards. 
+### 矿池和奖励
+在矿池中挖矿时，矿工同意接受矿池制定的奖励分配规则。
 
-In general, the operators of the mining pool will keep for themselves a percentage of the mining rewards. The rest of the rewards are usually distributed to the miners depending on the amount of shares they have accumulated when mining a block. A miner is awarded shares depending on the amount of computational work it has contributed to the mining pool's efforts.
+通常，矿池的运营商将为自己保留一定比例的挖矿奖励，其余的奖励根据矿工挖掘新区块时候积累的份额数量进行分配，矿工根据他们对矿池算力的贡献获得份额。
 
-### Importance and Influence of Mining Pools
-Mining pools contribute most of the hashing power of the Dogecoin network. For this reason, due to the fundamental role that mining plays in a Proof of Work crypto like Dogecoin, they hold considerable power and influence.
+### 矿池的重要性及影响
 
-[**Developers**](/dogepedia/articles/dogecoin-developers/), [**node operators**](/dogepedia/articles/what-is-a-node/#full-nodes), and Dogecoin users are the other forces exercising influence on the network, and should, in general, balance out and keep in check the influence of mining pools and miners. Single miners can also opt to mine in smaller mining pools, instead of joining the largest and most popular pools.
+矿池贡献了狗狗币网络的绝大部分哈希算力，在狗狗币这样的工作量证明加密货币的正常运行中发挥了重要的基础性作用，所以他们拥有相当大的权力和影响力。
+
+[**开发者**](/zh-cn/dogepedia/articles/dogecoin-developers/), [**节点运营商**](/zh-cn/dogepedia/articles/what-is-a-node/#full-nodes)和狗狗币用户是其他对狗狗币网络有重要影响的力量。 一般来说，应当平衡并控制矿池和矿工的影响力。单一矿工也可以选择在较小的矿池里挖矿，而非加入最大最受欢迎的矿池。
