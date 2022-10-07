@@ -16,7 +16,7 @@ download_win64_url = ""
 download_MacOS_url = ""
 download_android_url = ""
 download_ios_url = ""
-browser_url = "https://trezor.io/"
+browser_url = "https://ledger.com/"
 
 # Wallet classification
 # wow = Excelent

@@ -64,7 +64,7 @@ git checkout -b personal-lang-trans-branch
 
 ## Translation
 
-* Copy the original english (markdown format) files (eg. ```about.md```) and paste as the to-be-translated-files (eg. ```translated-lang/about.md```), translate them then.
+* Copy the original english (markdown format) files from ```content/en/```,  (eg. ```dogepedia.md```) and paste as the to-be-translated-files (eg. ```content/translated-lang/dogepedia.md```), translate them then.
 * If there are some updates on the ```main``` branch during your translating process, you should merge them to your personal-trans-branch first (resolve conflicts as well), to make sure your translation is update-to-date.
 
 ## Test translation
