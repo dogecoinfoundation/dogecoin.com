@@ -1,5 +1,5 @@
 +++
-title = "矿池是什么？?"
+title = "矿池是什么？"
 date = "2022-04-16"
 type = "article"
 
