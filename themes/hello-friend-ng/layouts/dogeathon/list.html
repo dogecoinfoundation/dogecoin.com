@@ -125,8 +125,9 @@
   font-family: "Comic Neue", cursive !important;
 }
 .sbbox {
+  top: -70px;
   text-decoration: none;
-  width: 45%;
+  width: 50%;
   margin: 20px auto;
   left: 65%;
   border-radius: 15px;
@@ -156,6 +157,7 @@
 
 @media (max-width:1000px) {
   .sbbox {
+  top: 0px;    
     width: 90%;
      position: relative;
      margin: 20px;
@@ -168,13 +170,31 @@
 .home .dogelogo {
     padding-right: 70px;
 }
+.teamsoptions > li > a:hover{
+  color: #000 !important;
+  background-color: #FFAA20 !important;
+}
+.teams:hover{
+ background-color: #FFFFFF !important;
+}
 
 </style>
               <div style="position: relative; z-index: 69;">
                     <div class="sbbox sbleft comic-neue">
                       <i class="fa-solid fa-earth-oceania"></i> Victoria Australia & Online<br>
                       <i class="fa-solid fa-calendar-day"></i> November 15th - 19th, 2022<br>
-                      <a href="#register" class="btn btn-primary rose" style="background-color: #DC2B4D; border-color: #DC2B4D; width: 100%; border-radius: 25px">Much Register!</a>
+                      <a href="#register" class="btn btn-primary rose" style="background-color: #DC2B4D; border-color: #DC2B4D; width: 100%; border-radius: 25px; margin-top: 15px"><i class="fa-solid fa-calendar-check"></i> Much Event Register!</a>
+<div class="dropdown">
+  <button class="btn btn-warning dropdown-toggle teams" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%; border-radius: 25px; margin-top: 15px; background-color: #FFAA20; border-color: #FFAA20">
+    <i class="fa-solid fa-paw"></i> So Teams!
+  </button>
+  <ul class="dropdown-menu teamsoptions" style="width: 100%">
+    <li><a href="#teams" class="dropdown-item" ><i class="fa-solid fa-eye"></i> View Teams!</a></li>
+    <li><a class="dropdown-item" href="https://what-is-dogecoin.com/dogeathon/?teams" onclick="document.location='#teams';" target="Iframeteams"><i class="fa-solid fa-people-group"></i> Add Team!</a></li>
+  </ul>
+</div>
+
+
                     </div>
                     <img class="dogelogo" src="/assets/images/australian_animation.gif" alt="Dogegecoin" />
                 <h1 class="d_text_display d_span_opacity comic-neue"><span id="dynamic_d">D</span>OGEATHON</h1>

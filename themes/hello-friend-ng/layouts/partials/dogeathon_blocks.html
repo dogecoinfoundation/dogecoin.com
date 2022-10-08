@@ -161,6 +161,38 @@
   </div>
 </div>
 
+<div id="teams" class="pt-5">
+    <div class="container" style="text-align: left;">
+      <div class="row" style="border-radius: 25px !important; background-color: #FFFFFF; padding: 15px; min-height: 800px; border: 5px solid #EF9921; overflow: hidden !important; padding-bottom: 50px">
+        <div class="col" style="margin: 2px">
+                    <h2> So Teams!</h2>
+          <iframe id="Iframeteams" name="Iframeteams" src="https://what-is-dogecoin.com/dogeathon/?teamslist" style="border:0; text-align: center; width: 100%; height: 100%;" ></iframe>
+        </div>
+      </div>
+    </div>
+</div>
+   <script>
+        // Selecting the iframe element
+        var frame = document.getElementById("Iframeteams");
+
+        // Adjusting the iframe height onload event
+        frame.onload = function()
+        // function execute while load the iframe
+        {
+          // set the height of the iframe as
+          // the height of the iframe content
+          frame.style.height =
+          frame.contentWindow.document.body.scrollHeight + 'px';
+
+
+         // set the width of the iframe as the
+         // width of the iframe content
+         frame.style.width  =
+          frame.contentWindow.document.body.scrollWidth+'px';
+
+        }
+        </script>
+
 <div id="sponsors" class="pt-5">
     <div class="container" style="text-align: left; background-color: #EF9921; color: rgba(255, 255, 255, 1)">
       <div class="row" style="text-align: center; padding: 35px">
