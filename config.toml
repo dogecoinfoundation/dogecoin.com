@@ -1209,4 +1209,4 @@ disableHugoGeneratorInject = false
 
   [[languages.zh-tw.params.footerFoundation]]
     name = "Trailmap"
-    url  = "https://foundation.dogecoin.com/zh-tw/trailmap/"
+    url  = "https://foundation.dogecoin.com/zh-tw/trailmap/prologue/"
