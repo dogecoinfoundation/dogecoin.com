@@ -1133,7 +1133,7 @@ disableHugoGeneratorInject = false
   [[languages.zh-tw.menu.main]]
     identifier = "wallets"
     name       = "Much Wallets"
-    url        = "#wallets"
+    url        = "wallets/"
     weight     = 3
 
   [[languages.zh-tw.menu.main]]
@@ -1193,20 +1193,20 @@ disableHugoGeneratorInject = false
 
 [[languages.zh-tw.params.footerFoundation]]
     name = "About"
-    url  = "https://foundation.dogecoin.com/about/"
+    url  = "https://foundation.dogecoin.com/zh-tw/about/"
 
   [[languages.zh-tw.params.footerFoundation]]
     name = "Manifesto"
-    url  = "https://foundation.dogecoin.com/manifesto/"
+    url  = "https://foundation.dogecoin.com/zh-tw/manifesto/"
 
   [[languages.zh-tw.params.footerFoundation]]
     name = "Advisors"
-    url  = "https://foundation.dogecoin.com/about/"
+    url  = "https://foundation.dogecoin.com/zh-tw/about/"
 
   [[languages.zh-tw.params.footerFoundation]]
     name = "Blog"
-    url  = "https://foundation.dogecoin.com/announcements/"
+    url  = "https://foundation.dogecoin.com/zh-tw/announcements/"
 
   [[languages.zh-tw.params.footerFoundation]]
     name = "Trailmap"
-    url  = "https://foundation.dogecoin.com/roadmap/"
+    url  = "https://foundation.dogecoin.com/zh-tw/trailmap/"
