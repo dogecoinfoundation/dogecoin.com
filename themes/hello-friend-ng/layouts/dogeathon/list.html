@@ -139,8 +139,13 @@
   font-family: arial;
   position: absolute;
 }
+.rose {
+  color: #fff !important;
+}
 .rose:hover {
   color: #DC2B4D !important;
+  border-color: #DC2B4D !important;
+  background-color: #FFFFFF !important;
 }
 .sbleft:after {
   content: "";
@@ -157,8 +162,8 @@
 
 @media (max-width:1000px) {
   .sbbox {
-  top: 0px;    
-    width: 90%;
+     top: 0px;
+     width: 90%;
      position: relative;
      margin: 20px;
      left: auto;
@@ -170,6 +175,13 @@
 .home .dogelogo {
     padding-right: 70px;
 }
+
+.detailoptions > li > a:hover, .detailoptions > li > button:hover{
+  color: #fff !important;
+  background-color: #DC2B4D !important;
+  border-radius: 0px;
+}
+
 .teamsoptions > li > a:hover{
   color: #000 !important;
   background-color: #FFAA20 !important;
@@ -183,7 +195,18 @@
                     <div class="sbbox sbleft comic-neue">
                       <i class="fa-solid fa-earth-oceania"></i> Victoria Australia & Online<br>
                       <i class="fa-solid fa-calendar-day"></i> November 15th - 19th, 2022<br>
-                      <a href="#register" class="btn btn-primary rose" style="background-color: #DC2B4D; border-color: #DC2B4D; width: 100%; border-radius: 25px; margin-top: 15px"><i class="fa-solid fa-calendar-check"></i> Much Event Register!</a>
+
+<div class="dropdown">
+  <button class="btn btn-warning dropdown-toggle rose" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #DC2B4D; border-color: #DC2B4D; width: 100%; border-radius: 25px; margin-top: 15px">
+    <i class="fa-solid fa-calendar-check"></i> Much Event Details!
+  </button>
+  <ul class="dropdown-menu detailoptions" style="width: 100%">
+    <li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#eventDetails"><i class="fa-solid fa-eye"></i> View Details!</button></li>
+    <li><a class="dropdown-item" href="#register" ><i class="fa-solid fa-calendar-check"></i> Event Register!!</a></li>
+  </ul>
+</div>
+
+
 <div class="dropdown">
   <button class="btn btn-warning dropdown-toggle teams" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%; border-radius: 25px; margin-top: 15px; background-color: #FFAA20; border-color: #FFAA20">
     <i class="fa-solid fa-paw"></i> So Teams!
@@ -241,7 +264,136 @@
         {{ partial "dogeathon_blocks.html" . }}
     <div style="width: 100vw !important"></div>
     </main>
+<!-- Modal -->
+<style type="text/css">
+.calendar{
+    --bs-badge-padding-x: 0.65em;
+    --bs-badge-padding-y: 0.35em;
+    --bs-badge-font-size: 0.75em;
+    --bs-badge-font-weight: 700;
+    --bs-badge-border-radius: 25px;
+    display: inline-block;
+    padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);
+    font-size: var(--bs-badge-font-size);
+    font-weight: var(--bs-badge-font-weight);
+    line-height: 1;
+    text-align: center;
+    white-space: normal !important;
+    vertical-align: baseline;
+    border-radius: var(--bs-badge-border-radius);
+}
 
+</style>
+<div class="modal fade" id="eventDetails" tabindex="-1" aria-labelledby="eventDetails" aria-hidden="true" style="padding-top: 75px">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: #DC2B4D">
+        <h1 class="modal-title fs-5" id="eventDetails"><i class="fa-solid fa-calendar-check"></i> Much Event Details</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+<!-- Schedule -->
+  <table id="teamlist" cellspacing="1" width="100%" style="border-color: #EEEEEE; text-align: left !important" class="table table-striped display responsive">
+<thead>
+  <tr style="font-weight: bold">
+    <th>TIME (AEDT)</th>
+    <th>15th Nov</th>
+    <th>16th Nov</th>
+    <th>17th Nov</th>
+    <th>18th Nov</th>
+    <th>19th Nov</th>
+  </tr>
+</thead>
+ <tr>
+    <td>0800-1000</td>
+    <td></td>
+    <td><span class="btn btn-warning calendar">BREAKFAST 0830</span></td>
+    <td><span class="btn btn-warning calendar">BREAKFAST 0830</span></td>
+    <td><span class="btn btn-warning calendar">BREAKFAST 0830</span></td>
+    <td><span class="btn btn-warning calendar">BREAKFAST 0830</span></td>
+ </tr>
+  <tr>
+    <td>1000-1200</td>
+    <td></td>
+    <td><span class="btn btn-success calendar">HACKING</span></td>
+    <td><span class="btn btn-success calendar">HACKING</span></td>
+    <td><span class="btn btn-primary calendar">DEMOS</span></td>
+    <td><span class="btn btn-secondary calendar">DEPARTURE FROM VENUE 10:00</span></td>
+ </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td><span class="btn btn-info calendar">GROUP EXCURSION (OPTIONAL):Healesville Sanctuary (Aussie Wildlife)</span></td>
+ </tr>
+ <tr>
+    <td>1200-1400</td>
+    <td></td>
+    <td><span class="btn btn-success calendar">HACKING</span></td>
+    <td><span class="btn btn-success calendar">HACKING</span></td>
+    <td><span class="btn btn-primary calendar">DEMOS</span></td>
+    <td></td>
+ </tr>
+ <tr>
+    <td></td>
+    <td></td>
+    <td><span class="btn btn-warning calendar">LUNCH 1230</span></td>
+    <td><span class="btn btn-warning calendar">LUNCH 1230</span></td>
+    <td><span class="btn btn-warning calendar">LUNCH 1230</span></td>
+    <td></td>
+ </tr>
+ <tr>
+    <td>1400-1600</td>
+    <td></td>
+    <td><span class="btn btn-success calendar">HACKING</span></td>
+    <td><span class="btn btn-success calendar">HACKING</span></td>
+    <td><span class="btn btn-danger calendar">PRIZE CEREMONY: 1330-1500</span></td>
+    <td><span class="btn btn-secondary calendar">BUS LEAVES FOR CITY FROM HEALSVILLE</span></td>
+ </tr>
+ <tr>
+    <td>1600-1800</td>
+    <td><span class="btn btn-primary calendar">ARRIVAL</span></td>
+    <td><span class="btn btn-success calendar">HACKING</span></td>
+    <td><span class="btn btn-success calendar">HACKING</span></td>
+    <td></td>
+    <td></td>
+ </tr>
+ <tr>
+    <td>1800-2000</td>
+    <td><span class="btn btn-warning calendar">DINNER: 1830</span></td>
+    <td><span class="btn btn-warning calendar">DINNER: 1830</span></td>
+    <td><span class="btn btn-warning calendar">DINNER: 1830</span></td>
+    <td><span class="btn btn-warning calendar">GROUP DINNER AT RESTAURANT: 1830</span></td>
+    <td></td>
+ </tr>
+ <tr>
+    <td>2000-0000</td>
+    <td><span class="btn btn-primary calendar">OPENING CEREMONY</span></td>
+    <td><span class="btn btn-success calendar">HACKING</span></td>
+    <td><span class="btn btn-success calendar">HACKING</span></td>
+    <td></td>
+    <td></td>
+ </tr>
+ <tr>
+    <td></td>
+    <td><span class="btn btn-success calendar">HACKING BEGINS</span></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+ </tr>
+  </table>
+<!-- Schedule -->
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
     <script type="text/javascript">
         setTimeout(function () {
         var options = {
