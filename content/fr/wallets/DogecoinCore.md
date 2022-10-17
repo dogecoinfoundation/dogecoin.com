@@ -18,12 +18,6 @@ download_android_url = ""
 download_ios_url = ""
 browser_url = ""
 
-# Wallet classification
-# wow = Excelent
-# sogood = Good
-# suchwarning = Warning
-classification = "wow"
-
 # use yes or no to activate or not a type
 type_new_user = "yes"
 type_experienced_user = "yes"
@@ -39,4 +33,5 @@ type_hardware_wallet = "no"
 type_multisig = "yes"
 type_opensource = "yes"
 type_api = "yes"
+type_tipping_bot = "no"
 +++

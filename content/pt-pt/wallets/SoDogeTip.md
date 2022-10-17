@@ -18,12 +18,6 @@ download_android_url = ""
 download_ios_url = ""
 browser_url = "https://sodogetip.xyz/"
 
-# Wallet classification
-# wow = Excelent
-# sogood = Good
-# suchwarning = Warning
-classification = "suchwarning"
-
 # use yes or no to activate or not a type
 type_new_user = "yes"
 type_experienced_user = "no"
@@ -39,4 +33,5 @@ type_hardware_wallet = "no"
 type_multisig = "no"
 type_opensource = "no"
 type_api = "no"
+type_tipping_bot = "yes"
 +++

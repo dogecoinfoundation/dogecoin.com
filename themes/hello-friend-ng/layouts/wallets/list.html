@@ -381,6 +381,14 @@ $(document).ready(function() {
                                     return rowData[5];
                                 }
                             }
+                        },
+                        {
+                            label: 'Tipping BOT',
+                            value: function(rowData, rowIdx) {
+                                if (rowData[5].match(/type_tipping_bot.*/)) {
+                                    return rowData[5];
+                                }
+                            }
                         }
                     ],
                     combiner: 'and'
@@ -475,17 +483,18 @@ $(function () {
       {{ if eq .Params.type_multisig "yes" }}type_multisig{{ end }}
       {{ if eq .Params.type_opensource "yes" }}type_opensource{{ end }}
       {{ if eq .Params.type_api "yes" }}type_api{{ end }}
+      {{ if eq .Params.type_tipping_bot "yes" }}type_tipping_bot{{ end }}
     </td>
     <td>
+      {{ if eq .Params.type_self_custodial "yes" }}<span class="badge rounded-pill bg-light" style="margin: 3px; float: left; background-color: #66CC33 !important">Self Custodial</span>{{ end }}
+      {{ if eq .Params.type_custodial "yes" }}<span class="badge rounded-pill bg-danger" style="margin: 3px; float: left;">Custodial</span>{{ end }}
+
       {{ if eq .Params.type_2fa "yes" }}<span class="badge rounded-pill bg-primary" style="margin: 3px; float: left">2FA</span>{{ end }}
       {{ if eq .Params.type_full_node "yes" }}<span class="badge rounded-pill bg-dark" style="margin: 3px; float: left">Full Node</span>{{ end }}
       {{ if eq .Params.type_import_wallet "yes" }}<span class="badge rounded-pill bg-light " style="margin: 3px; float: left; background-color: #FF9900 !important">Import Wallet</span>{{ end }}
       {{ if eq .Params.type_multisig "yes" }}<span class="badge rounded-pill bg-light text-dark" style="margin: 3px; float: left; background-color: #66CC33 !important">Multisig</span>{{ end }}
       {{ if eq .Params.type_opensource "yes" }}<span class="badge rounded-pill bg-light text-dark" style="margin: 3px; float: left; background-color: rgba(255, 255, 0, 1) !important">Opensource</span>{{ end }}
       {{ if eq .Params.type_api "yes" }}<span class="badge rounded-pill bg-light" style="margin: 3px; float: left; background-color: rgba(255, 51, 153, 1) !important">API</span>{{ end }}
-
-      {{ if eq .Params.type_self_custodial "yes" }}<span class="badge rounded-pill bg-light" style="margin: 3px; float: left; background-color: #66CC33 !important">Self Custodial</span>{{ end }}
-      {{ if eq .Params.type_custodial "yes" }}<span class="badge rounded-pill bg-danger" style="margin: 3px; float: left;">Custodial</span>{{ end }}
 
       {{ if eq .Params.type_hardware_wallet "yes" }}<span class="badge rounded-pill bg-light" style="margin: 3px; float: left; background-color: rgba(255, 51, 153, 1) !important">Hardware Wallet</span>{{ end }}
       {{ if eq .Params.type_browser_wallet "yes" }}<span class="badge rounded-pill bg-warning " style="margin: 3px; float: left;">Browser Wallet</span>{{ end }}
@@ -494,6 +503,8 @@ $(function () {
       {{ if ne .Params.download_MacOS_url "" }}<span class="badge rounded-pill bg-light text-dark" style="margin: 3px; float: left; background-color: #ccc !important">MacOS</span>{{ end }}
       {{ if ne .Params.download_android_url "" }}<span class="badge rounded-pill bg-light text-dark" style="margin: 3px; float: left; background-color: rgba(153, 255, 51, 1) !important">Android</span>{{ end }}
       {{ if ne .Params.download_ios_url "" }}<span class="badge rounded-pill bg-light" style="margin: 3px; float: left; background-color: #666 !important">IOS</span>{{ end }}
+
+      {{ if eq .Params.type_tipping_bot "yes" }}<span class="badge rounded-pill bg-light" style="margin: 3px; float: left; background-color: rgba(26, 71, 255, 1) !important">Tipping BOT</span>{{ end }}
     </td>
     <td>
 

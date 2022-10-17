@@ -18,12 +18,6 @@ download_android_url = "https://play.google.com/store/apps/details?id=com.bitpay
 download_ios_url = "https://apps.apple.com/us/app/bitpay-secure-bitcoin-wallet/id1149581638"
 browser_url = ""
 
-# Wallet classification
-# wow = Excelent
-# sogood = Good
-# suchwarning = Warning
-classification = "wow"
-
 # use yes or no to activate or not a type
 type_new_user = "yes"
 type_experienced_user = "no"
@@ -39,4 +33,5 @@ type_hardware_wallet = "no"
 type_multisig = "no"
 type_opensource = "no"
 type_api = "no"
+type_tipping_bot = "no"
 +++
