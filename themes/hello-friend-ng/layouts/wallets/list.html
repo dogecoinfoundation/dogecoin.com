@@ -500,7 +500,7 @@ $(function () {
 <div class="btn-group d-grid gap-2" role="group" aria-label="Button group with nested dropdown">
   <div class="btn-group" role="group">
     <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-      <span data-toggle="tooltip" data-placement="top" title="{{ .Params.classification }}"><i class="fa-solid fa-circle {{ .Params.classification }}"></i></span> Download
+      Download
     </button>
     <ul class="dropdown-menu">
       {{ if ne .Params.download_i686_url "" }}<li><a class="dropdown-item" href="{{ .Params.download_i686_url }}"><i class="fa-brands fa-linux" aria-hidden="true"></i> i686</a></li>{{ end }}
@@ -520,7 +520,6 @@ $(function () {
   </tr>
     {{ end }}
     {{ end }}
-    <tfoot><tr><th colspan="8" style="text-align: center; padding: 15px" data-priority="1"><div class="col"><span data-toggle="tooltip" data-placement="top" title="Wen a wallet is considered by the community secure and easy to use"><i class="fa-solid fa-circle" style="color: #66CC33"></i> Much Wow</span> | <span data-toggle="tooltip" data-placement="top" title="Wen a wallet is considered by the community secure but have room for improvment"><i class="fa-solid fa-circle" style="color: #BCE9A5"></i> So Good</span> |  <span data-toggle="tooltip" data-placement="top" title="Wen a wallet is considered by the community that can be improved in security"><i class="fa-solid fa-circle" style="color: #FFCC33"></i> Such Warning</span></div></th></tr></tfoot>
 </table>
 </div>
 </div>
