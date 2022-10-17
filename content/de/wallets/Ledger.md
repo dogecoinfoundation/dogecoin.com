@@ -18,12 +18,6 @@ download_android_url = ""
 download_ios_url = ""
 browser_url = "https://ledger.com/"
 
-# Wallet classification
-# wow = Excelent
-# sogood = Good
-# suchwarning = Warning
-classification = "wow"
-
 # use yes or no to activate or not a type
 type_new_user = "no"
 type_experienced_user = "yes"
@@ -39,4 +33,5 @@ type_hardware_wallet = "yes"
 type_multisig = "no"
 type_opensource = "no"
 type_api = "no"
+type_tipping_bot = "no"
 +++
