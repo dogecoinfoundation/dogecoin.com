@@ -183,10 +183,16 @@ table{
  <script type="text/javascript">
 
 $(document).ready(function() {
+//var ordering = (Math.floor(Math.random() * (7 - 0 + 1) + 0));
+//var oerderupdown = [
+//  'asc',
+//  'desc'
+//];
 
+//var oerderupdown = oerderupdown[Math.floor(Math.random()*oerderupdown.length)];
     var dt = $('#Wallets').DataTable({
         responsive: true,
-        order: [[0, 'asc']],
+        order: [[ 0, 'asc']],
         searchPanes: {
           controls: false,
           cascadePanes: true,
@@ -449,12 +455,17 @@ $(function () {
     <th style="text-align: center" data-priority="1"><i class="fa-solid fa-cloud-arrow-down"></i> {{i18n "listWallets[download]" }}</th>
   </tr>
 </thead>
-
+<script>
+</script>
  {{ range where .Pages ".Params.type" "wallet" }}
  {{ if eq .Params.active "yes" }}
   <tr>
     <td style="vertical-align: middle">
-      {{ .Params.order }}
+      <div id="randwallet{{ .Params.order }}">{{ .Params.order }}</div>
+        <script>
+        var ordering = (Math.floor(Math.random() * (420 - 0 + 1) + 0));
+        document.getElementById("randwallet{{ .Params.order }}").innerHTML = ordering;
+        </script>
     </td>
     <td style="vertical-align: middle">
       {{ if ne .Params.wallet_Image "" }}<img src="{{ .Params.wallet_Image }}" alt="{{ .Params.name }}" style="height: 30px;border-radius: 50%; display: inline-flex; margin-right: 20px">{{ else }}<img src="/assets/images/1.png" alt="{{ .Params.name }}" style="max-width: 30px;border-radius: 50%; display: inline-flex; margin-right: 20px">{{ end }} <a href="{{ .Params.website_url }}" target="_blank" style="font-weight: bold; width: 100%;">{{ .Params.name }} </a>
@@ -507,7 +518,7 @@ $(function () {
       {{ if eq .Params.type_tipping_bot "yes" }}<span class="badge rounded-pill bg-light" style="margin: 3px; float: left; background-color: rgba(26, 71, 255, 1) !important">Tipping BOT</span>{{ end }}
     </td>
     <td>
-    
+
 <div class="btn-group d-grid gap-2" role="group" aria-label="Button group with nested dropdown">
   <div class="btn-group" role="group">
     <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
