@@ -1,5 +1,5 @@
 +++
-title = "Dogecoin has no utility!"
+title = "狗狗幣沒有用處！"
 date = "2022-04-19"
 type = "faq"
 
@@ -7,12 +7,12 @@ type = "faq"
   name = "Dogecoin"
 +++
 
-Oh yes it does, and it always has! The simple fact is that *money has utility* - and Dogecoin *is* money! Indeed, Dogecoin is one of the few crypto**currencies** that has been used for this main purpose from day one.  
+噢，當然有啊，而且一直都有！一個簡單的事實是：*錢是有用處的* - 而狗狗幣*就是*錢！事實上狗狗幣是為數不多、從一開始就爲了這一目標而生的加密**貨幣**之一。
 
-Dogecoin was first meant to be a joke - and it served, and will serve, this purpose very well. It almost immediately became a means to tip and encourage others to go and achieve something: the Jamaican bobsled team, the water wells in Kenya, the Dogecoin car, and many more crazy initiatives the community supported over the years. As a tipping currency, thanks to its low fees and speed of transactions in comparison to competing chains for a long part of its existence, Dogecoin has never stopped working for its intended use. 
+狗狗幣在起初只是個玩笑 - 它在過去很好地遵循了這個傳統，在未來也會繼續。它幾乎是從一開始就被當作一種給小費的途徑，以及鼓勵人們做一些有意義的事情：贊助牙買加雪橇隊參加冬奧會、建造肯亞水井、建造狗狗賽車以及許多狗狗幣社群支持的瘋狂提案。狗狗幣始終保持了它誕生之初的用途 - 作為一種打賞貨幣，因爲相較於同期的其他貨幣，狗狗幣區塊鏈的交易費用低廉，且交易速度快速。
 
-Over the years, it became possible to use Dogecoin and spend it in online stores. The past 2 years have seen an explosion in adoption, with Dogecoin payment integrations provided by third parties like BitPay and Coinbase and several providers providing prepaid cards supporting Dogecoin as a funding source. Shops can also integrate directly with the Dogecoin blockchain, in particular through the JSON-RPC interface. The Dogecoin Foundation, alongside the ecosystem of developers, is planning to facilitate this further by creating libraries that will streamline and standardise implementations. 
+經過多年發展，在網路商店使用狗狗幣進行消費已經成為可能。隨著第三方廠商（如 BitPay、Coinbase）整合了狗狗幣支付、部分預付卡供應商支援狗狗幣做爲資金來源，狗狗幣的使用在過去 2 年呈現了爆炸性成長。商店還可以通過 JSON-RPC 介面直接整合到狗狗幣區塊鏈上。狗狗幣基金會正在與開發者們計劃透過建立一些流程化、標準化導入方式的函式庫，來使得前述做法更加便捷。
 
-Development is ongoing to enhance Dogecoin and make it fulfill its original promises while being competitive with other cryptos. With several groups of developers currently building for Dogecoin and its ecosystem, Dogecoin will find new purposes and uses.
+我們正在進行開發，以增強狗狗幣相較其他加密貨幣在實用性上的優勢。隨著好幾個團隊持續建設狗狗幣及其生態，狗狗幣還將找到新的實用場景。
 
-As per the [Dogecoin manifesto](https://foundation.dogecoin.com/manifesto/), Dogecoin focus lies on being useful, personable, welcoming, reliable, while maintaining a unique sense of fun.
+根據[狗狗幣宣言](https://foundation.dogecoin.com/zh-tw/manifesto/)，狗狗幣專注於實用、風度翩翩、熱情友好以及穩健，同時要保持獨特的趣味感。
