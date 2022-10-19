@@ -1,5 +1,5 @@
 +++
-title = "Dogecoin Inflation"
+title = "狗狗幣通貨膨脹"
 date = "2021-10-22"
 type = "faq"
 
@@ -7,8 +7,8 @@ type = "faq"
   name = "Dogecoin"
 +++
 
-Dogecoin has a diminished inflation rate because it has a fixed yearly issuance of 5 billion coins. This means that each year, the rate of inflation **decreases** comparative to the total supply, and in a very predictable way, making Dogecoin the perfect candidate to be used as a currency.  
+因為狗狗幣每年的發行量固定爲 50 億枚，因此它的通貨膨脹率會遞減。這意味著狗狗幣每年的通貨膨脹率與總供應量相比都會以一種非常易於預測的方式**下降**，使狗狗幣在作爲貨幣的用途上成為完美的候選者。 
 
-Since Dogecoin is not meant to be hoarded — and hoarding is a major barrier to a crypto**currency** being used as, well, an actual **currency** — Dogecoin will have a much more utilitarian and practical place in the economy than other cryptocurrencies, which often remain unspent. 
+由於狗狗幣並不是用來囤積的——囤積是加密**貨幣**被用作實際**貨幣**的主要障礙。——與其他加密貨幣（通常仍未被花用）相比，狗狗幣在經濟中將更加實用、擁有實際的地位。
 
 ![image info](/assets/images/dogepedia/10.png)
