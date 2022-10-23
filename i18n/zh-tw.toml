@@ -56,7 +56,7 @@ other = "dogecoin, doge, currency, cryptocurrency, digital currency, shiba inu"
 ##############################
 
 ["index[warning]"]
-other = "Such Core Wallet 1.14.6 released! Much upgrade, plz!"
+other = "Core 錢包 1.14.6 釋出了！請快更新吧！"
 
 ["index[slogan]"]
 other = "the people’s"
@@ -118,55 +118,55 @@ other = "Read more"
 # partials/whatisdogecoin.html
 ##############################
 ["whatisdogecoin[title]"]
-other = "What is Dogecoin?"
+other = "什麼是狗狗幣?"
 
 ["whatisdogecoin[text1]"]
-other = "An open-source peer-to-peer digital currency, favoured by"
+other = "一個開源、點對點的數位貨幣，"
 
 ["whatisdogecoin[text2]"]
-other = "Shiba Inus worldwide."
+other = "深受全世界的狗狗們喜愛。"
 
 ["whatisdogecoin[lead]"]
-other = "At its heart,"
+other = "狗狗幣始於一個玩笑，"
 
 ["whatisdogecoin[lead][text1]"]
-other = "Dogecoin is the accidental crypto movement that makes people smile! It is also an opensource peer-to-peer cryptocurrency that utilises blockchain technology, a highly secure decentralised system of storing information as a public ledger that is maintained by a network of computers called nodes. More than this, though, is the ethos of Dogecoin, summarised in the"
+other = "它也是一種開源、點對點的加密貨幣，運用了區塊鏈技術—一種高度安全的去中心化網絡，資料以公開的帳本紀錄形式儲存著，並由一整個網絡的電腦（它們被稱為節點）共同維護。狗狗幣還不只是這樣，更重要的是—它的精神（我們將它精煉為"
 
 ["whatisdogecoin[lead][text2]"]
-other = "Dogecoin Manifesto"
+other = "狗狗幣宣言"
 
 ["whatisdogecoin[lead][text3]"]
-other = ", and its amazing, vibrant community made up of friendly folks just like you!"
+other = "），以及由像你一樣友善的人們組成的令人讚嘆、充滿活力的社群。"
 
 ["whatisdogecoin[here]"]
-other = "Learn more."
+other = "閱讀更多"
 
 ["whatisdogecoin[choosewallet][started]"]
-other = "Getting started"
+other = "如何開始"
 
 ["whatisdogecoin[choosewallet][title1]"]
-other = "choose your wallet"
+other = "選擇錢包"
 
 ["whatisdogecoin[choosewallet][text1]"]
-other = "A wallet is necessary for people wanting to use, trade, or hold Dogecoin. You can pick a wallet"
+other = "想使用、交易、持有狗狗幣的人都必須先有一個錢包。來選擇一個吧！"
 
 ["whatisdogecoin[choosewallet][title2]"]
-other = "configure your wallet"
+other = "設定錢包"
 
 ["whatisdogecoin[choosewallet][text2]"]
-other = "After downloading, you can configure your wallet according to our"
+other = "下載錢包之後，你可以參考我們的指南來設定錢包。"
 
 ["whatisdogecoin[guide]"]
-other = "guide."
+other = "指南"
 
 ["whatisdogecoin[choosewallet][title3]"]
-other = "get some dogecoin"
+other = "買點狗狗幣"
 
 ["whatisdogecoin[choosewallet][text3]"]
-other = "There’s lots of ways to get your hands on some Dogecoin."
+other = "你可以透過很多管道購買狗狗幣。"
 
 ["whatisdogecoin[learnmore]"]
-other = "Learn more."
+other = "閱讀更多"
 
 ##############################
 # partials/wallets.html
