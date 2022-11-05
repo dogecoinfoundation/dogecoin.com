@@ -1,42 +1,42 @@
-# Translations for Japanese
+# Translations for English
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
 # Generic
 #
 [translations]
-other = "翻訳"
+other = "Translations"
 
 [postAvailable]
-other = "他の言語"
+other = "Also available in"
 
 
 # 404.html
 #
 [archives]
-other = "アーカイブ"
+other = "Archives"
 
 [home]
-other = "ホームページ"
+other = "Home"
 
 [notFound]
-other = "あっ、ページが見つかりません……"
+other = "Oops, page not found…"
 
-# Please add hasCJKLanguage = true under [languages.ja] for the below to behave correctly
+
 # posts/single.html
 #
 [readingTime]
-one   = "一分"
-other = "{{ .Count }}分"
+one   = "One minute"
+other = "{{ .Count }} minutes"
 
 [tableOfContents]
-other = "目次"
+other = "Table of Contents"
 
 [wordCount]
-one   = "一文字"
-other = "{{ .Count }}文字"
+one   = "One Word"
+other = "{{ .Count }} Words"
 
 [lastModified]
-other = "最終更新"
+other = "Last updated"
 
 ##############################
 # website header SEO
@@ -49,7 +49,6 @@ other = "An open-source peer-to-peer digital currency, favoured by Shiba Inus wo
 
 ["meta[keywords]"]
 other = "dogecoin, doge, currency, cryptocurrency, digital currency, shiba inu"
-
 
 ##############################
 # index.html
@@ -324,3 +323,10 @@ other = "Contribution"
 
 ["listContributors[social]"]
 other = "Social"
+
+##############################
+# kabosu
+##############################
+
+["iframe"]
+other = "<iframe id='Iframekabosu' name='Iframekabosu' src='https://what-is-dogecoin.com/kabosu?jp' frameborder='0' style='overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:150%;width:100%;' height='150%' width='150%' ></iframe>"
