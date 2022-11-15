@@ -191,20 +191,17 @@
 }
 
 </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.4.1/moment-timezone-with-data-2010-2020.min.js"></script>
               <div style="position: relative; z-index: 69;">
                     <div class="sbbox sbleft comic-neue">
                       <i class="fa-solid fa-earth-oceania"></i> Victoria Australia & Online<br>
                       <i class="fa-solid fa-calendar-day"></i> November 15th - 19th, 2022<br>
+                      <a href="https://www.youtube.com/channel/UCAO5nfPirWdk-zKkWlp0YMw" target="_blank"><div style="padding-top: 5px"><i class="fa-brands fa-youtube" style="color: #CC0000"></i> <span style="">Live in <span id="youtube"></span></span><br></div></a>
 
-<div class="dropdown">
-  <button class="btn btn-warning dropdown-toggle rose" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #DC2B4D; border-color: #DC2B4D; width: 100%; border-radius: 25px; margin-top: 15px">
-    <i class="fa-solid fa-calendar-check"></i> Much Event Details!
-  </button>
-  <ul class="dropdown-menu detailoptions" style="width: 100%">
-    <li><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#eventDetails"><i class="fa-solid fa-eye"></i> View Details!</button></li>
-    <li><a class="dropdown-item" href="#register" ><i class="fa-solid fa-calendar-check"></i> Event Register!!</a></li>
-  </ul>
-</div>
+<button data-bs-toggle="modal" data-bs-target="#eventDetails" class="btn btn-warning" style="background-color: #DC2B4D; border-color: #DC2B4D; width: 100%; border-radius: 25px; margin-top: 15px; color: #FFFFFF"><i class="fa-solid fa-eye"></i> View Details!</button>
+<button data-bs-toggle="modal" data-bs-target="#inPersonRegistration" class="btn btn-warning" style="background-color: #DC2B4D !important; border-color: #DC2B4D !important; width: 100%; border-radius: 25px; margin-top: 15px; color: #FFFFFF !important"><i class="fa-solid fa-calendar-check"></i> Event Register!!</button>
+
 
 
 <div class="dropdown">
@@ -258,6 +255,11 @@
 </div>
                 {{- end }}
             </div>
+        </div>
+        <div>
+            <div style="text-align: center; color: #000; font-size: 30px; position: relative; z-index: 69 !important; top: -200px; background-color: #FFFFFF; border-radius: 50px" ><i class="fa-brands fa-youtube" style="color: #CC0000"></i> Rewatch the Hackathon Opening!</div>
+<iframe style="z-index: 69 !important; position: relative; min-width: 100%; min-height: 400px; top: -180px" src="//www.youtube.com/embed/rIikrD4biw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
     </div>
     <main>
@@ -394,7 +396,40 @@
     </div>
   </div>
 </div>
+<script>
+// Set the date we're counting down to
+
+var countDownDate = moment.tz('2022-11-16 10:00:00','YYYY-MM-DD HH:mm:ss','Australia/Sydney');
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Output the result in an element with id="demo"
+  document.getElementById("youtube").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is over, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
     <script type="text/javascript">
+
         setTimeout(function () {
         var options = {
             preload: {
