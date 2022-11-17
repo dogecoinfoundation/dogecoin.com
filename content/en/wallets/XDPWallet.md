@@ -1,7 +1,7 @@
 +++
 type = "wallet"
 
-name = "Doge Wallet"
+name = "XDP Wallet"
 order = "12"
 active = "yes"
 version = "n/a"
