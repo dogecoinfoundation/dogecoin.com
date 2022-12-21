@@ -75,6 +75,8 @@ registration deadlines! However, they ultimately protect our community and the D
 against misuse and exploitation.
 Trademarks held by the genuine entity, means the logo and name can be better protected from
 misuse and made available as appropriate under transparent and accessible terms.
+## What is the history of the Dogecoin logos?
+The D, Silent Shibe, and Chatty Shibe Dogecoin logos as well as the original Dogecoin Foundation logo are all original logo designs created specifically for the Dogecoin project and the Dogecoin Foundation by Christine Ricks in 2013. Christine is a freelance designer who created these logos as a favour to the creators of Dogecoin and donated them to the Dogecoin Project and Dogecoin Foundation for their use. She was not and is not otherwise involved in the Dogecoin Project or Dogecoin Foundation and does not wish to be contacted about Dogecoin.”
 ## What can I do to help protect the Dogecoin brand?
 Continue to use the Dogecoin meme in collaborative, exciting and fun ways. But please, remember
 to Do Only Good Everyday. By following the values of our
