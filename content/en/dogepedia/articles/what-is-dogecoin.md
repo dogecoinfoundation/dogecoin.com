@@ -10,7 +10,7 @@ type = "article"
 ![image info](/assets/images/dogepedia/3.png)
 Dogecoin is many things to many different people. At its heart, Dogecoin is the accidental crypto **movement** that makes people smile! 
 
-It is also an open-source peer-to-peer cryptocurrency that utilises [blockchain technology](https://www.dogecoin.com/dogepedia/articles/what-is-a-blockchain), a highly secure decentralised system of storing information as a public ledger that is maintained by a network of computers called [nodes](https://www.dogecoin.com/dogepedia/articles/what-is-a-node). 
+It is also an open-source peer-to-peer cryptocurrency that utilises [blockchain technology](/fr/dogepedia/articles/what-is-a-blockchain), a highly secure decentralised system of storing information as a public ledger that is maintained by a network of computers called [nodes](/fr/dogepedia/articles/what-is-a-node). 
 
 More than this, though, is the ethos of Dogecoin, summarised in the [Dogecoin Manifesto](https://foundation.dogecoin.com/manifesto/), and its amazing, vibrant community made up of friendly folks just like you!  
 

@@ -1,5 +1,5 @@
 +++
-title = "The History of Dogecoin"
+title = "L'histoire du Dogecoin"
 date = "2021-10-22"
 type = "article"
 
@@ -7,22 +7,22 @@ type = "article"
   name = "Dogecoin"
 +++
  
-Dogecoin was originally created as a joke in late 2013 by Billy Markus and Jackson Palmer. Both Billy and Jackson thought that cryptocurrency was being taken far too seriously and wasn’t much fun. Jackson created the Dogecoin.com website and would have been, for a while, the public face of Dogecoin, while Billy worked as a solo developer on the first 4 releases.
+Dogecoin a été créé à l'origine comme une blague à la fin de 2013 par Billy Markus et Jackson Palmer. Billy et Jackson pensaient tous deux que les crypto-monnaies étaient prises beaucoup trop au sérieux et n'étaient pas très amusantes. Jackson a créé le site Dogecoin.com et aurait été, pendant un certain temps, le visage public de Dogecoin, tandis que Billy a travaillé en tant que développeur solo sur les 4 premières versions.
 
 ![image info](/assets/images/dogepedia/12.png)
 
-On December 6th, 2013, Dogecoin was launched taking influence from the famous Doge meme: an image of a very adorable Shiba Inu dog with multi-coloured comic sans text that appears as the dog’s “thought bubbles”. 
+Le 6 décembre 2013, Dogecoin a été lancé en s'inspirant du célèbre mème Doge : l'image d'un très adorable chien Shiba Inu avec du texte multicolore en BD qui apparaît comme les “bulles de pensée” du chien. 
 
 
-This famous meme was based on a 2010 photograph of a Japanese female Shiba Inu dog called **Kabosu**, who was adopted by Japanese kindergarten teacher Atsuko Satō from an animal shelter in 2008.  
+Ce célèbre mème est basé sur une photographie de 2010 d'une chienne japonaise Shiba Inu appelée **Kabosu**, qui a été adoptée par l'enseignante de maternelle japonaise Atsuko Satō dans un refuge pour animaux en 2008.  
 
-Much to Billy and Jackson’s surprise, Dogecoin was a near-instant success, and gained tremendous popularity on sites such as Reddit, where it was —and still is — used as a tipping currency. When Dogecoin was just 2-weeks old, it reached more transactions per day than Bitcoin. Moreover, within the first month there were over one-million unique visitors to this website!  
+À la grande surprise de Billy et Jackson, le Dogecoin a connu un succès quasi immédiat et a gagné une énorme popularité sur des sites tels que Reddit, où il était - et est toujours - utilisé comme monnaie de pourboire. Alors que le Dogecoin n'avait que deux semaines d'existence, il atteignait plus de transactions par jour que le Bitcoin. De plus, dès le premier mois, il y a eu plus d'un million de visiteurs uniques sur le site web !  
 
-In 2014, both Billy and Jackson left the development efforts, while a Dogecoin Core Development team was formed. The team, comprised of a small group of core maintainers and supported by more than 40 contributors over the years, has been maintaining and developing Dogecoin since then.
+En 2014, Billy et Jackson ont tous deux quitté les efforts de développement, tandis qu'une équipe de développement de Dogecoin Core a été formée. Cette équipe, composée d'un petit groupe de mainteneurs du noyau et soutenue par plus de 40 contributeurs au fil des ans, qui maintiennent et développent Dogecoin depuis lors.
 
-Although owing its genesis to a joke, Dogecoin quickly developed into a massive and passionate cryptocurrency community. This fun and friendly crypto community has also been behind many great causes and charitable endeavours.  
+Bien que sa genèse soit due à une blague, Dogecoin s'est rapidement transformé en une communauté de crypto-monnaies massive et passionnée. Cette communauté de crypto-monnaies amusante et amicale est également à l'origine de nombreuses grandes causes et initiatives caritatives.  
 
-For example, in 2014 the Dogecoin community raised 26.5 million Dogecoin (worth around USD $30,000.00 at the time) to send the Jamaican bobsled team to the Sochi Winter Olympics! In March of that year, the Dogecoin community also raised over 40 million Dogecoin (worth around USD $30,000.00 at the time) to help with the effort of building clean-water wells in Kenya.  
+Par exemple, en 2014, la communauté Dogecoin a collecté 26,5 millions de Dogecoin (d'une valeur d'environ 30,000.00$ à cette époque) pour envoyer l'équipe jamaïcaine de bobsleigh aux Jeux olympiques d'hiver de Sotchi ! En mars de la même année, la communauté Dogecoin a également collecté plus de 40 millions de Dogecoin (d'une valeur d'environ 30,000.00$ à cette époque) pour contribuer à la construction de puits d'eau potable au Kenya.  
 
 
-Most recently, the [Dogecoin Foundation](https://foundation.dogecoin.com/) partnered with popular YouTubers Mr Beast and Mark Rober for their TeamSeas initiative: with the ambitious aim to raise a combined 30 million U.S. dollars to remove 30 million pounds of trash from the world’s oceans.  
+Plus récemment, la [Fondation Dogecoin](https://foundation.dogecoin.com/) s'est associée aux célèbres YouTubers Mr Beast et Mark Rober pour leur initiative TeamSeas : l'objectif ambitieux est de réunir 30 millions de dollars américains pour éliminer 30 millions de livres de déchets des océans du monde.  

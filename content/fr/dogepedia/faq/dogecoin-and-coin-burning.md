@@ -1,5 +1,5 @@
 +++
-title = "Dogecoin and coin burning"
+title = "Dogecoin et le coin burning"
 date = "2021-10-22"
 type = "faq"
 
@@ -7,7 +7,7 @@ type = "faq"
   name = "Dogecoin"
 +++
 
-Dogecoin does not need coin burning marketing mechanisms that new tokens and other chains have attempted to implement to artificially inflate their prices.  
+Le Dogecoin n'a pas besoin des mécanismes de marketing de coin burning que les nouveaux tokens et d'autres chaînes ont tenté de mettre en place pour gonfler artificiellement leurs prix.
 
 Simplez.
 

@@ -1,5 +1,5 @@
 +++
-title = "Dogecoin is a joke!"
+title = "Dogecoin est une blague !"
 date = "2021-10-22"
 type = "faq"
 
@@ -7,12 +7,12 @@ type = "faq"
   name = "Dogecoin"
 +++
 
-It is true that Dogecoin was born as a joke - and this sense of fun should forever remain and never go away! Despite Dogecoin’s genesis as a joke, though, more and more people are beginning to realise Dogecoin’s utilitarian value as a legitimate, efficient, and functional currency.  
+Il est vrai que le Dogecoin est né d'une blague - et ce sens de l'humour devrait rester et ne jamais disparaître ! Cependant, malgré cette blague, de plus en plus de personnes commencent à réaliser la valeur utilitaire du Dogecoin en tant que monnaie légitime, efficace et fonctionnelle.  
 
-Because of this, Dogecoin has now evolved into much *more* than ‘*just* a joke’, whilst still maintaining its LOL attitude. Indeed, as the late and great Sporklin once commented: “Dogecoin can be a joke and still be functional … While the branding is frontal jokes and memes, everything under that has been solid from the start”. 
+C'est pourquoi le Dogecoin est devenu *bien plus* qu'une *simple* blague, tout en conservant son caractère ludique. En effet, comme le regretté et grand Sporklin l'a dit une fois : "Dogecoin peut être une blague et rester fonctionnel... Bien que l'image de marque soit constituée de blagues et de mèmes frontaux, tout ce qui se trouve en dessous est solide depuis le début". 
 
-As a matter of fact, unlike other cryptocurrencies, Dogecoin has had its use case, and thus utility, from its inception. A few days after its launch in December 2013, a tipping bot became available, allowing users to easily tip each other on reddit. The speed of the transactions and the low fees made Dogecoin "the" tipping cryptocurrency on reddit, for a while. At the same time, the community also started collecting Dogecoin for many great causes and charitable endeavours.
+En effet, contrairement aux autres crypto-monnaies, le Dogecoin a eu son cas d'usage, et donc son utilité, dès sa création. Quelques jours après son lancement en décembre 2013, un tipping bot est devenu disponible, permettant aux utilisateurs de se donner facilement des pourboires sur reddit. La rapidité des transactions et les faibles frais ont fait du Dogecoin "la" crypto-monnaie de pourboire sur reddit, pendant un certain temps. Dans le même temps, la communauté a également commencé à collecter des Dogecoin pour de nombreuses grandes causes et actions caritatives.
 
-You can read more about the history of Dogecoin [here](/dogepedia/articles/history-of-dogecoin/) and about its utility [here](/dogepedia/faq/dogecoin-has-no-utility/).
+Vous pouvez en savoir plus sur l'histoire du Dogecoin [ici](/fr/dogepedia/articles/history-of-dogecoin/) et sur son utilité [ici](/fr/dogepedia/faq/dogecoin-has-no-utility/).
 
 ![image info](/assets/images/dogepedia/9.png)
