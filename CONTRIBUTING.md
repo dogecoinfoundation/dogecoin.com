@@ -10,13 +10,7 @@ The repository is maintained using the "contributor workflow" where everyone wit
 
 As the repository contains both code contributions and content, the workflow accommodates and facilitates both.
 
-To contribute content to the website, the workflow is as follows:
-
-  - Create a branch within which you will work on your changes.
-  - Commit changes to the branch.
-  - Raise a Pull Request via GitHub.
-
-To contribute significant structural and code changes to the website, the workflow is as follows:
+To contribute to the website, the workflow is as follows:
 
   - Fork the repository in GitHub, and clone it in your development machine.
   - Create a topic branch, within which you will work on your changes.
