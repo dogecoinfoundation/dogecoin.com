@@ -5,7 +5,7 @@ name = "Trezor"
 order = "9"
 active = "yes"
 version = "n/a"
-wallet_Image = "https://trezor.io/static/images/favicon.ico"
+wallet_Image = "https://trezor.io/favicon/favicon.ico"
 website_url = "https://trezor.io/"
 git_url = "https://github.com/trezor"
 
