@@ -59,6 +59,7 @@ Dogecoin is useful, personable, welcoming, and reliable: and it is evolving.
 ## How-Tos {#howto}
 For all the shibes who want to learn new tricks.
 ***
+- [Use Dogecoin day-by-day](/dogepedia/how-tos/use-dogecoin-day-by-day)
 - [Operating a Dogecoin Node](/dogepedia/how-tos/operating-a-node)
 - [Mining Dogecoin](/dogepedia/how-tos/mining-dogecoin)
 - [Making Memes](/dogepedia/how-tos/making-memes)
