@@ -7,7 +7,7 @@ active = "yes"
 version = "n/a"
 wallet_Image = "https://gemwallet.com/images/favicon.png"
 website_url = "https://gemwallet.com/"
-git_url = ""
+git_url = "http://github.com/gemwalletcom"
 
 download_i686_url = ""
 download_x86_64_url = ""
