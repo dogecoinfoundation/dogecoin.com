@@ -93,6 +93,7 @@
 <div style="min-width: 400px;">
                 <div class="mt-1" style=" min-height: 20px">
                     <div class="preload comic-neue" style="">
+                        {{ if not (eq $.Site.Language.Lang "fr") }}
                         <span class="subtitle poppins fw-light text-white">{{i18n "index[slogan]" }}</span>
                         <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganC]" }}</span>
                         <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganR]" }}</span>
@@ -108,6 +109,25 @@
                         <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganN]" }}</span>
                         <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganC2]" }}</span>
                         <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganY1]" }}</span>
+                        {{ end }}
+                        {{ if eq $.Site.Language.Lang "fr" }}
+                        <span class="subtitle poppins fw-light text-white">{{i18n "index[slogan1]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganC]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganR]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganY]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganP]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganT]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganO]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganDASH]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganM]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganO1]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganN]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganN1]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganA]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganI]" }}</span>
+                        <span class="preload__letter subtitle poppins fw-light text-white">{{i18n "index[sloganE]" }}</span>
+                        <span class="subtitle poppins fw-light text-white">&nbsp{{i18n "index[slogan2]" }}</span>
+                        {{ end }}
                     </div>
                 </div>
 </div>
@@ -116,11 +136,11 @@
         </div>
     </div>
     {{ if ne (i18n "finish[translation]") "yes"}}
-      {{ if ne (.Lang) "en"}}
+      {{ if ne (.Lang) "en"}}{{ if ne (.Lang) "fr"}}
         <div class="alert alert-warning" role="alert" style="position: absolute; top: 80px; z-index: 1; width: 100%">
           This is only partially translated to {{ if eq (.Lang) "pt-pt"}}<span class="flag flag-icon flag-icon-pt"></span>{{ else }}<span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }}" ></span>{{ end }} <span class="badge bg-dark text-light comic-neue">{{.Lang}}</span>. Please help us finish the translation here: <a href="https://github.com/dogecoinfoundation/dogecoin.com/blob/main/doc/how-to-translate-website.md"><b>How to Translate</b></a>
         </div>
-      {{ end }}
+      {{ end }}{{ end }}
     {{ end }}
     <main>
 
@@ -135,7 +155,12 @@
             preload: {
                 selector: '.preload',
                 itemSelector: '.preload__letter',
+                {{ if not (eq $.Site.Language.Lang "fr") }}
                 text: 'cryptocurrency'
+                {{ end }}
+                {{ if eq $.Site.Language.Lang "fr" }}
+                text: 'crypto-monnaie'
+                {{ end }}                
             }
         }
         var Preload = function () {

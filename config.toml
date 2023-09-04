@@ -276,7 +276,7 @@ disableHugoGeneratorInject = false
 ##############################
 
   [languages.fr]
-    subtitle  = "Hello Friend"
+    subtitle  = "Salut toi"
     weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     contentDir = "content/fr"
@@ -284,25 +284,25 @@ disableHugoGeneratorInject = false
 [languages.fr.menu]
   [[languages.fr.menu.main]]
     identifier = "home"
-    name       = "Home"
+    name       = "Accueil"
     url        = "/"
     weight     = 1
 
   [[languages.fr.menu.main]]
     identifier = "what-is-dogecoin"
-    name       = "What is Dogecoin?"
+    name       = "Qu'est-ce que le Dogecoin ?"
     url        = "#what-is-dogecoin"
     weight     = 2
 
   [[languages.fr.menu.main]]
     identifier = "wallets"
-    name       = "Wallets"
+    name       = "Portefeuilles"
     url        = "#wallets"
     weight     = 3
 
   [[languages.fr.menu.main]]
     identifier = "community"
-    name       = "Community"
+    name       = "Communauté"
     url        = "#community"
     weight     = 4
 
@@ -324,7 +324,7 @@ disableHugoGeneratorInject = false
 
     [[languages.fr.menu.main]]
     identifier = "how-tos"
-    name       = "How Tos"
+    name       = "Mode d'emploi"
     url        = "dogepedia/#howto"
     parent = "dogepedia"
     weight     = 5
@@ -338,33 +338,33 @@ disableHugoGeneratorInject = false
 
     [[languages.fr.menu.main]]
     identifier = "resource"
-    name       = "Resources"
+    name       = "Ressources"
     url        = "resources/"
     parent = "dogepedia"
     weight     = 5
 
 [[languages.fr.params.footerLegal]]
-    name = "Terms & Conditions"
+    name = "Termes et conditions"
     url  = "/terms"
 
   [[languages.fr.params.footerLegal]]
-    name = "Privacy Policy"
+    name = "Politique de confidentialité"
     url  = "/legal"
 
   [[languages.fr.params.footerLegal]]
-    name = "Trademarks"
+    name = "Marque déposée"
     url  = "/trademarks"
 
 [[languages.fr.params.footerFoundation]]
-    name = "About"
+    name = "À Propos"
     url  = "https://foundation.dogecoin.com/about/"
 
   [[languages.fr.params.footerFoundation]]
-    name = "Manifesto"
+    name = "Manifeste"
     url  = "https://foundation.dogecoin.com/manifesto/"
 
   [[languages.fr.params.footerFoundation]]
-    name = "Advisors"
+    name = "Conseillers"
     url  = "https://foundation.dogecoin.com/about/"
 
   [[languages.fr.params.footerFoundation]]

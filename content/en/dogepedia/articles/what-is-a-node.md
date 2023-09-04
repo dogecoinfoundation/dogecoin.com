@@ -21,7 +21,7 @@ There are several types of nodes, depending on the role they play in the network
 
 *Light nodes* (like the *Multidoge wallet*), also known as SPV nodes, depend on full nodes for functioning. They require much less storage and resources than full nodes, since they do not need to store the entire blockchain. Light nodes are still capable of performing a task - which is to verify transactions by using a method called Simрlifiеd Pауmеnt Vеrifiсаtiоn (SPV).
 
-### Why Full Nodes Are Important {#why-full-nodes-are-important}
+### Why Full Nodes Are Important? {#why-full-nodes-are-important}
 Without node operators running full nodes, the Dogecoin network could not function. By being able to fully validate transactions and blocks and by hosting a full copy of the blockchain, full nodes perform crucial tasks in the network, including validating transactions, keeping a historic record of all transactions, and dictating and enforcing the rules of the network.
 
 In practice, a Dogecoin node operator running a node properly, on a machine with enough disk space and bandwidth, will help to:

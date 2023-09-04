@@ -1,33 +1,19 @@
 +++
-title = "Is there a roadmap?"
+title = "Y a-t-il une roadmap?"
 date = "2021-10-22"
 [ author ]
   name = "Dogecoin"
 +++
 
-While a 'roadmap' is a term that's commonly used when new cryptocurrencies are released, 
-it also conveys a rigid way forward, led by a single ‘company’ or ‘lead developer’.  
+Si le terme ‘roadmap’ est couramment utilisé lors du lancement de nouvelles crypto-monnaies, il désigne également une voie rigide à suivre, dirigée par une seule "entreprise" ou un seul "développeur principal". 
 
-Dogecoin is a community-driven, consensus based open-source project and its direction is 
-formed by the many individual and organisational contributors to the various projects of 
-the Dogecoin blockchain & ecosystem.  
+Dogecoin est un projet open-source dirigé par la communauté et basé sur le consensus. Sa direction est formée par les nombreux contributeurs individuels et organisationnels aux différents projets de la blockchain et de l'écosystème Dogecoin.  
 
-The direction of Dogecoin is paved by the [many projects](/dogepedia/projects/) that the 
-community feels best shape its direction. This is very intentional: it is important 
-that Dogecoin remains a decentralised project with shepherds rather than rulers, whose projects 
-and contributions stand or fall on their merits.  
+La direction de Dogecoin est tracée par les [nombreux projets](/fr/dogepedia/projects/) que la communauté considère comme les meilleurs pour sa direction. C'est très intentionnel : il est important que Dogecoin reste un projet décentralisé avec des bergers plutôt que des dirigeants, dont les projets et les contributions se maintiennent ou s'effondrent selon leurs mérites.  
 
-The Dogecoin Core software sits at the center of this ecosystem. The development happens in the
-[Dogecoin Core Github Repository](https://github.com/dogecoin/dogecoin). 
-The [Dogecoin Core Projects Page](https://github.com/dogecoin/dogecoin/projects) acts as a tracker
-of Dogecoin Core's technical development. For the purpose of reaching consensus around the 
-development of Dogecoin Core, the community often relies on the [Dogecoin Development 
-Reddit community](https://reddit.com/r/dogecoindev) and on the
-[Dogecoin Core Github Repository's Discussion Pages](https://github.com/dogecoin/dogecoin/discussions).
+Le logiciel Dogecoin Core se trouve au centre de cet écosystème. Le développement se fait dans le [Dogecoin Core Github Repository](https://github.com/dogecoin/dogecoin). 
+La [Dogecoin Core Projects Page](https://github.com/dogecoin/dogecoin/projects) sert de suivi du développement technique de Dogecoin Core. Pour parvenir à un consensus sur le développement de Dogecoin Core, la communauté s'appuie souvent sur la [Dogecoin Development Reddit community](https://reddit.com/r/dogecoindev) et sur les [Dogecoin Core Github Repository's Discussion Pages](https://github.com/dogecoin/dogecoin/discussions).
 
-*But what about the Dogecoin Foundation, don’t they have a ‘roadmap’?*  
+*Mais qu'en est-il de la fondation Dogecoin, n'ont-ils pas une ‘roadmap’ ?*  
 
-The Dogecoin Foundation participates in the same consensus-based participatory process as any one 
-individual or group in the Dogecoin community. The Dogecoin Foundation maintains a 
-[Trailmap](https://foundation.dogecoin.com/trailmap/), which includes projects that the Foundation 
-is committed to developing and which it believes are beneficial to the success of Dogecoin.
+La Fondation Dogecoin participe au même processus participatif basé sur le consensus de n'importe quel individu ou groupe de la communauté Dogecoin. La Fondation Dogecoin maintient une [Trailmap](https://foundation.dogecoin.com/trailmap/), qui inclut les projets que la Fondation s'engage à développer et qu'elle croit être bénéfiques au succès de Dogecoin.

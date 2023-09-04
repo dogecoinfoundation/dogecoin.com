@@ -1,5 +1,5 @@
 +++
-title = "How Does Dogecoin Work?"
+title = "Comment fonctionne le Dogecoin ?"
 date = "2022-04-16"
 type = "article"
 
@@ -7,21 +7,21 @@ type = "article"
   name = "Dogecoin"
 +++
  
-Magic and memes! (Just kidding. Kind of.) 
+La magie et les mèmes ! (Je plaisante. En quelque sorte.) 
 
-First things first: Dogecoin *is* money.  
+Commençons par le commencement : Le Dogecoin *est* de l'argent.  
 
-Like other popular cryptocurrencies, Dogecoin works by utilising [blockchain technology](/dogepedia/articles/what-is-a-blockchain). Unlike a lot of other popular cryptocurrencies, though, the fees to send Dogecoin are extremely small, and the speed by which Dogecoin transactions are confirmed is relatively fast.
+Comme d'autres crypto-monnaies populaires, le Dogecoin fonctionne en utilisant la [technologie blockchain](/fr/dogepedia/articles/what-is-a-blockchain). Mais contrairement à beaucoup d'autres crypto-monnaies populaires, les frais d'envoi de Dogecoin sont extrêmement faibles et la vitesse de confirmation des transactions de Dogecoin est relativement rapide.
 
 ![image info](/assets/images/dogepedia/11.png)
-Simply put, if you would like to send money to someone who is located anywhere in the world — or receive money from someone who is located anywhere in the world — *without* using a centralised bank and paying foreign currency exchange and transfer fees, then Dogecoin can work for you! 
+En d'autres termes, si vous souhaitez envoyer de l'argent à quelqu'un qui se trouve n'importe où dans le monde - ou recevoir de l'argent de quelqu'un qui se trouve n'importe où dans le monde - *sans* passer par une banque centralisée et sans payer de frais de change et de transfert, alors Dogecoin peut vous convenir ! 
 
-Furthermore, Dogecoin can be used to purchase goods and services, and for tipping people on popular social-media platforms like Reddit and Twitter. See [Community and Ecosystem](/dogepedia/#community-and-ecosystem) for more information on how Dogecoin can be used and how it works!
+En outre, le Dogecoin peut être utilisé pour acheter des biens et des services, ainsi que pour donner des pourboires sur des plateformes de médias sociaux populaires comme Reddit et Twitter. Voir [Communauté et écosystème](/fr/dogepedia/#community-and-ecosystem) pour plus d'informations sur la façon dont le Dogecoin peut être utilisé et comment il fonctionne !
 
-## Go in depth! {#in-depth}
-If you want to know more about how Dogecoin works, check the following in-depth articles.
+## Allez en profondeur ! {#in-depth}
+Si vous souhaitez en savoir plus sur le fonctionnement du Dogecoin, consultez les articles approfondis suivants.
 
-* [What is a Blockchain](/dogepedia/articles/what-is-a-blockchain)
-* [What is a Node](/dogepedia/articles/what-is-a-node)
-* [What is a Miner](/dogepedia/articles/what-is-a-miner)
-* [What is a Mining Pool](/dogepedia/articles/what-is-a-mining-pool)
+* [Qu'est-ce qu'une blockchain ?](/fr/dogepedia/articles/what-is-a-blockchain)
+* [Qu'est-ce qu'un nœud ?](/fr/dogepedia/articles/what-is-a-node)
+* [Qu'est-ce qu'un mineur ?](/fr/dogepedia/articles/what-is-a-miner)
+* [Qu'est-ce qu'un pool de minage ?](/fr/dogepedia/articles/what-is-a-mining-pool)

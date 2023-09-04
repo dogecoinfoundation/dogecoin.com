@@ -1,5 +1,5 @@
 +++
-title = "Dogecoin has no utility!"
+title = "Le Dogecoin n'a aucune utilité !"
 date = "2022-04-19"
 type = "faq"
 
@@ -7,12 +7,12 @@ type = "faq"
   name = "Dogecoin"
 +++
 
-Oh yes it does, and it always has! The simple fact is that *money has utility* - and Dogecoin *is* money! Indeed, Dogecoin is one of the few crypto**currencies** that has been used for this main purpose from day one.  
+Oh oui, c'est vrai, et ça l'a toujours été ! Le fait est que *l'argent a une utilité* - et le Dogecoin *est* de l'argent ! En effet, le Dogecoin est l'une des rares crypto**monnaies** qui a été utilisée dans ce but principal dès le premier jour.  
 
-Dogecoin was first meant to be a joke - and it served, and will serve, this purpose very well. It almost immediately became a means to tip and encourage others to go and achieve something: the Jamaican bobsled team, the water wells in Kenya, the Dogecoin car, and many more crazy initiatives the community supported over the years. As a tipping currency, thanks to its low fees and speed of transactions in comparison to competing chains for a long part of its existence, Dogecoin has never stopped working for its intended use. 
+Dogecoin a d'abord été conçu pour être une blague - et il a servi, et servira, très bien cet objectif. Il est presque immédiatement devenu un moyen de donner des pourboires et d'encourager les autres à réaliser quelque chose : l'équipe de bobsleigh jamaïcaine, les puits d'eau au Kenya, la voiture Dogecoin, et bien d'autres initiatives folles que la communauté a soutenues au fil des ans. En tant que monnaie de pourboire, grâce à ses faibles frais et à la rapidité de ses transactions par rapport aux chaînes concurrentes pendant une longue partie de son existence, le Dogecoin n'a jamais cessé de fonctionner pour l'usage auquel il était destiné. 
 
-Over the years, it became possible to use Dogecoin and spend it in online stores. The past 2 years have seen an explosion in adoption, with Dogecoin payment integrations provided by third parties like BitPay and Coinbase and several providers providing prepaid cards supporting Dogecoin as a funding source. Shops can also integrate directly with the Dogecoin blockchain, in particular through the JSON-RPC interface. The Dogecoin Foundation, alongside the ecosystem of developers, is planning to facilitate this further by creating libraries that will streamline and standardise implementations. 
+Au fil des ans, il est devenu possible d'utiliser le Dogecoin et de le dépenser dans des magasins en ligne. Ces deux dernières années ont vu une explosion de l'adoption, avec des intégrations de paiement en Dogecoin fournies par des tiers comme BitPay et Coinbase et plusieurs fournisseurs proposant des cartes prépayées prenant en charge le Dogecoin comme source de financement. Les boutiques peuvent également s'intégrer directement à la blockchain Dogecoin, notamment via l'interface JSON-RPC. La Fondation Dogecoin, aux côtés de l'écosystème des développeurs, prévoit de faciliter davantage cette intégration en créant des bibliothèques qui rationaliseront et standardiseront les implémentations. 
 
-Development is ongoing to enhance Dogecoin and make it fulfill its original promises while being competitive with other cryptos. With several groups of developers currently building for Dogecoin and its ecosystem, Dogecoin will find new purposes and uses.
+Le développement est en cours pour améliorer le Dogecoin et lui faire tenir ses promesses initiales tout en étant compétitif par rapport aux autres cryptos. Avec plusieurs groupes de développeurs actuellement en train de construire pour le Dogecoin et son écosystème, le Dogecoin trouvera de nouveaux objectifs et de nouvelles utilisations.
 
-As per the [Dogecoin manifesto](https://foundation.dogecoin.com/manifesto/), Dogecoin focus lies on being useful, personable, welcoming, reliable, while maintaining a unique sense of fun.
+Selon le [Manifeste Dogecoin](https://foundation.dogecoin.com/manifesto/), Dogecoin se concentre sur l'utilité, la convivialité, l'accueil, la fiabilité, tout en conservant un sens unique du divertissement.

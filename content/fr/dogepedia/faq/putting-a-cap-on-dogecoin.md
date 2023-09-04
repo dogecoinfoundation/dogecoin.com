@@ -1,5 +1,5 @@
 +++
-title = "Can you put a cap on Dogecoin?"
+title = "Peut-on mettre un plafond sur le Dogecoin ?"
 date = "2021-10-22"
 type = "faq"
 
@@ -9,8 +9,8 @@ type = "faq"
 
 ![image info](/assets/images/dogepedia/7.png)
 
-Right now, and for the next hundred years or so, Dogecoin operates like, and will continue to operate like, most other crypto assets. “Capped” assets are nowhere near mined out – and will continue adding to their supply, just like Dogecoin, for the foreseeable future.  
+Actuellement, et pour les cent prochaines années environ, le Dogecoin fonctionne et continuera de fonctionner comme la plupart des autres crypto-actifs. Les actifs "plafonnés" sont loin d'être épuisés et continueront à s'enrichir, tout comme le Dogecoin, dans un avenir prévisible.  
 
-Dogecoin’s supply is **not** unlimited, because it has an absolute limit of issuance per block, per day, per year – just like other coins do. The only difference is that Dogecoin’s issuance does not have an end date.  Therefore, Dogecoin is only “infinite” over “infinite time”. Over finite time, its issuance is, in fact, finite. 
+L'offre de Dogecoin n'est **pas** illimitée, car elle a une limite absolue d'émission par bloc, par jour, par an - tout comme les autres pièces. La seule différence est que l'émission de Dogecoin n'a pas de date de fin. Par conséquent, le Dogecoin n'est "infini" que sur un "temps infini". Sur un temps fini, son émission est, en fait, finie. 
 
-This annual issuance is needed to pay miners and keep the network secure. Other chains, like Bitcoin, which theoretically will see their yearly issuance stop completely in 2140, will need to find a way to secure their network at that time (if it will indeed still exist), or the design of their consensus mechanism will need to change completely. Simply stated, putting a cap on Dogecoin would render the network insecure and vulnerable to attacks. 
+Cette émission annuelle est nécessaire pour payer les mineurs et assurer la sécurité du réseau. D'autres chaînes, comme le Bitcoin, qui verront théoriquement leur émission annuelle s'arrêter complètement en 2140, devront trouver un moyen de sécuriser leur réseau à ce moment-là (s'il existe toujours), ou la conception de leur mécanisme de consensus devra changer complètement. En d'autres termes, fixer un plafond pour le Dogecoin rendrait le réseau peu sûr et vulnérable aux attaques. 

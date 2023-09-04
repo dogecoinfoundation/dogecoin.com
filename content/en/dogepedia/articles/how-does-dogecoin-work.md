@@ -21,7 +21,7 @@ Furthermore, Dogecoin can be used to purchase goods and services, and for tippin
 ## Go in depth! {#in-depth}
 If you want to know more about how Dogecoin works, check the following in-depth articles.
 
-* [What is a Blockchain](/dogepedia/articles/what-is-a-blockchain)
-* [What is a Node](/dogepedia/articles/what-is-a-node)
-* [What is a Miner](/dogepedia/articles/what-is-a-miner)
-* [What is a Mining Pool](/dogepedia/articles/what-is-a-mining-pool)
+* [What is a Blockchain ?](/dogepedia/articles/what-is-a-blockchain)
+* [What is a Node ?](/dogepedia/articles/what-is-a-node)
+* [What is a Miner ?](/dogepedia/articles/what-is-a-miner)
+* [What is a Mining Pool ?](/dogepedia/articles/what-is-a-mining-pool)

@@ -1,5 +1,5 @@
 +++
-title = "What is a blockchain?"
+title = "Qu'est-ce qu'une blockchain ?"
 date = "2021-10-22"
 type = "article"
 
@@ -7,14 +7,14 @@ type = "article"
   name = "Dogecoin"
 +++
 
-A blockchain is a digital distributed ledger that is used as a system for validating and recording transaction information. This digital ledger of transactions is duplicated and distributed throughout an entire network of computers connected to the blockchain.  
+Une blockchain est un grand livre numérique distribué qui est utilisé comme système de validation et d'enregistrement des informations relatives aux transactions. Ce registre numérique des transactions est dupliqué et distribué à travers un réseau entier d'ordinateurs connectés à la blockchain.  
 
-The Dogecoin blockchain consists of thousands of computers – called [**nodes**](/dogepedia/articles/what-is-a-node) – meaning that transaction information is not stored in one centralised place. Instead, Dogecoin blockchain information is stored across thousands of nodes. This is why cryptocurrencies like Dogecoin are often referred to as being *decentralised*. 
+La blockchain Dogecoin est constituée de milliers d'ordinateurs - appelés [**nœuds**](/fr/dogepedia/articles/what-is-a-node) - ce qui signifie que les informations relatives aux transactions ne sont pas stockées dans un endroit centralisé. Au lieu de cela, les informations de la blockchain Dogecoin sont stockées sur des milliers de nœuds. C'est pourquoi les crypto-monnaies comme le Dogecoin sont souvent qualifiées de *décentralisées*. 
 
-When a Dogecoin transaction is made, [full nodes](/dogepedia/articles/what-is-a-node#full-nodes) in the network, by referencing the blockchain, ensure that the sender of the transaction did not create Dogecoin out of thin air and that he is not spending the same Dogecoin twice (*double-spending*). 
+Lorsqu'une transaction en Dogecoin est effectuée, les [nœuds pleins](/fr/dogepedia/articles/what-is-a-node#full-nodes) du réseau, en se référant à la blockchain, s'assurent que l'expéditeur de la transaction n'a pas créé de Dogecoin à partir de rien et qu'il ne dépense pas deux fois le même Dogecoin (*double dépense*). 
 
-In the next step, specialized nodes called [**miners**](/dogepedia/articles/what-is-a-miner) will include the information regarding the transaction in a **block**, a data structure where some or all the most recent transactions not yet confirmed by the network are batched together. Finally, the new block is distributed to the other nodes throughout the network, that will confirm that the block is valid. Every block that is created contains the hash of the preceding block, which in turn contains the hash of its preceding block, so on and so forth creating a chain all the way back to Dogecoin’s genesis block.
+À l'étape suivante, des nœuds spécialisés appelés [**mineurs**](/fr/dogepedia/articles/what-is-a-miner) vont inclure les informations relatives à la transaction dans un **bloc**, une structure de données où certaines ou toutes les transactions les plus récentes non encore confirmées par le réseau sont regroupées. Enfin, le nouveau bloc est distribué aux autres nœuds du réseau, qui confirmeront que le bloc est valide. Chaque bloc créé contient le hachage du bloc précédent, qui contient à son tour le hachage du bloc précédent, et ainsi de suite, créant une chaîne qui remonte jusqu'au bloc de genèse du Dogecoin.
 
-This way of structuring data, together with the decentralized nature of the network, creates an irreversible timeline where blocks become immutable links in a chain.  
+Cette façon de structurer les données, associée à la nature décentralisée du réseau, crée une chronologie irréversible où les blocs deviennent les maillons immuables d'une chaîne.  
 
-In addition to being peer-to-peer and decentralised, another benefit of blockchain technology is that is extremely difficult — and often impossible — to hack, alter, or deceive the system. 
+Outre son caractère pair-à-pair et décentralisé, un autre avantage de la technologie blockchain est qu'il est extrêmement difficile - et souvent impossible - de pirater, de modifier ou de tromper le système. 

@@ -6,70 +6,70 @@ aliases = ["dogepedia"]
   name = "Dogecoin"
 +++
  
-Dogepedia is the resource containing Documentation, Guides, FAQs and Resources related to Dogecoin. The place to be for all shibes trying to learn about Dogecoin and crypto. Such knowledge! Much wow!
+Dogepedia est la ressource contenant la documentation, les guides, les FAQ et les ressources liées au Dogecoin. Le lieu incontournable pour tous les shibes qui essaient d'en savoir plus sur le Dogecoin et les crypto-monnaies. Tant de connaissances ! Beaucoup de wow !
 
 ## Documentation {#documentation}
 ***
 ### Dogecoin {#dogecoin}
-The basics. Learn what Dogecoin is, and how it works.
-- [What is Dogecoin?](/dogepedia/articles/what-is-dogecoin)
-- [What is the history of Dogecoin?](/dogepedia/articles/history-of-dogecoin)
-- [How does Dogecoin work?](/dogepedia/articles/how-does-dogecoin-work)
-- [Who owns and controls the Dogecoin network?](/dogepedia/articles/who-owns-dogecoin)
-- [I want some Dogecoin! How can I get it?](/dogepedia/articles/get-dogecoin)
+L'essentiel. Apprenez ce qu'est le Dogecoin et comment il fonctionne.
+- [Qu'est-ce que le Dogecoin ?](/fr/dogepedia/articles/what-is-dogecoin)
+- [Quelle est l'histoire du Dogecoin ?](/fr/dogepedia/articles/history-of-dogecoin)
+- [Comment fonctionne le Dogecoin ?](/fr/dogepedia/articles/how-does-dogecoin-work)
+- [Qui possède et contrôle le réseau Dogecoin ?](/fr/dogepedia/articles/who-owns-dogecoin)
+- [Je veux du Dogecoin ! Comment puis-je l'obtenir ?](/fr/dogepedia/articles/get-dogecoin)
 
 ### Wallets {#wallets}
-Your journey with Dogecoin might start here. A wallet application allows you to save and spend your Doge.
-- [How do I get a wallet?](/dogepedia/articles/how-do-i-get-a-wallet)
-- [How do I backup my wallet?](/dogepedia/articles/how-to-backup-a-wallet)
-- [What are the benefits of a hardware wallet, and how to use it with Doge?](/dogepedia/articles/dogecoin-hardware-wallets)
-- [How do I recover a lost wallet?](/dogepedia/articles/recover-a-lost-wallet)
-- [What is a wallet, really?](/dogepedia/articles/what-is-a-wallet)
+Votre voyage avec le Dogecoin pourrait commencer ici. Une application de portefeuille vous permet d'enregistrer et de dépenser vos Doge.
+- [Comment obtenir un portefeuille ?](/fr/dogepedia/articles/how-do-i-get-a-wallet)
+- [Comment puis-je sauvegarder mon portefeuille ?](/fr/dogepedia/articles/how-to-backup-a-wallet)
+- [Quels sont les avantages d'un portefeuille matériel, et comment l'utiliser avec Doge ?](/fr/dogepedia/articles/dogecoin-hardware-wallets)
+- [Comment récupérer un portefeuille perdu ?](/fr/dogepedia/articles/recover-a-lost-wallet)
+- [Qu'est-ce qu'un portefeuille, en fait ?](/fr/dogepedia/articles/what-is-a-wallet)
 
-### Using your Doge {#using-doge}
-Dogecoin is a cryptocurrency, and you can use it to send and receive payments.
-- [How do I send and receive Dogecoin?](/dogepedia/articles/send-and-receive-dogecoin)
-- [How can I use Dogecoin to buy stuff from my favorite stores?](/dogepedia/articles/using-dogecoin-in-a-store)
-- [Is my privacy protected while using Dogecoin?](/dogepedia/articles/dogecoin-and-privacy)
+### Utilisation de votre Doge {#using-doge}
+Le Dogecoin est une crypto-monnaie, et vous pouvez l'utiliser pour envoyer et recevoir des paiements.
+- [Comment puis-je envoyer et recevoir des Dogecoins ?](/fr/dogepedia/articles/send-and-receive-dogecoin)
+- [Comment puis-je utiliser les dogecoins pour acheter des articles dans mes magasins préférés ?](/fr/dogepedia/articles/using-dogecoin-in-a-store)
+- [Ma vie privée est-elle protégée lorsque j'utilise Dogecoin ?](/fr/dogepedia/articles/dogecoin-and-privacy)
 
-### Community and Ecosystem {#community-and-ecosystem}
-- [How can I join the Dogecoin community?](/dogepedia/articles/join-the-dogecoin-community)
-- [What is the Dogecoin Foundation?](/dogepedia/articles/what-is-the-dogecoin-foundation)
-- [How can I help?](/dogepedia/articles/how-can-i-help-doge)
-- [How can my business accept Dogecoin?](/dogepedia/articles/how-can-my-business-accept-dogecoin)
-- [What merchants currently accept Dogecoin?](/dogepedia/articles/merchants-accepting-doge)
-- [What are some charities that accept Dogecoin?](/dogepedia/articles/charities-accepting-doge)
-- [What is Dogecoin Folding @ Home?](/dogepedia/articles/dogecoin-folding-at-home)
+### Communauté et écosystème {#community-and-ecosystem}
+- [Comment puis-je rejoindre la communauté Dogecoin ?](/fr/dogepedia/articles/join-the-dogecoin-community)
+- [Qu'est-ce que la Fondation Dogecoin ?](/fr/dogepedia/articles/what-is-the-dogecoin-foundation)
+- [Comment puis-je aider ?](/fr/dogepedia/articles/how-can-i-help-doge)
+- [Comment mon entreprise peut-elle accepter les Dogecoins ?](/fr/dogepedia/articles/how-can-my-business-accept-dogecoin)
+- [Quels sont les marchands qui acceptent actuellement le Dogecoin ?](/fr/dogepedia/articles/merchants-accepting-doge)
+- [Quelles sont les organisations caritatives qui acceptent les Dogecoins ?](/fr/dogepedia/articles/charities-accepting-doge)
+- [Qu'est-ce que le Dogecoin Folding @ Home ?](/fr/dogepedia/articles/dogecoin-folding-at-home)
 
-### Running Nodes, Mining, and More {#nodex-and-mining}
-For the technical shibe - but not only. Learn how the Dogecoin network actually works, and how to support it.
-- [What is a blockchain?](/dogepedia/articles/what-is-a-blockchain)
-- [What is a node and why is it important? Do I need to run one?](/dogepedia/articles/what-is-a-node)
-- [What is a miner?](/dogepedia/articles/what-is-a-miner)
-- [What is a mining pool?](/dogepedia/articles/what-is-a-mining-pool)
-- [How do I setup a node?](/dogepedia/how-tos/operating-a-node)
-- [How can I mine Dogecoin?](/dogepedia/how-tos/mining-dogecoin)
+### Exécution des nœuds, exploitation minière et autres {#nodex-and-mining}
+Pour le shibe technique - mais pas seulement. Apprenez comment le réseau Dogecoin fonctionne réellement, et comment le soutenir.
+- [Qu'est-ce qu'une blockchain ?](/fr/dogepedia/articles/what-is-a-blockchain)
+- [Qu'est-ce qu'un nœud et pourquoi est-il important ? Dois-je en gérer un ?](/fr/dogepedia/articles/what-is-a-node)
+- [Qu'est-ce qu'un mineur ?](/fr/dogepedia/articles/what-is-a-miner)
+- [Qu'est-ce qu'un pool de minage ?](/fr/dogepedia/articles/what-is-a-mining-pool)
+- [Comment configurer un nœud ?](/fr/dogepedia/how-tos/operating-a-node)
+- [Comment puis-je miner le Dogecoin ?](/fr/dogepedia/how-tos/mining-dogecoin)
 
-### Development {#development}
-Dogecoin is useful, personable, welcoming, and reliable: and it is evolving.
-- [Who are the current Dogecoin developers?](/dogepedia/articles/dogecoin-developers)
-- [How can I become a Dogecoin developer?](/dogepedia/articles/becoming-a-dogecoin-developer)
-- [Is there a roadmap?](/dogepedia/articles/dogecoin-roadmap)
+### Développement {#development}
+Dogecoin est utile, convivial, accueillant et fiable, et il évolue.
+- [Qui sont les développeurs actuels de Dogecoin ?](/fr/dogepedia/articles/dogecoin-developers)
+- [Comment puis-je devenir un développeur Dogecoin ?](/fr/dogepedia/articles/becoming-a-dogecoin-developer)
+- [Y a-t-il une roadmap ?](/fr/dogepedia/articles/dogecoin-roadmap)
 
-## How-Tos {#howto}
-For all the shibes who want to learn new tricks.
+## Mode d'emploi {#howto}
+Pour tous les shibes qui veulent apprendre de nouveaux trucs.
 ***
-- [Operating a Dogecoin Node](/dogepedia/how-tos/operating-a-node)
-- [Mining Dogecoin](/dogepedia/how-tos/mining-dogecoin)
-- [Making Memes](/dogepedia/how-tos/making-memes)
+- [Exploitation d'un nœud Dogecoin](/fr/dogepedia/how-tos/operating-a-node)
+- [Minage de Dogecoin](/fr/dogepedia/how-tos/mining-dogecoin)
+- [Création de mèmes](/fr/dogepedia/how-tos/making-memes)
 
 ## FAQ & FUD {#faq}
-Let's fight against the disinformation surrounding Dogecoin! Much wow!
+Luttons contre la désinformation autour du Dogecoin ! Much wow !
 ***
-- [Dogecoin is just a joke!](/dogepedia/faq/dogecoin-is-a-joke)
-- [Dogecoin has no utility!](/dogepedia/faq/dogecoin-has-no-utility)
-- [Dogecoin has no developers!](/dogepedia/faq/dogecoin-has-no-developers)
-- [Why don't the devs burn some of the supply?](/dogepedia/faq/dogecoin-and-coin-burning)
-- [Why don't the devs put a cap on Dogecoin?](/dogepedia/faq/putting-a-cap-on-dogecoin)
-- [Is it true that one person holds 28% of the total supply?](/dogepedia/faq/dogecoin-whale-wallets)
-- [Dogecoin is inflationary, while other cryptos aren't!](/dogepedia/faq/dogecoin-inflation)
+- [Dogecoin est juste une blague !](/fr/dogepedia/faq/dogecoin-is-a-joke)
+- [Le Dogecoin n'a aucune utilité !](/fr/dogepedia/faq/dogecoin-has-no-utility)
+- [Dogecoin n'a pas de développeurs !](/fr/dogepedia/faq/dogecoin-has-no-developers)
+- [Pourquoi les développeurs ne brûlent-ils pas une partie de l'approvisionnement ?](/fr/dogepedia/faq/dogecoin-and-coin-burning)
+- [Pourquoi les développeurs ne mettent-ils pas un plafond sur le Dogecoin ?](/fr/dogepedia/faq/putting-a-cap-on-dogecoin)
+- [Est-il vrai qu'une seule personne détient 28% de l'offre totale ?](/fr/dogepedia/faq/dogecoin-whale-wallets)
+- [Le Dogecoin est inflationniste, alors que les autres cryptos ne le sont pas !](/fr/dogepedia/faq/dogecoin-inflation)

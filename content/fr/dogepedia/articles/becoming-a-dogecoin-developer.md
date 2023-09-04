@@ -1,5 +1,5 @@
 +++
-title = "How can I become a Dogecoin developer?"
+title = "Comment puis-je devenir un développeur Dogecoin ?"
 date = "2022-04-19"
 type = "article"
 
@@ -8,12 +8,12 @@ type = "article"
 
 +++
 
-Dogecoin is an open-source project, meaning that anyone with some technical know-how can contribute to Dogecoin’s technical development. Even if you’re new to the space, it’s never too late to learn new tricks!  
+Dogecoin est un projet open-source, ce qui signifie que toute personne possédant quelques connaissances techniques peut contribuer au développement technique de Dogecoin. Même si vous êtes nouveau dans ce domaine, il n'est jamais trop tard pour apprendre de nouveaux trucs !  
 
-Dogecoin has an amazing team of developers and volunteers who are committed to welcoming new people into the space and helping them to learn and develop their skills. The community is extremely encouraging, too, and it’s very common to see old Shibes helping new Shibes as they enter the space.  
+Dogecoin dispose d'une équipe incroyable de développeurs et de bénévoles qui s'engagent à accueillir les nouvelles personnes dans l'espace et à les aider à apprendre et à développer leurs compétences. La communauté est également extrêmement encourageante, et il est très fréquent de voir d'anciens Shibes aider les nouveaux Shibes qui entrent dans l'espace.  
 
-Dogecoin has many projects through which you can help: Core, Libdogecoin, Gigawallet, Documentation, and websites to name but a few. [As emphasised](https://twitter.com/tjstebbing/status/1480001128880230401?s=20) by the Dogecoin Foundation’s Timothy Stebbing: YOU can be a Dogecoin Dev just by picking-up your metaphorical shovel! Opensource communities are meritocracies: the more you do, the more you’re respected and the more you can be the change you want to see! 
+Dogecoin a de nombreux projets à travers lesquels vous pouvez aider : Core, Libdogecoin, Gigawallet, Documentation, et Sites Web pour n'en citer que quelques-uns. [Comme souligné](https://twitter.com/tjstebbing/status/1480001128880230401?s=20) par Timothy Stebbing de la Fondation Dogecoin : VOUS pouvez être un développeur de Dogecoin simplement en prenant votre pelle métaphorique ! Les communautés Opensource sont des méritocraties : plus vous en faites, plus vous êtes respecté et plus vous pouvez être le changement que vous voulez voir !
 
-The Dogecoin developers are passionate about growing the space through which people can BUIDL the Dogecoin ecosystem. To this end, one of the key objectives behind [Libdogecoin](https://github.com/dogecoinfoundation/libdogecoin) is to create bindings for many languages so that Dogecoin is more accessible to a broader developer audience.
+Les développeurs de Dogecoin sont passionnés par la croissance de l'espace à travers lequel les gens peuvent CONSTRUIRE l'écosystème Dogecoin. À cette fin, l'un des principaux objectifs de [Libdogecoin](https://github.com/dogecoinfoundation/libdogecoin) est de créer des liens pour de nombreux langages afin que Dogecoin soit plus accessible à un public de développeurs plus large.
 
-If you would like to contribute to Dogecoin technical development and become a Dogecoin developer, check-out the [Dogecoin Core](https://github.com/dogecoin/dogecoin) and [The Dogecoin Foundation](https://github.com/dogecoinfoundation) GitHub repositories and get involved!
+Si vous souhaitez contribuer au développement technique de Dogecoin et devenir un développeur Dogecoin, consultez les dépôts GitHub de [Dogecoin Core](https://github.com/dogecoin/dogecoin) et de [The Dogecoin Foundation](https://github.com/dogecoinfoundation) et impliquez-vous !
