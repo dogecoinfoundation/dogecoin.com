@@ -62,11 +62,11 @@ brand being damaged, we ask our Legal Shibes to review the situation.
 values of being a welcoming cryptocurrency. We are about the community and not profit-driven
 economics. This is why we don't like people registering the Dogecoin brand or using the name or
 logo with a view to making profit for themselves.
-## Why is the Dogecoin Foundation registering the word "DOGECOIN" and other logos?
+## Why has the Dogecoin Foundation tried registering the word "DOGECOIN" and other logos?
 If someone else registers the trademarks, they may not have the Dogecoin community’s best
 interests at heart. If someone else owns the logo, they may try to prevent the DogeArmy and other
 fans from using it, too!
-For that reason, the Foundation has chosen to register the trademarks; holding it safe for the
+For that reason, the Foundation had chosen to try to register the trademarks; holding it safe for the
 Dogecoin community.
 The reality is that the majority of open-source projects have registered trademarks, which enables
 them to protect their logo and name for the good of their community.
@@ -75,6 +75,9 @@ registration deadlines! However, they ultimately protect our community and the D
 against misuse and exploitation.
 Trademarks held by the genuine entity, means the logo and name can be better protected from
 misuse and made available as appropriate under transparent and accessible terms.
+However as an alternative conclusion the Foundation has achieved the aim of stopping anyone from being able to register it.
+It has been determined as a 'generic mark' so now the Foundation has grounds to contest registration and will not be attempting
+to register the trademark and logo of dogecoin again going forward
 ## What can I do to help protect the Dogecoin brand?
 Continue to use the Dogecoin meme in collaborative, exciting and fun ways. But please, remember
 to Do Only Good Everyday. By following the values of our
