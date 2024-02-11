@@ -9,7 +9,7 @@ aliases = ["trademarks"]
 ## Dogecoin’s intellectual property (IP)
 This intellectual property FAQ sets out a few questions that the Dogecoin Foundation is often asked
 about our approach to managing IP, in accordance with our
-[Manifesto](https://foundation.dogecoin.com/manifesto/) and for the benefit of the Dogecoin
+[Manifesto](https://dogecoin.org/manifesto/) and for the benefit of the Dogecoin
 community.
 There are many types of IP, but for this FAQ, we are focusing on copyright and trademark as they
 relate to the Dogecoin “brand”.
@@ -78,7 +78,7 @@ misuse and made available as appropriate under transparent and accessible terms.
 ## What can I do to help protect the Dogecoin brand?
 Continue to use the Dogecoin meme in collaborative, exciting and fun ways. But please, remember
 to Do Only Good Everyday. By following the values of our
-[Manifesto](https://foundation.dogecoin.com/manifesto/), you too are being a good Shibe.
+[Manifesto](https://dogecoin.org/manifesto/), you too are being a good Shibe.
 Due to the volume of emails we receive, we cannot always reply to questions and comments. That’s
 why we made this FAQ!
 We are working hard alongside our Legal Shibes to stay on top of Dogecoin brand protection, which

@@ -12,7 +12,7 @@ type = "article"
 
 狗狗币是一种运用[区块链技术](https://www.dogecoin.com/zh-cn/dogepedia/articles/what-is-a-blockchain)的开源分布式数字货币 , 通过运用由计算机[节点](https://www.dogecoin.com/zh-cn/dogepedia/articles/what-is-a-node)组成的网络进行记账实现了一个高度安全的去中心化的系统。
 
-更重要的，狗狗币所蕴含的精神，如[狗狗币宣言](https://foundation.dogecoin.com/zh-cn/manifesto/)中所言，是一个由你我一样友善的人组成的令人惊叹、充满活力的社区！
+更重要的，狗狗币所蕴含的精神，如[狗狗币宣言](https://dogecoin.org/zh-cn/manifesto/)中所言，是一个由你我一样友善的人组成的令人惊叹、充满活力的社区！
 
 狗狗币社区致力于互帮互助、友善、普及加密货币、寻求筹款支持、有趣、形成信仰以及将荒谬变成现实。狗狗币的非官方口号很好地概括了这些：每日正气。  
 

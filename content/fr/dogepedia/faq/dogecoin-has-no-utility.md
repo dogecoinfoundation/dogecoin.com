@@ -15,4 +15,4 @@ Over the years, it became possible to use Dogecoin and spend it in online stores
 
 Development is ongoing to enhance Dogecoin and make it fulfill its original promises while being competitive with other cryptos. With several groups of developers currently building for Dogecoin and its ecosystem, Dogecoin will find new purposes and uses.
 
-As per the [Dogecoin manifesto](https://foundation.dogecoin.com/manifesto/), Dogecoin focus lies on being useful, personable, welcoming, reliable, while maintaining a unique sense of fun.
+As per the [Dogecoin manifesto](https://dogecoin.org/manifesto/), Dogecoin focus lies on being useful, personable, welcoming, reliable, while maintaining a unique sense of fun.

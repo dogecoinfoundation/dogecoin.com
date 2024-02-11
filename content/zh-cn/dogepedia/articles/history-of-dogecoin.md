@@ -23,4 +23,4 @@ type = "article"
 
 例如，2014年狗狗币社区筹集了2650万枚狗狗币（当时价值约3万美金），用于支持牙买加雪橇队去参加索契冬奥会！2014年3月，狗狗币社区筹集了超过4000万枚狗狗币（当时价值约3万美金），用于帮助在肯尼亚建造清洁水井。
 
-最近，[狗狗币基金会](https://foundation.dogecoin.com/zh-cn/)与广受欢迎的YouTube博主Mr Beast和Mark Rober合作开展了TeamSeas计划，打算筹集3000万美金，用于从海洋中清除3000万磅垃圾。 
+最近，[狗狗币基金会](https://dogecoin.org/zh-cn/)与广受欢迎的YouTube博主Mr Beast和Mark Rober合作开展了TeamSeas计划，打算筹集3000万美金，用于从海洋中清除3000万磅垃圾。 
