@@ -75,7 +75,6 @@ registration deadlines! However, they ultimately protect our community and the D
 against misuse and exploitation.
 Trademarks held by the genuine entity, means the logo and name can be better protected from
 misuse and made available as appropriate under transparent and accessible terms.
-The following is a temporary text and is subject to be changed but still conveys the intentions of the foundation going forward.
 However as an alternative conclusion the Foundation has achieved the aim of stopping anyone from being able to register it.
 It has been determined as a 'generic mark' so now the Foundation has grounds to contest registration and will not be attempting
 to register the trademark and logo of dogecoin again going forward
