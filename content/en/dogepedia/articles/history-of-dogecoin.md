@@ -25,4 +25,4 @@ Although owing its genesis to a joke, Dogecoin quickly developed into a massive 
 For example, in 2014 the Dogecoin community raised 26.5 million Dogecoin (worth around USD $30,000.00 at the time) to send the Jamaican bobsled team to the Sochi Winter Olympics! In March of that year, the Dogecoin community also raised over 40 million Dogecoin (worth around USD $30,000.00 at the time) to help with the effort of building clean-water wells in Kenya.  
 
 
-Most recently, the [Dogecoin Foundation](https://foundation.dogecoin.com/) partnered with popular YouTubers Mr Beast and Mark Rober for their TeamSeas initiative: with the ambitious aim to raise a combined 30 million U.S. dollars to remove 30 million pounds of trash from the world’s oceans.  
+Most recently, the [Dogecoin Foundation](https://dogecoin.org/) partnered with popular YouTubers Mr Beast and Mark Rober for their TeamSeas initiative: with the ambitious aim to raise a combined 30 million U.S. dollars to remove 30 million pounds of trash from the world’s oceans.  
