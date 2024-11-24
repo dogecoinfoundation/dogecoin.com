@@ -42,215 +42,212 @@ other = "最終更新"
 # website header SEO
 ##############################
 ["meta[title]"]
-other = "Dogecoin - An open-source peer-to-peer digital currency"
+other = "ドージコイン - オープンソースのピアツーピアデジタル通貨"
 
 ["meta[description]"]
-other = "An open-source peer-to-peer digital currency, favoured by Shiba Inus worldwide"
+other = "オープンソースのピアツーピアデジタル通貨。世界中の柴犬に愛されています。"
 
 ["meta[keywords]"]
-other = "dogecoin, doge, currency, cryptocurrency, digital currency, shiba inu"
-
+other = "ドージコイン, ドージ, 通貨, 暗号通貨, デジタル通貨, 柴犬"
 
 ##############################
 # index.html
 ##############################
 
 ["index[warning]"]
-other = "Such Core Wallet 1.1487 released! Much upgrade, plz!"
+other = "ドージコインコアウォレット1.1487リリース！アップグレードしてください！"
 
 ["index[slogan]"]
-other = "the people’s"
+other = "みんなの"
 
 ["index[sloganC]"]
-other = "c"
+other = "通"
 
 ["index[sloganR]"]
-other = "r"
+other = "貨"
 
 ["index[sloganY]"]
-other = "y"
+other = "で"
 
 ["index[sloganP]"]
-other = "p"
+other = "す"
 
 ["index[sloganT]"]
-other = "t"
+other = "ね"
 
 ["index[sloganO]"]
-other = "o"
+other = "！"
 
 ["index[sloganC1]"]
-other = "c"
+other = "通"
 
 ["index[sloganU]"]
-other = "u"
+other = "貨"
 
 ["index[sloganR1]"]
-other = "r"
+other = "の"
 
 ["index[sloganR2]"]
-other = "r"
+other = "未"
 
 ["index[sloganE]"]
-other = "e"
+other = "来"
 
 ["index[sloganN]"]
-other = "n"
+other = "へ"
 
 ["index[sloganC2]"]
-other = "c"
+other = "！"
 
 ["index[sloganY1]"]
-other = "y"
+other = "🚀"
 
 ##############################
 # partials/list.html
 ##############################
 
 ["list[some-respurces]"]
-other = "some resources"
+other = "いくつかのリソース"
 
 ["list[read-more]"]
-other = "Read more"
-
+other = "もっと読む"
 
 ##############################
 # partials/whatisdogecoin.html
 ##############################
 ["whatisdogecoin[title]"]
-other = "What is Dogecoin?"
+other = "ドージコインとは？"
 
 ["whatisdogecoin[text1]"]
-other = "An open-source peer-to-peer digital currency, favoured by"
+other = "オープンソースのピアツーピアデジタル通貨。"
 
 ["whatisdogecoin[text2]"]
-other = "Shiba Inus worldwide."
+other = "世界中の柴犬に愛されています。"
 
 ["whatisdogecoin[lead]"]
-other = "At its heart,"
+other = "その本質は、"
 
 ["whatisdogecoin[lead][text1]"]
-other = "Dogecoin is the accidental crypto movement that makes people smile! It is also an opensource peer-to-peer cryptocurrency that utilises blockchain technology, a highly secure decentralised system of storing information as a public ledger that is maintained by a network of computers called nodes. More than this, though, is the ethos of Dogecoin, summarised in the"
+other = "ドージコインは人々に笑顔をもたらす偶然の暗号ムーブメントです。また、ブロックチェーン技術を活用したオープンソースのピアツーピア暗号通貨であり、高度に安全な分散型の情報記録システムです。このシステムは、ノードと呼ばれるコンピュータのネットワークによって維持されています。それだけでなく、"
 
 ["whatisdogecoin[lead][text2]"]
-other = "Dogecoin Manifesto"
+other = "ドージコインマニフェスト"
 
 ["whatisdogecoin[lead][text3]"]
-other = ", and its amazing, vibrant community made up of friendly folks just like you!"
+other = "や、あなたのようなフレンドリーな人々によって構成される素晴らしい活気あるコミュニティにも要約されています！"
 
 ["whatisdogecoin[here]"]
-other = "Learn more."
+other = "もっと詳しく知る"
 
 ["whatisdogecoin[choosewallet][started]"]
-other = "Getting started"
+other = "始め方"
 
 ["whatisdogecoin[choosewallet][title1]"]
-other = "choose your wallet"
+other = "ウォレットを選ぶ"
 
 ["whatisdogecoin[choosewallet][text1]"]
-other = "A wallet is necessary for people wanting to use, trade, or hold Dogecoin. You can pick a wallet"
+other = "ウォレットは、ドージコインを使いたい、取引したい、または保管したい人に必要です。以下から選んでください。"
 
 ["whatisdogecoin[choosewallet][title2]"]
-other = "configure your wallet"
+other = "ウォレットを設定する"
 
 ["whatisdogecoin[choosewallet][text2]"]
-other = "After downloading, you can configure your wallet according to our"
+other = "ダウンロード後、当社の"
 
 ["whatisdogecoin[guide]"]
-other = "guide."
+other = "ガイド"
 
 ["whatisdogecoin[choosewallet][title3]"]
-other = "get some dogecoin"
+other = "ドージコインを入手する"
 
 ["whatisdogecoin[choosewallet][text3]"]
-other = "There’s lots of ways to get your hands on some Dogecoin."
+other = "ドージコインを入手する方法はたくさんあります。"
 
 ["whatisdogecoin[learnmore]"]
-other = "Learn more."
+other = "さらに詳しく"
 
 ##############################
 # partials/wallets.html
 ##############################
 ["wallets[title]"]
-other = "Wallets"
+other = "ウォレット"
 
 ["wallets[text1]"]
-other = "There are many ways you can get a wallet, and the best choice of wallet for you is dependent upon the purpose for which you intend to use your Dogecoin. There are two overarching categories of wallets: ‘custodial’ and ‘non-custodial’, depending on whether you are the sole holder of your wallet’s private key. The wallets listed on this website are non-custodial wallets, meaning that you possess and control the private keys."
+other = "ウォレットを取得する方法はさまざまです。あなたにとって最適なウォレットは、ドージコインを使用する目的によって異なります。ウォレットには「カストディアル」と「非カストディアル」の2つの大分類があり、ウォレットの秘密鍵を誰が保持するかによって決まります。このウェブサイトに掲載されているウォレットは非カストディアルウォレットであり、秘密鍵を自分で保持し管理します。"
 
 ["wallets[multidoge][title1]"]
-other = "MultiDoge"
+other = "マルチドージ"
 
 ["wallets[multidoge][text1]"]
-other = "MultiDoge is a 'light' wallet. It syncs with the blockchain by 'skimming' through the blockchain, providing fast sync times."
+other = "マルチドージは「ライト」ウォレットです。ブロックチェーンを「スキミング」して同期を行い、迅速な同期時間を提供します。"
 
 ["wallets[core][title1]"]
-other = "Dogecoin Core"
+other = "ドージコインコア"
 
 ["wallets[core][text1]"]
-other = "Dogecoin Core, on the other hand, is a 'full' wallet. It syncs by downloading the blockchain, providing a solid-working Dogecoin wallet."
+other = "一方、ドージコインコアは「フル」ウォレットです。ブロックチェーン全体をダウンロードして同期を行い、安定した動作のドージコインウォレットを提供します。"
 
 ["wallets[mydoge][title1]"]
-other = "MyDoge"
+other = "マイドージ"
 
 ["wallets[mydoge][text1]"]
-other = "MyDoge is a free and secure self-custodial Dogecoin wallet. It's also a community for Dogecoin enthusiasts to explore the Dogeverse and connect with friends! With MyDoge, you can buy, send, receive, and store your Dogecoin safely. You can also send & receive Dogecoin tips on Twitter. MyDoge Wallet - Your Keys, Your Crypto."
+other = "マイドージは、無料で安全なセルフカストディアルのドージコインウォレットです。また、ドージコイン愛好家がドージバースを探索し、友達とつながるためのコミュニティでもあります！マイドージでは、ドージコインを安全に購入、送信、受信、保管できます。また、Twitterでドージコインのチップを送受信することもできます。マイドージウォレット - あなたの鍵、あなたの暗号資産。"
 
 ##############################
 # partials/community.html
 ##############################
 ["community[title1]"]
-other = "Do Only"
+other = "常に"
 
 ["community[title2]"]
-other = "Good Everyday."
+other = "良いことをする。"
 
 ["community[text1]"]
-other = "The Dogecoin community cares about supporting each other, being kind, teaching people about cryptocurrency, fundraising, having fun, making memes, and being absurd. This is nicely captured by Dogecoin’s unofficial tagline: <b>D</b>o <b>O</b>nly <b>G</b>ood <b>E</b>veryday. Get involved in our awesome community via the below links:"
+other = "ドージコインコミュニティは、お互いをサポートし、親切であること、暗号通貨について人々を教育すること、資金調達、楽しむこと、ミームを作ること、そしてユーモラスであることを大切にしています。これはドージコインの非公式キャッチフレーズにうまく表現されています：<b>D</b>o <b>O</b>nly <b>G</b>ood <b>E</b>veryday。以下のリンクを通じて素晴らしいコミュニティに参加してください！"
 
 ##############################
 # partials/community.html
 ##############################
 
 ["resources[title]"]
-other = "Find out more about Dogecoin"
+other = "ドージコインについてもっと知る"
 
 ["resources[viewall]"]
-other = "VIEW ALL"
+other = "すべて表示"
 
 ["resources[visit]"]
-other = "Visit"
+other = "訪問する"
 
 ["resources[title1]"]
-other = "Foundation"
+other = "財団"
 
 ["resources[text1]"]
-other = "Learn more about the Dogecoin Foundation and its Trailmap for Dogecoin!"
+other = "ドージコイン財団とそのトレイルマップについて詳しく知る！"
 
 ["resources[title2]"]
-other = "Blogs"
+other = "ブログ"
 
 ["resources[text2]"]
-other = "Stay up to date with blog posts from Foundation Developers!"
+other = "財団の開発者によるブログ投稿で最新情報を確認！"
 
 ["resources[title3]"]
-other = "Announcements"
+other = "お知らせ"
 
 ["resources[text3]"]
-other = "Announcements from the Dogecoin Foundation can be found here."
+other = "ドージコイン財団のお知らせはこちらで確認できます。"
 
 ["resources[title4]"]
-other = "IP FAQs"
+other = "知的財産FAQ"
 
 ["resources[text4]"]
-other = "Read our responses to some frequently asked questions about Dogecoin IP."
-
+other = "ドージコインの知的財産に関するよくある質問への回答を読む。"
 
 ##############################
 # partials/tablist_item.html
 ##############################
 
 ["tablist[read-more]"]
-other = "Read more"
+other = "もっと読む"
 
 ##############################
 # partials/tablist_menu.html
@@ -260,67 +257,67 @@ other = "Read more"
 other = "FAQ"
 
 ["tabmenu[resources]"]
-other = "Resources"
+other = "リソース"
 
 ["tabmenu[how-to]"]
-other = "How To's"
+other = "使い方"
 
 ["tabmenu[documentation]"]
-other = "Documentation"
+other = "ドキュメント"
 
 ##############################
 # partials/footer.html
 ##############################
 
 ["footer[text1]"]
-other = "The Shiba Inu is a Japanese breed of dog that was popularized as an online meme and represents Dogecoin. Dogecoin was created by Jackson Palmer & Shibetoshi Nakamoto."
+other = "柴犬は日本犬の一種で、インターネットミームとして有名になり、ドージコインの象徴となりました。ドージコインはジャクソン・パーマーとシベトシ・ナカモトによって作られました。"
 
 ["footer[legal]"]
-other = "Legal"
+other = "法的情報"
 
 ["footer[sitemap]"]
-other = "Sitemap"
+other = "サイトマップ"
 
 ["footer[foundation]"]
-other = "Foundation"
+other = "財団"
 
 ["footer[copyright]"]
-other = "The Dogecoin Foundation & Dogecoin Project. All rights reserved."
+other = "ドージコイン財団とドージコインプロジェクト。全著作権保有。"
 
 ##############################
 # wallets/list.html
 ##############################
 
 ["listWallets[muchgoback]"]
-other = "Much Go Back"
+other = "戻る"
 
 ["listWallets[wallet]"]
-other = "Wallet"
+other = "ウォレット"
 
 ["listWallets[type]"]
-other = "Type"
+other = "タイプ"
 
 ["listWallets[active]"]
-other = "Active"
+other = "アクティブ"
 
 ["listWallets[version]"]
-other = "Version"
+other = "バージョン"
 
 ["listWallets[download]"]
-other = "Download"
+other = "ダウンロード"
 
 ##############################
 # contributors/list.html
 ##############################
 
 ["listContributors[muchgoback]"]
-other = "Much Go Back"
+other = "戻る"
 
 ["listContributors[shibe]"]
-other = "Shibe"
+other = "柴犬"
 
 ["listContributors[contribution]"]
-other = "Contribution"
+other = "貢献"
 
 ["listContributors[social]"]
-other = "Social"
+other = "ソーシャル"
