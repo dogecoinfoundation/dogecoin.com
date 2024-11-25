@@ -1,0 +1,90 @@
+<div id="community" class="community">
+  <div class="container">
+    <div class="row pb-5 doge-graphics">
+      <div class="col-3 col-sm-3">
+        <div
+          class="doge_letter_image"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+        >
+          <img src="/assets/images/d-letter-img.png" alt="d letter img" class="doge-graphics-letter" />
+        </div>
+      </div>
+      <div
+        class="col-3 col-sm-3"
+        data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-delay="10"
+        data-aos-duration="1000"
+      >
+        <div class="doge_letter_image">
+          <img src="/assets/images/o-letter-img.png" alt="d letter img" class="doge-graphics-letter" />
+        </div>
+      </div>
+      <div
+        class="col-3 col-sm-3"
+        data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-delay="10"
+        data-aos-duration="1000"
+      >
+        <div class="doge_letter_image">
+          <img src="/assets/images/g-letter-img.png" alt="d letter img" class="doge-graphics-letter" />
+        </div>
+      </div>
+      <div
+        class="col-3 col-sm-3"
+        data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-delay="10"
+        data-aos-duration="1000"
+      >
+        <div class="doge_letter_image">
+          <img src="/assets/images/e-letter-img.png" alt="d letter img" class="doge-graphics-letter"/>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+      class="row pb-5"
+      data-aos="fade-down"
+      data-aos-offset="100"
+      data-aos-delay="10"
+      data-aos-duration="1000"
+      >
+<!--      <h2 class="title card-title text-start text-dark comic-neue">Community</h2>-->
+      </div>
+      <div class="row pb-5">
+        <div class="col-lg-6">
+          <div class="ratio ratio-16x9"><a href="https://www.youtube.com/embed/_KVZmS_UO5I" target="_blank"><img src="/assets/images/whatisdogecoin.jpg" /></a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+            <h2 class="title card-title text-start text-dark comic-neue" style="padding-top: 20px">{{i18n "community[title1]" }} {{i18n "community[title2]" }}</h2>
+          <p class="text-start lead comic-neue">
+            {{i18n "community[text1]" | safeHTML }}
+          </p>
+        </div>
+      </div>
+    </div>
+      <div class="row pb-5">
+
+
+        <a href="https://twitter.com/dogecoin" target="_blank" class="col-lg-4">
+          <div style="background-image: url(/assets/images/Twitter_Logo.svg); background-size: 150px; background-position: center; background-repeat: no-repeat; padding: 15px; margin: 5px" >&nbsp;</div>
+        </a>
+
+        <a href="https://www.reddit.com/r/dogecoin" target="_blank" class="col-lg-4">
+          <div style="background-image: url(/assets/images/Reddit_Logo.svg); background-size: 150px; background-position: center; background-repeat: no-repeat; padding: 15px; margin: 5px;" >&nbsp;</div>
+        </a>
+
+        <a href="https://discord.gg/X3fHfpvpCM" target="_blank" class="col-lg-4">
+          <div style="background-image: url(/assets/images/Discord_Logo.svg); background-size: 150px; background-position: center; background-repeat: no-repeat; padding: 15px; margin: 5px;" >&nbsp;</div>
+        </a>
+
+
+    </div>
+  </div>
+</div>
