@@ -1208,5 +1208,5 @@ disableHugoGeneratorInject = false
     url  = "https://foundation.dogecoin.com/announcements/"
 
   [[languages.ja.params.footerFoundation]]
-    name = "トレイルマップ"
+    name = "旅のしおり"
     url  = "https://foundation.dogecoin.com/trailmap/prologue/"

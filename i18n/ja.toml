@@ -61,40 +61,40 @@ other = "ドージコインコアウォレット1.1487リリース！アップ�
 other = "みんなの"
 
 ["index[sloganC]"]
-other = "通"
+other = "か"
 
 ["index[sloganR]"]
-other = "貨"
+other = "わ"
 
 ["index[sloganY]"]
-other = "で"
+other = "い"
 
 ["index[sloganP]"]
-other = "す"
+other = "い"
 
 ["index[sloganT]"]
-other = "ね"
-
-["index[sloganO]"]
-other = "！"
-
-["index[sloganC1]"]
 other = "通"
 
-["index[sloganU]"]
+["index[sloganO]"]
 other = "貨"
 
+["index[sloganC1]"]
+other = "("
+
+["index[sloganU]"]
+other = "・"
+
 ["index[sloganR1]"]
-other = "の"
+other = "ᴥ"
 
 ["index[sloganR2]"]
-other = "未"
+other = "・"
 
 ["index[sloganE]"]
-other = "来"
+other = "Ｕ"
 
 ["index[sloganN]"]
-other = "へ"
+other = ")"
 
 ["index[sloganC2]"]
 other = "！"
@@ -107,7 +107,7 @@ other = "🚀"
 ##############################
 
 ["list[some-respurces]"]
-other = "いくつかのリソース"
+other = "リソース"
 
 ["list[read-more]"]
 other = "もっと読む"
@@ -222,7 +222,7 @@ other = "訪問する"
 other = "財団"
 
 ["resources[text1]"]
-other = "ドージコイン財団とそのトレイルマップについて詳しく知る！"
+other = "ドージコイン財団とその旅のしおりについて詳しく知る！"
 
 ["resources[title2]"]
 other = "ブログ"
@@ -234,7 +234,7 @@ other = "財団の開発者によるブログ投稿で最新情報を確認！"
 other = "お知らせ"
 
 ["resources[text3]"]
-other = "ドージコイン財団のお知らせはこちらで確認できます。"
+other = "ドージコイン財団からのお知らせはこちらで確認できます。"
 
 ["resources[title4]"]
 other = "知的財産FAQ"
@@ -282,7 +282,7 @@ other = "サイトマップ"
 other = "財団"
 
 ["footer[copyright]"]
-other = "ドージコイン財団とドージコインプロジェクト。全著作権保有。"
+other = "The Dogecoin Foundation & Dogecoin Project. All rights reserved."
 
 ##############################
 # wallets/list.html
