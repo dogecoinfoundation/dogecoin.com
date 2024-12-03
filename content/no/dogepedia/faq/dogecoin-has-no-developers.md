@@ -9,7 +9,7 @@ type = "faq"
 
 Oh, yes it does - and it always has!  
 
-Dogecoin’s primary purpose has always been to be used as a currency. Dogecoin was originally a fork of a cryptocurrency called Luckycoin - itself a fork of Litecoin. Billy Markus, co-creator of Dogecoin with Jackson Palmer, acted as a solo developer for the first Dogecoin Core releases. In 2014, Billy and Jackson left Dogecoin development, and a new development team was formed.  Over the years, the Dogecoin development team has consisted of a small group of maintainers coordinating the work of more than 40 contributors.
+Dogecoin’s primary purpose has always been to be used as a currency. Billy Markus, co-creator of Dogecoin with Jackson Palmer, acted as a solo developer for the first Dogecoin Core releases. In 2014, Billy and Jackson left Dogecoin development, and a new development team was formed.  Over the years, the Dogecoin development team has consisted of a small group of maintainers coordinating the work of more than 40 contributors.
 
 In 2015, starting from Dogecoin Core 1.10.0, the Dogecoin development team decided to re-fork Dogecoin off Bitcoin, re-applying Litecoin changes on top of the Bitcoin codebase. Thus, throughout its history, Dogecoin inherited already feature-complete code bases, and it has shared a good part of its identity with Bitcoin. Its uniqueness came from changed parameters, optimizations, and parts of the code that were not inherited from Litecoin or Bitcoin. These changes were always aimed at making Dogecoin a viable currency for day to day spending, with a focus on utility and ease of use.
 
