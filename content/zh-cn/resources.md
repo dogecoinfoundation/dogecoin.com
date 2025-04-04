@@ -18,7 +18,6 @@ page = "page/resources.html"
 - [Blockchair - 狗狗币网络节点数量、版本监测工具](https://blockchair.com/dogecoin/nodes)
 
 ### 商店目录
-- [ShopDoge.xyz - 接受狗狗币的商户目录](https://shopdoge.xyz/)
 - [Cryptwerk - 接受狗狗币的商户目录](https://cryptwerk.com/pay-with/doge/)
 
 ### 第三方支付服务提供商

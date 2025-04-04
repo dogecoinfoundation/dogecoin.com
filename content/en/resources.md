@@ -18,7 +18,6 @@ A list of resources created by shibes that can be useful to work with Dogecoin a
 - [Blockchair - monitor the number and versions of Dogecoin nodes in the network.](https://blockchair.com/dogecoin/nodes)
 
 ### Shop Directories
-- [ShopDoge.xyz - a directory of shops accepting Dogecoin.](https://shopdoge.xyz/)
 - [Cryptwerk - a directory of shops accepting Dogecoin.](https://cryptwerk.com/pay-with/doge/)
 
 ### Third Party Providers of Payment Integrations
