@@ -29,5 +29,5 @@ Reddit community](https://reddit.com/r/dogecoindev) and on the
 
 The Dogecoin Foundation participates in the same consensus-based participatory process as any one 
 individual or group in the Dogecoin community. The Dogecoin Foundation maintains a 
-[Trailmap](https://foundation.dogecoin.com/trailmap/), which includes projects that the Foundation 
+[Trailmap](https://dogecoin.org/trailmap/), which includes projects that the Foundation 
 is committed to developing and which it believes are beneficial to the success of Dogecoin.
