@@ -56,7 +56,7 @@ other = "dogecoin, doge, currency, cryptocurrency, digital currency, shiba inu"
 ##############################
 
 ["index[warning]"]
-other = "Sortie de la version 1.14.6 de Such Core Wallet ! Vous devez mettre à jour, svp !"
+other = "Sortie de la version 1.14.9 de Such Core Wallet ! Vous devez mettre à jour, svp !"
 
 ["index[slogan1]"]
 other = "la"

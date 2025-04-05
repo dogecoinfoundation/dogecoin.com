@@ -18,7 +18,6 @@ Une liste de ressources créées par des shibes qui peuvent être utiles pour tr
 - [Blockchair - surveille le nombre et les versions des nœuds Dogecoin dans le réseau.](https://blockchair.com/dogecoin/nodes)
 
 ### Répertoires de magasins
-- [ShopDoge.xyz - un annuaire des magasins acceptant le Dogecoin.](https://shopdoge.xyz/)
 - [Cryptwerk - un annuaire des magasins acceptant le Dogecoin.](https://cryptwerk.com/pay-with/doge/)
 
 ### Fournisseurs tiers d'intégrations de paiement

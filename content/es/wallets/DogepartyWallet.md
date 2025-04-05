@@ -1,7 +1,7 @@
 +++
 type = "wallet"
 
-name = "Doge Wallet"
+name = "DogeWallet (Dogeparty wallet)"
 order = "12"
 active = "yes"
 version = "n/a"
