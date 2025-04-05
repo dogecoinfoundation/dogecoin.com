@@ -1,5 +1,5 @@
 +++
-title = "Making Memes"
+title = "Créer des mèmes"
 date = "2021-10-22"
 type = "how-to"
 
@@ -7,14 +7,14 @@ type = "how-to"
   name = "Dogecoin"
 +++
 
-Memes are awesome, and they’re easy to make! There’s lots of meme maker websites, and even meme applications that you can install on your smartphone to makes memes on the run. You may even go one step further and create Dogecoin-themed meme templates which have a possibility of being seen by millions of others.  
+Les mèmes sont géniaux, et ils sont faciles à faire ! Il existe de nombreux sites Web de création de mèmes, et même des applications de mèmes que vous pouvez installer sur votre smartphone pour créer des mèmes sur le pouce. Vous pouvez même aller plus loin et créer des modèles de mèmes sur le thème du Dogecoin qui ont la possibilité d'être vus par des millions de personnes.  
 
-What makes a great meme? Well, it needs to be funny and convey meaning in a concise and relatable form. Moreover, capturing the sentiment of a community – or peoples’ innermost thoughts and feelings that are not shared publicly – can form a great basis from which to create highly engaging and novel memes. The power of memes also comes from their accessibility and ability to be viewed by millions in a relatively short of amount of time.  
+Qu'est-ce qui fait un bon mème ? Eh bien, il faut qu'il soit drôle et qu'il transmette un sens sous une forme concise et accessible. De plus, capturer le sentiment d'une communauté - ou les pensées et sentiments les plus intimes des gens qui ne sont pas partagés publiquement - peut constituer une excellente base pour créer des mèmes originaux et très attrayants. Le pouvoir des mèmes vient également de leur accessibilité et de leur capacité à être vus par des millions de personnes dans un laps de temps relativement court.  
 
 ![image info](/assets/images/dogepedia/1.png)
 
-The content of great memes can vary widely, but they always consist of a combination of at least one image and a small amount of text. It’s a great idea to check-out popular memes from the past for inspiration, and to identify common characteristics as to what makes them great.  
+Le contenu des grands mèmes peut varier considérablement, mais ils consistent toujours en une combinaison d'au moins une image et d'une petite quantité de texte. C'est une bonne idée d'examiner les mèmes populaires du passé pour s'en inspirer, et d'identifier les caractéristiques communes qui les rendent géniaux.  
 
-It’s important to never diminish the potential impact of a good meme. A well-crafted meme can help to shape peoples’ feelings and beliefs, and – dare we say – even form the basis for a popular cryptocurrency! Plus, memes make people laugh and smile, and help to foster a feeling of belonging by people the world over, which in and of itself a noble and worthwhile endeavour. 
+Il est important de ne jamais diminuer l'impact potentiel d'un bon mème. Un mème bien conçu peut contribuer à façonner les sentiments et les croyances des gens, et même - osons le dire - former la base d'une crypto-monnaie populaire ! De plus, les mèmes font rire et sourire les gens, et contribuent à renforcer le sentiment d'appartenance des populations du monde entier, ce qui est en soi un objectif noble et louable. 
 
-As always, the best guide to making memes is to actually give it a go. Make a meme today and share it on social media! 
+Comme toujours, le meilleur guide pour créer des mèmes est de s'y essayer. Créez un mème aujourd'hui et partagez-le sur les médias sociaux ! 

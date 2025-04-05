@@ -1,5 +1,5 @@
 +++
-title = "How can I join the Dogecoin community?"
+title = "Comment puis-je rejoindre la communauté Dogecoin ?"
 date = "2021-10-22"
 type = "article"
 
@@ -7,10 +7,10 @@ type = "article"
   name = "Dogecoin"
 +++
 
-There are many ways you can get involved in the Dogecoin community! Most popular social-media platforms have a thriving and welcoming Dogecoin community through which newcomers and old-timers alike can connect, discuss, and share their thoughts, memes, ideas, and spread the joy of all things Doge. 
+Il existe de nombreuses façons de s'impliquer dans la communauté Dogecoin ! La plupart des plates-formes de réseaux sociaux populaires ont une communauté Dogecoin florissante et accueillante grâce à laquelle les nouveaux venus et les anciens peuvent se connecter, discuter et partager leurs pensées, leurs mèmes, leurs idées et répandre la joie de tout ce qui est Doge. 
 
-**Reddit** and **Twitter** are the most popular platforms for the Dogecoin community, with millions of active Shibes on either platform. 
+**Reddit** et **Twitter** sont les plateformes les plus populaires pour la communauté Dogecoin, avec des millions de Shibes actifs sur chaque plateforme. 
 
-On Reddit, **[r/dogecoin](https://reddit.com/r/dogecoin/)** is so popular that in 2021 it was ranked as Reddit’s Top community for cryptocurrency and finance, and posts in the Dogecoin subreddit are frequently the most upvoted posts for the entire Reddit platform! If you are more technically inclined and want to stay updated about Dogecoin development, you can also check out the technical development subreddit at **[r/dogecoindev](https://reddit.com/r/dogecoindev/)**. **[r/dogeducation](https://reddit.com/r/dogeducation/)** is another subreddit where new Dogecoin users can find How-Tos and help.
+Sur Reddit, **[r/dogecoin](https://reddit.com/r/dogecoin/)** est si populaire qu'en 2021, il a été classé comme la meilleure communauté Reddit pour les crypto-monnaies et la finance, les messages du subreddit Dogecoin sont fréquemment les plus votés de toute la plateforme Reddit ! Si vous êtes plus enclin à la technique et que vous souhaitez rester à jour sur le développement de Dogecoin, vous pouvez également consulter le subreddit de développement technique à **[r/dogecoindev](https://reddit.com/r/dogecoindev/)**. **[r/dogeducation](https://reddit.com/r/dogeducation/)** est un autre subreddit où les nouveaux utilisateurs de Dogecoin peuvent trouver des Modes d'Emplois et de l'aide.
 
-One of the many awesome things about Dogecoin — and what differentiates it from many crypto communities — is the amazing and massive community of Shibes around the world. No matter where you look, you’re bound to find a welcoming Dogecoin community somewhere.
+L'une des nombreuses choses géniales à propos de Dogecoin - et ce qui le différencie de nombreuses communautés de crypto-monnaies - est l'incroyable et massive communauté de Shibes à travers le monde. Où que vous regardiez, vous trouverez forcément une communauté Dogecoin accueillante quelque part.

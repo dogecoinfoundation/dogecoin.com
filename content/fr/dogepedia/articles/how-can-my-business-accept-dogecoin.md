@@ -1,5 +1,5 @@
 +++
-title = "How can my business accept Dogecoin?"
+title = "Comment mon entreprise peut-elle accepter les Dogecoins ?"
 date = "2021-10-22"
 type = "article"
 
@@ -7,16 +7,16 @@ type = "article"
   name = "Dogecoin"
 +++
 
-The past year has seen a wave of businesses starting to accept Dogecoin for goods and services. Thanks to a multitude of crypto payment solutions, now it’s as easy as ever for your business to accept Dogecoin.  
+L'année dernière, une vague d'entreprises a commencé à accepter les dogecoins pour les biens et les services. Grâce à une multitude de solutions de paiement en crypto-monnaie, il est désormais plus facile que jamais pour votre entreprise d'accepter le Dogecoin.  
 
-At the most foundational level, for your business to accept Dogecoin in exchange for goods and services you will require a [wallet](/dogepedia/articles/how-do-i-get-a-wallet).
+Au niveau le plus fondamental, pour que votre entreprise puisse accepter le Dogecoin en échange de biens et de services, vous aurez besoin d'un [portefeuille](/fr/dogepedia/articles/how-do-i-get-a-wallet).
 
-If you have a bricks-and-mortar business where payments are made in person, it’s common for merchants to print a QR code that is scanned by customers’ smartphones to streamline the transaction process.  
+Si vous avez un commerce où les paiements sont effectués en personne, il est courant que les commerçants impriment un QR code qui est scanné par les smartphones des clients pour rationaliser le processus de transaction.  
 
-If you have an ecommerce store, companies like Coinbase Commerce and BitPay make accepting Dogecoin a breeze, and include integrations with popular platforms like Shopify, WooCommerce, and OpenCart. It is also possible to develop custom solutions connecting directly to a [Dogecoin Core node](/dogepedia/how-tos/operating-a-node/) through the JSON-RPC interface. The Dogecoin Foundation is currently developing [Libdogecoin](https://foundation.dogecoin.com/trailmap/libdogecoin/), a library that will, among other things, facilitate and standardize the implementation of Dogecoin payments.
+Si vous avez une boutique de commerce électronique, des sociétés comme Coinbase Commerce et BitPay facilitent l'acceptation de Dogecoin et intègrent des plateformes populaires comme Shopify, WooCommerce et OpenCart. Il est également possible de développer des solutions personnalisées en se connectant directement à un [nœud Dogecoin Core](/fr/dogepedia/how-tos/operating-a-node/) via l'interface JSON-RPC. La Fondation Dogecoin développe actuellement [Libdogecoin](https://foundation.dogecoin.com/trailmap/libdogecoin/), une bibliothèque qui facilitera et normalisera, entre autres, la mise en œuvre des paiements en Dogecoin.
 
-There are also complete open source solutions being currently developed by independent developers in the Dogecoin community, such as [DogeGarden](https://dogegarden.io/).
+Il existe également des solutions open-source complètes actuellement développées par des développeurs indépendants de la communauté Dogecoin, comme [DogeGarden](https://dogegarden.io/).
 
 ***
 
-*Dogecoin and the Dogecoin Foundation are not affiliated with the companies mentioned in this article.*
+*Dogecoin et la Fondation Dogecoin ne sont pas affiliés aux entreprises mentionnées dans cet article.*

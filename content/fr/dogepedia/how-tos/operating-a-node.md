@@ -1,5 +1,5 @@
 +++
-title = "Operate a Dogecoin Node"
+title = "Exploiter un nœud Dogecoin"
 date = "2021-10-22"
 type = "how-to"
 
@@ -7,4 +7,4 @@ type = "how-to"
   name = "Dogecoin"
 +++
 
-A guide for Dogecoin Node operators.
+Un guide pour les opérateurs de nœuds Dogecoin.

@@ -1,5 +1,5 @@
 +++
-title = "What is the Dogecoin Foundation?"
+title = "Qu'est-ce que la Fondation Dogecoin ?"
 date = "2021-10-22"
 type = "article"
 
@@ -7,8 +7,8 @@ type = "article"
   name = "Dogecoin"
 +++
 
-The Dogecoin Foundation is a not-for-profit organisation tasked with providing (i) support for Dogecoin through development and advocacy, (ii) Dogecoin trademark defence to prevent abuse and fraud, and (iii) a roadmap and governance for the future of Dogecoin.  
+La Fondation Dogecoin est une organisation à but non lucratif chargée de fournir (i) un soutien au Dogecoin par le biais du développement et de la défense, (ii) une défense de la marque Dogecoin pour prévenir les abus et les fraudes, et (iii) une roadmap et une gouvernance pour l'avenir du Dogecoin.  
 
-The Foundation was initially established by members of the Dogecoin team in 2014 to provide governance and support for the Dogecoin project. In 2021 the Foundation was re-invigorated by members of the core development team — along with fresh faces and new seasoned advisors — ready to grow Dogecoin for the decade ahead! 
+La Fondation a été initialement créée par des membres de l'équipe Dogecoin en 2014 pour assurer la gouvernance et le soutien du projet Dogecoin. En 2021, la Fondation a été revigorée par les membres de l'équipe de développement de base - ainsi que par de nouvelles têtes et de nouveaux conseillers chevronnés - prêts à faire croître Dogecoin pour la décennie à venir ! 
 
-You can read about the Foundation’s guiding principles in [The Dogecoin Manifesto](https://foundation.dogecoin.com/manifesto/). 
+Vous pouvez lire les principes directeurs de la Fondation dans le [Manifeste de Dogecoin](https://foundation.dogecoin.com/manifesto/). 

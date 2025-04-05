@@ -1,25 +1,25 @@
 +++
-title = "Privacy Policy"
+title = "Politique de confidentialité"
 date = "2014-04-09"
 aliases = ["legal"]
 [ author ]
   name = "Dogecoin"
 +++
 
-This Privacy Policy describes our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects you. 
+La présente politique de confidentialité décrit nos politiques et procédures en matière de collecte, d'utilisation et de divulgation de vos informations lorsque vous utilisez le service et vous informe de vos droits en matière de confidentialité et de la manière dont la loi vous protège. 
 
-We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
+Nous utilisons vos données personnelles pour fournir et améliorer le Service. En utilisant le Service, vous acceptez la collecte et l'utilisation des informations conformément à la présente politique de confidentialité.
 
-## Interpretation and Definitions 
+## Interprétation et définitions 
 
-### Interpretation 
+### Interprétation 
 
-The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+Les mots dont la lettre initiale est en majuscule ont des significations définies dans les conditions suivantes. Les définitions suivantes ont le même sens, qu'elles apparaissent au singulier ou au pluriel.
 
-### Definitions 
+### Définitions 
 
-For the purposes of this Privacy Policy: 
+Aux fins de la présente politique de confidentialité : 
 
-- Account means a unique account created for You to access our Service or parts of our Service. 
-- Company (referred to as either "the Company", 'We", "Us" or "Our" in this Agreement) refers to Dogecoin. 
-- Cookies are small files that are placed on your computer, mobile device or any other device by a website, containing the details of your browsing history on that website among its many uses. 
+- Compte désigne un compte unique créé pour vous afin d'accéder à notre Service ou à certaines parties de notre Service. 
+- Société (désignée par "la société", "nous", "notre" ou "nos" dans le présent accord) fait référence à Dogecoin. 
+- Cookies sont de petits fichiers placés sur votre ordinateur, votre appareil mobile ou tout autre appareil par un site web, contenant les détails de votre historique de navigation sur ce site web parmi ses nombreuses utilisations. 

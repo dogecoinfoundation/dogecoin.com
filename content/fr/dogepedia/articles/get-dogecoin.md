@@ -1,5 +1,5 @@
 +++
-title = "How can I get Dogecoin?"
+title = "Comment puis-je obtenir du Dogecoin ?"
 date = "2021-10-22"
 type = "article"
 
@@ -7,27 +7,27 @@ type = "article"
   name = "Dogecoin"
 +++
  
-There are many ways to get your hands on Dogecoin: from exchanges, receiving tips, accepting Dogecoin for goods and services, and even from projects like Dogecoin Folding @ Home!  
+Il existe de nombreuses façons de mettre la main sur des Dogecoins : à partir d'échanges, en recevant des pourboires, en acceptant des Dogecoins contre des biens et des services, et même à partir de projets comme Dogecoin Folding @ Home !  
 
 ### Exchanges 
 
-A popular way people get their hands on Dogecoin is via an exchange. There are many exchanges on the market, and they are most commonly used to exchange fiat money for cryptocurrency, or to exchange cryptocurrency for fiat money.  
+Un moyen populaire pour les gens de mettre la main sur le Dogecoin est de passer par un exchange. Il existe de nombreux exchanges sur le marché, et ils sont le plus souvent utilisés pour échanger de la monnaie fiduciaire contre des crypto-monnaies, ou pour échanger des crypto-monnaies contre de la monnaie fiduciaire.  
 
-You can purchase Dogecoin on an exchange at the current market price (this is called a market *taker* transaction), or by making an offer to purchase cryptocurrency once it reaches a specified price (a market *maker* transaction). Some exchanges only allow its users to purchase cryptocurrencies via market taker transactions.  
+Vous pouvez acheter du Dogecoin sur une bourse au cours actuel du marché (c'est ce qu'on appelle une transaction *taker* de marché), ou en faisant une offre d'achat de crypto-monnaie une fois qu'elle aura atteint un prix spécifié (une transaction *maker* de marché). Certaines bourses n'autorisent leurs utilisateurs à acheter des crypto-monnaies que par le biais de transactions de type "market taker".  
 
-Although the security of exchanges has come a long way in recent years, it is still crucial that you **do your own research (DYOR)** before purchasing Dogecoin via an exchange, because they are not immune to security risks or controversy. For added security, it is also important to consider keeping the Dogecoin that you do not intend to use for trading in a [private non-custodial wallet](/dogepedia/articles/how-do-i-get-a-wallet).
+Bien que la sécurité des exchanges ait beaucoup progressé ces dernières années, il est toujours crucial que vous **fassiez vos propres recherches (FVPR)** avant d'acheter des Dogecoin via un échange, car ils ne sont pas à l'abri de risques de sécurité ou de controverses. Pour plus de sécurité, il est également important d'envisager de conserver les Dogecoins que vous n'avez pas l'intention d'utiliser pour des échanges dans un [portefeuille privé non dépositaire](/fr/dogepedia/articles/how-do-i-get-a-wallet).
 
 ![image info](/assets/images/dogepedia/5.png)
  
-### Tipping 
+### Pourboire 
 
-Dogecoin’s popularity can be attributed in part to its history as a tipping currency. In the early days, Dogecoin was widely used as a tipping currency on platforms like Reddit, and since Dogecoin’s insurgence in popularity in 2021, using Dogecoin a tipping currency is now back in vogue! Shibes show their appreciation to fellow Shibes on social-media platforms like Reddit by tipping them Dogecoin using popular bots, such as SoDogeTip.  
+La popularité du Dogecoin peut être attribuée en partie à son histoire en tant que monnaie de pourboire. Au début, le Dogecoin était largement utilisé comme monnaie de pourboire sur des plateformes comme Reddit, et depuis l'insurrection de la popularité du Dogecoin en 2021, l'utilisation du Dogecoin comme monnaie de pourboire est de nouveau en vogue ! Les shibes montrent leur reconnaissance à leurs amis shibes sur les plateformes de médias sociaux comme Reddit en leur donnant des pourboires en dogecoin à l'aide de bots populaires, comme SoDogeTip.  
 
-### Accepting Dogecoin for Goods & Services 
+### Accepter Dogecoin pour des biens et services 
 
-Do you own or run a business? It's now as easy as ever to accept Dogecoin in return for goods and services via a number of easy-to-integrate third-party payment solutions. [Click here](/dogepedia/articles/how-can-my-business-accept-dogecoin) for more information. 
+Vous possédez ou gérez une entreprise ? Il est maintenant plus facile que jamais d'accepter le Dogecoin en échange de biens et de services via un certain nombre de solutions de paiement tierces faciles à intégrer. [Cliquez ici](/fr/dogepedia/articles/how-can-my-business-accept-dogecoin) pour en savoir plus. 
 
 
-### Other 
+### Autre 
 
-There are other ways you can get your hands on Dogecoin, too. Popular initiatives like [Dogecoin Folding @ Home](/dogepedia/articles/dogecoin-folding-at-home), and even [mining Dogecoin](/dogepedia/how-tos/mining-dogecoin), can help people get their hands on some Doge! 
+Il existe également d'autres moyens de mettre la main sur des dogecoins. Des initiatives populaires comme [Dogecoin Folding @ Home](/fr/dogepedia/articles/dogecoin-folding-at-home), et même [mining Dogecoin](/fr/dogepedia/how-tos/mining-dogecoin), peuvent aider les gens à mettre la main sur du Doge ! 

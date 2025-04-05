@@ -1,5 +1,5 @@
 +++
-title = "How can I help?"
+title = "Comment puis-je aider ?"
 date = "2021-10-22"
 type = "article"
 
@@ -7,10 +7,10 @@ type = "article"
   name = "Dogecoin"
 +++
 
-There are *so* many ways to get involved and support Dogecoin. From making memes and artworks – to educating people who are new to crypto: there are endless possibilities for you to get involved and to help the Dogecoin movement.  
+Il y a *tant* de façons de s'impliquer et de soutenir Dogecoin. Qu'il s'agisse de créer des mèmes et des œuvres d'art ou d'éduquer les personnes qui ne connaissent pas la crypto-monnaie, il existe une infinité de possibilités de s'impliquer et d'aider le mouvement Dogecoin.  
 
-A good place to start is by joining one or more of the highly active communities on platforms such as [Reddit](https://www.reddit.com/r/dogecoin/), [Twitter](https://twitter.com/dogecoin), and [Discord](https://discord.gg/X3fHfpvpCM).
+Un bon point de départ consiste à rejoindre une ou plusieurs des communautés très actives sur des plateformes telles que [Reddit](https://www.reddit.com/r/dogecoin/), [Twitter](https://twitter.com/dogecoin) et [Discord](https://discord.gg/X3fHfpvpCM).
 
-If you have a technical background and would like to contribute to Dogecoin technical development, you can get involved via [Dogecoin Core](https://github.com/dogecoin/dogecoin) and [The Dogecoin Foundation](https://github.com/dogecoinfoundation) GitHub repositories.  
+Si vous avez des connaissances techniques et souhaitez contribuer au développement technique de Dogecoin, vous pouvez vous impliquer via les dépôts GitHub de [Dogecoin Core](https://github.com/dogecoin/dogecoin) et de [The Dogecoin Foundation](https://github.com/dogecoinfoundation).  
 
-If you’re interested in volunteering at The Dogecoin Foundation, stay tuned to the [Foundation website](https://foundation.dogecoin.com/) for details coming soon! 
+Si vous êtes intéressé(e) par un volontariat à la Fondation Dogecoin, restez à l'écoute du [site web de la Fondation](https://foundation.dogecoin.com/) pour les détails à venir ! 
