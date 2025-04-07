@@ -1,5 +1,5 @@
 +++
-title = "Dogecoin has no developers!"
+title = "Dogecoin n'a pas de développeurs !"
 date = "2021-10-22"
 type = "faq"
 
@@ -7,14 +7,14 @@ type = "faq"
   name = "Dogecoin"
 +++
 
-Oh, yes it does - and it always has!  
+Oh, oui, c'est vrai - et ça l'a toujours été !  
 
-Dogecoin’s primary purpose has always been to be used as a currency. Billy Markus, co-creator of Dogecoin with Jackson Palmer, acted as a solo developer for the first Dogecoin Core releases. In 2014, Billy and Jackson left Dogecoin development, and a new development team was formed.  Over the years, the Dogecoin development team has consisted of a small group of maintainers coordinating the work of more than 40 contributors.
+Le but premier de Dogecoin a toujours été d'être utilisé comme une monnaie. Billy Markus, co-créateur de Dogecoin avec Jackson Palmer, a agi en tant que développeur solo pour les premières versions de Dogecoin Core. En 2014, Billy et Jackson ont quitté le développement de Dogecoin, et une nouvelle équipe de développement a été formée.  Au fil des ans, l'équipe de développement de Dogecoin a consisté en un petit groupe de mainteneurs coordonnant le travail de plus de 40 contributeurs.
 
-In 2015, starting from Dogecoin Core 1.10.0, the Dogecoin development team decided to re-fork Dogecoin off Bitcoin, re-applying Litecoin changes on top of the Bitcoin codebase. Thus, throughout its history, Dogecoin inherited already feature-complete code bases, and it has shared a good part of its identity with Bitcoin. Its uniqueness came from changed parameters, optimizations, and parts of the code that were not inherited from Litecoin or Bitcoin. These changes were always aimed at making Dogecoin a viable currency for day to day spending, with a focus on utility and ease of use.
+En 2015, à partir de la version 1.10.0 de Dogecoin Core, l'équipe de développement de Dogecoin a décidé de refondre Dogecoin à partir de Bitcoin, en réappliquant les modifications de Litecoin sur la base de code de Bitcoin. Ainsi, tout au long de son histoire, Dogecoin a hérité de bases de code déjà complètes et a partagé une bonne partie de son identité avec Bitcoin. Son caractère unique provient des paramètres modifiés, des optimisations et des parties du code qui n'ont pas été héritées de Litecoin ou de Bitcoin. Ces changements ont toujours eu pour but de faire du Dogecoin une monnaie viable pour les dépenses quotidiennes, en mettant l'accent sur l'utilité et la facilité d'utilisation.
 
-In the future, the plan is to focus more efforts and resources to enhance Dogecoin so that it fulfills its aim to become a currency of the People. This will require a combination of part-time contributors, volunteers, but also full-time staff including developers and engineers.   
+À l'avenir, il est prévu de consacrer davantage d'efforts et de ressources à l'amélioration de Dogecoin afin qu'il atteigne son objectif de devenir la monnaie du peuple. Cela nécessitera une combinaison de contributeurs à temps partiel, de bénévoles, mais aussi de personnel à temps plein, notamment des développeurs et des ingénieurs.   
 
-The Dogecoin Foundation’s [Trailmap](https://foundation.dogecoin.com/trailmap/) lists various projects as the ecosystem works towards its shared aim of becoming a currency for the People, by the People! This Trailmap is not authoritative, but an indication of where to go that is open for community feedback.
+La [Trailmap](https://foundation.dogecoin.com/trailmap/) de la Fondation Dogecoin répertorie divers projets dans le cadre de la réalisation de l'objectif commun de l'écosystème : devenir une monnaie pour le peuple, par le peuple ! Cette feuille de route ne fait pas autorité, mais est une indication de la direction à prendre, ouverte aux commentaires de la communauté.
 
-Even though a lot of actual work is done outside of this repository, some of the development efforts can be followed on Github in the [**Dogecoin Core repository**](https://github.com/dogecoin/dogecoin). [**r/dogecoindev**](https://reddit.com/r/dogecoindev) on reddit is another good channel to discuss everything around Dogecoin's development and interact with the developers.
+Même si une grande partie du travail réel est effectuée en dehors de ce dépôt, certains des efforts de développement peuvent être suivis sur Github dans le [**Dogecoin Core repository**](https://github.com/dogecoin/dogecoin). [**r/dogecoindev**](https://reddit.com/r/dogecoindev) sur reddit est un autre bon canal pour discuter de tout ce qui concerne le développement de Dogecoin et interagir avec les développeurs.

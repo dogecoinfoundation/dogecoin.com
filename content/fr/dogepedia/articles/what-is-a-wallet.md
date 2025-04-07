@@ -1,5 +1,5 @@
 +++
-title = "What is a wallet, really?"
+title = "Qu'est-ce qu'un portefeuille, en fait ?"
 date = "2021-10-22"
 type = "article"
 
@@ -7,14 +7,14 @@ type = "article"
   name = "Dogecoin"
 +++
 
-A wallet is a set of private keys that gives you access to the control of certain coins on the blockchain ledger. When you spend a coin, control of that coin is transferred from being controlled by your keys to being controlled by someone else's keys. 
+Un portefeuille est un ensemble de clés privées qui vous donne accès au contrôle de certaines pièces sur le grand livre de la blockchain. Lorsque vous dépensez une pièce, le contrôle de cette pièce est transféré de vos clés à celles d'une autre personne. 
 
-A *wallet app* (often referred to simply as a "wallet") is an application which manages these keys, reports these amounts, and facilitates the transfer of amounts of coins between addresses. Some wallet apps store your keys locally; others store the keys on a remote server (which is less safe). Just remember: *whoever has the keys controls the coins*. 
+Une *application portefeuille* (souvent appelée simplement "portefeuille") est une application qui gère ces clés, rapporte ces montants et facilite le transfert de montants de pièces entre les adresses. Certaines applications de portefeuille stockent vos clés localement, d'autres les stockent sur un serveur distant (ce qui est moins sûr). N'oubliez pas : *ceux qui ont les clés contrôlent les pièces*. 
 
-While some "custodial" services, where coins that are "yours" are held under the service provider's keys may be trustworthy, keep in mind that many are not. Unless you hold the keys, ultimately, the only thing keeping whoever *does* hold the keys from transferring your coins is trust. 
+Si certains services dépositaires, où les pièces qui vous appartiennent sont conservées sous les clés du prestataire de services, peuvent être dignes de confiance, n'oubliez pas que beaucoup ne le sont pas. À moins que vous ne déteniez les clés, la seule chose qui empêche celui qui *détient* les clés de transférer vos pièces est la confiance. 
 
-**It is important to understand that unlike a physical wallet, which holds actual notes and coins, crypto wallets do not really "store" your crypto (in this case, Dogecoin) locally. They are storing a collection of private keys and private addresses used to access your Dogecoin, which is actually "living" on the [blockchain](/dogepedia/articles/what-is-a-blockchain/).** The blockchain is a digital ledger of transactions that is duplicated and distributed throughout an entire network of computers called [nodes](/dogepedia/articles/what-is-a-node/). You could have several wallet applications using the same private keys, and you would be able to access and spend your Dogecoin from each of these apps.
+**Il est important de comprendre que, contrairement à un portefeuille physique, qui contient des billets et des pièces, les portefeuilles cryptographiques ne "stockent" pas vraiment votre crypto (dans ce cas, du Dogecoin) localement. Ils stockent une collection de clés privées et d'adresses privées utilisées pour accéder à vos Dogecoin, qui "vit" en fait sur la [blockchain](/fr/dogepedia/articles/what-is-a-blockchain/).** La blockchain est un registre numérique des transactions qui est dupliqué et distribué à travers un réseau entier d'ordinateurs appelés [nœuds](/fr//dogepedia/articles/what-is-a-node/). Vous pourriez avoir plusieurs applications de portefeuille utilisant les mêmes clés privées, et vous seriez en mesure d'accéder à vos Dogecoin et de le dépenser à partir de chacune de ces applications.
 
-For more information about getting a wallet and the different types of wallets, check the article: [How do I get a wallet?](/dogepedia/articles/how-do-i-get-a-wallet/).
+Pour plus d'informations sur l'obtention d'un portefeuille et les différents types de portefeuilles, consultez l'article : [Comment puis-je obtenir un portefeuille ?](/fr/dogepedia/articles/how-do-i-get-a-wallet/).
 
 

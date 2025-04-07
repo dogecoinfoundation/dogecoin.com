@@ -1,5 +1,5 @@
 +++
-title = "Dogecoin and Privacy"
+title = "Dogecoin et la vie privée"
 date = "2021-10-22"
 type = "article"
 
@@ -7,8 +7,8 @@ type = "article"
   name = "Dogecoin"
 +++
 
-Privacy is an interesting topic, and one in which Dogecoin community members are actively involved. For starters, it’s worthwhile acknowledging that every transaction on the blockchain is public. That is, it’s possible for anyone to see any Dogecoin transaction that has ever been made if you have the public wallet address! This is why, if you wish to remain anonymous, it’s important not to claim any public address as yours. 
+La confidentialité est un sujet intéressant, dans lequel les membres de la communauté Dogecoin sont activement impliqués. Pour commencer, il convient de reconnaître que chaque transaction sur la blockchain est publique. En d'autres termes, il est possible pour n'importe qui de voir toutes les transactions Dogecoin qui ont été faites si vous avez l'adresse publique du portefeuille ! C'est pourquoi, si vous souhaitez rester anonyme, il est important de ne pas revendiquer une adresse publique comme étant la vôtre. 
 
-If you have a [hardware wallet](/dogepedia/articles/dogecoin-hardware-wallets), you can create new randomised public addresses for new transactions after the previous transaction has occurred. Some people prefer to do this for anonymity and privacy reasons, and you can even create several accounts under the same [seed phrase](/dogepedia/articles/how-to-backup-a-wallet) so that Dogecoin can be stored in different accounts according to their purpose (for example, account 1 for daily transactions, account 2 for charity, etc). 
+Si vous disposez d'un [portefeuille matériel](/fr/dogepedia/articles/dogecoin-hardware-wallets), vous pouvez créer de nouvelles adresses publiques aléatoires pour les nouvelles transactions après la transaction précédente. Certaines personnes préfèrent procéder ainsi pour des raisons d'anonymat et de confidentialité, et vous pouvez même créer plusieurs comptes sous la même [phrase secrète](/fr/dogepedia/articles/how-to-backup-a-wallet) afin que les Dogecoin puissent être stockés sur différents comptes en fonction de leur objectif (par exemple, le compte 1 pour les transactions quotidiennes, le compte 2 pour les œuvres de charité, etc.)
 
-Ultimately, though, it’s important to remember that the [blockchain](/dogepedia/articles/what-is-a-blockchain) is a **public** ledger, and it’s possible to see all Dogecoin transactions that have occurred over time. Moreover, even if public addresses aren’t directly associated with people or organisations, there may come a point in the future whereby computer scientists are able to de-anonymise public address and link them to their owner.
+En fin de compte, il est important de se rappeler que la [blockchain](/fr/dogepedia/articles/what-is-a-blockchain) est un grand livre **public**, et qu'il est possible de voir toutes les transactions Dogecoin qui ont eu lieu au fil du temps. De plus, même si les adresses publiques ne sont pas directement associées à des personnes ou à des organisations, il se peut qu'à l'avenir, les informaticiens soient capables de désanonymiser les adresses publiques et de les relier à leur propriétaire.

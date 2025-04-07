@@ -1,5 +1,5 @@
 +++
-title = "How do I backup a Dogecoin wallet?"
+title = "Comment sauvegarder un portefeuille Dogecoin ?"
 date = "2022-07-20"
 type = "article"
 
@@ -7,61 +7,61 @@ type = "article"
   name = "Dogecoin"
 +++
 
-A wallet is just a collection of *private keys* and *public keys*. 
+Un portefeuille est juste une collection de *clés privées* et de *clés publiques*. 
 
-Each one of the wallet’s private keys is a randomised 256-bit number unique to your wallet, and it is what you need to be able to access and spend your coins. Your public address - the address which other Dogecoin wallets can use to send Dogecoin to your wallet - is a hashed version of the public key associated with the private key.
+Chacune des clés privées du portefeuille est un nombre aléatoire de 256 bits unique à votre portefeuille, et c'est ce dont vous avez besoin pour pouvoir accéder à vos pièces et les dépenser. Votre adresse publique - l'adresse que les autres portefeuilles Dogecoin peuvent utiliser pour envoyer des Dogecoin à votre portefeuille - est une version hachée de la clé publique associée à la clé privée.
 
-Most Dogecoin holders use some kind of [*wallet application*](/dogepedia/articles/how-do-i-get-a-wallet), like Dogecoin Core, or devices like [*hardware wallets*](/dogepedia/articles/dogecoin-hardware-wallets/) to manage their wallets. Each of these might involve a different process to generate a backup. 
+La plupart des détenteurs de Dogecoin utilisent une sorte d'[*application de portefeuille*](/fr/dogepedia/articles/how-do-i-get-a-wallet), comme Dogecoin Core, ou des dispositifs comme les [*portefeuilles matériels*](/fr/dogepedia/articles/dogecoin-hardware-wallets/) pour gérer leurs portefeuilles. Chacun de ces dispositifs peut impliquer un processus différent pour générer une sauvegarde. 
 
-### Wallet Backups with Dogecoin Core
+### Sauvegarde des portefeuilles avec Dogecoin Core
 
-Dogecoin Core, Dogecoin's "reference implementation" and the software commonly used to run a Dogecoin node, is often used as a wallet application. In order to create a backup with Dogecoin Core, follow these steps:
+Dogecoin Core, la "mise en œuvre de référence" de Dogecoin et le logiciel généralement utilisé pour faire fonctionner un nœud Dogecoin, est souvent utilisé comme application de portefeuille. Afin de créer une sauvegarde avec Dogecoin Core, suivez ces étapes :
 
-- (Optional, but recommended) First, encrypt your wallet. To do so, go to Settings -> Encrypt wallet. You will be asked to enter a password. It is crucial that you store this password somewhere safe and that you never lose it. Without it, you would be unable to access the funds in your encrypted wallet. 
+- (Facultatif, mais recommandé) Tout d'abord, chiffrer votre portefeuille. Pour ce faire, allez dans Paramètres -> Chiffrer le portefeuille. Il vous sera demandé de saisir un mot de passe. Il est essentiel que vous conserviez ce mot de passe dans un endroit sûr et que vous ne le perdiez jamais. Sans lui, vous ne pourrez pas accéder aux fonds de votre portefeuille chiffré. 
 
-   On the other hand, this password adds an extra layer of security to your backup. Without it, even if an attacker gains access to your wallet file, they will still be unable to spend your Dogecoin, unless they succeed in brute forcing or guessing the encryption password.
-- Go to File -> Backup Wallet. This will generate a wallet.dat file, which stores a list of all the key pairs you have used. Restoring this file will give you access to your Dogecoin. Store it somewhere safe, in a device not connected to the internet.
+   D'autre part, ce mot de passe ajoute une couche supplémentaire de sécurité à votre sauvegarde. Sans lui, même si un attaquant accède à votre fichier portefeuille, il ne pourra pas dépenser vos Dogecoin, à moins qu'il ne réussisse à le forcer par force brute ou à deviner le mot de passe de chiffrement.
+- Allez dans Fichier -> Sauvegarde du portefeuille. Cela va générer un fichier wallet.dat, qui stocke une liste de toutes les paires de clés que vous avez utilisées. La restauration de ce fichier vous donnera accès à vos Dogecoin. Stockez-le dans un endroit sûr, dans un appareil non connecté à Internet.
 
-Whenever you generate a new public address with Dogecoin Core or you spend coins, it is recommended that you create a new backup, as the old wallet.dat files might not contain a copy of the private key associated with the new public address or with possible change addresses - thus, upon restoring the wallet, you might be missing part of your Dogecoin.
+Chaque fois que vous générez une nouvelle adresse publique avec Dogecoin Core ou que vous dépensez des pièces, il est recommandé de créer une nouvelle sauvegarde, car les anciens fichiers wallet.dat pourraient ne pas contenir une copie de la clé privée associée à la nouvelle adresse publique ou à d'éventuels changements d'adresse - ainsi, lors de la restauration du portefeuille, vous pourriez perdre une partie de vos Dogecoin.
 
-*Remember: whoever gains access to the wallet.dat file will be able to spend your Dogecoin*.
+*Rappellez-vous : quiconque obtient l'accès au fichier wallet.dat pourra dépenser vos Dogecoin*.
 
-#### Saving Private Keys and Public Keys in a Text File
-The wallet.dat file is not a plain-text file. It is a BDB (Berkeley Database). For this reason, it might be a good idea to create a plain text backup of your wallet, containing a list of all private and public keys currently in use by Dogecoin Core. In order to do so:
+#### Sauvegarde des clés privées et des clés publiques dans un fichier texte
+Le fichier wallet.dat n'est pas un fichier en texte clair. Il s'agit d'une BDB (Berkeley Database). Pour cette raison, il peut être utile de créer une sauvegarde en texte clair de votre portefeuille, contenant une liste de toutes les clés privées et publiques actuellement utilisées par Dogecoin Core. Pour ce faire :
 
-- Go to Help -> Debug Window
-- Select the Console tab
-- If your wallet is encrypted, temporarily decrypt it using the *walletpassphrase* command, specifying the amount of seconds after which the decrypted copy will be deleted.
+- Allez dans Aide -> Debug Window
+- Sélectionnez l'onglet Console
+- Si votre portefeuille est chiffré, déchiffrez-le temporairement à l'aide de la commande *walletpassphrase*, en spécifiant le nombre de secondes après lequel la copie déchiffrée sera supprimée.
   ```console
-    walletpassphrase "yourpasswordhere" 120
+    walletpassphrase "votremotdepasseici" 120
     ```
-    The console should return "null".
-- Dump your wallet in a file using the *dumpwallet* command and specifying the path to the file.
+    La console devrait renvoyer "null".
+- Videz votre portefeuille dans un fichier en utilisant la commande *dumpwallet* et en spécifiant le chemin du fichier.
 
-  For **Dogecoin Core versions older than 1.14.6**, the dumpwallet command allows you to specify a full path to the wallet file, like this:
+  Pour les versions de **Dogecoin Core antérieures à 1.14.6**, la commande dumpwallet vous permet de spécifier un chemin complet vers le fichier du portefeuille, comme ceci :
   ```console
     dumpwallet "/Users/Cheemz/BackupDirectory/mywallet.txt"
     ```
-    The console should return "null".
+    La console devrait renvoyer "null".
 
-  For **Dogecoin Core versions newer than 1.14.6**, the dumpwallet command allows you to specify only the name of the wallet file. The file will be generated in the directory specified with the -backupdir option. When -backupdir is not specified, Dogecoin Core will store the backup file in a directory called *backups* inside the default [*data directory*](/dogepedia/how-tos/operating-a-node/#data-directory):
+  Pour les versions de **Dogecoin Core plus récentes que 1.14.6**, la commande dumpwallet vous permet de spécifier uniquement le nom du fichier de portefeuille. Le fichier sera généré dans le répertoire spécifié avec l'option -backupdir. Lorsque -backupdir n'est pas spécifié, Dogecoin Core stockera le fichier de sauvegarde dans un répertoire appelé *backups* à l'intérieur du [*répertoire de données*](/fr/dogepedia/how-tos/operating-a-node/#data-directory) par défaut :
   ```console
     dumpwallet "mywallet.txt"
     ```
-    The console should return "null".
+    La console devrait renvoyer "null".
 
-- Optional: encrypt the wallet file. You can use your operating system's disk encryption options or a zip program allowing you to password-protect a file and encrypt it with a secure algorithm (AES256, for example). Make sure the password used for the encryption is impossible to forget or stored properly as well.
-- Copy the backup in multiple safe locations, NOT connected to the internet. 
+- Facultatif : chiffrer le fichier de portefeuille. Vous pouvez utiliser les options de chiffrement du disque de votre système d'exploitation ou un programme zip vous permettant de protéger un fichier par un mot de passe et de le chiffrer avec un algorithme sécurisé (AES256, par exemple). Assurez-vous également que le mot de passe utilisé pour le chiffrement est impossible à oublier ou qu'il est correctement stocké.
+- Copiez la sauvegarde dans plusieurs endroits sûrs, NON connectés à l'Internet. 
 
-*Remember: whoever gains access to the plain-text wallet file will be able to spend your Dogecoin*.
+*Rappelez-vous : quiconque obtient l'accès au fichier de portefeuille en clair pourra dépenser vos Dogecoin*.
 
-### Wallet Backups with Wallets Using Seed Phrases
+### Sauvegardes de portefeuilles avec des portefeuilles utilisant des phrases secrètes
 
-Many modern wallets rely on the use of a seed phrase. A seed phrases — also called “mnemonic phrase” or “mnemonic seed” — *usually* consists of a sequence of 12 or 24 words. Every seed phrase is unique and identifies a distinct wallet where a certain amount of Dogecoin might be stored. A seed phrase acts as a sort of master key which the wallet software uses to calculate all the private keys (and public addresses) needed to access and spend the Doge you are holding.
+De nombreux portefeuilles modernes reposent sur l'utilisation d'une phrase secrète. Une phrase secrète - également appelée "phrase mnémonique" ou "graine mnémonique" - consiste *généralement* en une séquence de 12 ou 24 mots. Chaque phrase secrète est unique et identifie un portefeuille distinct où une certaine quantité de Dogecoin peut être stockée. Une phrase de semence agit comme une sorte de clé maîtresse que le logiciel du portefeuille utilise pour calculer toutes les clés privées (et les adresses publiques) nécessaires pour accéder aux Dogecoin que vous détenez et les dépenser.
 
-It is crucial that you backup your seed phrase and that you store it in multiple secure locations, where nobody but you can access it. Anyone who knows your seed phrase will have full access to your Dogecoin. This is why you should never, under any circumstance, share your seed phrase or private key with anyone that you do not trust. 
+Il est essentiel que vous sauvegardiez votre phrase secrète et que vous la stockiez dans plusieurs endroits sécurisés, où personne d'autre que vous ne peut y accéder. Toute personne connaissant votre phrase de démarrage aura un accès complet à vos Dogecoin. C'est pourquoi vous ne devez en aucun cas partager votre phrase de démarrage ou votre clé privée avec une personne en qui vous n'avez pas confiance. 
 
-**Remember**: 
-- **It is always more secure to ensure that your seed phrase or private keys are stored on a device that is NOT connected to the internet.** [*Hardware wallets*](/dogepedia/articles/dogecoin-hardware-wallets/) offer a way to store your coins safely while also being able to access them easily, if needed.
-- Your wallet’s private keys (or seed phrase) grant the holder access to your Dogecoin – no matter what wallet you use.
-- Dogecoin transactions are permanent, so there would be no way to recover any Dogecoin that an attacker has stolen from your wallet.
+**Rappelez-vous** : 
+- **Il est toujours plus sûr de s'assurer que votre phrase d'amorçage ou vos clés privées sont stockées sur un appareil qui n'est PAS connecté à l'Internet.** Les [*portefeuilles matériels*](/fr/dogepedia/articles/dogecoin-hardware-wallets/) offrent un moyen de stocker vos pièces en toute sécurité tout en pouvant y accéder facilement, si nécessaire.
+- Les clés privées de votre portefeuille (ou phrases secrètes) permettent au détenteur d'accéder à vos Dogecoin, quel que soit le portefeuille que vous utilisez.
+- Les transactions en Dogecoin sont permanentes, il n'y a donc aucun moyen de récupérer les Dogecoin qu'un attaquant a volés dans votre portefeuille.

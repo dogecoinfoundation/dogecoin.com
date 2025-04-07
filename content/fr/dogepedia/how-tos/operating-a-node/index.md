@@ -1,64 +1,64 @@
 +++
-title = "Operate a Dogecoin Node"
+title = "Exploiter un nœud Dogecoin"
 date = "2022-01-22"
 [ author ]
   name = "Dogecoin"
 +++
 
-The Dogecoin network is a peer-to-peer payment network consisting of thousands of computers called [**nodes**](/dogepedia/articles/what-is-a-node/). Each of these nodes is running specialized software. **Dogecoin Core**, Dogecoin's *reference implementation*, is the software more commonly used to run a Dogecoin node. It can be downloaded from the official [**Dogecoin.com**](https://dogecoin.com/) website and directly from the [**Github repository**](https://github.com/dogecoin/dogecoin/releases).
+Le réseau Dogecoin est un réseau de paiement peer-to-peer composé de milliers d'ordinateurs appelés [**nœuds**](/fr/dogepedia/articles/what-is-a-node/). Chacun de ces nœuds exécute un logiciel spécialisé. **Dogecoin Core**, l'*implémentation de référence* de Dogecoin, est le logiciel le plus couramment utilisé pour faire fonctionner un nœud Dogecoin. Il peut être téléchargé depuis le site officiel [**Dogecoin.com**](https://dogecoin.com/) et directement depuis le [**Dépôt Github**](https://github.com/dogecoin/dogecoin/releases).
 
-Running a [**full node**](/dogepedia/articles/what-is-a-node/#full-nodes) is a service that volunteers in the network, called *node operators*, provide to the Dogecoin community. Unlike what happens when mining, operating a node does not lead to direct incentives or rewards, but it makes the Dogecoin network more resilient, thus contributing to utility and adoption. 
+L'exploitation d'un [**nœud complet**](/fr/dogepedia/articles/what-is-a-node/#full-nodes) est un service que des volontaires du réseau, appelés *opérateurs de nœuds*, fournissent à la communauté Dogecoin. Contrairement à ce qui se passe lors du minage, l'exploitation d'un nœud n'entraîne pas d'incitations ou de récompenses directes, mais elle rend le réseau Dogecoin plus résilient, contribuant ainsi à son utilité et à son adoption. 
 
-A full node running on a machine with enough disk space and bandwidth will help to:
+Un nœud complet fonctionnant sur une machine disposant d'un espace disque et d'une bande passante suffisants contribuera à :
 
-- Protect against censorship
-- Protect against network denial of service (DoS) attacks
-- Provide redundancy to the network by providing more bandwidth, which could be critical during spikes in activity
-- [Establish a baseline for fees and dust limits through setting relay policies](/dogepedia/how-tos/operating-a-node/#minrelaytxfee) (since Dogecoin Core v1.14.4)
+- Protéger contre la censure
+- Protéger contre les attaques par déni de service (DoS) du réseau
+- Assurer la redondance du réseau en fournissant une plus grande largeur de bande, ce qui peut s'avérer crucial lors des pics d'activité
+- [Établir une base pour les frais et les limites de poussière en définissant des politiques de relais](/fr/dogepedia/how-tos/operating-a-node/#minrelaytxfee) (depuis Dogecoin Core v1.14.4)
 
-You can read more about the Dogecoin blockchain and nodes in these Dogepedia articles:
+Vous pouvez en savoir plus sur la blockchain et les nœuds de Dogecoin dans ces articles de Dogepedia :
 
-- [**What is a blockchain?**](/dogepedia/articles/what-is-a-blockchain/)
-- [**What is a node?**](/dogepedia/articles/what-is-a-node/)
+- [**Qu'est-ce qu'une blockchain?**](/fr/dogepedia/articles/what-is-a-blockchain/)
+- [**Qu'est-ce qu'un nœud?**](/fr/dogepedia/articles/what-is-a-node/)
 
-Since Dogecoin Core 1.14.4, the community has made major efforts to provide a more up-to-date documentation for node operators. The documentation, useful also for advanced users and those planning to build a package for their specific operating system, is included in the Dogecoin Core repository available on Github. You can read it also online [here](https://github.com/dogecoin/dogecoin/tree/master/doc).
+Depuis Dogecoin Core 1.14.4, la communauté a fait des efforts importants pour fournir une documentation plus à jour pour les opérateurs de nœuds. La documentation, utile également pour les utilisateurs avancés et ceux qui prévoient de construire un paquet pour leur système d'exploitation spécifique, est incluse dans le dépôt Dogecoin Core disponible sur Github. Vous pouvez également la lire en ligne [ici](https://github.com/dogecoin/dogecoin/tree/master/doc).
 
-## Summary
+## Sommaire
 
-- [Minimum Requirements](/dogepedia/how-tos/operating-a-node/#minimum-requirements)
-- [Data Directory](/dogepedia/how-tos/operating-a-node/#data-directory)
-- [Disclaimer: Security](/dogepedia/how-tos/operating-a-node/#security)
-- [Deploying a Node](/dogepedia/how-tos/operating-a-node/#generic-instructions)
-    - [Building from Source](/dogepedia/how-tos/operating-a-node/#dogecoin-core-build)
-    - [Windows](/dogepedia/how-tos/operating-a-node/#windows-instructions)
-    - [macOS](/dogepedia/how-tos/operating-a-node/#macos-instructions)
-    - [Linux](/dogepedia/how-tos/operating-a-node/#linux-instructions)
-- [Upgrading Dogecoin Core](/dogepedia/how-tos/operating-a-node/#generic-upgrade-instructions)
-- [Network Configuration](/dogepedia/how-tos/operating-a-node/#network-configuration)
-- [Advanced Configuration](/dogepedia/how-tos/operating-a-node/#advanced-configuration)
-- [Dogecoin CLI](/dogepedia/how-tos/operating-a-node/#dogecoin-cli)
-- [Help & Support](/dogepedia/how-tos/operating-a-node/#finding-help)
-
-<hr />
-
-## Minimum Requirements {#minimum-requirements}
-Running a node is not as complicated as mining Dogecoin, as it does not involve specialized hardware and it does not consume nearly as much electricity. In fact, if you already have a computer turned on 24/24 and an unmetered Internet connection, running a node can be done in the background. The requirements for running a node are:
-
-- Currently, at least 60GB of HD space, possibly on a fast drive, for storing a full copy of the blockchain. You will need more disk space as the blockchain grows, so starting with a larger disk is a good idea. 
-- 2GB of RAM.
-- Unmetered Internet connection or at least an internet connection that allows a significant amount of outbound traffic. On an average month, a popular node can consume up to 1TB of data transfer. This increases significantly during periods of high activity in the network.
-- A multi-core CPU is recommended if you plan to work/use the computer while the node is running.
-- If you want to provide a valuable service to the network, it is important that the node can stay online for a long period of time - ideally, the node should be running continuously, 24/24.
-
-Many node operators use VPS services for hosting their Dogecoin nodes. Given enough HD space, a modern multi-core CPU, and enough outbound data transfer it is possible to host a website on the same server where a node is running.
+- [Exigences minimales](/fr/dogepedia/how-tos/operating-a-node/#minimum-requirements)
+- [Répertoire de données](/fr/dogepedia/how-tos/operating-a-node/#data-directory)
+- [Avis de non-responsabilité : Sécurité](/fr/dogepedia/how-tos/operating-a-node/#security)
+- [Déploiement d'un nœud](/fr/dogepedia/how-tos/operating-a-node/#generic-instructions)
+    - [Construire à partir de la source](/fr/dogepedia/how-tos/operating-a-node/#dogecoin-core-build)
+    - [Windows](/fr/dogepedia/how-tos/operating-a-node/#windows-instructions)
+    - [macOS](/fr/dogepedia/how-tos/operating-a-node/#macos-instructions)
+    - [Linux](/fr/dogepedia/how-tos/operating-a-node/#linux-instructions)
+- [Mise à jour de Dogecoin Core](/fr/dogepedia/how-tos/operating-a-node/#generic-upgrade-instructions)
+- [Configuration du réseau](/fr/dogepedia/how-tos/operating-a-node/#network-configuration)
+- [Configuration avancée](/fr/dogepedia/how-tos/operating-a-node/#advanced-configuration)
+- [Dogecoin CLI](/fr/dogepedia/how-tos/operating-a-node/#dogecoin-cli)
+- [Aide et soutien](/fr/dogepedia/how-tos/operating-a-node/#finding-help)
 
 <hr />
 
-## Data Directory {#data-directory}
+## Exigences minimales {#minimum-requirements}
+Faire fonctionner un nœud n'est pas aussi compliqué que de miner du Dogecoin, car cela n'implique pas de matériel spécialisé et ne consomme pas autant d'électricité. En fait, si vous disposez déjà d'un ordinateur allumé 24 heures sur 24 et d'une connexion Internet sans compteur, l'exécution d'un nœud peut se faire en arrière-plan. Les conditions requises pour faire fonctionner un nœud sont les suivantes :
 
-The data directory is the location where the blockchain files, alongside log files and wallet files, are stored. You should make sure that this directory is located on a drive with enough disk space. The location of this directory can be changed by using the -datadir= argument when starting your Dogecoin node or using the same setting in the [dogecoin.conf file](/dogepedia/how-tos/operating-a-node/#advanced-configuration).
+- Actuellement, au moins 60 Go d'espace disque, éventuellement sur un disque rapide, pour stocker une copie complète de la blockchain. Vous aurez besoin de plus d'espace disque au fur et à mesure que la blockchain se développe, donc commencer avec un disque plus grand est une bonne idée. 
+- 2 GO de RAM.
+- Une Connexion Internet non mesurée ou, au moins, une connexion Internet qui autorise une quantité importante de trafic sortant. Au cours d'un mois moyen, un nœud populaire peut consommer jusqu'à 1 To de transfert de données. Cette consommation augmente considérablement pendant les périodes de forte activité sur le réseau.
+- Un processeur multi-core est recommandé si vous prévoyez de travailler/utiliser l'ordinateur pendant que le nœud fonctionne.
+- Si vous voulez fournir un service précieux au réseau, il est important que le nœud puisse rester en ligne pendant une longue période - idéalement, le nœud devrait fonctionner en continu, 24/24.
 
-This is the default location of the Dogecoin Core Data Directory:
+De nombreux opérateurs de nœuds utilisent des services VPS pour héberger leurs nœuds Dogecoin. Si l'on dispose de suffisamment d'espace HD, d'un processeur multi-core moderne et d'un transfert de données sortant suffisant, il est possible d'héberger un site Web sur le même serveur que celui où fonctionne le nœud.
+
+<hr />
+
+## Répertoire de données {#data-directory}
+
+Le répertoire de données est l'emplacement où sont stockés les fichiers de la blockchain, ainsi que les fichiers journaux et les fichiers de portefeuille. Vous devez vous assurer que ce répertoire est situé sur un lecteur disposant d'un espace disque suffisant. L'emplacement de ce répertoire peut être modifié en utilisant l'argument -datadir= lors du démarrage de votre nœud Dogecoin ou en utilisant le même paramètre dans le [fichier dogecoin.conf](/fr/dogepedia/how-tos/operating-a-node/#advanced-configuration).
+
+Il s'agit de l'emplacement par défaut du répertoire des données de base de Dogecoin :
 
 Platform | Data directory path
 ---------|--------------------
@@ -68,179 +68,179 @@ Windows  | `%APPDATA%\Dogecoin`
 
 <hr />
 
-## Disclaimer: Security {#security}
-This guide is focused on providing instructions for running a node for supporting the Dogecoin network. 
+## Avis de non-responsabilité : Sécurité {#security}
+Ce guide se concentre sur la fourniture d'instructions pour le fonctionnement d'un nœud de support du réseau Dogecoin. 
 
-Running a full node can be also useful for businesses or service providers. In these cases, additional precautions might be needed concerning the security of the machine where the node is running. This is not covered in this article and might require an experienced system administrator.
+L'exécution d'un nœud complet peut également être utile pour les entreprises ou les fournisseurs de services. Dans ces cas, des précautions supplémentaires peuvent être nécessaires concernant la sécurité de la machine où le nœud est exécuté. Ce point n'est pas abordé dans cet article et peut nécessiter un administrateur système expérimenté.
 
-In general, running a node is not inherently different or less safe than running any other peer-to-peer service on your computer, as long as you keep your Dogecoin Core software updated. Anyhow, the node is a public service: unless you are running it behind some proxy system, your IP, and thus your location, will be broadcasted to the outside world. For this reason, it is often recommended NOT to use the node for holding large amounts of Dogecoin (in fact, Dogecoin Core can be used also as a wallet application). For that, it is recommended you rely on a cold wallet solution, such as a [*hardware wallet*](/dogepedia/articles/dogecoin-hardware-wallets/).
+En général, l'exécution d'un nœud n'est pas intrinsèquement différente ou moins sûre que l'exécution de tout autre service pair-à-pair sur votre ordinateur, tant que vous maintenez votre logiciel Dogecoin Core à jour. Quoi qu'il en soit, le nœud est un service public : à moins que vous ne l'exécutiez derrière un système de proxy, votre IP, et donc votre emplacement, seront diffusés au monde extérieur. Pour cette raison, il est souvent recommandé de NE PAS utiliser le nœud pour détenir de grandes quantités de Dogecoin (en fait, Dogecoin Core peut également être utilisé comme une application de portefeuille). Pour cela, il est recommandé de s'appuyer sur une solution de portefeuille froid, comme un [*portefeuille matériel*](/fr/dogepedia/articles/dogecoin-hardware-wallets/).
 
 <hr />
 
-## Deploying a Node {#generic-instructions}
-Installing a node is extremely easy - basically, it is just like installing any other application, provided that your machine meets the requirements listed above. 
+## Déploiement d'un nœud {#generic-instructions}
+L'installation d'un nœud est extrêmement facile - en gros, c'est comme l'installation de toute autre application, à condition que votre machine réponde aux exigences énumérées ci-dessus. 
 
-This is the process for all platforms:
+Ce processus s'applique à toutes les plateformes :
 
-- Download Dogecoin Core from the official [**Dogecoin.com website**](https://dogecoin.com/) or from the [**Dogecoin Github repository**](https://github.com/dogecoin/dogecoin/releases). Pick the version for your specific Operating System. At the time of this writing, the Github repository includes builds for Windows, macOS, and Linux machines. Other specialized builds are available and maintained by Dogecoin contributors.
-- Install Dogecoin Core as you would install any other application.
-- Start Dogecoin Core (Daemon or GUI version).
-- Wait for Dogecoin Core to synch with the network: the first time you start Dogecoin Core, this might take more than 24 hours, depending on the conditions of the network and on your internet connection. Patience!
-- In most cases, you might need to open up port 22556 in your router/firewall to enable incoming connections.
+- Téléchargez Dogecoin Core depuis le site officiel [**Dogecoin.com**](https://dogecoin.com/) ou depuis le [**Dogecoin Github repository**](https://github.com/dogecoin/dogecoin/releases). Choisissez la version correspondant à votre système d'exploitation. Au moment de la rédaction de ce document, le dépôt Github comprend des versions pour les machines Windows, macOS et Linux. D'autres versions spécialisées sont disponibles et maintenues par les contributeurs de Dogecoin.
+- Installez Dogecoin Core comme vous le feriez pour toute autre application.
+- Démarrez Dogecoin Core (version Daemon ou GUI).
+- Attendez que Dogecoin Core se synchronise avec le réseau : la première fois que vous démarrez Dogecoin Core, cela peut prendre plus de 24 heures, en fonction des conditions du réseau et de votre connexion Internet. Patience !
+- Dans la plupart des cas, vous devrez peut-être ouvrir le port 22556 dans votre routeur/pare-feu pour permettre les connexions entrantes.
 
-### Building Dogecoin Core From Source {#dogecoin-core-build}
-The community provides pre-built packages for the most popular operating systems and distributions, with new ones being added regularly. Anyhow, the official documentation coming with Dogecoin Core includes building instructions for several operating systems, including several Linux distributions, which are helpful for all users that need or want to build Dogecoin Core from source.
+### Construire Dogecoin Core à partir des sources {#dogecoin-core-build}
+La communauté fournit des paquets préconstruits pour les systèmes d'exploitation et les distributions les plus populaires, et de nouveaux paquets sont ajoutés régulièrement. Quoi qu'il en soit, la documentation officielle fournie avec Dogecoin Core comprend des instructions de construction pour plusieurs systèmes d'exploitation, y compris plusieurs distributions Linux, qui sont utiles pour tous les utilisateurs qui doivent ou veulent construire Dogecoin Core à partir des sources.
 
-Build instructions can be found [here](https://github.com/dogecoin/dogecoin/tree/master/doc).
+Les instructions de construction sont disponibles [ici](https://github.com/dogecoin/dogecoin/tree/master/doc).
 
-### Windows Instructions {#windows-instructions}
-- After you have downloaded the Dogecoin Core version for Windows, go to your Downloads folder and run the installer by double-clicking on the icon.
-- Windows will ask you to confirm. Click Yes.
-- You might receive a warning from your antivirus software concerning malware contained within Dogecoin Core. As long as you have downloaded it from the official Dogecoin.com website or from the Github repository, there is no risk in installing Dogecoin Core - the warning is a false positive. Whitelist Dogecoin Core in the antivirus control panel, then try installing it again.
-- After the installation, Dogecoin Core should be in your Start menu. Click on the icon, and Dogecoin Core will open.
-- If everything went fine, Dogecoin Core will start downloading a copy of the blockchain. This might take more than 24 hours - in some cases, days.
-- To support the Dogecoin network, you need to allow incoming connections by opening port 22556 in your firewall and your router. Go to the [**Network Configuration**](/dogepedia/how-tos/operating-a-node/#network-configuration) section for instructions to do so.
+### Instructions pour Windows {#windows-instructions}
+- Après avoir téléchargé la version Dogecoin Core pour Windows, allez dans votre dossier de téléchargement et exécutez le programme d'installation en double-cliquant sur l'icône.
+- Windows vous demandera de confirmer. Cliquez sur Oui.
+- Il est possible que vous receviez un avertissement de votre logiciel antivirus concernant un malware contenu dans Dogecoin Core. Si vous l'avez téléchargé à partir du site officiel Dogecoin.com ou du dépôt Github, il n'y a aucun risque à installer Dogecoin Core - l'avertissement est un faux positif. Mettez Dogecoin Core sur une liste blanche dans le panneau de contrôle de l'antivirus, puis essayez de l'installer à nouveau.
+- Après l'installation, Dogecoin Core devrait se trouver dans votre menu Démarrer. Cliquez sur l'icône, et Dogecoin Core s'ouvrira.
+- Si tout s'est bien passé, Dogecoin Core commencera à télécharger une copie de la blockchain. Cela peut prendre plus de 24 heures, voire plusieurs jours dans certains cas.
+- Pour soutenir le réseau Dogecoin, vous devez autoriser les connexions entrantes en ouvrant le port 22556 dans votre pare-feu et votre routeur. Consultez la section [**Configuration du réseau**](/fr/dogepedia/how-tos/operating-a-node/#network-configuration) pour obtenir des instructions à ce sujet.
 
-After the initial blockchain download is complete and you have enabled incoming connections, Dogecoin Core is ready to operate as a full node in the network. Anyhow, you might still want to change a couple of settings.
+Une fois que le téléchargement initial de la blockchain est terminé et que vous avez activé les connexions entrantes, Dogecoin Core est prêt à fonctionner comme un nœud à part entière du réseau. Quoi qu'il en soit, vous voudrez peut-être encore modifier quelques paramètres.
 
-- Make sure that incoming connections are enabled in your Dogecoin Core. Go to Settings -> Options. In the Network tab, the "Allow Incoming Connections" option must be checked.
-   {{< figure src="windows-network-options.png" alt="Dogecoin Core Installation on Windows - Network options" >}}
-- If you want to let Dogecoin Core start automatically when you start your machine, go to Settings -> Options. In the Main tab, enable the "Start Dogecoin Core on system login" option.
-{{< figure src="windows-enable-startup.png" alt="Dogecoin Core Installation on Windows - Start on system login" >}}
-- If you want to change the language of the interface, go to Settings -> Options. In the Display tab, you will be able to switch to one of the languages currently supported by Dogecoin Core.
-{{< figure src="windows-display-options.png" alt="Dogecoin Core Installation on Windows - Change language" >}}
+- Assurez-vous que les connexions entrantes sont activées dans votre Dogecoin Core. Allez dans Paramètres -> Options. Dans l'onglet Réseau, l'option "Autoriser les connexions entrantes" doit être cochée.
+   {{< figure src="windows-network-options.png" alt="Installation de Dogecoin Core sous Windows - Options réseau" >}}
+- Si vous voulez laisser Dogecoin Core démarrer automatiquement lorsque vous démarrez votre machine, allez dans Paramètres -> Options. Dans l'onglet Principal, activez l'option "Démarrer Dogecoin Core à la connexion du système".
+{{< figure src="windows-enable-startup.png" alt="Installation de Dogecoin Core sous Windows - Démarrage à la connexion du système" >}}
+- Si vous voulez changer la langue de l'interface, allez dans Paramètres -> Options. Dans l'onglet Affichage, vous pourrez passer à l'une des langues actuellement prises en charge par Dogecoin Core.
+{{< figure src="windows-display-options.png" alt="Installation de Dogecoin Core sous Windows - Changer de langue" >}}
 
-Additional configuration settings can be found in the [**Advanced Configuration**](/dogepedia/how-tos/operating-a-node/#advanced-configuration) section.
+Des paramètres de configuration supplémentaires sont disponibles dans la section [**Configuration avancée**](/fr/dogepedia/how-tos/operating-a-node/#advanced-configuration).
 
-#### Dogecoin CLI on Windows {#windows-cli-instructions}
-Developers and anybody that does not need to use the GUI (Graphical User Interface) version of Dogecoin can instead use the Dogecoin Core Daemon.
+#### Dogecoin CLI sur Windows {#windows-cli-instructions}
+Les développeurs et tous ceux qui n'ont pas besoin d'utiliser la version GUI (Graphical User Interface) de Dogecoin peuvent utiliser le Dogecoin Core Daemon.
 
-- Open the Start Menu, then type "cmd" and click on the Command Prompt icon
-- In the Command Prompt window, type the following command to start the daemon:
+- Ouvrez le menu Démarrer, puis tapez "cmd" et cliquez sur l'icône de l'invite de commande.
+- Dans la fenêtre d'invite de commande, tapez la commande suivante pour démarrer le démon :
     ```console
     C:\Users\shibetoshi> cd "C:\Program Files\Dogecoin\daemon\"
     C:\Program Files\Dogecoin\daemon> dogecoind -daemon    
     ```
-    You will need to adjust the path if you have not installed Dogecoin in the default installation path. 
-- The Dogecoin Core Daemon is now starting. You can now access Dogecoin Core's JSON-RPC interface using the Dogecoin CLI (Command Line Interface), which, in a default Windows installation is available here:
+    Vous devrez ajuster le chemin si vous n'avez pas installé Dogecoin dans le chemin d'installation par défaut. 
+- Le Daemon Dogecoin Core démarre maintenant. Vous pouvez maintenant accéder à l'interface JSON-RPC de Dogecoin Core en utilisant la CLI (Command Line Interface) de Dogecoin, qui, dans une installation Windows par défaut, est disponible ici :
     ```console
     C:\Program Files\Dogecoin\daemon> dogecoin-cli
     ```
-- Use the help command for a list of all available commands:
+- Utilisez la commande help pour obtenir la liste de toutes les commandes disponibles :
     ```console
     C:\Program Files\Dogecoin\daemon> dogecoin-cli help
     ```
-- To get help on a specific command:
+- Pour obtenir de l'aide sur une commande spécifique :
     ```console
     C:\Program Files\Dogecoin\daemon> dogecoin-cli help getblock 
     ```
 
-For more information on using Dogecoin CLI refer to the [**Dogecoin CLI**](/dogepedia/how-tos/operating-a-node/#dogecoin-cli) section.
+Pour plus d'informations sur l'utilisation de Dogecoin CLI, consultez la section [**Dogecoin CLI**](/fr/dogepedia/how-tos/operating-a-node/#dogecoin-cli).
 
-### macOS Instructions {#macos-instructions}
-- After you have downloaded the Dogecoin Core version for Mac OSX, go to your Downloads folder and double-click the icon.
-- You will be shown a window allowing you to drag Dogecoin Core into the Applications folder. Do so to complete the installation.
-- Go to your Applications folder and launch Dogecoin Core.
-- If everything went fine, Dogecoin Core will start downloading a copy of the blockchain. This might take more than 24 hours - in some cases, days.
-- To support the Dogecoin network, you need to allow incoming connections by opening port 22556 in your firewall and your router. Go to the [**Network Configuration**](/dogepedia/how-tos/operating-a-node/#network-configuration) section for instructions to do so.
+### Instructions pour macOS {#macos-instructions}
+- Après avoir téléchargé la version Dogecoin Core pour Mac OSX, allez dans votre dossier Téléchargements et double-cliquez sur l'icône.
+- Vous verrez apparaître une fenêtre vous permettant de faire glisser Dogecoin Core dans le dossier Applications. Faites-le pour terminer l'installation.
+- Allez dans votre dossier Applications et lancez Dogecoin Core.
+- Si tout s'est bien passé, Dogecoin Core commencera à télécharger une copie de la blockchain. Cela peut prendre plus de 24 heures, voire plusieurs jours dans certains cas.
+- Pour prendre en charge le réseau Dogecoin, vous devez autoriser les connexions entrantes en ouvrant le port 22556 dans votre pare-feu et votre routeur. Consultez la section [**Configuration du réseau**](/fr/dogepedia/how-tos/operating-a-node/#network-configuration) pour obtenir des instructions à ce sujet.
 
-After the initial blockchain download is complete and you have enabled incoming connections, Dogecoin Core is ready to operate as a full node in the network. Anyhow, you might still want to change a couple of settings.
+Une fois que le téléchargement initial de la blockchain est terminé et que vous avez activé les connexions entrantes, Dogecoin Core est prêt à fonctionner comme un nœud complet dans le réseau. Quoi qu'il en soit, vous voudrez peut-être encore modifier quelques paramètres.
 
-- Make sure that incoming connections are enabled in your Dogecoin Core. Go to Dogecoin Core -> Preferences. In the Network tab, the "Allow Incoming Connections" option must be checked.
-   {{< figure src="macosx-network-options.png" alt="Dogecoin Core Installation on macOS - Network options" >}}
-- If you want to let Dogecoin Core start automatically when you start your machine, go to Dogecoin Core -> Preferences. In the Main tab, enable the "Start Dogecoin Core on system login" option.
-   {{< figure src="macosx-enable-startup.png" alt="Dogecoin Core Installation on macOS - Start on system login" >}}
-- If you want to change the language of the interface, go to Dogecoin Core -> Preferences. In the Display tab, you will be able to switch to one of the languages currently supported by Dogecoin Core.
-   {{< figure src="macosx-display-options.png" alt="Dogecoin Core Installation on macOS - Change language" >}}
+- Assurez-vous que les connexions entrantes sont activées dans votre Dogecoin Core. Allez dans Dogecoin Core -> Préférences. Dans l'onglet Réseau, l'option "Autoriser les connexions entrantes" doit être cochée.
+   {{< figure src="macosx-network-options.png" alt="Installation de Dogecoin Core sur macOS - Options du réseau" >}}
+- Si vous voulez laisser Dogecoin Core démarrer automatiquement lorsque vous démarrez votre machine, allez dans Dogecoin Core -> Préférences. Dans l'onglet Principal, activez l'option "Démarrer Dogecoin Core à la connexion du système".
+   {{< figure src="macosx-enable-startup.png" alt="Installation de Dogecoin Core sur macOS - Démarrer à la connexion du système" >}}
+- Si vous voulez changer la langue de l'interface, allez dans Dogecoin Core -> Préférences. Dans l'onglet Affichage, vous pourrez passer à l'une des langues actuellement prises en charge par Dogecoin Core.
+   {{< figure src="macosx-display-options.png" alt="Installation de Dogecoin Core sur macOS - Changer de langue" >}}
 
 
-### Linux Instructions {#linux-instructions}
+### Instructions pour Linux {#linux-instructions}
 
-Running Dogecoin Core node on a Linux machine is relatively straightforward. VPS plans work very well for running a headless node as they usually come with fast and reliable network connections, but make sure the plan you have selected includes enough data transfer per month and at least 60GB of disk space, as specified in the [minimum requirements section](/dogepedia/how-tos/operating-a-node/#minimum-requirements). Ideally, you should execute the following commands as a non-root Linux user - refer to your Linux distribution's manual in case you are not an experienced server administrator.
+L'exécution du nœud Dogecoin Core sur une machine Linux est relativement simple. Les plans VPS fonctionnent très bien pour l'exécution d'un nœud sans tête car ils sont généralement fournis avec des connexions réseau rapides et fiables, mais assurez-vous que le plan que vous avez choisi comprend suffisamment de transfert de données par mois et au moins 60 Go d'espace disque, comme spécifié dans la [section des exigences minimales](/fr/dogepedia/how-tos/operating-a-node/#minimum-requirements). Idéalement, vous devriez exécuter les commandes suivantes en tant qu'utilisateur Linux non root - consultez le manuel de votre distribution Linux si vous n'êtes pas un administrateur de serveur expérimenté.
 
-- Download the latest Linux build from the [**Dogecoin Github repository**](https://github.com/dogecoin/dogecoin/releases):
+- Téléchargez la dernière version Linux depuis le [**Dogecoin Github repository**].(https://github.com/dogecoin/dogecoin/releases):
     ```console
     shibetoshi:~$ wget https://github.com/dogecoin/dogecoin/releases/download/v1.14.6/dogecoin-1.14.6-x86_64-linux-gnu.tar.gz
     ```
-- Untar and unzip the package you just downloaded
+- Untar et unzip le paquet que vous venez de télécharger
     ```console
     shibetoshi:~$ tar -xvzf dogecoin-1.14.6-x86_64-linux-gnu.tar.gz
     ```
-- Enter into the bin directory inside the directory where Dogecoin Core has been untarred:
+- Entrez dans le répertoire bin à l'intérieur du répertoire où Dogecoin Core a été untarred :
     ```console
     shibetoshi:~$ cd dogecoin-1.14.6/bin
     ```
-- Start the headless Dogecoin Daemon process:
+- Démarrer le processus headless Dogecoin Daemon :
     ```console
     shibetoshi:~$ dogecoind -daemon
     ```
-- If you prefer and this is not a remote installation, you can instead use the GUI version of Dogecoin Core:
+- Si vous préférez et qu'il ne s'agisse pas d'une installation à distance, vous pouvez utiliser la version GUI de Dogecoin Core :
     ```console
     shibetoshi:~$ dogecoin-qt
     ```
-- The Dogecoin Daemon is now starting.
-- You can now use the dogecoin-cli tool to interact with Dogecoin Core's JSON-RPC interface. Use the help command for a list of all available commands.
+- Le Daemon Dogecoin est maintenant en marche.
+- Vous pouvez maintenant utiliser l'outil dogecoin-cli pour interagir avec l'interface JSON-RPC de Dogecoin Core. Utilisez la commande help pour obtenir une liste de toutes les commandes disponibles.
     ```console
     shibetoshi:~$ dogecoin-cli help
     ```
-- To get help on a specific command:
+- Pour obtenir de l'aide sur une commande spécifique :
     ```console
     shibetoshi:~ dogecoin-cli help getblock 
     ```
-- You can follow the synching process by reading the contents of the debug.log file contained in the data directory. Go into the [data directory](/dogepedia/how-tos/operating-a-node/#data-directory), and type the following command:
+- Vous pouvez suivre le processus de synchronisation en lisant le contenu du fichier debug.log contenu dans le répertoire de données. Allez dans le [répertoire de données](/fr/dogepedia/how-tos/operating-a-node/#data-directory), et tapez la commande suivante :
     ```console
     shibetoshi:~$ tail -f debug.log
     ```
-- In most setups, you can stop "listening" to the output of the debug.log file by pressing CTRL+C
+- Dans la plupart des configurations, vous pouvez arrêter d'"écouter" la sortie du fichier debug.log en appuyant sur CTRL+C.
 
-For more information on using Dogecoin CLI refer to the [**Dogecoin CLI**](/dogepedia/how-tos/operating-a-node/#dogecoin-cli) section. Additional configuration settings can be found in the [**Advanced Configuration**](/dogepedia/how-tos/operating-a-node/#advanced-configuration) section. For example, if you are not using Dogecoin Core as a wallet, it might be a good idea to disable the wallet functionality altogether.
-
-<hr />
-
-## Upgrading Dogecoin Core {#generic-upgrade-instructions}
-Once you have installed and configured it, upgrading from a recent Dogecoin Core release is usually as easy as upgrading any other application.
-
-- If you are using Core as a wallet, [make a backup](/dogepedia/articles/how-to-backup-a-wallet/) of your wallet files. It is recommend you make also a plain text backup, especially if you are running an older version of Dogecoin Core. Store it somewhere safe - whoever has access to the backups has access to your wallet.
-- Shut down your Dogecoin Core. This can be done by either closing the Dogecoin Core GUI application and waiting for it to complete the shutdown process, or, for CLI users, by issuing the *dogecoin-cli stop* command via shell. More info for CLI users is available [here](#dogecoin-cli).
-- Once done, follow the installation instructions above for your current OS.
+Pour plus d'informations sur l'utilisation de Dogecoin CLI, consultez la section [**Dogecoin CLI**](/fr/dogepedia/how-tos/operating-a-node/#dogecoin-cli). Des paramètres de configuration supplémentaires peuvent être trouvés dans la section [**Configuration avancée**](/fr/dogepedia/how-tos/operating-a-node/#advanced-configuration). Par exemple, si vous n'utilisez pas Dogecoin Core comme portefeuille, il peut être judicieux de désactiver complètement la fonctionnalité de portefeuille.
 
 <hr />
 
-## Network Configuration {#network-configuration}
-By default, in most setups, your Dogecoin Core node might be able to establish only outbound connections. To support the Dogecoin network, you must allow inbound connections through port 22556.
+## Mise à jour de Dogecoin Core {#generic-upgrade-instructions}
+Une fois que vous l'avez installé et configuré, la mise à niveau d'une version récente de Dogecoin Core est généralement aussi facile que la mise à niveau de toute autre application.
 
-Depending on your local network setup, this might require extra configuration in your router and/or in your modem, and some extra rules added to your firewall.
+- Si vous utilisez Core comme portefeuille, [faites une sauvegarde](/fr/dogepedia/articles/how-to-backup-a-wallet/) de vos fichiers de portefeuille. Il est recommandé de faire également une sauvegarde en texte brut, surtout si vous utilisez une ancienne version de Dogecoin Core. Stockez-la dans un endroit sûr - quiconque a accès aux sauvegardes a accès à votre portefeuille.
+- Fermez votre Dogecoin Core. Cela peut être fait soit en fermant l'application Dogecoin Core GUI et en attendant qu'elle termine le processus d'arrêt, soit, pour les utilisateurs de CLI, en lançant la commande *dogecoin-cli stop* via le shell. Plus d'informations pour les utilisateurs CLI sont disponibles [ici](#dogecoin-cli).
+- Une fois fait, suivez les instructions d'installation ci-dessus pour votre système d'exploitation actuel.
 
-First of all, you will need to check whether incoming connections are working or not. When incoming connections are not enabled, Dogecoin Core will be able to establish only 8 outgoing connections. If the total connection count of your node is above 8, then it means your node is allowing incoming connections.
+<hr />
 
-You can check the number and type of connections very easily using Dogecoin Core GUI. If you look at the bottom right corner of the Dogecoin Core window, you will see an icon representing the current network status. Hover over the icon (do not click) and a popup should appear, displaying the total number of connections. 
+## Configuration du réseau {#network-configuration}
+Par défaut, dans la plupart des configurations, votre nœud Dogecoin Core peut être capable d'établir uniquement des connexions sortantes. Pour supporter le réseau Dogecoin, vous devez autoriser les connexions entrantes via le port 22556.
+
+Selon la configuration de votre réseau local, cela peut nécessiter une configuration supplémentaire de votre routeur et/ou de votre modem, ainsi que l'ajout de quelques règles supplémentaires à votre pare-feu.
+
+Tout d'abord, vous devez vérifier si les connexions entrantes fonctionnent ou non. Lorsque les connexions entrantes ne sont pas activées, Dogecoin Core ne pourra établir que 8 connexions sortantes. Si le nombre total de connexions de votre nœud est supérieur à 8, cela signifie que votre nœud autorise les connexions entrantes.
+
+Vous pouvez vérifier le nombre et le type de connexions très facilement en utilisant l'interface graphique de Dogecoin Core. Si vous regardez dans le coin inférieur droit de la fenêtre Dogecoin Core, vous verrez une icône représentant l'état actuel du réseau. Survolez l'icône (ne cliquez pas) et une fenêtre contextuelle devrait apparaître, affichant le nombre total de connexions. 
 
 {{< figure src="windows-connection-hover-debug.png" alt="Dogecoin Core GUI - Hover To See Connection Count" >}}
 
-Otherwise, go into the Help -> Debug menu, and you should see a detailed overview of your network status.
+Sinon, allez dans le menu Aide -> Debug, et vous devriez voir un aperçu détaillé de l'état de votre réseau.
 
 {{< figure src="windows-connection-debug.png" alt="Dogecoin Core GUI - Network Debug" >}}
 
-In both these examples, only incoming connections are enabled.
+Dans ces deux exemples, seules les connexions entrantes sont activées.
 
-If you are using the Dogecoin CLI, you can check the total number of connections by using the *getconnectioncount* command:
+Si vous utilisez la CLI de Dogecoin, vous pouvez vérifier le nombre total de connexions en utilisant la commande *getconnectioncount* :
 
 ```console
 shibetoshi:~$ dogecoin-cli getconnectioncount
 12
 ```
 
-In this case, since there are more than 8 active connections, we know that the node is already allowing incoming connections. 
+Dans ce cas, comme il y a plus de 8 connexions actives, nous savons que le nœud autorise déjà les connexions entrantes. 
 
-Please keep in mind that your node will be able to accept incoming connections only after it has downloaded a full copy of the blockchain. Wait for the sync phase to complete and then wait a few hours before checking whether incoming connections are working.
+Gardez à l'esprit que votre nœud ne pourra accepter les connexions entrantes qu'après avoir téléchargé une copie complète de la blockchain. Attendez que la phase de synchronisation soit terminée, puis attendez quelques heures avant de vérifier si les connexions entrantes fonctionnent.
 
-#### Forward Port 22556 in your router
-This step is usually not necessary if you are running Dogecoin Core in a VPS server, since most services will allow all incoming connections to reach your servers. Anyhow, in some cases, some hosts might indeed have a firewall in front of your server - in which case, you might need to ask their customer support to forward port 22556 for you.
+#### Forward le port 22556 dans votre routeur
+Cette étape n'est généralement pas nécessaire si vous exécutez Dogecoin Core sur un serveur VPS, puisque la plupart des services permettent à toutes les connexions entrantes d'atteindre vos serveurs. Cependant, dans certains cas, certains hôtes peuvent avoir un pare-feu devant votre serveur - dans ce cas, vous devrez peut-être demander à leur service clientèle de transférer le port 22556 pour vous.
 
-In most homes, computers connect to the Internet through a modem or a router, which is configured to block incoming connections to most ports. To forward port 22556, you will need to follow the following steps. Please refer to your router's manual for specific instructions.
+Dans la plupart des foyers, les ordinateurs se connectent à Internet par le biais d'un modem ou d'un routeur, qui est configuré pour bloquer les connexions entrantes sur la plupart des ports. Pour transférer le port 22556, vous devez suivre les étapes suivantes. Veuillez consulter le manuel de votre routeur pour obtenir des instructions spécifiques.
 
-- Access your router's control panel using your internet browser. Usually, most routers have a control panel accessible at https://192.168.0.1 or at https://192.168.1.1. Sometimes, a sticker is placed on the bottom or the side of the router listing the IP.
-- Login into the control panel of the router. You will need to use the username and password provided by the router manufacturer. Sometimes, a sticker is placed on the bottom or the side of the router revealing the admin password. These are some common default passwords used by popular router manufacturers:
+- Accédez au panneau de configuration de votre routeur à l'aide de votre navigateur Internet. En général, la plupart des routeurs disposent d'un panneau de commande accessible à l'adresse https://192.168.0.1 ou https://192.168.1.1. Parfois, un autocollant indiquant l'adresse IP est apposé sur le dessous ou le côté du routeur.
+- Connectez-vous au panneau de configuration du routeur. Vous devrez utiliser le nom d'utilisateur et le mot de passe fournis par le fabricant du routeur. Parfois, un autocollant est placé sur le dessous ou le côté du routeur pour révéler le mot de passe administrateur. Voici quelques mots de passe par défaut courants utilisés par les fabricants de routeurs les plus connus :
 
     Manufacturer | Username | Password
     -------------|----------|---------
@@ -253,84 +253,84 @@ In most homes, computers connect to the Internet through a modem or a router, wh
     TP-Link      |  admin   | admin
     Belkin       |  admin   | (blank)
 
-- In the router's control panel, assign a static IP to the machine running Dogecoin Core. This is normally done in the Dynamic Host Configuration Protocol (DHCP) page.
-- In the router's control panel, configure port forwarding, forwarding all inbound traffic to port 22556 from your router to the static IP you assigned to the machine running Dogecoin Core.
+- Dans le panneau de contrôle du routeur, attribuez une IP statique à la machine qui exécute Dogecoin Core. Cela se fait normalement dans la page du protocole de configuration dynamique des hôtes (DHCP).
+- Dans le panneau de configuration du routeur, configurez le transfert de port, en transférant tout le trafic entrant vers le port 22556 de votre routeur vers l'IP statique que vous avez attribué à la machine exécutant Dogecoin Core.
 
-#### Open Port 22556 in your firewall configuration
-Finally, in some setups and operating systems, you will also need to open port 22556 in the machine where Dogecoin Core is installed. The instructions to do so vary from operating system to operating system. Some antivirus software might include a firewall - refer to the manual provided by the developer.
+#### Ouvrez le port 22556 dans la configuration de votre pare-feu.
+Enfin, dans certaines configurations et systèmes d'exploitation, vous devrez également ouvrir le port 22556 dans la machine où Dogecoin Core est installé. Les instructions pour le faire varient d'un système d'exploitation à l'autre. Certains logiciels antivirus peuvent inclure un pare-feu - consultez le manuel fourni par le développeur.
 
-- [Windows 10 & 11 Instructions](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-inbound-port-rule)
-- [macOS Instructions (usually unnecessary; the firewall is disabled by default)](https://support.apple.com/en-us/HT201642)
-- [Ubuntu Instructions: UFW Firewall](https://ubuntu.com/server/docs/security-firewall)
+- [Instructions pour Windows 10 et 11](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-inbound-port-rule)
+- [Instructions pour macOS (généralement inutiles ; le pare-feu est désactivé par défaut)](https://support.apple.com/en-us/HT201642)
+- [Instructions Ubuntu : Pare-feu UFW](https://ubuntu.com/server/docs/security-firewall)
 
 <hr />
 
-## Advanced Configuration {#advanced-configuration}
+## Configuration avancée {#advanced-configuration}
 
-Dogecoin Core is highly configurable. Configuration settings for the Dogecoin Core Daemon or the Dogecoin Core GUI can be used as an argument when starting Dogecoin Core or can be saved inside the dogecoin.conf file, which should be placed inside the [data directory](/dogepedia/how-tos/operating-a-node/#dogecoin-cli).
+Dogecoin Core est hautement configurable. Les paramètres de configuration pour le Daemon Dogecoin Core ou l'interface graphique Dogecoin Core peuvent être utilisés comme argument lors du démarrage de Dogecoin Core ou peuvent être enregistrés dans le fichier dogecoin.conf, qui doit être placé dans le [répertoire de données](/fr/dogepedia/how-tos/operating-a-node/#dogecoin-cli).
 
-To start Dogecoin GUI with custom settings:
+Pour démarrer Dogecoin GUI avec des paramètres personnalisés :
 
 ```
 dogecoind-qt -maxconnections=50 -datadir=/dogecoin/data
 ```
 
-To start the Dogecoin Daemon with custom settings:
+Pour démarrer le Dogecoin Daemon avec des paramètres personnalisés :
 ```
 dogecoind -maxconnections=50 -datadir=/dogecoin/data -daemon
 ```
 
-Otherwise, you can save the configuration settings into the *dogecoin.conf* file and they will be applied whenever you start Dogecoin Core:
+Sinon, vous pouvez enregistrer les paramètres de configuration dans le fichier *dogecoin.conf* et ils seront appliqués chaque fois que vous démarrez Dogecoin Core :
 ```
 datadir=/dogecoin/data
 maxconnections=50
 ```
 
-You can get a list of all the available configuration settings using the *help* command:
+Vous pouvez obtenir une liste de tous les paramètres de configuration disponibles en utilisant la commande *help* :
 
 ```console
 shibetoshi:~$ dogecoind -help
 ```
 
-The examples directory of the Dogecoin Github Repository includes a dogecoin.conf file with in-depth commentary about the various settings. Check it out [here](https://github.com/dogecoin/dogecoin/blob/master/contrib/debian/examples/dogecoin.conf).
+Le répertoire d'exemples du dépôt Github de Dogecoin comprend un fichier dogecoin.conf avec des commentaires détaillés sur les différents paramètres. Consultez-le [ici](https://github.com/dogecoin/dogecoin/blob/master/contrib/debian/examples/dogecoin.conf).
 
-#### Path to dogecoin.conf
-You can specify a custom path to dogecoin.conf when starting Dogecoin Core.
+#### Chemin vers dogecoin.conf
+Vous pouvez spécifier un chemin personnalisé vers dogecoin.conf lors du démarrage de Dogecoin Core.
 
-For Dogecoin Core GUI:
+Pour l'interface graphique de Dogecoin Core :
 
 ```
 dogecoind-qt -conf=/cheemz/dogecoin.conf
 ```
 
-For the Dogecoin Core Daemon:
+Pour le Dogecoin Core Daemon :
 ```
 dogecoind -conf=/cheemz/dogecoin.conf
 ```
 
-#### Set the Minimum Relay Fee {#minrelaytxfee}
-As a node operator, you can set the minimum relay fee for your node. Transactions with fees below this amount (in DOGE/kB) will not be relayed by your node. Default: 0.001.
+#### Fixer le montant minimum des frais de relais {#minrelaytxfee}
+En tant qu'opérateur de nœud, vous pouvez définir les frais de relais minimums pour votre nœud. Les transactions dont les frais sont inférieurs à ce montant (en DOGE/kB) ne seront pas relayées par votre nœud. Valeur par défaut : 0.001.
 
 ```
 minrelaytxfee=<amt>
 ```
 
-#### Set the Maximum Relay Fee {#maxtxfee}
-Transactions with a maximum total fee above this amount (in DOGE) will not be relayed. Default: 100.00.
+#### Fixer le montant maximal des frais de relais {#maxtxfee}
+Les transactions dont les frais totaux maximums sont supérieurs à ce montant (en DOGE) ne seront pas relayées. Valeur par défaut : 100.00.
 
 ```
 maxtxfee=<amt>
 ```
 
-#### Accept RPC Commands {#rpcserver}
-Enable RPC commands for dogecoind and dogecoin-qt. The interface is exposed on port 25555.
+#### Accepter les commandes RPC {#rpcserver}
+Activez les commandes RPC pour dogecoind et dogecoin-qt. L'interface est exposée sur le port 25555.
 
 ```
 server=1
 ```
 
-#### RPC Username and Password (deprecated) {#rpccredentials}
-When interacting with the RPC interface, authentication is required. Dogecoin Core uses a random cookie when no authentication credentials are provided. Users can configure a username and password for access to the RPC interface. **Be extremely careful in not exposing a wallet. Anybody with access to the RPC credentials has full access to your wallet. The username and password are not encrypted when connecting to a remote RPC server.**
+#### Nom d'utilisateur et mot de passe RPC (obsolète) {#rpccredentials}
+Lors de l'interaction avec l'interface RPC, l'authentification est requise. Dogecoin Core utilise un cookie aléatoire lorsqu'aucun justificatif d'authentification n'est fourni. Les utilisateurs peuvent configurer un nom d'utilisateur et un mot de passe pour accéder à l'interface RPC. **Soyez extrêmement prudent en n'exposant pas un portefeuille. Toute personne ayant accès aux informations d'identification RPC a un accès complet à votre portefeuille. Le nom d'utilisateur et le mot de passe ne sont pas cryptés lors de la connexion à un serveur RPC distant**.
 
 ```
 rpcuser=shibetoshi
@@ -338,74 +338,74 @@ rpcpassword=impossibletoguesspassword
 ```
 
 #### RPC Auth {#rpcauth}
-Instead of storing the plain password in the configuration file, you can instead store its hash. The client can connect normally using the rpcuser and rpcpassword arguments. The format is:
+Au lieu de stocker le mot de passe brut dans le fichier de configuration, vous pouvez stocker son hachage. Le client peut se connecter normalement en utilisant les arguments rpcuser et rpcpassword. Le format est le suivant :
 
 ```
 rpcauth=<USERNAME>:<SALT>$<HASH>
 ```
 
-A python script to generate the user login credentials is included in the [share/rpcuser directory](https://github.com/dogecoin/dogecoin/tree/master/share/rpcuser) in the Dogecoin Github repository.
+Un script python permettant de générer les informations d'identification de l'utilisateur est inclus dans le [répertoire share/rpcuser](https://github.com/dogecoin/dogecoin/tree/master/share/rpcuser) dans le dépôt Github de Dogecoin.
 
 #### RPC Bind {#rpcbind}
-Bind to a given address to listen for JSON-RPC connections. **Be extremely careful in not exposing a wallet. Anybody with access to the RPC credentials has full access to your wallet.**
+Se lier à une adresse donnée pour écouter les connexions JSON-RPC. **Soyez extrêmement prudent en n'exposant pas votre portefeuille. Toute personne ayant accès aux informations d'identification RPC a un accès complet à votre portefeuille**.
 
 ```
 rpcbind=<addr>
 ```
 
-#### RPC Allow IPs {#rpcallowip}
-Allow JSON-RPC connections only from the specified ips. Specify multiple times to allow connections from multiple IPs. **Be extremely careful in not exposing a wallet. Anybody with access to the RPC credentials has full access to your wallet.**
+#### RPC Autoriser les IPs {#rpcallowip}
+Autorise les connexions JSON-RPC uniquement à partir des IP spécifiées. Spécifiez plusieurs fois pour autoriser les connexions à partir de plusieurs IP. **Soyez extrêmement prudent en n'exposant pas votre portefeuille. Toute personne ayant accès aux informations d'identification RPC a un accès complet à votre portefeuille.**
 
 ```
 rpcallowip=<addr>
 ```
 
-#### RPC Port {#rpcpor}
-Bind to the given port to listen for JSON-RPC connections (default:25555). **Be extremely careful in not exposing a wallet. Anybody with access to the RPC credentials has full access to your wallet.**
+#### Port RPC {#rpcpor}
+Se lie au port donné pour écouter les connexions JSON-RPC (par défaut : 25555). **Soyez extrêmement prudent en n'exposant pas votre portefeuille. Toute personne ayant accès aux informations d'identification RPC a un accès complet à votre portefeuille**.
 
 ```
 rpcport=<port>
 ```
 
-#### Custom Data Directory {#data-directory}
-You can configure a custom location for the data directory.
+#### Répertoire de données personnalisé {#data-directory}
+Vous pouvez configurer un emplacement personnalisé pour le répertoire de données.
 ```
 datadir=/dogecoin/data
 ```
 
-#### Custom Backup Directory (Dogecoin Core versions > 1.14.6) {#backup-directory}
-You can configure a custom location for the directory used to store backups when using the *dumpwallet* and *backupwallet* CLI commands.
+#### Répertoire de sauvegarde personnalisé (Dogecoin Core versions > 1.14.6) {#backup-directory}
+Vous pouvez configurer un emplacement personnalisé pour le répertoire utilisé pour stocker les sauvegardes lorsque vous utilisez les commandes CLI *dumpwallet* et *backupwallet*.
 ```
 backupdir=/Users/Cheemz/SecretCannolo/
 ```
 
-#### Disable Wallet Functionality {#disable-wallet}
-If you are operating Dogecoin Core to support the network, probably you are not using it also as a Dogecoin wallet. To disable wallet functionality, use the *disablewallet* setting.
+#### Désactiver la fonctionnalité de portefeuille {#disable-wallet}
+Si vous utilisez Dogecoin Core pour soutenir le réseau, il est probable que vous ne l'utilisiez pas également comme portefeuille Dogecoin. Pour désactiver la fonctionnalité de portefeuille, utilisez le paramètre *disablewallet*.
 ```
 disablewallet=1
 ```
 
-#### Bind to an IP {#bind-to-ip}
-Bind to the given address and always listen on it.
+#### Bind à une IP {#bind-to-ip}
+Se lie à l'adresse donnée et écoute toujours sur celle-ci.
 ```
 bind=<ipaddress>
 ```
 
-#### Reduce Traffic and Bandwidth Usage {#reduce-traffic}
-To reduce bandwidth usage, you can reduce the number of connections and traffic allowed by Dogecoin Core. By default, Dogecoin Core allows up to 125 connections, with 8 connections being outbound.
+#### Réduire le trafic et l'utilisation de la bande passante {#reduce-traffic}
+Pour réduire l'utilisation de la bande passante, vous pouvez réduire le nombre de connexions et le trafic autorisés par Dogecoin Core. Par défaut, Dogecoin Core autorise jusqu'à 125 connexions, dont 8 sont sortantes.
 
-You can reduce the maximum number of connections using the *maxconnection* setting. If you have limited bandwidth, start with a lower number of maximum connection and increase it gradually. 50 connections might be a good starting value.
+Vous pouvez réduire le nombre maximum de connexions en utilisant le paramètre *maxconnection*. Si votre bande passante est limitée, commencez par un nombre inférieur de connexions maximales et augmentez-le progressivement. 50 connexions peut être une bonne valeur de départ.
 ```
 maxconnections=50
 ```
 
-You can reduce the maximum amount of bandwidth used to serve historic blocks (the blocks served when a new node is syncing up for the first time). This will drastically reduce bandwidth usage:
+Vous pouvez réduire la quantité maximale de bande passante utilisée pour servir les blocs historiques (les blocs servis lorsqu'un nouveau nœud se synchronise pour la première fois). Cela permettra de réduire considérablement l'utilisation de la bande passante :
 ```
 maxuploadtarget=<MiB per day>
 ```
 
-#### Personalize Your Node {#uacomment}
-If you want to add a string of text to the user agent broadcasted by your node, you can use the *uacomment* setting. If you are operating your node from your own home and you do not want to reveal your identity, it is recommended you do not include identifying information.
+#### Personnalisez votre nœud {#uacomment}
+Si vous souhaitez ajouter une chaîne de texte à l'agent utilisateur diffusé par votre nœud, vous pouvez utiliser le paramètre *uacomment*. Si vous exploitez votre nœud depuis votre domicile et que vous ne souhaitez pas révéler votre identité, il est recommandé de ne pas inclure d'informations d'identification.
 ```
 uacomment=Cheemz
 ```
@@ -413,15 +413,15 @@ uacomment=Cheemz
 <hr />
 
 ## Dogecoin CLI {#dogecoin-cli}
-The Dogecoin CLI is a tool allowing you to access the JSON-RPC interface provided with Dogecoin Core. It is recommended that you explore the several commands listed when using the *help* command, where commands will be neatly divided into categories.
+Le Dogecoin CLI est un outil vous permettant d'accéder à l'interface JSON-RPC fournie avec Dogecoin Core. Il est recommandé d'explorer les différentes commandes listées en utilisant la commande *help*, où les commandes seront soigneusement divisées en catégories.
 
-The Github repository has a [good introduction to using the Dogecoin CLI tool](https://github.com/dogecoin/dogecoin/blob/master/doc/getting-started.md).
+Le dépôt Github contient une [bonne introduction à l'utilisation de l'outil Dogecoin CLI](https://github.com/dogecoin/dogecoin/blob/master/doc/getting-started.md).
 
 ```console
 shibetoshi:~$ dogecoin-cli help
 ```
 
-As of Dogecoin Core 1.14.6, this is the output of the command:
+A partir de Dogecoin Core 1.14.6, voici le résultat de la commande :
 
 ```console
     == Blockchain ==
@@ -550,75 +550,75 @@ As of Dogecoin Core 1.14.6, this is the output of the command:
     walletpassphrasechange "oldpassphrase" "newpassphrase"
 ```
 
-You can also get help and information about any command using the *help* command with the extra argument:
+Vous pouvez également obtenir de l'aide et des informations sur n'importe quelle commande en utilisant la commande *help* avec l'argument supplémentaire :
 
 ```console
 shibetoshi:~$ dogecoin-cli help <command>
 ```
 
-Some useful commands are listed below.
+Certaines commandes utiles sont énumérées ci-dessous.
 
-#### Managing your Dogecoin Core daemon
+#### Gestion de votre daemon Dogecoin Core
 
-- You can stop your Dogecoin Core daemon cleanly by using the *stop* command:
+- Vous pouvez arrêter votre démon Dogecoin Core proprement en utilisant la commande *stop* :
     ```console
     shibetoshi:~$ dogecoin-cli stop
     ```
-- Get information about your node:
+- Obtenez des informations sur votre nœud :
     ```console
     shibetoshi:~$ dogecoin-cli getinfo
     ```
-- Rescan the blockchain from a specific block (since Dogecoin Core 1.14.6):
+- Rescanner la blockchain à partir d'un bloc spécifique (depuis Dogecoin Core 1.14.6) :
 
-This command allows node operators to rescan the chain for wallet transactions from a certain height.
+Cette commande permet aux opérateurs de nœuds de rescanner la chaîne pour les transactions de portefeuilles à partir d'une certaine hauteur.
     ```console
     shibetoshi:~$ dogecoin-cli rescan <block height>
     ```
-- Get total number of connections:
+- Obtenir le nombre total de connexions :
     ```console
     shibetoshi:~$ dogecoin-cli getconnectioncount
     ```
-- Set maximum number of connections (since Dogecoin Core 1.14.6):
+- Définir le nombre maximum de connexions (depuis Dogecoin Core 1.14.6) :
     ```console
     shibetoshi:~$ dogecoin-cli setmaxconnections <desired_amount>
     ```
-- Add a node to the addnode list:
+- Ajoute un noeud à la liste addnode :
     ```console
     shibetoshi:~$ dogecoin-cli addnode <addr> add
     ```
-- Remove a node from the addnode list:
+- Supprime un nœud de la liste addnode :
     ```console
     shibetoshi:~$ dogecoin-cli addnode <addr> add
     ```
-- Disconnect from a node:
+- Se déconnecter d'un nœud :
     ```console
     shibetoshi:~$ dogecoin-cli disconnectnode <addr>
     ```
-- Get information about the blockchain processing:
+- Obtenir des informations sur le traitement de la blockchain :
     ```console
     shibetoshi:~$ dogecoin-cli getblockchaininfo
     ```
-- Get information about a specific block:
+- Obtenir des informations sur un bloc spécifique :
     ```console
     shibetoshi:~$ dogecoin-cli getblock <blockhash>
     ```
-- Get information about a specific transaction:
+- Obtenir des informations sur une transaction spécifique :
     ```console
     shibetoshi:~$ dogecoin-cli gettransaction <txid>
     ```
-- List and explore "stuck" transactions (since Dogecoin Core 1.14.6):
-If you are using your Dogecoin Node to send and receive transactions, it might be useful to identify "stuck" transactions (not mined and not in the mempool) before an upgrade to local fee and dust policies which might allow old forgotten transactions to get "unstuck" due to more permissive policies.
+- Lister et explorer les transactions "bloquées" (depuis Dogecoin Core 1.14.6) :
+Si vous utilisez votre nœud Dogecoin pour envoyer et recevoir des transactions, il peut être utile d'identifier les transactions "bloquées" (non minées et non présentes dans le mempool) avant une mise à niveau des politiques locales en matière de frais et de poussière qui pourraient permettre à d'anciennes transactions oubliées d'être "débloquées" en raison de politiques plus permissives.
 
-The method can be called with:
+La méthode peut être appelée avec :
 
 ```console
 shibetoshi:~$ dogecoin-cli liststucktransactions
 ```
 
 
-In general, it is recommend that you explore and "play" with the various available commands; there is no better way to learn. The JSON-RPC interface can be used to develop services and automate the management of your Dogecoin Core node.
+En général, il est recommandé d'explorer et de "jouer" avec les différentes commandes disponibles ; il n'y a pas de meilleur moyen d'apprendre. L'interface JSON-RPC peut être utilisée pour développer des services et automatiser la gestion de votre nœud Dogecoin Core.
 
 <hr />
 
-## Finding Help as a Dogecoin Node Operator {#finding-help}
-There are several communities where you can find help in setting up and operating your node. On reddit, you can ask questions on [r/dogecoin](https://www.reddit.com/r/dogecoin/) or [r/dogeducation](https://www.reddit.com/r/dogeducation/). Help can be found also on other social networks - there is an active community of shibes running Dogecoin Nodes.
+## Trouver de l'aide en tant qu'opérateur de nœuds Dogecoin {#finding-help}
+Il existe plusieurs communautés où vous pouvez trouver de l'aide pour configurer et faire fonctionner votre nœud. Sur reddit, vous pouvez poser des questions sur [r/dogecoin](https://www.reddit.com/r/dogecoin/) ou [r/dogeducation](https://www.reddit.com/r/dogeducation/). Vous pouvez également trouver de l'aide sur d'autres réseaux sociaux - il existe une communauté active de shibes exploitant des nœuds Dogecoin.
