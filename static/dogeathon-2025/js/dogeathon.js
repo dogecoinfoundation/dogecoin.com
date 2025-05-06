@@ -40,6 +40,7 @@ if (typeof jQuery === 'undefined') {
             const country = $('#country').val().trim();
             const github = $('#github-username').val().trim();
             const x = $('#x-username').val().trim();
+            const tshirt = $('#tshirt').val().trim();
             const dogeAddress = $('#doge-address').val().trim();
             const attendance = $('#attendance').val();
 
@@ -56,6 +57,7 @@ if (typeof jQuery === 'undefined') {
                 country: country,
                 github: github || null,            
                 x: x || null,
+                tshirt: tshirt || null,
                 dogeAddress: dogeAddress,
                 sku: 'dogeathon-2025',
                 amount: 269 // Fixed amount for registration
