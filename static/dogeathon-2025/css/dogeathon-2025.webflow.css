@@ -1981,7 +1981,6 @@ figcaption {
 }
 
 .modal {
-  margin: auto;
   padding: var(--_measurements---section-padding-y) var(--_measurements---section-padding-x);
   grid-column-gap: 3rem;
   grid-row-gap: 3rem;
@@ -2080,6 +2079,7 @@ figcaption {
   color: var(--base-color-brand--blue);
   transform: rotate(-7deg);
 }
+
 @media screen and (min-width: 1280px) {
   .button {
     padding-top: .75rem;
@@ -2153,10 +2153,11 @@ figcaption {
   .hero-heading {
     font-size: 4rem;
   }
+
   .activities {
     grid-column-gap: 3rem;
     grid-row-gap: 2rem;
-  }  
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -2461,7 +2462,7 @@ figcaption {
   }
 
   .section-backround-skew {
-    /*width: 800px;*/
+    width: 100%;
     top: 5rem;
   }
 
@@ -2606,9 +2607,10 @@ figcaption {
   .modal {
     border-radius: 1.5rem;
   }
+
   .activities {
     font-size: 1.5rem;
-  }  
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3112,11 +3114,6 @@ figcaption {
   .qr-code {
     width: 30%;
   }
-
-  .list-cards, .list-cards{
-    display: block;
-  }
-  .card-border, .card-calendar, .card-guest, .card-accomodation{ margin: 5px;}
 }
 
 @media screen and (max-width: 479px) {
@@ -3436,11 +3433,12 @@ figcaption {
     width: auto;
     height: 8rem;
   }
+
   .activities {
     grid-column-gap: 1rem;
     grid-row-gap: .5rem;
     font-size: 1.25rem;
-  }  
+  }
 }
 
 #w-node-f63cbc6a-01b0-c56e-95d4-065080c06ed5-5d943133 {
