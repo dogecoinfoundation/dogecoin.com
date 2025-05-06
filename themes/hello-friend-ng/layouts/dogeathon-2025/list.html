@@ -9,7 +9,7 @@
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/dogeathon-2015.webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/dogeathon-2025.webflow.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
@@ -19,11 +19,23 @@
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <style>
+  [data-theme=light] body {
+      background-color: #151413  !important;
+      color: #fff !important;
+  }
+  [data-theme=dark] body {
+      background-color: #151413  !important;
+      color: #fff !important;
+  }  
+  body {
+    background: var(--background-color--background-primary) !important;
+  }
   .main-wrapper {
     margin-top: 50px;
   }      
   .container {
       text-align: left !important;
+      padding: 0 !important;
   }    
   h3 {
       max-height: none !important;  
@@ -44,7 +56,21 @@
       padding: .75rem 1.5rem !important;
       font-weight: 600 !important;
       transition: opacity .2s ease-out !important;
+      max-width: 100% !important;
+
   }
+  .button:hover {
+      background-color: var(--base-color-brand--doge-yellow) !important;
+      color: var(--text-color--text-primary) !important;
+      text-align: center !important;
+      border-radius: 18rem !important;
+      padding: .75rem 1.5rem !important;
+      font-weight: 600 !important;
+      transition: opacity .2s ease-out !important;
+      max-width: 100% !important;
+      opacity: .8 !important;
+
+  }  
   select {
     appearance: none !important;
     -webkit-appearance: none !important;
@@ -989,12 +1015,18 @@ margin: 0rem !important;
                     <option value="Women2XL">Women&#x27;s 2XL (W 60cm, L 75cm)</option>
                     <option value="Women3XL">Women&#x27;s 3XL (W 62.5cm, L 76cm)</option>
                   </select><img src="images/chevron-down.svg" loading="lazy" alt="" class="dropdown-chev"></div>
-                  <div><label class="w-checkbox checkbox-field"><input type="checkbox" id="checkbox" name="checkbox" data-name="Checkbox" class="w-checkbox-input"><span class="w-form-label" for="checkbox">I accept the 2025 Hackathon <a href="https://github.com/dogecoinfoundation/policy/blob/main/policy_02_conduct.md" target="_blank">Code of Conduct</a></span></label></div><input type="submit" data-wait="Please wait..." class="button is-large margin-top margin-small w-button" value="Register">
+                  <div>
+                    <label class="w-checkbox checkbox-field">
+                      <input type="checkbox" id="checkbox" name="checkbox" data-name="Checkbox" class="w-checkbox-input">
+                        <span class="w-form-label" for="checkbox">I accept the 2025 Hackathon <a href="https://github.com/dogecoinfoundation/policy/blob/main/policy_02_conduct.md" target="_blank">Code of Conduct</a></span>
+                    </label>
+                  </div>
+                  <input type="submit" data-wait="Please wait..." class="button is-large margin-top margin-small w-button max-w-full" value="Register">
                 </form>
-                <div class="w-form-done">
+                <div class="w-form-done margin-top margin-xsmall text-center">
                   <div>Thank you! Your submission has been received!</div>
                 </div>
-                <div class="w-form-error">
+                <div class="w-form-error margin-top margin-xsmall text-center">
                   <div>Oops! Something went wrong while submitting the form.</div>
                 </div>
               </div>
@@ -1004,7 +1036,7 @@ margin: 0rem !important;
       </section>
       <section class="section-padding clear-padding-bottom">
         <div class="container">
-          <div class="footer">
+          <div class="footer border-0">
             <div class="footer-description"><img src="images/LogoDogecoin.png" loading="lazy" width="256" sizes="(max-width: 479px) 100vw, 256px" alt="Dogecoin logo" srcset="images/9021dcfa75324ea0c00c52cdc160251a_LogoDogecoin-p-500.png 500w, images/9021dcfa75324ea0c00c52cdc160251a_LogoDogecoin-p-800.png 800w, images/9021dcfa75324ea0c00c52cdc160251a_LogoDogecoin-p-1080.png 1080w, images/9021dcfa75324ea0c00c52cdc160251a_LogoDogecoin-p-1600.png 1600w, images/LogoDogecoin.png 1746w" class="footer-logo">
               <p class="text-size-ty">The Shiba Inu is a Japanese breed of dog that was popularized as an online meme and represents Dogecoin. Dogecoin was created by Jackson Palmer &amp; Shibetoshi Nakamoto.</p>
             </div>

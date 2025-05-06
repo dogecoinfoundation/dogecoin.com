@@ -21,7 +21,7 @@ draft = false
   <div class="card-body">
     <h5 class="card-title">Victoria, Australia</h5>
     <p class="card-text" style="margin-bottom: 30px">Date: November 15–19, 2022</p>
-    <a href="/dogeathon-2025" class="comic-neue btn btn-outline-secondary" style="margin-bottom: 10px; color: #000 !important">Open</a>
+    <a href="/dogeathon-2022" class="comic-neue btn btn-outline-secondary" style="margin-bottom: 10px; color: #000 !important">Open</a>
   </div>
 </div>
 </div>
