@@ -6,7 +6,8 @@ theme = "hello-friend-ng"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
-paginate  = 10
+[pagination]
+  pagerSize = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
@@ -135,7 +136,7 @@ disableHugoGeneratorInject = false
     # logoCursorAnimate  = "2s"
 
   # Commento is more than just a comments widget you can embed —
-  # it’s a return to the roots of the internet.
+  # it's a return to the roots of the internet.
   # An internet without the tracking and invasions of privacy.
   # An internet that is simple and lightweight.
   # An internet that is focused on interesting discussions, not ads.
@@ -164,6 +165,8 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "reddit"
     url  = "https://www.reddit.com/r/dogecoindev"
+
+  googleAnalytics = ""
 
 [languages]
 
