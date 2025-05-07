@@ -8,20 +8,21 @@ draft = false
   render = "false"
   list = "false" 
 +++
-<div class="row">
-<div class="card" style="width: 300px; margin: 10px; color: #000 !important">
-  <div class="card-body">
-    <h5 class="card-title">Ericeira, Portugal</h5>
-    <p class="card-text">Date: July 22–24, 2022</p>
-    <a href="/dogeathon-2025" class="comic-neue btn btn-outline-secondary" style="margin-bottom: 10px; color: #000 !important">Open</a>
+<div class="card-row-hackathon">
+  <div class="card-hackathon">
+    <a href="/dogeathon-2025"><img src="/assets/images/dogeathon-2025.png" height="auto" width="100%" alt="..." /></a>
+    <div class="card-body-hackathon"> 
+      <h2 class="comic-neue" style="font-weight: bold; margin: 0;">Ericeira, Portugal</h2>
+      <p><strong>Date:</strong> July 22–24, 2025</p>
+      <a href="/dogeathon-2025" class="btn card-button-hackathon">Open</a>
+    </div>
   </div>
-</div>
-
-<div class="card" style="width: 300px; margin: 10px; color: #000 !important">
-  <div class="card-body">
-    <h5 class="card-title">Victoria, Australia</h5>
-    <p class="card-text" style="margin-bottom: 30px">Date: November 15–19, 2022</p>
-    <a href="/dogeathon-2022" class="comic-neue btn btn-outline-secondary" style="margin-bottom: 10px; color: #000 !important">Open</a>
+  <div class="card-hackathon">
+    <a href="/dogeathon-2022"><img src="/assets/images/dogeathon-2022.png" height="auto" width="100%" alt="..." /></a>
+    <div class="card-body-hackathon"> 
+      <h2 class="comic-neue" style="font-weight: bold; margin: 0;">Victoria, Australia</h2>
+      <p><strong>Date:</strong> November 15–19, 2022</p>
+      <a href="/dogeathon-2022" class="btn card-button-hackathon">Open</a>
+    </div>
   </div>
-</div>
 </div>
