@@ -33,7 +33,7 @@
 <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/v/dt/dt-1.10.18/r-2.2.2/rg-1.0.3/datatables.min.css" type="text/css" />
 {{ end }}
 {{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) }}
-{{ $style := resources.Get "scss/main.scss" | css.Sass $options | resources.Fingerprint }}
+{{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 {{ range $val := $.Site.Params.customCSS }}
@@ -85,6 +85,6 @@
 {{- end }}
 
 <!-- Google Analytics internal template -->
-{{- if site.Params.googleAnalytics }}
+{{- if .Site.GoogleAnalytics }}
     {{ template "_internal/google_analytics.html" . }}
 {{- end}}

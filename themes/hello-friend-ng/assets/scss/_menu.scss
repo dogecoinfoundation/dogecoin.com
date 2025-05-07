@@ -53,12 +53,9 @@
     display: inline-block;
     margin-right: 15px;
     text-decoration: none;
-    font-weight: bold;
-    color: white;
-    font-size: 1rem !important;
 
     &:hover {
-      text-decoration: none;
+      text-decoration: underline;
     }
 
     &:last-of-type {
