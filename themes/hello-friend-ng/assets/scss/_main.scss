@@ -26,11 +26,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Roboto",
-  "Segoe UI", Helvetica, Arial, sans-serif;
-  font-display: auto;
-  @include font-size(1.1rem);
-  line-height: 1.54;
+  font-family: Comic Neue, sans-serif !important;
+  font-size: 1rem;
+  line-height: 1.5;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
@@ -623,5 +621,44 @@ hr {
   }
   to {
     opacity: 0;
+  }
+}
+
+.card-row-hackathon { 
+  display: grid; 
+  grid-template-columns: 1fr; 
+  grid-gap: 2rem; 
+  width: 100%;
+}
+
+.card-hackathon {
+  flex-direction: column; 
+  gap: 1rem; 
+  background: #201F1D; 
+  color: #FFFFFF; 
+  border-radius: 1rem; 
+  overflow: hidden;
+}
+
+.card-body-hackathon {
+  padding: 1rem 1.5rem 1.5rem;
+}
+
+.card-button-hackathon {
+  font-weight: bold; 
+  background: #E3A849; 
+  color: #201F1D;
+  outline: none;
+
+  &:hover {
+    background: #C18C37 !important;
+    color: #201F1D !important;
+    transition: 150ms ease-out;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card-row-hackathon { 
+    grid-template-columns: 1fr 1fr;
   }
 }
