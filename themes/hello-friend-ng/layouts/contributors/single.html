@@ -1,0 +1,61 @@
+{{ define "main" }}
+{{ if ne (lower .File.BaseFileName) (lower .Title) }}
+<script>
+    window.location.href = "{{ lower .File.BaseFileName }}";
+</script>
+{{ end }}
+<main class="dogepedia">
+    <div class="title" style="color: #FFFFFF">
+      <h1>{{ .Title }}</h1>
+      <a href="#" onclick="history.back()" style="text-decoration: none">< {{i18n "listWallets[muchgoback]" }} </a> — <b>{{ .Title }}</b></a>
+    </div>
+      <div class="underline"></div>
+
+<section class="box">
+    <main class="post comic-neue">
+        <div class="post-info comic-neue">
+            {{ if .IsTranslated }}
+                {{ i18n "postAvailable" }}
+                {{ range .Translations }}
+                  {{ if eq (.Lang) "pt-pt"}}
+                      <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-pt flag-icon-squared"></span></a>
+                  {{ else }}
+                      <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+                  {{ end }}
+                {{ end}}
+            {{ end }}
+        </div>
+        <article>
+            {{ if .Params.Cover }}
+                <figure class="post-cover">
+                    <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" style="max-width: 200px" />
+                    {{ if .Params.CoverCaption }}
+                        <figcaption class="center comic-neue">{{ .Params.CoverCaption | markdownify }}</figcaption>
+                    {{ end }}
+                </figure>
+            {{ end }}
+
+            {{ if .Params.toc }}
+                <hr />
+                <aside id="toc comic-neue">
+                <div class="toc-title comic-neue">{{ i18n "tableOfContents" }}</div>
+                    {{ .TableOfContents }}
+                </aside>
+                <hr />
+            {{ end }}
+
+            <div class="post-content comic-neue">
+               {{ .Content }}
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info comic-neue">
+            {{ partial "tags.html" .Params.tags }}
+            {{ partial "categories.html" . }}
+        </div>
+    </main>
+    </section>
+</main>
+{{ end }} 
