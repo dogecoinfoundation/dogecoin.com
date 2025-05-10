@@ -1109,3 +1109,108 @@ disableHugoGeneratorInject = false
   [[languages.zh-tw.params.footerFoundation]]
     name = "Trailmap"
     url  = "https://foundation.dogecoin.com/zh-tw/trailmap/prologue/"
+
+
+##############################
+# Language Translation JP
+##############################
+
+  [languages.ja]
+    subtitle  = "いらっしゃいませ"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    contentDir = "content/ja"
+
+[languages.ja.menu]
+  [[languages.ja.menu.main]]
+    identifier = "home"
+    name       = "ホーム"
+    url        = "/"
+    weight     = 1
+
+  [[languages.ja.menu.main]]
+    identifier = "what-is-dogecoin"
+    name       = "ドージコインとは？"
+    url        = "#what-is-dogecoin"
+    weight     = 2
+
+  [[languages.ja.menu.main]]
+    identifier = "wallets"
+    name       = "ウォレット"
+    url        = "wallets/"
+    weight     = 3
+
+  [[languages.ja.menu.main]]
+    identifier = "community"
+    name       = "コミュニティ"
+    url        = "#community"
+    weight     = 4
+
+  [[languages.ja.menu.main]]
+    identifier = "dogepedia"
+    name       = "ドージペディア"
+    url        = "dogepedia/"
+    weight     = 5
+
+  [languages.ja.menu.main.params]
+    class = "parent"
+
+  [[languages.ja.menu.main]]
+    identifier = "faq"
+    name       = "よくある質問 (FAQ)"
+    url        = "dogepedia/#faq"
+    parent = "dogepedia"
+    weight     = 5
+
+  [[languages.ja.menu.main]]
+    identifier = "how-tos"
+    name       = "使い方"
+    url        = "dogepedia/#howto"
+    parent = "dogepedia"
+    weight     = 5
+
+  [[languages.ja.menu.main]]
+    identifier = "documentation"
+    name       = "ドキュメント"
+    url        = "dogepedia/#documentation"
+    parent = "dogepedia"
+    weight     = 5
+
+  [[languages.ja.menu.main]]
+    identifier = "resource"
+    name       = "リソース"
+    url        = "resources/"
+    parent = "dogepedia"
+    weight     = 5
+
+  [[languages.ja.params.footerLegal]]
+    name = "利用規約"
+    url  = "/terms"
+
+  [[languages.ja.params.footerLegal]]
+    name = "プライバシーポリシー"
+    url  = "/legal"
+
+  [[languages.ja.params.footerLegal]]
+    name = "商標"
+    url  = "/trademarks"
+
+  [[languages.ja.params.footerFoundation]]
+    name = "概要"
+    url  = "https://foundation.dogecoin.com/about/"
+
+  [[languages.ja.params.footerFoundation]]
+    name = "マニフェスト"
+    url  = "https://foundation.dogecoin.com/manifesto/"
+
+  [[languages.ja.params.footerFoundation]]
+    name = "アドバイザー"
+    url  = "https://foundation.dogecoin.com/about/"
+
+  [[languages.ja.params.footerFoundation]]
+    name = "ブログ"
+    url  = "https://foundation.dogecoin.com/announcements/"
+
+  [[languages.ja.params.footerFoundation]]
+    name = "旅のしおり"
+    url  = "https://foundation.dogecoin.com/trailmap/prologue/"
