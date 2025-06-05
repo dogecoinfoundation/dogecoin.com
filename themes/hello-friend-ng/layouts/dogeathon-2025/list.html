@@ -649,7 +649,7 @@ margin: 0rem !important;
               <div class="tag-massage">Massage</div><img src="images/shape-circle1.svg" loading="lazy" alt="">
               <div class="tag-surf">Surf lessons</div><img src="images/shape-circle2.svg" loading="lazy" alt="">
               <div class="tag-souvenirs">Souvenirs</div><img src="images/shape-curve1.svg" loading="lazy" alt="">
-              <div class="tag-ebikes">Rental e-bikes &amp; scooters</div><img src="images/shape-zigzag2.svg" loading="lazy" alt="">
+              <div class="tag-ebikes">Rental e-bikes &amp; scooters</div><img src="images/shape-zigzag2.svg" loading="lazy" alt="">
               <div class="tag-gaming">Retro gaming</div><img src="images/shape-zigzag1.svg" loading="lazy" alt="">
               <div class="tag-tarts">Portuguese tarts</div><img src="images/shape-circle3.svg" loading="lazy" alt="">
               <div class="tag-fishing">Fishing trip</div><img src="images/shape-zigzag-3.svg" loading="lazy" alt="">
@@ -802,6 +802,7 @@ margin: 0rem !important;
                 <h2 class="heading-container">Attend hackathon</h2>
               </div>
               <p class="text-size-rg">Fill in the form below to register for the Dogeathon 2025. Once registered, we&#x27;ll give you instructions on how to pay the <span class="text-color-yellow">Ð269</span> registration fee.</p>
+              <p class="text-size-rg">Dreaming of hacking it out in Portugal but travel is a stretch? <a href="#" id="fly-me-link">Apply now</a> for travel assistance</p>
             </div>
             <div id="attend-form" class="attend-form-container">
               <div class="w-form" id="register-now">
@@ -1138,26 +1139,96 @@ margin: 0rem !important;
     </div>
   </div>
   
+  <!-- Fly Me Modal -->
+  <div id="fly-me-modal" class="pi-modal">
+    <div class="pi-modal-content" style="height: auto; width: auto; max-width: 600px; padding: 50px">
+      <span class="pi-modal-close">&times;</span>
+      <div id="fly-me-page1" class="fly-me-page" style="text-align: center;">
+        <h2>Fly me to the moon!</h2>
+        <h3>Dogeathon Attendance Assistance</h3>
+        <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin: 20px 0;">
+          <p style="margin: 0;">Powered by</p>
+          <img src="images/logo-21shares.svg" loading="lazy" alt="21 Shares logo" class="img-sponsor" style="width: 100px; height: auto;">
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 10px; margin: 20px 0;">
+          <p style="text-align: left;">Dreaming of hacking it out in Portugal but travel's a stretch? Our friends at 21Shares are doing only good every day – and they're here to help Shibes get to Dogeathon 2025. Applications close 20 June 2025.</p>
+          <h4>✨ Support available:</h3>
+          <p style="text-align: left;">Up to $2000 USD in travel and accommodation assistance to help you make the trip happen.</p>
+          <h4>📝 How it works:</h3>
+          <div style="text-align: left; max-width: 400px; margin-left: 0;">
+            <ul style="list-style: none; padding: 0; margin: 0 0 20px 0;">
+              <li>• Tell us why you want to come to Dogeathon.</li>
+              <li>• We'll shortlist 10 submissions for a quick video chat.</li>
+              <li>• Up to 5 amazing shibes will be selected for liftoff.</li>
+            </ul>
+          </div>
+        </div>
+        
+        <button id="fly-me-apply" class="button is-large w-button">Apply Now</button>
+      </div>
+      <div id="fly-me-page2" class="fly-me-page" style="display: none; text-align: center;">
+        <h2>Application Form</h2>
+        <p>Application form coming soon...</p>
+      </div>
+    </div>
+  </div>
+  
   <script>
-    // Get the modal
-    const modal = document.getElementById("pi-modal");
-    const btn = document.getElementById("floating-pi");
-    const span = document.getElementsByClassName("pi-modal-close")[0];
+    // Get the pi modal elements
+    const piModal = document.getElementById("pi-modal");
+    const piBtn = document.getElementById("floating-pi");
+    const piClose = document.querySelector("#pi-modal .pi-modal-close");
     
-    // When the user clicks the button, open the modal 
-    btn.onclick = function() {
-      modal.style.display = "block";
+    // Get the fly me modal elements
+    const flyMeModal = document.getElementById("fly-me-modal");
+    const flyMeLink = document.getElementById("fly-me-link");
+    const flyMeClose = flyMeModal.querySelector(".pi-modal-close");
+    const flyMePage1 = document.getElementById("fly-me-page1");
+    const flyMePage2 = document.getElementById("fly-me-page2");
+    const flyMeApply = document.getElementById("fly-me-apply");
+    
+    // Pi modal functionality
+    piBtn.onclick = function() {
+      piModal.style.display = "block";
     }
     
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
+    piClose.onclick = function() {
+      piModal.style.display = "none";
     }
     
-    // When the user clicks anywhere outside of the modal, close it
+    // Fly Me modal functionality
+    flyMeLink.onclick = function(e) {
+      e.preventDefault();
+      flyMeModal.style.display = "block";
+      flyMePage1.style.display = "block";
+      flyMePage2.style.display = "none";
+    }
+
+    flyMeClose.onclick = function() {
+      flyMeModal.style.display = "none";
+    }
+
+    flyMeApply.onclick = function() {
+      flyMePage1.style.display = "none";
+      flyMePage2.style.display = "block";
+    }
+    
+    // Close modals when clicking outside
     window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
+      if (event.target == piModal) {
+        piModal.style.display = "none";
+      }
+      if (event.target == flyMeModal) {
+        flyMeModal.style.display = "none";
+      }
+    }
+
+    // Check URL hash on page load
+    window.onload = function() {
+      if (window.location.hash === '#fly-me') {
+        flyMeModal.style.display = "block";
+        flyMePage1.style.display = "block";
+        flyMePage2.style.display = "none";
       }
     }
   </script>
