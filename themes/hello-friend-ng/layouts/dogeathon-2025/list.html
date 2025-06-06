@@ -196,6 +196,8 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.8);
     z-index: 1001;
+    max-height: 100vh;
+    overflow-y: auto;
   }
   
   .fly-me-modal-content {
@@ -1196,7 +1198,7 @@ margin: 0rem !important;
       <div id="fly-me-page1" class="fly-me-page"style="text-align: center; padding: 50px;">
         <img src="images/fly-me-banner.png" loading="lazy" alt="Fly me banner" class="img-banner">
         <h2>Fly me to the moon!</h2>
-        <h3>Dogeathon Attendance Assistance</h3>
+        <h2>Dogeathon Attendance Assistance</h2>
         <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
           <p style="margin: 0;">Powered by</p>
           <img src="images/logo-21shares.svg" loading="lazy" alt="21 Shares logo" class="img-sponsor" style="width: 100px; height: auto;">
@@ -1317,6 +1319,12 @@ margin: 0rem !important;
     flyMeApply.onclick = function() {
       flyMePage1.style.display = "none";
       flyMePage2.style.display = "block";
+
+      // Scroll to the top of the modal
+      const modal = document.getElementById('fly-me-modal');
+        if (modal) {
+          modal.scrollTop = 0;
+        }
     }
     
     // Close modals when clicking outside
