@@ -440,6 +440,9 @@ margin: 0rem !important;
               </div>
             </div>
             <a href="#register-now" class="button is-large button-cta w-button"><i class="fa-solid fa-paw" style="color: black; margin-right: 5px;"></i> Register now</a>
+            <div style="margin-top: -20px;">
+              <a href="#fly-me" id="fly-me-open-button" class="text-size-sm" style="color: var(--base-color-brand--blue)">Apply for attendance package</a>
+            </div>
           </div><img src="images/header-doge.png" loading="lazy" width="702" sizes="(max-width: 767px) 100vw, 702px" alt="Doge shiba inu on a surfboard" srcset="images/header-doge-p-500.png 500w, images/header-doge-p-800.png 800w, images/header-doge-p-1080.png 1080w, images/header-doge.png 1404w" class="img-header-doge">
         </div>
         <div class="header-wave"><img src="images/wave.svg" loading="lazy" alt=""></div>
@@ -1288,6 +1291,7 @@ margin: 0rem !important;
     const piClose = document.querySelector("#pi-modal .pi-modal-close");
     
     // Get the fly me modal elements
+    const flyMeModalOpenButton = document.getElementById("fly-me-open-button");
     const flyMeModal = document.getElementById("fly-me-modal");
     const flyMeLink = document.getElementById("fly-me-link");
     const flyMeClose = flyMeModal.querySelector(".fly-me-modal-close");
@@ -1302,6 +1306,12 @@ margin: 0rem !important;
     
     piClose.onclick = function() {
       piModal.style.display = "none";
+    }
+
+    flyMeModalOpenButton.onclick = function() {
+      flyMeModal.style.display = "block";
+      flyMePage1.style.display = "block";
+      flyMePage2.style.display = "none";
     }
     
     // Fly Me modal functionality
