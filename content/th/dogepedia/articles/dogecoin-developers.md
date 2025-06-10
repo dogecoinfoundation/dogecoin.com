@@ -9,7 +9,7 @@ type = "article"
 
 The development of Dogecoin is open, permissionless, and participatory. Over the years, a varied group of developers has contributed to the development of Dogecoin Core, Dogecoin's reference implementation.
 
-Dogecoin was created by Billy Markus and Jackson Palmer in 2013. Billy worked on Dogecoin Core as its main developer for its first releases. Dogecoin Core started as a fork of Lucky Coin and Litecoin, themselves forks of Bitcoin Core. Dogecoin Core thus derived most of its codebase from the work Bitcoin developers had done on the Bitcoin repository.
+Dogecoin was created by Billy Markus and Jackson Palmer in 2013. Billy served as the main developer for Dogecoin Core during its initial releases. The Dogecoin Core codebase was largely derived from the work done by Bitcoin developers on the Bitcoin repository.
 
 In 2014, Billy and Jackson left the project. A group of developers replaced them to act as maintainers of the repository. This group, whose composition changed  over the years, coordinated the efforts of more than 40 contributors. New contributors can join the development of Dogecoin Core in the public Github repository, available [here](https://github.com/dogecoin/dogecoin).
 
