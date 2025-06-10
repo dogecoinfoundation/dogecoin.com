@@ -5,7 +5,7 @@ name = "ShapeShift"
 order = "13"
 active = "yes"
 version = "n/a"
-wallet_Image = "https://github.com/user-attachments/assets/77420fb2-d975-4f3b-a827-e621aecb9181"
+wallet_Image = "https://github.com/user-attachments/assets/cd6f0cdb-0ed9-4035-8cf8-178c64072c86"
 website_url = "https://www.shapeshift.com/"
 git_url = "https://github.com/shapeshift/"
 
