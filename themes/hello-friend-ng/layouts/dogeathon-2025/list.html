@@ -187,41 +187,6 @@
     border: none;
   }
 
-  .fly-me-modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 1001;
-    max-height: 100vh;
-    overflow-y: auto;
-  }
-  
-  .fly-me-modal-content {
-    position: relative;
-    background: #201F1D;
-    margin: 5% auto;
-    height: auto;
-    width: auto;
-    border-radius: 10px;
-    box-sizing: border-box;
-    max-width: 700px;
-  }
-  
-  .fly-me-modal-close {
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    color: white;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-    z-index: 1002;
-  }
-
   .img-banner {
     width: 100%;
     min-height:183.55;
@@ -440,9 +405,6 @@ margin: 0rem !important;
               </div>
             </div>
             <a href="#register-now" class="button is-large button-cta w-button"><i class="fa-solid fa-paw" style="color: black; margin-right: 5px;"></i> Register now</a>
-            <div style="margin-top: -20px;">
-              <a href="#fly-me" id="fly-me-open-button" class="text-size-sm" style="color: var(--base-color-brand--blue)">Apply for attendance package</a>
-            </div>
           </div><img src="images/header-doge.png" loading="lazy" width="702" sizes="(max-width: 767px) 100vw, 702px" alt="Doge shiba inu on a surfboard" srcset="images/header-doge-p-500.png 500w, images/header-doge-p-800.png 800w, images/header-doge-p-1080.png 1080w, images/header-doge.png 1404w" class="img-header-doge">
         </div>
         <div class="header-wave"><img src="images/wave.svg" loading="lazy" alt=""></div>
@@ -857,7 +819,6 @@ margin: 0rem !important;
                 <h2 class="heading-container">Attend hackathon</h2>
               </div>
               <p class="text-size-rg">Fill in the form below to register for the Dogeathon 2025. Once registered, we&#x27;ll give you instructions on how to pay the <span class="text-color-yellow">Ð269</span> registration fee.</p>
-              <p class="text-size-rg">Dreaming of hacking it out in Portugal but travel is a stretch? <a href="#" id="fly-me-link">Apply now</a> for travel assistance</p>
             </div>
             <div id="attend-form" class="attend-form-container">
               <div class="w-form" id="register-now">
@@ -1194,110 +1155,11 @@ margin: 0rem !important;
     </div>
   </div>
   
-  <!-- Fly Me Modal -->
-  <div id="fly-me-modal" class="fly-me-modal">
-    <div class="fly-me-modal-content sty">
-      <span class="fly-me-modal-close">&times;</span>
-      <div id="fly-me-page1" class="fly-me-page"style="text-align: center; padding: 50px;">
-        <img src="images/fly-me-banner.png" loading="lazy" alt="Fly me banner" class="img-banner">
-        <h2>Fly me to the moon!</h2>
-        <h2>Dogeathon Attendance Assistance</h2>
-        <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
-          <p style="margin: 0;">Powered by</p>
-          <img src="images/logo-21shares.svg" loading="lazy" alt="21 Shares logo" class="img-sponsor" style="width: 100px; height: auto;">
-        </div>
-        <div style="display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 10px; margin: 20px 0;">
-          <p style="text-align: left;">Dreaming of hacking it out in Portugal but travel's a stretch? Our friends at 21Shares are doing only good every day – and they're here to help Shibes get to Dogeathon 2025. Applications close 20 June 2025.</p>
-          <h4>✨ Support available:</h3>
-          <p style="text-align: left;">Up to $2000 USD in travel and accommodation assistance to help you make the trip happen.</p>
-          <h4>📝 How it works:</h3>
-          <div style="text-align: left; max-width: 400px; margin-left: 0;">
-            <ul style="list-style: none; padding: 0; margin: 0 0 20px 0;">
-              <li>• Tell us why you want to come to Dogeathon.</li>
-              <li>• We'll shortlist 10 submissions for a quick video chat.</li>
-              <li>• Up to 5 amazing shibes will be selected for liftoff.</li>
-            </ul>
-          </div>
-        </div>
-        
-        <button id="fly-me-apply" class="button is-large w-button">Apply Now</button>
-      </div>
-      <div id="fly-me-page2" class="fly-me-page" style="display: none; padding: 0px;">
-        <img src="images/fly-me-stars.svg" loading="lazy" alt="Fly me banner" class="img-banner-behind">
-        <doge-form-email
-            title="Need help getting to Dogeathon?"
-            subtitle="We’ve got you! Just answer a few quick questions to be considered for support. Applications close 20 June 2025."
-            email-to="fly-me-to-the-moon@dogecoin.org"
-            email-subject="New Contact Form Submission"
-            width="100%"
-            questions='[
-              {
-                "title": "🧠 Whats the big idea?",
-                "subtitle": "What cool thing do you want to work on or explore at Dogeathon? We want to hear it!",
-                "placeholder": ""
-              },
-              {
-                "title": "💸 Dogecoin is money – how would you love to spend yours?",
-                "subtitle": "Tell us where you’d love to see Doge make a difference in the real world.",
-                "placeholder": ""
-              },
-              {
-                "title": "💛 Do Only Good Everyday – how will you bring that energy?",
-                "subtitle": "Let us know how your project, idea, or vibe brings goodness to the community.",
-                "placeholder": ""
-              }
-            ]'
-            style="--doge-primary-color: #E3A849;
-            --doge-primary-hover-color: #E3A849;
-            --doge-text-color: #ffffff;
-            --doge-text-color-secondary: #cccccc; 
-            --doge-textarea-border-color: #333230;
-            --doge-textarea-background: #151413;
-            --doge-textentry-text-color: #ffffff;
-            --doge-textentry-placeholder-text-color: #878685;
-            --form-background: #201F1D;
-            --doge-textentry-placeholder-text-color: #878685;
-            --form-width: 800px;
-            --form-radius: 0px;"
-          >
-          <button slot="submit-button" 
-          type="submit"
-          onclick="this.closest('doge-form-email').shadowRoot.querySelector('form').requestSubmit()"
-          style="background-color: #E3A849;
-          border-radius: 999px;
-          font-family: 'Comic Neue', cursive; border: none;
-          font-size: 1rem;
-          font-weight: 700;
-          display: flex;
-          align-items: center;
-          gap: 8px;
-          padding: 0.75rem 1.5rem;
-          align-self: center;
-          color:#201F1D">
-              <svg viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 20px; height: 20px;">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M3.1665 10.2779C3.1665 7.86946 5.06131 5.8335 7.49984 5.8335H25.4998C27.9384 5.8335 29.8332 7.86946 29.8332 10.2779V22.7224C29.8332 25.1309 27.9384 27.1668 25.4998 27.1668H7.49984C5.06131 27.1668 3.1665 25.1309 3.1665 22.7224V10.2779ZM7.64319 8.50016L16.4236 14.8041C16.4514 14.824 16.4774 14.8304 16.4998 14.8304C16.5223 14.8304 16.5483 14.824 16.576 14.8041L25.3565 8.50016H7.64319ZM27.1665 10.4686C27.1234 10.5094 27.077 10.5477 27.0274 10.5833L18.1313 16.9703C17.1529 17.6727 15.8468 17.6727 14.8684 16.9703L5.97223 10.5833C5.92269 10.5477 5.87632 10.5094 5.83317 10.4686V22.7224C5.83317 23.7503 6.62465 24.5002 7.49984 24.5002H25.4998C26.375 24.5002 27.1665 23.7503 27.1665 22.7224V10.4686Z" fill="currentColor"/>
-              </svg>
-              Submit via email
-          </button>
-        </doge-form-email>
-      </div>
-    </div>
-  </div>
-  
   <script>
     // Get the pi modal elements
     const piModal = document.getElementById("pi-modal");
     const piBtn = document.getElementById("floating-pi");
     const piClose = document.querySelector("#pi-modal .pi-modal-close");
-    
-    // Get the fly me modal elements
-    const flyMeModalOpenButton = document.getElementById("fly-me-open-button");
-    const flyMeModal = document.getElementById("fly-me-modal");
-    const flyMeLink = document.getElementById("fly-me-link");
-    const flyMeClose = flyMeModal.querySelector(".fly-me-modal-close");
-    const flyMePage1 = document.getElementById("fly-me-page1");
-    const flyMePage2 = document.getElementById("fly-me-page2");
-    const flyMeApply = document.getElementById("fly-me-apply");
     
     // Pi modal functionality
     piBtn.onclick = function() {
@@ -1307,59 +1169,16 @@ margin: 0rem !important;
     piClose.onclick = function() {
       piModal.style.display = "none";
     }
-
-    flyMeModalOpenButton.onclick = function() {
-      flyMeModal.style.display = "block";
-      flyMePage1.style.display = "block";
-      flyMePage2.style.display = "none";
-    }
-    
-    // Fly Me modal functionality
-    flyMeLink.onclick = function(e) {
-      e.preventDefault();
-      flyMeModal.style.display = "block";
-      flyMePage1.style.display = "block";
-      flyMePage2.style.display = "none";
-    }
-
-    flyMeClose.onclick = function() {
-      flyMeModal.style.display = "none";
-    }
-
-    flyMeApply.onclick = function() {
-      flyMePage1.style.display = "none";
-      flyMePage2.style.display = "block";
-
-      // Scroll to the top of the modal
-      const modal = document.getElementById('fly-me-modal');
-        if (modal) {
-          modal.scrollTop = 0;
-        }
-    }
     
     // Close modals when clicking outside
     window.onclick = function(event) {
       if (event.target == piModal) {
         piModal.style.display = "none";
       }
-      if (event.target == flyMeModal) {
-        flyMeModal.style.display = "none";
-      }
     }
 
-    // Check URL hash on page load
-    window.onload = function() {
-      if (window.location.hash === '#fly-me') {
-        flyMeModal.style.display = "block";
-        flyMePage1.style.display = "block";
-        flyMePage2.style.display = "none";
-      }
-    }
+
   </script>
-   <script
-   type="module"
-   src="https://fetch.dogecoin.org/doge-form-email.js">
- </script>
 {{ partial "javascript.html" . }}  
 </body>
 </html>
