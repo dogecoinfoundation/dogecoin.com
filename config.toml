@@ -257,23 +257,23 @@ disableHugoGeneratorInject = false
 
 [[languages.en.params.footerFoundation]]
     name = "About"
-    url  = "https://foundation.dogecoin.com/about/"
+    url  = "https://dogecoin.org/about/"
 
   [[languages.en.params.footerFoundation]]
     name = "Manifesto"
-    url  = "https://foundation.dogecoin.com/manifesto/"
+    url  = "https://dogecoin.org/manifesto/"
 
   [[languages.en.params.footerFoundation]]
     name = "Advisors"
-    url  = "https://foundation.dogecoin.com/about/"
+    url  = "https://dogecoin.org/about/"
 
   [[languages.en.params.footerFoundation]]
     name = "Blog"
-    url  = "https://foundation.dogecoin.com/announcements/"
+    url  = "https://dogecoin.org/announcements/"
 
   [[languages.en.params.footerFoundation]]
     name = "Trailmap"
-    url  = "https://foundation.dogecoin.com/trailmap/prologue/"
+    url  = "https://dogecoin.org/trailmap/prologue/"
 
 ##############################
 # Language Translation FR
@@ -361,23 +361,23 @@ disableHugoGeneratorInject = false
 
 [[languages.fr.params.footerFoundation]]
     name = "About"
-    url  = "https://foundation.dogecoin.com/about/"
+    url  = "https://dogecoin.org/about/"
 
   [[languages.fr.params.footerFoundation]]
     name = "Manifesto"
-    url  = "https://foundation.dogecoin.com/manifesto/"
+    url  = "https://dogecoin.org/manifesto/"
 
   [[languages.fr.params.footerFoundation]]
     name = "Advisors"
-    url  = "https://foundation.dogecoin.com/about/"
+    url  = "https://dogecoin.org/about/"
 
   [[languages.fr.params.footerFoundation]]
     name = "Blog"
-    url  = "https://foundation.dogecoin.com/announcements/"
+    url  = "https://dogecoin.org/announcements/"
 
   [[languages.fr.params.footerFoundation]]
     name = "Trailmap"
-    url  = "https://foundation.dogecoin.com/roadmap/"
+    url  = "https://dogecoin.org/roadmap/"
 
 ##############################
 # Language Translation DE
@@ -465,23 +465,23 @@ disableHugoGeneratorInject = false
 
 [[languages.de.params.footerFoundation]]
     name = "About"
-    url  = "https://foundation.dogecoin.com/about/"
+    url  = "https://dogecoin.org/about/"
 
   [[languages.de.params.footerFoundation]]
     name = "Manifesto"
-    url  = "https://foundation.dogecoin.com/manifesto/"
+    url  = "https://dogecoin.org/manifesto/"
 
   [[languages.de.params.footerFoundation]]
     name = "Advisors"
-    url  = "https://foundation.dogecoin.com/about/"
+    url  = "https://dogecoin.org/about/"
 
   [[languages.de.params.footerFoundation]]
     name = "Blog"
-    url  = "https://foundation.dogecoin.com/announcements/"
+    url  = "https://dogecoin.org/announcements/"
 
   [[languages.de.params.footerFoundation]]
     name = "Trailmap"
-    url  = "https://foundation.dogecoin.com/roadmap/"
+    url  = "https://dogecoin.org/roadmap/"
 
 
 ##############################
@@ -570,23 +570,23 @@ disableHugoGeneratorInject = false
 
 [[languages.zh-cn.params.footerFoundation]]
     name = "关于"
-    url  = "https://foundation.dogecoin.com/zh-cn/about/"
+    url  = "https://dogecoin.org/zh-cn/about/"
 
   [[languages.zh-cn.params.footerFoundation]]
     name = "宣言"
-    url  = "https://foundation.dogecoin.com/zh-cn/manifesto/"
+    url  = "https://dogecoin.org/zh-cn/manifesto/"
 
   [[languages.zh-cn.params.footerFoundation]]
     name = "顾问团"
-    url  = "https://foundation.dogecoin.com/zh-cn/about/"
+    url  = "https://dogecoin.org/zh-cn/about/"
 
   [[languages.zh-cn.params.footerFoundation]]
     name = "博客"
-    url  = "https://foundation.dogecoin.com/zh-cn/announcements/"
+    url  = "https://dogecoin.org/zh-cn/announcements/"
 
  [[languages.zh-cn.params.footerFoundation]]
     name = "路线图"
-    url  = "https://foundation.dogecoin.com/zh-cn/roadmap/"
+    url  = "https://dogecoin.org/zh-cn/roadmap/"
 
 ##############################
 # Language Translation PT-PT
@@ -674,23 +674,23 @@ disableHugoGeneratorInject = false
 
 [[languages.pt-pt.params.footerFoundation]]
     name = "Sobre"
-    url  = "https://foundation.dogecoin.com/about/"
+    url  = "https://dogecoin.org/about/"
 
   [[languages.pt-pt.params.footerFoundation]]
     name = "Manifesto"
-    url  = "https://foundation.dogecoin.com/manifesto/"
+    url  = "https://dogecoin.org/manifesto/"
 
   [[languages.pt-pt.params.footerFoundation]]
     name = "Consultores"
-    url  = "https://foundation.dogecoin.com/about/"
+    url  = "https://dogecoin.org/about/"
 
   [[languages.pt-pt.params.footerFoundation]]
     name = "Blog"
-    url  = "https://foundation.dogecoin.com/announcements/"
+    url  = "https://dogecoin.org/announcements/"
 
   [[languages.pt-pt.params.footerFoundation]]
     name = "Trailmap"
-    url  = "https://foundation.dogecoin.com/roadmap/"
+    url  = "https://dogecoin.org/roadmap/"
 
 ##############################
 # Language Translation NO
@@ -778,23 +778,23 @@ disableHugoGeneratorInject = false
 
 [[languages.no.params.footerFoundation]]
     name = "About"
-    url  = "https://foundation.dogecoin.com/about/"
+    url  = "https://dogecoin.org/about/"
 
   [[languages.no.params.footerFoundation]]
     name = "Manifesto"
-    url  = "https://foundation.dogecoin.com/manifesto/"
+    url  = "https://dogecoin.org/manifesto/"
 
   [[languages.no.params.footerFoundation]]
     name = "Advisors"
-    url  = "https://foundation.dogecoin.com/about/"
+    url  = "https://dogecoin.org/about/"
 
   [[languages.no.params.footerFoundation]]
     name = "Blog"
-    url  = "https://foundation.dogecoin.com/announcements/"
+    url  = "https://dogecoin.org/announcements/"
 
   [[languages.no.params.footerFoundation]]
     name = "Trailmap"
-    url  = "https://foundation.dogecoin.com/roadmap/"
+    url  = "https://dogecoin.org/roadmap/"
 
 ##############################
 # Language Translation TH
@@ -882,23 +882,23 @@ disableHugoGeneratorInject = false
 
 [[languages.th.params.footerFoundation]]
     name = "About"
-    url  = "https://foundation.dogecoin.com/about/"
+    url  = "https://dogecoin.org/about/"
 
   [[languages.th.params.footerFoundation]]
     name = "Manifesto"
-    url  = "https://foundation.dogecoin.com/manifesto/"
+    url  = "https://dogecoin.org/manifesto/"
 
   [[languages.th.params.footerFoundation]]
     name = "Advisors"
-    url  = "https://foundation.dogecoin.com/about/"
+    url  = "https://dogecoin.org/about/"
 
   [[languages.th.params.footerFoundation]]
     name = "Blog"
-    url  = "https://foundation.dogecoin.com/announcements/"
+    url  = "https://dogecoin.org/announcements/"
 
   [[languages.th.params.footerFoundation]]
     name = "Trailmap"
-    url  = "https://foundation.dogecoin.com/roadmap/"
+    url  = "https://dogecoin.org/roadmap/"
 
 
 ##############################
@@ -987,23 +987,23 @@ disableHugoGeneratorInject = false
 
 [[languages.es.params.footerFoundation]]
     name = "About"
-    url  = "https://foundation.dogecoin.com/about/"
+    url  = "https://dogecoin.org/about/"
 
   [[languages.es.params.footerFoundation]]
     name = "Manifesto"
-    url  = "https://foundation.dogecoin.com/manifesto/"
+    url  = "https://dogecoin.org/manifesto/"
 
   [[languages.es.params.footerFoundation]]
     name = "Advisors"
-    url  = "https://foundation.dogecoin.com/about/"
+    url  = "https://dogecoin.org/about/"
 
   [[languages.es.params.footerFoundation]]
     name = "Blog"
-    url  = "https://foundation.dogecoin.com/announcements/"
+    url  = "https://dogecoin.org/announcements/"
 
   [[languages.es.params.footerFoundation]]
     name = "Trailmap"
-    url  = "https://foundation.dogecoin.com/roadmap/"
+    url  = "https://dogecoin.org/roadmap/"
 
 
 ##############################
@@ -1092,20 +1092,20 @@ disableHugoGeneratorInject = false
 
 [[languages.zh-tw.params.footerFoundation]]
     name = "About"
-    url  = "https://foundation.dogecoin.com/zh-tw/about/"
+    url  = "https://dogecoin.org/zh-tw/about/"
 
   [[languages.zh-tw.params.footerFoundation]]
     name = "Manifesto"
-    url  = "https://foundation.dogecoin.com/zh-tw/manifesto/"
+    url  = "https://dogecoin.org/zh-tw/manifesto/"
 
   [[languages.zh-tw.params.footerFoundation]]
     name = "Advisors"
-    url  = "https://foundation.dogecoin.com/zh-tw/about/"
+    url  = "https://dogecoin.org/zh-tw/about/"
 
   [[languages.zh-tw.params.footerFoundation]]
     name = "Blog"
-    url  = "https://foundation.dogecoin.com/zh-tw/announcements/"
+    url  = "https://dogecoin.org/zh-tw/announcements/"
 
   [[languages.zh-tw.params.footerFoundation]]
     name = "Trailmap"
-    url  = "https://foundation.dogecoin.com/zh-tw/trailmap/prologue/"
+    url  = "https://dogecoin.org/zh-tw/trailmap/prologue/"
