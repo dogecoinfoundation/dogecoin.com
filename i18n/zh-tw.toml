@@ -42,10 +42,10 @@ other = "最後修改"
 # website header SEO
 ##############################
 ["meta[title]"]
-other = "Dogecoin - An open-source peer-to-peer digital currency"
+other = "狗狗幣 - 一個開源的點對點數位貨幣"
 
 ["meta[description]"]
-other = "An open-source peer-to-peer digital currency, favoured by Shiba Inus worldwide"
+other = "一個開源的點對點數位貨幣，全球柴犬們超愛的！"
 
 ["meta[keywords]"]
 other = "dogecoin, doge, currency, cryptocurrency, digital currency, shiba inu"
@@ -56,7 +56,7 @@ other = "dogecoin, doge, currency, cryptocurrency, digital currency, shiba inu"
 ##############################
 
 ["index[warning]"]
-other = "Such Core Wallet 1.14.9 released! Much upgrade, plz!"
+other = "核心錢包 1.14.9 版發布！大幅升級，請更新！"
 
 ["index[slogan]"]
 other = "the people’s"
@@ -118,13 +118,13 @@ other = "Read more"
 # partials/whatisdogecoin.html
 ##############################
 ["whatisdogecoin[title]"]
-other = "What is Dogecoin?"
+other = "什麼是狗狗幣?"
 
 ["whatisdogecoin[text1]"]
-other = "An open-source peer-to-peer digital currency, favoured by"
+other = "開源點對點的數字貨幣 - "
 
 ["whatisdogecoin[text2]"]
-other = "Shiba Inus worldwide."
+other = "全世界柴柴最愛"
 
 ["whatisdogecoin[lead]"]
 other = "At its heart,"
@@ -139,55 +139,55 @@ other = "Dogecoin Manifesto"
 other = ", and its amazing, vibrant community made up of friendly folks just like you!"
 
 ["whatisdogecoin[here]"]
-other = "Learn more."
+other = "了解更多"
 
 ["whatisdogecoin[choosewallet][started]"]
-other = "Getting started"
+other = "開始使用"
 
 ["whatisdogecoin[choosewallet][title1]"]
-other = "choose your wallet"
+other = "選擇你的錢包"
 
 ["whatisdogecoin[choosewallet][text1]"]
-other = "A wallet is necessary for people wanting to use, trade, or hold Dogecoin. You can pick a wallet"
+other = "想要使用、交易或持有狗狗幣的人需要一個錢包。你可以選擇一個錢包"
 
 ["whatisdogecoin[choosewallet][title2]"]
-other = "configure your wallet"
+other = "設定你的錢包"
 
 ["whatisdogecoin[choosewallet][text2]"]
-other = "After downloading, you can configure your wallet according to our"
+other = "下載後，你可以根據我們的"
 
 ["whatisdogecoin[guide]"]
-other = "guide."
+other = "指南進行錢包設定。"
 
 ["whatisdogecoin[choosewallet][title3]"]
-other = "get some dogecoin"
+other = "取得狗狗幣"
 
 ["whatisdogecoin[choosewallet][text3]"]
-other = "There’s lots of ways to get your hands on some Dogecoin."
+other = "有很多方法可以讓你獲得狗狗幣。"
 
 ["whatisdogecoin[learnmore]"]
-other = "Learn more."
+other = "了解更多。"
 
 ##############################
 # partials/wallets.html
 ##############################
 ["wallets[title]"]
-other = "Wallets"
+other = "錢包"
 
 ["wallets[text1]"]
-other = "There are many ways you can get a wallet, and the best choice of wallet for you is dependent upon the purpose for which you intend to use your Dogecoin. There are two overarching categories of wallets: ‘custodial’ and ‘non-custodial’, depending on whether you are the sole holder of your wallet’s private key. The wallets listed on this website are non-custodial wallets, meaning that you possess and control the private keys."
+other = "獲得錢包的方式有很多種，而最適合你的錢包取決於你打算如何使用狗狗幣。錢包主要分為兩大類：『託管』和『非託管』，這取決於你是否是錢包私鑰的唯一持有者。本網站列出的錢包均為非託管錢包，這意味著你擁有並控制私鑰。"
 
 ["wallets[multidoge][title1]"]
 other = "MultiDoge"
 
 ["wallets[multidoge][text1]"]
-other = "MultiDoge is a 'light' wallet. It syncs with the blockchain by 'skimming' through the blockchain, providing fast sync times."
+other = "MultiDoge 是一款『輕量』錢包。它通過『快速掃描』區塊鏈進行同步，提供快速的同步時間。"
 
 ["wallets[core][title1]"]
-other = "Dogecoin Core"
+other = "狗狗幣核心"
 
 ["wallets[core][text1]"]
-other = "Dogecoin Core, on the other hand, is a 'full' wallet. It syncs by downloading the blockchain, providing a solid-working Dogecoin wallet."
+other = "狗狗幣核心則是一款『完整』錢包。它通過下載整個區塊鏈進行同步，提供一個穩定運作的狗狗幣錢包。"
 
 ["wallets[mydoge][title1]"]
 other = "MyDoge"
@@ -199,50 +199,50 @@ other = "MyDoge is a free and secure self-custodial Dogecoin wallet. It's also a
 # partials/community.html
 ##############################
 ["community[title1]"]
-other = "Do Only"
+other = "日日"
 
 ["community[title2]"]
-other = "Good Everyday."
+other = "行善"
 
 ["community[text1]"]
-other = "The Dogecoin community cares about supporting each other, being kind, teaching people about cryptocurrency, fundraising, having fun, making memes, and being absurd. This is nicely captured by Dogecoin’s unofficial tagline: <b>D</b>o <b>O</b>nly <b>G</b>ood <b>E</b>veryday. Get involved in our awesome community via the below links:"
+other = "狗狗幣社群重視相互支持、友善、教導他人了解加密貨幣、募款、享受樂趣、製作迷因，以及保持幽默。這一點很好地體現在狗狗幣的非官方標語：Do Only Good Everyday。透過以下連結加入我們精彩的社群"
 
 ##############################
 # partials/community.html
 ##############################
 
 ["resources[title]"]
-other = "Find out more about Dogecoin"
+other = "了解更多關於狗狗幣的資訊"
 
 ["resources[viewall]"]
-other = "VIEW ALL"
+other = "查看全部"
 
 ["resources[visit]"]
-other = "Visit"
+other = "前往"
 
 ["resources[title1]"]
-other = "Foundation"
+other = "基金會"
 
 ["resources[text1]"]
-other = "Learn more about the Dogecoin Foundation and its Trailmap for Dogecoin!"
+other = "了解更多關於狗狗幣基金會及其狗狗幣路線圖的資訊！"
 
 ["resources[title2]"]
-other = "Blogs"
+other = "部落格"
 
 ["resources[text2]"]
-other = "Stay up to date with blog posts from Foundation Developers!"
+other = "透過基金會開發者的部落格文章保持最新資訊！"
 
 ["resources[title3]"]
-other = "Announcements"
+other = "公告"
 
 ["resources[text3]"]
-other = "Announcements from the Dogecoin Foundation can be found here."
+other = "狗狗幣基金會的公告可以在這裡找到。"
 
 ["resources[title4]"]
-other = "IP FAQs"
+other = "知識產權常見問題"
 
 ["resources[text4]"]
-other = "Read our responses to some frequently asked questions about Dogecoin IP."
+other = "閱讀我們對狗狗幣知識產權相關常見問題的回答。"
 
 
 ##############################
@@ -250,77 +250,77 @@ other = "Read our responses to some frequently asked questions about Dogecoin IP
 ##############################
 
 ["tablist[read-more]"]
-other = "Read more"
+other = "閱讀更多"
 
 ##############################
 # partials/tablist_menu.html
 ##############################
 
 ["tabmenu[faq]"]
-other = "FAQ"
+other = "常見問題"
 
 ["tabmenu[resources]"]
-other = "Resources"
+other = "資源"
 
 ["tabmenu[how-to]"]
-other = "How To's"
+other = "使用指南"
 
 ["tabmenu[documentation]"]
-other = "Documentation"
+other = "文件"
 
 ##############################
 # partials/footer.html
 ##############################
 
 ["footer[text1]"]
-other = "The Shiba Inu is a Japanese breed of dog that was popularized as an online meme and represents Dogecoin. Dogecoin was created by Jackson Palmer & Shibetoshi Nakamoto."
+other = "柴犬是一種日本犬種，因網路迷因而廣受歡迎，並代表狗狗幣。狗狗幣由傑克森·帕爾默（Jackson Palmer）和中本柴（Shibetoshi Nakamoto）創建。"
 
 ["footer[legal]"]
-other = "Legal"
+other = "法律資訊"
 
 ["footer[sitemap]"]
-other = "Sitemap"
+other = "網站地圖"
 
 ["footer[foundation]"]
-other = "Foundation"
+other = "基金會"
 
 ["footer[copyright]"]
-other = "The Dogecoin Foundation & Dogecoin Project. All rights reserved."
+other = "狗狗幣基金會與狗狗幣項目。保留所有權利。"
 
 ##############################
 # wallets/list.html
 ##############################
 
 ["listWallets[muchgoback]"]
-other = "Much Go Back"
+other = "非常返回"
 
 ["listWallets[wallet]"]
-other = "Wallet"
+other = "錢包"
 
 ["listWallets[type]"]
-other = "Type"
+other = "類型"
 
 ["listWallets[active]"]
-other = "Active"
+other = "活躍狀態"
 
 ["listWallets[version]"]
-other = "Version"
+other = "版本"
 
 ["listWallets[download]"]
-other = "Download"
+other = "下載"
 
 ##############################
 # contributors/list.html
 ##############################
 
 ["listContributors[muchgoback]"]
-other = "Much Go Back"
+other = "非常返回"
 
 ["listContributors[shibe]"]
-other = "Shibe"
+other = "柴犬成員"
 
 ["listContributors[contribution]"]
-other = "Contribution"
+other = "貢獻"
 
 ["listContributors[social]"]
-other = "Social"
+other = "社群"

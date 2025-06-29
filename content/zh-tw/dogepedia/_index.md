@@ -1,14 +1,14 @@
 +++
-title = "Dogepedia"
+title = "狗狗維基"
 date = "2021-10-22"
 aliases = ["dogepedia"]
 draft = false
 type = "dogepedia"
 
-faq = "Frequently Asked Questions"
-resources = "Resources"
+faq = "常問問題"
+resources = "資源"
 howto = "How To's"
-documentation = "Documentation"
+documentation = "說明書"
 article = "Articles"
 
 [_build]
@@ -18,14 +18,14 @@ article = "Articles"
 
 Dogepedia is the resource containing Documentation, Guides, FAQs and Resources related to Dogecoin. The place to be for all shibes trying to learn about Dogecoin and crypto. Such knowledge! Much wow!
 
-## Documentation {#documentation}
+## 說明書 {#documentation}
 ***
-### Dogecoin {#dogecoin}
+### 狗狗幣 {#dogecoin}
 The basics. Learn what Dogecoin is, and how it works.
 - [What is Dogecoin?](/zh-tw/dogepedia/articles/what-is-dogecoin)
 - [What is the history of Dogecoin?](/zh-tw/dogepedia/articles/history-of-dogecoin)
-- [How does Dogecoin work?](/zh-tw/dogepedia/articles/how-does-dogecoin-work)
-- [Who owns and controls the Dogecoin network?](/zh-tw/dogepedia/articles/who-owns-dogecoin)
+- [How does 狗狗幣 work?](/zh-tw/dogepedia/articles/how-does-dogecoin-work)
+- [Who owns and controls the 狗狗幣 network?](/zh-tw/dogepedia/articles/who-owns-dogecoin)
 - [I want some Dogecoin! How can I get it?](/zh-tw/dogepedia/articles/get-dogecoin)
 
 ### Wallets {#wallets}
