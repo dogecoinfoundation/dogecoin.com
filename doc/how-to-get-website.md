@@ -1,6 +1,6 @@
-# How To Get Dogecoin Preview Website
+# How To Get Dogecoin Website
 
-- [How To Get Dogecoin Preview Website](#how-to-get-dogecoin-website)
+- [How To Get Dogecoin Website](#how-to-get-dogecoin-website)
   - [Install Git](#install-git)
     - [Install Git (Command-line)](#install-git-command-line)
     - [Install Git (GUI)](#install-git-gui)

@@ -1,5 +1,5 @@
 +++
-title = "What are the benefits of a hardware wallet, and how to use it with Doge?"
+title = "硬件钱包的优点以及如何使用？"
 date = "2021-10-22"
 type = "article"
 
@@ -7,14 +7,14 @@ type = "article"
   name = "Dogecoin"
 +++
 
-A hardware wallet is a device designed to store a user's *private keys* securely, without ever exposing them to other external devices or the internet. For this reason, most hardware wallets are [cold wallets](/dogepedia/articles/how-do-i-get-a-wallet) and are amongst the most secure methods for storing and using Dogecoin and other cryptos. 
+硬件钱包是一种用于安全存储用户私钥的设备，不会将它们暴露给其他外部设备或互联网。因此，大多数硬件钱包都是冷钱包，是存储和使用狗狗币以及其他加密货币最安全的方法之一。
 
-Usually, hardware wallets can be connected to a PC or another device via a USB or Bluetooth connection. Through this connection, they can be used to sign a transaction occurring in a wallet application running on the external device (such as your PC). The transaction is signed inside the hardware wallet, and, unless the hardware wallet has been previously compromised, the private keys are never exposed to the outside world throughout this process. 
+通常，硬件钱包可以通过USB或蓝牙等其他设备连接到电脑。通过此连接，它们可以用来对外部设备(如你的电脑)上运行的钱包应用程序中的交易进行签名。交易是在硬件钱包内进行签名的，除非硬件钱包以前有被泄露过，否则在整个过程中私钥永远不会向外界公开。
 
-In theory, this makes a hardware wallet safe to use also on a compromised computer. There are several manufacturers of hardware wallets. Each manufacturer includes different features in their hardware and associated software to prevent common pitfalls crypto holders tend to fall into when storing their crypto. These features might include security PINs, self-destruction mechanisms, and automatic generation of seed phrases.
+从理论上讲，这使得硬件钱包在有风险的电脑上使用也很安全。有几家硬件钱包制造商，它们在其硬件和相关软件中都包含了不同的特性，以防止加密货币持有者在存储加密货币时落入常见的陷阱。这些特性可能包括安全PIN码、自毁机制和自动生成助记词。
 
-Nowadays, most hardware wallets rely on the use of a *seed phrase*, also called *mnemonic phrase* or *mnemonic seed*. A seed phrase is usually a 24-word phrase that acts as a sort of master key which the hardware wallet uses to calculate all the private keys needed to access and spend the crypto you are holding. Upon first use of a hardware wallet, a new seed phrase is generated or an old one can be input. 
+如今，大多数硬件钱包都依赖于使用*助记词*，助记词作为一种主密钥通常是由24个单词组成，硬件钱包通过使用它计算出私钥并访问和使用你所持有的加密货币。在首次使用硬件钱包时，可以生成新的助记词或者输入旧的助记词。
 
-The seed phrase is the key to all the cryptocurrencies you are holding on a hardware wallet. For this reason, it is also known as *recovery phrase*, and you must store it safely, in multiple copies, in several safe locations. A copy of the seed phrase is all you need to have a full backup of your hardware wallet. Even if your hardware wallet is lost, you can just restore access to all your crypto by simply inserting the seed phrase you have backed up in a new wallet.
+助记词是你在硬件钱包中所有加密货币的钥匙。正因如此，它也被称为*恢复短语*，你必须在数个安全的地方，并将它储存在多个副本中。助记词的副本就等同于你对自己的硬件钱包进行了完整备份，即使你的硬件钱包丢失了，你也可以通过简单地输入你曾备份的助记词到新钱包中，从而恢复你所有的加密货币。
 
-Using a hardware wallet with Dogecoin is very easy to do, and all hardware wallet manufacturers provide instructions on how to transact with their devices. Oftentimes it is simply a matter of inserting the device into your computer, entering the PIN and/or an optional passphrase, and then initiating and confirming the transaction that you’d like to make. An added benefit of hardware wallets is that they can facilitate a way of transacting with your Doge aimed at [protecting your privacy](/dogepedia/articles/dogecoin-and-privacy).
+使用狗狗币的硬件钱包非常容易，所有的硬件钱包制造商都提供了说明，来指导你如何使用他们的设备进行交易。通常情况下，只需将设备插入电脑，输入PIN码或可选的密码，然后开始并确认你想要进行的交易。硬件钱包的另一个好处是，它们可以使你的狗狗币交易变得更加容易的同时亦保护你的隐私。

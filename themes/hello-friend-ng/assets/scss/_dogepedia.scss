@@ -10,7 +10,7 @@
     }
 
     h3{
-      padding: 10px
+      padding: 10px 10px 10px 0
     }
     article > div > ul > li{
        list-style: none;
@@ -57,7 +57,7 @@
     .box {
       margin-top: 50px !important;
       margin-bottom: 50px !important;
-      width: 80vw;
+      width: 95vw;
       margin: auto;
     }
 
@@ -139,6 +139,7 @@
       button {
       display: block;
       width: 100%;
+      color: #000000;
       // background-color: inherit;
       float: left;
       border: none;

@@ -91,9 +91,9 @@ pre {
 
 a {
   background-color: transparent;
+/*  text-decoration: none !important;*/
     &:hover {
         color: #ffc107 !important;
-        text-decoration: none !important;
         text-shadow: 0px 0px 1px #D1D1D1 !important;
         background: transparent !important
     }
@@ -455,4 +455,19 @@ input{
 table{
  padding-top: 15px;
  padding-bottom: 15px;
+}
+
+/**
+ * Correct wallets page
+ */
+
+div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-name{
+  color: #000000;
+}
+
+#Wallets > tbody > tr > td > div > div > button{
+  color: #000000;
+}
+#Wallets > tbody > tr > td > div > div > button:hover{
+  color: #FFF;
 }

@@ -38,6 +38,70 @@ other = "{{ .Count }} വാക്കുകൾ"
 [lastModified]
 other = "അവസാനമായി പുതുക്കിയത്"
 
+##############################
+# website header SEO
+##############################
+["meta[title]"]
+other = "Dogecoin - An open-source peer-to-peer digital currency"
+
+["meta[description]"]
+other = "An open-source peer-to-peer digital currency, favoured by Shiba Inus worldwide"
+
+["meta[keywords]"]
+other = "dogecoin, doge, currency, cryptocurrency, digital currency, shiba inu"
+
+
+##############################
+# index.html
+##############################
+
+["index[warning]"]
+other = "Such Core Wallet 1.14.9 released! Much upgrade, plz!"
+
+["index[slogan]"]
+other = "the people’s"
+
+["index[sloganC]"]
+other = "c"
+
+["index[sloganR]"]
+other = "r"
+
+["index[sloganY]"]
+other = "y"
+
+["index[sloganP]"]
+other = "p"
+
+["index[sloganT]"]
+other = "t"
+
+["index[sloganO]"]
+other = "o"
+
+["index[sloganC1]"]
+other = "c"
+
+["index[sloganU]"]
+other = "u"
+
+["index[sloganR1]"]
+other = "r"
+
+["index[sloganR2]"]
+other = "r"
+
+["index[sloganE]"]
+other = "e"
+
+["index[sloganN]"]
+other = "n"
+
+["index[sloganC2]"]
+other = "c"
+
+["index[sloganY1]"]
+other = "y"
 
 ##############################
 # partials/list.html

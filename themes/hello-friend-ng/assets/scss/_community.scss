@@ -64,3 +64,52 @@
     margin: auto;
   }
 }
+
+#community > div > div > a{
+   text-decoration: none;
+}
+
+#community > div > div > a:nth-child(1) > div{
+  @media (prefers-color-scheme: light) {
+    background-image: url(/assets/images/Twitter_Logo.svg) !important;
+  }
+  @media (prefers-color-scheme: dark) {
+    background-image: url(/assets/images/Twitter_Dark_Logo.svg) !important;
+  }
+  [data-theme=light] & {
+    background-image: url(/assets/images/Twitter_Logo.svg) !important;
+  }
+  [data-theme=dark] & {
+    background-image: url(/assets/images/Twitter_Dark_Logo.svg) !important;
+  }
+}
+
+#community > div > div > a:nth-child(2) > div{
+  @media (prefers-color-scheme: light) {
+    background-image: url(/assets/images/Reddit_Logo.svg) !important;
+  }
+  @media (prefers-color-scheme: dark) {
+    background-image: url(/assets/images/Reddit_Dark_Logo.svg) !important;
+  }
+  [data-theme=light] & {
+    background-image: url(/assets/images/Reddit_Logo.svg) !important;
+  }
+  [data-theme=dark] & {
+    background-image: url(/assets/images/Reddit_Dark_Logo.svg) !important;
+  }
+}
+
+#community > div > div > a:nth-child(3) > div{
+  @media (prefers-color-scheme: light) {
+    background-image: url(/assets/images/Discord_Logo.svg) !important;
+  }
+  @media (prefers-color-scheme: dark) {
+    background-image: url(/assets/images/Discord_Dark_Logo.svg) !important;
+  }
+  [data-theme=light] & {
+    background-image: url(/assets/images/Discord_Logo.svg) !important;
+  }
+  [data-theme=dark] & {
+    background-image: url(/assets/images/Discord_Dark_Logo.svg) !important;
+  }
+}

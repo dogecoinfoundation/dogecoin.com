@@ -54,7 +54,11 @@ h3{
     height: 28vh;
     width: 100%;
     padding-top: 10px !important;
-    padding-left: 10px !important
+    padding-left: 10px !important;
+    position: unset;
+  }
+  .btn-outline-secondary{
+   position: unset;
   }
   .under-numbers {
     position: relative;
@@ -117,7 +121,11 @@ h3{
     height: 32vh;
     width: 100%;
     padding-top: 10px !important;
-    padding-left: 10px !important
+    padding-left: 10px !important;
+    position: unset;
+  }
+  .btn-outline-secondary{
+   position: unset;
   }
 
   .under-numbers {

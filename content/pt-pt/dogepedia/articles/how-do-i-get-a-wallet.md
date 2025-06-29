@@ -11,12 +11,12 @@ A wallet is necessary for people wanting to trade, use, or ‘hodl’ Dogecoin. 
 
 Generally speaking, there are two overarching categories of wallets: 'custodial' and 'non-custodial', depending on whether you are the sole holder of your wallet's private key. Additionally, wallets can be 'hot' or 'cold', depending on whether they are connected to the internet or not.
 
-![image info](../../../assets/images/dogepedia/4.png)
+![image info](/assets/images/dogepedia/4.png)
 ## Custodial Wallets and Non-Custodial Wallets {#custodial-vs-non-custodial-wallets}
 
-A **custodial wallet** is a wallet to which you do not hold the [private key](dogepedia/articles/how-to-backup-a-wallet). In this case, the term “custodial" means that a trusted entity *other than yourself* holds custody of the coins on your behalf and manages the private key. Examples of custodial wallets include web-based exchange wallets. 
+A **custodial wallet** is a wallet to which you do not hold the [private key](/dogepedia/articles/how-to-backup-a-wallet). In this case, the term “custodial" means that a trusted entity *other than yourself* holds custody of the coins on your behalf and manages the private key. Examples of custodial wallets include web-based exchange wallets.
 
-Advocates of custodial wallets appeal to the convenience of these types of wallets, and are typically favoured by people who [trade Dogecoin](dogepedia/articles/get-dogecoin) more frequently.
+Advocates of custodial wallets appeal to the convenience of these types of wallets, and are typically favoured by people who [trade Dogecoin](/dogepedia/articles/get-dogecoin) more frequently.
 
 A **non-custodial wallet**, on the other hand, is a wallet where you hold and control the private key to your Dogecoin. Many smartphone wallets, Dogecoin Core, and [hardware wallets](/dogepedia/articles/dogecoin-hardware-wallets) are examples of non-custodial wallets. Instead of the keys to your wallet being stored by a centralised third-party, non-custodial wallets store your private keys locally. This is why many people prefer non-custodial wallets, and is where the popular saying *‘not your keys, not your coins'* comes from. 
 

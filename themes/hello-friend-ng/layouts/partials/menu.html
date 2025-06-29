@@ -1,4 +1,8 @@
 <style type="text/css">
+.dogecoinswag{
+  display: none;
+}
+
 @media (max-width:960px) {
 .menu{
    width: 100% !important;
@@ -6,6 +10,25 @@
 .menu__inner a{
   font-size: 2rem !important;
 }
+.dogecoinswag{
+  display: inherit;
+}
+.dogecoinswagicon{
+  display: none;
+}
+
+}
+.fa-shirt {
+  color: rgba(204, 204, 204, 1) !important;
+}
+.fa-shirt:hover {
+  color: #ffc107 !important;
+}
+.dogeathon{
+  color: rgba(51, 51, 51, 1);
+}
+.dogeathon:hover{
+  color: rgba(51, 51, 51, 1) !important;
 }
 </style>
 <nav class="menu">
@@ -27,5 +50,7 @@
     {{ else }}
     <li><a href="{{ .URL | relLangURL }}" class="comic-neue tooltip-body-sub">{{ .Name }}</a></li>
     {{ end }} {{- end }}
+    <a href="/dogeathon" class="dogeathon"><li style="background-image: url(/dogeathon-2025/images/header-doge.png); background-size: contain; background-repeat: no-repeat; background-color: #e3a849; border-radius: 25px; padding: 5px 10px 5px 35px; color: #000">Dogeathon</li></a>
+    <li><a href="https://dogecoinswag.store/" class="comic-neue tooltip-body-sub" target="_blank" ><i class="fa-solid fa-shirt dogecoinswagicon"></i> <span class="dogecoinswag"> Dogecoin<span style="color: rgba(255, 0, 153, 1)">Swag</span></span></a></li>
   </ul>
 </nav>
