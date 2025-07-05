@@ -1,96 +1,62 @@
 +++
-title = "Trademarks"
+title = "註冊商標"
 date = "2014-04-09"
 aliases = ["trademarks"]
 [ author ]
   name = "Dogecoin"
 +++
 
-## Dogecoin’s intellectual property (IP)
-This intellectual property FAQ sets out a few questions that the Dogecoin Foundation is often asked
-about our approach to managing IP, in accordance with our
-[Manifesto](https://foundation.dogecoin.com/manifesto/) and for the benefit of the Dogecoin
-community.
-There are many types of IP, but for this FAQ, we are focusing on copyright and trademark as they
-relate to the Dogecoin “brand”.
-This FAQ does not cover issues related to the Dogecoin code, which is and will remain open-source.
-For more on the Dogecoin open-source project, please see the open-source [licence
+## 狗狗幣的知識產權 (IP)
+這個知識產權問答整理了狗狗幣基金會常被問到的問題，講述我們如何依據
+[狗狗幣宣言](https://foundation.dogecoin.com/manifesto/) 管理知識產權，為了狗狗幣社群的幸福。
+
+知識產權種類很多，但這篇問答專注於和狗狗幣「品牌」有關的版權和商標。
+
+這篇問答不包括狗狗幣程式碼的問題，程式碼永遠是開源的。想知道更多開源項目細節，請看開源 [licence
 terms](https://github.com/dogecoin/dogecoin).
-## So, what IP makes up the Dogecoin brand?
-The Dogecoin brand includes the Dogecoin name, logo, and slogans like "wow much coin" – nearly anything
-which clearly distinguishes Dogecoin and its much amaze community. We’ve included some pictures
-below, as examples. Our reputation and commitment to Do Only Good Everyday also forms part of
-the brand!
-We want to be mindful of how the logo and brand is used, in order to protect the community and
-what it stands for.
-In addition to the word “DOGECOIN”, here are some of the logos that make up the Dogecoin brand:
+## 那，狗狗幣品牌有哪些知識產權？
+狗狗幣品牌包含狗狗幣名稱、標誌，還有像「哇好多幣」的口號——任何能讓狗狗幣和它的超棒社群脫穎而出的東西！下面有幾張圖片當例子。我們的聲譽和「日日行善」的信念也是品牌的一部分！
+我們得小心管理標誌和品牌的用法，保護社群和它的價值。
+除了「DOGECOIN」這個詞，以下是狗狗幣品牌的一些標誌：
       <div class="row">
         <div class="col"><img class="under" src="/assets/images/dogecoin-1.png" style="max-width: 150px;" /></div>
         <div class="col"><img class="under" src="/assets/images/dogecoin-2.png" style="max-width: 150px;" /></div>
       </div>
 
-## What is copyright?
-Copyright is a legal protection for works with a 'creative stamp'. Typically, copyright focusses on
-artistic works, like drawings, photos, videos, GIFs, music, and more. Under copyright laws around the
-world, the owner of the work can protect their creation, usually by asking people not to use or share
-it without permission. Copyright is an automatic right, so you don’t need to register it.
-However, even when something is copyright protected, another person can still use it in certain
-contexts. This varies from country to country, but is typically known as 'fair use'. Most importantly
-for us, 'fair use' includes memes and allowing the #DogeArmy to continue expressing themselves
-creatively!
-## What is a trademark?
-A trademark is a way for a person, company or organisation to be identified as the provider of
-certain goods and services. Many famous brand names and logos are registered trademarks. This
-means that when people look at the good or service in question, they instantly recognise who is
-offering it!
-Like copyright, a trademark owner has the right to prevent others from using the relevant mark
-without consent. However, unlike copyright, trademarks indicate the “origin” of a product or service,
-and needs to be formally registered. The trademark, therefore, helps provide certainty, as a
-'guarantee of origin'.
-## Dogecoin Foundation has said it is fighting off “bad-faith trademark registrations.” What does this mean?
-The Dogecoin Foundation represents the accidental crypto-movement, designed to develop a
-currency for the People. We also strongly believe in our motto – Do Only Good Everyday. *We don’t
-want the Dogecoin community to be misled or taken advantage of by individuals or companies using
-the Dogecoin brand without permission or accountability.*
-For this reason, we don't like it when people who don’t care about the Dogecoin ethos try to make
-money off of the name and logo. This damages the brand and so damages our community.
-When someone does something in an unfair way, such as registering someone else's brand, this is
-known as doing so in “bad faith”. When this happens, and if we think there is a risk of the Dogecoin
-brand being damaged, we ask our Legal Shibes to review the situation.
-## Does this mean people can't make Dogecoin fan products through online marketplaces?
-*Absolutely not!* We love it when people use the meme in a fun way, as this is consistent with our
-values of being a welcoming cryptocurrency. We are about the community and not profit-driven
-economics. This is why we don't like people registering the Dogecoin brand or using the name or
-logo with a view to making profit for themselves.
-## Why is the Dogecoin Foundation registering the word "DOGECOIN" and other logos?
-If someone else registers the trademarks, they may not have the Dogecoin community’s best
-interests at heart. If someone else owns the logo, they may try to prevent the DogeArmy and other
-fans from using it, too!
-For that reason, the Foundation has chosen to register the trademarks; holding it safe for the
-Dogecoin community.
-The reality is that the majority of open-source projects have registered trademarks, which enables
-them to protect their logo and name for the good of their community.
-The trademark system is not perfect. It is complex, and cumbersome – much paperwork, such
-registration deadlines! However, they ultimately protect our community and the Dogecoin name
-against misuse and exploitation.
-Trademarks held by the genuine entity, means the logo and name can be better protected from
-misuse and made available as appropriate under transparent and accessible terms.
-## What can I do to help protect the Dogecoin brand?
-Continue to use the Dogecoin meme in collaborative, exciting and fun ways. But please, remember
-to Do Only Good Everyday. By following the values of our
-[Manifesto](https://foundation.dogecoin.com/manifesto/), you too are being a good Shibe.
-Due to the volume of emails we receive, we cannot always reply to questions and comments. That’s
-why we made this FAQ!
-We are working hard alongside our Legal Shibes to stay on top of Dogecoin brand protection, which
-includes copyright violations and trademark infringements. If you have a serious concern related to
-the use of the Dogecoin brand in a way that goes against our ethos, you can [contact
-us](mailto:legal@dogecoin.com).
-## Okay, so what does all of this mean for the Dogecoin community?
-This is important: you are welcome – and encouraged – to continue to use Dogecoin images and
-slogans for fan material and for other creative projects, including selling your fan art on, for
-example, an Etsy site about Dogecoin.
-But, if you use ‘Dogecoin’ in bad faith as part of a company name or a trademark in order to enhance
-your own commercial business, or use the Dogecoin name, trademark, or other assets to suggest
-endorsement by Dogecoin without talking to us first, that’s not cool. And we need to be cautious, in
-order to protect the community.
+## 版權是什麼？
+版權是保護帶有「創意特色」的作品的法律權利。通常保護藝術創作，像畫畫、照片、影片、GIF、音樂等等。根據全球版權法，創作者可以保護作品，要求別人沒許可不能用或分享。版權是自動生效的，不用註冊。
+
+但即使有版權，別人還是能在某些情況下用，這因國家不同，常用「合理使用」來形容。對我們來說，重點是「合理使用」包括迷因，讓 #狗狗軍團能繼續自由創作，超開心！
+## 註冊商標是什麼？
+商標是讓個人、公司或組織被認出是某些商品或服務提供者的標記。很多知名品牌名稱和標誌都是註冊商標。這樣大家一看到商品或服務，就知道是誰提供的！
+
+像版權一樣，商標擁有者可以禁止別人未經許可使用標誌。但跟版權不同，商標表示產品或服務的「來源」，需要正式註冊。商標就像「來源保證」，讓人安心。
+## 狗狗幣基金會說在對抗「惡意商標註冊」，這是啥，這代表什麼？
+狗狗幣基金會代表意外的加密運動，打造人民的貨幣。我們超相信狗狗幣宣言的「日日行善」。我們不希望狗狗幣社群被沒許可或不負責任用狗狗幣品牌的傢伙誤導或利用。
+
+所以，我們不喜歡不尊重狗狗幣精神的傢伙用名稱或標誌賺錢。這會傷害品牌，也傷害社群。
+
+當有人不公平地做事，比如搶註別人的品牌，這叫「惡意」行為。如果我們覺得這會損害狗狗幣品牌，我們會請法律柴犬來檢查
+## 這表示不能在線上市場賣狗狗幣粉絲產品嗎？
+當然可以！ 我們愛看大家用有趣的迷因方式玩，這跟我們做歡迎的加密貨幣的價值一致。我們在乎社群，不是利潤。所以我們不喜歡有人搶註狗狗幣品牌或用名稱、標誌來自己賺大錢。
+## 為什麼狗狗幣基金會要註冊「DOGECOIN」和其他標誌？
+如果別人搶註了商標，他們可能不關心狗狗幣社群的利益。如果標誌被別人擁有，他們可能會阻止狗狗軍團和其他粉絲使用！
+
+所以，基金會決定註冊商標，幫狗狗幣社群安全保管。
+
+很多開源項目都有註冊商標，這樣能保護標誌和名稱，為了社群好。
+
+商標系統不完美，超麻煩，文件一大堆，還要註冊期限！但它保護我們的社群和狗狗幣名稱，免於被濫用或剝削。
+
+由正宗的組織持有商標，標誌和名稱就能更好防濫用，並以透明、好用的方式提供。
+## 我能做啥幫忙保護狗狗幣品牌？
+繼續用合作、好玩、刺激的方式用狗狗幣迷因。但請記住日日行善。遵循
+[狗狗幣宣言](https://foundation.dogecoin.com/manifesto/) 的價值，你就是超棒柴犬！
+因為我們收到太多郵件，沒法每封都回，所以有了這個問答！
+
+我們跟法律柴犬努力保護狗狗幣品牌，處理版權侵犯和商標問題。如果你在意狗狗幣品牌被違背我們精神的使用，可以 [聯絡我們](mailto:legal@dogecoin.com).
+## 好的，這對狗狗幣社群意味著什麼？
+很重要：我們超歡迎——也鼓勵——你繼續用狗狗幣圖片和口號做粉絲作品或其他創意項目，比如在Etsy上賣狗狗幣粉絲藝術。
+
+但如果你惡意用「狗狗幣」做公司名稱或商標來推自己的生意，或用狗狗幣名稱、商標或其他資產暗示狗狗幣背書卻沒先跟我們談，這就不行。我們得小心保護社群。
 
