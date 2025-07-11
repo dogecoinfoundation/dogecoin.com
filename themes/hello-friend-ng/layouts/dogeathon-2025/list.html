@@ -379,6 +379,51 @@ margin: 0rem !important;
   padding-right: 0rem !important;
   padding-left: 0rem !important;
 }
+.logo-x {
+  background-color: var(--base-color-neutral--black);
+  border-radius: 100px;
+  width: 2rem;
+  padding: 4px;
+}
+.x-handle {
+  grid-column-gap: .75rem;
+  grid-row-gap: .75rem;
+  background-color: var(--base-color-neutral--neutral);
+  color: var(--link-color--link-alternate);
+  border-radius: 100px;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 16px 8px 8px;
+  text-decoration: none;
+  transition: background-color .2s;
+  display: flex;
+}
+
+.x-handle:hover {
+  background-color: var(--base-color-neutral--neutral-light);
+}
+.list-cards.list-cards-guests {
+  grid-column-gap: 3rem;
+}
+.card-guest {
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  background-color: var(--base-color-neutral--neutral-dark);
+  text-align: center;
+  border-radius: 1.5rem;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  display: flex;
+}
+.card-guest-avatar {
+  background-color: var(--base-color-neutral--neutral-darker);
+  border: 4px solid #000;
+  border-radius: 100%;
+  align-self: center;
+}
 </style>
     </div>
     <main class="main-wrapper">
@@ -685,59 +730,78 @@ margin: 0rem !important;
               <p class="text-size-rg">We&#x27;ve got some big barks and little wolfs, ready to share their knowledge and experience.</p>
             </div>
             <div class="list-cards list-cards-guests">
-              <div class="card-guest"><img src="images/doge1.png" loading="lazy" width="164.5" alt="" class="card-guest-avatar border-orange">
-                <div class="card-guest-details">
+              <div class="card-guest">
+                <div class="card-guest-details"><img src="images/doge1.png" loading="lazy" width="164.5" alt="" class="card-guest-avatar border-orange">
                   <div class="card-guest-heading">
-                    <h3>TBC</h3>
-                    <p class="text-weight-bold text-size-sm text-redacted">Blockchain Innovator</p>
+                    <h3>Chromatic</h3>
                   </div>
-                  <p class="text-size-sm text-redacted">Lorem ipsum dolor sit amet consectetur. Ullamcorper arcu arcu risus nunc gravida ultricies feugiat.</p>
+                  <p class="text-size-sm">15 min: Build on Core</p>
                 </div>
+                <a href="https://x.com/chromatic_x" target="_blank" class="x-handle w-inline-block">
+                  <div class="logo-x"><img src="images/x-logo.svg" loading="lazy" alt=""></div>
+                  <p>@chromatic_x</p>
+                </a>
               </div>
-              <div class="card-guest"><img src="images/doge2.png" loading="lazy" width="164" alt="" class="card-guest-avatar border-pink">
-                <div class="card-guest-details">
+              <div class="card-guest">
+                <div class="card-guest-details"><img src="images/doge3.png" loading="lazy" width="164.5" alt="" class="card-guest-avatar border-blue">
                   <div class="card-guest-heading">
-                    <h3>TBC</h3>
-                    <p class="text-weight-bold text-size-sm text-redacted">AI &amp; machine learning expert</p>
+                    <h3>Adam Brady</h3>
                   </div>
-                  <p class="text-size-sm text-redacted">Ullamcorper arcu arcu risus nunc gravida ultricies feugiat. Aliquet sem ornare mi tristique vulputate orci diam mattis non.</p>
+                  <p class="text-size-sm">15 min: Build on DogeBox</p>
                 </div>
+                <a href="https://x.com/adam__brady" target="_blank" class="x-handle w-inline-block">
+                  <div class="logo-x"><img src="images/x-logo.svg" loading="lazy" alt=""></div>
+                  <p>@adam__brady</p>
+                </a>
               </div>
-              <div class="card-guest"><img src="images/doge3.png" loading="lazy" width="164.5" alt="" class="card-guest-avatar border-green">
-                <div class="card-guest-details">
+              <div class="card-guest">
+                <div class="card-guest-details"><img src="images/doge4.png" loading="lazy" width="164.5" alt="" class="card-guest-avatar border-green">
                   <div class="card-guest-heading">
-                    <h3>TBC</h3>
-                    <p class="text-weight-bold text-size-sm text-redacted">Cryptocurrency economist</p>
+                    <h3>Alex</h3>
+                    <h5></h5>
                   </div>
-                  <p class="text-size-sm text-redacted">Nulla purus sit tortor pellentesque. Aliquet sem ornare mi tristique vulputate orci diam mattis non.</p>
+                  <p class="text-size-sm">15 min: Build on DogeOS</p>
                 </div>
+                <a href="https://x.com/MyDogeCTO" target="_blank" class="x-handle w-inline-block">
+                  <div class="logo-x"><img src="images/x-logo.svg" loading="lazy" alt=""></div>
+                  <p>@MyDogeCTO</p>
+                </a>
               </div>
-              <div class="card-guest"><img src="images/doge4.png" loading="lazy" width="164.5" alt="" class="card-guest-avatar border-blue">
-                <div class="card-guest-details">
+              <div class="card-guest">
+                <div class="card-guest-details"><img src="images/doge8.png" loading="lazy" width="164.5" alt="" class="card-guest-avatar border-pink">
                   <div class="card-guest-heading">
-                    <h3>TBC</h3>
-                    <p class="text-weight-bold text-size-sm text-redacted">Cryptocurrency economist</p>
+                    <h3>Curt Hopkins</h3>
                   </div>
-                  <p class="text-size-sm text-redacted">Nulla purus sit tortor pellentesque. Aliquet sem ornare mi tristique vulputate orci diam mattis non.</p>
+                  <p class="text-size-sm">Fireside chat: Tokenization and RWA</p>
                 </div>
+                <a href="https://x.com/cdhopkins" target="_blank" class="x-handle w-inline-block">
+                  <div class="logo-x"><img src="images/x-logo.svg" loading="lazy" alt=""></div>
+                  <p>@cdhopkins</p>
+                </a>
               </div>
-              <div class="card-guest"><img src="images/doge5.png" loading="lazy" width="164.5" alt="" class="card-guest-avatar border-yellow">
-                <div class="card-guest-details">
+              <div class="card-guest">
+                <div class="card-guest-details"><img src="images/doge5b.png" loading="lazy" width="164.5" alt="" class="card-guest-avatar border-yellow">
                   <div class="card-guest-heading">
-                    <h3>TBC</h3>
-                    <p class="text-weight-bold text-size-sm text-redacted">Cryptocurrency economist</p>
+                    <h3>Redwriter</h3>
                   </div>
-                  <p class="text-size-sm text-redacted">Nulla purus sit tortor pellentesque. Aliquet sem ornare mi tristique vulputate orci diam mattis non.</p>
+                  <p class="text-size-sm">Fireside chat: DuGs - Doge in your neighbourhood</p>
                 </div>
+                <a href="https://x.com/The_REDWRITER" target="_blank" class="x-handle w-inline-block">
+                  <div class="logo-x"><img src="images/x-logo.svg" loading="lazy" alt=""></div>
+                  <p>@The_RedWriter</p>
+                </a>
               </div>
-              <div class="card-guest"><img src="images/doge6.png" loading="lazy" width="164.5" alt="" class="card-guest-avatar border-purple">
-                <div class="card-guest-details">
+              <div class="card-guest">
+                <div class="card-guest-details"><img src="images/doge9.png" loading="lazy" width="164.5" alt="" class="card-guest-avatar border-purple">
                   <div class="card-guest-heading">
-                    <h3>TBC</h3>
-                    <p class="text-weight-bold text-size-sm text-redacted">Cryptocurrency economist</p>
+                    <h3>Jordan</h3>
                   </div>
-                  <p class="text-size-sm text-redacted">Nulla purus sit tortor pellentesque. Aliquet sem ornare mi tristique vulputate orci diam mattis non.</p>
+                  <p class="text-size-sm">Deep-dive: DogeOS / MyDoge</p>
                 </div>
+                <a href="https://x.com/MyDogeCEO" target="_blank" class="x-handle w-inline-block">
+                  <div class="logo-x"><img src="images/x-logo.svg" loading="lazy" alt=""></div>
+                  <p>@MyDogeCEO</p>
+                </a>
               </div>
             </div>
           </div>
