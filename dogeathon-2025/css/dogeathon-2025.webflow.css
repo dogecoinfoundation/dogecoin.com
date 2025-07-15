@@ -26,6 +26,7 @@
   --base-color-brand--pink: #ff46ce;
   --purple-dark: #6100b0;
   --base-color-neutral--neutral-lightest: #9d9c99;
+  --_measurements---section-padding-y-lg: 10rem;
   --base-color-brand--green: #62ff46;
   --base-color-brand--blue: #2bf9ff;
   --base-color-brand--orange: #ff7d47;
@@ -840,10 +841,6 @@ figcaption {
   text-decoration: none;
 }
 
-.text-size-sm.text-redacted {
-  line-height: 1.2;
-}
-
 .heading-style-h4 {
   font-size: 1.5rem;
   font-weight: 700;
@@ -1418,7 +1415,8 @@ figcaption {
   grid-column-gap: var(--_measurements---section-padding-y);
   grid-row-gap: var(--_measurements---section-padding-y);
   flex-flow: column;
-  align-items: stretch;
+  justify-content: flex-start;
+  align-items: center;
   display: flex;
   position: relative;
 }
@@ -1532,6 +1530,10 @@ figcaption {
 .section-padding.section-hero {
   height: 100vh;
   max-height: 80vh;
+}
+
+.section-padding.extra-padding-top {
+  padding-top: var(--_measurements---section-padding-y-lg);
 }
 
 .container {
@@ -1901,7 +1903,6 @@ figcaption {
   grid-row-gap: var(--_measurements---section-padding-y);
   flex-flow: column;
   align-items: center;
-  margin-top: 5rem;
   display: flex;
 }
 
@@ -1950,11 +1951,6 @@ figcaption {
   flex-flow: column;
   margin-top: 5rem;
   display: flex;
-}
-
-.text-redacted {
-  font-family: Redacted Script, sans-serif;
-  font-weight: 400;
 }
 
 .checkbox-field {
@@ -2104,10 +2100,6 @@ figcaption {
   padding: 4px;
 }
 
-.paragraph-2 {
-  flex: 1;
-}
-
 .x-handle {
   grid-column-gap: .75rem;
   grid-row-gap: .75rem;
@@ -2125,6 +2117,19 @@ figcaption {
 
 .x-handle:hover {
   background-color: var(--base-color-neutral--neutral-light);
+}
+
+.afterparty {
+  border-radius: 24px;
+  max-width: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+
+.afterparty-layer {
+  opacity: 0;
+  position: absolute;
+  inset: 0%;
 }
 
 @media screen and (min-width: 1280px) {
@@ -2408,6 +2413,7 @@ figcaption {
   .page-wrapper {
     --_measurements---section-padding-x: 2.5rem;
     --_measurements---section-padding-y: 3rem;
+    --_measurements---section-padding-y-lg: 6rem;
     overflow: hidden;
   }
 
@@ -2641,10 +2647,6 @@ figcaption {
 
   .attend-form-container {
     max-width: 30rem;
-  }
-
-  .attend {
-    margin-top: 3rem;
   }
 
   .doge-plane {
@@ -2882,6 +2884,7 @@ figcaption {
   .page-wrapper {
     --_measurements---section-padding-x: 1.25rem;
     --_measurements---section-padding-y: 2rem;
+    --_measurements---section-padding-y-lg: 4rem;
   }
 
   .heading-style-h5 {
@@ -3124,10 +3127,6 @@ figcaption {
     padding: .5rem 0 0;
   }
 
-  .attend {
-    margin-top: 3rem;
-  }
-
   .card-guest-details {
     grid-column-gap: .75rem;
     grid-row-gap: .75rem;
@@ -3181,6 +3180,10 @@ figcaption {
 
   .qr-code {
     width: 30%;
+  }
+
+  .afterparty {
+    border-radius: 16px;
   }
 }
 
@@ -3273,6 +3276,7 @@ figcaption {
   .page-wrapper {
     --_measurements---section-padding-x: 1.25rem;
     --_measurements---section-padding-y: 2rem;
+    --_measurements---section-padding-y-lg: 4rem;
   }
 
   .icon-height-large {
