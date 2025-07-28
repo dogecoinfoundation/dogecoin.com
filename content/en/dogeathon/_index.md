@@ -38,7 +38,7 @@ button, .button, a.button{
 <div class="card-row-hackathon">
   <div class="card-hackathon">
     <a href="/dogeathon-2025"><img src="/assets/images/dogeathon-2025.png" height="auto" width="100%" alt="..." /></a>
-    <div style="background-color: #339900; margin-bottom: 5px; text-align: center; border-radius: 0px">Such Event! Register Now!</div>     
+    <div style="background-color: #444; margin-bottom: 5px; text-align: center; border-radius: 0px">Closed. Very Success</div>     
     <div class="card-body-hackathon"> 
       <h2 class="comic-neue" style="font-weight: bold; margin: 0;">Ericeira, Portugal</h2>
       <p><strong>Date:</strong> July 22–24, 2025</p>
