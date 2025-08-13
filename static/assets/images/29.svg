@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="72px" viewBox="0 0 78 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>29</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F0DEB1" x="25" y="24" width="45" height="23"></rect>
+        <g transform="translate(14.000000, 4.000000)" fill="#D7BA71">
+            <path d="M31,0 L31,0.245 L31.0613931,0.232966008 L47.828,16.999 L48,17 L48,64 L0,64 L0,0 L31,0 Z M27,4 L4,4 L4,60 L44,60 L44,21 L27,21 L27,4 Z M33,48 L33,52 L11,52 L11,48 L33,48 Z M31,5.829 L31,17 L42.171,17 L31,5.829 Z M21,12 L21,16 L11,16 L11,12 L21,12 Z"></path>
+        </g>
+    </g>
+</svg>
