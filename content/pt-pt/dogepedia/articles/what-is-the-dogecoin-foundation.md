@@ -11,4 +11,4 @@ The Dogecoin Foundation is a not-for-profit organisation tasked with providing (
 
 The Foundation was initially established by members of the Dogecoin team in 2014 to provide governance and support for the Dogecoin project. In 2021 the Foundation was re-invigorated by members of the core development team — along with fresh faces and new seasoned advisors — ready to grow Dogecoin for the decade ahead! 
 
-You can read about the Foundation’s guiding principles in [The Dogecoin Manifesto](https://foundation.dogecoin.com/manifesto/). 
+You can read about the Foundation’s guiding principles in [The Dogecoin Manifesto](https://dogecoin.org/manifesto/). 

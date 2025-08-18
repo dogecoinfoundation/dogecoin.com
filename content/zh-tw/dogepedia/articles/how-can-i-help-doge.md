@@ -13,4 +13,4 @@ A good place to start is by joining one or more of the highly active communities
 
 If you have a technical background and would like to contribute to Dogecoin technical development, you can get involved via [Dogecoin Core](https://github.com/dogecoin/dogecoin) and [The Dogecoin Foundation](https://github.com/dogecoinfoundation) GitHub repositories.  
 
-If you’re interested in volunteering at The Dogecoin Foundation, stay tuned to the [Foundation website](https://foundation.dogecoin.com/) for details coming soon! 
+If you’re interested in volunteering at The Dogecoin Foundation, stay tuned to the [Foundation website](https://dogecoin.org/) for details coming soon! 
