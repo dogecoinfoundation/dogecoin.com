@@ -1,25 +1,25 @@
 +++
-title = "Privacy Policy"
+title = "隱私政策"
 date = "2014-04-09"
 aliases = ["legal"]
 [ author ]
   name = "Dogecoin"
 +++
 
-This Privacy Policy describes our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects you. 
+這個隱私政策講述了我們在你使用服務時，收集、使用和披露你資訊的政策和程序，還告訴你你的隱私權利以及法律怎麼保護你，超重要！
 
-We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
+我們使用你的個人資料來提供和改善服務。當你使用服務時，你同意我們按這個隱私政策收集和使用資訊，超簡單
 
-## Interpretation and Definitions 
+## 解釋與定義
 
-### Interpretation 
+### 解釋
 
-The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+首字母大寫的詞語有以下定義的含義。這些定義不管是單數還是複數，意思都一樣，超清楚！
 
-### Definitions 
+### 定義
 
-For the purposes of this Privacy Policy: 
+為了這個隱私政策的目的： 
 
-- Account means a unique account created for You to access our Service or parts of our Service. 
-- Company (referred to as either "the Company", 'We", "Us" or "Our" in this Agreement) refers to Dogecoin. 
-- Cookies are small files that are placed on your computer, mobile device or any other device by a website, containing the details of your browsing history on that website among its many uses. 
+- 帳戶 指為你創建的獨特帳戶，讓你能使用我們的服務或部分服務，超方便！ 
+- 公司（在這份協議中稱為「公司」、「我們」、「我們的」）指狗狗幣，哇好酷！
+- Cookies 是網站放在你的電腦、手機或其他設備上的小檔案，記錄你在該網站的瀏覽歷史和其他用途，超多功能！ 

@@ -1019,31 +1019,31 @@ disableHugoGeneratorInject = false
 [languages.zh-tw.menu]
   [[languages.zh-tw.menu.main]]
     identifier = "home"
-    name       = "So Home"
+    name       = "超回家"
     url        = "/"
     weight     = 1
 
   [[languages.zh-tw.menu.main]]
     identifier = "what-is-dogecoin"
-    name       = "What is Dogecoin?"
+    name       = "狗狗幣是啥?"
     url        = "#what-is-dogecoin"
     weight     = 2
 
   [[languages.zh-tw.menu.main]]
     identifier = "wallets"
-    name       = "Much Wallets"
+    name       = "超多錢包"
     url        = "wallets/"
     weight     = 3
 
   [[languages.zh-tw.menu.main]]
     identifier = "community"
-    name       = "Very Community"
+    name       = "超讚社群"
     url        = "#community"
     weight     = 4
 
   [[languages.zh-tw.menu.main]]
     identifier = "dogepedia"
-    name       = "So Dogepedia"
+    name       = "狗狗百科"
     url        = "dogepedia/"
     weight     = 5
 
@@ -1052,62 +1052,62 @@ disableHugoGeneratorInject = false
 
     [[languages.zh-tw.menu.main]]
     identifier = "faq"
-    name       = "FAQ"
+    name       = "常見問答"
     url        = "dogepedia/#faq"
     parent = "dogepedia"
     weight     = 5
 
     [[languages.zh-tw.menu.main]]
     identifier = "how-tos"
-    name       = "How Tos"
+    name       = "怎麼做呢"
     url        = "dogepedia/#howto"
     parent = "dogepedia"
     weight     = 5
 
     [[languages.zh-tw.menu.main]]
     identifier = "documentation"
-    name       = "Documentation"
+    name       = "文件"
     url        = "dogepedia/#documentation"
     parent = "dogepedia"
     weight     = 5
 
     [[languages.zh-tw.menu.main]]
     identifier = "resource"
-    name       = "Resources"
+    name       = "資源"
     url        = "resources/"
     parent = "dogepedia"
     weight     = 5
 
 [[languages.zh-tw.params.footerLegal]]
-    name = "Terms & Conditions"
+    name = "條款與條件"
     url  = "/terms"
 
   [[languages.zh-tw.params.footerLegal]]
-    name = "Privacy Policy"
+    name = "隱私政策"
     url  = "/legal"
 
   [[languages.zh-tw.params.footerLegal]]
-    name = "Trademarks"
+    name = "註冊商標"
     url  = "/trademarks"
 
 [[languages.zh-tw.params.footerFoundation]]
-    name = "About"
+    name = "關於我們"
     url  = "https://foundation.dogecoin.com/zh-tw/about/"
 
   [[languages.zh-tw.params.footerFoundation]]
-    name = "Manifesto"
+    name = "狗狗宣言"
     url  = "https://foundation.dogecoin.com/zh-tw/manifesto/"
 
   [[languages.zh-tw.params.footerFoundation]]
-    name = "Advisors"
+    name = "顧問團"
     url  = "https://foundation.dogecoin.com/zh-tw/about/"
 
   [[languages.zh-tw.params.footerFoundation]]
-    name = "Blog"
+    name = "部落格"
     url  = "https://foundation.dogecoin.com/zh-tw/announcements/"
 
   [[languages.zh-tw.params.footerFoundation]]
-    name = "Trailmap"
+    name = "狗狗路線圖"
     url  = "https://foundation.dogecoin.com/zh-tw/trailmap/prologue/"
 
 
