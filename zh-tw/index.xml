@@ -43,30 +43,7 @@ and contributions stand or fall on their merits.&lt;/p></description></item><ite
 &lt;li>&lt;a href="/zh-tw/dogepedia/articles/what-is-a-node/">&lt;strong>What is a node?&lt;/strong>&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="mining-dogecoin">Mining Dogecoin&lt;/h3>
-&lt;p>Mining Dogecoin used to be much simpler in the early days. A miner only needed a computer with enough disk space and a gaming GPU - and this was enough to mine Dogecoin. Soon enough, the total &lt;a href="/zh-tw/dogepedia/articles/what-is-a-miner/#hashing-power">&lt;strong>mining hashrate of the network&lt;/strong>&lt;/a> had grown so much that the likelihood of a miner finding a block while mining solo had been reduced drastically.&lt;/p></description></item><item><title>Resources</title><link>/zh-tw/resources/</link><pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate><guid>/zh-tw/resources/</guid><description>&lt;p>A list of resources created by shibes that can be useful to work with Dogecoin and to research it.&lt;/p>
-&lt;h3 id="tools-to-monitor-and-study-dogecoin-and-its-network">Tools to Monitor and Study Dogecoin and its Network&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://sochain.com/DOGE">SoChain - Dogecoin chain explorer.&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://dogechain.info/">Dogechain - Dogecoin chain explorer.&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://live.blockcypher.com/doge/">Blockcypher - Dogecoin chain explorer.&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blockshibe.net">Blockshibe - monitor the work of miners and mining pools.&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blockchair.com/dogecoin/nodes">Blockchair - monitor the number and versions of Dogecoin nodes in the network.&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="shop-directories">Shop Directories&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://cryptwerk.com/pay-with/doge/">Cryptwerk - a directory of shops accepting Dogecoin.&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="third-party-providers-of-payment-integrations">Third Party Providers of Payment Integrations&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://commerce.coinbase.com/integrate">Coinbase - integration for Wordpress and Shopify.&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bitpay.com/integrations/">Bitpay - integrations for multiple platforms.&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="communities">Communities&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://reddit.com/r/dogecoin">The Official Dogecoin community on reddit.&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://reddit.com/r/dogecoindev">The Official Dogecoin development community on reddit.&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://reddit.com/r/dogeducation">The Official Dogecoin community to help educating new and old shibes.&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>The History of Dogecoin</title><link>/zh-tw/dogepedia/articles/history-of-dogecoin/</link><pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate><guid>/zh-tw/dogepedia/articles/history-of-dogecoin/</guid><description>&lt;p>Dogecoin was originally created as a joke in late 2013 by Billy Markus and Jackson Palmer. Both Billy and Jackson thought that cryptocurrency was being taken far too seriously and wasn’t much fun. Jackson created the Dogecoin.com website and would have been, for a while, the public face of Dogecoin, while Billy worked as a solo developer on the first 4 releases.&lt;/p>
+&lt;p>Mining Dogecoin used to be much simpler in the early days. A miner only needed a computer with enough disk space and a gaming GPU - and this was enough to mine Dogecoin. Soon enough, the total &lt;a href="/zh-tw/dogepedia/articles/what-is-a-miner/#hashing-power">&lt;strong>mining hashrate of the network&lt;/strong>&lt;/a> had grown so much that the likelihood of a miner finding a block while mining solo had been reduced drastically.&lt;/p></description></item><item><title>The History of Dogecoin</title><link>/zh-tw/dogepedia/articles/history-of-dogecoin/</link><pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate><guid>/zh-tw/dogepedia/articles/history-of-dogecoin/</guid><description>&lt;p>Dogecoin was originally created as a joke in late 2013 by Billy Markus and Jackson Palmer. Both Billy and Jackson thought that cryptocurrency was being taken far too seriously and wasn’t much fun. Jackson created the Dogecoin.com website and would have been, for a while, the public face of Dogecoin, while Billy worked as a solo developer on the first 4 releases.&lt;/p>
 &lt;p>&lt;img src="/assets/images/dogepedia/12.png" alt="image info">&lt;/p>
 &lt;p>On December 6th, 2013, Dogecoin was launched taking influence from the famous Doge meme: an image of a very adorable Shiba Inu dog with multi-coloured comic sans text that appears as the dog’s “thought bubbles”.&lt;/p></description></item><item><title>What are the benefits of a hardware wallet, and how to use it with Doge?</title><link>/zh-tw/dogepedia/articles/dogecoin-hardware-wallets/</link><pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate><guid>/zh-tw/dogepedia/articles/dogecoin-hardware-wallets/</guid><description>&lt;p>A hardware wallet is a device designed to store a user&amp;rsquo;s &lt;em>private keys&lt;/em> securely, without ever exposing them to other external devices or the internet. For this reason, most hardware wallets are &lt;a href="/zh-tw/dogepedia/articles/how-do-i-get-a-wallet/">cold wallets&lt;/a> and are amongst the most secure methods for storing and using Dogecoin and other cryptos.&lt;/p>
 &lt;p>Usually, hardware wallets can be connected to a PC or another device via a USB or Bluetooth connection. Through this connection, they can be used to sign a transaction occurring in a wallet application running on the external device (such as your PC). The transaction is signed inside the hardware wallet, and, unless the hardware wallet has been previously compromised, the private keys are never exposed to the outside world throughout this process.&lt;/p></description></item><item><title>What is a blockchain?</title><link>/zh-tw/dogepedia/articles/what-is-a-blockchain/</link><pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate><guid>/zh-tw/dogepedia/articles/what-is-a-blockchain/</guid><description>&lt;p>A blockchain is a digital distributed ledger that is used as a system for validating and recording transaction information. This digital ledger of transactions is duplicated and distributed throughout an entire network of computers connected to the blockchain.&lt;/p>
@@ -90,20 +67,80 @@ Dogecoin is many things to many different people. At its heart, Dogecoin is the 
 &lt;p>在 2015 年，從 Dogecoin Core 1.10.0 開始，狗狗幣開發團隊決定將狗狗幣從比特幣上重新分叉出來，在比特幣的代碼庫之上重新套用萊特幣的變更。因此，縱觀其歷史，狗狗幣繼承了比特幣功能早已完整的代碼庫，並與其大部分的特性相同。它的獨特性來自更改過的參數、優化以及並非從萊特幣或比特幣繼承的部分原始碼。這些變更始終著重在實用性和易用性，以便狗狗幣成為能用來進行日常消費的貨幣。&lt;/p>
 &lt;p>未來預計會集中更多的精力和資源來強化狗狗幣，使其做到成為人民的貨幣的目標。要達成此目標需要集合包括非全職貢獻者、志願者以及包括開發人員和工程師在內的全職員工等人。&lt;/p>
 &lt;p>狗狗幣基金會的&lt;a href="https://foundation.dogecoin.com/zh-tw/trailmap/">發展路線圖&lt;/a>列出了各種專案，因為這個生態系正在努力實現其共同目標，即由「人民」使其成為人民的貨幣！此路線圖並不權威，只是指明了前進的方向，而且也歡迎社群的反饋。&lt;/p>
-&lt;p>儘管很多實際工作不是在 Github 上的 &lt;a href="https://github.com/dogecoin/dogecoin">&lt;strong>Dogecoin Core 儲存庫&lt;/strong>&lt;/a>完成的，然而在此儲存庫還是能追蹤到很多的開發事務。Reddit 上的 &lt;a href="https://reddit.com/r/dogecoindev">&lt;strong>r/dogecoindev&lt;/strong>&lt;/a> 是另一個討論狗狗幣開發和與開發人員互動的好管道。&lt;/p></description></item><item><title>Privacy Policy</title><link>/zh-tw/legal/</link><pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate><guid>/zh-tw/legal/</guid><description>&lt;p>This Privacy Policy describes our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects you.&lt;/p>
-&lt;p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.&lt;/p>
-&lt;h2 id="interpretation-and-definitions">Interpretation and Definitions&lt;/h2>
-&lt;h3 id="interpretation">Interpretation&lt;/h3>
-&lt;p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.&lt;/p></description></item><item><title>Trademarks</title><link>/zh-tw/trademarks/</link><pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate><guid>/zh-tw/trademarks/</guid><description>&lt;h2 id="dogecoins-intellectual-property-ip">Dogecoin’s intellectual property (IP)&lt;/h2>
-&lt;p>This intellectual property FAQ sets out a few questions that the Dogecoin Foundation is often asked
-about our approach to managing IP, in accordance with our
-&lt;a href="https://foundation.dogecoin.com/manifesto/">Manifesto&lt;/a> and for the benefit of the Dogecoin
-community.
-There are many types of IP, but for this FAQ, we are focusing on copyright and trademark as they
-relate to the Dogecoin “brand”.
-This FAQ does not cover issues related to the Dogecoin code, which is and will remain open-source.
-For more on the Dogecoin open-source project, please see the open-source &lt;a href="https://github.com/dogecoin/dogecoin">licence
-terms&lt;/a>.&lt;/p></description></item><item><title/><link>/zh-tw/contributors/belle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/belle/</guid><description/></item><item><title/><link>/zh-tw/contributors/bluezr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/bluezr/</guid><description/></item><item><title/><link>/zh-tw/contributors/cb_doge/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/cb_doge/</guid><description/></item><item><title/><link>/zh-tw/contributors/christinericks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/christinericks/</guid><description/></item><item><title/><link>/zh-tw/contributors/dogememegirl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/dogememegirl/</guid><description/></item><item><title/><link>/zh-tw/contributors/dogtorpicapollo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/dogtorpicapollo/</guid><description/></item><item><title/><link>/zh-tw/contributors/ella/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/ella/</guid><description/></item><item><title/><link>/zh-tw/contributors/florian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/florian/</guid><description/></item><item><title/><link>/zh-tw/contributors/ishan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/ishan/</guid><description/></item><item><title/><link>/zh-tw/contributors/jens/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/jens/</guid><description/></item><item><title/><link>/zh-tw/contributors/maniixer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/maniixer/</guid><description/></item><item><title/><link>/zh-tw/contributors/michi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/michi/</guid><description/></item><item><title/><link>/zh-tw/contributors/misha/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/misha/</guid><description/></item><item><title/><link>/zh-tw/contributors/paulo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/paulo/</guid><description/></item><item><title/><link>/zh-tw/contributors/richard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/richard/</guid><description/></item><item><title/><link>/zh-tw/contributors/sam/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/sam/</guid><description/></item><item><title/><link>/zh-tw/contributors/tiger/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/tiger/</guid><description/></item><item><title/><link>/zh-tw/contributors/tim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/tim/</guid><description/></item><item><title/><link>/zh-tw/dogeathon-2022/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/dogeathon-2022/main/</guid><description/></item><item><title/><link>/zh-tw/dogeathon-2025/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/dogeathon-2025/main/</guid><description/></item><item><title/><link>/zh-tw/happy-birthday-kabosu-bronzethedoge/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/happy-birthday-kabosu-bronzethedoge/main/</guid><description/></item><item><title/><link>/zh-tw/wallets/ammerwallet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/wallets/ammerwallet/</guid><description/></item><item><title/><link>/zh-tw/wallets/arcticwallet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/wallets/arcticwallet/</guid><description>&lt;p>name = &amp;ldquo;Arctic Wallet&amp;rdquo;
+&lt;p>儘管很多實際工作不是在 Github 上的 &lt;a href="https://github.com/dogecoin/dogecoin">&lt;strong>Dogecoin Core 儲存庫&lt;/strong>&lt;/a>完成的，然而在此儲存庫還是能追蹤到很多的開發事務。Reddit 上的 &lt;a href="https://reddit.com/r/dogecoindev">&lt;strong>r/dogecoindev&lt;/strong>&lt;/a> 是另一個討論狗狗幣開發和與開發人員互動的好管道。&lt;/p></description></item><item><title>資源</title><link>/zh-tw/resources/</link><pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate><guid>/zh-tw/resources/</guid><description>&lt;p>A list of resources created by shibes that can be useful to work with Dogecoin and to research it.&lt;/p>
+&lt;h3 id="監控與研究狗狗幣及其網絡的工具">監控與研究狗狗幣及其網絡的工具&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://sochain.com/DOGE">SoChain - 狗狗幣鏈瀏覽器。&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dogechain.info/">Dogechain - 狗狗幣鏈瀏覽器。&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://live.blockcypher.com/doge/">Blockcypher - 狗狗幣鏈瀏覽器。&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blockshibe.net">Blockshibe - 監控礦工和挖礦池的工作。&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blockchair.com/dogecoin/nodes">Blockchair - 監控狗狗幣網絡中節點的數量和版本。&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="商店目錄">商店目錄&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://cryptwerk.com/pay-with/doge/">接受狗狗幣的商店目錄。&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="third-party-providers-of-payment-integrations">Third Party Providers of Payment Integrations&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://commerce.coinbase.com/integrate">Coinbase - WordPress和Shopify的整合。&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bitpay.com/integrations/">Bitpay - 多平台的整合。&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="communities">Communities&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://reddit.com/r/dogecoin">Reddit上的官方狗狗幣社群。&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://reddit.com/r/dogecoindev">Reddit上的官方狗狗幣開發社群。&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://reddit.com/r/dogeducation">官方狗狗幣教育社群，幫助新老柴犬學習。&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>註冊商標</title><link>/zh-tw/trademarks/</link><pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate><guid>/zh-tw/trademarks/</guid><description>&lt;h2 id="狗狗幣的知識產權-ip">狗狗幣的知識產權 (IP)&lt;/h2>
+&lt;p>這個知識產權問答整理了狗狗幣基金會常被問到的問題，講述我們如何依據
+&lt;a href="https://foundation.dogecoin.com/manifesto/">狗狗幣宣言&lt;/a> 管理知識產權，為了狗狗幣社群的幸福。&lt;/p>
+&lt;p>知識產權種類很多，但這篇問答專注於和狗狗幣「品牌」有關的版權和商標。&lt;/p>
+&lt;p>這篇問答不包括狗狗幣程式碼的問題，程式碼永遠是開源的。想知道更多開源項目細節，請看開源 &lt;a href="https://github.com/dogecoin/dogecoin">licence
+terms&lt;/a>.&lt;/p>
+&lt;h2 id="那狗狗幣品牌有哪些知識產權">那，狗狗幣品牌有哪些知識產權？&lt;/h2>
+&lt;p>狗狗幣品牌包含狗狗幣名稱、標誌，還有像「哇好多幣」的口號——任何能讓狗狗幣和它的超棒社群脫穎而出的東西！下面有幾張圖片當例子。我們的聲譽和「日日行善」的信念也是品牌的一部分！
+我們得小心管理標誌和品牌的用法，保護社群和它的價值。
+除了「DOGECOIN」這個詞，以下是狗狗幣品牌的一些標誌：
+&lt;div class="row">
+&lt;div class="col">&lt;img class="under" src="/assets/images/dogecoin-1.png" style="max-width: 150px;" />&lt;/div>
+&lt;div class="col">&lt;img class="under" src="/assets/images/dogecoin-2.png" style="max-width: 150px;" />&lt;/div>
+&lt;/div>&lt;/p>
+&lt;h2 id="版權是什麼">版權是什麼？&lt;/h2>
+&lt;p>版權是保護帶有「創意特色」的作品的法律權利。通常保護藝術創作，像畫畫、照片、影片、GIF、音樂等等。根據全球版權法，創作者可以保護作品，要求別人沒許可不能用或分享。版權是自動生效的，不用註冊。&lt;/p>
+&lt;p>但即使有版權，別人還是能在某些情況下用，這因國家不同，常用「合理使用」來形容。對我們來說，重點是「合理使用」包括迷因，讓 #狗狗軍團能繼續自由創作，超開心！&lt;/p>
+&lt;h2 id="註冊商標是什麼">註冊商標是什麼？&lt;/h2>
+&lt;p>商標是讓個人、公司或組織被認出是某些商品或服務提供者的標記。很多知名品牌名稱和標誌都是註冊商標。這樣大家一看到商品或服務，就知道是誰提供的！&lt;/p>
+&lt;p>像版權一樣，商標擁有者可以禁止別人未經許可使用標誌。但跟版權不同，商標表示產品或服務的「來源」，需要正式註冊。商標就像「來源保證」，讓人安心。&lt;/p>
+&lt;h2 id="狗狗幣基金會說在對抗惡意商標註冊這是啥這代表什麼">狗狗幣基金會說在對抗「惡意商標註冊」，這是啥，這代表什麼？&lt;/h2>
+&lt;p>狗狗幣基金會代表意外的加密運動，打造人民的貨幣。我們超相信狗狗幣宣言的「日日行善」。我們不希望狗狗幣社群被沒許可或不負責任用狗狗幣品牌的傢伙誤導或利用。&lt;/p>
+&lt;p>所以，我們不喜歡不尊重狗狗幣精神的傢伙用名稱或標誌賺錢。這會傷害品牌，也傷害社群。&lt;/p>
+&lt;p>當有人不公平地做事，比如搶註別人的品牌，這叫「惡意」行為。如果我們覺得這會損害狗狗幣品牌，我們會請法律柴犬來檢查&lt;/p>
+&lt;h2 id="這表示不能在線上市場賣狗狗幣粉絲產品嗎">這表示不能在線上市場賣狗狗幣粉絲產品嗎？&lt;/h2>
+&lt;p>當然可以！ 我們愛看大家用有趣的迷因方式玩，這跟我們做歡迎的加密貨幣的價值一致。我們在乎社群，不是利潤。所以我們不喜歡有人搶註狗狗幣品牌或用名稱、標誌來自己賺大錢。&lt;/p>
+&lt;h2 id="為什麼狗狗幣基金會要註冊dogecoin和其他標誌">為什麼狗狗幣基金會要註冊「DOGECOIN」和其他標誌？&lt;/h2>
+&lt;p>如果別人搶註了商標，他們可能不關心狗狗幣社群的利益。如果標誌被別人擁有，他們可能會阻止狗狗軍團和其他粉絲使用！&lt;/p>
+&lt;p>所以，基金會決定註冊商標，幫狗狗幣社群安全保管。&lt;/p>
+&lt;p>很多開源項目都有註冊商標，這樣能保護標誌和名稱，為了社群好。&lt;/p>
+&lt;p>商標系統不完美，超麻煩，文件一大堆，還要註冊期限！但它保護我們的社群和狗狗幣名稱，免於被濫用或剝削。&lt;/p>
+&lt;p>由正宗的組織持有商標，標誌和名稱就能更好防濫用，並以透明、好用的方式提供。&lt;/p>
+&lt;h2 id="我能做啥幫忙保護狗狗幣品牌">我能做啥幫忙保護狗狗幣品牌？&lt;/h2>
+&lt;p>繼續用合作、好玩、刺激的方式用狗狗幣迷因。但請記住日日行善。遵循
+&lt;a href="https://foundation.dogecoin.com/manifesto/">狗狗幣宣言&lt;/a> 的價值，你就是超棒柴犬！
+因為我們收到太多郵件，沒法每封都回，所以有了這個問答！&lt;/p>
+&lt;p>我們跟法律柴犬努力保護狗狗幣品牌，處理版權侵犯和商標問題。如果你在意狗狗幣品牌被違背我們精神的使用，可以 &lt;a href="mailto:legal@dogecoin.com">聯絡我們&lt;/a>.&lt;/p>
+&lt;h2 id="好的這對狗狗幣社群意味著什麼">好的，這對狗狗幣社群意味著什麼？&lt;/h2>
+&lt;p>很重要：我們超歡迎——也鼓勵——你繼續用狗狗幣圖片和口號做粉絲作品或其他創意項目，比如在Etsy上賣狗狗幣粉絲藝術。&lt;/p>
+&lt;p>但如果你惡意用「狗狗幣」做公司名稱或商標來推自己的生意，或用狗狗幣名稱、商標或其他資產暗示狗狗幣背書卻沒先跟我們談，這就不行。我們得小心保護社群。&lt;/p></description></item><item><title>隱私政策</title><link>/zh-tw/legal/</link><pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate><guid>/zh-tw/legal/</guid><description>&lt;p>這個隱私政策講述了我們在你使用服務時，收集、使用和披露你資訊的政策和程序，還告訴你你的隱私權利以及法律怎麼保護你，超重要！&lt;/p>
+&lt;p>我們使用你的個人資料來提供和改善服務。當你使用服務時，你同意我們按這個隱私政策收集和使用資訊，超簡單&lt;/p>
+&lt;h2 id="解釋與定義">解釋與定義&lt;/h2>
+&lt;h3 id="解釋">解釋&lt;/h3>
+&lt;p>首字母大寫的詞語有以下定義的含義。這些定義不管是單數還是複數，意思都一樣，超清楚！&lt;/p>
+&lt;h3 id="定義">定義&lt;/h3>
+&lt;p>為了這個隱私政策的目的：&lt;/p>
+&lt;ul>
+&lt;li>帳戶 指為你創建的獨特帳戶，讓你能使用我們的服務或部分服務，超方便！&lt;/li>
+&lt;li>公司（在這份協議中稱為「公司」、「我們」、「我們的」）指狗狗幣，哇好酷！&lt;/li>
+&lt;li>Cookies 是網站放在你的電腦、手機或其他設備上的小檔案，記錄你在該網站的瀏覽歷史和其他用途，超多功能！&lt;/li>
+&lt;/ul></description></item><item><title/><link>/zh-tw/contributors/belle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/belle/</guid><description/></item><item><title/><link>/zh-tw/contributors/bluezr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/bluezr/</guid><description/></item><item><title/><link>/zh-tw/contributors/cb_doge/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/cb_doge/</guid><description/></item><item><title/><link>/zh-tw/contributors/christinericks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/christinericks/</guid><description/></item><item><title/><link>/zh-tw/contributors/dogememegirl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/dogememegirl/</guid><description/></item><item><title/><link>/zh-tw/contributors/dogtorpicapollo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/dogtorpicapollo/</guid><description/></item><item><title/><link>/zh-tw/contributors/ella/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/ella/</guid><description/></item><item><title/><link>/zh-tw/contributors/florian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/florian/</guid><description/></item><item><title/><link>/zh-tw/contributors/ishan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/ishan/</guid><description/></item><item><title/><link>/zh-tw/contributors/jens/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/jens/</guid><description/></item><item><title/><link>/zh-tw/contributors/maniixer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/maniixer/</guid><description/></item><item><title/><link>/zh-tw/contributors/michi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/michi/</guid><description/></item><item><title/><link>/zh-tw/contributors/misha/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/misha/</guid><description/></item><item><title/><link>/zh-tw/contributors/paulo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/paulo/</guid><description/></item><item><title/><link>/zh-tw/contributors/richard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/richard/</guid><description/></item><item><title/><link>/zh-tw/contributors/sam/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/sam/</guid><description/></item><item><title/><link>/zh-tw/contributors/tiger/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/tiger/</guid><description/></item><item><title/><link>/zh-tw/contributors/tim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/contributors/tim/</guid><description/></item><item><title/><link>/zh-tw/dogeathon-2022/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/dogeathon-2022/main/</guid><description/></item><item><title/><link>/zh-tw/dogeathon-2025/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/dogeathon-2025/main/</guid><description/></item><item><title/><link>/zh-tw/happy-birthday-kabosu-bronzethedoge/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/happy-birthday-kabosu-bronzethedoge/main/</guid><description/></item><item><title/><link>/zh-tw/wallets/ammerwallet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/wallets/ammerwallet/</guid><description/></item><item><title/><link>/zh-tw/wallets/arcticwallet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/zh-tw/wallets/arcticwallet/</guid><description>&lt;p>name = &amp;ldquo;Arctic Wallet&amp;rdquo;
 order = “5”
 active = &amp;ldquo;yes&amp;rdquo;
 version = &amp;ldquo;0.9.13&amp;rdquo;
