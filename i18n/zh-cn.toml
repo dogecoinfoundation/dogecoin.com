@@ -58,6 +58,9 @@ other = "狗狗币, doge, 货币, 加密货币, 数字货币, 柴犬"
 ["index[warning]"]
 other = "狗狗币核心钱包1.14.9版本发布了！大更新，快来吧！"
 
+["index[core-version]"]
+other = "1.14.9"
+
 ["index[slogan]"]
 other = "the people’s"
 

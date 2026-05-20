@@ -58,6 +58,9 @@ other = "狗狗幣, 狗狗, 幣, 加密貨幣, 數位貨幣, 柴犬"
 ["index[warning]"]
 other = "核心錢包1.14.9釋出啦！快升級，拜託啦！"
 
+["index[core-version]"]
+other = "1.14.9"
+
 ["index[slogan]"]
 other = "People's"
 
