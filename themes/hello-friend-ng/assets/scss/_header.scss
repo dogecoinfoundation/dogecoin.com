@@ -18,6 +18,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: nowrap; /* keep locale + menu trigger on one row (#163) */
 
     @media #{$media-size-tablet} {
       flex-direction: row-reverse;

@@ -4,6 +4,9 @@
     text-transform: uppercase;
     min-width: 113px;
     text-align: left;
+    position: relative; /* anchor dropdown so it does not shove the navbar (#163) */
+    flex-shrink: 0;
+    z-index: 110;
 
     a {
         text-decoration: none !important;
@@ -13,6 +16,13 @@
         display: inline-block;
         @include font-size(.78rem);
         text-decoration: none;
+    }
+
+    .current-locale {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        white-space: nowrap;
     }
 
     &:hover {
@@ -34,8 +44,11 @@
             margin-top: 5px;
             display: block;
             position: absolute;
+            right: 0; /* keep under the control on narrow screens */
+            left: auto;
             width: 110px;
             padding: 10px 0px 10px 0px;
+            z-index: 120;
 
             &::before {
                 content:"";
@@ -43,7 +56,8 @@
                 height: 0px;
                 width: 0px;
                 top: -15px;
-                left: 20px;
+                left: auto;
+                right: 20px;
                 border-width: 10px;
                 border-style: solid;
                 transform: rotate(90deg);
@@ -77,5 +91,31 @@
 
     .locale {
         min-width: 0;
+        margin-left: 0;
+        margin-right: 4px;
+    }
+
+    /* Hide language code badge on small screens — flag only (#163) */
+    .locale .current-locale .badge {
+        display: none;
+    }
+}
+
+/* When the hamburger menu is open, keep locale on the same row as icons */
+@media screen and (max-width: 768px) {
+    .header__right {
+        flex-wrap: nowrap;
+        max-width: calc(100vw - 80px);
+    }
+
+    .locale:hover .locale-list {
+        position: fixed;
+        top: 56px;
+        right: 12px;
+        left: auto;
+        width: min(160px, calc(100vw - 24px));
+        max-height: 60vh;
+        overflow-y: auto;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
     }
 }
