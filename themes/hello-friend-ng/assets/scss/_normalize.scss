@@ -129,7 +129,7 @@ a {
 
 .dogepedia-button:hover{
  background-color: #FFFFFF !important;
- border: 1px solid #dfc66d !important;
+ border: 1px solid $doge-gold-light !important;
 }
 
 /**
@@ -431,24 +431,24 @@ template {
  * Correct pagination and styles using datatables
  */
 .dataTables_wrapper .dataTables_paginate .paginate_button{
-  color: #ccae40  !important;
+  color: $doge-gold  !important;
  border-radius: 10px;
   &:hover{
-    color: #ccae40 !important;
+    color: $doge-gold !important;
   }
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
  background: none;
- border-color: #ccae40 !important;
+ border-color: $doge-gold !important;
 }
 select{
- border-color: #ccae40;
+ border-color: $doge-gold;
  border-radius: 10px;
 }
 
 input{
- border-color: #ccae40;
+ border-color: $doge-gold;
  border-radius: 10px;
 }
 

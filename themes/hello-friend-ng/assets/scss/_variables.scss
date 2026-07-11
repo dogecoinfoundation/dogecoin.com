@@ -37,3 +37,31 @@ $container-max-widths: (
   xxl: 1400px
 );
 
+
+/* -------------------------------------------------------------------------
+ * Dogecoin brand / UI color group (#223)
+ * Prefer these over one-off hex literals in partials.
+ * Gold family used across home, buttons, wallets accents.
+ * ------------------------------------------------------------------------- */
+$doge-gold: #ccae40;
+$doge-gold-light: #dfc66d;
+$doge-gold-bright: #e3a849;
+$doge-gold-dark: #c18c37;
+$doge-ink: #201f1d;
+$doge-black: #0b0b0b;
+$doge-charcoal: #212020;
+$doge-surface-dark: #1c1c1c;
+$doge-muted: #c5c5c5;
+$doge-link-blue: #3eb0ef;
+$doge-wordpress-blue: #21759b;
+
+:root {
+  --doge-gold: #{$doge-gold};
+  --doge-gold-light: #{$doge-gold-light};
+  --doge-gold-bright: #{$doge-gold-bright};
+  --doge-gold-dark: #{$doge-gold-dark};
+  --doge-ink: #{$doge-ink};
+  --doge-black: #{$doge-black};
+  --doge-charcoal: #{$doge-charcoal};
+}
+

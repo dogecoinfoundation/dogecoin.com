@@ -46,7 +46,7 @@
         }
 
         b {
-            color: #ccae40;
+            color: $doge-gold;
         }
     }
 
@@ -97,7 +97,7 @@
 
       button {
         color: white;
-        background-color: #ccae40;
+        background-color: $doge-gold;
         border-radius: 0;
         float: right;
       }
@@ -148,20 +148,20 @@
       text-align: left;
       padding: 14px 16px;
       transition: 0.3s;
-      // border-left: 5px solid #ccae40;
+      // border-left: 5px solid $doge-gold;
       border-bottom: 0.5px solid gainsboro;
       border-radius: 0;
       }
     }
 
     .tab button:hover {
-      color: #ccae40 !important;
+      color: $doge-gold !important;
       background-color: transparent;
       border-radius: 0;
     }
 
     .tab button.active {
-      color: #ccae40 !important;
+      color: $doge-gold !important;
       background-color: transparent;
       border-radius: 0;
     }
