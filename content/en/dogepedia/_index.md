@@ -30,6 +30,7 @@ The basics. Learn what Dogecoin is, and how it works.
 
 ### Wallets {#wallets}
 Your journey with Dogecoin might start here. A wallet application allows you to save and spend your Doge.
+- [Wallet help wizard: which wallet is right for me?](/dogepedia/articles/choose-a-wallet-wizard)
 - [How do I get a wallet?](/dogepedia/articles/how-do-i-get-a-wallet)
 - [How do I backup my wallet?](/dogepedia/articles/how-to-backup-a-wallet)
 - [What are the benefits of a hardware wallet, and how to use it with Doge?](/dogepedia/articles/dogecoin-hardware-wallets)

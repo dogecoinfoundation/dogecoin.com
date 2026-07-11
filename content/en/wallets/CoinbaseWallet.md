@@ -34,4 +34,5 @@ type_multisig = "no"
 type_opensource = "no"
 type_api = "yes"
 type_tipping_bot = "no"
+type_coin_swap = "yes"
 +++
