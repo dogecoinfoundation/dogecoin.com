@@ -65,6 +65,7 @@ Dogecoin is useful, personable, welcoming, and reliable: and it is evolving.
 - [Who are the current Dogecoin developers?](/dogepedia/articles/dogecoin-developers)
 - [How can I become a Dogecoin developer?](/dogepedia/articles/becoming-a-dogecoin-developer)
 - [Is there a roadmap?](/dogepedia/articles/dogecoin-roadmap)
+- [Dogecoin ecosystem projects](/dogepedia/articles/dogecoin-ecosystem-projects)
 
 ## How-Tos {#howto}
 For all the shibes who want to learn new tricks.
