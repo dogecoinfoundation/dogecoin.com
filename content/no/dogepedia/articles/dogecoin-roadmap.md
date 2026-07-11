@@ -12,7 +12,7 @@ Dogecoin is a community-driven, consensus based open-source project and its dire
 formed by the many individual and organisational contributors to the various projects of 
 the Dogecoin blockchain & ecosystem.  
 
-The direction of Dogecoin is paved by the [many projects](/dogepedia/projects/) that the 
+The direction of Dogecoin is paved by the [many projects](/dogepedia/articles/dogecoin-ecosystem-projects/) that the 
 community feels best shape its direction. This is very intentional: it is important 
 that Dogecoin remains a decentralised project with shepherds rather than rulers, whose projects 
 and contributions stand or fall on their merits.  
