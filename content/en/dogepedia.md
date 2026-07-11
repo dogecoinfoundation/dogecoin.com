@@ -16,6 +16,7 @@ The basics. Learn what Dogecoin is, and how it works.
 - [What is the history of Dogecoin?](/dogepedia/articles/history-of-dogecoin)
 - [How does Dogecoin work?](/dogepedia/articles/how-does-dogecoin-work)
 - [Who owns and controls the Dogecoin network?](/dogepedia/articles/who-owns-dogecoin)
+- [Getting started with Dogecoin (step by step)](/dogepedia/articles/getting-started-with-dogecoin)
 - [I want some Dogecoin! How can I get it?](/dogepedia/articles/get-dogecoin)
 
 ### Wallets {#wallets}
@@ -73,3 +74,4 @@ Let's fight against the disinformation surrounding Dogecoin! Much wow!
 - [Why don't the devs put a cap on Dogecoin?](/dogepedia/faq/putting-a-cap-on-dogecoin)
 - [Is it true that one person holds 28% of the total supply?](/dogepedia/faq/dogecoin-whale-wallets)
 - [Dogecoin is inflationary, while other cryptos aren't!](/dogepedia/faq/dogecoin-inflation)
+- [Is Dogecoin a security?](/dogepedia/faq/is-dogecoin-a-security)
