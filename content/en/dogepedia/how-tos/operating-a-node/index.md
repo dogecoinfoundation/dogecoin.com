@@ -158,22 +158,23 @@ After the initial blockchain download is complete and you have enabled incoming 
 
 Running Dogecoin Core node on a Linux machine is relatively straightforward. VPS plans work very well for running a headless node as they usually come with fast and reliable network connections, but make sure the plan you have selected includes enough data transfer per month and at least 60GB of disk space, as specified in the [minimum requirements section](/dogepedia/how-tos/operating-a-node/#minimum-requirements). Ideally, you should execute the following commands as a non-root Linux user - refer to your Linux distribution's manual in case you are not an experienced server administrator.
 
-- Download the latest Linux build from the [**Dogecoin Github repository**](https://github.com/dogecoin/dogecoin/releases):
+- Download the latest Linux build from the [**Dogecoin Github repository**](https://github.com/dogecoin/dogecoin/releases) (example uses v1.14.9 — replace with the newest release tag if needed):
     ```console
-    shibetoshi:~$ wget https://github.com/dogecoin/dogecoin/releases/download/v1.14.6/dogecoin-1.14.6-x86_64-linux-gnu.tar.gz
+    shibetoshi:~$ wget https://github.com/dogecoin/dogecoin/releases/download/v1.14.9/dogecoin-1.14.9-x86_64-linux-gnu.tar.gz
     ```
 - Untar and unzip the package you just downloaded
     ```console
-    shibetoshi:~$ tar -xvzf dogecoin-1.14.6-x86_64-linux-gnu.tar.gz
+    shibetoshi:~$ tar -xvzf dogecoin-1.14.9-x86_64-linux-gnu.tar.gz
     ```
-- Enter into the bin directory inside the directory where Dogecoin Core has been untarred:
+- (Recommended) Install the binaries onto your system `PATH` so you can run `dogecoind`, `dogecoin-cli`, and `dogecoin-qt` from any directory, and so init systems can find them easily:
     ```console
-    shibetoshi:~$ cd dogecoin-1.14.6/bin
+    shibetoshi:~$ sudo install -m 0755 -o root -g root -t /usr/local/bin dogecoin-1.14.9/bin/*
     ```
 - Start the headless Dogecoin Daemon process:
     ```console
     shibetoshi:~$ dogecoind -daemon
     ```
+    If you skipped the `install` step above, enter the `bin` directory first (`cd dogecoin-1.14.9/bin`) and run `./dogecoind -daemon` instead.
 - If you prefer and this is not a remote installation, you can instead use the GUI version of Dogecoin Core:
     ```console
     shibetoshi:~$ dogecoin-qt
@@ -185,13 +186,42 @@ Running Dogecoin Core node on a Linux machine is relatively straightforward. VPS
     ```
 - To get help on a specific command:
     ```console
-    shibetoshi:~ dogecoin-cli help getblock 
+    shibetoshi:~$ dogecoin-cli help getblock 
     ```
 - You can follow the synching process by reading the contents of the debug.log file contained in the data directory. Go into the [data directory](/dogepedia/how-tos/operating-a-node/#data-directory), and type the following command:
     ```console
     shibetoshi:~$ tail -f debug.log
     ```
 - In most setups, you can stop "listening" to the output of the debug.log file by pressing CTRL+C
+
+#### Keep dogecoind running after reboot (systemd) {#linux-systemd}
+
+On systems that use systemd, create a user service so the node starts on boot and restarts after crashes. Run these steps as the same non-root user that owns your Dogecoin data directory:
+
+```console
+shibetoshi:~$ mkdir -p ~/.config/systemd/user
+shibetoshi:~$ cat > ~/.config/systemd/user/dogecoind.service << 'EOF'
+[Unit]
+Description=Dogecoin Core daemon
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/dogecoind -printtoconsole
+ExecStop=/usr/local/bin/dogecoin-cli stop
+Restart=on-failure
+RestartSec=30
+
+[Install]
+WantedBy=default.target
+EOF
+shibetoshi:~$ systemctl --user daemon-reload
+shibetoshi:~$ systemctl --user enable --now dogecoind.service
+shibetoshi:~$ loginctl enable-linger "$USER"
+```
+
+Check status with `systemctl --user status dogecoind.service`. Adjust `ExecStart` if your binaries are not under `/usr/local/bin`.
 
 For more information on using Dogecoin CLI refer to the [**Dogecoin CLI**](/dogepedia/how-tos/operating-a-node/#dogecoin-cli) section. Additional configuration settings can be found in the [**Advanced Configuration**](/dogepedia/how-tos/operating-a-node/#advanced-configuration) section. For example, if you are not using Dogecoin Core as a wallet, it might be a good idea to disable the wallet functionality altogether.
 
