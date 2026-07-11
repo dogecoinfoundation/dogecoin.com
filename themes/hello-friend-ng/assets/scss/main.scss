@@ -1,4 +1,6 @@
-/* Must be loaded before everything else */
+/* Brand + theme tokens first so partials can use $doge-* (#223) */
+@import "variables";
+/* Must be loaded before most modules */
 @import "normalize";
 @import "prism";
 // Default variable overrides
@@ -6,7 +8,6 @@
 /* RFS */
 @import "node_modules/rfs/scss";
 /* Main stuff */
-@import "variables";
 @import "mixins";
 @import "buttons";
 @import "tooltip";

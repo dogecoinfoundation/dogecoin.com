@@ -73,3 +73,4 @@ Let's fight against the disinformation surrounding Dogecoin! Much wow!
 - [Why don't the devs put a cap on Dogecoin?](/dogepedia/faq/putting-a-cap-on-dogecoin)
 - [Is it true that one person holds 28% of the total supply?](/dogepedia/faq/dogecoin-whale-wallets)
 - [Dogecoin is inflationary, while other cryptos aren't!](/dogepedia/faq/dogecoin-inflation)
+- [Why doesn’t dogecoin.com run an official mining pool?](/dogepedia/faq/why-no-official-mining-pool)
