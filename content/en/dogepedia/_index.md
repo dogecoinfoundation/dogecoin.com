@@ -22,6 +22,7 @@ Dogepedia is the resource containing Documentation, Guides, FAQs and Resources r
 ***
 ### Dogecoin {#dogecoin}
 The basics. Learn what Dogecoin is, and how it works.
+- [Getting started with Dogecoin (step by step)](/dogepedia/articles/getting-started-with-dogecoin)
 - [What is Dogecoin?](/dogepedia/articles/what-is-dogecoin)
 - [What is the history of Dogecoin?](/dogepedia/articles/history-of-dogecoin)
 - [How does Dogecoin work?](/dogepedia/articles/how-does-dogecoin-work)
@@ -83,3 +84,4 @@ Let's fight against the disinformation surrounding Dogecoin! Much wow!
 - [Why don't the devs put a cap on Dogecoin?](/dogepedia/faq/putting-a-cap-on-dogecoin)
 - [Is it true that one person holds 28% of the total supply?](/dogepedia/faq/dogecoin-whale-wallets)
 - [Dogecoin is inflationary, while other cryptos aren't!](/dogepedia/faq/dogecoin-inflation)
+- [Is Dogecoin a security?](/dogepedia/faq/is-dogecoin-a-security)
