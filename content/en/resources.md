@@ -11,6 +11,7 @@ page = "page/resources.html"
 A list of resources created by shibes that can be useful to work with Dogecoin and to research it.
 
 ### Tools to Monitor and Study Dogecoin and its Network
+- [OpenChainBench - live latency benchmarks comparing public Dogecoin RPC endpoints (Tatum, dRPC, BlockCypher) from 3 global regions, updated every 60 seconds.](https://openchainbench.com/benchmarks/dogecoin-rpc)
 - [SoChain - Dogecoin chain explorer.](https://sochain.com/DOGE)
 - [Dogechain - Dogecoin chain explorer.](https://dogechain.info/)
 - [Blockcypher - Dogecoin chain explorer.](https://live.blockcypher.com/doge/)
