@@ -1,21 +1,21 @@
 +++
-title = "What is Dogecoin?"
+title = "ドージコインとは？"
 date = "2021-10-22"
 type = "article"
 
 [ author ]
-  name = "Dogecoin"
+  name = "ドージコイン"
 +++
  
-![image info](/assets/images/dogepedia/3.png)
-Dogecoin is many things to many different people. At its heart, Dogecoin is the accidental crypto **movement** that makes people smile! 
+![画像情報](/assets/images/dogepedia/3.png)
+ドージコインは、人によってさまざまな姿を見せます。その中心にあるのは、人々を笑顔にする、偶然から生まれた暗号通貨の**ムーブメント**です！
 
-It is also an open-source peer-to-peer cryptocurrency that utilises [blockchain technology](https://www.dogecoin.com/dogepedia/articles/what-is-a-blockchain), a highly secure decentralised system of storing information as a public ledger that is maintained by a network of computers called [nodes](https://www.dogecoin.com/dogepedia/articles/what-is-a-node). 
+同時にドージコインは、[ブロックチェーン技術](https://www.dogecoin.com/dogepedia/articles/what-is-a-blockchain)を活用したオープンソースのP2P暗号通貨でもあります。ブロックチェーンとは、[ノード](https://www.dogecoin.com/dogepedia/articles/what-is-a-node)と呼ばれるコンピューターのネットワークによって維持される、情報を公開台帳として記録するための、非常に安全な分散型のしくみです。
 
-More than this, though, is the ethos of Dogecoin, summarised in the [Dogecoin Manifesto](https://foundation.dogecoin.com/manifesto/), and its amazing, vibrant community made up of friendly folks just like you!  
+しかし、それ以上に大切なのが、[ドージコイン・マニフェスト](https://foundation.dogecoin.com/manifesto/)にまとめられたドージコインの精神と、あなたと同じような気さくな人たちが集まってできた、すばらしく活気のあるコミュニティです！
 
-The Dogecoin community cares about supporting each other, being kind, teaching people about cryptocurrency, fundraising, having fun, making memes, and being absurd. This is nicely captured by Dogecoin’s unofficial tagline: **D**o **O**nly **G**ood **E**veryday.  
+ドージコインのコミュニティが大切にしているのは、お互いを支え合うこと、親切であること、暗号通貨について人に教えること、寄付を集めること、楽しむこと、ミームを作ること、そしてばかばかしくあることです。それは、ドージコインの非公式なキャッチフレーズにうまく言い表されています。**D**o **O**nly **G**ood **E**veryday（毎日、ただ良いことだけをしよう）。
 
-Moreover, the Dogecoin community is passionate about championing Dogecoin as a viable and legitimate alternative currency to traditional fiat money. To this end, the Dogecoin ecosystem is ever-expanding in dynamic and organic ways, and aims to become a highly utilised currency of the People, for the People, whilst always staying true to its origin of being the most fun crypto! 
+さらにドージコインのコミュニティは、従来の法定通貨に代わる実用的で正当な通貨として、ドージコインを広めることに情熱を注いでいます。そのためドージコインのエコシステムは、動的かつ有機的な形で広がり続けており、「最も楽しい暗号通貨」という原点に忠実であり続けながら、人々による、人々のための、広く使われる通貨になることを目指しています。
 
-At its core, Dogecoin is useful, personable, welcoming, and reliable – and we’re very happy you’re here. 
+その根っこにあるドージコインは、役に立ち、親しみやすく、あたたかく迎え入れてくれて、そして信頼できる存在です。あなたがここに来てくれたことを、私たちはとてもうれしく思っています。
