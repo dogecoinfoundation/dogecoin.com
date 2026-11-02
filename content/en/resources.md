@@ -16,6 +16,7 @@ A list of resources created by shibes that can be useful to work with Dogecoin a
 - [Blockcypher - Dogecoin chain explorer.](https://live.blockcypher.com/doge/)
 - [Blockshibe - monitor the work of miners and mining pools.](https://blockshibe.net)
 - [Blockchair - monitor the number and versions of Dogecoin nodes in the network.](https://blockchair.com/dogecoin/nodes)
+- [Kumocast - Dogecoin market data: price, volatility ranges and indicators, updated every 30 minutes.](https://www.kumocast.io/dogecoin-price-prediction)
 
 ### Shop Directories
 - [Cryptwerk - a directory of shops accepting Dogecoin.](https://cryptwerk.com/pay-with/doge/)
