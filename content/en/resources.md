@@ -19,6 +19,7 @@ A list of resources created by shibes that can be useful to work with Dogecoin a
 
 ### Shop Directories
 - [Cryptwerk - a directory of shops accepting Dogecoin.](https://cryptwerk.com/pay-with/doge/)
+- [Open for Crypto - a directory of vendors accepting Dogecoin.](https://openforcrypto.com/coins/dogecoin)
 
 ### Third Party Providers of Payment Integrations
 - [Coinbase - integration for Wordpress and Shopify.](https://commerce.coinbase.com/integrate)
